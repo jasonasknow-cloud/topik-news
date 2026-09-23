@@ -36,6 +36,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || echo "No rebase needed"
           git add news_data.json
           git commit -m "Auto-update daily TOPIK news [skip ci]" || exit 0
           git push || echo "No changes to push"

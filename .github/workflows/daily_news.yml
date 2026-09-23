@@ -1,0 +1,39 @@
+name: Daily TOPIK News Automation
+
+on:
+  schedule:
+    - cron: '0 21 * * *' # Runs every day at 21:00 UTC (6:00 AM KST)
+  workflow_dispatch: # Allows you to run it manually anytime from GitHub!
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install google-generativeai
+
+      - name: Run news generator script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python update_news.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add news_data.json
+          git commit -m "Auto-update daily TOPIK news [skip ci]" || exit 0
+          git push

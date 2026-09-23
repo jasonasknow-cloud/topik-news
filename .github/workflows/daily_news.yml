@@ -36,10 +36,12 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || echo "No rebase needed"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git fetch origin main
+          git pull --rebase origin main || echo "Rebase skipped"
           git add news_data.json
-          git commit -m "Auto-update daily TOPIK news [skip ci]" || exit 0
-          git push || echo "No changes to push"
+          git commit -m "Auto-update daily TOPIK news [skip ci]" || echo "No changes to commit"
+          git push origin main || git push origin HEAD:main
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

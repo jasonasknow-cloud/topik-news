@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOPIK Daily News Reader</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #fcfcfc;
+            --card-bg: #ffffff;
+            --text-color: #2c3e50;
+            --text-muted: #7f8c8d;
+            --accent-color: #2980b9;
+            --border-color: #e2e8f0;
+            --trans-bg: #f8fafc;
+        }
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+        }
+        header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: var(--accent-color);
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .nav-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 25px;
+            overflow-x: auto;
+            padding-bottom: 5px;
+        }
+        .tab-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-color);
+            transition: all 0.2s;
+        }
+        .tab-btn.active, .tab-btn:hover {
+            background: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+        }
+        .news-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+        .news-meta {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .news-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .news-body {
+            font-size: 1.05rem;
+            margin-bottom: 20px;
+        }
+        .translation-box {
+            background: var(--trans-bg);
+            border-left: 4px solid var(--accent-color);
+            padding: 15px;
+            margin-top: 15px;
+            font-size: 0.95rem;
+            display: none;
+        }
+        .toggle-trans-btn {
+            background: none;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 5px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        .toggle-trans-btn:hover {
+            background: var(--accent-color);
+            color: white;
+        }
+        .vocab-section {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px dashed var(--border-color);
+            font-size: 0.9rem;
+        }
+        .vocab-section strong {
+            color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TOPIK Daily News Reader</h1>
+        <p>Advanced Korean Reading Practice (Levels 4–6)</p>
+    </header>
+
+    <div class="container">
+        <div class="nav-tabs">
+            <button class="tab-btn active" onclick="filterCategory('all')">All News</button>
+            <button class="tab-btn" onclick="filterCategory('정치')">정치 (Politics)</button>
+            <button class="tab-btn" onclick="filterCategory('경제')">경제 (Business)</button>
+            <button class="tab-btn" onclick="filterCategory('사회')">사회 (Society)</button>
+            <button class="tab-btn" onclick="filterCategory('세계')">세계 (World)</button>
+        </div>
+
+        <div id="articles-container">
+            <div class="news-card">
+                <div class="news-meta">
+                    <span>사회 (Society)</span>
+                    <span>2026-09-23</span>
+                </div>
+                <h2 class="news-title">Welcome to Your Daily TOPIK News Reader</h2>
+                <div class="news-body">
+                    <p>안녕하세요! This site is currently getting set up. Once your daily automated script runs, fresh Korean news rewritten specifically for TOPIK Levels 4–6 will appear here automatically every day.</p>
+                </div>
+                <button class="toggle-trans-btn" onclick="toggleTranslation(this)">Toggle Translation</button>
+                <div class="translation-box">
+                    Hello! This site is currently getting set up. Once your daily automated script runs, fresh Korean news rewritten specifically for TOPIK Levels 4–6 will appear here automatically every day.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleTranslation(button) {
+            const transBox = button.nextElementSibling;
+            if (transBox.style.display === "block") {
+                transBox.style.display = "none";
+                button.textContent = "Toggle Translation";
+            } else {
+                transBox.style.display = "block";
+                button.textContent = "Hide Translation";
+            }
+        }
+
+        function filterCategory(category) {
+            // Placeholder for category filtering when live articles load
+            const buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

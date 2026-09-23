@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -38,10 +40,11 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git fetch origin main
-          git pull --rebase origin main || echo "Rebase skipped"
+          git checkout main || git checkout -b main
+          git pull origin main --rebase || echo "Pull skipped"
           git add news_data.json
           git commit -m "Auto-update daily TOPIK news [skip ci]" || echo "No changes to commit"
-          git push origin main || git push origin HEAD:main
+          git push origin main
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

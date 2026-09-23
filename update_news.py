@@ -46,7 +46,7 @@ def fetch_rss_articles():
 def rewrite_for_topik(article):
     prompt = f"""
     You are an expert Korean language instructor designing reading material for advanced TOPIK learners (Levels 4-6).
-    Take this news item and rewrite it in formal, standard Korean (하십시오체/해요체) suitable for a TOPIK Level 4-6 reading level. Avoid hyper-localized slang or overly dense media idioms, but keep it authentic.
+    Take this news item and rewrite it in standard Korean news style using 헤라체 (the descriptive plain style ending in -ㄴ다/는다, -었다/했다, and -다), which is standard for TOPIK reading passages and journalism, suitable for a TOPIK Level 4-6 reading level. Avoid hyper-localized slang or overly dense media idioms, but keep it authentic.
     Also provide a clear English translation of the rewritten text, and list 3-5 key advanced vocabulary terms with their English meanings.
 
     Original Headline: {article['original_title']}

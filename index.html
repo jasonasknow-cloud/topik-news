@@ -92,6 +92,17 @@
             font-size: 1.05rem;
             margin-bottom: 20px;
         }
+        .vocab-section {
+            background: #fffdf4;
+            border: 1px solid #fef3c7;
+            border-radius: 8px;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+        .vocab-section strong {
+            color: #d97706;
+        }
         .translation-box {
             background: var(--trans-bg);
             border-left: 4px solid var(--accent-color);
@@ -114,14 +125,10 @@
             background: var(--accent-color);
             color: white;
         }
-        .vocab-section {
-            margin-top: 20px;
-            padding-top: 15px;
-            border-top: 1px dashed var(--border-color);
-            font-size: 0.9rem;
-        }
-        .vocab-section strong {
-            color: var(--accent-color);
+        .loading {
+            text-align: center;
+            color: var(--text-muted);
+            padding: 40px;
         }
     </style>
 </head>
@@ -134,32 +141,80 @@
 
     <div class="container">
         <div class="nav-tabs">
-            <button class="tab-btn active" onclick="filterCategory('all')">All News</button>
-            <button class="tab-btn" onclick="filterCategory('정치')">정치 (Politics)</button>
-            <button class="tab-btn" onclick="filterCategory('경제')">경제 (Business)</button>
-            <button class="tab-btn" onclick="filterCategory('사회')">사회 (Society)</button>
-            <button class="tab-btn" onclick="filterCategory('세계')">세계 (World)</button>
+            <button class="tab-btn active" onclick="filterCategory('all', event)">All News</button>
+            <button class="tab-btn" onclick="filterCategory('정치', event)">정치 (Politics)</button>
+            <button class="tab-btn" onclick="filterCategory('경제', event)">경제 (Business)</button>
+            <button class="tab-btn" onclick="filterCategory('사회', event)">사회 (Society)</button>
+            <button class="tab-btn" onclick="filterCategory('세계', event)">세계 (World)</button>
         </div>
 
         <div id="articles-container">
-            <div class="news-card">
-                <div class="news-meta">
-                    <span>사회 (Society)</span>
-                    <span>2026-09-23</span>
-                </div>
-                <h2 class="news-title">Welcome to Your Daily TOPIK News Reader</h2>
-                <div class="news-body">
-                    <p>안녕하세요! This site is currently getting set up. Once your daily automated script runs, fresh Korean news rewritten specifically for TOPIK Levels 4–6 will appear here automatically every day.</p>
-                </div>
-                <button class="toggle-trans-btn" onclick="toggleTranslation(this)">Toggle Translation</button>
-                <div class="translation-box">
-                    Hello! This site is currently getting set up. Once your daily automated script runs, fresh Korean news rewritten specifically for TOPIK Levels 4–6 will appear here automatically every day.
-                </div>
-            </div>
+            <div class="loading">Loading today's news...</div>
         </div>
     </div>
 
     <script>
+        let allArticles = [];
+
+        async function loadNews() {
+            try {
+                const response = await fetch('news_data.json');
+                if (!response.ok) throw new Error('Failed to load news data');
+                allArticles = await response.json();
+                renderArticles(allArticles);
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('articles-container').innerHTML = `
+                    <div class="news-card">
+                        <p>No articles found yet. Make sure the GitHub Actions workflow has run at least once!</p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderArticles(articles) {
+            const container = document.getElementById('articles-container');
+            if (!articles || articles.length === 0) {
+                container.innerHTML = '<div class="news-card"><p>No articles available for this category.</p></div>';
+                return;
+            }
+
+            container.innerHTML = articles.map(article => `
+                <div class="news-card">
+                    <div class="news-meta">
+                        <span>${article.category}</span>
+                        <span>${article.date}</span>
+                    </div>
+                    <h2 class="news-title">${article.title}</h2>
+                    <div class="news-body">
+                        <p>${article.body.replace(/\n/g, '<br>')}</p>
+                    </div>
+                    ${article.vocab ? `
+                        <div class="vocab-section">
+                            <strong>Key Vocabulary:</strong><br>${article.vocab}
+                        </div>
+                    ` : ''}
+                    <button class="toggle-trans-btn" onclick="toggleTranslation(this)">Toggle Translation</button>
+                    <div class="translation-box">
+                        <p>${article.translation.replace(/\n/g, '<br>')}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function filterCategory(category, event) {
+            const buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            if (category === 'all') {
+                renderArticles(allArticles);
+            } else {
+                const filtered = allArticles.filter(art => art.category === category);
+                renderArticles(filtered);
+            }
+        }
+
         function toggleTranslation(button) {
             const transBox = button.nextElementSibling;
             if (transBox.style.display === "block") {
@@ -171,12 +226,7 @@
             }
         }
 
-        function filterCategory(category) {
-            // Placeholder for category filtering when live articles load
-            const buttons = document.querySelectorAll('.tab-btn');
-            buttons.forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-        }
+        window.addEventListener('DOMContentLoaded', loadNews);
     </script>
 </body>
 </html>

@@ -244,27 +244,71 @@
 
 <script>
 
-    function generateArticle() {
+async function generateArticle() {
 
-        const url = document.getElementById("article-url").value.trim();
-        const status = document.getElementById("status");
-        const results = document.getElementById("results");
+    const url = document.getElementById("article-url").value.trim();
+    const status = document.getElementById("status");
+    const results = document.getElementById("results");
 
-        if (!url) {
-            status.style.display = "block";
-            status.textContent = "Please paste a news article URL first.";
-            return;
-        }
-
+    if (!url) {
         status.style.display = "block";
-        status.textContent =
-            "The converter is not connected yet. We will add the Gemini connection next.";
-
-        results.style.display = "block";
+        status.textContent = "Please paste a news article URL first.";
+        return;
     }
 
+    status.style.display = "block";
+    status.textContent = "Connecting to the TOPIK converter...";
 
-    function clearArticle() {
+    results.style.display = "block";
+
+    try {
+
+        const response = await fetch(
+            "https://topi-article-converter.jason-asknow.workers.dev",
+            {
+                method: "POST",
+
+                headers: {
+                    "Content-Type": "application/json"
+                },
+
+                body: JSON.stringify({
+                    url: url
+                })
+            }
+        );
+
+        const data = await response.json();
+
+        if (data.success) {
+
+            status.textContent =
+                "Connection successful. Article URL received by the converter.";
+
+            document.getElementById("korean-article").textContent =
+                "TEST SUCCESS: The Cloudflare backend received this URL:\n\n" +
+                data.received_url;
+
+            document.getElementById("english-translation").textContent =
+                "The Gemini connection will be added next.";
+
+            document.getElementById("vocabulary").textContent =
+                "Vocabulary will appear here once the converter is connected to Gemini.";
+
+        } else {
+
+            status.textContent =
+                "The converter returned an error: " + data.message;
+        }
+
+    } catch (error) {
+
+        console.error(error);
+
+        status.textContent =
+            "Could not connect to the converter. Please try again.";
+    }
+}
 
         stopSpeech();
 

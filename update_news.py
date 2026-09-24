@@ -1,4 +1,3 @@
-```python
 import os
 import json
 import html
@@ -24,20 +23,16 @@ if not API_KEY:
 
 client = genai.Client(api_key=API_KEY)
 
-
-# ============================================================
-# GEMINI MODEL FALLBACK ORDER
-#
-# Flash-Lite is included first because it is designed for
-# high-throughput tasks like this one.
-# ============================================================
-
+# Try several current Gemini Flash models.
+# If Google temporarily returns a 503, the script retries
+# and then moves to the next model.
 MODEL_NAMES = [
-    "gemini-3.5-flash-lite",
     "gemini-3.8-flash",
     "gemini-3.7-flash",
     "gemini-3.6-flash",
-    "gemini-3.5-flash"
+    "gemini-3.5-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite"
 ]
 
 
@@ -137,7 +132,7 @@ def fetch_latest_articles():
         )
 
         raise RuntimeError(
-            "Yonhap returned something that is not valid RSS XML.\n"
+            "Yonhap returned invalid RSS XML.\n"
             f"First 500 characters:\n{preview}\n"
             f"XML error: {e}"
         )
@@ -157,7 +152,7 @@ def fetch_latest_articles():
         "{http://purl.org/rss/1.0/modules/content/}encoded"
     )
 
-    # Use the latest 12 available stories.
+    # Use up to the latest 12 stories.
     for item in items[:12]:
 
         title_element = item.find("title")
@@ -178,18 +173,15 @@ def fetch_latest_articles():
             content_element is not None
             and content_element.text
         ):
-
             description = content_element.text
 
         elif (
             description_element is not None
             and description_element.text
         ):
-
             description = description_element.text
 
         else:
-
             description = ""
 
         link = (
@@ -358,7 +350,7 @@ Select EXACTLY FOUR stories:
 3. 사회 (Society)
 4. 세계 (World)
 
-Choose one story for each category.
+Choose exactly one story for each category.
 
 IMPORTANT:
 
@@ -370,8 +362,8 @@ IMPORTANT:
 - Use each original article only once.
 - Avoid entertainment, sports, weather, advertising,
   and trivial stories.
-- Prefer useful, substantial news stories for Korean
-  language learners.
+- Prefer substantial stories that are useful for
+  Korean language learners.
 
 FOR EACH STORY:
 
@@ -383,21 +375,20 @@ LENGTH:
 
 - Approximately 8-12 Korean sentences.
 - Approximately 500-800 Korean characters.
-- The result should feel like a substantial TOPIK
-  reading passage, not a short news summary.
-- Do not add meaningless filler to increase length.
+- The article should feel like a substantial TOPIK
+  reading passage rather than a short news summary.
+- Do not add meaningless filler just to increase the length.
 
 CONTENT STRUCTURE:
 
-When the source article provides the information,
-naturally include:
+When supported by the original article, naturally include:
 
 1. The main event.
 2. Important facts and background.
 3. Relevant causes, reactions, or developments.
 4. Consequences or significance.
 
-Do NOT invent background information.
+Do not invent background information.
 
 LANGUAGE:
 
@@ -412,7 +403,7 @@ LANGUAGE:
 
 ALSO PROVIDE:
 
-- An accurate English translation.
+- An accurate English translation of the Korean article.
 - 3-5 useful advanced vocabulary items with English meanings.
 
 RETURN EXACTLY FOUR STORIES:
@@ -571,8 +562,7 @@ def generate_topik_news(raw_articles):
                 )
                 print(error_text)
 
-                # 503 means Google's service is temporarily
-                # unavailable or overloaded.
+                # 503 means Gemini is temporarily unavailable.
                 if (
                     "503" in error_text
                     or "UNAVAILABLE" in error_text
@@ -600,7 +590,8 @@ def generate_topik_news(raw_articles):
 
                     break
 
-                # For non-503 errors, stop immediately.
+                # Other errors are probably genuine
+                # configuration or request problems.
                 raise RuntimeError(
                     f"Gemini news generation failed: {e}"
                 )
@@ -692,15 +683,12 @@ def main():
     print("Starting Daily TOPIK News Automation")
     print("=" * 60)
 
-    # 1. Download current Yonhap news.
     raw_articles = fetch_latest_articles()
 
-    # 2. Select and rewrite four TOPIK stories.
     processed_articles = generate_topik_news(
         raw_articles
     )
 
-    # 3. Save the JSON file used by the website.
     save_news_data(
         processed_articles
     )
@@ -715,4 +703,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```

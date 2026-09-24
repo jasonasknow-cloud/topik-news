@@ -148,35 +148,35 @@
 
     <div class="converter-box">
 
-  <label for="article-url">News Article URL</label>
+        <label for="article-url">News Article URL</label>
 
-<input
-    type="url"
-    id="article-url"
-    placeholder="Paste the news article URL here"
->
+        <input
+            type="url"
+            id="article-url"
+            placeholder="Paste the news article URL here"
+        >
 
-<label for="topik-level" style="margin-top: 15px;">
-    TOPIK Level
-</label>
+        <label for="topik-level" style="margin-top: 15px;">
+            TOPIK Level
+        </label>
 
-<select
-    id="topik-level"
-    style="
-        width: 100%;
-        box-sizing: border-box;
-        padding: 14px;
-        font-size: 16px;
-        border: 1px solid #ccc;
-        border-radius: 6px;
-        margin-bottom: 15px;
-    "
->
-    <option value="3">TOPIK 3</option>
-    <option value="4">TOPIK 4</option>
-    <option value="5" selected>TOPIK 5</option>
-    <option value="6">TOPIK 6</option>
-</select>
+        <select
+            id="topik-level"
+            style="
+                width: 100%;
+                box-sizing: border-box;
+                padding: 14px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                margin-bottom: 15px;
+            "
+        >
+            <option value="3">TOPIK 3</option>
+            <option value="4">TOPIK 4</option>
+            <option value="5" selected>TOPIK 5</option>
+            <option value="6">TOPIK 6</option>
+        </select>
 
         <button class="generate-button" onclick="generateArticle()">
             Generate Article
@@ -192,48 +192,58 @@
 
     <div id="results" class="results">
 
-<div class="result-section">
-    <h2>한국어 기사</h2>
+        <div class="result-section">
+            <h2>한국어 기사</h2>
 
-    <div style="margin-bottom: 15px;">
-        <button onclick="speakKorean()">▶ Play</button>
-        <button onclick="pauseSpeech()">⏸ Pause</button>
-        <button onclick="resumeSpeech()">▶ Resume</button>
-        <button onclick="stopSpeech()">⏹ Stop</button>
+            <div style="margin-bottom: 15px;">
 
-        <label for="speech-rate" style="display: inline-block; margin-left: 10px;">
-            Speed:
-        </label>
+                <button onclick="speakKorean()">▶ Play</button>
+                <button onclick="pauseSpeech()">⏸ Pause</button>
+                <button onclick="resumeSpeech()">▶ Resume</button>
+                <button onclick="stopSpeech()">⏹ Stop</button>
 
-        <select id="speech-rate">
-            <option value="0.75">0.75×</option>
-            <option value="0.9">0.9×</option>
-            <option value="1" selected>1.0×</option>
-            <option value="1.1">1.1×</option>
-            <option value="1.25">1.25×</option>
-            <option value="1.5">1.5×</option>
-        </select>
-    </div>
+                <label
+                    for="speech-rate"
+                    style="display: inline-block; margin-left: 10px;"
+                >
+                    Speed:
+                </label>
 
-    <div id="korean-article" class="placeholder">
-        Your TOPIK article will appear here.
-    </div>
-</div>
+                <select id="speech-rate">
+                    <option value="0.75">0.75×</option>
+                    <option value="0.9">0.9×</option>
+                    <option value="1" selected>1.0×</option>
+                    <option value="1.1">1.1×</option>
+                    <option value="1.25">1.25×</option>
+                    <option value="1.5">1.5×</option>
+                </select>
+
+            </div>
+
+            <div id="korean-article" class="placeholder">
+                Your TOPIK article will appear here.
+            </div>
+
+        </div>
 
         <div class="result-section">
+
             <h2>English Translation</h2>
 
             <div id="english-translation" class="placeholder">
                 The English translation will appear here.
             </div>
+
         </div>
 
         <div class="result-section">
+
             <h2>Vocabulary</h2>
 
             <div id="vocabulary" class="placeholder">
                 Important TOPIK vocabulary will appear here.
             </div>
+
         </div>
 
     </div>
@@ -242,24 +252,39 @@
         ← Back to TOPIK News
     </a>
 
+
 <script>
 
 async function generateArticle() {
 
     const url = document.getElementById("article-url").value.trim();
+
+    const level = document.getElementById("topik-level").value;
+
     const status = document.getElementById("status");
+
     const results = document.getElementById("results");
 
+
     if (!url) {
+
         status.style.display = "block";
-        status.textContent = "Please paste a news article URL first.";
+
+        status.textContent =
+            "Please paste a news article URL first.";
+
         return;
     }
 
+
     status.style.display = "block";
-    status.textContent = "Connecting to the TOPIK converter...";
+
+    status.textContent =
+        "Connecting to the TOPIK converter...";
+
 
     results.style.display = "block";
+
 
     try {
 
@@ -273,24 +298,32 @@ async function generateArticle() {
                 },
 
                 body: JSON.stringify({
-                    url: url
+                    url: url,
+                    level: level
                 })
             }
         );
 
+
         const data = await response.json();
+
 
         if (data.success) {
 
             status.textContent =
                 "Connection successful. Article URL received by the converter.";
 
+
             document.getElementById("korean-article").textContent =
                 "TEST SUCCESS: The Cloudflare backend received this URL:\n\n" +
-                data.received_url;
+                data.received_url +
+                "\n\nTOPIK Level: " +
+                level;
+
 
             document.getElementById("english-translation").textContent =
                 "The Gemini connection will be added next.";
+
 
             document.getElementById("vocabulary").textContent =
                 "Vocabulary will appear here once the converter is connected to Gemini.";
@@ -298,8 +331,10 @@ async function generateArticle() {
         } else {
 
             status.textContent =
-                "The converter returned an error: " + data.message;
+                "The converter returned an error: " +
+                data.message;
         }
+
 
     } catch (error) {
 
@@ -310,71 +345,95 @@ async function generateArticle() {
     }
 }
 
-        stopSpeech();
 
-        document.getElementById("article-url").value = "";
+function clearArticle() {
 
-        document.getElementById("status").style.display = "none";
+    stopSpeech();
 
-        document.getElementById("results").style.display = "none";
 
-        document.getElementById("korean-article").textContent =
-            "Your TOPIK article will appear here.";
+    document.getElementById("article-url").value = "";
 
-        document.getElementById("english-translation").textContent =
-            "The English translation will appear here.";
 
-        document.getElementById("vocabulary").textContent =
-            "Important TOPIK vocabulary will appear here.";
+    document.getElementById("status").style.display = "none";
+
+
+    document.getElementById("results").style.display = "none";
+
+
+    document.getElementById("korean-article").textContent =
+        "Your TOPIK article will appear here.";
+
+
+    document.getElementById("english-translation").textContent =
+        "The English translation will appear here.";
+
+
+    document.getElementById("vocabulary").textContent =
+        "Important TOPIK vocabulary will appear here.";
+}
+
+
+function speakKorean() {
+
+    const article =
+        document.getElementById("korean-article").innerText.trim();
+
+
+    if (
+        !article ||
+        article === "Your TOPIK article will appear here."
+    ) {
+        return;
     }
 
 
-    function speakKorean() {
+    window.speechSynthesis.cancel();
 
-        const article = document.getElementById("korean-article").innerText.trim();
 
-        if (!article || article === "Your TOPIK article will appear here.") {
-            return;
-        }
+    const utterance =
+        new SpeechSynthesisUtterance(article);
 
-        window.speechSynthesis.cancel();
 
-        const utterance = new SpeechSynthesisUtterance(article);
+    utterance.lang = "ko-KR";
 
-        utterance.lang = "ko-KR";
 
-        const rate =
-            parseFloat(document.getElementById("speech-rate").value);
+    const rate =
+        parseFloat(
+            document.getElementById("speech-rate").value
+        );
 
-        utterance.rate = rate;
 
-        utterance.pitch = 1;
+    utterance.rate = rate;
 
-        window.speechSynthesis.speak(utterance);
+    utterance.pitch = 1;
+
+
+    window.speechSynthesis.speak(utterance);
+}
+
+
+function pauseSpeech() {
+
+    if (window.speechSynthesis.speaking) {
+
+        window.speechSynthesis.pause();
     }
+}
 
 
-    function pauseSpeech() {
+function resumeSpeech() {
 
-        if (window.speechSynthesis.speaking) {
-            window.speechSynthesis.pause();
-        }
+    if (window.speechSynthesis.paused) {
+
+        window.speechSynthesis.resume();
     }
+}
 
 
-    function resumeSpeech() {
+function stopSpeech() {
 
-        if (window.speechSynthesis.paused) {
-            window.speechSynthesis.resume();
-        }
-    }
-
-
-    function stopSpeech() {
-
-        window.speechSynthesis.cancel();
-    }
-
+    window.speechSynthesis.cancel();
+}
 
 </script>
 

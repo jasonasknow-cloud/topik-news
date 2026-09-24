@@ -15,10 +15,10 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 
 # RSS Feeds for major Korean news categories
 RSS_FEEDS = {
-    "정치": "https://www.yonhapnewstv.co.kr/browse/feed/v1/0002", # Yonhap Politics RSS
-    "경제": "https://www.yonhapnewstv.co.kr/browse/feed/v1/0003", # Yonhap Economy RSS
-    "사회": "https://www.yonhapnewstv.co.kr/browse/feed/v1/0004", # Yonhap Society RSS
-    "세계": "https://www.yonhapnewstv.co.kr/browse/feed/v1/0005"  # Yonhap World RSS
+    "정치": "https://www.yonhapnewstv.co.kr/browse/feed/v1/0002",
+    "경제": "https://www.yonhapnewstv.co.kr/browse/feed/v1/0003",
+    "사회": "https://www.yonhapnewstv.co.kr/browse/feed/v1/0004",
+    "세계": "https://www.yonhapnewstv.co.kr/browse/feed/v1/0005"
 }
 
 def fetch_rss_articles():
@@ -29,7 +29,6 @@ def fetch_rss_articles():
             with urllib.request.urlopen(req) as response:
                 xml_data = response.read()
                 root = ET.fromstring(xml_data)
-                # Grab the top item from each category feed
                 item = root.find('.//item')
                 if item is not None:
                     title = item.find('title').text if item.find('title') is not None else ""
@@ -45,26 +44,24 @@ def fetch_rss_articles():
 
 def rewrite_for_topik(article):
     prompt = f"""
-    You are an expert Korean language instructor designing reading material for advanced TOPIK learners (Levels 4-6).
-    Take this news item and rewrite it in standard Korean news style using 헤라체 (the descriptive plain style ending in -ㄴ다/는다, -었다/했다, and -다), which is standard for TOPIK reading passages and journalism, suitable for a TOPIK Level 4-6 reading level. Avoid hyper-localized slang or overly dense media idioms, but keep it authentic.
-    Also provide a clear English translation of the rewritten text, and list 3-5 key advanced vocabulary terms with their English meanings.
+You are an expert Korean language instructor designing reading material for advanced TOPIK learners (Levels 4-6).
+Take this news item and rewrite it in standard Korean news style using 헤라체 (the descriptive plain style ending in -ㄴ다/는다, -었다/했다, and -다), which is standard for TOPIK reading passages and journalism, suitable for a TOPIK Level 4-6 reading level. Avoid hyper-localized slang or overly dense media idioms, but keep it authentic.
+Also provide a clear English translation of the rewritten text, and list 3-5 key advanced vocabulary terms with their English meanings.
 
-    Original Headline: {article['original_title']}
-    Original Content: {article['original_text']}
+Original Headline: {article['original_title']}
+Original Content: {article['original_text']}
 
-    Output your response STRICTLY as a valid JSON object with the following keys, with no markdown formatting around it:
-    {{
-      "title_ko": "Rewritten headline in Korean",
-      "body_ko": "Rewritten body text in Korean",
-      "translation_en": "English translation of the body text",
-      "vocab": "Key Vocab 1: definition<br>Key Vocab 2: definition"
-    }}
-    """
-    
+Output your response STRICTLY as a valid JSON object with the following keys, with no markdown formatting around it:
+{{
+  "title_ko": "Rewritten headline in Korean",
+  "body_ko": "Rewritten body text in Korean",
+  "translation_en": "English translation of the body text",
+  "vocab": "Key Vocab 1: definition<br>Key Vocab 2: definition"
+}}
+"""
     try:
         response = model.generate_content(prompt)
         text = response.text.strip()
-        # Clean up code blocks if Gemini outputs them
         if text.startswith("```json"):
             text = text[7:-3].strip()
         elif text.startswith("```"):
@@ -77,6 +74,7 @@ def rewrite_for_topik(article):
 def main():
     print("Fetching daily news RSS feeds...")
     raw_articles = fetch_rss_articles()
+    print(f"Fetched {len(raw_articles)} articles from feeds.")
     
     processed_articles = []
     today = datetime.now().strftime("%Y-%m-%d")
@@ -97,7 +95,7 @@ def main():
     # Save to a JSON file that index.html can load
     with open("news_data.json", "w", encoding="utf-8") as f:
         json.dump(processed_articles, f, ensure_ascii=False, indent=4)
-    print("Successfully generated news_data.json!")
+    print(f"Successfully generated news_data.json with {len(processed_articles)} articles!")
 
 if __name__ == "__main__":
     main()

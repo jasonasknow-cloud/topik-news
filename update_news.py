@@ -2,6 +2,7 @@ import os
 import json
 import html
 import re
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -22,7 +23,13 @@ if not API_KEY:
 
 client = genai.Client(api_key=API_KEY)
 
-MODEL_NAME = "gemini-3.8-flash"
+# We try the newest model first, then fall back to older
+# stable Flash models if Google is temporarily unavailable.
+MODEL_NAMES = [
+    "gemini-3.8-flash",
+    "gemini-3.7-flash",
+    "gemini-3.6-flash"
+]
 
 
 # ============================================================
@@ -30,8 +37,8 @@ MODEL_NAME = "gemini-3.8-flash"
 # ============================================================
 
 RSS_URLS = [
-    "http://www.yonhapnewstv.co.kr/browse/feed/",
-    "https://www.yonhapnewstv.co.kr/browse/feed/"
+    "https://www.yonhapnewstv.co.kr/browse/feed/",
+    "http://www.yonhapnewstv.co.kr/browse/feed/"
 ]
 
 
@@ -68,7 +75,11 @@ def fetch_feed():
                 url,
                 headers={
                     "User-Agent": "Mozilla/5.0",
-                    "Accept": "application/rss+xml, application/xml, text/xml"
+                    "Accept": (
+                        "application/rss+xml, "
+                        "application/xml, "
+                        "text/xml"
+                    )
                 }
             )
 
@@ -97,7 +108,7 @@ def fetch_feed():
 
 
 # ============================================================
-# GET THE LATEST 12 STORIES
+# GET LATEST NEWS STORIES
 # ============================================================
 
 def fetch_latest_articles():
@@ -105,6 +116,7 @@ def fetch_latest_articles():
     xml_data = fetch_feed()
 
     try:
+
         root = ET.fromstring(xml_data)
 
     except ET.ParseError as e:
@@ -115,7 +127,7 @@ def fetch_latest_articles():
         )
 
         raise RuntimeError(
-            f"Yonhap returned something that is not valid RSS XML.\n"
+            "Yonhap returned something that is not valid RSS XML.\n"
             f"First 500 characters:\n{preview}\n"
             f"XML error: {e}"
         )
@@ -135,6 +147,7 @@ def fetch_latest_articles():
         "{http://purl.org/rss/1.0/modules/content/}encoded"
     )
 
+    # Collect the latest 12 stories.
     for item in items[:12]:
 
         title_element = item.find("title")
@@ -144,11 +157,17 @@ def fetch_latest_articles():
 
         title = (
             title_element.text.strip()
-            if title_element is not None and title_element.text
+            if (
+                title_element is not None
+                and title_element.text
+            )
             else ""
         )
 
-        if content_element is not None and content_element.text:
+        if (
+            content_element is not None
+            and content_element.text
+        ):
             description = content_element.text
 
         elif (
@@ -162,17 +181,20 @@ def fetch_latest_articles():
 
         link = (
             link_element.text.strip()
-            if link_element is not None and link_element.text
+            if (
+                link_element is not None
+                and link_element.text
+            )
             else ""
         )
 
-        categories = []
+        rss_categories = []
 
         for category_element in item.findall("category"):
 
             if category_element.text:
 
-                categories.append(
+                rss_categories.append(
                     category_element.text.strip()
                 )
 
@@ -186,7 +208,7 @@ def fetch_latest_articles():
             "title": title,
             "description": description,
             "link": link,
-            "rss_categories": categories
+            "rss_categories": rss_categories
         })
 
     if not articles:
@@ -196,6 +218,7 @@ def fetch_latest_articles():
             "but no usable article titles were found."
         )
 
+    print()
     print(
         f"Successfully collected "
         f"{len(articles)} latest news stories."
@@ -277,10 +300,10 @@ NEWS_SCHEMA = {
 
 
 # ============================================================
-# ASK GEMINI TO SELECT AND REWRITE THE NEWS
+# BUILD GEMINI PROMPT
 # ============================================================
 
-def generate_topik_news(raw_articles):
+def build_prompt(raw_articles):
 
     article_text = ""
 
@@ -321,7 +344,7 @@ Your job is to select EXACTLY FOUR stories:
 Choose the most useful and newsworthy story available
 for each category.
 
-IMPORTANT:
+IMPORTANT RULES:
 
 - Use only information contained in the supplied articles.
 - Do NOT invent facts.
@@ -330,7 +353,9 @@ IMPORTANT:
 - Each selected story must genuinely fit its assigned category.
 - Use each original article only once.
 - Avoid entertainment, sports, weather, advertisements,
-  and trivial stories when choosing the four stories.
+  and trivial stories.
+- Prioritize stories that are useful for Korean language learners.
+- Keep important factual details from the original material.
 
 FOR EACH STORY:
 
@@ -338,46 +363,45 @@ Write a natural Korean headline.
 
 Then write a substantial Korean reading passage.
 
-The article should contain approximately 8-12 Korean sentences.
+LENGTH:
 
-The body should be approximately 500-800 Korean characters.
+- Approximately 8-12 Korean sentences.
+- Approximately 500-800 Korean characters.
+- The article should feel like a real TOPIK reading passage,
+  not a two- or three-sentence news summary.
+- Do not add meaningless filler just to make the article longer.
 
-Do not make the article artificially long.
-Use the available facts to provide useful background,
-details, reasons, reactions, developments, and consequences
-when those details are present in the original article.
+CONTENT STRUCTURE:
 
-The passage should feel like a substantial TOPIK
-reading passage rather than a short news summary.
-
-Use standard Korean news writing.
-
-Use descriptive plain style (해라체):
-- ㄴ다 / 는다
-- 었다 / 했다
-- 다
-
-Make the Korean appropriate for TOPIK Levels 4-6.
-
-Avoid slang and unnecessary sensational language.
-
-Keep all important facts from the original article.
-
-Do NOT invent facts or add information that is not
-supported by the supplied article.
-
-The natural structure should generally be:
+When the original article contains enough information,
+organize the passage naturally:
 
 1. Introduce the main event.
-2. Explain the important facts and background.
-3. Describe relevant reasons, reactions, or developments.
+2. Explain important facts and background.
+3. Describe relevant causes, reactions, or developments.
 4. Explain consequences or significance when supported
    by the original article.
 
-Also provide:
+Do not invent background information.
+
+LANGUAGE:
+
+- Use standard Korean news writing.
+- Use descriptive plain style (해라체).
+- Use endings such as ㄴ다 / 는다 / 었다 / 했다 / 다.
+- Make the Korean appropriate for TOPIK Levels 4-6.
+- Avoid slang.
+- Avoid unnecessary sensational language.
+- Use natural vocabulary and grammar appropriate for
+  advanced Korean learners.
+- Do not make the language artificially difficult.
+
+ALSO PROVIDE:
 
 - An accurate English translation of the Korean article.
 - 3-5 useful advanced vocabulary items with English meanings.
+
+OUTPUT:
 
 Return EXACTLY FOUR stories:
 
@@ -387,8 +411,92 @@ Return EXACTLY FOUR stories:
 세계
 """
 
-
     prompt += "\n\nARTICLE LIST:\n" + article_text
+
+    return prompt
+
+
+# ============================================================
+# VALIDATE GEMINI RESULT
+# ============================================================
+
+def validate_articles(result):
+
+    if not isinstance(result, dict):
+
+        raise RuntimeError(
+            "Gemini response was not a JSON object."
+        )
+
+    if "articles" not in result:
+
+        raise RuntimeError(
+            "Gemini response did not contain an 'articles' field."
+        )
+
+    articles = result["articles"]
+
+    if not isinstance(articles, list):
+
+        raise RuntimeError(
+            "Gemini 'articles' field was not a list."
+        )
+
+    if len(articles) != 4:
+
+        raise RuntimeError(
+            f"Gemini returned {len(articles)} articles "
+            f"instead of exactly 4."
+        )
+
+    expected_categories = {
+        "정치",
+        "경제",
+        "사회",
+        "세계"
+    }
+
+    actual_categories = {
+        article.get("category")
+        for article in articles
+    }
+
+    if actual_categories != expected_categories:
+
+        raise RuntimeError(
+            "Gemini did not return exactly one article "
+            "for each category.\n"
+            f"Returned categories: {actual_categories}"
+        )
+
+    required_fields = [
+        "category",
+        "title_ko",
+        "body_ko",
+        "translation_en",
+        "vocab"
+    ]
+
+    for article in articles:
+
+        for field in required_fields:
+
+            if not article.get(field):
+
+                raise RuntimeError(
+                    f"Gemini article is missing: {field}"
+                )
+
+    return articles
+
+
+# ============================================================
+# ASK GEMINI TO CREATE THE FOUR STORIES
+# ============================================================
+
+def generate_topik_news(raw_articles):
+
+    prompt = build_prompt(raw_articles)
 
     print()
     print(
@@ -396,85 +504,100 @@ Return EXACTLY FOUR stories:
         "four TOPIK stories..."
     )
 
-    try:
+    last_error = None
 
-        response = client.models.generate_content(
-            model=MODEL_NAME,
-            contents=prompt,
+    # Try each available model.
+    for model_name in MODEL_NAMES:
 
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                response_schema=NEWS_SCHEMA
-            )
-        )
+        # Try each model up to 3 times.
+        for attempt in range(1, 4):
 
-        text = response.text.strip()
-
-        if not text:
-            raise RuntimeError(
-                "Gemini returned an empty response."
+            print(
+                f"Trying {model_name} "
+                f"(attempt {attempt}/3)..."
             )
 
-        result = json.loads(text)
+            try:
 
-        if "articles" not in result:
-            raise RuntimeError(
-                "Gemini response did not contain an 'articles' field."
-            )
+                response = client.models.generate_content(
+                    model=model_name,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        response_mime_type="application/json",
+                        response_schema=NEWS_SCHEMA
+                    )
+                )
 
-        articles = result["articles"]
+                text = response.text.strip()
 
-        if len(articles) != 4:
-            raise RuntimeError(
-                f"Gemini returned {len(articles)} articles "
-                f"instead of exactly 4."
-            )
-
-        expected_categories = {
-            "정치",
-            "경제",
-            "사회",
-            "세계"
-        }
-
-        actual_categories = {
-            article.get("category")
-            for article in articles
-        }
-
-        if actual_categories != expected_categories:
-
-            raise RuntimeError(
-                "Gemini did not return exactly one article "
-                "for each category.\n"
-                f"Returned categories: {actual_categories}"
-            )
-
-        required_fields = [
-            "category",
-            "title_ko",
-            "body_ko",
-            "translation_en",
-            "vocab"
-        ]
-
-        for article in articles:
-
-            for field in required_fields:
-
-                if not article.get(field):
+                if not text:
 
                     raise RuntimeError(
-                        f"Gemini article is missing: {field}"
+                        "Gemini returned an empty response."
                     )
 
-        return articles
+                result = json.loads(text)
 
-    except Exception as e:
+                articles = validate_articles(result)
 
-        raise RuntimeError(
-            f"Gemini news generation failed: {e}"
-        )
+                print()
+                print(
+                    f"SUCCESS: {model_name} generated "
+                    f"all four articles."
+                )
+
+                return articles
+
+            except Exception as e:
+
+                last_error = e
+
+                error_text = str(e)
+
+                print(
+                    f"{model_name} failed:"
+                )
+                print(error_text)
+
+                # 503 means Google's server is temporarily
+                # unavailable. Retry rather than immediately failing.
+                if (
+                    "503" in error_text
+                    or "UNAVAILABLE" in error_text
+                ):
+
+                    if attempt < 3:
+
+                        wait_seconds = attempt * 10
+
+                        print(
+                            f"Temporary Gemini server problem. "
+                            f"Waiting {wait_seconds} seconds..."
+                        )
+
+                        time.sleep(wait_seconds)
+
+                        continue
+
+                    print()
+                    print(
+                        f"{model_name} failed three times. "
+                        "Trying the next Gemini model..."
+                    )
+
+                    break
+
+                # For other errors, there is probably something
+                # genuinely wrong with the request, API key,
+                # schema, etc. Do not hide those errors.
+                raise RuntimeError(
+                    f"Gemini news generation failed: {e}"
+                )
+
+    raise RuntimeError(
+        "All Gemini models failed.\n"
+        f"Last error: {last_error}"
+    )
 
 
 # ============================================================
@@ -486,8 +609,6 @@ def save_news_data(articles):
     today = datetime.now(
         ZoneInfo("Asia/Seoul")
     ).strftime("%Y-%m-%d")
-
-    processed_articles = []
 
     category_order = [
         "정치",
@@ -501,6 +622,8 @@ def save_news_data(articles):
         for article in articles
     }
 
+    processed_articles = []
+
     for category in category_order:
 
         article = articles_by_category[category]
@@ -513,6 +636,14 @@ def save_news_data(articles):
             "translation": article["translation_en"],
             "vocab": article["vocab"]
         })
+
+    # Final safety check.
+    if len(processed_articles) != 4:
+
+        raise RuntimeError(
+            "Final news_data.json does not contain exactly "
+            "four articles."
+        )
 
     with open(
         "news_data.json",
@@ -529,9 +660,16 @@ def save_news_data(articles):
 
     print()
     print(
-        f"news_data.json created successfully "
+        "news_data.json created successfully "
         f"with {len(processed_articles)} articles."
     )
+
+    for article in processed_articles:
+
+        print(
+            f"- {article['category']}: "
+            f"{article['title']}"
+        )
 
 
 # ============================================================
@@ -544,20 +682,22 @@ def main():
     print("Starting Daily TOPIK News Automation")
     print("=" * 60)
 
+    # 1. Download current Yonhap news.
     raw_articles = fetch_latest_articles()
 
+    # 2. Select and rewrite the four stories.
     processed_articles = generate_topik_news(
         raw_articles
     )
 
+    # 3. Save the final JSON used by the website.
     save_news_data(
         processed_articles
     )
 
     print()
-    print(
-        "Daily TOPIK news generation completed successfully."
-    )
+    print("=" * 60)
+    print("Daily TOPIK news generation completed successfully.")
     print("=" * 60)
 
 

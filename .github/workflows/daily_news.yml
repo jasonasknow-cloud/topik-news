@@ -5,7 +5,6 @@ on:
     - cron: '0 21 * * *'
   workflow_dispatch:
 
-# Prevent two copies of this workflow from running at the same time
 concurrency:
   group: daily-topik-news
   cancel-in-progress: false
@@ -24,32 +23,27 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      # Get the latest version of the main branch
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           ref: main
           fetch-depth: 0
 
-      # Set up Python
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: '3.10'
 
-      # Install the Gemini package
       - name: Install dependencies
         run: |
           pip install -U google-genai
 
-      # Generate the daily TOPIK news
       - name: Run news generator script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python update_news.py
 
-      # Save the new news_data.json to GitHub
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
@@ -66,17 +60,14 @@ jobs:
           git pull --rebase origin main
           git push origin HEAD:main
 
-      # Set up GitHub Pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # Upload the website
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: '.'
 
-      # Deploy the website
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

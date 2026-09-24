@@ -40,7 +40,7 @@ jobs:
       # Install the Gemini package
       - name: Install dependencies
         run: |
-          pip install google-generativeai
+          pip install -U google-genai
 
       # Generate the daily TOPIK news
       - name: Run news generator script

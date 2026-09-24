@@ -1,20 +1,40 @@
+```html
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
     <title>TOPIK Daily News Reader</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet"
+    >
+
     <style>
+
         :root {
-            --bg-color: #fcfcfc;
+            --bg-color: #f5f7fa;
             --card-bg: #ffffff;
-            --text-color: #2c3e50;
-            --text-muted: #7f8c8d;
+            --text-color: #243447;
+            --text-muted: #718096;
             --accent-color: #2980b9;
+            --accent-dark: #216694;
             --border-color: #e2e8f0;
             --trans-bg: #f8fafc;
+            --date-bg: #eef5fb;
         }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'Noto Sans KR', sans-serif;
             background-color: var(--bg-color);
@@ -23,34 +43,46 @@
             padding: 0;
             line-height: 1.8;
         }
+
         header {
             background-color: var(--card-bg);
             border-bottom: 1px solid var(--border-color);
-            padding: 20px;
+            padding: 28px 20px 22px;
             text-align: center;
         }
+
         header h1 {
             margin: 0;
-            font-size: 1.5rem;
+            font-size: 1.7rem;
             color: var(--accent-color);
         }
+
         header p {
-            margin: 5px 0 0;
+            margin: 6px 0 0;
             font-size: 0.9rem;
             color: var(--text-muted);
         }
+
+        .archive-count {
+            margin-top: 8px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
         .container {
-            max-width: 800px;
-            margin: 30px auto;
+            max-width: 850px;
+            margin: 30px auto 60px;
             padding: 0 20px;
         }
+
         .nav-tabs {
             display: flex;
             gap: 10px;
-            margin-bottom: 25px;
+            margin-bottom: 30px;
             overflow-x: auto;
             padding-bottom: 5px;
         }
+
         .tab-btn {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
@@ -61,172 +93,839 @@
             font-weight: 500;
             color: var(--text-color);
             transition: all 0.2s;
+            white-space: nowrap;
         }
-        .tab-btn.active, .tab-btn:hover {
+
+        .tab-btn.active,
+        .tab-btn:hover {
             background: var(--accent-color);
             color: white;
             border-color: var(--accent-color);
         }
+
+        .date-section {
+            margin-bottom: 35px;
+        }
+
+        .date-heading {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 35px 0 18px;
+            padding: 10px 14px;
+            background: var(--date-bg);
+            border-left: 4px solid var(--accent-color);
+            border-radius: 6px;
+        }
+
+        .date-heading h2 {
+            margin: 0;
+            font-size: 1.1rem;
+            color: var(--text-color);
+        }
+
+        .date-heading .story-count {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
         .news-card {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
             border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 25px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            padding: 28px;
+            margin-bottom: 22px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
         }
+
         .news-meta {
-            font-size: 0.85rem;
+            font-size: 0.82rem;
             color: var(--text-muted);
             margin-bottom: 10px;
             display: flex;
             justify-content: space-between;
+            gap: 15px;
+            flex-wrap: wrap;
         }
+
+        .news-category {
+            font-weight: 700;
+            color: var(--accent-color);
+        }
+
+        .news-time {
+            color: var(--text-muted);
+        }
+
         .news-title {
             font-size: 1.3rem;
+            line-height: 1.5;
             font-weight: 700;
             margin-top: 0;
             margin-bottom: 15px;
         }
+
         .news-body {
             font-size: 1.05rem;
             margin-bottom: 20px;
         }
+
+        .news-body p {
+            margin: 0;
+        }
+
         .vocab-section {
             background: #fffdf4;
             border: 1px solid #fef3c7;
             border-radius: 8px;
-            padding: 12px 15px;
+            padding: 13px 16px;
             margin-bottom: 20px;
             font-size: 0.9rem;
         }
+
         .vocab-section strong {
             color: #d97706;
         }
+
         .translation-box {
             background: var(--trans-bg);
             border-left: 4px solid var(--accent-color);
             padding: 15px;
             margin-top: 15px;
+            margin-bottom: 5px;
             font-size: 0.95rem;
             display: none;
+            border-radius: 0 6px 6px 0;
         }
+
+        .translation-box p {
+            margin: 0;
+        }
+
         .toggle-trans-btn {
             background: none;
             border: 1px solid var(--accent-color);
             color: var(--accent-color);
-            padding: 5px 12px;
-            border-radius: 4px;
+            padding: 6px 13px;
+            border-radius: 5px;
             cursor: pointer;
             font-size: 0.85rem;
             font-weight: 500;
         }
+
         .toggle-trans-btn:hover {
             background: var(--accent-color);
             color: white;
         }
+
         .loading {
             text-align: center;
             color: var(--text-muted);
-            padding: 40px;
+            padding: 50px 20px;
         }
+
+        .empty-state {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 40px 20px;
+            text-align: center;
+            color: var(--text-muted);
+        }
+
+        .load-more-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .load-more-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 10px 22px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        .load-more-btn:hover {
+            background: var(--accent-color);
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.78rem;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+
+            header {
+                padding: 22px 15px 18px;
+            }
+
+            header h1 {
+                font-size: 1.4rem;
+            }
+
+            .container {
+                padding: 0 14px;
+                margin-top: 22px;
+            }
+
+            .news-card {
+                padding: 21px;
+            }
+
+            .news-title {
+                font-size: 1.15rem;
+            }
+
+            .news-body {
+                font-size: 1rem;
+            }
+
+            .date-heading {
+                margin-top: 25px;
+            }
+        }
+
     </style>
 </head>
+
 <body>
 
     <header>
+
         <h1>TOPIK Daily News Reader</h1>
-        <p>Advanced Korean Reading Practice (Levels 4–6)</p>
+
+        <p>
+            Advanced Korean Reading Practice (Levels 4–6)
+        </p>
+
+        <div
+            id="archive-count"
+            class="archive-count"
+        >
+            Loading archive...
+        </div>
+
     </header>
 
+
     <div class="container">
+
         <div class="nav-tabs">
-            <button class="tab-btn active" onclick="filterCategory('all', event)">All News</button>
-            <button class="tab-btn" onclick="filterCategory('정치', event)">정치 (Politics)</button>
-            <button class="tab-btn" onclick="filterCategory('경제', event)">경제 (Business)</button>
-            <button class="tab-btn" onclick="filterCategory('사회', event)">사회 (Society)</button>
-            <button class="tab-btn" onclick="filterCategory('세계', event)">세계 (World)</button>
+
+            <button
+                class="tab-btn active"
+                onclick="filterCategory('all', this)"
+            >
+                All News
+            </button>
+
+            <button
+                class="tab-btn"
+                onclick="filterCategory('정치', this)"
+            >
+                정치 (Politics)
+            </button>
+
+            <button
+                class="tab-btn"
+                onclick="filterCategory('경제', this)"
+            >
+                경제 (Business)
+            </button>
+
+            <button
+                class="tab-btn"
+                onclick="filterCategory('사회', this)"
+            >
+                사회 (Society)
+            </button>
+
+            <button
+                class="tab-btn"
+                onclick="filterCategory('세계', this)"
+            >
+                세계 (World)
+            </button>
+
         </div>
+
 
         <div id="articles-container">
-            <div class="loading">Loading today's news...</div>
+
+            <div class="loading">
+                Loading news archive...
+            </div>
+
         </div>
+
+
+        <div
+            id="load-more-container"
+            class="load-more-container"
+            style="display: none;"
+        >
+
+            <button
+                id="load-more-btn"
+                class="load-more-btn"
+                onclick="loadMoreArticles()"
+            >
+                Load More Stories
+            </button>
+
+        </div>
+
     </div>
 
+
+    <footer>
+        TOPIK Daily News Reader
+    </footer>
+
+
     <script>
+
         let allArticles = [];
 
+        let currentCategory = 'all';
+
+        let displayedCount = 20;
+
+        const ARTICLES_PER_LOAD = 20;
+
+
+        // ====================================================
+        // LOAD NEWS DATA
+        // ====================================================
+
         async function loadNews() {
+
             try {
-                const response = await fetch('news_data.json');
-                if (!response.ok) throw new Error('Failed to load news data');
+
+                // Add a timestamp to help prevent browsers
+                // from displaying an old cached JSON file.
+                const cacheBuster = Date.now();
+
+                const response = await fetch(
+                    `news_data.json?v=${cacheBuster}`
+                );
+
+                if (!response.ok) {
+                    throw new Error(
+                        'Failed to load news data'
+                    );
+                }
+
                 allArticles = await response.json();
-                renderArticles(allArticles);
+
+                if (!Array.isArray(allArticles)) {
+                    throw new Error(
+                        'News data is not an array'
+                    );
+                }
+
+                // The Python script already saves the newest
+                // articles first. We preserve that order.
+                updateArchiveCount();
+
+                renderArticles();
+
             } catch (error) {
-                console.error('Error:', error);
-                document.getElementById('articles-container').innerHTML = `
-                    <div class="news-card">
-                        <p>No articles found yet. Make sure the GitHub Actions workflow has run at least once!</p>
+
+                console.error(
+                    'Error loading news:',
+                    error
+                );
+
+                document.getElementById(
+                    'articles-container'
+                ).innerHTML = `
+                    <div class="empty-state">
+                        <p>
+                            No articles found yet.
+                        </p>
+                        <p>
+                            Make sure the GitHub Actions
+                            workflow has run successfully.
+                        </p>
                     </div>
                 `;
+
             }
+
         }
 
-        function renderArticles(articles) {
-            const container = document.getElementById('articles-container');
-            if (!articles || articles.length === 0) {
-                container.innerHTML = '<div class="news-card"><p>No articles available for this category.</p></div>';
+
+        // ====================================================
+        // UPDATE ARCHIVE COUNT
+        // ====================================================
+
+        function updateArchiveCount() {
+
+            const countElement =
+                document.getElementById(
+                    'archive-count'
+                );
+
+            const count = allArticles.length;
+
+            countElement.textContent =
+                `${count.toLocaleString()} archived stories`;
+
+        }
+
+
+        // ====================================================
+        // FILTER CURRENT ARTICLES
+        // ====================================================
+
+        function getFilteredArticles() {
+
+            if (currentCategory === 'all') {
+
+                return allArticles;
+
+            }
+
+            return allArticles.filter(
+                article =>
+                    article.category === currentCategory
+            );
+
+        }
+
+
+        // ====================================================
+        // FORMAT DATE
+        // ====================================================
+
+        function formatDate(dateString) {
+
+            if (!dateString) {
+                return 'Unknown date';
+            }
+
+            const parts =
+                dateString.split('-');
+
+            if (parts.length !== 3) {
+                return dateString;
+            }
+
+            const year = parts[0];
+            const month = parts[1];
+            const day = parts[2];
+
+            return `${year}년 ${month}월 ${day}일`;
+
+        }
+
+
+        // ====================================================
+        // FORMAT TIME
+        // ====================================================
+
+        function formatTime(article) {
+
+            // New archive entries contain published_at.
+            if (article.published_at) {
+
+                const parts =
+                    article.published_at.split(' ');
+
+                if (parts.length >= 2) {
+
+                    return parts[1];
+
+                }
+
+                return article.published_at;
+
+            }
+
+            // Older articles may not contain a time.
+            return '';
+
+        }
+
+
+        // ====================================================
+        // ESCAPE HTML
+        // ====================================================
+
+        function escapeHtml(value) {
+
+            if (value === null ||
+                value === undefined) {
+                return '';
+            }
+
+            return String(value)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+
+        }
+
+
+        // ====================================================
+        // RENDER ARTICLES
+        // ====================================================
+
+        function renderArticles() {
+
+            const container =
+                document.getElementById(
+                    'articles-container'
+                );
+
+            const loadMoreContainer =
+                document.getElementById(
+                    'load-more-container'
+                );
+
+            const loadMoreButton =
+                document.getElementById(
+                    'load-more-btn'
+                );
+
+            const filteredArticles =
+                getFilteredArticles();
+
+            if (
+                !filteredArticles ||
+                filteredArticles.length === 0
+            ) {
+
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <p>
+                            No articles available
+                            for this category.
+                        </p>
+                    </div>
+                `;
+
+                loadMoreContainer.style.display =
+                    'none';
+
                 return;
             }
 
-            container.innerHTML = articles.map(article => `
-                <div class="news-card">
-                    <div class="news-meta">
-                        <span>${article.category}</span>
-                        <span>${article.date}</span>
-                    </div>
-                    <h2 class="news-title">${article.title}</h2>
-                    <div class="news-body">
-                        <p>${article.body.replace(/\n/g, '<br>')}</p>
-                    </div>
-                    ${article.vocab ? `
-                        <div class="vocab-section">
-                            <strong>Key Vocabulary:</strong><br>${article.vocab}
+
+            const visibleArticles =
+                filteredArticles.slice(
+                    0,
+                    displayedCount
+                );
+
+
+            // Group stories by date.
+            const groups = {};
+
+            visibleArticles.forEach(article => {
+
+                const date =
+                    article.date || 'Unknown';
+
+                if (!groups[date]) {
+                    groups[date] = [];
+                }
+
+                groups[date].push(article);
+
+            });
+
+
+            let html = '';
+
+
+            Object.keys(groups).forEach(date => {
+
+                const articlesForDate =
+                    groups[date];
+
+                html += `
+                    <section class="date-section">
+
+                        <div class="date-heading">
+
+                            <h2>
+                                ${escapeHtml(
+                                    formatDate(date)
+                                )}
+                            </h2>
+
+                            <span class="story-count">
+                                ${articlesForDate.length}
+                                ${articlesForDate.length === 1
+                                    ? 'story'
+                                    : 'stories'}
+                            </span>
+
                         </div>
-                    ` : ''}
-                    <button class="toggle-trans-btn" onclick="toggleTranslation(this)">Toggle Translation</button>
-                    <div class="translation-box">
-                        <p>${article.translation.replace(/\n/g, '<br>')}</p>
-                    </div>
-                </div>
-            `).join('');
-        }
+                `;
 
-        function filterCategory(category, event) {
-            const buttons = document.querySelectorAll('.tab-btn');
-            buttons.forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
 
-            if (category === 'all') {
-                renderArticles(allArticles);
+                articlesForDate.forEach(article => {
+
+                    const category =
+                        escapeHtml(
+                            article.category
+                        );
+
+                    const title =
+                        escapeHtml(
+                            article.title
+                        );
+
+                    const body =
+                        escapeHtml(
+                            article.body
+                        ).replace(
+                            /\n/g,
+                            '<br>'
+                        );
+
+                    const vocabulary =
+                        article.vocab
+                            ? escapeHtml(
+                                article.vocab
+                            )
+                            : '';
+
+                    const translation =
+                        article.translation
+                            ? escapeHtml(
+                                article.translation
+                            ).replace(
+                                /\n/g,
+                                '<br>'
+                            )
+                            : '';
+
+                    const time =
+                        formatTime(article);
+
+
+                    html += `
+                        <article class="news-card">
+
+                            <div class="news-meta">
+
+                                <span class="news-category">
+                                    ${category}
+                                </span>
+
+                                ${
+                                    time
+                                    ? `
+                                        <span class="news-time">
+                                            ${escapeHtml(time)}
+                                        </span>
+                                      `
+                                    : ''
+                                }
+
+                            </div>
+
+
+                            <h2 class="news-title">
+                                ${title}
+                            </h2>
+
+
+                            <div class="news-body">
+                                <p>
+                                    ${body}
+                                </p>
+                            </div>
+
+
+                            ${
+                                vocabulary
+                                ? `
+                                    <div class="vocab-section">
+
+                                        <strong>
+                                            Key Vocabulary:
+                                        </strong>
+
+                                        <br>
+
+                                        ${vocabulary}
+
+                                    </div>
+                                  `
+                                : ''
+                            }
+
+
+                            ${
+                                translation
+                                ? `
+                                    <button
+                                        class="toggle-trans-btn"
+                                        onclick="toggleTranslation(this)"
+                                    >
+                                        Toggle Translation
+                                    </button>
+
+                                    <div class="translation-box">
+
+                                        <p>
+                                            ${translation}
+                                        </p>
+
+                                    </div>
+                                  `
+                                : ''
+                            }
+
+                        </article>
+                    `;
+
+                });
+
+
+                html += `
+                    </section>
+                `;
+
+            });
+
+
+            container.innerHTML = html;
+
+
+            // Decide whether the Load More button
+            // should be displayed.
+            if (
+                visibleArticles.length <
+                filteredArticles.length
+            ) {
+
+                loadMoreContainer.style.display =
+                    'block';
+
+                loadMoreButton.textContent =
+                    `Load More Stories ` +
+                    `(${filteredArticles.length - visibleArticles.length} remaining)`;
+
             } else {
-                const filtered = allArticles.filter(art => art.category === category);
-                renderArticles(filtered);
+
+                loadMoreContainer.style.display =
+                    'none';
+
             }
+
         }
+
+
+        // ====================================================
+        // FILTER CATEGORY
+        // ====================================================
+
+        function filterCategory(
+            category,
+            button
+        ) {
+
+            currentCategory = category;
+
+            displayedCount = ARTICLES_PER_LOAD;
+
+            const buttons =
+                document.querySelectorAll(
+                    '.tab-btn'
+                );
+
+            buttons.forEach(
+                btn =>
+                    btn.classList.remove('active')
+            );
+
+            button.classList.add('active');
+
+            renderArticles();
+
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+
+        }
+
+
+        // ====================================================
+        // LOAD MORE STORIES
+        // ====================================================
+
+        function loadMoreArticles() {
+
+            displayedCount +=
+                ARTICLES_PER_LOAD;
+
+            renderArticles();
+
+        }
+
+
+        // ====================================================
+        // TRANSLATION TOGGLE
+        // ====================================================
 
         function toggleTranslation(button) {
-            const transBox = button.nextElementSibling;
-            if (transBox.style.display === "block") {
-                transBox.style.display = "none";
-                button.textContent = "Toggle Translation";
+
+            const transBox =
+                button.nextElementSibling;
+
+            if (
+                transBox.style.display ===
+                'block'
+            ) {
+
+                transBox.style.display =
+                    'none';
+
+                button.textContent =
+                    'Toggle Translation';
+
             } else {
-                transBox.style.display = "block";
-                button.textContent = "Hide Translation";
+
+                transBox.style.display =
+                    'block';
+
+                button.textContent =
+                    'Hide Translation';
+
             }
+
         }
 
-        window.addEventListener('DOMContentLoaded', loadNews);
+
+        // ====================================================
+        // START
+        // ====================================================
+
+        window.addEventListener(
+            'DOMContentLoaded',
+            loadNews
+        );
+
     </script>
+
 </body>
+
 </html>
+```

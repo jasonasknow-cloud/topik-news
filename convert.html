@@ -3,15 +3,244 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>TOPIK Article Converter</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            line-height: 1.6;
+            background: #f7f7f7;
+            color: #222;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+
+        .converter-box {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        input[type="url"] {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 14px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-right: 8px;
+        }
+
+        .generate-button {
+            background: #222;
+            color: white;
+        }
+
+        .generate-button:hover {
+            background: #444;
+        }
+
+        .clear-button {
+            background: #ddd;
+            color: #222;
+        }
+
+        .clear-button:hover {
+            background: #ccc;
+        }
+
+        .status {
+            margin-top: 20px;
+            padding: 12px;
+            background: #f0f0f0;
+            border-radius: 6px;
+            color: #555;
+            display: none;
+        }
+
+        .results {
+            margin-top: 30px;
+            display: none;
+        }
+
+        .result-section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .result-section h2 {
+            margin-top: 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .placeholder {
+            color: #777;
+            font-style: italic;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 25px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 15px;
+            }
+
+            .converter-box,
+            .result-section {
+                padding: 20px;
+            }
+
+            button {
+                margin-bottom: 8px;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
     <h1>TOPIK Article Converter</h1>
 
-    <p>This is the new article converter page.</p>
+    <p class="subtitle">
+        Turn a Korean or English news article into a TOPIK study article.
+    </p>
 
-    <p>We will build the converter here.</p>
+    <div class="converter-box">
+
+        <label for="article-url">News Article URL</label>
+
+        <input
+            type="url"
+            id="article-url"
+            placeholder="Paste the news article URL here"
+        >
+
+        <button class="generate-button" onclick="generateArticle()">
+            Generate Article
+        </button>
+
+        <button class="clear-button" onclick="clearArticle()">
+            Clear
+        </button>
+
+        <div id="status" class="status"></div>
+
+    </div>
+
+    <div id="results" class="results">
+
+        <div class="result-section">
+            <h2>한국어 기사</h2>
+
+            <div id="korean-article" class="placeholder">
+                Your TOPIK article will appear here.
+            </div>
+        </div>
+
+        <div class="result-section">
+            <h2>English Translation</h2>
+
+            <div id="english-translation" class="placeholder">
+                The English translation will appear here.
+            </div>
+        </div>
+
+        <div class="result-section">
+            <h2>Vocabulary</h2>
+
+            <div id="vocabulary" class="placeholder">
+                Important TOPIK vocabulary will appear here.
+            </div>
+        </div>
+
+    </div>
+
+    <a class="back-link" href="index.html">
+        ← Back to TOPIK News
+    </a>
+
+    <script>
+
+        function generateArticle() {
+
+            const url = document.getElementById("article-url").value.trim();
+            const status = document.getElementById("status");
+            const results = document.getElementById("results");
+
+            if (!url) {
+                status.style.display = "block";
+                status.textContent = "Please paste a news article URL first.";
+                return;
+            }
+
+            status.style.display = "block";
+            status.textContent =
+                "The converter is not connected yet. We will add the Gemini connection next.";
+
+            results.style.display = "block";
+        }
+
+
+        function clearArticle() {
+
+            document.getElementById("article-url").value = "";
+
+            document.getElementById("status").style.display = "none";
+
+            document.getElementById("results").style.display = "none";
+
+            document.getElementById("korean-article").textContent =
+                "Your TOPIK article will appear here.";
+
+            document.getElementById("english-translation").textContent =
+                "The English translation will appear here.";
+
+            document.getElementById("vocabulary").textContent =
+                "Important TOPIK vocabulary will appear here.";
+        }
+
+    </script>
 
 </body>
 </html>

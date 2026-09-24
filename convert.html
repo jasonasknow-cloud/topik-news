@@ -148,13 +148,35 @@
 
     <div class="converter-box">
 
-        <label for="article-url">News Article URL</label>
+  <label for="article-url">News Article URL</label>
 
-        <input
-            type="url"
-            id="article-url"
-            placeholder="Paste the news article URL here"
-        >
+<input
+    type="url"
+    id="article-url"
+    placeholder="Paste the news article URL here"
+>
+
+<label for="topik-level" style="margin-top: 15px;">
+    TOPIK Level
+</label>
+
+<select
+    id="topik-level"
+    style="
+        width: 100%;
+        box-sizing: border-box;
+        padding: 14px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        margin-bottom: 15px;
+    "
+>
+    <option value="3">TOPIK 3</option>
+    <option value="4">TOPIK 4</option>
+    <option value="5" selected>TOPIK 5</option>
+    <option value="6">TOPIK 6</option>
+</select>
 
         <button class="generate-button" onclick="generateArticle()">
             Generate Article

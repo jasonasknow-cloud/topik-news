@@ -23,9 +23,6 @@ if not API_KEY:
 
 client = genai.Client(api_key=API_KEY)
 
-# Try several current Gemini Flash models.
-# If Google temporarily returns a 503, the script retries
-# and then moves to the next model.
 MODEL_NAMES = [
     "gemini-3.8-flash",
     "gemini-3.7-flash",
@@ -152,7 +149,6 @@ def fetch_latest_articles():
         "{http://purl.org/rss/1.0/modules/content/}encoded"
     )
 
-    # Use up to the latest 12 stories.
     for item in items[:12]:
 
         title_element = item.find("title")
@@ -242,6 +238,74 @@ def fetch_latest_articles():
 
 
 # ============================================================
+# LOAD EXISTING ARCHIVE
+# ============================================================
+
+def load_existing_archive():
+
+    filename = "news_data.json"
+
+    if not os.path.exists(filename):
+
+        print()
+        print(
+            "No existing news_data.json found. "
+            "Starting a new archive."
+        )
+
+        return []
+
+    try:
+
+        with open(
+            filename,
+            "r",
+            encoding="utf-8"
+        ) as f:
+
+            data = json.load(f)
+
+        if not isinstance(data, list):
+
+            raise RuntimeError(
+                "news_data.json does not contain a list."
+            )
+
+        print()
+        print(
+            f"Loaded {len(data)} existing articles "
+            "from the archive."
+        )
+
+        return data
+
+    except json.JSONDecodeError as e:
+
+        raise RuntimeError(
+            f"Could not read news_data.json as JSON: {e}"
+        )
+
+
+# ============================================================
+# GET RECENT HEADLINES FROM ARCHIVE
+# ============================================================
+
+def get_recent_headlines(archive, limit=40):
+
+    headlines = []
+
+    for article in archive[:limit]:
+
+        title = article.get("title")
+
+        if title:
+
+            headlines.append(title)
+
+    return headlines
+
+
+# ============================================================
 # GEMINI OUTPUT SCHEMA
 # ============================================================
 
@@ -312,7 +376,10 @@ NEWS_SCHEMA = {
 # BUILD GEMINI PROMPT
 # ============================================================
 
-def build_prompt(raw_articles):
+def build_prompt(
+    raw_articles,
+    recent_headlines
+):
 
     article_text = ""
 
@@ -336,6 +403,24 @@ RSS categories:
 ----------------------------------------
 """
 
+    previous_text = ""
+
+    if recent_headlines:
+
+        previous_text = """
+
+RECENTLY PUBLISHED HEADLINES
+
+These stories have already appeared on the website.
+Do NOT use them again unless there is absolutely no
+other suitable story available.
+
+"""
+
+        for title in recent_headlines:
+
+            previous_text += f"- {title}\n"
+
     prompt = f"""
 You are an expert Korean language instructor creating
 daily reading material for advanced TOPIK learners
@@ -343,7 +428,7 @@ daily reading material for advanced TOPIK learners
 
 Below are the latest news stories from Yonhap News TV.
 
-Select EXACTLY FOUR stories:
+Select EXACTLY FOUR NEW stories:
 
 1. 정치 (Politics)
 2. 경제 (Economy)
@@ -364,6 +449,8 @@ IMPORTANT:
   and trivial stories.
 - Prefer substantial stories that are useful for
   Korean language learners.
+- Avoid headlines that have already appeared in the
+  recent archive whenever possible.
 
 FOR EACH STORY:
 
@@ -377,7 +464,7 @@ LENGTH:
 - Approximately 500-800 Korean characters.
 - The article should feel like a substantial TOPIK
   reading passage rather than a short news summary.
-- Do not add meaningless filler just to increase the length.
+- Do not add meaningless filler just to increase length.
 
 CONTENT STRUCTURE:
 
@@ -388,7 +475,7 @@ When supported by the original article, naturally include:
 3. Relevant causes, reactions, or developments.
 4. Consequences or significance.
 
-Do not invent background information.
+Do NOT invent background information.
 
 LANGUAGE:
 
@@ -403,7 +490,7 @@ LANGUAGE:
 
 ALSO PROVIDE:
 
-- An accurate English translation of the Korean article.
+- An accurate English translation.
 - 3-5 useful advanced vocabulary items with English meanings.
 
 RETURN EXACTLY FOUR STORIES:
@@ -412,9 +499,13 @@ RETURN EXACTLY FOUR STORIES:
 경제
 사회
 세계
-"""
 
-    prompt += "\n\nARTICLE LIST:\n" + article_text
+{previous_text}
+
+ARTICLE LIST:
+
+{article_text}
+"""
 
     return prompt
 
@@ -497,14 +588,20 @@ def validate_articles(result):
 # ASK GEMINI TO CREATE THE FOUR STORIES
 # ============================================================
 
-def generate_topik_news(raw_articles):
+def generate_topik_news(
+    raw_articles,
+    recent_headlines
+):
 
-    prompt = build_prompt(raw_articles)
+    prompt = build_prompt(
+        raw_articles,
+        recent_headlines
+    )
 
     print()
     print(
         "Asking Gemini to select and rewrite "
-        "four TOPIK stories..."
+        "four new TOPIK stories..."
     )
 
     last_error = None
@@ -546,7 +643,7 @@ def generate_topik_news(raw_articles):
                 print()
                 print(
                     f"SUCCESS: {model_name} generated "
-                    f"all four articles."
+                    f"four new articles."
                 )
 
                 return articles
@@ -562,7 +659,6 @@ def generate_topik_news(raw_articles):
                 )
                 print(error_text)
 
-                # 503 means Gemini is temporarily unavailable.
                 if (
                     "503" in error_text
                     or "UNAVAILABLE" in error_text
@@ -574,8 +670,7 @@ def generate_topik_news(raw_articles):
 
                         print(
                             f"Gemini is temporarily unavailable. "
-                            f"Waiting {wait_seconds} seconds "
-                            f"before retrying..."
+                            f"Waiting {wait_seconds} seconds..."
                         )
 
                         time.sleep(wait_seconds)
@@ -590,8 +685,6 @@ def generate_topik_news(raw_articles):
 
                     break
 
-                # Other errors are probably genuine
-                # configuration or request problems.
                 raise RuntimeError(
                     f"Gemini news generation failed: {e}"
                 )
@@ -603,48 +696,77 @@ def generate_topik_news(raw_articles):
 
 
 # ============================================================
-# SAVE NEWS_DATA.JSON
+# ADD NEW STORIES TO THE ARCHIVE
 # ============================================================
 
-def save_news_data(articles):
+def add_to_archive(
+    existing_archive,
+    new_articles
+):
 
-    today = datetime.now(
+    now = datetime.now(
         ZoneInfo("Asia/Seoul")
-    ).strftime("%Y-%m-%d")
+    )
 
-    category_order = [
-        "정치",
-        "경제",
-        "사회",
-        "세계"
-    ]
+    published_at = now.strftime(
+        "%Y-%m-%d %H:%M"
+    )
 
-    articles_by_category = {
-        article["category"]: article
-        for article in articles
+    today = now.strftime(
+        "%Y-%m-%d"
+    )
+
+    new_entries = []
+
+    # Use existing headlines to prevent duplicates.
+    existing_headlines = {
+        clean_text(
+            article.get("title", "")
+        )
+        for article in existing_archive
+        if article.get("title")
     }
 
-    processed_articles = []
+    for article in new_articles:
 
-    for category in category_order:
+        title = clean_text(
+            article["title_ko"]
+        )
 
-        article = articles_by_category[category]
+        # Don't add an exact duplicate.
+        if title in existing_headlines:
 
-        processed_articles.append({
-            "category": category,
+            print(
+                f"Skipping duplicate article: {title}"
+            )
+
+            continue
+
+        new_entry = {
+            "category": article["category"],
             "date": today,
+            "published_at": published_at,
             "title": article["title_ko"],
             "body": article["body_ko"],
             "translation": article["translation_en"],
             "vocab": article["vocab"]
-        })
+        }
 
-    if len(processed_articles) != 4:
+        new_entries.append(new_entry)
+
+        existing_headlines.add(title)
+
+    if not new_entries:
 
         raise RuntimeError(
-            "Final news_data.json does not contain "
-            "exactly four articles."
+            "All generated stories were duplicates. "
+            "Nothing was added to the archive."
         )
+
+    # Newest stories go first.
+    final_archive = (
+        new_entries + existing_archive
+    )
 
     with open(
         "news_data.json",
@@ -653,7 +775,7 @@ def save_news_data(articles):
     ) as f:
 
         json.dump(
-            processed_articles,
+            final_archive,
             f,
             ensure_ascii=False,
             indent=4
@@ -661,11 +783,15 @@ def save_news_data(articles):
 
     print()
     print(
-        "news_data.json created successfully "
-        f"with {len(processed_articles)} articles."
+        f"Added {len(new_entries)} new stories."
     )
 
-    for article in processed_articles:
+    print(
+        f"Archive now contains "
+        f"{len(final_archive)} total stories."
+    )
+
+    for article in new_entries:
 
         print(
             f"- {article['category']}: "
@@ -683,14 +809,30 @@ def main():
     print("Starting Daily TOPIK News Automation")
     print("=" * 60)
 
+    # 1. Load all previous stories.
+    existing_archive = load_existing_archive()
+
+    # 2. Get the latest Yonhap stories.
     raw_articles = fetch_latest_articles()
 
-    processed_articles = generate_topik_news(
-        raw_articles
+    # 3. Give Gemini recent headlines so it can avoid
+    #    repeating stories that are already on the site.
+    recent_headlines = get_recent_headlines(
+        existing_archive,
+        limit=40
     )
 
-    save_news_data(
-        processed_articles
+    # 4. Generate four new stories.
+    new_articles = generate_topik_news(
+        raw_articles,
+        recent_headlines
+    )
+
+    # 5. ADD the new stories to the existing archive.
+    #    Do NOT replace the old stories.
+    add_to_archive(
+        existing_archive,
+        new_articles
     )
 
     print()

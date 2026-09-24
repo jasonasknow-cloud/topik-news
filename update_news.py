@@ -1,3 +1,4 @@
+```python
 import os
 import json
 import html
@@ -23,12 +24,20 @@ if not API_KEY:
 
 client = genai.Client(api_key=API_KEY)
 
-# We try the newest model first, then fall back to older
-# stable Flash models if Google is temporarily unavailable.
+
+# ============================================================
+# GEMINI MODEL FALLBACK ORDER
+#
+# Flash-Lite is included first because it is designed for
+# high-throughput tasks like this one.
+# ============================================================
+
 MODEL_NAMES = [
+    "gemini-3.5-flash-lite",
     "gemini-3.8-flash",
     "gemini-3.7-flash",
-    "gemini-3.6-flash"
+    "gemini-3.6-flash",
+    "gemini-3.5-flash"
 ]
 
 
@@ -47,6 +56,7 @@ RSS_URLS = [
 # ============================================================
 
 def clean_text(text):
+
     if not text:
         return ""
 
@@ -147,7 +157,7 @@ def fetch_latest_articles():
         "{http://purl.org/rss/1.0/modules/content/}encoded"
     )
 
-    # Collect the latest 12 stories.
+    # Use the latest 12 available stories.
     for item in items[:12]:
 
         title_element = item.find("title")
@@ -168,15 +178,18 @@ def fetch_latest_articles():
             content_element is not None
             and content_element.text
         ):
+
             description = content_element.text
 
         elif (
             description_element is not None
             and description_element.text
         ):
+
             description = description_element.text
 
         else:
+
             description = ""
 
         link = (
@@ -241,11 +254,15 @@ def fetch_latest_articles():
 # ============================================================
 
 NEWS_SCHEMA = {
+
     "type": "object",
+
     "properties": {
 
         "articles": {
+
             "type": "array",
+
             "minItems": 4,
             "maxItems": 4,
 
@@ -334,28 +351,27 @@ daily reading material for advanced TOPIK learners
 
 Below are the latest news stories from Yonhap News TV.
 
-Your job is to select EXACTLY FOUR stories:
+Select EXACTLY FOUR stories:
 
-1. One 정치 (Politics) story
-2. One 경제 (Economy) story
-3. One 사회 (Society) story
-4. One 세계 (World) story
+1. 정치 (Politics)
+2. 경제 (Economy)
+3. 사회 (Society)
+4. 세계 (World)
 
-Choose the most useful and newsworthy story available
-for each category.
+Choose one story for each category.
 
-IMPORTANT RULES:
+IMPORTANT:
 
 - Use only information contained in the supplied articles.
 - Do NOT invent facts.
-- Do NOT combine unrelated articles.
+- Do NOT combine unrelated stories.
 - Do NOT create fictional information.
-- Each selected story must genuinely fit its assigned category.
+- Each selected story must genuinely fit its category.
 - Use each original article only once.
-- Avoid entertainment, sports, weather, advertisements,
+- Avoid entertainment, sports, weather, advertising,
   and trivial stories.
-- Prioritize stories that are useful for Korean language learners.
-- Keep important factual details from the original material.
+- Prefer useful, substantial news stories for Korean
+  language learners.
 
 FOR EACH STORY:
 
@@ -367,22 +383,21 @@ LENGTH:
 
 - Approximately 8-12 Korean sentences.
 - Approximately 500-800 Korean characters.
-- The article should feel like a real TOPIK reading passage,
-  not a two- or three-sentence news summary.
-- Do not add meaningless filler just to make the article longer.
+- The result should feel like a substantial TOPIK
+  reading passage, not a short news summary.
+- Do not add meaningless filler to increase length.
 
 CONTENT STRUCTURE:
 
-When the original article contains enough information,
-organize the passage naturally:
+When the source article provides the information,
+naturally include:
 
-1. Introduce the main event.
-2. Explain important facts and background.
-3. Describe relevant causes, reactions, or developments.
-4. Explain consequences or significance when supported
-   by the original article.
+1. The main event.
+2. Important facts and background.
+3. Relevant causes, reactions, or developments.
+4. Consequences or significance.
 
-Do not invent background information.
+Do NOT invent background information.
 
 LANGUAGE:
 
@@ -392,18 +407,15 @@ LANGUAGE:
 - Make the Korean appropriate for TOPIK Levels 4-6.
 - Avoid slang.
 - Avoid unnecessary sensational language.
-- Use natural vocabulary and grammar appropriate for
-  advanced Korean learners.
+- Use useful vocabulary for advanced Korean learners.
 - Do not make the language artificially difficult.
 
 ALSO PROVIDE:
 
-- An accurate English translation of the Korean article.
+- An accurate English translation.
 - 3-5 useful advanced vocabulary items with English meanings.
 
-OUTPUT:
-
-Return EXACTLY FOUR stories:
+RETURN EXACTLY FOUR STORIES:
 
 정치
 경제
@@ -506,12 +518,11 @@ def generate_topik_news(raw_articles):
 
     last_error = None
 
-    # Try each available model.
     for model_name in MODEL_NAMES:
 
-        # Try each model up to 3 times.
         for attempt in range(1, 4):
 
+            print()
             print(
                 f"Trying {model_name} "
                 f"(attempt {attempt}/3)..."
@@ -522,6 +533,7 @@ def generate_topik_news(raw_articles):
                 response = client.models.generate_content(
                     model=model_name,
                     contents=prompt,
+
                     config=types.GenerateContentConfig(
                         response_mime_type="application/json",
                         response_schema=NEWS_SCHEMA
@@ -551,16 +563,16 @@ def generate_topik_news(raw_articles):
             except Exception as e:
 
                 last_error = e
-
                 error_text = str(e)
 
+                print()
                 print(
                     f"{model_name} failed:"
                 )
                 print(error_text)
 
-                # 503 means Google's server is temporarily
-                # unavailable. Retry rather than immediately failing.
+                # 503 means Google's service is temporarily
+                # unavailable or overloaded.
                 if (
                     "503" in error_text
                     or "UNAVAILABLE" in error_text
@@ -568,11 +580,12 @@ def generate_topik_news(raw_articles):
 
                     if attempt < 3:
 
-                        wait_seconds = attempt * 10
+                        wait_seconds = 30 * attempt
 
                         print(
-                            f"Temporary Gemini server problem. "
-                            f"Waiting {wait_seconds} seconds..."
+                            f"Gemini is temporarily unavailable. "
+                            f"Waiting {wait_seconds} seconds "
+                            f"before retrying..."
                         )
 
                         time.sleep(wait_seconds)
@@ -582,14 +595,12 @@ def generate_topik_news(raw_articles):
                     print()
                     print(
                         f"{model_name} failed three times. "
-                        "Trying the next Gemini model..."
+                        "Moving to the next model..."
                     )
 
                     break
 
-                # For other errors, there is probably something
-                # genuinely wrong with the request, API key,
-                # schema, etc. Do not hide those errors.
+                # For non-503 errors, stop immediately.
                 raise RuntimeError(
                     f"Gemini news generation failed: {e}"
                 )
@@ -637,12 +648,11 @@ def save_news_data(articles):
             "vocab": article["vocab"]
         })
 
-    # Final safety check.
     if len(processed_articles) != 4:
 
         raise RuntimeError(
-            "Final news_data.json does not contain exactly "
-            "four articles."
+            "Final news_data.json does not contain "
+            "exactly four articles."
         )
 
     with open(
@@ -685,21 +695,24 @@ def main():
     # 1. Download current Yonhap news.
     raw_articles = fetch_latest_articles()
 
-    # 2. Select and rewrite the four stories.
+    # 2. Select and rewrite four TOPIK stories.
     processed_articles = generate_topik_news(
         raw_articles
     )
 
-    # 3. Save the final JSON used by the website.
+    # 3. Save the JSON file used by the website.
     save_news_data(
         processed_articles
     )
 
     print()
     print("=" * 60)
-    print("Daily TOPIK news generation completed successfully.")
+    print(
+        "Daily TOPIK news generation completed successfully."
+    )
     print("=" * 60)
 
 
 if __name__ == "__main__":
     main()
+```

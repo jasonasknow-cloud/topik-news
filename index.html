@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="ko">
 
@@ -25,7 +24,6 @@
             --text-color: #243447;
             --text-muted: #718096;
             --accent-color: #2980b9;
-            --accent-dark: #216694;
             --border-color: #e2e8f0;
             --trans-bg: #f8fafc;
             --date-bg: #eef5fb;
@@ -192,7 +190,7 @@
             border-left: 4px solid var(--accent-color);
             padding: 15px;
             margin-top: 15px;
-            margin-bottom: 5px;
+            margin-bottom: 15px;
             font-size: 0.95rem;
             display: none;
             border-radius: 0 6px 6px 0;
@@ -211,11 +209,60 @@
             cursor: pointer;
             font-size: 0.85rem;
             font-weight: 500;
+            margin-right: 8px;
         }
 
         .toggle-trans-btn:hover {
             background: var(--accent-color);
             color: white;
+        }
+
+        /* =========================
+           AUDIO CONTROLS
+           ========================= */
+
+        .audio-controls {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+            padding: 12px 14px;
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+        }
+
+        .audio-btn {
+            border: 1px solid var(--accent-color);
+            background: white;
+            color: var(--accent-color);
+            padding: 7px 13px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .audio-btn:hover {
+            background: var(--accent-color);
+            color: white;
+        }
+
+        .speed-label {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-left: 4px;
+        }
+
+        .speed-select {
+            border: 1px solid var(--border-color);
+            background: white;
+            padding: 6px 9px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: var(--text-color);
+            cursor: pointer;
         }
 
         .loading {
@@ -291,10 +338,16 @@
             .date-heading {
                 margin-top: 25px;
             }
+
+            .audio-controls {
+                gap: 6px;
+            }
+
         }
 
     </style>
 </head>
+
 
 <body>
 
@@ -403,6 +456,243 @@
 
 
         // ====================================================
+        // AUDIO / TEXT-TO-SPEECH
+        // ====================================================
+
+        const speechSupported =
+            'speechSynthesis' in window &&
+            'SpeechSynthesisUtterance' in window;
+
+        let availableVoices = [];
+
+        let currentUtterance = null;
+
+
+        function loadSpeechVoices() {
+
+            if (!speechSupported) {
+                return;
+            }
+
+            availableVoices =
+                window.speechSynthesis.getVoices();
+
+        }
+
+
+        if (speechSupported) {
+
+            loadSpeechVoices();
+
+            if (
+                'onvoiceschanged'
+                in window.speechSynthesis
+            ) {
+
+                window.speechSynthesis.onvoiceschanged =
+                    loadSpeechVoices;
+
+            }
+
+        }
+
+
+        function getKoreanVoice() {
+
+            if (!availableVoices ||
+                availableVoices.length === 0) {
+
+                availableVoices =
+                    window.speechSynthesis.getVoices();
+
+            }
+
+            // Prefer an exact Korean Korea voice.
+            let voice =
+                availableVoices.find(
+                    v => v.lang === 'ko-KR'
+                );
+
+            if (voice) {
+                return voice;
+            }
+
+            // Otherwise accept any Korean voice.
+            voice =
+                availableVoices.find(
+                    v => v.lang &&
+                    v.lang.toLowerCase().startsWith('ko')
+                );
+
+            return voice || null;
+
+        }
+
+
+        function speakArticle(
+            articleId,
+            text,
+            button
+        ) {
+
+            if (!speechSupported) {
+
+                alert(
+                    'Text-to-speech is not supported ' +
+                    'by this browser.'
+                );
+
+                return;
+            }
+
+
+            // Stop anything currently playing.
+            window.speechSynthesis.cancel();
+
+
+            const rateSelect =
+                document.getElementById(
+                    `speed-${articleId}`
+                );
+
+
+            const rate =
+                rateSelect
+                    ? parseFloat(rateSelect.value)
+                    : 1;
+
+
+            currentUtterance =
+                new SpeechSynthesisUtterance(
+                    text
+                );
+
+
+            currentUtterance.lang =
+                'ko-KR';
+
+            currentUtterance.rate =
+                rate;
+
+            currentUtterance.pitch =
+                1;
+
+            currentUtterance.volume =
+                1;
+
+
+            const koreanVoice =
+                getKoreanVoice();
+
+
+            if (koreanVoice) {
+
+                currentUtterance.voice =
+                    koreanVoice;
+
+                console.log(
+                    'Using Korean voice:',
+                    koreanVoice.name,
+                    koreanVoice.lang
+                );
+
+            } else {
+
+                console.log(
+                    'No Korean voice found. ' +
+                    'Using browser default.'
+                );
+
+            }
+
+
+            currentUtterance.onend =
+                function() {
+
+                    button.textContent =
+                        '▶ Listen';
+
+                    currentUtterance =
+                        null;
+
+                };
+
+
+            currentUtterance.onerror =
+                function(event) {
+
+                    console.error(
+                        'Speech error:',
+                        event
+                    );
+
+                    button.textContent =
+                        '▶ Listen';
+
+                    currentUtterance =
+                        null;
+
+                };
+
+
+            button.textContent =
+                '▶ Playing...';
+
+
+            window.speechSynthesis.speak(
+                currentUtterance
+            );
+
+        }
+
+
+        function pauseSpeech() {
+
+            if (!speechSupported) {
+                return;
+            }
+
+            window.speechSynthesis.pause();
+
+        }
+
+
+        function resumeSpeech() {
+
+            if (!speechSupported) {
+                return;
+            }
+
+            window.speechSynthesis.resume();
+
+        }
+
+
+        function stopSpeech() {
+
+            if (!speechSupported) {
+                return;
+            }
+
+            window.speechSynthesis.cancel();
+
+            currentUtterance =
+                null;
+
+
+            document.querySelectorAll(
+                '.audio-play-btn'
+            ).forEach(
+                button => {
+                    button.textContent =
+                        '▶ Listen';
+                }
+            );
+
+        }
+
+
+        // ====================================================
         // LOAD NEWS DATA
         // ====================================================
 
@@ -410,33 +700,39 @@
 
             try {
 
-                // Add a timestamp to help prevent browsers
-                // from displaying an old cached JSON file.
-                const cacheBuster = Date.now();
+                const cacheBuster =
+                    Date.now();
 
-                const response = await fetch(
-                    `news_data.json?v=${cacheBuster}`
-                );
+                const response =
+                    await fetch(
+                        `news_data.json?v=${cacheBuster}`
+                    );
 
                 if (!response.ok) {
+
                     throw new Error(
                         'Failed to load news data'
                     );
+
                 }
 
-                allArticles = await response.json();
+                allArticles =
+                    await response.json();
+
 
                 if (!Array.isArray(allArticles)) {
+
                     throw new Error(
                         'News data is not an array'
                     );
+
                 }
 
-                // The Python script already saves the newest
-                // articles first. We preserve that order.
+
                 updateArchiveCount();
 
                 renderArticles();
+
 
             } catch (error) {
 
@@ -445,18 +741,24 @@
                     error
                 );
 
+
                 document.getElementById(
                     'articles-container'
                 ).innerHTML = `
+
                     <div class="empty-state">
+
                         <p>
                             No articles found yet.
                         </p>
+
                         <p>
                             Make sure the GitHub Actions
                             workflow has run successfully.
                         </p>
+
                     </div>
+
                 `;
 
             }
@@ -475,7 +777,8 @@
                     'archive-count'
                 );
 
-            const count = allArticles.length;
+            const count =
+                allArticles.length;
 
             countElement.textContent =
                 `${count.toLocaleString()} archived stories`;
@@ -484,12 +787,14 @@
 
 
         // ====================================================
-        // FILTER CURRENT ARTICLES
+        // FILTER ARTICLES
         // ====================================================
 
         function getFilteredArticles() {
 
-            if (currentCategory === 'all') {
+            if (
+                currentCategory === 'all'
+            ) {
 
                 return allArticles;
 
@@ -497,7 +802,8 @@
 
             return allArticles.filter(
                 article =>
-                    article.category === currentCategory
+                    article.category ===
+                    currentCategory
             );
 
         }
@@ -507,7 +813,9 @@
         // FORMAT DATE
         // ====================================================
 
-        function formatDate(dateString) {
+        function formatDate(
+            dateString
+        ) {
 
             if (!dateString) {
                 return 'Unknown date';
@@ -524,7 +832,11 @@
             const month = parts[1];
             const day = parts[2];
 
-            return `${year}년 ${month}월 ${day}일`;
+            return (
+                `${year}년 ` +
+                `${month}월 ` +
+                `${day}일`
+            );
 
         }
 
@@ -533,13 +845,16 @@
         // FORMAT TIME
         // ====================================================
 
-        function formatTime(article) {
+        function formatTime(
+            article
+        ) {
 
-            // New archive entries contain published_at.
             if (article.published_at) {
 
                 const parts =
-                    article.published_at.split(' ');
+                    article.published_at.split(
+                        ' '
+                    );
 
                 if (parts.length >= 2) {
 
@@ -551,7 +866,6 @@
 
             }
 
-            // Older articles may not contain a time.
             return '';
 
         }
@@ -561,19 +875,40 @@
         // ESCAPE HTML
         // ====================================================
 
-        function escapeHtml(value) {
+        function escapeHtml(
+            value
+        ) {
 
-            if (value === null ||
-                value === undefined) {
+            if (
+                value === null ||
+                value === undefined
+            ) {
+
                 return '';
+
             }
 
             return String(value)
-                .replace(/&/g, '&amp;')
-                .replace(/</g, '&lt;')
-                .replace(/>/g, '&gt;')
-                .replace(/"/g, '&quot;')
-                .replace(/'/g, '&#039;');
+                .replace(
+                    /&/g,
+                    '&amp;'
+                )
+                .replace(
+                    /</g,
+                    '&lt;'
+                )
+                .replace(
+                    />/g,
+                    '&gt;'
+                )
+                .replace(
+                    /"/g,
+                    '&quot;'
+                )
+                .replace(
+                    /'/g,
+                    '&#039;'
+                );
 
         }
 
@@ -599,8 +934,10 @@
                     'load-more-btn'
                 );
 
+
             const filteredArticles =
                 getFilteredArticles();
+
 
             if (
                 !filteredArticles ||
@@ -608,18 +945,24 @@
             ) {
 
                 container.innerHTML = `
+
                     <div class="empty-state">
+
                         <p>
                             No articles available
                             for this category.
                         </p>
+
                     </div>
+
                 `;
+
 
                 loadMoreContainer.style.display =
                     'none';
 
                 return;
+
             }
 
 
@@ -633,183 +976,328 @@
             // Group stories by date.
             const groups = {};
 
-            visibleArticles.forEach(article => {
 
-                const date =
-                    article.date || 'Unknown';
+            visibleArticles.forEach(
+                article => {
 
-                if (!groups[date]) {
-                    groups[date] = [];
+                    const date =
+                        article.date ||
+                        'Unknown';
+
+
+                    if (!groups[date]) {
+
+                        groups[date] = [];
+
+                    }
+
+
+                    groups[date].push(
+                        article
+                    );
+
                 }
-
-                groups[date].push(article);
-
-            });
+            );
 
 
             let html = '';
 
 
-            Object.keys(groups).forEach(date => {
+            Object.keys(groups).forEach(
+                date => {
 
-                const articlesForDate =
-                    groups[date];
-
-                html += `
-                    <section class="date-section">
-
-                        <div class="date-heading">
-
-                            <h2>
-                                ${escapeHtml(
-                                    formatDate(date)
-                                )}
-                            </h2>
-
-                            <span class="story-count">
-                                ${articlesForDate.length}
-                                ${articlesForDate.length === 1
-                                    ? 'story'
-                                    : 'stories'}
-                            </span>
-
-                        </div>
-                `;
-
-
-                articlesForDate.forEach(article => {
-
-                    const category =
-                        escapeHtml(
-                            article.category
-                        );
-
-                    const title =
-                        escapeHtml(
-                            article.title
-                        );
-
-                    const body =
-                        escapeHtml(
-                            article.body
-                        ).replace(
-                            /\n/g,
-                            '<br>'
-                        );
-
-                    const vocabulary =
-                        article.vocab
-                            ? escapeHtml(
-                                article.vocab
-                            )
-                            : '';
-
-                    const translation =
-                        article.translation
-                            ? escapeHtml(
-                                article.translation
-                            ).replace(
-                                /\n/g,
-                                '<br>'
-                            )
-                            : '';
-
-                    const time =
-                        formatTime(article);
+                    const articlesForDate =
+                        groups[date];
 
 
                     html += `
-                        <article class="news-card">
 
-                            <div class="news-meta">
+                        <section
+                            class="date-section"
+                        >
 
-                                <span class="news-category">
-                                    ${category}
+                            <div
+                                class="date-heading"
+                            >
+
+                                <h2>
+                                    ${escapeHtml(
+                                        formatDate(date)
+                                    )}
+                                </h2>
+
+                                <span
+                                    class="story-count"
+                                >
+                                    ${
+                                        articlesForDate.length
+                                    }
+                                    ${
+                                        articlesForDate.length === 1
+                                            ? 'story'
+                                            : 'stories'
+                                    }
                                 </span>
 
-                                ${
-                                    time
-                                    ? `
-                                        <span class="news-time">
-                                            ${escapeHtml(time)}
+                            </div>
+
+                    `;
+
+
+                    articlesForDate.forEach(
+                        article => {
+
+                            const category =
+                                escapeHtml(
+                                    article.category
+                                );
+
+
+                            const title =
+                                escapeHtml(
+                                    article.title
+                                );
+
+
+                            const body =
+                                escapeHtml(
+                                    article.body
+                                ).replace(
+                                    /\n/g,
+                                    '<br>'
+                                );
+
+
+                            const vocabulary =
+                                article.vocab
+                                    ? escapeHtml(
+                                        article.vocab
+                                    )
+                                    : '';
+
+
+                            const translation =
+                                article.translation
+                                    ? escapeHtml(
+                                        article.translation
+                                    ).replace(
+                                        /\n/g,
+                                        '<br>'
+                                    )
+                                    : '';
+
+
+                            const time =
+                                formatTime(
+                                    article
+                                );
+
+
+                            const articleId =
+                                `article-${
+                                    allArticles.indexOf(
+                                        article
+                                    )
+                                }`;
+
+
+                            html += `
+
+                                <article
+                                    class="news-card"
+                                >
+
+                                    <div
+                                        class="news-meta"
+                                    >
+
+                                        <span
+                                            class="news-category"
+                                        >
+                                            ${category}
                                         </span>
-                                      `
-                                    : ''
-                                }
 
-                            </div>
-
-
-                            <h2 class="news-title">
-                                ${title}
-                            </h2>
-
-
-                            <div class="news-body">
-                                <p>
-                                    ${body}
-                                </p>
-                            </div>
-
-
-                            ${
-                                vocabulary
-                                ? `
-                                    <div class="vocab-section">
-
-                                        <strong>
-                                            Key Vocabulary:
-                                        </strong>
-
-                                        <br>
-
-                                        ${vocabulary}
+                                        ${
+                                            time
+                                            ? `
+                                                <span
+                                                    class="news-time"
+                                                >
+                                                    ${escapeHtml(
+                                                        time
+                                                    )}
+                                                </span>
+                                              `
+                                            : ''
+                                        }
 
                                     </div>
-                                  `
-                                : ''
-                            }
 
 
-                            ${
-                                translation
-                                ? `
-                                    <button
-                                        class="toggle-trans-btn"
-                                        onclick="toggleTranslation(this)"
+                                    <h2
+                                        class="news-title"
                                     >
-                                        Toggle Translation
-                                    </button>
+                                        ${title}
+                                    </h2>
 
-                                    <div class="translation-box">
+
+                                    <div
+                                        class="audio-controls"
+                                    >
+
+                                        <button
+                                            class="audio-btn audio-play-btn"
+                                            onclick="speakArticle(
+                                                '${articleId}',
+                                                document.getElementById('${articleId}-text').innerText,
+                                                this
+                                            )"
+                                        >
+                                            ▶ Listen
+                                        </button>
+
+
+                                        <button
+                                            class="audio-btn"
+                                            onclick="pauseSpeech()"
+                                        >
+                                            Ⅱ Pause
+                                        </button>
+
+
+                                        <button
+                                            class="audio-btn"
+                                            onclick="resumeSpeech()"
+                                        >
+                                            ▶ Resume
+                                        </button>
+
+
+                                        <button
+                                            class="audio-btn"
+                                            onclick="stopSpeech()"
+                                        >
+                                            ■ Stop
+                                        </button>
+
+
+                                        <span
+                                            class="speed-label"
+                                        >
+                                            Speed:
+                                        </span>
+
+
+                                        <select
+                                            id="speed-${articleId}"
+                                            class="speed-select"
+                                        >
+
+                                            <option value="0.75">
+                                                0.75×
+                                            </option>
+
+                                            <option
+                                                value="1"
+                                                selected
+                                            >
+                                                1×
+                                            </option>
+
+                                            <option value="1.25">
+                                                1.25×
+                                            </option>
+
+                                            <option value="1.5">
+                                                1.5×
+                                            </option>
+
+                                        </select>
+
+                                    </div>
+
+
+                                    <div
+                                        id="${articleId}-text"
+                                        class="news-body"
+                                    >
 
                                         <p>
-                                            ${translation}
+                                            ${body}
                                         </p>
 
                                     </div>
-                                  `
-                                : ''
-                            }
 
-                        </article>
+
+                                    ${
+                                        vocabulary
+                                        ? `
+
+                                            <div
+                                                class="vocab-section"
+                                            >
+
+                                                <strong>
+                                                    Key Vocabulary:
+                                                </strong>
+
+                                                <br>
+
+                                                ${vocabulary}
+
+                                            </div>
+
+                                          `
+                                        : ''
+                                    }
+
+
+                                    ${
+                                        translation
+                                        ? `
+
+                                            <button
+                                                class="toggle-trans-btn"
+                                                onclick="toggleTranslation(this)"
+                                            >
+                                                Toggle Translation
+                                            </button>
+
+
+                                            <div
+                                                class="translation-box"
+                                            >
+
+                                                <p>
+                                                    ${translation}
+                                                </p>
+
+                                            </div>
+
+                                          `
+                                        : ''
+                                    }
+
+                                </article>
+
+                            `;
+
+                        }
+                    );
+
+
+                    html += `
+                        </section>
                     `;
 
-                });
+                }
+            );
 
 
-                html += `
-                    </section>
-                `;
-
-            });
+            container.innerHTML =
+                html;
 
 
-            container.innerHTML = html;
-
-
-            // Decide whether the Load More button
-            // should be displayed.
             if (
                 visibleArticles.length <
                 filteredArticles.length
@@ -818,9 +1306,14 @@
                 loadMoreContainer.style.display =
                     'block';
 
+
                 loadMoreButton.textContent =
                     `Load More Stories ` +
-                    `(${filteredArticles.length - visibleArticles.length} remaining)`;
+                    `(${
+                        filteredArticles.length -
+                        visibleArticles.length
+                    } remaining)`;
+
 
             } else {
 
@@ -841,23 +1334,36 @@
             button
         ) {
 
-            currentCategory = category;
+            stopSpeech();
 
-            displayedCount = ARTICLES_PER_LOAD;
+            currentCategory =
+                category;
+
+            displayedCount =
+                ARTICLES_PER_LOAD;
+
 
             const buttons =
                 document.querySelectorAll(
                     '.tab-btn'
                 );
 
+
             buttons.forEach(
                 btn =>
-                    btn.classList.remove('active')
+                    btn.classList.remove(
+                        'active'
+                    )
             );
 
-            button.classList.add('active');
+
+            button.classList.add(
+                'active'
+            );
+
 
             renderArticles();
+
 
             window.scrollTo({
                 top: 0,
@@ -868,7 +1374,7 @@
 
 
         // ====================================================
-        // LOAD MORE STORIES
+        // LOAD MORE
         // ====================================================
 
         function loadMoreArticles() {
@@ -885,10 +1391,13 @@
         // TRANSLATION TOGGLE
         // ====================================================
 
-        function toggleTranslation(button) {
+        function toggleTranslation(
+            button
+        ) {
 
             const transBox =
                 button.nextElementSibling;
+
 
             if (
                 transBox.style.display ===
@@ -900,6 +1409,7 @@
 
                 button.textContent =
                     'Toggle Translation';
+
 
             } else {
 
@@ -928,4 +1438,3 @@
 </body>
 
 </html>
-```

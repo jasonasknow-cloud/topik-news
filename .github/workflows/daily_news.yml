@@ -2,7 +2,10 @@ name: Daily TOPIK News Automation
 
 on:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '7 6 * * *'
+      timezone: "Asia/Seoul"
+    - cron: '7 18 * * *'
+      timezone: "Asia/Seoul"
   workflow_dispatch:
 
 concurrency:

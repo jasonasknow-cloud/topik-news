@@ -170,13 +170,33 @@
 
     <div id="results" class="results">
 
-        <div class="result-section">
-            <h2>한국어 기사</h2>
+<div class="result-section">
+    <h2>한국어 기사</h2>
 
-            <div id="korean-article" class="placeholder">
-                Your TOPIK article will appear here.
-            </div>
-        </div>
+    <div style="margin-bottom: 15px;">
+        <button onclick="speakKorean()">▶ Play</button>
+        <button onclick="pauseSpeech()">⏸ Pause</button>
+        <button onclick="resumeSpeech()">▶ Resume</button>
+        <button onclick="stopSpeech()">⏹ Stop</button>
+
+        <label for="speech-rate" style="display: inline-block; margin-left: 10px;">
+            Speed:
+        </label>
+
+        <select id="speech-rate">
+            <option value="0.75">0.75×</option>
+            <option value="0.9">0.9×</option>
+            <option value="1" selected>1.0×</option>
+            <option value="1.1">1.1×</option>
+            <option value="1.25">1.25×</option>
+            <option value="1.5">1.5×</option>
+        </select>
+    </div>
+
+    <div id="korean-article" class="placeholder">
+        Your TOPIK article will appear here.
+    </div>
+</div>
 
         <div class="result-section">
             <h2>English Translation</h2>

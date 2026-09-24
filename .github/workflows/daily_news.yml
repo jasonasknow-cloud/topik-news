@@ -2,13 +2,11 @@ name: Daily TOPIK News Automation
 
 on:
   schedule:
-    - cron: '0 21 * * *'
-  workflow_dispatch:
+    - cron: '0 21 * * *' # Runs every day at 21:00 UTC (6:00 AM KST)
+  workflow_dispatch: # Allows you to run it manually anytime from GitHub!
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 jobs:
   update-news:
@@ -32,14 +30,10 @@ jobs:
         run: |
           python update_news.py
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add news_data.json
+          git commit -m "Auto-update daily TOPIK news [skip ci]" || exit 0
+          git push

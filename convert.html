@@ -110,6 +110,10 @@
             font-style: italic;
         }
 
+        .article-text {
+            white-space: pre-wrap;
+        }
+
         .back-link {
             display: inline-block;
             margin-top: 25px;
@@ -257,13 +261,17 @@
 
 async function generateArticle() {
 
-    const url = document.getElementById("article-url").value.trim();
+    const url =
+        document.getElementById("article-url").value.trim();
 
-    const level = document.getElementById("topik-level").value;
+    const level =
+        document.getElementById("topik-level").value;
 
-    const status = document.getElementById("status");
+    const status =
+        document.getElementById("status");
 
-    const results = document.getElementById("results");
+    const results =
+        document.getElementById("results");
 
 
     if (!url) {
@@ -280,8 +288,7 @@ async function generateArticle() {
     status.style.display = "block";
 
     status.textContent =
-        "Connecting to the TOPIK converter...";
-
+        "Generating your TOPIK article...";
 
     results.style.display = "block";
 
@@ -310,29 +317,132 @@ async function generateArticle() {
 
         if (data.success) {
 
-            status.textContent =
-                "Connection successful. Article URL received by the converter.";
+            const article =
+                data.article || "";
 
 
-            document.getElementById("korean-article").textContent =
-                "TEST SUCCESS: The Cloudflare backend received this URL:\n\n" +
-                data.received_url +
-                "\n\nTOPIK Level: " +
-                level;
+            const koreanMarker =
+                "[KOREAN ARTICLE]";
+
+            const englishMarker =
+                "[ENGLISH TRANSLATION]";
+
+            const vocabularyMarker =
+                "[VOCABULARY]";
 
 
-            document.getElementById("english-translation").textContent =
-                "The Gemini connection will be added next.";
+            const koreanStart =
+                article.indexOf(koreanMarker);
+
+            const englishStart =
+                article.indexOf(englishMarker);
+
+            const vocabularyStart =
+                article.indexOf(vocabularyMarker);
 
 
-            document.getElementById("vocabulary").textContent =
-                "Vocabulary will appear here once the converter is connected to Gemini.";
+            if (
+                koreanStart !== -1 &&
+                englishStart !== -1 &&
+                vocabularyStart !== -1
+            ) {
+
+                const koreanArticle =
+                    article
+                        .substring(
+                            koreanStart + koreanMarker.length,
+                            englishStart
+                        )
+                        .trim();
+
+
+                const englishTranslation =
+                    article
+                        .substring(
+                            englishStart + englishMarker.length,
+                            vocabularyStart
+                        )
+                        .trim();
+
+
+                const vocabulary =
+                    article
+                        .substring(
+                            vocabularyStart + vocabularyMarker.length
+                        )
+                        .trim();
+
+
+                document.getElementById(
+                    "korean-article"
+                ).textContent =
+                    koreanArticle;
+
+
+                document.getElementById(
+                    "english-translation"
+                ).textContent =
+                    englishTranslation;
+
+
+                document.getElementById(
+                    "vocabulary"
+                ).textContent =
+                    vocabulary;
+
+
+                document.getElementById(
+                    "korean-article"
+                ).className =
+                    "article-text";
+
+
+                document.getElementById(
+                    "english-translation"
+                ).className =
+                    "article-text";
+
+
+                document.getElementById(
+                    "vocabulary"
+                ).className =
+                    "article-text";
+
+
+                status.textContent =
+                    "Article generated successfully.";
+
+            } else {
+
+                document.getElementById(
+                    "korean-article"
+                ).textContent =
+                    article;
+
+
+                document.getElementById(
+                    "english-translation"
+                ).textContent =
+                    "The response did not use the expected format.";
+
+
+                document.getElementById(
+                    "vocabulary"
+                ).textContent =
+                    "See the Korean article section above for the complete Gemini response.";
+
+
+                status.textContent =
+                    "Gemini responded, but the response format was different than expected.";
+            }
+
 
         } else {
 
             status.textContent =
                 "The converter returned an error: " +
-                data.message;
+                (data.message || "Unknown error.");
+
         }
 
 
@@ -342,6 +452,7 @@ async function generateArticle() {
 
         status.textContent =
             "Could not connect to the converter. Please try again.";
+
     }
 }
 
@@ -351,24 +462,36 @@ function clearArticle() {
     stopSpeech();
 
 
-    document.getElementById("article-url").value = "";
+    document.getElementById(
+        "article-url"
+    ).value = "";
 
 
-    document.getElementById("status").style.display = "none";
+    document.getElementById(
+        "status"
+    ).style.display = "none";
 
 
-    document.getElementById("results").style.display = "none";
+    document.getElementById(
+        "results"
+    ).style.display = "none";
 
 
-    document.getElementById("korean-article").textContent =
+    document.getElementById(
+        "korean-article"
+    ).textContent =
         "Your TOPIK article will appear here.";
 
 
-    document.getElementById("english-translation").textContent =
+    document.getElementById(
+        "english-translation"
+    ).textContent =
         "The English translation will appear here.";
 
 
-    document.getElementById("vocabulary").textContent =
+    document.getElementById(
+        "vocabulary"
+    ).textContent =
         "Important TOPIK vocabulary will appear here.";
 }
 
@@ -376,12 +499,15 @@ function clearArticle() {
 function speakKorean() {
 
     const article =
-        document.getElementById("korean-article").innerText.trim();
+        document.getElementById(
+            "korean-article"
+        ).innerText.trim();
 
 
     if (
         !article ||
-        article === "Your TOPIK article will appear here."
+        article ===
+            "Your TOPIK article will appear here."
     ) {
         return;
     }
@@ -394,27 +520,36 @@ function speakKorean() {
         new SpeechSynthesisUtterance(article);
 
 
-    utterance.lang = "ko-KR";
+    utterance.lang =
+        "ko-KR";
 
 
     const rate =
         parseFloat(
-            document.getElementById("speech-rate").value
+            document.getElementById(
+                "speech-rate"
+            ).value
         );
 
 
-    utterance.rate = rate;
+    utterance.rate =
+        rate;
 
-    utterance.pitch = 1;
+    utterance.pitch =
+        1;
 
 
-    window.speechSynthesis.speak(utterance);
+    window.speechSynthesis.speak(
+        utterance
+    );
 }
 
 
 function pauseSpeech() {
 
-    if (window.speechSynthesis.speaking) {
+    if (
+        window.speechSynthesis.speaking
+    ) {
 
         window.speechSynthesis.pause();
     }
@@ -423,7 +558,9 @@ function pauseSpeech() {
 
 function resumeSpeech() {
 
-    if (window.speechSynthesis.paused) {
+    if (
+        window.speechSynthesis.paused
+    ) {
 
         window.speechSynthesis.resume();
     }

@@ -131,6 +131,21 @@
             white-space: pre-wrap;
         }
 
+        /* Select Korean text button */
+        .select-text-button {
+            margin-top: 15px;
+            padding: 9px 14px;
+            font-size: 14px;
+            background: white;
+            color: #333;
+            border: 1px solid #aaa;
+            border-radius: 6px;
+        }
+
+        .select-text-button:hover {
+            background: #f0f0f0;
+        }
+
         .back-link {
             display: inline-block;
             margin-top: 25px;
@@ -256,6 +271,15 @@ You do not need to clean it up first. Photo captions, bylines, related-story lin
             <div id="korean-article" class="placeholder">
                 Your TOPIK article will appear here.
             </div>
+
+            <button
+                id="select-korean-button"
+                class="select-text-button"
+                onclick="selectKoreanArticle()"
+                style="display: none;"
+            >
+                📋 Select All Korean
+            </button>
 
         </div>
 
@@ -456,6 +480,18 @@ async function generateArticle() {
                     "article-text";
 
 
+                document.getElementById(
+                    "select-korean-button"
+                ).style.display =
+                    "inline-block";
+
+
+                document.getElementById(
+                    "select-korean-button"
+                ).textContent =
+                    "📋 Select All Korean";
+
+
                 status.textContent =
                     "Article generated successfully.";
 
@@ -477,6 +513,18 @@ async function generateArticle() {
                     "vocabulary"
                 ).textContent =
                     "See the Korean article section above for the complete Gemini response.";
+
+
+                document.getElementById(
+                    "select-korean-button"
+                ).style.display =
+                    "inline-block";
+
+
+                document.getElementById(
+                    "select-korean-button"
+                ).textContent =
+                    "📋 Select All Korean";
 
 
                 status.textContent =
@@ -503,6 +551,66 @@ async function generateArticle() {
         status.textContent =
             "Could not connect to the converter. Please try again.";
 
+    }
+}
+
+
+/*
+ * Select the generated Korean article text.
+ *
+ * This lets iPhone users use the native text-selection
+ * menu and choose Play, which can use the iPhone's
+ * installed premium Korean voice.
+ */
+function selectKoreanArticle() {
+
+    const article =
+        document.getElementById(
+            "korean-article"
+        );
+
+    const button =
+        document.getElementById(
+            "select-korean-button"
+        );
+
+
+    if (!article) {
+        return;
+    }
+
+
+    const selection =
+        window.getSelection();
+
+    const range =
+        document.createRange();
+
+
+    range.selectNodeContents(
+        article
+    );
+
+
+    selection.removeAllRanges();
+
+    selection.addRange(
+        range
+    );
+
+
+    if (button) {
+
+        button.textContent =
+            "✓ Korean Text Selected";
+
+
+        setTimeout(function () {
+
+            button.textContent =
+                "📋 Select All Korean";
+
+        }, 1500);
     }
 }
 
@@ -543,6 +651,12 @@ function clearArticle() {
         "vocabulary"
     ).textContent =
         "Important TOPIK vocabulary will appear here.";
+
+
+    document.getElementById(
+        "select-korean-button"
+    ).style.display =
+        "none";
 }
 
 

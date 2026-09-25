@@ -40,14 +40,31 @@
             margin-bottom: 8px;
         }
 
-        input[type="url"] {
+        textarea {
             width: 100%;
             box-sizing: border-box;
             padding: 14px;
+            font-family: Arial, sans-serif;
             font-size: 16px;
+            line-height: 1.6;
             border: 1px solid #ccc;
             border-radius: 6px;
             margin-bottom: 15px;
+            resize: vertical;
+            min-height: 300px;
+        }
+
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: #777;
+        }
+
+        .input-help {
+            color: #777;
+            font-size: 14px;
+            margin-top: -8px;
+            margin-bottom: 18px;
         }
 
         button {
@@ -138,6 +155,10 @@
             button {
                 margin-bottom: 8px;
             }
+
+            textarea {
+                min-height: 250px;
+            }
         }
     </style>
 </head>
@@ -147,18 +168,25 @@
     <h1>TOPIK Article Converter</h1>
 
     <p class="subtitle">
-        Turn a Korean or English news article into a TOPIK study article.
+        Paste a Korean or English news article and turn it into a TOPIK study article.
     </p>
 
     <div class="converter-box">
 
-        <label for="article-url">News Article URL</label>
+        <label for="article-text-input">
+            News Article
+        </label>
 
-        <input
-            type="url"
-            id="article-url"
-            placeholder="Paste the news article URL here"
-        >
+        <textarea
+            id="article-text-input"
+            placeholder="Paste the article text here. Korean or English is fine.
+
+You do not need to clean it up first. Photo captions, bylines, related-story links, and other obvious website clutter are okay."
+        ></textarea>
+
+        <div class="input-help">
+            Quick and dirty is fine. Paste the article as-is and the converter will focus on the actual news story.
+        </div>
 
         <label for="topik-level" style="margin-top: 15px;">
             TOPIK Level
@@ -197,6 +225,7 @@
     <div id="results" class="results">
 
         <div class="result-section">
+
             <h2>한국어 기사</h2>
 
             <div style="margin-bottom: 15px;">
@@ -261,25 +290,33 @@
 
 async function generateArticle() {
 
-    const url =
-        document.getElementById("article-url").value.trim();
+    const articleText =
+        document.getElementById(
+            "article-text-input"
+        ).value.trim();
 
     const level =
-        document.getElementById("topik-level").value;
+        document.getElementById(
+            "topik-level"
+        ).value;
 
     const status =
-        document.getElementById("status");
+        document.getElementById(
+            "status"
+        );
 
     const results =
-        document.getElementById("results");
+        document.getElementById(
+            "results"
+        );
 
 
-    if (!url) {
+    if (!articleText) {
 
         status.style.display = "block";
 
         status.textContent =
-            "Please paste a news article URL first.";
+            "Please paste the news article text first.";
 
         return;
     }
@@ -305,14 +342,15 @@ async function generateArticle() {
                 },
 
                 body: JSON.stringify({
-                    url: url,
+                    article_text: articleText,
                     level: level
                 })
             }
         );
 
 
-        const data = await response.json();
+        const data =
+            await response.json();
 
 
         if (data.success) {
@@ -332,13 +370,19 @@ async function generateArticle() {
 
 
             const koreanStart =
-                article.indexOf(koreanMarker);
+                article.indexOf(
+                    koreanMarker
+                );
 
             const englishStart =
-                article.indexOf(englishMarker);
+                article.indexOf(
+                    englishMarker
+                );
 
             const vocabularyStart =
-                article.indexOf(vocabularyMarker);
+                article.indexOf(
+                    vocabularyMarker
+                );
 
 
             if (
@@ -350,7 +394,8 @@ async function generateArticle() {
                 const koreanArticle =
                     article
                         .substring(
-                            koreanStart + koreanMarker.length,
+                            koreanStart +
+                                koreanMarker.length,
                             englishStart
                         )
                         .trim();
@@ -359,7 +404,8 @@ async function generateArticle() {
                 const englishTranslation =
                     article
                         .substring(
-                            englishStart + englishMarker.length,
+                            englishStart +
+                                englishMarker.length,
                             vocabularyStart
                         )
                         .trim();
@@ -368,7 +414,8 @@ async function generateArticle() {
                 const vocabulary =
                     article
                         .substring(
-                            vocabularyStart + vocabularyMarker.length
+                            vocabularyStart +
+                                vocabularyMarker.length
                         )
                         .trim();
 
@@ -441,7 +488,10 @@ async function generateArticle() {
 
             status.textContent =
                 "The converter returned an error: " +
-                (data.message || "Unknown error.");
+                (
+                    data.message ||
+                    "Unknown error."
+                );
 
         }
 
@@ -463,7 +513,7 @@ function clearArticle() {
 
 
     document.getElementById(
-        "article-url"
+        "article-text-input"
     ).value = "";
 
 
@@ -517,7 +567,9 @@ function speakKorean() {
 
 
     const utterance =
-        new SpeechSynthesisUtterance(article);
+        new SpeechSynthesisUtterance(
+            article
+        );
 
 
     utterance.lang =

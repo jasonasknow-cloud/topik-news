@@ -1,33 +1,25 @@
-html
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <title>TOPIK News Study</title>
 
-    <title>TOPIK Daily News Reader</title>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
-        rel="stylesheet"
-    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
 
     <style>
-
         :root {
             --bg-color: #f5f7fa;
-            --card-bg: #ffffff;
-            --text-color: #243447;
-            --text-muted: #718096;
-            --accent-color: #2980b9;
-            --border-color: #e2e8f0;
-            --trans-bg: #f8fafc;
-            --date-bg: #eef5fb;
+            --card-color: #ffffff;
+            --text-color: #222222;
+            --muted-color: #777777;
+            --accent-color: #2563eb;
+            --accent-hover: #1d4ed8;
+            --border-color: #e5e7eb;
+            --green-color: #15803d;
         }
 
         * {
@@ -35,225 +27,148 @@ html
         }
 
         body {
-            font-family: 'Noto Sans KR', sans-serif;
-            background-color: var(--bg-color);
+            margin: 0;
+            font-family: "Noto Sans KR", Arial, sans-serif;
+            background: var(--bg-color);
             color: var(--text-color);
-            margin: 0;
-            padding: 0;
-            line-height: 1.8;
-        }
-
-        header {
-            background-color: var(--card-bg);
-            border-bottom: 1px solid var(--border-color);
-            padding: 28px 20px 22px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 1.7rem;
-            color: var(--accent-color);
-        }
-
-        header p {
-            margin: 6px 0 0;
-            font-size: 0.9rem;
-            color: var(--text-muted);
-        }
-
-        .converter-link {
-            display: inline-block;
-            margin-top: 14px;
-            padding: 8px 16px;
-            border: 1px solid var(--accent-color);
-            border-radius: 20px;
-            color: var(--accent-color);
-            background: white;
-            text-decoration: none;
-            font-size: 0.88rem;
-            font-weight: 500;
-            transition: all 0.2s;
-        }
-
-        .converter-link:hover {
-            background: var(--accent-color);
-            color: white;
-        }
-
-        .archive-count {
-            margin-top: 8px;
-            font-size: 0.82rem;
-            color: var(--text-muted);
+            line-height: 1.7;
         }
 
         .container {
-            max-width: 850px;
-            margin: 30px auto 60px;
-            padding: 0 20px;
+            width: min(100% - 32px, 900px);
+            margin: 0 auto;
         }
 
-        .nav-tabs {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 30px;
-            overflow-x: auto;
-            padding-bottom: 5px;
+        header {
+            background: var(--card-color);
+            border-bottom: 1px solid var(--border-color);
+            padding: 28px 0 22px;
         }
 
-        .tab-btn {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            padding: 8px 16px;
-            border-radius: 20px;
-            cursor: pointer;
+        header h1 {
+            margin: 0 0 6px;
+            font-size: 2rem;
+        }
+
+        header p {
+            margin: 0;
+            color: var(--muted-color);
             font-size: 0.95rem;
-            font-weight: 500;
-            color: var(--text-color);
-            transition: all 0.2s;
-            white-space: nowrap;
         }
 
-        .tab-btn.active,
-        .tab-btn:hover {
+        .header-links {
+            margin-top: 14px;
+        }
+
+        .header-links a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .header-links a:hover {
+            text-decoration: underline;
+        }
+
+        .category-tabs {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 24px 0;
+        }
+
+        .category-btn {
+            border: 1px solid var(--border-color);
+            background: white;
+            color: #444;
+            padding: 8px 14px;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .category-btn:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        .category-btn.active {
             background: var(--accent-color);
             color: white;
             border-color: var(--accent-color);
         }
 
-        .date-section {
-            margin-bottom: 35px;
-        }
-
-        .date-heading {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin: 35px 0 18px;
-            padding: 10px 14px;
-            background: var(--date-bg);
-            border-left: 4px solid var(--accent-color);
-            border-radius: 6px;
-        }
-
-        .date-heading h2 {
-            margin: 0;
-            font-size: 1.1rem;
-            color: var(--text-color);
-        }
-
-        .date-heading .story-count {
-            color: var(--text-muted);
-            font-size: 0.8rem;
+        .archive-count {
+            color: var(--muted-color);
+            font-size: 0.85rem;
+            margin-bottom: 16px;
         }
 
         .news-card {
-            background: var(--card-bg);
+            background: var(--card-color);
             border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 28px;
-            margin-bottom: 22px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+            border-radius: 10px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 7px rgba(0, 0, 0, 0.03);
         }
 
         .news-meta {
+            color: var(--muted-color);
             font-size: 0.82rem;
-            color: var(--text-muted);
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .news-category {
-            font-weight: 700;
-            color: var(--accent-color);
-        }
-
-        .news-time {
-            color: var(--text-muted);
+            margin-bottom: 8px;
         }
 
         .news-title {
-            font-size: 1.3rem;
-            line-height: 1.5;
-            font-weight: 700;
-            margin-top: 0;
-            margin-bottom: 15px;
+            font-size: 1.45rem;
+            line-height: 1.45;
+            margin: 0 0 16px;
+        }
+
+        .audio-controls {
+            display: flex;
+            gap: 7px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 18px;
+        }
+
+        .audio-btn {
+            border: 1px solid var(--border-color);
+            background: white;
+            color: #333;
+            padding: 7px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.84rem;
+        }
+
+        .audio-btn:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        .speed-select {
+            border: 1px solid var(--border-color);
+            background: white;
+            padding: 7px 9px;
+            border-radius: 6px;
+            font-size: 0.84rem;
         }
 
         .news-body {
-            font-size: 1.05rem;
-            margin-bottom: 20px;
+            font-size: 1.02rem;
+            line-height: 1.9;
         }
 
         .news-body p {
             margin: 0;
         }
 
-        .vocab-section {
-            background: #fffdf4;
-            border: 1px solid #fef3c7;
-            border-radius: 8px;
-            padding: 13px 16px;
+        /* Select Korean text button */
+        .select-text-btn {
+            margin-top: 14px;
             margin-bottom: 20px;
-            font-size: 0.9rem;
-        }
-
-        .vocab-section strong {
-            color: #d97706;
-        }
-
-        .translation-box {
-            background: var(--trans-bg);
-            border-left: 4px solid var(--accent-color);
-            padding: 15px;
-            margin-top: 15px;
-            margin-bottom: 15px;
-            font-size: 0.95rem;
-            display: none;
-            border-radius: 0 6px 6px 0;
-        }
-
-        .translation-box p {
-            margin: 0;
-        }
-
-        .toggle-trans-btn {
-            background: none;
-            border: 1px solid var(--accent-color);
-            color: var(--accent-color);
-            padding: 6px 13px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            font-weight: 500;
-            margin-right: 8px;
-        }
-
-        .toggle-trans-btn:hover {
-            background: var(--accent-color);
-            color: white;
-        }
-
-        /* =========================
-           AUDIO CONTROLS
-           ========================= */
-
-        .audio-controls {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin-bottom: 16px;
-            padding: 12px 14px;
-            background: #f8fafc;
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-        }
-
-        .audio-btn {
             border: 1px solid var(--accent-color);
             background: white;
             color: var(--accent-color);
@@ -264,1204 +179,785 @@ html
             font-weight: 500;
         }
 
-        .audio-btn:hover {
+        .select-text-btn:hover {
             background: var(--accent-color);
             color: white;
         }
 
-        .speed-label {
-            font-size: 0.82rem;
-            color: var(--text-muted);
-            margin-left: 4px;
+        .vocab-section {
+            margin-top: 8px;
+            padding-top: 18px;
+            border-top: 1px solid var(--border-color);
         }
 
-        .speed-select {
+        .vocab-section h3 {
+            margin: 0 0 12px;
+            font-size: 1rem;
+        }
+
+        .vocab-list {
+            margin: 0;
+            padding-left: 22px;
+        }
+
+        .vocab-list li {
+            margin-bottom: 7px;
+        }
+
+        .translation-toggle {
+            margin-top: 18px;
+        }
+
+        .translation-btn {
             border: 1px solid var(--border-color);
             background: white;
-            padding: 6px 9px;
+            color: #444;
+            padding: 7px 12px;
             border-radius: 6px;
-            font-size: 0.85rem;
-            color: var(--text-color);
             cursor: pointer;
+            font-size: 0.84rem;
         }
 
-        .loading {
-            text-align: center;
-            color: var(--text-muted);
-            padding: 50px 20px;
+        .translation-btn:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
         }
 
-        .empty-state {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 40px 20px;
-            text-align: center;
-            color: var(--text-muted);
+        .translation-box {
+            margin-top: 12px;
+            padding: 16px;
+            background: #f8fafc;
+            border-left: 3px solid var(--accent-color);
+            border-radius: 5px;
+            line-height: 1.8;
         }
 
         .load-more-container {
             text-align: center;
-            margin-top: 30px;
+            margin: 28px 0 50px;
         }
 
         .load-more-btn {
-            background: var(--card-bg);
             border: 1px solid var(--accent-color);
-            color: var(--accent-color);
-            padding: 10px 22px;
-            border-radius: 20px;
+            background: var(--accent-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 7px;
             cursor: pointer;
-            font-size: 0.95rem;
-            font-weight: 500;
+            font-size: 0.9rem;
         }
 
         .load-more-btn:hover {
-            background: var(--accent-color);
-            color: white;
+            background: var(--accent-hover);
+        }
+
+        .loading,
+        .error-message {
+            text-align: center;
+            padding: 50px 20px;
+            color: var(--muted-color);
+        }
+
+        .error-message {
+            color: #b91c1c;
         }
 
         footer {
+            border-top: 1px solid var(--border-color);
+            padding: 28px 0;
+            color: var(--muted-color);
+            font-size: 0.8rem;
             text-align: center;
-            color: var(--text-muted);
-            font-size: 0.78rem;
-            padding: 20px;
         }
 
         @media (max-width: 600px) {
-
-            header {
-                padding: 22px 15px 18px;
+            .container {
+                width: min(100% - 22px, 900px);
             }
 
             header h1 {
-                font-size: 1.4rem;
-            }
-
-            .container {
-                padding: 0 14px;
-                margin-top: 22px;
+                font-size: 1.65rem;
             }
 
             .news-card {
-                padding: 21px;
+                padding: 18px;
             }
 
             .news-title {
-                font-size: 1.15rem;
+                font-size: 1.25rem;
             }
 
             .news-body {
-                font-size: 1rem;
+                font-size: 0.98rem;
             }
-
-            .date-heading {
-                margin-top: 25px;
-            }
-
-            .audio-controls {
-                gap: 6px;
-            }
-
         }
-
     </style>
 </head>
 
-
 <body>
 
-    <header>
-
-        <h1>TOPIK Daily News Reader</h1>
-
-        <p>
-            Advanced Korean Reading Practice (Levels 4–6)
-        </p>
-
-        <a
-            href="convert.html"
-            class="converter-link"
-        >
-            📝 Convert an Article
-        </a>
-
-        <div
-            id="archive-count"
-            class="archive-count"
-        >
-            Loading archive...
-        </div>
-
-    </header>
-
-
+<header>
     <div class="container">
+        <h1>TOPIK News Study</h1>
+        <p>Learn Korean through current news articles.</p>
 
-        <div class="nav-tabs">
-
-            <button
-                class="tab-btn active"
-                onclick="filterCategory('all', this)"
-            >
-                All News
-            </button>
-
-            <button
-                class="tab-btn"
-                onclick="filterCategory('정치', this)"
-            >
-                정치 (Politics)
-            </button>
-
-            <button
-                class="tab-btn"
-                onclick="filterCategory('경제', this)"
-            >
-                경제 (Business)
-            </button>
-
-            <button
-                class="tab-btn"
-                onclick="filterCategory('사회', this)"
-            >
-                사회 (Society)
-            </button>
-
-            <button
-                class="tab-btn"
-                onclick="filterCategory('세계', this)"
-            >
-                세계 (World)
-            </button>
-
+        <div class="header-links">
+            <a href="convert.html">→ Convert Your Own Article</a>
         </div>
+    </div>
+</header>
 
+<main class="container">
 
-        <div id="articles-container">
+    <div class="category-tabs">
+        <button class="category-btn active" data-category="all">
+            All
+        </button>
 
-            <div class="loading">
-                Loading news archive...
-            </div>
+        <button class="category-btn" data-category="society">
+            Society
+        </button>
 
-        </div>
+        <button class="category-btn" data-category="economy">
+            Economy
+        </button>
 
+        <button class="category-btn" data-category="technology">
+            Technology
+        </button>
 
-        <div
-            id="load-more-container"
-            class="load-more-container"
-            style="display: none;"
-        >
+        <button class="category-btn" data-category="culture">
+            Culture
+        </button>
 
-            <button
-                id="load-more-btn"
-                class="load-more-btn"
-                onclick="loadMoreArticles()"
-            >
-                Load More Stories
-            </button>
-
-        </div>
-
+        <button class="category-btn" data-category="world">
+            World
+        </button>
     </div>
 
+    <div id="archive-count" class="archive-count"></div>
 
-    <footer>
-        TOPIK Daily News Reader
-    </footer>
+    <div id="articles-container">
+        <div class="loading">
+            Loading news...
+        </div>
+    </div>
 
+    <div class="load-more-container">
+        <button
+            id="load-more-btn"
+            class="load-more-btn"
+            style="display:none;"
+        >
+            Load More
+        </button>
+    </div>
 
-    <script>
+</main>
 
-        let allArticles = [];
+<footer>
+    TOPIK News Study
+</footer>
 
-        let currentCategory = 'all';
+<script>
+    let allArticles = [];
+    let filteredArticles = [];
+    let currentCategory = "all";
+    let displayedCount = 10;
 
-        let displayedCount = 20;
+    let speechSupported = "speechSynthesis" in window;
+    let availableVoices = [];
+    let currentUtterance = null;
 
-        const ARTICLES_PER_LOAD = 20;
-
-
-        // ====================================================
-        // AUDIO / TEXT-TO-SPEECH
-        // ====================================================
-
-        const speechSupported =
-            'speechSynthesis' in window &&
-            'SpeechSynthesisUtterance' in window;
-
-        let availableVoices = [];
-
-        let currentUtterance = null;
-
-
-        function loadSpeechVoices() {
-
-            if (!speechSupported) {
-                return;
-            }
-
-            availableVoices =
-                window.speechSynthesis.getVoices();
-
+    /*
+     * Load available speech voices.
+     */
+    function loadSpeechVoices() {
+        if (!speechSupported) {
+            return;
         }
 
+        availableVoices = speechSynthesis.getVoices();
+    }
 
-        if (speechSupported) {
+    if (speechSupported) {
+        loadSpeechVoices();
 
+        speechSynthesis.onvoiceschanged = function () {
             loadSpeechVoices();
+        };
+    }
 
-            if (
-                'onvoiceschanged'
-                in window.speechSynthesis
-            ) {
-
-                window.speechSynthesis.onvoiceschanged =
-                    loadSpeechVoices;
-
-            }
-
+    /*
+     * Find the best Korean voice available to the browser.
+     */
+    function getKoreanVoice() {
+        if (!availableVoices.length) {
+            return null;
         }
 
+        const koreanVoices = availableVoices.filter(function (voice) {
+            return voice.lang &&
+                voice.lang.toLowerCase().startsWith("ko");
+        });
 
-        function getKoreanVoice() {
-
-            if (!availableVoices ||
-                availableVoices.length === 0) {
-
-                availableVoices =
-                    window.speechSynthesis.getVoices();
-
-            }
-
-            // Prefer an exact Korean Korea voice.
-            let voice =
-                availableVoices.find(
-                    v => v.lang === 'ko-KR'
-                );
-
-            if (voice) {
-                return voice;
-            }
-
-            // Otherwise accept any Korean voice.
-            voice =
-                availableVoices.find(
-                    v => v.lang &&
-                    v.lang.toLowerCase().startsWith('ko')
-                );
-
-            return voice || null;
-
+        if (!koreanVoices.length) {
+            return null;
         }
 
+        const preferredNames = [
+            "Yuna",
+            "Sora",
+            "Google 한국의",
+            "Google Korean",
+            "Korean"
+        ];
 
-        function speakArticle(
-            articleId,
-            text,
-            button
-        ) {
-
-            if (!speechSupported) {
-
-                alert(
-                    'Text-to-speech is not supported ' +
-                    'by this browser.'
+        for (const preferred of preferredNames) {
+            const found = koreanVoices.find(function (voice) {
+                return voice.name.toLowerCase().includes(
+                    preferred.toLowerCase()
                 );
-
-                return;
-            }
-
-
-            // Stop anything currently playing.
-            window.speechSynthesis.cancel();
-
-
-            const rateSelect =
-                document.getElementById(
-                    `speed-${articleId}`
-                );
-
-
-            const rate =
-                rateSelect
-                    ? parseFloat(rateSelect.value)
-                    : 1;
-
-
-            currentUtterance =
-                new SpeechSynthesisUtterance(
-                    text
-                );
-
-
-            currentUtterance.lang =
-                'ko-KR';
-
-            currentUtterance.rate =
-                rate;
-
-            currentUtterance.pitch =
-                1;
-
-            currentUtterance.volume =
-                1;
-
-
-            const koreanVoice =
-                getKoreanVoice();
-
-
-            if (koreanVoice) {
-
-                currentUtterance.voice =
-                    koreanVoice;
-
-                console.log(
-                    'Using Korean voice:',
-                    koreanVoice.name,
-                    koreanVoice.lang
-                );
-
-            } else {
-
-                console.log(
-                    'No Korean voice found. ' +
-                    'Using browser default.'
-                );
-
-            }
-
-
-            currentUtterance.onend =
-                function() {
-
-                    button.textContent =
-                        '▶ Listen';
-
-                    currentUtterance =
-                        null;
-
-                };
-
-
-            currentUtterance.onerror =
-                function(event) {
-
-                    console.error(
-                        'Speech error:',
-                        event
-                    );
-
-                    button.textContent =
-                        '▶ Listen';
-
-                    currentUtterance =
-                        null;
-
-                };
-
-
-            button.textContent =
-                '▶ Playing...';
-
-
-            window.speechSynthesis.speak(
-                currentUtterance
-            );
-
-        }
-
-
-        function pauseSpeech() {
-
-            if (!speechSupported) {
-                return;
-            }
-
-            window.speechSynthesis.pause();
-
-        }
-
-
-        function resumeSpeech() {
-
-            if (!speechSupported) {
-                return;
-            }
-
-            window.speechSynthesis.resume();
-
-        }
-
-
-        function stopSpeech() {
-
-            if (!speechSupported) {
-                return;
-            }
-
-            window.speechSynthesis.cancel();
-
-            currentUtterance =
-                null;
-
-
-            document.querySelectorAll(
-                '.audio-play-btn'
-            ).forEach(
-                button => {
-                    button.textContent =
-                        '▶ Listen';
-                }
-            );
-
-        }
-
-
-        // ====================================================
-        // LOAD NEWS DATA
-        // ====================================================
-
-        async function loadNews() {
-
-            try {
-
-                const cacheBuster =
-                    Date.now();
-
-                const response =
-                    await fetch(
-                        `news_data.json?v=${cacheBuster}`
-                    );
-
-                if (!response.ok) {
-
-                    throw new Error(
-                        'Failed to load news data'
-                    );
-
-                }
-
-                allArticles =
-                    await response.json();
-
-
-                if (!Array.isArray(allArticles)) {
-
-                    throw new Error(
-                        'News data is not an array'
-                    );
-
-                }
-
-
-                updateArchiveCount();
-
-                renderArticles();
-
-
-            } catch (error) {
-
-                console.error(
-                    'Error loading news:',
-                    error
-                );
-
-
-                document.getElementById(
-                    'articles-container'
-                ).innerHTML = `
-
-                    <div class="empty-state">
-
-                        <p>
-                            No articles found yet.
-                        </p>
-
-                        <p>
-                            Make sure the GitHub Actions
-                            workflow has run successfully.
-                        </p>
-
-                    </div>
-
-                `;
-
-            }
-
-        }
-
-
-        // ====================================================
-        // UPDATE ARCHIVE COUNT
-        // ====================================================
-
-        function updateArchiveCount() {
-
-            const countElement =
-                document.getElementById(
-                    'archive-count'
-                );
-
-            const count =
-                allArticles.length;
-
-            countElement.textContent =
-                `${count.toLocaleString()} archived stories`;
-
-        }
-
-
-        // ====================================================
-        // FILTER ARTICLES
-        // ====================================================
-
-        function getFilteredArticles() {
-
-            if (
-                currentCategory === 'all'
-            ) {
-
-                return allArticles;
-
-            }
-
-            return allArticles.filter(
-                article =>
-                    article.category ===
-                    currentCategory
-            );
-
-        }
-
-
-        // ====================================================
-        // FORMAT DATE
-        // ====================================================
-
-        function formatDate(
-            dateString
-        ) {
-
-            if (!dateString) {
-                return 'Unknown date';
-            }
-
-            const parts =
-                dateString.split('-');
-
-            if (parts.length !== 3) {
-                return dateString;
-            }
-
-            const year = parts[0];
-            const month = parts[1];
-            const day = parts[2];
-
-            return (
-                `${year}년 ` +
-                `${month}월 ` +
-                `${day}일`
-            );
-
-        }
-
-
-        // ====================================================
-        // FORMAT TIME
-        // ====================================================
-
-        function formatTime(
-            article
-        ) {
-
-            if (article.published_at) {
-
-                const parts =
-                    article.published_at.split(
-                        ' '
-                    );
-
-                if (parts.length >= 2) {
-
-                    return parts[1];
-
-                }
-
-                return article.published_at;
-
-            }
-
-            return '';
-
-        }
-
-
-        // ====================================================
-        // ESCAPE HTML
-        // ====================================================
-
-        function escapeHtml(
-            value
-        ) {
-
-            if (
-                value === null ||
-                value === undefined
-            ) {
-
-                return '';
-
-            }
-
-            return String(value)
-                .replace(
-                    /&/g,
-                    '&amp;'
-                )
-                .replace(
-                    /</g,
-                    '&lt;'
-                )
-                .replace(
-                    />/g,
-                    '&gt;'
-                )
-                .replace(
-                    /"/g,
-                    '&quot;'
-                )
-                .replace(
-                    /'/g,
-                    '&#039;'
-                );
-
-        }
-
-
-        // ====================================================
-        // RENDER ARTICLES
-        // ====================================================
-
-        function renderArticles() {
-
-            const container =
-                document.getElementById(
-                    'articles-container'
-                );
-
-            const loadMoreContainer =
-                document.getElementById(
-                    'load-more-container'
-                );
-
-            const loadMoreButton =
-                document.getElementById(
-                    'load-more-btn'
-                );
-
-
-            const filteredArticles =
-                getFilteredArticles();
-
-
-            if (
-                !filteredArticles ||
-                filteredArticles.length === 0
-            ) {
-
-                container.innerHTML = `
-
-                    <div class="empty-state">
-
-                        <p>
-                            No articles available
-                            for this category.
-                        </p>
-
-                    </div>
-
-                `;
-
-
-                loadMoreContainer.style.display =
-                    'none';
-
-                return;
-
-            }
-
-
-            const visibleArticles =
-                filteredArticles.slice(
-                    0,
-                    displayedCount
-                );
-
-
-            // Group stories by date.
-            const groups = {};
-
-
-            visibleArticles.forEach(
-                article => {
-
-                    const date =
-                        article.date ||
-                        'Unknown';
-
-
-                    if (!groups[date]) {
-
-                        groups[date] = [];
-
-                    }
-
-
-                    groups[date].push(
-                        article
-                    );
-
-                }
-            );
-
-
-            let html = '';
-
-
-            Object.keys(groups).forEach(
-                date => {
-
-                    const articlesForDate =
-                        groups[date];
-
-
-                    html += `
-
-                        <section
-                            class="date-section"
-                        >
-
-                            <div
-                                class="date-heading"
-                            >
-
-                                <h2>
-                                    ${escapeHtml(
-                                        formatDate(date)
-                                    )}
-                                </h2>
-
-                                <span
-                                    class="story-count"
-                                >
-                                    ${
-                                        articlesForDate.length
-                                    }
-                                    ${
-                                        articlesForDate.length === 1
-                                            ? 'story'
-                                            : 'stories'
-                                    }
-                                </span>
-
-                            </div>
-
-                    `;
-
-
-                    articlesForDate.forEach(
-                        article => {
-
-                            const category =
-                                escapeHtml(
-                                    article.category
-                                );
-
-
-                            const title =
-                                escapeHtml(
-                                    article.title
-                                );
-
-
-                            const body =
-                                escapeHtml(
-                                    article.body
-                                ).replace(
-                                    /\n/g,
-                                    '<br>'
-                                );
-
-
-                            const vocabulary =
-                                article.vocab
-                                    ? escapeHtml(
-                                        article.vocab
-                                    )
-                                    : '';
-
-
-                            const translation =
-                                article.translation
-                                    ? escapeHtml(
-                                        article.translation
-                                    ).replace(
-                                        /\n/g,
-                                        '<br>'
-                                    )
-                                    : '';
-
-
-                            const time =
-                                formatTime(
-                                    article
-                                );
-
-
-                            const articleId =
-                                `article-${
-                                    allArticles.indexOf(
-                                        article
-                                    )
-                                }`;
-
-
-                            html += `
-
-                                <article
-                                    class="news-card"
-                                >
-
-                                    <div
-                                        class="news-meta"
-                                    >
-
-                                        <span
-                                            class="news-category"
-                                        >
-                                            ${category}
-                                        </span>
-
-                                        ${
-                                            time
-                                            ? `
-                                                <span
-                                                    class="news-time"
-                                                >
-                                                    ${escapeHtml(
-                                                        time
-                                                    )}
-                                                </span>
-                                              `
-                                            : ''
-                                        }
-
-                                    </div>
-
-
-                                    <h2
-                                        class="news-title"
-                                    >
-                                        ${title}
-                                    </h2>
-
-
-                                    <div
-                                        class="audio-controls"
-                                    >
-
-                                        <button
-                                            class="audio-btn audio-play-btn"
-                                            onclick="speakArticle(
-                                                '${articleId}',
-                                                document.getElementById('${articleId}-text').innerText,
-                                                this
-                                            )"
-                                        >
-                                            ▶ Listen
-                                        </button>
-
-
-                                        <button
-                                            class="audio-btn"
-                                            onclick="pauseSpeech()"
-                                        >
-                                            Ⅱ Pause
-                                        </button>
-
-
-                                        <button
-                                            class="audio-btn"
-                                            onclick="resumeSpeech()"
-                                        >
-                                            ▶ Resume
-                                        </button>
-
-
-                                        <button
-                                            class="audio-btn"
-                                            onclick="stopSpeech()"
-                                        >
-                                            ■ Stop
-                                        </button>
-
-
-                                        <span
-                                            class="speed-label"
-                                        >
-                                            Speed:
-                                        </span>
-
-
-                                        <select
-                                            id="speed-${articleId}"
-                                            class="speed-select"
-                                        >
-
-                                            <option value="0.75">
-                                                0.75×
-                                            </option>
-
-                                            <option
-                                                value="1"
-                                                selected
-                                            >
-                                                1×
-                                            </option>
-
-                                            <option value="1.25">
-                                                1.25×
-                                            </option>
-
-                                            <option value="1.5">
-                                                1.5×
-                                            </option>
-
-                                        </select>
-
-                                    </div>
-
-
-                                    <div
-                                        id="${articleId}-text"
-                                        class="news-body"
-                                    >
-
-                                        <p>
-                                            ${body}
-                                        </p>
-
-                                    </div>
-
-
-                                    ${
-                                        vocabulary
-                                        ? `
-
-                                            <div
-                                                class="vocab-section"
-                                            >
-
-                                                <strong>
-                                                    Key Vocabulary:
-                                                </strong>
-
-                                                <br>
-
-                                                ${vocabulary}
-
-                                            </div>
-
-                                          `
-                                        : ''
-                                    }
-
-
-                                    ${
-                                        translation
-                                        ? `
-
-                                            <button
-                                                class="toggle-trans-btn"
-                                                onclick="toggleTranslation(this)"
-                                            >
-                                                Toggle Translation
-                                            </button>
-
-
-                                            <div
-                                                class="translation-box"
-                                            >
-
-                                                <p>
-                                                    ${translation}
-                                                </p>
-
-                                            </div>
-
-                                          `
-                                        : ''
-                                    }
-
-                                </article>
-
-                            `;
-
-                        }
-                    );
-
-
-                    html += `
-                        </section>
-                    `;
-
-                }
-            );
-
-
-            container.innerHTML =
-                html;
-
-
-            if (
-                visibleArticles.length <
-                filteredArticles.length
-            ) {
-
-                loadMoreContainer.style.display =
-                    'block';
-
-
-                loadMoreButton.textContent =
-                    `Load More Stories ` +
-                    `(${
-                        filteredArticles.length -
-                        visibleArticles.length
-                    } remaining)`;
-
-
-            } else {
-
-                loadMoreContainer.style.display =
-                    'none';
-
-            }
-
-        }
-
-
-        // ====================================================
-        // FILTER CATEGORY
-        // ====================================================
-
-        function filterCategory(
-            category,
-            button
-        ) {
-
-            stopSpeech();
-
-            currentCategory =
-                category;
-
-            displayedCount =
-                ARTICLES_PER_LOAD;
-
-
-            const buttons =
-                document.querySelectorAll(
-                    '.tab-btn'
-                );
-
-
-            buttons.forEach(
-                btn =>
-                    btn.classList.remove(
-                        'active'
-                    )
-            );
-
-
-            button.classList.add(
-                'active'
-            );
-
-
-            renderArticles();
-
-
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
             });
 
+            if (found) {
+                return found;
+            }
         }
 
+        return koreanVoices[0];
+    }
 
-        // ====================================================
-        // LOAD MORE
-        // ====================================================
+    /*
+     * Speak an article.
+     */
+    function speakArticle(articleId, text, button) {
+        if (!speechSupported) {
+            alert("Your browser does not support text-to-speech.");
+            return;
+        }
 
-        function loadMoreArticles() {
+        speechSynthesis.cancel();
 
-            displayedCount +=
-                ARTICLES_PER_LOAD;
+        const speedSelect = document.getElementById(
+            articleId + "-speed"
+        );
+
+        const speed = speedSelect
+            ? parseFloat(speedSelect.value)
+            : 1;
+
+        currentUtterance = new SpeechSynthesisUtterance(text);
+
+        currentUtterance.lang = "ko-KR";
+        currentUtterance.rate = speed;
+        currentUtterance.pitch = 1;
+
+        const koreanVoice = getKoreanVoice();
+
+        if (koreanVoice) {
+            currentUtterance.voice = koreanVoice;
+        }
+
+        currentUtterance.onend = function () {
+            if (button) {
+                button.textContent = "▶ Listen";
+            }
+        };
+
+        currentUtterance.onerror = function () {
+            if (button) {
+                button.textContent = "▶ Listen";
+            }
+        };
+
+        speechSynthesis.speak(currentUtterance);
+
+        if (button) {
+            button.textContent = "🔊 Playing";
+        }
+    }
+
+    /*
+     * Pause speech.
+     */
+    function pauseSpeech() {
+        if (speechSupported) {
+            speechSynthesis.pause();
+        }
+    }
+
+    /*
+     * Resume speech.
+     */
+    function resumeSpeech() {
+        if (speechSupported) {
+            speechSynthesis.resume();
+        }
+    }
+
+    /*
+     * Stop speech.
+     */
+    function stopSpeech() {
+        if (speechSupported) {
+            speechSynthesis.cancel();
+        }
+
+        currentUtterance = null;
+    }
+
+    /*
+     * Select the Korean article text so the user can use
+     * the phone's native text-to-speech controls.
+     *
+     * On iPhone, after selecting the text, the user can
+     * choose Play from the native selection menu.
+     */
+    function selectArticleText(elementId, button) {
+        const articleElement = document.getElementById(elementId);
+
+        if (!articleElement) {
+            return;
+        }
+
+        const selection = window.getSelection();
+        const range = document.createRange();
+
+        range.selectNodeContents(articleElement);
+
+        selection.removeAllRanges();
+        selection.addRange(range);
+
+        if (button) {
+            button.textContent = "✓ Korean Text Selected";
+
+            setTimeout(function () {
+                button.textContent = "📋 Select All Korean";
+            }, 1500);
+        }
+    }
+
+    /*
+     * Escape HTML so generated article text is safe to display.
+     */
+    function escapeHtml(text) {
+        if (text === null || text === undefined) {
+            return "";
+        }
+
+        return String(text)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+    }
+
+    /*
+     * Format article date.
+     */
+    function formatDate(dateValue) {
+        if (!dateValue) {
+            return "";
+        }
+
+        const date = new Date(dateValue);
+
+        if (Number.isNaN(date.getTime())) {
+            return dateValue;
+        }
+
+        return date.toLocaleDateString("ko-KR", {
+            year: "numeric",
+            month: "long",
+            day: "numeric"
+        });
+    }
+
+    /*
+     * Toggle English translation.
+     */
+    function toggleTranslation(articleId) {
+        const box = document.getElementById(
+            articleId + "-translation"
+        );
+
+        const button = document.getElementById(
+            articleId + "-translation-btn"
+        );
+
+        if (!box || !button) {
+            return;
+        }
+
+        if (box.style.display === "none") {
+            box.style.display = "block";
+            button.textContent = "Hide English Translation";
+        } else {
+            box.style.display = "none";
+            button.textContent = "Show English Translation";
+        }
+    }
+
+    /*
+     * Render articles.
+     */
+    function renderArticles() {
+        const container = document.getElementById(
+            "articles-container"
+        );
+
+        if (!container) {
+            return;
+        }
+
+        if (!filteredArticles.length) {
+            container.innerHTML = `
+                <div class="loading">
+                    No articles found.
+                </div>
+            `;
+
+            document.getElementById(
+                "load-more-btn"
+            ).style.display = "none";
+
+            return;
+        }
+
+        const articlesToShow = filteredArticles.slice(
+            0,
+            displayedCount
+        );
+
+        container.innerHTML = articlesToShow.map(function (article, index) {
+
+            const articleId =
+                "article-" +
+                index +
+                "-" +
+                Math.random().toString(36).substring(2, 8);
+
+            const title = escapeHtml(
+                article.title || "Untitled Article"
+            );
+
+            const body = escapeHtml(
+                article.body || article.content || ""
+            ).replace(/\n/g, "<br>");
+
+            const translation = escapeHtml(
+                article.translation ||
+                article.english_translation ||
+                ""
+            ).replace(/\n/g, "<br>");
+
+            let vocabularyHtml = "";
+
+            if (
+                article.vocabulary &&
+                Array.isArray(article.vocabulary) &&
+                article.vocabulary.length
+            ) {
+                vocabularyHtml = `
+                    <div class="vocab-section">
+                        <h3>Vocabulary</h3>
+
+                        <ul class="vocab-list">
+                            ${article.vocabulary.map(function (item) {
+
+                                if (typeof item === "string") {
+                                    return `
+                                        <li>
+                                            ${escapeHtml(item)}
+                                        </li>
+                                    `;
+                                }
+
+                                const word = escapeHtml(
+                                    item.word || ""
+                                );
+
+                                const meaning = escapeHtml(
+                                    item.meaning ||
+                                    item.definition ||
+                                    ""
+                                );
+
+                                return `
+                                    <li>
+                                        <strong>${word}</strong>
+                                        ${
+                                            meaning
+                                                ? " — " + meaning
+                                                : ""
+                                        }
+                                    </li>
+                                `;
+                            }).join("")}
+                        </ul>
+                    </div>
+                `;
+            }
+
+            let translationHtml = "";
+
+            if (translation) {
+                translationHtml = `
+                    <div class="translation-toggle">
+
+                        <button
+                            id="${articleId}-translation-btn"
+                            class="translation-btn"
+                            onclick="toggleTranslation('${articleId}')"
+                        >
+                            Show English Translation
+                        </button>
+
+                        <div
+                            id="${articleId}-translation"
+                            class="translation-box"
+                            style="display:none;"
+                        >
+                            ${translation}
+                        </div>
+
+                    </div>
+                `;
+            }
+
+            return `
+                <article class="news-card">
+
+                    <div class="news-meta">
+                        ${
+                            article.category
+                                ? escapeHtml(article.category)
+                                : ""
+                        }
+
+                        ${
+                            article.date
+                                ? " · " + formatDate(article.date)
+                                : ""
+                        }
+                    </div>
+
+                    <h2 class="news-title">
+                        ${title}
+                    </h2>
+
+                    <div class="audio-controls">
+
+                        <button
+                            class="audio-btn"
+                            onclick="
+                                speakArticle(
+                                    '${articleId}',
+                                    document.getElementById('${articleId}-text').innerText,
+                                    this
+                                )
+                            "
+                        >
+                            ▶ Listen
+                        </button>
+
+                        <button
+                            class="audio-btn"
+                            onclick="pauseSpeech()"
+                        >
+                            ⏸ Pause
+                        </button>
+
+                        <button
+                            class="audio-btn"
+                            onclick="resumeSpeech()"
+                        >
+                            ▶ Resume
+                        </button>
+
+                        <button
+                            class="audio-btn"
+                            onclick="stopSpeech()"
+                        >
+                            ■ Stop
+                        </button>
+
+                        <select
+                            id="${articleId}-speed"
+                            class="speed-select"
+                        >
+                            <option value="0.75">0.75×</option>
+                            <option value="0.9">0.9×</option>
+                            <option value="1" selected>1×</option>
+                            <option value="1.15">1.15×</option>
+                            <option value="1.25">1.25×</option>
+                            <option value="1.5">1.5×</option>
+                        </select>
+
+                    </div>
+
+                    <div
+                        id="${articleId}-text"
+                        class="news-body"
+                    >
+                        <p>
+                            ${body}
+                        </p>
+                    </div>
+
+                    <button
+                        class="select-text-btn"
+                        onclick="selectArticleText('${articleId}-text', this)"
+                    >
+                        📋 Select All Korean
+                    </button>
+
+                    ${vocabularyHtml}
+
+                    ${translationHtml}
+
+                </article>
+            `;
+        }).join("");
+
+        const loadMoreButton = document.getElementById(
+            "load-more-btn"
+        );
+
+        if (displayedCount < filteredArticles.length) {
+            loadMoreButton.style.display = "inline-block";
+        } else {
+            loadMoreButton.style.display = "none";
+        }
+    }
+
+    /*
+     * Update archive count.
+     */
+    function updateArchiveCount() {
+        const countElement = document.getElementById(
+            "archive-count"
+        );
+
+        if (!countElement) {
+            return;
+        }
+
+        countElement.textContent =
+            allArticles.length +
+            " archived articles";
+    }
+
+    /*
+     * Load news data.
+     */
+    async function loadNews() {
+        const container = document.getElementById(
+            "articles-container"
+        );
+
+        try {
+            const response = await fetch(
+                "news_data.json?" + Date.now()
+            );
+
+            if (!response.ok) {
+                throw new Error(
+                    "Failed to load news data."
+                );
+            }
+
+            const data = await response.json();
+
+            if (Array.isArray(data)) {
+                allArticles = data;
+            } else if (Array.isArray(data.articles)) {
+                allArticles = data.articles;
+            } else {
+                allArticles = [];
+            }
+
+            updateArchiveCount();
+
+            filteredArticles = allArticles;
 
             renderArticles();
 
+        } catch (error) {
+            console.error(error);
+
+            container.innerHTML = `
+                <div class="error-message">
+                    Unable to load the news articles.
+                    Please try again later.
+                </div>
+            `;
         }
+    }
 
+    /*
+     * Category filtering.
+     */
+    document.querySelectorAll(".category-btn").forEach(
+        function (button) {
 
-        // ====================================================
-        // TRANSLATION TOGGLE
-        // ====================================================
+            button.addEventListener("click", function () {
 
-        function toggleTranslation(
-            button
-        ) {
+                document
+                    .querySelectorAll(".category-btn")
+                    .forEach(function (btn) {
+                        btn.classList.remove("active");
+                    });
 
-            const transBox =
-                button.nextElementSibling;
+                button.classList.add("active");
 
+                currentCategory =
+                    button.dataset.category;
 
-            if (
-                transBox.style.display ===
-                'block'
-            ) {
+                displayedCount = 10;
 
-                transBox.style.display =
-                    'none';
+                if (currentCategory === "all") {
 
-                button.textContent =
-                    'Toggle Translation';
+                    filteredArticles = allArticles;
 
+                } else {
 
-            } else {
+                    filteredArticles =
+                        allArticles.filter(function (article) {
 
-                transBox.style.display =
-                    'block';
+                            return String(
+                                article.category || ""
+                            ).toLowerCase() ===
+                            currentCategory.toLowerCase();
 
-                button.textContent =
-                    'Hide Translation';
+                        });
 
-            }
+                }
 
+                renderArticles();
+            });
         }
+    );
 
+    /*
+     * Load more.
+     */
+    document
+        .getElementById("load-more-btn")
+        .addEventListener("click", function () {
 
-        // ====================================================
-        // START
-        // ====================================================
+            displayedCount += 10;
 
-        window.addEventListener(
-            'DOMContentLoaded',
-            loadNews
-        );
+            renderArticles();
+        });
 
-    </script>
+    /*
+     * Initial load.
+     */
+    loadNews();
+</script>
 
 </body>
-
 </html>

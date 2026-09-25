@@ -204,6 +204,11 @@
             margin-bottom: 7px;
         }
 
+        .vocab-text {
+            white-space: pre-wrap;
+            line-height: 1.8;
+        }
+
         .translation-toggle {
             margin-top: 18px;
         }
@@ -655,17 +660,28 @@
 
             let vocabularyHtml = "";
 
+            /*
+             * Support both the original "vocab" text field
+             * and the newer "vocabulary" array format.
+             */
+            const rawVocabulary =
+                article.vocab !== undefined &&
+                article.vocab !== null &&
+                article.vocab !== ""
+                    ? article.vocab
+                    : article.vocabulary;
+
             if (
-                article.vocabulary &&
-                Array.isArray(article.vocabulary) &&
-                article.vocabulary.length
+                rawVocabulary &&
+                Array.isArray(rawVocabulary) &&
+                rawVocabulary.length
             ) {
                 vocabularyHtml = `
                     <div class="vocab-section">
-                        <h3>Vocabulary</h3>
+                        <h3>Key Vocabulary</h3>
 
                         <ul class="vocab-list">
-                            ${article.vocabulary.map(function (item) {
+                            ${rawVocabulary.map(function (item) {
 
                                 if (typeof item === "string") {
                                     return `
@@ -697,6 +713,19 @@
                                 `;
                             }).join("")}
                         </ul>
+                    </div>
+                `;
+            } else if (
+                typeof rawVocabulary === "string" &&
+                rawVocabulary.trim()
+            ) {
+                vocabularyHtml = `
+                    <div class="vocab-section">
+                        <h3>Key Vocabulary</h3>
+
+                        <div class="vocab-text">
+                            ${escapeHtml(rawVocabulary.trim())}
+                        </div>
                     </div>
                 `;
             }

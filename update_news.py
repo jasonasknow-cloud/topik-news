@@ -491,8 +491,9 @@ LANGUAGE:
 ALSO PROVIDE:
 
 - An accurate English translation.
-- Exactly 10 useful advanced vocabulary items or expressions from the article, with English meanings. Choose words that are useful for TOPIK learners. Avoid trivial or overly basic words.
-
+- Exactly 10 useful advanced vocabulary items or expressions from the article, with English meanings.
+- Choose words that are useful for TOPIK learners. Avoid trivial or overly basic words.
+- Format the vocabulary as a numbered list from 1 to 10, with one item per line.
 RETURN EXACTLY FOUR STORIES:
 
 정치

@@ -559,7 +559,11 @@
     /*
      * Format article date.
      */
-function formatDate(dateValue) {
+function formatDate(dateValue, publishedAt) {
+    if (publishedAt) {
+        return publishedAt;
+    }
+
     if (!dateValue) {
         return "";
     }
@@ -570,13 +574,10 @@ function formatDate(dateValue) {
         return dateValue;
     }
 
-    return date.toLocaleString("ko-KR", {
+    return date.toLocaleDateString("ko-KR", {
         year: "numeric",
         month: "long",
-        day: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: false
+        day: "numeric"
     });
 }
 
@@ -767,9 +768,9 @@ function formatDate(dateValue) {
                         }
 
                         ${
-                            article.date
-                                ? " · " + formatDate(article.date)
-                                : ""
+                           article.published_at || article.date
+    ? " · " + formatDate(article.date, article.published_at)
+    : ""
                         }
                     </div>
 

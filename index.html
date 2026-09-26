@@ -559,27 +559,27 @@
     /*
      * Format article date.
      */
-function formatDate(dateValue, publishedAt) {
-    if (publishedAt) {
-        return publishedAt;
+    function formatDate(dateValue, publishedAt) {
+        if (publishedAt) {
+            return publishedAt;
+        }
+
+        if (!dateValue) {
+            return "";
+        }
+
+        const date = new Date(dateValue);
+
+        if (Number.isNaN(date.getTime())) {
+            return dateValue;
+        }
+
+        return date.toLocaleDateString("ko-KR", {
+            year: "numeric",
+            month: "long",
+            day: "numeric"
+        });
     }
-
-    if (!dateValue) {
-        return "";
-    }
-
-    const date = new Date(dateValue);
-
-    if (Number.isNaN(date.getTime())) {
-        return dateValue;
-    }
-
-    return date.toLocaleDateString("ko-KR", {
-        year: "numeric",
-        month: "long",
-        day: "numeric"
-    });
-}
 
     /*
      * Toggle English translation.
@@ -844,9 +844,9 @@ function formatDate(dateValue, publishedAt) {
                         📋 Select All Korean
                     </button>
 
-                    ${vocabularyHtml}
-
                     ${translationHtml}
+
+                    ${vocabularyHtml}
 
                 </article>
             `;

@@ -491,7 +491,7 @@ LANGUAGE:
 ALSO PROVIDE:
 
 - An accurate English translation.
-- 3-5 useful advanced vocabulary items with English meanings.
+- exactly 10 useful advanced vocabulary items or expressions from the article with English meanings. Choose words that are useful for TOPIK learners. Avoid trivial or overly basic words. 
 
 RETURN EXACTLY FOUR STORIES:
 

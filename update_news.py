@@ -491,7 +491,7 @@ LANGUAGE:
 ALSO PROVIDE:
 
 - An accurate English translation.
-- Exactly 10 useful advanced vocabulary items or expressions from the article, with English meanings. Choose words that are useful for TOPIK learners. Avoid trivial or overly basic words. 
+- Exactly 10 useful advanced vocabulary items or expressions from the article, with English meanings. Choose words that are useful for TOPIK learners. Avoid trivial or overly basic words.
 
 RETURN EXACTLY FOUR STORIES:
 
@@ -658,6 +658,18 @@ def generate_topik_news(
                     f"{model_name} failed:"
                 )
                 print(error_text)
+
+                # If this model has reached its quota,
+                # skip it and immediately try the next model.
+                if "429" in error_text:
+
+                    print()
+                    print(
+                        f"{model_name} has reached its quota. "
+                        "Moving to the next model..."
+                    )
+
+                    break
 
                 if (
                     "503" in error_text

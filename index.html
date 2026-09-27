@@ -165,7 +165,6 @@
             margin: 0;
         }
 
-        /* Select Korean text button */
         .select-text-btn {
             margin-top: 14px;
             margin-bottom: 20px;
@@ -236,6 +235,22 @@
             border-left: 3px solid var(--accent-color);
             border-radius: 5px;
             line-height: 1.8;
+        }
+
+        .generate-study-button {
+            margin-top: 16px;
+            border: 1px solid var(--accent-color);
+            background: var(--accent-color);
+            color: white;
+            padding: 9px 16px;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 0.88rem;
+            font-weight: 500;
+        }
+
+        .generate-study-button:hover {
+            background: var(--accent-hover);
         }
 
         .load-more-container {
@@ -371,28 +386,20 @@
     let availableVoices = [];
     let currentUtterance = null;
 
-    /*
-     * Load available speech voices.
-     */
     function loadSpeechVoices() {
         if (!speechSupported) {
             return;
         }
-
         availableVoices = speechSynthesis.getVoices();
     }
 
     if (speechSupported) {
         loadSpeechVoices();
-
         speechSynthesis.onvoiceschanged = function () {
             loadSpeechVoices();
         };
     }
 
-    /*
-     * Find the best Korean voice available to the browser.
-     */
     function getKoreanVoice() {
         if (!availableVoices.length) {
             return null;
@@ -430,9 +437,6 @@
         return koreanVoices[0];
     }
 
-    /*
-     * Speak an article.
-     */
     function speakArticle(articleId, text, button) {
         if (!speechSupported) {
             alert("Your browser does not support text-to-speech.");
@@ -480,27 +484,18 @@
         }
     }
 
-    /*
-     * Pause speech.
-     */
     function pauseSpeech() {
         if (speechSupported) {
             speechSynthesis.pause();
         }
     }
 
-    /*
-     * Resume speech.
-     */
     function resumeSpeech() {
         if (speechSupported) {
             speechSynthesis.resume();
         }
     }
 
-    /*
-     * Stop speech.
-     */
     function stopSpeech() {
         if (speechSupported) {
             speechSynthesis.cancel();
@@ -509,13 +504,6 @@
         currentUtterance = null;
     }
 
-    /*
-     * Select the Korean article text so the user can use
-     * the phone's native text-to-speech controls.
-     *
-     * On iPhone, after selecting the text, the user can
-     * choose Play from the native selection menu.
-     */
     function selectArticleText(elementId, button) {
         const articleElement = document.getElementById(elementId);
 
@@ -540,9 +528,6 @@
         }
     }
 
-    /*
-     * Escape HTML so generated article text is safe to display.
-     */
     function escapeHtml(text) {
         if (text === null || text === undefined) {
             return "";
@@ -556,9 +541,6 @@
             .replace(/'/g, "&#039;");
     }
 
-    /*
-     * Format article date.
-     */
     function formatDate(dateValue, publishedAt) {
         if (publishedAt) {
             return publishedAt;
@@ -581,9 +563,6 @@
         });
     }
 
-    /*
-     * Toggle English translation.
-     */
     function toggleTranslation(articleId) {
         const box = document.getElementById(
             articleId + "-translation"
@@ -607,8 +586,65 @@
     }
 
     /*
-     * Render articles.
+     * Generate Study Session Async Function
      */
+    async function generateStudySession(buttonElement) {
+        const statusDiv = buttonElement.nextElementSibling;
+        statusDiv.style.display = "block";
+        statusDiv.textContent = "Building your study session and quiz...";
+        buttonElement.disabled = true;
+
+        const vocabElements = document.querySelectorAll(".vocab-item"); 
+        let vocabularyData = [];
+
+        vocabElements.forEach(el => {
+            const word = el.getAttribute("data-word") || el.querySelector(".word")?.textContent.trim();
+            const meaning = el.getAttribute("data-meaning") || el.querySelector(".meaning")?.textContent.trim();
+            if (word && meaning) {
+                vocabularyData.push({ word, meaning });
+            }
+        });
+
+        if (vocabularyData.length === 0 && window.currentArticleVocabulary) {
+            vocabularyData = window.currentArticleVocabulary;
+        }
+
+        if (vocabularyData.length === 0) {
+            statusDiv.textContent = "Could not find vocabulary words on the page.";
+            buttonElement.disabled = false;
+            return;
+        }
+
+        try {
+            const response = await fetch("https://topik-study-worker.jason-asknow.workers.dev/generate-study", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ vocabulary: vocabularyData })
+            });
+
+            const data = await response.json();
+
+            if (data.success && data.study_lesson) {
+                sessionStorage.setItem("currentStudyLesson", JSON.stringify(data.study_lesson));
+                
+                statusDiv.textContent = "Opening study session...";
+                window.open("study.html", "_blank");
+                
+                setTimeout(() => {
+                    statusDiv.style.display = "none";
+                    buttonElement.disabled = false;
+                }, 2000);
+            } else {
+                statusDiv.textContent = "Error: " + (data.message || "Failed to generate lesson.");
+                buttonElement.disabled = false;
+            }
+        } catch (err) {
+            console.error(err);
+            statusDiv.textContent = "Connection error. Please try again.";
+            buttonElement.disabled = false;
+        }
+    }
+
     function renderArticles() {
         const container = document.getElementById(
             "articles-container"
@@ -661,10 +697,6 @@
 
             let vocabularyHtml = "";
 
-            /*
-             * Support both the original "vocab" text field
-             * and the newer "vocabulary" array format.
-             */
             const rawVocabulary =
                 article.vocab !== undefined &&
                 article.vocab !== null &&
@@ -686,8 +718,8 @@
 
                                 if (typeof item === "string") {
                                     return `
-                                        <li>
-                                            ${escapeHtml(item)}
+                                        <li class="vocab-item" data-word="${escapeHtml(item)}" data-meaning="">
+                                            <span class="word">${escapeHtml(item)}</span>
                                         </li>
                                     `;
                                 }
@@ -703,17 +735,22 @@
                                 );
 
                                 return `
-                                    <li>
-                                        <strong>${word}</strong>
-                                        ${
+                                    <li class="vocab-item" data-word="${word}" data-meaning="${meaning}">
+                                        <strong class="word">${word}</strong>
+                                        <span class="meaning">${
                                             meaning
                                                 ? " — " + meaning
                                                 : ""
-                                        }
+                                        }</span>
                                     </li>
                                 `;
                             }).join("")}
                         </ul>
+
+                        <button class="generate-study-button" onclick="generateStudySession(this)">
+                            📚 Generate Study Session & Quiz
+                        </button>
+                        <div class="study-status" style="display: none; margin-top: 10px; font-size: 0.9rem; color: #4a5568;"></div>
                     </div>
                 `;
             } else if (
@@ -863,9 +900,6 @@
         }
     }
 
-    /*
-     * Update archive count.
-     */
     function updateArchiveCount() {
         const countElement = document.getElementById(
             "archive-count"
@@ -880,9 +914,6 @@
             " archived articles";
     }
 
-    /*
-     * Load news data.
-     */
     async function loadNews() {
         const container = document.getElementById(
             "articles-container"
@@ -927,9 +958,6 @@
         }
     }
 
-    /*
-     * Category filtering.
-     */
     document.querySelectorAll(".category-btn").forEach(
         function (button) {
 
@@ -971,9 +999,6 @@
         }
     );
 
-    /*
-     * Load more.
-     */
     document
         .getElementById("load-more-btn")
         .addEventListener("click", function () {
@@ -983,9 +1008,6 @@
             renderArticles();
         });
 
-    /*
-     * Initial load.
-     */
     loadNews();
 </script>
 

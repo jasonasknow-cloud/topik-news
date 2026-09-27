@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOPIK Study Session & Quiz</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #1a1a1a;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 10px;
+        }
+        .section {
+            background: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+        .vocab-card {
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .vocab-card:last-child {
+            border-bottom: none;
+        }
+        .word-header {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #2b6cb0;
+        }
+        .meaning {
+            color: #4a5568;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        .example-ko {
+            font-size: 1.1rem;
+            color: #2d3748;
+            margin-top: 4px;
+        }
+        .example-en {
+            color: #718096;
+            font-size: 0.95rem;
+            margin-bottom: 4px;
+        }
+        /* Quiz Styles */
+        .word-bank {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            background: #edf2f7;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+        .word-chip {
+            background: #fff;
+            border: 2px solid #cbd5e0;
+            padding: 8px 14px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s;
+            user-select: none;
+        }
+        .word-chip:hover {
+            border-color: #3182ce;
+            background: #ebf8ff;
+        }
+        .word-chip.selected {
+            background: #3182ce;
+            color: white;
+            border-color: #2b6cb0;
+        }
+        .word-chip.used {
+            opacity: 0.4;
+            cursor: not-allowed;
+            background: #e2e8f0;
+            border-color: #cbd5e0;
+        }
+        .quiz-question {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+        }
+        .blank-slot {
+            display: inline-block;
+            min-width: 100px;
+            padding: 4px 12px;
+            border-bottom: 2px solid #3182ce;
+            background: #ebf8ff;
+            color: #2b6cb0;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 4px;
+            margin: 0 4px;
+            font-weight: bold;
+        }
+        .blank-slot.empty {
+            background: #edf2f7;
+            color: #a0aec0;
+            border-bottom: 2px dashed #a0aec0;
+        }
+        .btn {
+            background: #3182ce;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #2b6cb0;
+        }
+        .score-box {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 20px;
+            background: #e6fffa;
+            border: 2px solid #319795;
+            border-radius: 8px;
+            color: #234e52;
+            margin-top: 20px;
+            display: none;
+        }
+        .feedback {
+            font-size: 0.9rem;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+        .correct { color: #38a169; }
+        .incorrect { color: #e53e3e; }
+    </style>
+</head>
+<body>
+
+    <h1>📚 TOPIK Vocabulary & Study Session</h1>
+    <div id="loading" style="text-align: center; font-size: 1.2rem; padding: 40px;">Loading your study session...</div>
+    
+    <div id="content" style="display: none;">
+        <!-- Part 1: Vocabulary & Examples -->
+        <div class="section">
+            <h2>Part 1 — Vocabulary & Natural Examples</h2>
+            <div id="vocab-list-container"></div>
+        </div>
+
+        <!-- Part 2: Interactive Quiz -->
+        <div class="section">
+            <h2>Part 2 — 10-Question Vocabulary Quiz</h2>
+            <p>Select a word from the bank below, then click a blank slot to place it. Use each word once.</p>
+            
+            <div class="word-bank" id="word-bank"></div>
+            <div id="quiz-container"></div>
+
+            <button class="btn" onclick="submitQuiz()">Submit Answers</button>
+            <div id="score-box" class="score-box"></div>
+        </div>
+    </div>
+
+<script>
+let studyData = [];
+let selectedWord = null;
+let userAnswers = {};
+
+window.addEventListener("DOMContentLoaded", () => {
+    const rawData = sessionStorage.getItem("currentStudyLesson");
+    if (!rawData) {
+        document.getElementById("loading").textContent = "No lesson data found. Please generate a session from the main news feed.";
+        return;
+    }
+
+    try {
+        studyData = JSON.parse(rawData);
+        buildStudyPage(studyData);
+        document.getElementById("loading").style.display = "none";
+        document.getElementById("content").style.display = "block";
+    } catch (e) {
+        document.getElementById("loading").textContent = "Error loading lesson data.";
+    }
+});
+
+function buildStudyPage(data) {
+    const vocabContainer = document.getElementById("vocab-list-container");
+    const wordBankContainer = document.getElementById("word-bank");
+    const quizContainer = document.getElementById("quiz-container");
+
+    vocabContainer.innerHTML = "";
+    wordBankContainer.innerHTML = "";
+    quizContainer.innerHTML = "";
+
+    // Shuffle words for the word bank so they aren't in the exact same order as the list
+    let shuffledWords = data.map(item => item.word).sort(() => Math.random() - 0.5);
+
+    // Build Part 1: Vocab & Examples
+    data.forEach((item, index) => {
+        const card = document.createElement("div");
+        card.className = "vocab-card";
+        card.innerHTML = `
+            <div class="word-header">${index + 1}. ${item.word} <span style="font-weight: normal; font-size: 1rem; color: #555;">(${item.meaning})</span></div>
+            <div class="example-en">${item.example_en}</div>
+            <div class="example-ko">${item.example_ko}</div>
+        `;
+        vocabContainer.appendChild(card);
+    });
+
+    // Build Word Bank Chips
+    shuffledWords.forEach(word => {
+        const chip = document.createElement("div");
+        chip.className = "word-chip";
+        chip.textContent = word;
+        chip.dataset.word = word;
+        chip.onclick = () => selectWordChip(chip, word);
+        wordBankContainer.appendChild(chip);
+    });
+
+    // Build Part 2: Quiz Questions
+    data.forEach((item, index) => {
+        userAnswers[index] = null;
+        const qDiv = document.createElement("div");
+        qDiv.className = "quiz-question";
+        qDiv.dataset.index = index;
+        qDiv.dataset.correctWord = item.word;
+
+        // Replace the underline or create blank slot placeholder
+        let sentenceHtml = item.quiz_ko.replace("________", `<span class="blank-slot empty" onclick="fillBlank(${index}, this)" data-question="${index}">(Click blank)</span>`);
+
+        qDiv.innerHTML = `
+            <div><strong>Question ${index + 1} / ${data.length}</strong></div>
+            <div style="font-size: 1.1rem; margin-top: 8px;">${sentenceHtml}</div>
+            <div class="feedback" id="feedback-${index}"></div>
+        `;
+        quizContainer.appendChild(qDiv);
+    });
+}
+
+function selectWordChip(chipElement, word) {
+    if (chipElement.classList.contains("used")) return;
+
+    // Deselect previous
+    document.querySelectorAll(".word-chip").forEach(c => c.classList.remove("selected"));
+    
+    // If clicking the already selected word, deselect it
+    if (selectedWord === word) {
+        selectedWord = null;
+        return;
+    }
+
+    selectedWord = word;
+    chipElement.classList.add("selected");
+}
+
+function fillBlank(qIndex, blankElement) {
+    // If user has a word selected, place it into this blank
+    if (selectedWord) {
+        // Check if this blank already had a word
+        const existingWord = userAnswers[qIndex];
+        if (existingWord) {
+            // Return old word to bank
+            freeWordInBank(existingWord);
+        }
+
+        userAnswers[qIndex] = selectedWord;
+        blankElement.textContent = selectedWord;
+        blankElement.classList.remove("empty");
+
+        // Mark chip as used
+        markWordUsedInBank(selectedWord);
+
+        // Clear selection
+        selectedWord = null;
+        document.querySelectorAll(".word-chip").forEach(c => c.classList.remove("selected"));
+    } else {
+        // If blank already has a word, clicking it returns the word to the bank
+        const currentWord = userAnswers[qIndex];
+        if (currentWord) {
+            freeWordInBank(currentWord);
+            userAnswers[qIndex] = null;
+            blankElement.textContent = "(Click blank)";
+            blankElement.classList.add("empty");
+        }
+    }
+}
+
+function markWordUsedInBank(word) {
+    const chips = document.querySelectorAll(".word-chip");
+    for (let chip of chips) {
+        if (chip.dataset.word === word && !chip.classList.contains("used")) {
+            chip.classList.add("used");
+            chip.classList.remove("selected");
+            break;
+        }
+    }
+}
+
+function freeWordInBank(word) {
+    const chips = document.querySelectorAll(".word-chip");
+    for (let chip of chips) {
+        if (chip.dataset.word === word && chip.classList.contains("used")) {
+            chip.classList.remove("used");
+            break;
+        }
+    }
+}
+
+function submitQuiz() {
+    let score = 0;
+    studyData.forEach((item, index) => {
+        const selected = userAnswers[index];
+        const feedbackEl = document.getElementById(`feedback-${index}`);
+        const qDiv = document.querySelector(`.quiz-question[data-index="${index}"]`);
+        
+        // Remove existing highlights
+        qDiv.style.borderColor = "#e2e8f0";
+
+        if (selected === item.word) {
+            score++;
+            feedbackEl.textContent = "✅ Correct!";
+            feedbackEl.className = "feedback correct";
+            qDiv.style.borderColor = "#38a169";
+        } else {
+            feedbackEl.textContent = `❌ Incorrect. Correct answer: ${item.word}`;
+            feedbackEl.className = "feedback incorrect";
+            qDiv.style.borderColor = "#e53e3e";
+        }
+    });
+
+    const scoreBox = document.getElementById("score-box");
+    scoreBox.style.display = "block";
+    scoreBox.textContent = `🎉 Quiz Complete! Your Score: ${score} / ${studyData.length}`;
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>

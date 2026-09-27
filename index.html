@@ -594,7 +594,7 @@
         statusDiv.textContent = "Building your study session and quiz...";
         buttonElement.disabled = true;
 
-        const vocabElements = document.querySelectorAll(".vocab-item"); 
+        const vocabElements = buttonElement.closest(".vocab-section").querySelectorAll(".vocab-item"); 
         let vocabularyData = [];
 
         vocabElements.forEach(el => {

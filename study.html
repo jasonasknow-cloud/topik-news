@@ -162,7 +162,7 @@
 
         <!-- Part 2: Interactive Quiz -->
         <div class="section">
-            <h2>Part 2 — 10-Question Vocabulary Quiz</h2>
+            <h2>Part 2 — Vocabulary Quiz</h2>
             <p>Select a word from the bank below, then click a blank slot to place it. Use each word once.</p>
             
             <div class="word-bank" id="word-bank"></div>
@@ -186,7 +186,14 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 
     try {
-        studyData = JSON.parse(rawData);
+        const parsedResponse = JSON.parse(rawData);
+        // Safely handle both array format or object wrapper format (`study_lesson`)
+        studyData = Array.isArray(parsedResponse) ? parsedResponse : parsedResponse.study_lesson;
+
+        if (!studyData || !Array.isArray(studyData)) {
+            throw new Error("Invalid format");
+        }
+
         buildStudyPage(studyData);
         document.getElementById("loading").style.display = "none";
         document.getElementById("content").style.display = "block";

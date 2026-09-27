@@ -175,6 +175,7 @@
 
 <script>
 let studyData = [];
+let quizData = [];
 let selectedWord = null;
 let userAnswers = {};
 
@@ -236,8 +237,11 @@ function buildStudyPage(data) {
         wordBankContainer.appendChild(chip);
     });
 
-    // Build Part 2: Quiz Questions
-    data.forEach((item, index) => {
+    // Create a shuffled copy of the data specifically for the randomized quiz section
+    quizData = [...data].sort(() => Math.random() - 0.5);
+
+    // Build Part 2: Quiz Questions (Randomized order)
+    quizData.forEach((item, index) => {
         userAnswers[index] = null;
         const qDiv = document.createElement("div");
         qDiv.className = "quiz-question";
@@ -248,7 +252,7 @@ function buildStudyPage(data) {
         let sentenceHtml = item.quiz_ko.replace("________", `<span class="blank-slot empty" onclick="fillBlank(${index}, this)" data-question="${index}">(Click blank)</span>`);
 
         qDiv.innerHTML = `
-            <div><strong>Question ${index + 1} / ${data.length}</strong></div>
+            <div><strong>Question ${index + 1} / ${quizData.length}</strong></div>
             <div style="font-size: 1.1rem; margin-top: 8px;">${sentenceHtml}</div>
             <div class="feedback" id="feedback-${index}"></div>
         `;
@@ -327,7 +331,7 @@ function freeWordInBank(word) {
 
 function submitQuiz() {
     let score = 0;
-    studyData.forEach((item, index) => {
+    quizData.forEach((item, index) => {
         const selected = userAnswers[index];
         const feedbackEl = document.getElementById(`feedback-${index}`);
         const qDiv = document.querySelector(`.quiz-question[data-index="${index}"]`);
@@ -349,7 +353,7 @@ function submitQuiz() {
 
     const scoreBox = document.getElementById("score-box");
     scoreBox.style.display = "block";
-    scoreBox.textContent = `🎉 Quiz Complete! Your Score: ${score} / ${studyData.length}`;
+    scoreBox.textContent = `🎉 Quiz Complete! Your Score: ${score} / ${quizData.length}`;
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
 }
 </script>

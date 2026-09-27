@@ -757,13 +757,46 @@
                 typeof rawVocabulary === "string" &&
                 rawVocabulary.trim()
             ) {
+                const vocabLines = rawVocabulary.trim().split("\n");
+                let parsedVocabItems = [];
+
+                vocabLines.forEach(line => {
+                    const cleanLine = line.replace(/^\d+\.\s*/, "");
+                    const parts = cleanLine.split(":");
+                    if (parts.length >= 2) {
+                        parsedVocabItems.push({
+                            word: parts[0].trim(),
+                            meaning: parts.slice(1).join(":").trim()
+                        });
+                    } else if (parts.length === 1 && parts[0].trim()) {
+                        parsedVocabItems.push({
+                            word: parts[0].trim(),
+                            meaning: ""
+                        });
+                    }
+                });
+
                 vocabularyHtml = `
                     <div class="vocab-section">
                         <h3>Key Vocabulary</h3>
 
-                        <div class="vocab-text">
+                        <div class="vocab-text" style="display: none;">
                             ${escapeHtml(rawVocabulary.trim())}
                         </div>
+
+                        <ul class="vocab-list">
+                            ${parsedVocabItems.map(item => `
+                                <li class="vocab-item" data-word="${escapeHtml(item.word)}" data-meaning="${escapeHtml(item.meaning)}">
+                                    <strong class="word">${escapeHtml(item.word)}</strong>
+                                    <span class="meaning">${item.meaning ? " — " + escapeHtml(item.meaning) : ""}</span>
+                                </li>
+                            `).join("")}
+                        </ul>
+
+                        <button class="generate-study-button" onclick="generateStudySession(this)">
+                            📚 Generate Study Session & Quiz
+                        </button>
+                        <div class="study-status" style="display: none; margin-top: 10px; font-size: 0.9rem; color: #4a5568;"></div>
                     </div>
                 `;
             }

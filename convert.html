@@ -131,8 +131,8 @@
             white-space: pre-wrap;
         }
 
-        /* Action buttons style */
-        .action-button {
+        /* Select Korean text button */
+        .select-text-button {
             margin-top: 15px;
             padding: 9px 14px;
             font-size: 14px;
@@ -142,18 +142,8 @@
             border-radius: 6px;
         }
 
-        .action-button:hover {
+        .select-text-button:hover {
             background: #f0f0f0;
-        }
-
-        .study-button {
-            background: #3182ce;
-            color: white;
-            border: 1px solid #2b6cb0;
-        }
-
-        .study-button:hover {
-            background: #2b6cb0;
         }
 
         .back-link {
@@ -282,25 +272,14 @@ You do not need to clean it up first. Photo captions, bylines, related-story lin
                 Your TOPIK article will appear here.
             </div>
 
-            <div>
-                <button
-                    id="select-korean-button"
-                    class="action-button"
-                    onclick="selectKoreanArticle()"
-                    style="display: none;"
-                >
-                    📋 Select All Korean
-                </button>
-
-                <button
-                    id="study-session-button"
-                    class="action-button study-button"
-                    onclick="openStudySession()"
-                    style="display: none;"
-                >
-                    📝 Study Session & Quiz
-                </button>
-            </div>
+            <button
+                id="select-korean-button"
+                class="select-text-button"
+                onclick="selectKoreanArticle()"
+                style="display: none;"
+            >
+                📋 Select All Korean
+            </button>
 
         </div>
 
@@ -332,8 +311,6 @@ You do not need to clean it up first. Photo captions, bylines, related-story lin
 
 
 <script>
-// Keep reference to raw structured response payload if it includes full lesson data
-let currentLessonPayload = null;
 
 async function generateArticle() {
 
@@ -401,9 +378,6 @@ async function generateArticle() {
 
 
         if (data.success) {
-
-            // Store raw payload in case it has structured JSON study blocks
-            currentLessonPayload = data;
 
             const article =
                 data.article || "";
@@ -511,11 +485,6 @@ async function generateArticle() {
                 ).style.display =
                     "inline-block";
 
-                document.getElementById(
-                    "study-session-button"
-                ).style.display =
-                    "inline-block";
-
 
                 document.getElementById(
                     "select-korean-button"
@@ -551,11 +520,6 @@ async function generateArticle() {
                 ).style.display =
                     "inline-block";
 
-                document.getElementById(
-                    "study-session-button"
-                ).style.display =
-                    "none"; // hide if schema layout isn't structured array format
-
 
                 document.getElementById(
                     "select-korean-button"
@@ -588,22 +552,6 @@ async function generateArticle() {
             "Could not connect to the converter. Please try again.";
 
     }
-}
-
-
-/*
- * Package current generated article vocabulary/quiz data into sessionStorage
- * and open the interactive study page.
- */
-function openStudySession() {
-    if (!currentLessonPayload) return;
-
-    // Check if worker response contains structured study lesson array directly, 
-    // otherwise fallback/wrap standard payload properties if needed.
-    const lessonData = currentLessonPayload.study_lesson || currentLessonPayload.data || currentLessonPayload;
-    
-    sessionStorage.setItem("currentStudyLesson", JSON.stringify(lessonData));
-    window.location.href = "study.html";
 }
 
 
@@ -666,7 +614,6 @@ function selectKoreanArticle() {
 function clearArticle() {
 
     stopSpeech();
-    currentLessonPayload = null;
 
 
     document.getElementById(
@@ -704,11 +651,6 @@ function clearArticle() {
 
     document.getElementById(
         "select-korean-button"
-    ).style.display =
-        "none";
-
-    document.getElementById(
-        "study-session-button"
     ).style.display =
         "none";
 }

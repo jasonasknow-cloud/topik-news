@@ -424,7 +424,7 @@ other suitable story available.
     prompt = f"""
 You are an expert Korean language instructor creating
 daily reading material for advanced TOPIK learners
-(Levels 4-6).
+(Levels 3-6).
 
 Below are the latest news stories from Yonhap News TV.
 
@@ -482,10 +482,10 @@ LANGUAGE:
 - Use standard Korean news writing.
 - Use descriptive plain style (해라체).
 - Use endings such as ㄴ다 / 는다 / 었다 / 했다 / 다.
-- Make the Korean appropriate for TOPIK Levels 4-6.
+- Make the Korean appropriate for TOPIK Levels 3-4.
 - Avoid slang.
 - Avoid unnecessary sensational language.
-- Use useful vocabulary for advanced Korean learners.
+- Use useful vocabulary for intermediate to low advanced Korean learners.
 - Do not make the language artificially difficult.
 
 ALSO PROVIDE:

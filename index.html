@@ -690,6 +690,39 @@
             .replace(/'/g, "&#039;");
     }
 
+    function parseVocabLine(line) {
+        const clean = String(line || "")
+            .replace(/^\s*(\d+[.)]|[-•*])\s*/, "")
+            .replace(/\*\*/g, "")
+            .trim();
+
+        if (!clean) {
+            return null;
+        }
+
+        // Style: word — meaning  /  word - meaning  /  word: meaning
+        const sep = clean.match(/^(.+?)\s*(?::|：|\s[-–—]\s|—|–)\s*(.+)$/);
+
+        if (sep) {
+            return {
+                word: sep[1].trim(),
+                meaning: sep[2].trim()
+            };
+        }
+
+        // Style: word (meaning)
+        const paren = clean.match(/^(.+?)\s*[(（]\s*(.+?)\s*[)）]\s*$/);
+
+        if (paren) {
+            return {
+                word: paren[1].trim(),
+                meaning: paren[2].trim()
+            };
+        }
+
+        return { word: clean, meaning: "" };
+    }
+
     function formatDate(dateValue, publishedAt) {
         if (publishedAt) {
             return publishedAt;
@@ -1383,18 +1416,9 @@
                 let parsedVocabItems = [];
 
                 vocabLines.forEach(line => {
-                    const cleanLine = line.replace(/^\d+\.\s*/, "");
-                    const parts = cleanLine.split(":");
-                    if (parts.length >= 2) {
-                        parsedVocabItems.push({
-                            word: parts[0].trim(),
-                            meaning: parts.slice(1).join(":").trim()
-                        });
-                    } else if (parts.length === 1 && parts[0].trim()) {
-                        parsedVocabItems.push({
-                            word: parts[0].trim(),
-                            meaning: ""
-                        });
+                    const item = parseVocabLine(line);
+                    if (item) {
+                        parsedVocabItems.push(item);
                     }
                 });
 

@@ -424,7 +424,7 @@ other suitable story available.
     prompt = f"""
 You are an expert Korean language instructor creating
 daily reading material for advanced TOPIK learners
-(Levels 3-6).
+(Levels 3-4).
 
 Below are the latest news stories from Yonhap News TV.
 
@@ -490,7 +490,12 @@ LANGUAGE:
 
 ALSO PROVIDE:
 
-- An accurate English translation.
+- An accurate English translation, formatted as a sentence-by-sentence
+  study version. For every sentence of the passage, write the Korean
+  sentence on one line, then its English translation on the next line,
+  then a blank line before the next sentence. Keep a strict one-to-one
+  match: do not merge or split sentences. The Korean sentences must be
+  identical to the ones in the Korean passage.
 - Exactly 10 useful advanced vocabulary items or expressions from the article, with English meanings.
 - Choose words that are useful for TOPIK learners. Avoid trivial or overly basic words.
 - Format the vocabulary as a numbered list from 1 to 10, with one item per line.

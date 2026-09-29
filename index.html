@@ -374,6 +374,58 @@
             margin-bottom: 4px;
         }
 
+        /* ---------- Match Words & Meanings Exercise ---------- */
+
+        .match-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px 12px;
+        }
+
+        .match-col {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .match-item {
+            padding: 10px 14px;
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 7px;
+            cursor: pointer;
+            line-height: 1.5;
+            font-size: 0.95rem;
+        }
+
+        .match-item:hover {
+            border-color: var(--accent-color);
+        }
+
+        .match-item.selected {
+            border-color: var(--accent-color);
+            background: #dbeafe;
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+        }
+
+        .match-item.matched {
+            border-color: var(--green-color);
+            background: #f0fdf4;
+            color: var(--green-color);
+            cursor: default;
+        }
+
+        .match-item.wrong {
+            border-color: #b91c1c;
+            background: #fef2f2;
+            cursor: default;
+        }
+
+        .match-word {
+            font-weight: 700;
+            font-size: 1.02rem;
+        }
+
         @media (max-width: 600px) {
             .container {
                 width: min(100% - 22px, 900px);
@@ -393,6 +445,11 @@
 
             .news-body {
                 font-size: 0.98rem;
+            }
+
+            .match-item {
+                padding: 9px 10px;
+                font-size: 0.88rem;
             }
         }
     </style>
@@ -470,6 +527,9 @@
 
     // Holds the state of each article's Sentence Order exercise.
     let orderState = {};
+
+    // Holds the state of each article's Match Words & Meanings exercise.
+    let matchState = {};
 
     let speechSupported = "speechSynthesis" in window;
     let availableVoices = [];
@@ -865,6 +925,267 @@
     }
 
     /*
+     * ---------- Match Words & Meanings Exercise ----------
+     */
+
+    function shuffleArray(arr) {
+        const copy = arr.slice();
+
+        for (let i = copy.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const temp = copy[i];
+            copy[i] = copy[j];
+            copy[j] = temp;
+        }
+
+        return copy;
+    }
+
+    // Registers the exercise for one article and returns the button + box HTML.
+    // Returns an empty string when there are too few words to make it worthwhile.
+    function buildMatchHtml(articleId, items) {
+        const usable = items.filter(function (item) {
+            return item.word && item.meaning;
+        });
+
+        if (usable.length < 3) {
+            return "";
+        }
+
+        matchState[articleId] = {
+            items: usable.map(function (item, i) {
+                return { id: i, word: item.word, meaning: item.meaning };
+            }),
+            leftOrder: null,
+            rightOrder: null,
+            selLeft: null,
+            selRight: null,
+            matched: {},
+            mistakes: 0,
+            flash: null
+        };
+
+        return `
+            <div class="translation-toggle">
+
+                <button
+                    id="${articleId}-match-btn"
+                    class="translation-btn"
+                    onclick="toggleMatchExercise('${articleId}')"
+                >
+                    🔗 Match Words & Meanings
+                </button>
+
+                <div
+                    id="${articleId}-match"
+                    class="translation-box"
+                    style="display:none;"
+                ></div>
+
+            </div>
+        `;
+    }
+
+    function shuffleMatch(articleId) {
+        const state = matchState[articleId];
+
+        if (!state) {
+            return;
+        }
+
+        const ids = state.items.map(function (item) {
+            return item.id;
+        });
+
+        state.leftOrder = shuffleArray(ids);
+        state.rightOrder = shuffleArray(ids);
+        state.selLeft = null;
+        state.selRight = null;
+        state.matched = {};
+        state.mistakes = 0;
+        state.flash = null;
+    }
+
+    function renderMatchExercise(articleId) {
+        const state = matchState[articleId];
+        const box = document.getElementById(articleId + "-match");
+
+        if (!state || !box) {
+            return;
+        }
+
+        const byId = {};
+
+        state.items.forEach(function (item) {
+            byId[item.id] = item;
+        });
+
+        function cellClass(side, id) {
+            let className = "match-item";
+
+            if (state.matched[id]) {
+                return className + " matched";
+            }
+
+            if (state.flash) {
+                if (
+                    (side === "left" && state.flash.left === id) ||
+                    (side === "right" && state.flash.right === id)
+                ) {
+                    return className + " wrong";
+                }
+                return className;
+            }
+
+            if (
+                (side === "left" && state.selLeft === id) ||
+                (side === "right" && state.selRight === id)
+            ) {
+                className += " selected";
+            }
+
+            return className;
+        }
+
+        function cellClick(side, id) {
+            if (state.matched[id] || state.flash) {
+                return "";
+            }
+            return `onclick="pickMatchItem('${articleId}', '${side}', ${id})"`;
+        }
+
+        const total = state.items.length;
+        const doneCount = Object.keys(state.matched).length;
+
+        let html = `
+            <p class="order-help">
+                Click a Korean word, then click its English meaning to match them.
+                Correct pairs turn green.
+            </p>
+            <div class="match-grid">
+                <div class="match-col">
+                    ${state.leftOrder.map(function (id) {
+                        return `<div class="${cellClass("left", id)}" ${cellClick("left", id)}>
+                            <span class="match-word">${escapeHtml(byId[id].word)}</span>
+                        </div>`;
+                    }).join("")}
+                </div>
+                <div class="match-col">
+                    ${state.rightOrder.map(function (id) {
+                        return `<div class="${cellClass("right", id)}" ${cellClick("right", id)}>
+                            ${escapeHtml(byId[id].meaning)}
+                        </div>`;
+                    }).join("")}
+                </div>
+            </div>
+        `;
+
+        html += `
+            <div class="order-actions">
+                <button class="translation-btn" onclick="restartMatch('${articleId}')">
+                    🔀 Shuffle Again
+                </button>
+            </div>
+        `;
+
+        if (doneCount === total) {
+            let message = "🎉 All " + total + " matched! ";
+
+            if (state.mistakes === 0) {
+                message += "No mistakes.";
+            } else if (state.mistakes === 1) {
+                message += "1 mistake.";
+            } else {
+                message += state.mistakes + " mistakes.";
+            }
+
+            html += `<div class="order-result">${message}</div>`;
+        } else {
+            html += `
+                <div class="order-result">
+                    ${doneCount} of ${total} matched · Mistakes: ${state.mistakes}
+                </div>
+            `;
+        }
+
+        box.innerHTML = html;
+    }
+
+    function pickMatchItem(articleId, side, id) {
+        const state = matchState[articleId];
+
+        if (!state || state.flash || state.matched[id]) {
+            return;
+        }
+
+        if (side === "left") {
+            state.selLeft = state.selLeft === id ? null : id;
+        } else {
+            state.selRight = state.selRight === id ? null : id;
+        }
+
+        if (state.selLeft !== null && state.selRight !== null) {
+            if (state.selLeft === state.selRight) {
+                // Correct pair.
+                state.matched[state.selLeft] = true;
+                state.selLeft = null;
+                state.selRight = null;
+            } else {
+                // Wrong pair: flash red briefly, then clear.
+                state.mistakes++;
+                state.flash = {
+                    left: state.selLeft,
+                    right: state.selRight
+                };
+                state.selLeft = null;
+                state.selRight = null;
+
+                renderMatchExercise(articleId);
+
+                setTimeout(function () {
+                    // Ignore if the list was redrawn in the meantime.
+                    if (matchState[articleId] !== state) {
+                        return;
+                    }
+                    state.flash = null;
+                    renderMatchExercise(articleId);
+                }, 700);
+
+                return;
+            }
+        }
+
+        renderMatchExercise(articleId);
+    }
+
+    function restartMatch(articleId) {
+        shuffleMatch(articleId);
+        renderMatchExercise(articleId);
+    }
+
+    function toggleMatchExercise(articleId) {
+        const box = document.getElementById(articleId + "-match");
+        const button = document.getElementById(articleId + "-match-btn");
+
+        if (!box || !button) {
+            return;
+        }
+
+        if (box.style.display === "none") {
+            if (!matchState[articleId].leftOrder) {
+                shuffleMatch(articleId);
+            }
+
+            renderMatchExercise(articleId);
+            box.style.display = "block";
+            button.textContent = "Hide Matching";
+        } else {
+            box.style.display = "none";
+            button.textContent = "🔗 Match Words & Meanings";
+        }
+    }
+
+    /*
      * Generate Study Session Async Function
      */
     async function generateStudySession(buttonElement) {
@@ -933,8 +1254,9 @@
             return;
         }
 
-        // Reset all Sentence Order exercises whenever the list is redrawn.
+        // Reset all exercises whenever the list is redrawn.
         orderState = {};
+        matchState = {};
 
         if (!filteredArticles.length) {
             container.innerHTML = `
@@ -991,6 +1313,22 @@
                 Array.isArray(rawVocabulary) &&
                 rawVocabulary.length
             ) {
+                // Collect word/meaning pairs for the Match exercise.
+                const arrayMatchItems = [];
+
+                rawVocabulary.forEach(function (item) {
+                    if (item && typeof item === "object") {
+                        arrayMatchItems.push({
+                            word: String(item.word || "").trim(),
+                            meaning: String(
+                                item.meaning || item.definition || ""
+                            ).trim()
+                        });
+                    }
+                });
+
+                const matchHtml = buildMatchHtml(articleId, arrayMatchItems);
+
                 vocabularyHtml = `
                     <div class="vocab-section">
                         <h3>Key Vocabulary</h3>
@@ -1029,6 +1367,8 @@
                             }).join("")}
                         </ul>
 
+                        ${matchHtml}
+
                         <button class="generate-study-button" onclick="generateStudySession(this)">
                             📚 Generate Study Session & Quiz
                         </button>
@@ -1058,6 +1398,8 @@
                     }
                 });
 
+                const matchHtml = buildMatchHtml(articleId, parsedVocabItems);
+
                 vocabularyHtml = `
                     <div class="vocab-section">
                         <h3>Key Vocabulary</h3>
@@ -1074,6 +1416,8 @@
                                 </li>
                             `).join("")}
                         </ul>
+
+                        ${matchHtml}
 
                         <button class="generate-study-button" onclick="generateStudySession(this)">
                             📚 Generate Study Session & Quiz

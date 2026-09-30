@@ -157,6 +157,171 @@
             text-decoration: underline;
         }
 
+        /* ---------- Exercises (Sentence Order + Match) ---------- */
+
+        .exercise-wrapper {
+            margin-top: 20px;
+        }
+
+        .translation-btn {
+            padding: 8px 13px;
+            font-size: 14px;
+            background: white;
+            color: #444;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .translation-btn:hover {
+            border-color: #2563eb;
+            color: #2563eb;
+        }
+
+        .translation-box {
+            margin-top: 12px;
+            padding: 16px;
+            background: #f8fafc;
+            border-left: 3px solid #2563eb;
+            border-radius: 5px;
+            line-height: 1.8;
+        }
+
+        .order-help {
+            margin: 0 0 12px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        .order-fixed {
+            padding: 10px 14px;
+            margin-bottom: 8px;
+            background: #eef2ff;
+            border: 1px solid #c7d2fe;
+            border-radius: 7px;
+            line-height: 1.8;
+        }
+
+        .order-item {
+            padding: 10px 14px;
+            margin-bottom: 8px;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 7px;
+            cursor: pointer;
+            line-height: 1.8;
+        }
+
+        .order-item:hover {
+            border-color: #2563eb;
+        }
+
+        .order-item.selected {
+            border-color: #2563eb;
+            background: #dbeafe;
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+        }
+
+        .order-item.correct {
+            border-color: #15803d;
+            background: #f0fdf4;
+            cursor: default;
+        }
+
+        .order-item.wrong {
+            border-color: #b91c1c;
+            background: #fef2f2;
+            cursor: default;
+        }
+
+        .order-label {
+            display: inline-block;
+            min-width: 22px;
+            margin-right: 6px;
+            font-weight: 700;
+            color: #2563eb;
+        }
+
+        .order-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+        }
+
+        .order-actions .translation-btn {
+            margin-right: 0;
+        }
+
+        .order-result {
+            margin-top: 14px;
+            font-weight: 500;
+        }
+
+        .order-answer {
+            margin-top: 12px;
+            padding: 12px 14px;
+            background: white;
+            border-left: 3px solid #15803d;
+            border-radius: 5px;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
+        .order-answer div {
+            margin-bottom: 4px;
+        }
+
+        .match-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px 12px;
+        }
+
+        .match-col {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .match-item {
+            padding: 10px 14px;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 7px;
+            cursor: pointer;
+            line-height: 1.5;
+            font-size: 15px;
+        }
+
+        .match-item:hover {
+            border-color: #2563eb;
+        }
+
+        .match-item.selected {
+            border-color: #2563eb;
+            background: #dbeafe;
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+        }
+
+        .match-item.matched {
+            border-color: #15803d;
+            background: #f0fdf4;
+            color: #15803d;
+            cursor: default;
+        }
+
+        .match-item.wrong {
+            border-color: #b91c1c;
+            background: #fef2f2;
+            cursor: default;
+        }
+
+        .match-word {
+            font-weight: 700;
+            font-size: 16px;
+        }
+
         @media (max-width: 600px) {
             body {
                 padding: 20px 15px;
@@ -173,6 +338,11 @@
 
             textarea {
                 min-height: 250px;
+            }
+
+            .match-item {
+                padding: 9px 10px;
+                font-size: 14px;
             }
         }
     </style>
@@ -281,6 +451,25 @@ You do not need to clean it up first. Photo captions, bylines, related-story lin
                 📋 Select All Korean
             </button>
 
+            <!-- Sentence Order exercise -->
+            <div id="order-wrapper" class="exercise-wrapper" style="display: none;">
+
+                <button
+                    id="conv-order-btn"
+                    class="translation-btn"
+                    onclick="toggleOrderExercise('conv')"
+                >
+                    🔀 Sentence Order
+                </button>
+
+                <div
+                    id="conv-order"
+                    class="translation-box"
+                    style="display: none;"
+                ></div>
+
+            </div>
+
         </div>
 
         <div class="result-section">
@@ -301,6 +490,25 @@ You do not need to clean it up first. Photo captions, bylines, related-story lin
                 Important TOPIK vocabulary will appear here.
             </div>
 
+            <!-- Match Words & Meanings exercise -->
+            <div id="match-wrapper" class="exercise-wrapper" style="display: none;">
+
+                <button
+                    id="conv-match-btn"
+                    class="translation-btn"
+                    onclick="toggleMatchExercise('conv')"
+                >
+                    🔗 Match Words &amp; Meanings
+                </button>
+
+                <div
+                    id="conv-match"
+                    class="translation-box"
+                    style="display: none;"
+                ></div>
+
+            </div>
+
         </div>
 
     </div>
@@ -311,6 +519,16 @@ You do not need to clean it up first. Photo captions, bylines, related-story lin
 
 
 <script>
+
+// How many opening sentences to use in the Sentence Order exercise.
+const ORDER_SENTENCE_COUNT = 5;
+
+// The converter only has one article at a time, so we use one fixed ID.
+const EX_ID = "conv";
+
+let orderState = {};
+let matchState = {};
+
 
 async function generateArticle() {
 
@@ -352,6 +570,9 @@ async function generateArticle() {
         "Generating your TOPIK article...";
 
     results.style.display = "block";
+
+    // Remove exercises from any previous article.
+    resetExercises();
 
 
     try {
@@ -492,6 +713,10 @@ async function generateArticle() {
                     "📋 Select All Korean";
 
 
+                // Build the Sentence Order and Match exercises.
+                setupExercises(koreanArticle, vocabulary);
+
+
                 status.textContent =
                     "Article generated successfully.";
 
@@ -615,6 +840,8 @@ function clearArticle() {
 
     stopSpeech();
 
+    resetExercises();
+
 
     document.getElementById(
         "article-text-input"
@@ -732,6 +959,537 @@ function resumeSpeech() {
 function stopSpeech() {
 
     window.speechSynthesis.cancel();
+}
+
+
+/*
+ * ---------- Shared helpers ----------
+ */
+
+function escapeHtml(text) {
+    if (text === null || text === undefined) {
+        return "";
+    }
+
+    return String(text)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+function shuffleArray(arr) {
+    const copy = arr.slice();
+
+    for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const temp = copy[i];
+        copy[i] = copy[j];
+        copy[j] = temp;
+    }
+
+    return copy;
+}
+
+function parseVocabLine(line) {
+    const clean = String(line || "")
+        .replace(/^\s*(\d+[.)]|[-•*])\s*/, "")
+        .replace(/\*\*/g, "")
+        .trim();
+
+    if (!clean) {
+        return null;
+    }
+
+    // Style: word — meaning  /  word - meaning  /  word: meaning
+    const sep = clean.match(/^(.+?)\s*(?::|：|\s[-–—]\s|—|–)\s*(.+)$/);
+
+    if (sep) {
+        return {
+            word: sep[1].trim(),
+            meaning: sep[2].trim()
+        };
+    }
+
+    // Style: word (meaning)
+    const paren = clean.match(/^(.+?)\s*[(（]\s*(.+?)\s*[)）]\s*$/);
+
+    if (paren) {
+        return {
+            word: paren[1].trim(),
+            meaning: paren[2].trim()
+        };
+    }
+
+    return { word: clean, meaning: "" };
+}
+
+function splitKoreanSentences(text) {
+    return String(text || "")
+        .replace(/\s+/g, " ")
+        .trim()
+        .split(/(?<=[.!?])\s+/)
+        .filter(Boolean);
+}
+
+
+/*
+ * ---------- Exercise setup / reset ----------
+ */
+
+function resetExercises() {
+    orderState = {};
+    matchState = {};
+
+    document.getElementById("order-wrapper").style.display = "none";
+    document.getElementById("match-wrapper").style.display = "none";
+
+    const orderBox = document.getElementById(EX_ID + "-order");
+    const matchBox = document.getElementById(EX_ID + "-match");
+
+    orderBox.style.display = "none";
+    orderBox.innerHTML = "";
+    matchBox.style.display = "none";
+    matchBox.innerHTML = "";
+
+    document.getElementById(EX_ID + "-order-btn").textContent =
+        "🔀 Sentence Order";
+    document.getElementById(EX_ID + "-match-btn").textContent =
+        "🔗 Match Words & Meanings";
+}
+
+function setupExercises(koreanText, vocabText) {
+    resetExercises();
+
+    // Sentence Order: needs at least 3 sentences.
+    const sentences = splitKoreanSentences(koreanText);
+
+    if (sentences.length >= 3) {
+        orderState[EX_ID] = {
+            correct: sentences.slice(0, ORDER_SENTENCE_COUNT),
+            current: null,
+            selected: null,
+            checked: false
+        };
+
+        document.getElementById("order-wrapper").style.display = "block";
+    }
+
+    // Match: needs at least 3 words that have meanings.
+    const usable = [];
+
+    String(vocabText || "").split("\n").forEach(function (line) {
+        const item = parseVocabLine(line);
+
+        if (item && item.word && item.meaning) {
+            usable.push(item);
+        }
+    });
+
+    if (usable.length >= 3) {
+        matchState[EX_ID] = {
+            items: usable.map(function (item, i) {
+                return { id: i, word: item.word, meaning: item.meaning };
+            }),
+            leftOrder: null,
+            rightOrder: null,
+            selLeft: null,
+            selRight: null,
+            matched: {},
+            mistakes: 0,
+            flash: null
+        };
+
+        document.getElementById("match-wrapper").style.display = "block";
+    }
+}
+
+
+/*
+ * ---------- Sentence Order Exercise ----------
+ */
+
+function shuffleForOrder(articleId) {
+    const state = orderState[articleId];
+
+    if (!state) {
+        return;
+    }
+
+    const first = state.correct[0];
+    const rest = state.correct.slice(1);
+
+    let shuffled = rest.slice();
+    let attempts = 0;
+
+    do {
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const temp = shuffled[i];
+            shuffled[i] = shuffled[j];
+            shuffled[j] = temp;
+        }
+        attempts++;
+    } while (
+        attempts < 20 &&
+        shuffled.length > 1 &&
+        shuffled.every(function (s, i) {
+            return s === rest[i];
+        })
+    );
+
+    state.current = [first].concat(shuffled);
+    state.selected = null;
+    state.checked = false;
+}
+
+function renderOrderExercise(articleId) {
+    const state = orderState[articleId];
+    const box = document.getElementById(articleId + "-order");
+
+    if (!state || !box) {
+        return;
+    }
+
+    let html = `
+        <p class="order-help">
+            The first sentence is fixed. Click one sentence, then click
+            another to swap them. Put the sentences in the correct order.
+        </p>
+        <div class="order-fixed">
+            <span class="order-label">1</span>${escapeHtml(state.current[0])}
+        </div>
+    `;
+
+    let correctCount = 0;
+
+    for (let i = 1; i < state.current.length; i++) {
+        let className = "order-item";
+
+        if (state.checked) {
+            if (state.current[i] === state.correct[i]) {
+                className += " correct";
+                correctCount++;
+            } else {
+                className += " wrong";
+            }
+        } else if (state.selected === i) {
+            className += " selected";
+        }
+
+        const clickAttr = state.checked
+            ? ""
+            : `onclick="selectOrderItem('${articleId}', ${i})"`;
+
+        html += `
+            <div class="${className}" ${clickAttr}>
+                <span class="order-label">${i + 1}</span>${escapeHtml(state.current[i])}
+            </div>
+        `;
+    }
+
+    html += `
+        <div class="order-actions">
+            <button class="translation-btn" onclick="checkOrder('${articleId}')">
+                ✓ Check Order
+            </button>
+            <button class="translation-btn" onclick="restartOrder('${articleId}')">
+                🔀 Shuffle Again
+            </button>
+        </div>
+    `;
+
+    if (state.checked) {
+        const total = state.current.length - 1;
+
+        let message;
+
+        if (correctCount === total) {
+            message = "🎉 Perfect! All sentences are in the correct order.";
+        } else {
+            message = "You placed " + correctCount + " of " + total +
+                " sentences correctly.";
+        }
+
+        html += `<div class="order-result">${message}</div>`;
+
+        html += `
+            <div class="order-answer">
+                <strong>Correct order:</strong>
+                ${state.correct.map(function (s, i) {
+                    return `<div><span class="order-label">${i + 1}</span>${escapeHtml(s)}</div>`;
+                }).join("")}
+            </div>
+        `;
+    }
+
+    box.innerHTML = html;
+}
+
+function selectOrderItem(articleId, index) {
+    const state = orderState[articleId];
+
+    if (!state || state.checked) {
+        return;
+    }
+
+    if (state.selected === null) {
+        state.selected = index;
+    } else if (state.selected === index) {
+        state.selected = null;
+    } else {
+        const temp = state.current[state.selected];
+        state.current[state.selected] = state.current[index];
+        state.current[index] = temp;
+        state.selected = null;
+    }
+
+    renderOrderExercise(articleId);
+}
+
+function checkOrder(articleId) {
+    const state = orderState[articleId];
+
+    if (!state) {
+        return;
+    }
+
+    state.checked = true;
+    state.selected = null;
+
+    renderOrderExercise(articleId);
+}
+
+function restartOrder(articleId) {
+    shuffleForOrder(articleId);
+    renderOrderExercise(articleId);
+}
+
+function toggleOrderExercise(articleId) {
+    const box = document.getElementById(articleId + "-order");
+    const button = document.getElementById(articleId + "-order-btn");
+
+    if (!box || !button || !orderState[articleId]) {
+        return;
+    }
+
+    if (box.style.display === "none") {
+        if (!orderState[articleId].current) {
+            shuffleForOrder(articleId);
+        }
+
+        renderOrderExercise(articleId);
+        box.style.display = "block";
+        button.textContent = "Hide Sentence Order";
+    } else {
+        box.style.display = "none";
+        button.textContent = "🔀 Sentence Order";
+    }
+}
+
+
+/*
+ * ---------- Match Words & Meanings Exercise ----------
+ */
+
+function shuffleMatch(articleId) {
+    const state = matchState[articleId];
+
+    if (!state) {
+        return;
+    }
+
+    const ids = state.items.map(function (item) {
+        return item.id;
+    });
+
+    state.leftOrder = shuffleArray(ids);
+    state.rightOrder = shuffleArray(ids);
+    state.selLeft = null;
+    state.selRight = null;
+    state.matched = {};
+    state.mistakes = 0;
+    state.flash = null;
+}
+
+function renderMatchExercise(articleId) {
+    const state = matchState[articleId];
+    const box = document.getElementById(articleId + "-match");
+
+    if (!state || !box) {
+        return;
+    }
+
+    const byId = {};
+
+    state.items.forEach(function (item) {
+        byId[item.id] = item;
+    });
+
+    function cellClass(side, id) {
+        let className = "match-item";
+
+        if (state.matched[id]) {
+            return className + " matched";
+        }
+
+        if (state.flash) {
+            if (
+                (side === "left" && state.flash.left === id) ||
+                (side === "right" && state.flash.right === id)
+            ) {
+                return className + " wrong";
+            }
+            return className;
+        }
+
+        if (
+            (side === "left" && state.selLeft === id) ||
+            (side === "right" && state.selRight === id)
+        ) {
+            className += " selected";
+        }
+
+        return className;
+    }
+
+    function cellClick(side, id) {
+        if (state.matched[id] || state.flash) {
+            return "";
+        }
+        return `onclick="pickMatchItem('${articleId}', '${side}', ${id})"`;
+    }
+
+    const total = state.items.length;
+    const doneCount = Object.keys(state.matched).length;
+
+    let html = `
+        <p class="order-help">
+            Click a Korean word, then click its English meaning to match them.
+            Correct pairs turn green.
+        </p>
+        <div class="match-grid">
+            <div class="match-col">
+                ${state.leftOrder.map(function (id) {
+                    return `<div class="${cellClass("left", id)}" ${cellClick("left", id)}>
+                        <span class="match-word">${escapeHtml(byId[id].word)}</span>
+                    </div>`;
+                }).join("")}
+            </div>
+            <div class="match-col">
+                ${state.rightOrder.map(function (id) {
+                    return `<div class="${cellClass("right", id)}" ${cellClick("right", id)}>
+                        ${escapeHtml(byId[id].meaning)}
+                    </div>`;
+                }).join("")}
+            </div>
+        </div>
+    `;
+
+    html += `
+        <div class="order-actions">
+            <button class="translation-btn" onclick="restartMatch('${articleId}')">
+                🔀 Shuffle Again
+            </button>
+        </div>
+    `;
+
+    if (doneCount === total) {
+        let message = "🎉 All " + total + " matched! ";
+
+        if (state.mistakes === 0) {
+            message += "No mistakes.";
+        } else if (state.mistakes === 1) {
+            message += "1 mistake.";
+        } else {
+            message += state.mistakes + " mistakes.";
+        }
+
+        html += `<div class="order-result">${message}</div>`;
+    } else {
+        html += `
+            <div class="order-result">
+                ${doneCount} of ${total} matched · Mistakes: ${state.mistakes}
+            </div>
+        `;
+    }
+
+    box.innerHTML = html;
+}
+
+function pickMatchItem(articleId, side, id) {
+    const state = matchState[articleId];
+
+    if (!state || state.flash || state.matched[id]) {
+        return;
+    }
+
+    if (side === "left") {
+        state.selLeft = state.selLeft === id ? null : id;
+    } else {
+        state.selRight = state.selRight === id ? null : id;
+    }
+
+    if (state.selLeft !== null && state.selRight !== null) {
+        if (state.selLeft === state.selRight) {
+            // Correct pair.
+            state.matched[state.selLeft] = true;
+            state.selLeft = null;
+            state.selRight = null;
+        } else {
+            // Wrong pair: flash red briefly, then clear.
+            state.mistakes++;
+            state.flash = {
+                left: state.selLeft,
+                right: state.selRight
+            };
+            state.selLeft = null;
+            state.selRight = null;
+
+            renderMatchExercise(articleId);
+
+            setTimeout(function () {
+                // Ignore if a new article was generated in the meantime.
+                if (matchState[articleId] !== state) {
+                    return;
+                }
+                state.flash = null;
+                renderMatchExercise(articleId);
+            }, 700);
+
+            return;
+        }
+    }
+
+    renderMatchExercise(articleId);
+}
+
+function restartMatch(articleId) {
+    shuffleMatch(articleId);
+    renderMatchExercise(articleId);
+}
+
+function toggleMatchExercise(articleId) {
+    const box = document.getElementById(articleId + "-match");
+    const button = document.getElementById(articleId + "-match-btn");
+
+    if (!box || !button || !matchState[articleId]) {
+        return;
+    }
+
+    if (box.style.display === "none") {
+        if (!matchState[articleId].leftOrder) {
+            shuffleMatch(articleId);
+        }
+
+        renderMatchExercise(articleId);
+        box.style.display = "block";
+        button.textContent = "Hide Matching";
+    } else {
+        box.style.display = "none";
+        button.textContent = "🔗 Match Words & Meanings";
+    }
 }
 
 </script>

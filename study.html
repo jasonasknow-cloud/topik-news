@@ -248,8 +248,9 @@ function buildStudyPage(data) {
         qDiv.dataset.index = index;
         qDiv.dataset.correctWord = item.word;
 
-        // Replace the underline or create blank slot placeholder
-        let sentenceHtml = item.quiz_ko.replace("________", `<span class="blank-slot empty" onclick="fillBlank(${index}, this)" data-question="${index}">(Click blank)</span>`);
+        // Replace any run of 3 or more underscores with the blank slot.
+        // (Gemini doesn't always write exactly 8 underscores.)
+        let sentenceHtml = item.quiz_ko.replace(/_{3,}/, `<span class="blank-slot empty" onclick="fillBlank(${index}, this)" data-question="${index}">(Click blank)</span>`);
 
         qDiv.innerHTML = `
             <div><strong>Question ${index + 1} / ${quizData.length}</strong></div>

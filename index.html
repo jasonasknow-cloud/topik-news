@@ -826,6 +826,10 @@
     <button class="category-btn" data-category="세계">
         World
     </button>
+
+    <button class="category-btn" data-category="converted">
+        Converted
+    </button>
 </div>
 
     <div id="archive-count" class="archive-count"></div>
@@ -854,6 +858,7 @@
 
 <script>
     let allArticles = [];
+    let convertedArticles = [];
     let filteredArticles = [];
     let currentCategory = "all";
     let displayedCount = 10;
@@ -1160,6 +1165,15 @@
             month: "long",
             day: "numeric"
         });
+    }
+
+    // Label shown in the small line above each title.
+    function categoryLabel(category) {
+        if (String(category || "").toLowerCase() === "converted") {
+            return "Converted";
+        }
+
+        return category || "";
     }
 
     function toggleTranslation(articleId) {
@@ -2446,9 +2460,13 @@
         activeQuizId = null;
 
         if (!filteredArticles.length) {
+            const emptyMessage = currentCategory === "converted"
+                ? "No converted lessons yet. Convert an article and it will appear here automatically."
+                : "No articles found.";
+
             container.innerHTML = `
                 <div class="loading">
-                    No articles found.
+                    ${emptyMessage}
                 </div>
             `;
 
@@ -2670,11 +2688,7 @@
                 <article class="news-card">
 
                     <div class="news-meta">
-                        ${
-                            article.category
-                                ? escapeHtml(article.category)
-                                : ""
-                        }
+                        ${escapeHtml(categoryLabel(article.category))}
 
                         ${
                            article.published_at || article.date
@@ -2783,9 +2797,43 @@
             return;
         }
 
-        countElement.textContent =
-            allArticles.length +
-            " archived articles";
+        if (currentCategory === "converted") {
+            countElement.textContent =
+                convertedArticles.length +
+                " converted lessons";
+        } else {
+            countElement.textContent =
+                allArticles.length +
+                " archived articles";
+        }
+    }
+
+    // Loads converted_data.json. A missing or empty file is not an error.
+    async function loadConverted() {
+        try {
+            const response = await fetch(
+                "converted_data.json?" + Date.now()
+            );
+
+            if (!response.ok) {
+                convertedArticles = [];
+                return;
+            }
+
+            const data = await response.json();
+
+            if (Array.isArray(data)) {
+                convertedArticles = data;
+            } else if (Array.isArray(data.articles)) {
+                convertedArticles = data.articles;
+            } else {
+                convertedArticles = [];
+            }
+
+        } catch (error) {
+            console.error(error);
+            convertedArticles = [];
+        }
     }
 
     async function loadNews() {
@@ -2813,6 +2861,8 @@
             } else {
                 allArticles = [];
             }
+
+            await loadConverted();
 
             updateArchiveCount();
 
@@ -2854,6 +2904,10 @@
 
                     filteredArticles = allArticles;
 
+                } else if (currentCategory === "converted") {
+
+                    filteredArticles = convertedArticles;
+
                 } else {
 
                     filteredArticles =
@@ -2868,6 +2922,7 @@
 
                 }
 
+                updateArchiveCount();
                 renderArticles();
             });
         }

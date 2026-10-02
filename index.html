@@ -203,12 +203,6 @@
             margin-bottom: 7px;
         }
 
-        .vocab-text {
-            white-space: pre-line;
-            line-height: 1.8;
-            margin: 0;
-        }
-
         .translation-toggle {
             margin-top: 18px;
         }
@@ -221,11 +215,18 @@
             border-radius: 6px;
             cursor: pointer;
             font-size: 0.84rem;
+            font-family: inherit;
         }
 
         .translation-btn:hover {
             border-color: var(--accent-color);
             color: var(--accent-color);
+        }
+
+        .translation-btn.mode-active {
+            background: var(--accent-color);
+            border-color: var(--accent-color);
+            color: white;
         }
 
         .translation-box {
@@ -235,22 +236,6 @@
             border-left: 3px solid var(--accent-color);
             border-radius: 5px;
             line-height: 1.8;
-        }
-
-        .generate-study-button {
-            margin-top: 16px;
-            border: 1px solid var(--accent-color);
-            background: var(--accent-color);
-            color: white;
-            padding: 9px 16px;
-            border-radius: 7px;
-            cursor: pointer;
-            font-size: 0.88rem;
-            font-weight: 500;
-        }
-
-        .generate-study-button:hover {
-            background: var(--accent-hover);
         }
 
         .load-more-container {
@@ -289,6 +274,82 @@
             color: var(--muted-color);
             font-size: 0.8rem;
             text-align: center;
+        }
+
+        /* ---------- Example Sentences ---------- */
+
+        .example-item {
+            margin-bottom: 14px;
+        }
+
+        .example-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .example-ko {
+            font-weight: 500;
+        }
+
+        .example-ko strong {
+            color: var(--accent-color);
+        }
+
+        .example-en {
+            color: var(--muted-color);
+            font-size: 0.93rem;
+        }
+
+        /* ---------- Practice panel ---------- */
+
+        .practice-section {
+            margin-top: 22px;
+            padding-top: 18px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .practice-main-btn {
+            border: 1px solid var(--accent-color);
+            background: var(--accent-color);
+            color: white;
+            padding: 9px 16px;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            font-family: inherit;
+        }
+
+        .practice-main-btn:hover {
+            background: var(--accent-hover);
+        }
+
+        .practice-tabs {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 14px;
+        }
+
+        .practice-tab {
+            border: 1px solid var(--border-color);
+            background: white;
+            color: #444;
+            padding: 7px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.84rem;
+            font-family: inherit;
+        }
+
+        .practice-tab:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        .practice-tab.active {
+            background: var(--accent-color);
+            border-color: var(--accent-color);
+            color: white;
         }
 
         /* ---------- Sentence Order Exercise ---------- */
@@ -438,7 +499,7 @@
             background: white;
             border: 1px solid var(--border-color);
             border-radius: 12px;
-            padding: 34px 20px;
+            padding: 30px 20px;
             text-align: center;
             cursor: pointer;
             min-height: 150px;
@@ -458,12 +519,36 @@
             font-weight: 700;
         }
 
+        .flash-word.english {
+            font-size: 1.3rem;
+        }
+
         .flash-meaning {
             font-size: 1.1rem;
             color: var(--accent-color);
             padding-top: 10px;
             border-top: 1px solid var(--border-color);
             width: 100%;
+        }
+
+        .flash-meaning.flash-korean {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .flash-example {
+            width: 100%;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .flash-example strong {
+            color: var(--accent-color);
+        }
+
+        .flash-example-en {
+            color: var(--muted-color);
+            font-size: 0.88rem;
         }
 
         .flash-hint {
@@ -570,6 +655,109 @@
             line-height: 1.8;
         }
 
+        /* ---------- Fill in the Blank ---------- */
+
+        .fill-bank {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 12px;
+            background: #edf2f7;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+        .fill-chip {
+            background: white;
+            border: 2px solid #cbd5e0;
+            padding: 6px 12px;
+            border-radius: 18px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 0.95rem;
+            user-select: none;
+        }
+
+        .fill-chip:hover {
+            border-color: var(--accent-color);
+        }
+
+        .fill-chip.selected {
+            background: var(--accent-color);
+            border-color: var(--accent-color);
+            color: white;
+        }
+
+        .fill-chip.used {
+            opacity: 0.4;
+            cursor: default;
+            background: #e2e8f0;
+        }
+
+        .fill-question {
+            padding: 12px 14px;
+            margin-bottom: 10px;
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+        }
+
+        .fill-question.correct {
+            border-color: var(--green-color);
+        }
+
+        .fill-question.wrong {
+            border-color: #b91c1c;
+        }
+
+        .fill-slot {
+            display: inline-block;
+            min-width: 90px;
+            padding: 2px 10px;
+            margin: 0 3px;
+            border-bottom: 2px dashed #a0aec0;
+            background: #edf2f7;
+            color: #a0aec0;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 4px;
+            font-weight: 700;
+        }
+
+        .fill-slot.filled {
+            border-bottom: 2px solid var(--accent-color);
+            background: #ebf8ff;
+            color: var(--accent-color);
+        }
+
+        .fill-slot.ok {
+            border-bottom-color: var(--green-color);
+            background: #f0fdf4;
+            color: var(--green-color);
+            cursor: default;
+        }
+
+        .fill-slot.bad {
+            border-bottom-color: #b91c1c;
+            background: #fef2f2;
+            color: #b91c1c;
+            cursor: default;
+        }
+
+        .fill-feedback {
+            font-size: 0.88rem;
+            margin-top: 4px;
+            font-weight: 500;
+        }
+
+        .fill-feedback.ok {
+            color: var(--green-color);
+        }
+
+        .fill-feedback.bad {
+            color: #b91c1c;
+        }
+
         @media (max-width: 600px) {
             .container {
                 width: min(100% - 22px, 900px);
@@ -673,21 +861,22 @@
     // How many opening sentences to use in the Sentence Order exercise.
     const ORDER_SENTENCE_COUNT = 5;
 
-    // Holds the state of each article's Sentence Order exercise.
+    // Milliseconds to wait after a correct quiz answer before the next question.
+    const QUIZ_ADVANCE_MS = 900;
+
+    // State of each article's practice exercises.
     let orderState = {};
-
-    // Holds the state of each article's Match Words & Meanings exercise.
     let matchState = {};
-
-    // Holds the state of each article's Flashcards and Vocab Quiz.
     let flashState = {};
     let quizState = {};
+    let fillState = {};
+
+    // Which tabs each article has, and which one is showing.
+    let practiceKeys = {};
+    let practiceCurrent = {};
 
     // The quiz that keyboard keys 1-4 apply to.
     let activeQuizId = null;
-
-    // Seconds to wait after a correct answer before the next question.
-    const QUIZ_ADVANCE_MS = 900;
 
     let speechSupported = "speechSynthesis" in window;
     let availableVoices = [];
@@ -881,6 +1070,76 @@
         return { word: clean, meaning: "" };
     }
 
+    /*
+     * Turns an article's vocab (list of objects, list of strings, or one
+     * text block) into a clean list of:
+     *   { word, meaning, example_ko, example_en }
+     * Old articles simply have empty example fields.
+     */
+    function getVocabItems(article) {
+        const raw =
+            article.vocab !== undefined &&
+            article.vocab !== null &&
+            article.vocab !== ""
+                ? article.vocab
+                : article.vocabulary;
+
+        let items = [];
+
+        if (Array.isArray(raw)) {
+            raw.forEach(function (entry) {
+                if (typeof entry === "string") {
+                    const parsed = parseVocabLine(entry);
+
+                    if (parsed) {
+                        items.push({
+                            word: parsed.word,
+                            meaning: parsed.meaning,
+                            example_ko: "",
+                            example_en: ""
+                        });
+                    }
+                } else if (entry && typeof entry === "object") {
+                    items.push({
+                        word: String(entry.word || "").trim(),
+                        meaning: String(
+                            entry.meaning || entry.definition || ""
+                        ).trim(),
+                        example_ko: String(
+                            entry.example_ko || entry.example || ""
+                        ).trim(),
+                        example_en: String(entry.example_en || "").trim()
+                    });
+                }
+            });
+        } else if (typeof raw === "string" && raw.trim()) {
+            raw.trim().split("\n").forEach(function (line) {
+                const parsed = parseVocabLine(line);
+
+                if (parsed) {
+                    items.push({
+                        word: parsed.word,
+                        meaning: parsed.meaning,
+                        example_ko: "",
+                        example_en: ""
+                    });
+                }
+            });
+        }
+
+        return items.filter(function (item) {
+            return item.word;
+        });
+    }
+
+    // Example sentence with the [bracketed] target word shown in bold.
+    function exampleHtml(text) {
+        return escapeHtml(text).replace(
+            /\[([^\]]+)\]/g,
+            "<strong>$1</strong>"
+        );
+    }
+
     function formatDate(dateValue, publishedAt) {
         if (publishedAt) {
             return publishedAt;
@@ -925,6 +1184,154 @@
         }
     }
 
+    function toggleExamples(articleId) {
+        const box = document.getElementById(articleId + "-examples");
+        const button = document.getElementById(articleId + "-examples-btn");
+
+        if (!box || !button) {
+            return;
+        }
+
+        if (box.style.display === "none") {
+            box.style.display = "block";
+            button.textContent = "Hide Example Sentences";
+        } else {
+            box.style.display = "none";
+            button.textContent = "Show Example Sentences";
+        }
+    }
+
+    /*
+     * ---------- Shared helpers ----------
+     */
+
+    function shuffleArray(arr) {
+        const copy = arr.slice();
+
+        for (let i = copy.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const temp = copy[i];
+            copy[i] = copy[j];
+            copy[j] = temp;
+        }
+
+        return copy;
+    }
+
+    // Reorders a list so the same word is not asked twice in a row.
+    function separateNeighbors(list) {
+        for (let i = 1; i < list.length; i++) {
+            if (list[i].id === list[i - 1].id) {
+                for (let j = i + 1; j < list.length; j++) {
+                    if (list[j].id !== list[i - 1].id) {
+                        const temp = list[i];
+                        list[i] = list[j];
+                        list[j] = temp;
+                        break;
+                    }
+                }
+            }
+        }
+
+        return list;
+    }
+
+    // Items that have both a word and a meaning, with simple numeric IDs.
+    function usableVocab(items) {
+        return items
+            .filter(function (item) {
+                return item.word && item.meaning;
+            })
+            .map(function (item, i) {
+                return {
+                    id: i,
+                    word: item.word,
+                    meaning: item.meaning,
+                    example_ko: item.example_ko || "",
+                    example_en: item.example_en || ""
+                };
+            });
+    }
+
+    /*
+     * ---------- Practice panel (tabs) ----------
+     */
+
+    function togglePractice(articleId) {
+        const panel = document.getElementById(articleId + "-practice");
+        const button = document.getElementById(articleId + "-practice-btn");
+
+        if (!panel || !button) {
+            return;
+        }
+
+        if (panel.style.display === "none") {
+            panel.style.display = "block";
+            button.textContent = "Hide Practice";
+
+            const keys = practiceKeys[articleId] || [];
+            const current = practiceCurrent[articleId] || keys[0];
+
+            if (current) {
+                showPracticeTab(articleId, current);
+            }
+        } else {
+            panel.style.display = "none";
+            button.textContent = "🎯 Practice";
+
+            if (activeQuizId === articleId) {
+                activeQuizId = null;
+            }
+        }
+    }
+
+    function showPracticeTab(articleId, key) {
+        const keys = practiceKeys[articleId] || [];
+
+        keys.forEach(function (k) {
+            const box = document.getElementById(articleId + "-" + k);
+            const tab = document.getElementById(articleId + "-tab-" + k);
+
+            if (box) {
+                box.style.display = k === key ? "block" : "none";
+            }
+
+            if (tab) {
+                tab.classList.toggle("active", k === key);
+            }
+        });
+
+        practiceCurrent[articleId] = key;
+        activeQuizId = key === "quiz" ? articleId : null;
+
+        if (key === "order") {
+            if (!orderState[articleId].current) {
+                shuffleForOrder(articleId);
+            }
+            renderOrderExercise(articleId);
+        } else if (key === "match") {
+            if (!matchState[articleId].leftOrder) {
+                shuffleMatch(articleId);
+            }
+            renderMatchExercise(articleId);
+        } else if (key === "flash") {
+            if (!flashState[articleId].deck) {
+                startFlash(articleId);
+            }
+            renderFlash(articleId);
+        } else if (key === "quiz") {
+            if (!quizState[articleId].questions) {
+                startQuiz(articleId, null);
+            }
+            renderQuiz(articleId);
+        } else if (key === "fill") {
+            if (!fillState[articleId].order) {
+                startFill(articleId);
+            }
+            renderFill(articleId);
+        }
+    }
+
     /*
      * ---------- Sentence Order Exercise ----------
      */
@@ -951,12 +1358,7 @@
         let attempts = 0;
 
         do {
-            for (let i = shuffled.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                const temp = shuffled[i];
-                shuffled[i] = shuffled[j];
-                shuffled[j] = temp;
-            }
+            shuffled = shuffleArray(shuffled);
             attempts++;
         } while (
             attempts < 20 &&
@@ -1093,60 +1495,19 @@
         renderOrderExercise(articleId);
     }
 
-    function toggleOrderExercise(articleId) {
-        const box = document.getElementById(articleId + "-order");
-        const button = document.getElementById(articleId + "-order-btn");
-
-        if (!box || !button) {
-            return;
-        }
-
-        if (box.style.display === "none") {
-            if (!orderState[articleId].current) {
-                shuffleForOrder(articleId);
-            }
-
-            renderOrderExercise(articleId);
-            box.style.display = "block";
-            button.textContent = "Hide Sentence Order";
-        } else {
-            box.style.display = "none";
-            button.textContent = "🔀 Sentence Order";
-        }
-    }
-
     /*
      * ---------- Match Words & Meanings Exercise ----------
      */
 
-    function shuffleArray(arr) {
-        const copy = arr.slice();
-
-        for (let i = copy.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            const temp = copy[i];
-            copy[i] = copy[j];
-            copy[j] = temp;
-        }
-
-        return copy;
-    }
-
-    // Registers the exercise for one article and returns the button + box HTML.
-    // Returns an empty string when there are too few words to make it worthwhile.
-    function buildMatchHtml(articleId, items) {
-        const usable = items.filter(function (item) {
-            return item.word && item.meaning;
-        });
+    function registerMatch(articleId, items) {
+        const usable = usableVocab(items);
 
         if (usable.length < 3) {
-            return "";
+            return false;
         }
 
         matchState[articleId] = {
-            items: usable.map(function (item, i) {
-                return { id: i, word: item.word, meaning: item.meaning };
-            }),
+            items: usable,
             leftOrder: null,
             rightOrder: null,
             selLeft: null,
@@ -1156,25 +1517,7 @@
             flash: null
         };
 
-        return `
-            <div class="translation-toggle">
-
-                <button
-                    id="${articleId}-match-btn"
-                    class="translation-btn"
-                    onclick="toggleMatchExercise('${articleId}')"
-                >
-                    🔗 Match Words & Meanings
-                </button>
-
-                <div
-                    id="${articleId}-match"
-                    class="translation-box"
-                    style="display:none;"
-                ></div>
-
-            </div>
-        `;
+        return true;
     }
 
     function shuffleMatch(articleId) {
@@ -1354,89 +1697,27 @@
         renderMatchExercise(articleId);
     }
 
-    function toggleMatchExercise(articleId) {
-        const box = document.getElementById(articleId + "-match");
-        const button = document.getElementById(articleId + "-match-btn");
-
-        if (!box || !button) {
-            return;
-        }
-
-        if (box.style.display === "none") {
-            if (!matchState[articleId].leftOrder) {
-                shuffleMatch(articleId);
-            }
-
-            renderMatchExercise(articleId);
-            box.style.display = "block";
-            button.textContent = "Hide Matching";
-        } else {
-            box.style.display = "none";
-            button.textContent = "🔗 Match Words & Meanings";
-        }
-    }
-
     /*
-     * ---------- Shared helpers for Flashcards and Quiz ----------
+     * ---------- Flashcards (Korean→English, English→Korean, Mixed) ----------
      */
 
-    function usableVocab(items) {
-        return items
-            .filter(function (item) {
-                return item.word && item.meaning;
-            })
-            .map(function (item, i) {
-                return { id: i, word: item.word, meaning: item.meaning };
-            });
-    }
-
-    function practiceToggleHtml(articleId, key, label, handler) {
-        return `
-            <div class="translation-toggle">
-
-                <button
-                    id="${articleId}-${key}-btn"
-                    class="translation-btn"
-                    onclick="${handler}('${articleId}')"
-                >
-                    ${label}
-                </button>
-
-                <div
-                    id="${articleId}-${key}"
-                    class="translation-box"
-                    style="display:none;"
-                ></div>
-
-            </div>
-        `;
-    }
-
-    /*
-     * ---------- Flashcards ----------
-     */
-
-    function buildFlashHtml(articleId, items) {
+    function registerFlash(articleId, items) {
         const usable = usableVocab(items);
 
         if (usable.length < 3) {
-            return "";
+            return false;
         }
 
         flashState[articleId] = {
             items: usable,
+            mode: "ko2en",
             deck: null,
             flipped: false,
             again: 0,
-            total: usable.length
+            total: 0
         };
 
-        return practiceToggleHtml(
-            articleId,
-            "flash",
-            "🃏 Flashcards",
-            "toggleFlashExercise"
-        );
+        return true;
     }
 
     function startFlash(articleId) {
@@ -1446,13 +1727,34 @@
             return;
         }
 
-        state.deck = shuffleArray(
-            state.items.map(function (item) {
-                return item.id;
-            })
-        );
+        let cards = [];
+
+        state.items.forEach(function (item) {
+            if (state.mode !== "en2ko") {
+                cards.push({ id: item.id, dir: "ko2en" });
+            }
+
+            if (state.mode !== "ko2en") {
+                cards.push({ id: item.id, dir: "en2ko" });
+            }
+        });
+
+        state.deck = separateNeighbors(shuffleArray(cards));
+        state.total = state.deck.length;
         state.flipped = false;
         state.again = 0;
+    }
+
+    function setFlashMode(articleId, mode) {
+        const state = flashState[articleId];
+
+        if (!state) {
+            return;
+        }
+
+        state.mode = mode;
+        startFlash(articleId);
+        renderFlash(articleId);
     }
 
     function renderFlash(articleId) {
@@ -1469,10 +1771,25 @@
             byId[item.id] = item;
         });
 
-        let html = "";
+        const modes = [
+            ["ko2en", "Korean → English"],
+            ["en2ko", "English → Korean"],
+            ["mixed", "Mixed"]
+        ];
+
+        let html = `
+            <div class="order-actions" style="margin: 0 0 14px;">
+                ${modes.map(function (m) {
+                    return `<button
+                        class="translation-btn ${state.mode === m[0] ? "mode-active" : ""}"
+                        onclick="setFlashMode('${articleId}', '${m[0]}')"
+                    >${m[1]}</button>`;
+                }).join("")}
+            </div>
+        `;
 
         if (state.deck.length === 0) {
-            html = `
+            html += `
                 <div class="order-result">
                     🎉 Deck complete! You went through all ${state.total} cards.
                     "Again" was pressed ${state.again} time${state.again === 1 ? "" : "s"}.
@@ -1487,19 +1804,47 @@
             return;
         }
 
-        const current = byId[state.deck[0]];
+        const card = state.deck[0];
+        const current = byId[card.id];
+
+        const front = card.dir === "ko2en"
+            ? `<div class="flash-word">${escapeHtml(current.word)}</div>`
+            : `<div class="flash-word english">${escapeHtml(current.meaning)}</div>`;
+
+        let back = "";
+
+        if (state.flipped) {
+            back = card.dir === "ko2en"
+                ? `<div class="flash-meaning">${escapeHtml(current.meaning)}</div>`
+                : `<div class="flash-meaning flash-korean">${escapeHtml(current.word)}</div>`;
+
+            if (current.example_ko) {
+                back += `
+                    <div class="flash-example">
+                        <div>${exampleHtml(current.example_ko)}</div>
+                        ${
+                            current.example_en
+                                ? `<div class="flash-example-en">${escapeHtml(current.example_en)}</div>`
+                                : ""
+                        }
+                    </div>
+                `;
+            }
+        } else {
+            back = `<div class="flash-hint">${
+                card.dir === "ko2en"
+                    ? "Think of the meaning, then tap to reveal"
+                    : "Think of the Korean word, then tap to reveal"
+            }</div>`;
+        }
 
         html += `
             <div class="flash-progress">
                 Cards left: ${state.deck.length} of ${state.total} · Again: ${state.again}
             </div>
             <div class="flash-card" onclick="flipCard('${articleId}')">
-                <div class="flash-word">${escapeHtml(current.word)}</div>
-                ${
-                    state.flipped
-                        ? `<div class="flash-meaning">${escapeHtml(current.meaning)}</div>`
-                        : `<div class="flash-hint">Think of the meaning, then tap to reveal</div>`
-                }
+                ${front}
+                ${back}
             </div>
         `;
 
@@ -1537,11 +1882,12 @@
             return;
         }
 
-        const current = state.deck.shift();
+        const card = state.deck.shift();
 
         if (!gotIt) {
             state.again++;
-            state.deck.push(current);
+            // The card comes back in the same direction.
+            state.deck.push(card);
         }
 
         state.flipped = false;
@@ -1553,38 +1899,16 @@
         renderFlash(articleId);
     }
 
-    function toggleFlashExercise(articleId) {
-        const box = document.getElementById(articleId + "-flash");
-        const button = document.getElementById(articleId + "-flash-btn");
-
-        if (!box || !button) {
-            return;
-        }
-
-        if (box.style.display === "none") {
-            if (!flashState[articleId].deck) {
-                startFlash(articleId);
-            }
-
-            renderFlash(articleId);
-            box.style.display = "block";
-            button.textContent = "Hide Flashcards";
-        } else {
-            box.style.display = "none";
-            button.textContent = "🃏 Flashcards";
-        }
-    }
-
     /*
      * ---------- Vocab Quiz (multiple choice, both directions) ----------
      */
 
-    function buildQuizHtml(articleId, items) {
+    function registerQuiz(articleId, items) {
         const usable = usableVocab(items);
 
         // Need at least 4 words to make four choices.
         if (usable.length < 4) {
-            return "";
+            return false;
         }
 
         quizState[articleId] = {
@@ -1602,12 +1926,7 @@
             reviewing: false
         };
 
-        return practiceToggleHtml(
-            articleId,
-            "quiz",
-            "⚡ Vocab Quiz",
-            "toggleQuizExercise"
-        );
+        return true;
     }
 
     function setQuizQuestion(state) {
@@ -1660,23 +1979,7 @@
             qs.push({ id: id, dir: "en2ko" });
         });
 
-        qs = shuffleArray(qs);
-
-        // Avoid asking the same word twice in a row.
-        for (let i = 1; i < qs.length; i++) {
-            if (qs[i].id === qs[i - 1].id) {
-                for (let j = i + 1; j < qs.length; j++) {
-                    if (qs[j].id !== qs[i - 1].id) {
-                        const temp = qs[i];
-                        qs[i] = qs[j];
-                        qs[j] = temp;
-                        break;
-                    }
-                }
-            }
-        }
-
-        state.questions = qs;
+        state.questions = separateNeighbors(shuffleArray(qs));
         state.qIndex = 0;
         state.errors = 0;
         state.firstTry = 0;
@@ -1800,8 +2103,6 @@
             return;
         }
 
-        activeQuizId = articleId;
-
         const q = state.questions[state.qIndex];
 
         if (optId === q.id) {
@@ -1860,33 +2161,6 @@
         renderQuiz(articleId);
     }
 
-    function toggleQuizExercise(articleId) {
-        const box = document.getElementById(articleId + "-quiz");
-        const button = document.getElementById(articleId + "-quiz-btn");
-
-        if (!box || !button) {
-            return;
-        }
-
-        if (box.style.display === "none") {
-            if (!quizState[articleId].questions) {
-                startQuiz(articleId, null);
-            }
-
-            renderQuiz(articleId);
-            box.style.display = "block";
-            button.textContent = "Hide Vocab Quiz";
-            activeQuizId = articleId;
-        } else {
-            box.style.display = "none";
-            button.textContent = "⚡ Vocab Quiz";
-
-            if (activeQuizId === articleId) {
-                activeQuizId = null;
-            }
-        }
-    }
-
     // Keyboard shortcuts: press 1-4 to answer the open quiz.
     document.addEventListener("keydown", function (event) {
         if (!activeQuizId) {
@@ -1923,64 +2197,234 @@
     });
 
     /*
-     * Generate Study Session Async Function
+     * ---------- Fill in the Blank (uses [bracketed] example sentences) ----------
      */
-    async function generateStudySession(buttonElement) {
-        const statusDiv = buttonElement.nextElementSibling;
-        statusDiv.style.display = "block";
-        statusDiv.textContent = "Building your study session and quiz...";
-        buttonElement.disabled = true;
 
-        const vocabElements = buttonElement.closest(".vocab-section").querySelectorAll(".vocab-item"); 
-        let vocabularyData = [];
-
-        vocabElements.forEach(el => {
-            const word = el.getAttribute("data-word") || el.querySelector(".word")?.textContent.trim();
-            const meaning = el.getAttribute("data-meaning") || el.querySelector(".meaning")?.textContent.trim();
-            if (word && meaning) {
-                vocabularyData.push({ word, meaning });
-            }
+    function registerFill(articleId, items) {
+        const usable = usableVocab(items).filter(function (item) {
+            return /\[[^\]]+\]/.test(item.example_ko);
         });
 
-        if (vocabularyData.length === 0 && window.currentArticleVocabulary) {
-            vocabularyData = window.currentArticleVocabulary;
+        // Re-number so IDs are 0..n-1 for this exercise.
+        usable.forEach(function (item, i) {
+            item.id = i;
+        });
+
+        if (usable.length < 3) {
+            return false;
         }
 
-        if (vocabularyData.length === 0) {
-            statusDiv.textContent = "Could not find vocabulary words on the page.";
-            buttonElement.disabled = false;
+        fillState[articleId] = {
+            items: usable,
+            order: null,
+            bank: null,
+            answers: {},
+            sel: null,
+            checked: false
+        };
+
+        return true;
+    }
+
+    function startFill(articleId) {
+        const state = fillState[articleId];
+
+        if (!state) {
             return;
         }
 
-        try {
-            const response = await fetch("https://topik-study-worker.jason-asknow.workers.dev/generate-study", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ vocabulary: vocabularyData })
+        const ids = state.items.map(function (item) {
+            return item.id;
+        });
+
+        state.order = shuffleArray(ids);
+        state.bank = shuffleArray(ids);
+        state.answers = {};
+        state.sel = null;
+        state.checked = false;
+    }
+
+    function fillUsedIds(state) {
+        return Object.keys(state.answers).map(function (k) {
+            return state.answers[k];
+        });
+    }
+
+    function renderFill(articleId) {
+        const state = fillState[articleId];
+        const box = document.getElementById(articleId + "-fill");
+
+        if (!state || !box) {
+            return;
+        }
+
+        const byId = {};
+
+        state.items.forEach(function (item) {
+            byId[item.id] = item;
+        });
+
+        const used = fillUsedIds(state);
+        let score = 0;
+
+        let html = `
+            <p class="order-help">
+                Tap a word, then tap a blank to place it. The blank hides the
+                word in the form used in the sentence. Tap a filled blank to
+                remove the word.
+            </p>
+            <div class="fill-bank">
+                ${state.bank.map(function (id) {
+                    let className = "fill-chip";
+
+                    if (used.indexOf(id) !== -1) {
+                        className += " used";
+                    } else if (state.sel === id) {
+                        className += " selected";
+                    }
+
+                    const clickAttr = (state.checked || used.indexOf(id) !== -1)
+                        ? ""
+                        : `onclick="pickFillChip('${articleId}', ${id})"`;
+
+                    return `<span class="${className}" ${clickAttr}>${escapeHtml(byId[id].word)}</span>`;
+                }).join("")}
+            </div>
+        `;
+
+        state.order.forEach(function (id, qi) {
+            const item = byId[id];
+            const match = item.example_ko.match(/\[([^\]]+)\]/);
+
+            const before = item.example_ko
+                .slice(0, match.index)
+                .replace(/[\[\]]/g, "");
+            const after = item.example_ko
+                .slice(match.index + match[0].length)
+                .replace(/[\[\]]/g, "");
+
+            const answer = state.answers[qi];
+            const hasAnswer = answer !== undefined;
+
+            let slotClass = "fill-slot";
+            let slotText = "(tap)";
+            let qClass = "fill-question";
+            let feedback = "";
+
+            if (hasAnswer) {
+                slotClass += " filled";
+                slotText = byId[answer].word;
+            }
+
+            if (state.checked) {
+                if (hasAnswer && answer === id) {
+                    score++;
+                    slotClass = "fill-slot ok";
+                    qClass += " correct";
+                    feedback = `<div class="fill-feedback ok">✅ Correct — ${escapeHtml(match[1])}</div>`;
+                } else {
+                    slotClass = "fill-slot bad";
+                    qClass += " wrong";
+                    feedback = `<div class="fill-feedback bad">❌ Answer: ${escapeHtml(item.word)} (${escapeHtml(match[1])})</div>`;
+                }
+            }
+
+            const slotClick = state.checked
+                ? ""
+                : `onclick="pickFillSlot('${articleId}', ${qi})"`;
+
+            html += `
+                <div class="${qClass}">
+                    <div>
+                        ${qi + 1}. ${escapeHtml(before)}<span class="${slotClass}" ${slotClick}>${escapeHtml(slotText)}</span>${escapeHtml(after)}
+                    </div>
+                    ${
+                        item.example_en
+                            ? `<div class="example-en">${escapeHtml(item.example_en)}</div>`
+                            : ""
+                    }
+                    ${feedback}
+                </div>
+            `;
+        });
+
+        html += `
+            <div class="order-actions">
+                <button class="translation-btn" onclick="checkFill('${articleId}')">
+                    ✓ Check Answers
+                </button>
+                <button class="translation-btn" onclick="restartFill('${articleId}')">
+                    🔀 Shuffle Again
+                </button>
+            </div>
+        `;
+
+        if (state.checked) {
+            html += `
+                <div class="order-result">
+                    ${score === state.items.length ? "🎉 " : ""}Score: ${score} / ${state.items.length}
+                </div>
+            `;
+        }
+
+        box.innerHTML = html;
+    }
+
+    function pickFillChip(articleId, id) {
+        const state = fillState[articleId];
+
+        if (!state || state.checked) {
+            return;
+        }
+
+        state.sel = state.sel === id ? null : id;
+        renderFill(articleId);
+    }
+
+    function pickFillSlot(articleId, qi) {
+        const state = fillState[articleId];
+
+        if (!state || state.checked) {
+            return;
+        }
+
+        if (state.sel !== null) {
+            // Remove this word from any other blank first.
+            Object.keys(state.answers).forEach(function (k) {
+                if (state.answers[k] === state.sel) {
+                    delete state.answers[k];
+                }
             });
 
-            const data = await response.json();
-
-            if (data.success && data.study_lesson) {
-                sessionStorage.setItem("currentStudyLesson", JSON.stringify(data.study_lesson));
-                
-                statusDiv.textContent = "Opening study session...";
-                window.open("study.html", "_blank");
-                
-                setTimeout(() => {
-                    statusDiv.style.display = "none";
-                    buttonElement.disabled = false;
-                }, 2000);
-            } else {
-                statusDiv.textContent = "Error: " + (data.message || "Failed to generate lesson.");
-                buttonElement.disabled = false;
-            }
-        } catch (err) {
-            console.error(err);
-            statusDiv.textContent = "Connection error. Please try again.";
-            buttonElement.disabled = false;
+            state.answers[qi] = state.sel;
+            state.sel = null;
+        } else if (state.answers[qi] !== undefined) {
+            delete state.answers[qi];
         }
+
+        renderFill(articleId);
     }
+
+    function checkFill(articleId) {
+        const state = fillState[articleId];
+
+        if (!state) {
+            return;
+        }
+
+        state.checked = true;
+        state.sel = null;
+        renderFill(articleId);
+    }
+
+    function restartFill(articleId) {
+        startFill(articleId);
+        renderFill(articleId);
+    }
+
+    /*
+     * ---------- Rendering the article list ----------
+     */
 
     function renderArticles() {
         const container = document.getElementById(
@@ -1996,6 +2440,9 @@
         matchState = {};
         flashState = {};
         quizState = {};
+        fillState = {};
+        practiceKeys = {};
+        practiceCurrent = {};
         activeQuizId = null;
 
         if (!filteredArticles.length) {
@@ -2039,69 +2486,66 @@
                 ""
             ).replace(/\n/g, "<br>");
 
+            // ----- Vocabulary + example sentences -----
+
+            const vocabItems = getVocabItems(article);
+
             let vocabularyHtml = "";
 
-            const rawVocabulary =
-                article.vocab !== undefined &&
-                article.vocab !== null &&
-                article.vocab !== ""
-                    ? article.vocab
-                    : article.vocabulary;
-
-            if (
-                rawVocabulary &&
-                Array.isArray(rawVocabulary) &&
-                rawVocabulary.length
-            ) {
-                // Collect word/meaning pairs for the practice exercises.
-                const arrayMatchItems = [];
-
-                rawVocabulary.forEach(function (item) {
-                    if (item && typeof item === "object") {
-                        arrayMatchItems.push({
-                            word: String(item.word || "").trim(),
-                            meaning: String(
-                                item.meaning || item.definition || ""
-                            ).trim()
-                        });
-                    }
+            if (vocabItems.length) {
+                const examples = vocabItems.filter(function (item) {
+                    return item.example_ko;
                 });
 
-                const matchHtml = buildMatchHtml(articleId, arrayMatchItems);
-                const flashHtml = buildFlashHtml(articleId, arrayMatchItems);
-                const quizHtml = buildQuizHtml(articleId, arrayMatchItems);
+                let examplesHtml = "";
+
+                if (examples.length) {
+                    examplesHtml = `
+                        <div class="translation-toggle">
+
+                            <button
+                                id="${articleId}-examples-btn"
+                                class="translation-btn"
+                                onclick="toggleExamples('${articleId}')"
+                            >
+                                Show Example Sentences
+                            </button>
+
+                            <div
+                                id="${articleId}-examples"
+                                class="translation-box"
+                                style="display:none;"
+                            >
+                                ${examples.map(function (item) {
+                                    return `
+                                        <div class="example-item">
+                                            <div class="example-ko">${exampleHtml(item.example_ko)}</div>
+                                            ${
+                                                item.example_en
+                                                    ? `<div class="example-en">${escapeHtml(item.example_en)}</div>`
+                                                    : ""
+                                            }
+                                        </div>
+                                    `;
+                                }).join("")}
+                            </div>
+
+                        </div>
+                    `;
+                }
 
                 vocabularyHtml = `
                     <div class="vocab-section">
                         <h3>Key Vocabulary</h3>
 
                         <ul class="vocab-list">
-                            ${rawVocabulary.map(function (item) {
-
-                                if (typeof item === "string") {
-                                    return `
-                                        <li class="vocab-item" data-word="${escapeHtml(item)}" data-meaning="">
-                                            <span class="word">${escapeHtml(item)}</span>
-                                        </li>
-                                    `;
-                                }
-
-                                const word = escapeHtml(
-                                    item.word || ""
-                                );
-
-                                const meaning = escapeHtml(
-                                    item.meaning ||
-                                    item.definition ||
-                                    ""
-                                );
-
+                            ${vocabItems.map(function (item) {
                                 return `
-                                    <li class="vocab-item" data-word="${word}" data-meaning="${meaning}">
-                                        <strong class="word">${word}</strong>
+                                    <li class="vocab-item" data-word="${escapeHtml(item.word)}" data-meaning="${escapeHtml(item.meaning)}">
+                                        <strong class="word">${escapeHtml(item.word)}</strong>
                                         <span class="meaning">${
-                                            meaning
-                                                ? " — " + meaning
+                                            item.meaning
+                                                ? " — " + escapeHtml(item.meaning)
                                                 : ""
                                         }</span>
                                     </li>
@@ -2109,66 +2553,12 @@
                             }).join("")}
                         </ul>
 
-                        ${matchHtml}
-
-                        ${flashHtml}
-
-                        ${quizHtml}
-
-                        <button class="generate-study-button" onclick="generateStudySession(this)">
-                            📚 Generate Study Session & Quiz
-                        </button>
-                        <div class="study-status" style="display: none; margin-top: 10px; font-size: 0.9rem; color: #4a5568;"></div>
-                    </div>
-                `;
-            } else if (
-                typeof rawVocabulary === "string" &&
-                rawVocabulary.trim()
-            ) {
-                const vocabLines = rawVocabulary.trim().split("\n");
-                let parsedVocabItems = [];
-
-                vocabLines.forEach(line => {
-                    const item = parseVocabLine(line);
-                    if (item) {
-                        parsedVocabItems.push(item);
-                    }
-                });
-
-                const matchHtml = buildMatchHtml(articleId, parsedVocabItems);
-                const flashHtml = buildFlashHtml(articleId, parsedVocabItems);
-                const quizHtml = buildQuizHtml(articleId, parsedVocabItems);
-
-                vocabularyHtml = `
-                    <div class="vocab-section">
-                        <h3>Key Vocabulary</h3>
-
-                        <div class="vocab-text" style="display: none;">
-                            ${escapeHtml(rawVocabulary.trim())}
-                        </div>
-
-                        <ul class="vocab-list">
-                            ${parsedVocabItems.map(item => `
-                                <li class="vocab-item" data-word="${escapeHtml(item.word)}" data-meaning="${escapeHtml(item.meaning)}">
-                                    <strong class="word">${escapeHtml(item.word)}</strong>
-                                    <span class="meaning">${item.meaning ? " — " + escapeHtml(item.meaning) : ""}</span>
-                                </li>
-                            `).join("")}
-                        </ul>
-
-                        ${matchHtml}
-
-                        ${flashHtml}
-
-                        ${quizHtml}
-
-                        <button class="generate-study-button" onclick="generateStudySession(this)">
-                            📚 Generate Study Session & Quiz
-                        </button>
-                        <div class="study-status" style="display: none; margin-top: 10px; font-size: 0.9rem; color: #4a5568;"></div>
+                        ${examplesHtml}
                     </div>
                 `;
             }
+
+            // ----- Translation -----
 
             let translationHtml = "";
 
@@ -2196,9 +2586,11 @@
                 `;
             }
 
-            // Sentence Order exercise (first N sentences, first one fixed).
-            let orderHtml = "";
+            // ----- Practice panel -----
 
+            const tabs = [];
+
+            // Sentence Order (first N sentences, first one fixed).
             const allSentences = splitKoreanSentences(
                 article.body || article.content || ""
             );
@@ -2211,22 +2603,64 @@
                     checked: false
                 };
 
-                orderHtml = `
-                    <div class="translation-toggle">
+                tabs.push(["order", "🔀 Sentence Order"]);
+            }
+
+            if (registerMatch(articleId, vocabItems)) {
+                tabs.push(["match", "🔗 Match"]);
+            }
+
+            if (registerFlash(articleId, vocabItems)) {
+                tabs.push(["flash", "🃏 Flashcards"]);
+            }
+
+            if (registerQuiz(articleId, vocabItems)) {
+                tabs.push(["quiz", "⚡ Quiz"]);
+            }
+
+            if (registerFill(articleId, vocabItems)) {
+                tabs.push(["fill", "✏️ Fill in the Blank"]);
+            }
+
+            let practiceHtml = "";
+
+            if (tabs.length) {
+                practiceKeys[articleId] = tabs.map(function (t) {
+                    return t[0];
+                });
+
+                practiceHtml = `
+                    <div class="practice-section">
 
                         <button
-                            id="${articleId}-order-btn"
-                            class="translation-btn"
-                            onclick="toggleOrderExercise('${articleId}')"
+                            id="${articleId}-practice-btn"
+                            class="practice-main-btn"
+                            onclick="togglePractice('${articleId}')"
                         >
-                            🔀 Sentence Order
+                            🎯 Practice
                         </button>
 
-                        <div
-                            id="${articleId}-order"
-                            class="translation-box"
-                            style="display:none;"
-                        ></div>
+                        <div id="${articleId}-practice" style="display:none;">
+
+                            <div class="practice-tabs">
+                                ${tabs.map(function (t) {
+                                    return `<button
+                                        id="${articleId}-tab-${t[0]}"
+                                        class="practice-tab"
+                                        onclick="showPracticeTab('${articleId}', '${t[0]}')"
+                                    >${t[1]}</button>`;
+                                }).join("")}
+                            </div>
+
+                            ${tabs.map(function (t) {
+                                return `<div
+                                    id="${articleId}-${t[0]}"
+                                    class="translation-box"
+                                    style="display:none;"
+                                ></div>`;
+                            }).join("")}
+
+                        </div>
 
                     </div>
                 `;
@@ -2321,9 +2755,9 @@
 
                     ${translationHtml}
 
-                    ${orderHtml}
-
                     ${vocabularyHtml}
+
+                    ${practiceHtml}
 
                 </article>
             `;

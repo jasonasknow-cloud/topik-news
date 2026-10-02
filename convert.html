@@ -828,7 +828,20 @@ You do not need to clean it up first. Photo captions, bylines, related-story lin
 
             <h2>English Translation</h2>
 
-            <div id="english-translation" class="placeholder">
+            <button
+                id="english-translation-btn"
+                class="translation-btn"
+                onclick="toggleTranslation()"
+                style="display: none;"
+            >
+                Show English Translation
+            </button>
+
+            <div
+                id="english-translation"
+                class="translation-box"
+                style="display: none;"
+            >
                 The English translation will appear here.
             </div>
 
@@ -1057,7 +1070,15 @@ async function generateArticle() {
                     document.getElementById("english-translation");
 
                 englishBox.textContent = englishTranslation;
-                englishBox.className = "article-text";
+                englishBox.className = "article-text translation-box";
+                englishBox.style.display = "none";
+
+                const englishTranslationButton =
+                    document.getElementById("english-translation-btn");
+
+                englishTranslationButton.style.display = "inline-block";
+                englishTranslationButton.textContent =
+                    "Show English Translation";
 
 
                 document.getElementById(
@@ -1236,7 +1257,15 @@ function clearArticle() {
 
     const englishBox = document.getElementById("english-translation");
     englishBox.textContent = "The English translation will appear here.";
-    englishBox.className = "placeholder";
+    englishBox.className = "placeholder translation-box";
+    englishBox.style.display = "none";
+
+    const englishTranslationButton =
+        document.getElementById("english-translation-btn");
+
+    englishTranslationButton.style.display = "none";
+    englishTranslationButton.textContent =
+        "Show English Translation";
 
     const vocabBox = document.getElementById("vocabulary");
     vocabBox.textContent = "Important TOPIK vocabulary will appear here.";
@@ -1326,6 +1355,25 @@ function resumeSpeech() {
 function stopSpeech() {
 
     window.speechSynthesis.cancel();
+}
+
+
+function toggleTranslation() {
+
+    const box = document.getElementById("english-translation");
+    const button = document.getElementById("english-translation-btn");
+
+    if (!box || !button) {
+        return;
+    }
+
+    if (box.style.display === "none") {
+        box.style.display = "block";
+        button.textContent = "Hide English Translation";
+    } else {
+        box.style.display = "none";
+        button.textContent = "Show English Translation";
+    }
 }
 
 

@@ -157,7 +157,39 @@
             text-decoration: underline;
         }
 
-        /* ---------- Exercises (Sentence Order + Match + Flashcards + Quiz) ---------- */
+        /* ---------- Vocabulary list + examples ---------- */
+
+        .vocab-list {
+            margin: 0;
+            padding-left: 22px;
+        }
+
+        .vocab-list li {
+            margin-bottom: 7px;
+        }
+
+        .example-item {
+            margin-bottom: 14px;
+        }
+
+        .example-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .example-ko {
+            font-weight: 500;
+        }
+
+        .example-ko strong {
+            color: #2563eb;
+        }
+
+        .example-en {
+            color: #777;
+            font-size: 14px;
+        }
+
+        /* ---------- Shared exercise styles ---------- */
 
         .exercise-wrapper {
             margin-top: 20px;
@@ -171,11 +203,18 @@
             border: 1px solid #ccc;
             border-radius: 6px;
             cursor: pointer;
+            font-family: inherit;
         }
 
         .translation-btn:hover {
             border-color: #2563eb;
             color: #2563eb;
+        }
+
+        .translation-btn.mode-active {
+            background: #2563eb;
+            border-color: #2563eb;
+            color: white;
         }
 
         .translation-box {
@@ -186,6 +225,56 @@
             border-radius: 5px;
             line-height: 1.8;
         }
+
+        /* ---------- Practice panel ---------- */
+
+        .practice-main-btn {
+            padding: 10px 18px;
+            font-size: 15px;
+            font-weight: bold;
+            background: #2563eb;
+            color: white;
+            border: 1px solid #2563eb;
+            border-radius: 7px;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        .practice-main-btn:hover {
+            background: #1d4ed8;
+        }
+
+        .practice-tabs {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 14px;
+        }
+
+        .practice-tab {
+            padding: 8px 13px;
+            font-size: 14px;
+            margin: 0;
+            background: white;
+            color: #444;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        .practice-tab:hover {
+            border-color: #2563eb;
+            color: #2563eb;
+        }
+
+        .practice-tab.active {
+            background: #2563eb;
+            border-color: #2563eb;
+            color: white;
+        }
+
+        /* ---------- Sentence Order ---------- */
 
         .order-help {
             margin: 0 0 12px;
@@ -272,6 +361,8 @@
             margin-bottom: 4px;
         }
 
+        /* ---------- Match ---------- */
+
         .match-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -334,7 +425,7 @@
             background: white;
             border: 1px solid #e5e7eb;
             border-radius: 12px;
-            padding: 34px 20px;
+            padding: 30px 20px;
             text-align: center;
             cursor: pointer;
             min-height: 150px;
@@ -354,12 +445,36 @@
             font-weight: 700;
         }
 
+        .flash-word.english {
+            font-size: 1.3rem;
+        }
+
         .flash-meaning {
             font-size: 1.1rem;
             color: #2563eb;
             padding-top: 10px;
             border-top: 1px solid #e5e7eb;
             width: 100%;
+        }
+
+        .flash-meaning.flash-korean {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .flash-example {
+            width: 100%;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .flash-example strong {
+            color: #2563eb;
+        }
+
+        .flash-example-en {
+            color: #777;
+            font-size: 14px;
         }
 
         .flash-hint {
@@ -466,6 +581,109 @@
             line-height: 1.8;
         }
 
+        /* ---------- Fill in the Blank ---------- */
+
+        .fill-bank {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 12px;
+            background: #edf2f7;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+        .fill-chip {
+            background: white;
+            border: 2px solid #cbd5e0;
+            padding: 6px 12px;
+            border-radius: 18px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 15px;
+            user-select: none;
+        }
+
+        .fill-chip:hover {
+            border-color: #2563eb;
+        }
+
+        .fill-chip.selected {
+            background: #2563eb;
+            border-color: #2563eb;
+            color: white;
+        }
+
+        .fill-chip.used {
+            opacity: 0.4;
+            cursor: default;
+            background: #e2e8f0;
+        }
+
+        .fill-question {
+            padding: 12px 14px;
+            margin-bottom: 10px;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+        }
+
+        .fill-question.correct {
+            border-color: #15803d;
+        }
+
+        .fill-question.wrong {
+            border-color: #b91c1c;
+        }
+
+        .fill-slot {
+            display: inline-block;
+            min-width: 90px;
+            padding: 2px 10px;
+            margin: 0 3px;
+            border-bottom: 2px dashed #a0aec0;
+            background: #edf2f7;
+            color: #a0aec0;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 4px;
+            font-weight: 700;
+        }
+
+        .fill-slot.filled {
+            border-bottom: 2px solid #2563eb;
+            background: #ebf8ff;
+            color: #2563eb;
+        }
+
+        .fill-slot.ok {
+            border-bottom-color: #15803d;
+            background: #f0fdf4;
+            color: #15803d;
+            cursor: default;
+        }
+
+        .fill-slot.bad {
+            border-bottom-color: #b91c1c;
+            background: #fef2f2;
+            color: #b91c1c;
+            cursor: default;
+        }
+
+        .fill-feedback {
+            font-size: 14px;
+            margin-top: 4px;
+            font-weight: 500;
+        }
+
+        .fill-feedback.ok {
+            color: #15803d;
+        }
+
+        .fill-feedback.bad {
+            color: #b91c1c;
+        }
+
         @media (max-width: 600px) {
             body {
                 padding: 20px 15px;
@@ -480,6 +698,11 @@
                 margin-bottom: 8px;
             }
 
+            .practice-tab,
+            .practice-main-btn {
+                margin-bottom: 0;
+            }
+
             textarea {
                 min-height: 250px;
             }
@@ -491,10 +714,6 @@
 
             .quiz-prompt {
                 font-size: 1.4rem;
-            }
-
-            .quiz-option {
-                margin-bottom: 8px;
             }
         }
     </style>
@@ -603,25 +822,6 @@ You do not need to clean it up first. Photo captions, bylines, related-story lin
                 📋 Select All Korean
             </button>
 
-            <!-- Sentence Order exercise -->
-            <div id="order-wrapper" class="exercise-wrapper" style="display: none;">
-
-                <button
-                    id="conv-order-btn"
-                    class="translation-btn"
-                    onclick="toggleOrderExercise('conv')"
-                >
-                    🔀 Sentence Order
-                </button>
-
-                <div
-                    id="conv-order"
-                    class="translation-box"
-                    style="display: none;"
-                ></div>
-
-            </div>
-
         </div>
 
         <div class="result-section">
@@ -642,60 +842,36 @@ You do not need to clean it up first. Photo captions, bylines, related-story lin
                 Important TOPIK vocabulary will appear here.
             </div>
 
-            <!-- Match Words & Meanings exercise -->
-            <div id="match-wrapper" class="exercise-wrapper" style="display: none;">
+        </div>
 
-                <button
-                    id="conv-match-btn"
-                    class="translation-btn"
-                    onclick="toggleMatchExercise('conv')"
-                >
-                    🔗 Match Words &amp; Meanings
-                </button>
+        <!-- Practice panel -->
+        <div id="practice-section" class="result-section" style="display: none;">
 
-                <div
-                    id="conv-match"
-                    class="translation-box"
-                    style="display: none;"
-                ></div>
+            <h2>Practice</h2>
 
-            </div>
+            <button
+                id="conv-practice-btn"
+                class="practice-main-btn"
+                onclick="togglePractice()"
+            >
+                🎯 Practice
+            </button>
 
-            <!-- Flashcards -->
-            <div id="flash-wrapper" class="exercise-wrapper" style="display: none;">
+            <div id="conv-practice" style="display: none;">
 
-                <button
-                    id="conv-flash-btn"
-                    class="translation-btn"
-                    onclick="toggleFlashExercise('conv')"
-                >
-                    🃏 Flashcards
-                </button>
+                <div class="practice-tabs">
+                    <button id="conv-tab-order" class="practice-tab" style="display:none;" onclick="showPracticeTab('order')">🔀 Sentence Order</button>
+                    <button id="conv-tab-match" class="practice-tab" style="display:none;" onclick="showPracticeTab('match')">🔗 Match</button>
+                    <button id="conv-tab-flash" class="practice-tab" style="display:none;" onclick="showPracticeTab('flash')">🃏 Flashcards</button>
+                    <button id="conv-tab-quiz" class="practice-tab" style="display:none;" onclick="showPracticeTab('quiz')">⚡ Quiz</button>
+                    <button id="conv-tab-fill" class="practice-tab" style="display:none;" onclick="showPracticeTab('fill')">✏️ Fill in the Blank</button>
+                </div>
 
-                <div
-                    id="conv-flash"
-                    class="translation-box"
-                    style="display: none;"
-                ></div>
-
-            </div>
-
-            <!-- Vocab Quiz -->
-            <div id="quiz-wrapper" class="exercise-wrapper" style="display: none;">
-
-                <button
-                    id="conv-quiz-btn"
-                    class="translation-btn"
-                    onclick="toggleQuizExercise('conv')"
-                >
-                    ⚡ Vocab Quiz
-                </button>
-
-                <div
-                    id="conv-quiz"
-                    class="translation-box"
-                    style="display: none;"
-                ></div>
+                <div id="conv-order" class="translation-box" style="display:none;"></div>
+                <div id="conv-match" class="translation-box" style="display:none;"></div>
+                <div id="conv-flash" class="translation-box" style="display:none;"></div>
+                <div id="conv-quiz" class="translation-box" style="display:none;"></div>
+                <div id="conv-fill" class="translation-box" style="display:none;"></div>
 
             </div>
 
@@ -719,10 +895,17 @@ const EX_ID = "conv";
 // Milliseconds to wait after a correct quiz answer before the next question.
 const QUIZ_ADVANCE_MS = 900;
 
+const PRACTICE_KEYS_ALL = ["order", "match", "flash", "quiz", "fill"];
+
 let orderState = {};
 let matchState = {};
 let flashState = {};
 let quizState = {};
+let fillState = {};
+
+// Which practice tabs are available, and which one is showing.
+let practiceKeys = [];
+let practiceCurrent = null;
 
 // The quiz that keyboard keys 1-4 apply to.
 let activeQuizId = null;
@@ -863,40 +1046,18 @@ async function generateArticle() {
                         .trim();
 
 
-                document.getElementById(
-                    "korean-article"
-                ).textContent =
-                    koreanArticle;
+                const koreanBox =
+                    document.getElementById("korean-article");
+
+                koreanBox.textContent = koreanArticle;
+                koreanBox.className = "article-text";
 
 
-                document.getElementById(
-                    "english-translation"
-                ).textContent =
-                    englishTranslation;
+                const englishBox =
+                    document.getElementById("english-translation");
 
-
-                document.getElementById(
-                    "vocabulary"
-                ).textContent =
-                    vocabulary;
-
-
-                document.getElementById(
-                    "korean-article"
-                ).className =
-                    "article-text";
-
-
-                document.getElementById(
-                    "english-translation"
-                ).className =
-                    "article-text";
-
-
-                document.getElementById(
-                    "vocabulary"
-                ).className =
-                    "article-text";
+                englishBox.textContent = englishTranslation;
+                englishBox.className = "article-text";
 
 
                 document.getElementById(
@@ -911,12 +1072,24 @@ async function generateArticle() {
                     "📋 Select All Korean";
 
 
-                // Build the practice exercises.
-                setupExercises(koreanArticle, vocabulary);
+                // Vocabulary list + examples, then the practice exercises.
+                const vocabItems = parseVocabText(vocabulary);
+
+                renderVocabulary(vocabItems, vocabulary);
+                setupExercises(koreanArticle, vocabItems);
 
 
-                status.textContent =
-                    "Article generated successfully.";
+                if (data.validated === false) {
+
+                    status.textContent =
+                        "Article generated, but some vocabulary examples " +
+                        "may be missing or incomplete.";
+
+                } else {
+
+                    status.textContent =
+                        "Article generated successfully.";
+                }
 
             } else {
 
@@ -1057,22 +1230,17 @@ function clearArticle() {
     ).style.display = "none";
 
 
-    document.getElementById(
-        "korean-article"
-    ).textContent =
-        "Your TOPIK article will appear here.";
+    const koreanBox = document.getElementById("korean-article");
+    koreanBox.textContent = "Your TOPIK article will appear here.";
+    koreanBox.className = "placeholder";
 
+    const englishBox = document.getElementById("english-translation");
+    englishBox.textContent = "The English translation will appear here.";
+    englishBox.className = "placeholder";
 
-    document.getElementById(
-        "english-translation"
-    ).textContent =
-        "The English translation will appear here.";
-
-
-    document.getElementById(
-        "vocabulary"
-    ).textContent =
-        "Important TOPIK vocabulary will appear here.";
+    const vocabBox = document.getElementById("vocabulary");
+    vocabBox.textContent = "Important TOPIK vocabulary will appear here.";
+    vocabBox.className = "placeholder";
 
 
     document.getElementById(
@@ -1191,6 +1359,25 @@ function shuffleArray(arr) {
     return copy;
 }
 
+// Reorders a list so the same word is not asked twice in a row.
+function separateNeighbors(list) {
+    for (let i = 1; i < list.length; i++) {
+        if (list[i].id === list[i - 1].id) {
+            for (let j = i + 1; j < list.length; j++) {
+                if (list[j].id !== list[i - 1].id) {
+                    const temp = list[i];
+                    list[i] = list[j];
+                    list[j] = temp;
+                    break;
+                }
+            }
+        }
+    }
+
+    return list;
+}
+
+// Old-style vocab line: word: meaning / word — meaning / word (meaning)
 function parseVocabLine(line) {
     const clean = String(line || "")
         .replace(/^\s*(\d+[.)]|[-•*])\s*/, "")
@@ -1201,7 +1388,6 @@ function parseVocabLine(line) {
         return null;
     }
 
-    // Style: word — meaning  /  word - meaning  /  word: meaning
     const sep = clean.match(/^(.+?)\s*(?::|：|\s[-–—]\s|—|–)\s*(.+)$/);
 
     if (sep) {
@@ -1211,7 +1397,6 @@ function parseVocabLine(line) {
         };
     }
 
-    // Style: word (meaning)
     const paren = clean.match(/^(.+?)\s*[(（]\s*(.+?)\s*[)）]\s*$/);
 
     if (paren) {
@@ -1224,12 +1409,179 @@ function parseVocabLine(line) {
     return { word: clean, meaning: "" };
 }
 
+/*
+ * Turns the [VOCABULARY] text into a list of:
+ *   { word, meaning, example_ko, example_en }
+ * New format:  word | meaning | Korean example | English example
+ * Older plain formats still work (they just have no examples).
+ */
+function parseVocabText(text) {
+    const items = [];
+
+    String(text || "").split("\n").forEach(function (line) {
+        const clean = line
+            .replace(/\*\*/g, "")
+            .replace(/^\s*(\d+[.)]|[-•*])\s*/, "")
+            .trim();
+
+        if (!clean) {
+            return;
+        }
+
+        if (clean.indexOf("|") !== -1) {
+            const parts = clean.split("|").map(function (p) {
+                return p.trim();
+            });
+
+            if (parts.length >= 2 && parts[0]) {
+                items.push({
+                    word: parts[0],
+                    meaning: parts[1] || "",
+                    example_ko: parts[2] || "",
+                    example_en: parts.slice(3).join(" | ")
+                });
+            }
+
+            return;
+        }
+
+        const parsed = parseVocabLine(clean);
+
+        if (parsed && parsed.word) {
+            items.push({
+                word: parsed.word,
+                meaning: parsed.meaning,
+                example_ko: "",
+                example_en: ""
+            });
+        }
+    });
+
+    return items;
+}
+
+// Example sentence with the [bracketed] target word shown in bold.
+function exampleHtml(text) {
+    return escapeHtml(text).replace(
+        /\[([^\]]+)\]/g,
+        "<strong>$1</strong>"
+    );
+}
+
+// Items that have both a word and a meaning, with simple numeric IDs.
+function usableVocab(items) {
+    return items
+        .filter(function (item) {
+            return item.word && item.meaning;
+        })
+        .map(function (item, i) {
+            return {
+                id: i,
+                word: item.word,
+                meaning: item.meaning,
+                example_ko: item.example_ko || "",
+                example_en: item.example_en || ""
+            };
+        });
+}
+
 function splitKoreanSentences(text) {
     return String(text || "")
         .replace(/\s+/g, " ")
         .trim()
         .split(/(?<=[.!?])\s+/)
         .filter(Boolean);
+}
+
+
+/*
+ * ---------- Vocabulary display ----------
+ */
+
+function renderVocabulary(items, rawText) {
+    const box = document.getElementById("vocabulary");
+
+    if (!items.length) {
+        // Nothing could be parsed; show the raw text instead.
+        box.textContent = rawText;
+        box.className = "article-text";
+        return;
+    }
+
+    const examples = items.filter(function (item) {
+        return item.example_ko;
+    });
+
+    let html = `
+        <ul class="vocab-list">
+            ${items.map(function (item) {
+                return `
+                    <li>
+                        <strong>${escapeHtml(item.word)}</strong>${
+                            item.meaning
+                                ? " — " + escapeHtml(item.meaning)
+                                : ""
+                        }
+                    </li>
+                `;
+            }).join("")}
+        </ul>
+    `;
+
+    if (examples.length) {
+        html += `
+            <div style="margin-top: 18px;">
+
+                <button
+                    id="conv-examples-btn"
+                    class="translation-btn"
+                    onclick="toggleExamples()"
+                >
+                    Show Example Sentences
+                </button>
+
+                <div
+                    id="conv-examples"
+                    class="translation-box"
+                    style="display: none;"
+                >
+                    ${examples.map(function (item) {
+                        return `
+                            <div class="example-item">
+                                <div class="example-ko">${exampleHtml(item.example_ko)}</div>
+                                ${
+                                    item.example_en
+                                        ? `<div class="example-en">${escapeHtml(item.example_en)}</div>`
+                                        : ""
+                                }
+                            </div>
+                        `;
+                    }).join("")}
+                </div>
+
+            </div>
+        `;
+    }
+
+    box.innerHTML = html;
+    box.className = "";
+}
+
+function toggleExamples() {
+    const box = document.getElementById("conv-examples");
+    const button = document.getElementById("conv-examples-btn");
+
+    if (!box || !button) {
+        return;
+    }
+
+    if (box.style.display === "none") {
+        box.style.display = "block";
+        button.textContent = "Hide Example Sentences";
+    } else {
+        box.style.display = "none";
+        button.textContent = "Show Example Sentences";
+    }
 }
 
 
@@ -1242,31 +1594,29 @@ function resetExercises() {
     matchState = {};
     flashState = {};
     quizState = {};
+    fillState = {};
+    practiceKeys = [];
+    practiceCurrent = null;
     activeQuizId = null;
 
-    document.getElementById("order-wrapper").style.display = "none";
-    document.getElementById("match-wrapper").style.display = "none";
-    document.getElementById("flash-wrapper").style.display = "none";
-    document.getElementById("quiz-wrapper").style.display = "none";
+    document.getElementById("practice-section").style.display = "none";
+    document.getElementById(EX_ID + "-practice").style.display = "none";
+    document.getElementById(EX_ID + "-practice-btn").textContent =
+        "🎯 Practice";
 
-    ["order", "match", "flash", "quiz"].forEach(function (key) {
+    PRACTICE_KEYS_ALL.forEach(function (key) {
         const box = document.getElementById(EX_ID + "-" + key);
+        const tab = document.getElementById(EX_ID + "-tab-" + key);
 
         box.style.display = "none";
         box.innerHTML = "";
-    });
 
-    document.getElementById(EX_ID + "-order-btn").textContent =
-        "🔀 Sentence Order";
-    document.getElementById(EX_ID + "-match-btn").textContent =
-        "🔗 Match Words & Meanings";
-    document.getElementById(EX_ID + "-flash-btn").textContent =
-        "🃏 Flashcards";
-    document.getElementById(EX_ID + "-quiz-btn").textContent =
-        "⚡ Vocab Quiz";
+        tab.style.display = "none";
+        tab.classList.remove("active");
+    });
 }
 
-function setupExercises(koreanText, vocabText) {
+function setupExercises(koreanText, vocabItems) {
     resetExercises();
 
     // Sentence Order: needs at least 3 sentences.
@@ -1280,69 +1630,97 @@ function setupExercises(koreanText, vocabText) {
             checked: false
         };
 
-        document.getElementById("order-wrapper").style.display = "block";
+        practiceKeys.push("order");
     }
 
-    // Vocabulary exercises: need words that have meanings.
-    const usable = [];
+    if (registerMatch(EX_ID, vocabItems)) {
+        practiceKeys.push("match");
+    }
 
-    String(vocabText || "").split("\n").forEach(function (line) {
-        const item = parseVocabLine(line);
+    if (registerFlash(EX_ID, vocabItems)) {
+        practiceKeys.push("flash");
+    }
 
-        if (item && item.word && item.meaning) {
-            usable.push(item);
+    if (registerQuiz(EX_ID, vocabItems)) {
+        practiceKeys.push("quiz");
+    }
+
+    if (registerFill(EX_ID, vocabItems)) {
+        practiceKeys.push("fill");
+    }
+
+    if (practiceKeys.length) {
+        practiceKeys.forEach(function (key) {
+            document.getElementById(EX_ID + "-tab-" + key).style.display =
+                "inline-block";
+        });
+
+        document.getElementById("practice-section").style.display = "block";
+    }
+}
+
+
+/*
+ * ---------- Practice panel (tabs) ----------
+ */
+
+function togglePractice() {
+    const panel = document.getElementById(EX_ID + "-practice");
+    const button = document.getElementById(EX_ID + "-practice-btn");
+
+    if (panel.style.display === "none") {
+        panel.style.display = "block";
+        button.textContent = "Hide Practice";
+
+        const current = practiceCurrent || practiceKeys[0];
+
+        if (current) {
+            showPracticeTab(current);
         }
-    });
-
-    const withIds = usable.map(function (item, i) {
-        return { id: i, word: item.word, meaning: item.meaning };
-    });
-
-    // Match: needs at least 3 words.
-    if (withIds.length >= 3) {
-        matchState[EX_ID] = {
-            items: withIds,
-            leftOrder: null,
-            rightOrder: null,
-            selLeft: null,
-            selRight: null,
-            matched: {},
-            mistakes: 0,
-            flash: null
-        };
-
-        document.getElementById("match-wrapper").style.display = "block";
-
-        // Flashcards: needs at least 3 words.
-        flashState[EX_ID] = {
-            items: withIds,
-            deck: null,
-            flipped: false,
-            again: 0,
-            total: withIds.length
-        };
-
-        document.getElementById("flash-wrapper").style.display = "block";
+    } else {
+        panel.style.display = "none";
+        button.textContent = "🎯 Practice";
+        activeQuizId = null;
     }
+}
 
-    // Quiz: needs at least 4 words to make four choices.
-    if (withIds.length >= 4) {
-        quizState[EX_ID] = {
-            items: withIds,
-            questions: null,
-            qIndex: 0,
-            options: [],
-            wrong: {},
-            hadError: false,
-            locked: false,
-            errors: 0,
-            firstTry: 0,
-            missed: {},
-            done: false,
-            reviewing: false
-        };
+function showPracticeTab(key) {
+    practiceKeys.forEach(function (k) {
+        const box = document.getElementById(EX_ID + "-" + k);
+        const tab = document.getElementById(EX_ID + "-tab-" + k);
 
-        document.getElementById("quiz-wrapper").style.display = "block";
+        box.style.display = k === key ? "block" : "none";
+        tab.classList.toggle("active", k === key);
+    });
+
+    practiceCurrent = key;
+    activeQuizId = key === "quiz" ? EX_ID : null;
+
+    if (key === "order") {
+        if (!orderState[EX_ID].current) {
+            shuffleForOrder(EX_ID);
+        }
+        renderOrderExercise(EX_ID);
+    } else if (key === "match") {
+        if (!matchState[EX_ID].leftOrder) {
+            shuffleMatch(EX_ID);
+        }
+        renderMatchExercise(EX_ID);
+    } else if (key === "flash") {
+        if (!flashState[EX_ID].deck) {
+            startFlash(EX_ID);
+        }
+        renderFlash(EX_ID);
+    } else if (key === "quiz") {
+        if (!quizState[EX_ID].questions) {
+            startQuiz(EX_ID, null);
+        }
+        renderQuiz(EX_ID);
+    } else if (key === "fill") {
+        if (!fillState[EX_ID].order) {
+            startFill(EX_ID);
+        }
+        renderFill(EX_ID);
     }
 }
 
@@ -1365,12 +1743,7 @@ function shuffleForOrder(articleId) {
     let attempts = 0;
 
     do {
-        for (let i = shuffled.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            const temp = shuffled[i];
-            shuffled[i] = shuffled[j];
-            shuffled[j] = temp;
-        }
+        shuffled = shuffleArray(shuffled);
         attempts++;
     } while (
         attempts < 20 &&
@@ -1507,32 +1880,31 @@ function restartOrder(articleId) {
     renderOrderExercise(articleId);
 }
 
-function toggleOrderExercise(articleId) {
-    const box = document.getElementById(articleId + "-order");
-    const button = document.getElementById(articleId + "-order-btn");
-
-    if (!box || !button || !orderState[articleId]) {
-        return;
-    }
-
-    if (box.style.display === "none") {
-        if (!orderState[articleId].current) {
-            shuffleForOrder(articleId);
-        }
-
-        renderOrderExercise(articleId);
-        box.style.display = "block";
-        button.textContent = "Hide Sentence Order";
-    } else {
-        box.style.display = "none";
-        button.textContent = "🔀 Sentence Order";
-    }
-}
-
 
 /*
  * ---------- Match Words & Meanings Exercise ----------
  */
+
+function registerMatch(articleId, items) {
+    const usable = usableVocab(items);
+
+    if (usable.length < 3) {
+        return false;
+    }
+
+    matchState[articleId] = {
+        items: usable,
+        leftOrder: null,
+        rightOrder: null,
+        selLeft: null,
+        selRight: null,
+        matched: {},
+        mistakes: 0,
+        flash: null
+    };
+
+    return true;
+}
 
 function shuffleMatch(articleId) {
     const state = matchState[articleId];
@@ -1711,32 +2083,29 @@ function restartMatch(articleId) {
     renderMatchExercise(articleId);
 }
 
-function toggleMatchExercise(articleId) {
-    const box = document.getElementById(articleId + "-match");
-    const button = document.getElementById(articleId + "-match-btn");
-
-    if (!box || !button || !matchState[articleId]) {
-        return;
-    }
-
-    if (box.style.display === "none") {
-        if (!matchState[articleId].leftOrder) {
-            shuffleMatch(articleId);
-        }
-
-        renderMatchExercise(articleId);
-        box.style.display = "block";
-        button.textContent = "Hide Matching";
-    } else {
-        box.style.display = "none";
-        button.textContent = "🔗 Match Words & Meanings";
-    }
-}
-
 
 /*
- * ---------- Flashcards ----------
+ * ---------- Flashcards (Korean→English, English→Korean, Mixed) ----------
  */
+
+function registerFlash(articleId, items) {
+    const usable = usableVocab(items);
+
+    if (usable.length < 3) {
+        return false;
+    }
+
+    flashState[articleId] = {
+        items: usable,
+        mode: "ko2en",
+        deck: null,
+        flipped: false,
+        again: 0,
+        total: 0
+    };
+
+    return true;
+}
 
 function startFlash(articleId) {
     const state = flashState[articleId];
@@ -1745,13 +2114,34 @@ function startFlash(articleId) {
         return;
     }
 
-    state.deck = shuffleArray(
-        state.items.map(function (item) {
-            return item.id;
-        })
-    );
+    const cards = [];
+
+    state.items.forEach(function (item) {
+        if (state.mode !== "en2ko") {
+            cards.push({ id: item.id, dir: "ko2en" });
+        }
+
+        if (state.mode !== "ko2en") {
+            cards.push({ id: item.id, dir: "en2ko" });
+        }
+    });
+
+    state.deck = separateNeighbors(shuffleArray(cards));
+    state.total = state.deck.length;
     state.flipped = false;
     state.again = 0;
+}
+
+function setFlashMode(articleId, mode) {
+    const state = flashState[articleId];
+
+    if (!state) {
+        return;
+    }
+
+    state.mode = mode;
+    startFlash(articleId);
+    renderFlash(articleId);
 }
 
 function renderFlash(articleId) {
@@ -1768,10 +2158,25 @@ function renderFlash(articleId) {
         byId[item.id] = item;
     });
 
-    let html = "";
+    const modes = [
+        ["ko2en", "Korean → English"],
+        ["en2ko", "English → Korean"],
+        ["mixed", "Mixed"]
+    ];
+
+    let html = `
+        <div class="order-actions" style="margin: 0 0 14px;">
+            ${modes.map(function (m) {
+                return `<button
+                    class="translation-btn ${state.mode === m[0] ? "mode-active" : ""}"
+                    onclick="setFlashMode('${articleId}', '${m[0]}')"
+                >${m[1]}</button>`;
+            }).join("")}
+        </div>
+    `;
 
     if (state.deck.length === 0) {
-        html = `
+        html += `
             <div class="order-result">
                 🎉 Deck complete! You went through all ${state.total} cards.
                 "Again" was pressed ${state.again} time${state.again === 1 ? "" : "s"}.
@@ -1786,19 +2191,47 @@ function renderFlash(articleId) {
         return;
     }
 
-    const current = byId[state.deck[0]];
+    const card = state.deck[0];
+    const current = byId[card.id];
+
+    const front = card.dir === "ko2en"
+        ? `<div class="flash-word">${escapeHtml(current.word)}</div>`
+        : `<div class="flash-word english">${escapeHtml(current.meaning)}</div>`;
+
+    let back = "";
+
+    if (state.flipped) {
+        back = card.dir === "ko2en"
+            ? `<div class="flash-meaning">${escapeHtml(current.meaning)}</div>`
+            : `<div class="flash-meaning flash-korean">${escapeHtml(current.word)}</div>`;
+
+        if (current.example_ko) {
+            back += `
+                <div class="flash-example">
+                    <div>${exampleHtml(current.example_ko)}</div>
+                    ${
+                        current.example_en
+                            ? `<div class="flash-example-en">${escapeHtml(current.example_en)}</div>`
+                            : ""
+                    }
+                </div>
+            `;
+        }
+    } else {
+        back = `<div class="flash-hint">${
+            card.dir === "ko2en"
+                ? "Think of the meaning, then tap to reveal"
+                : "Think of the Korean word, then tap to reveal"
+        }</div>`;
+    }
 
     html += `
         <div class="flash-progress">
             Cards left: ${state.deck.length} of ${state.total} · Again: ${state.again}
         </div>
         <div class="flash-card" onclick="flipCard('${articleId}')">
-            <div class="flash-word">${escapeHtml(current.word)}</div>
-            ${
-                state.flipped
-                    ? `<div class="flash-meaning">${escapeHtml(current.meaning)}</div>`
-                    : `<div class="flash-hint">Think of the meaning, then tap to reveal</div>`
-            }
+            ${front}
+            ${back}
         </div>
     `;
 
@@ -1836,11 +2269,12 @@ function flashAnswer(articleId, gotIt) {
         return;
     }
 
-    const current = state.deck.shift();
+    const card = state.deck.shift();
 
     if (!gotIt) {
         state.again++;
-        state.deck.push(current);
+        // The card comes back in the same direction.
+        state.deck.push(card);
     }
 
     state.flipped = false;
@@ -1852,32 +2286,36 @@ function restartFlash(articleId) {
     renderFlash(articleId);
 }
 
-function toggleFlashExercise(articleId) {
-    const box = document.getElementById(articleId + "-flash");
-    const button = document.getElementById(articleId + "-flash-btn");
-
-    if (!box || !button || !flashState[articleId]) {
-        return;
-    }
-
-    if (box.style.display === "none") {
-        if (!flashState[articleId].deck) {
-            startFlash(articleId);
-        }
-
-        renderFlash(articleId);
-        box.style.display = "block";
-        button.textContent = "Hide Flashcards";
-    } else {
-        box.style.display = "none";
-        button.textContent = "🃏 Flashcards";
-    }
-}
-
 
 /*
  * ---------- Vocab Quiz (multiple choice, both directions) ----------
  */
+
+function registerQuiz(articleId, items) {
+    const usable = usableVocab(items);
+
+    // Need at least 4 words to make four choices.
+    if (usable.length < 4) {
+        return false;
+    }
+
+    quizState[articleId] = {
+        items: usable,
+        questions: null,
+        qIndex: 0,
+        options: [],
+        wrong: {},
+        hadError: false,
+        locked: false,
+        errors: 0,
+        firstTry: 0,
+        missed: {},
+        done: false,
+        reviewing: false
+    };
+
+    return true;
+}
 
 function setQuizQuestion(state) {
     const q = state.questions[state.qIndex];
@@ -1922,30 +2360,14 @@ function startQuiz(articleId, onlyIds) {
             return item.id;
         });
 
-    let qs = [];
+    const qs = [];
 
     ids.forEach(function (id) {
         qs.push({ id: id, dir: "ko2en" });
         qs.push({ id: id, dir: "en2ko" });
     });
 
-    qs = shuffleArray(qs);
-
-    // Avoid asking the same word twice in a row.
-    for (let i = 1; i < qs.length; i++) {
-        if (qs[i].id === qs[i - 1].id) {
-            for (let j = i + 1; j < qs.length; j++) {
-                if (qs[j].id !== qs[i - 1].id) {
-                    const temp = qs[i];
-                    qs[i] = qs[j];
-                    qs[j] = temp;
-                    break;
-                }
-            }
-        }
-    }
-
-    state.questions = qs;
+    state.questions = separateNeighbors(shuffleArray(qs));
     state.qIndex = 0;
     state.errors = 0;
     state.firstTry = 0;
@@ -2069,8 +2491,6 @@ function pickQuizOption(articleId, optId) {
         return;
     }
 
-    activeQuizId = articleId;
-
     const q = state.questions[state.qIndex];
 
     if (optId === q.id) {
@@ -2129,33 +2549,6 @@ function reviewMissedQuiz(articleId) {
     renderQuiz(articleId);
 }
 
-function toggleQuizExercise(articleId) {
-    const box = document.getElementById(articleId + "-quiz");
-    const button = document.getElementById(articleId + "-quiz-btn");
-
-    if (!box || !button || !quizState[articleId]) {
-        return;
-    }
-
-    if (box.style.display === "none") {
-        if (!quizState[articleId].questions) {
-            startQuiz(articleId, null);
-        }
-
-        renderQuiz(articleId);
-        box.style.display = "block";
-        button.textContent = "Hide Vocab Quiz";
-        activeQuizId = articleId;
-    } else {
-        box.style.display = "none";
-        button.textContent = "⚡ Vocab Quiz";
-
-        if (activeQuizId === articleId) {
-            activeQuizId = null;
-        }
-    }
-}
-
 // Keyboard shortcuts: press 1-4 to answer the open quiz.
 document.addEventListener("keydown", function (event) {
     if (!activeQuizId) {
@@ -2190,6 +2583,233 @@ document.addEventListener("keydown", function (event) {
 
     pickQuizOption(activeQuizId, state.options[n - 1]);
 });
+
+
+/*
+ * ---------- Fill in the Blank (uses [bracketed] example sentences) ----------
+ */
+
+function registerFill(articleId, items) {
+    const usable = usableVocab(items).filter(function (item) {
+        return /\[[^\]]+\]/.test(item.example_ko);
+    });
+
+    // Re-number so IDs are 0..n-1 for this exercise.
+    usable.forEach(function (item, i) {
+        item.id = i;
+    });
+
+    if (usable.length < 3) {
+        return false;
+    }
+
+    fillState[articleId] = {
+        items: usable,
+        order: null,
+        bank: null,
+        answers: {},
+        sel: null,
+        checked: false
+    };
+
+    return true;
+}
+
+function startFill(articleId) {
+    const state = fillState[articleId];
+
+    if (!state) {
+        return;
+    }
+
+    const ids = state.items.map(function (item) {
+        return item.id;
+    });
+
+    state.order = shuffleArray(ids);
+    state.bank = shuffleArray(ids);
+    state.answers = {};
+    state.sel = null;
+    state.checked = false;
+}
+
+function fillUsedIds(state) {
+    return Object.keys(state.answers).map(function (k) {
+        return state.answers[k];
+    });
+}
+
+function renderFill(articleId) {
+    const state = fillState[articleId];
+    const box = document.getElementById(articleId + "-fill");
+
+    if (!state || !box) {
+        return;
+    }
+
+    const byId = {};
+
+    state.items.forEach(function (item) {
+        byId[item.id] = item;
+    });
+
+    const used = fillUsedIds(state);
+    let score = 0;
+
+    let html = `
+        <p class="order-help">
+            Tap a word, then tap a blank to place it. The blank hides the
+            word in the form used in the sentence. Tap a filled blank to
+            remove the word.
+        </p>
+        <div class="fill-bank">
+            ${state.bank.map(function (id) {
+                let className = "fill-chip";
+
+                if (used.indexOf(id) !== -1) {
+                    className += " used";
+                } else if (state.sel === id) {
+                    className += " selected";
+                }
+
+                const clickAttr = (state.checked || used.indexOf(id) !== -1)
+                    ? ""
+                    : `onclick="pickFillChip('${articleId}', ${id})"`;
+
+                return `<span class="${className}" ${clickAttr}>${escapeHtml(byId[id].word)}</span>`;
+            }).join("")}
+        </div>
+    `;
+
+    state.order.forEach(function (id, qi) {
+        const item = byId[id];
+        const match = item.example_ko.match(/\[([^\]]+)\]/);
+
+        const before = item.example_ko
+            .slice(0, match.index)
+            .replace(/[\[\]]/g, "");
+        const after = item.example_ko
+            .slice(match.index + match[0].length)
+            .replace(/[\[\]]/g, "");
+
+        const answer = state.answers[qi];
+        const hasAnswer = answer !== undefined;
+
+        let slotClass = "fill-slot";
+        let slotText = "(tap)";
+        let qClass = "fill-question";
+        let feedback = "";
+
+        if (hasAnswer) {
+            slotClass += " filled";
+            slotText = byId[answer].word;
+        }
+
+        if (state.checked) {
+            if (hasAnswer && answer === id) {
+                score++;
+                slotClass = "fill-slot ok";
+                qClass += " correct";
+                feedback = `<div class="fill-feedback ok">✅ Correct — ${escapeHtml(match[1])}</div>`;
+            } else {
+                slotClass = "fill-slot bad";
+                qClass += " wrong";
+                feedback = `<div class="fill-feedback bad">❌ Answer: ${escapeHtml(item.word)} (${escapeHtml(match[1])})</div>`;
+            }
+        }
+
+        const slotClick = state.checked
+            ? ""
+            : `onclick="pickFillSlot('${articleId}', ${qi})"`;
+
+        html += `
+            <div class="${qClass}">
+                <div>
+                    ${qi + 1}. ${escapeHtml(before)}<span class="${slotClass}" ${slotClick}>${escapeHtml(slotText)}</span>${escapeHtml(after)}
+                </div>
+                ${
+                    item.example_en
+                        ? `<div class="example-en">${escapeHtml(item.example_en)}</div>`
+                        : ""
+                }
+                ${feedback}
+            </div>
+        `;
+    });
+
+    html += `
+        <div class="order-actions">
+            <button class="translation-btn" onclick="checkFill('${articleId}')">
+                ✓ Check Answers
+            </button>
+            <button class="translation-btn" onclick="restartFill('${articleId}')">
+                🔀 Shuffle Again
+            </button>
+        </div>
+    `;
+
+    if (state.checked) {
+        html += `
+            <div class="order-result">
+                ${score === state.items.length ? "🎉 " : ""}Score: ${score} / ${state.items.length}
+            </div>
+        `;
+    }
+
+    box.innerHTML = html;
+}
+
+function pickFillChip(articleId, id) {
+    const state = fillState[articleId];
+
+    if (!state || state.checked) {
+        return;
+    }
+
+    state.sel = state.sel === id ? null : id;
+    renderFill(articleId);
+}
+
+function pickFillSlot(articleId, qi) {
+    const state = fillState[articleId];
+
+    if (!state || state.checked) {
+        return;
+    }
+
+    if (state.sel !== null) {
+        // Remove this word from any other blank first.
+        Object.keys(state.answers).forEach(function (k) {
+            if (state.answers[k] === state.sel) {
+                delete state.answers[k];
+            }
+        });
+
+        state.answers[qi] = state.sel;
+        state.sel = null;
+    } else if (state.answers[qi] !== undefined) {
+        delete state.answers[qi];
+    }
+
+    renderFill(articleId);
+}
+
+function checkFill(articleId) {
+    const state = fillState[articleId];
+
+    if (!state) {
+        return;
+    }
+
+    state.checked = true;
+    state.sel = null;
+    renderFill(articleId);
+}
+
+function restartFill(articleId) {
+    startFill(articleId);
+    renderFill(articleId);
+}
 
 </script>
 

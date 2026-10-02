@@ -157,7 +157,7 @@
             text-decoration: underline;
         }
 
-        /* ---------- Exercises (Sentence Order + Match) ---------- */
+        /* ---------- Exercises (Sentence Order + Match + Flashcards + Quiz) ---------- */
 
         .exercise-wrapper {
             margin-top: 20px;
@@ -322,6 +322,150 @@
             font-size: 16px;
         }
 
+        /* ---------- Flashcards ---------- */
+
+        .flash-progress {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .flash-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 34px 20px;
+            text-align: center;
+            cursor: pointer;
+            min-height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .flash-card:hover {
+            border-color: #2563eb;
+        }
+
+        .flash-word {
+            font-size: 1.7rem;
+            font-weight: 700;
+        }
+
+        .flash-meaning {
+            font-size: 1.1rem;
+            color: #2563eb;
+            padding-top: 10px;
+            border-top: 1px solid #e5e7eb;
+            width: 100%;
+        }
+
+        .flash-hint {
+            font-size: 13px;
+            color: #777;
+        }
+
+        .flash-btn-got {
+            border-color: #15803d;
+            color: #15803d;
+        }
+
+        .flash-btn-again {
+            border-color: #b91c1c;
+            color: #b91c1c;
+        }
+
+        /* ---------- Vocab Quiz ---------- */
+
+        .quiz-bar {
+            height: 8px;
+            background: #e5e7eb;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .quiz-bar-fill {
+            height: 100%;
+            background: #2563eb;
+            transition: width 0.3s;
+        }
+
+        .quiz-status {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 14px;
+        }
+
+        .quiz-label {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 4px;
+        }
+
+        .quiz-prompt {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            line-height: 1.4;
+        }
+
+        .quiz-prompt.english {
+            font-size: 1.25rem;
+        }
+
+        .quiz-option {
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 12px 14px;
+            margin: 0 0 8px 0;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: inherit;
+            line-height: 1.5;
+        }
+
+        .quiz-option:hover {
+            border-color: #2563eb;
+        }
+
+        .quiz-option.correct {
+            border-color: #15803d;
+            background: #f0fdf4;
+            color: #15803d;
+            cursor: default;
+        }
+
+        .quiz-option.wrong {
+            border-color: #b91c1c;
+            background: #fef2f2;
+            color: #b91c1c;
+            cursor: default;
+        }
+
+        .quiz-num {
+            display: inline-block;
+            min-width: 22px;
+            font-weight: 700;
+            color: #777;
+        }
+
+        .quiz-missed {
+            margin-top: 12px;
+            padding: 12px 14px;
+            background: white;
+            border-left: 3px solid #b91c1c;
+            border-radius: 5px;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
         @media (max-width: 600px) {
             body {
                 padding: 20px 15px;
@@ -343,6 +487,14 @@
             .match-item {
                 padding: 9px 10px;
                 font-size: 14px;
+            }
+
+            .quiz-prompt {
+                font-size: 1.4rem;
+            }
+
+            .quiz-option {
+                margin-bottom: 8px;
             }
         }
     </style>
@@ -509,6 +661,44 @@ You do not need to clean it up first. Photo captions, bylines, related-story lin
 
             </div>
 
+            <!-- Flashcards -->
+            <div id="flash-wrapper" class="exercise-wrapper" style="display: none;">
+
+                <button
+                    id="conv-flash-btn"
+                    class="translation-btn"
+                    onclick="toggleFlashExercise('conv')"
+                >
+                    🃏 Flashcards
+                </button>
+
+                <div
+                    id="conv-flash"
+                    class="translation-box"
+                    style="display: none;"
+                ></div>
+
+            </div>
+
+            <!-- Vocab Quiz -->
+            <div id="quiz-wrapper" class="exercise-wrapper" style="display: none;">
+
+                <button
+                    id="conv-quiz-btn"
+                    class="translation-btn"
+                    onclick="toggleQuizExercise('conv')"
+                >
+                    ⚡ Vocab Quiz
+                </button>
+
+                <div
+                    id="conv-quiz"
+                    class="translation-box"
+                    style="display: none;"
+                ></div>
+
+            </div>
+
         </div>
 
     </div>
@@ -526,8 +716,16 @@ const ORDER_SENTENCE_COUNT = 5;
 // The converter only has one article at a time, so we use one fixed ID.
 const EX_ID = "conv";
 
+// Milliseconds to wait after a correct quiz answer before the next question.
+const QUIZ_ADVANCE_MS = 900;
+
 let orderState = {};
 let matchState = {};
+let flashState = {};
+let quizState = {};
+
+// The quiz that keyboard keys 1-4 apply to.
+let activeQuizId = null;
 
 
 async function generateArticle() {
@@ -713,7 +911,7 @@ async function generateArticle() {
                     "📋 Select All Korean";
 
 
-                // Build the Sentence Order and Match exercises.
+                // Build the practice exercises.
                 setupExercises(koreanArticle, vocabulary);
 
 
@@ -1042,22 +1240,30 @@ function splitKoreanSentences(text) {
 function resetExercises() {
     orderState = {};
     matchState = {};
+    flashState = {};
+    quizState = {};
+    activeQuizId = null;
 
     document.getElementById("order-wrapper").style.display = "none";
     document.getElementById("match-wrapper").style.display = "none";
+    document.getElementById("flash-wrapper").style.display = "none";
+    document.getElementById("quiz-wrapper").style.display = "none";
 
-    const orderBox = document.getElementById(EX_ID + "-order");
-    const matchBox = document.getElementById(EX_ID + "-match");
+    ["order", "match", "flash", "quiz"].forEach(function (key) {
+        const box = document.getElementById(EX_ID + "-" + key);
 
-    orderBox.style.display = "none";
-    orderBox.innerHTML = "";
-    matchBox.style.display = "none";
-    matchBox.innerHTML = "";
+        box.style.display = "none";
+        box.innerHTML = "";
+    });
 
     document.getElementById(EX_ID + "-order-btn").textContent =
         "🔀 Sentence Order";
     document.getElementById(EX_ID + "-match-btn").textContent =
         "🔗 Match Words & Meanings";
+    document.getElementById(EX_ID + "-flash-btn").textContent =
+        "🃏 Flashcards";
+    document.getElementById(EX_ID + "-quiz-btn").textContent =
+        "⚡ Vocab Quiz";
 }
 
 function setupExercises(koreanText, vocabText) {
@@ -1077,7 +1283,7 @@ function setupExercises(koreanText, vocabText) {
         document.getElementById("order-wrapper").style.display = "block";
     }
 
-    // Match: needs at least 3 words that have meanings.
+    // Vocabulary exercises: need words that have meanings.
     const usable = [];
 
     String(vocabText || "").split("\n").forEach(function (line) {
@@ -1088,11 +1294,14 @@ function setupExercises(koreanText, vocabText) {
         }
     });
 
-    if (usable.length >= 3) {
+    const withIds = usable.map(function (item, i) {
+        return { id: i, word: item.word, meaning: item.meaning };
+    });
+
+    // Match: needs at least 3 words.
+    if (withIds.length >= 3) {
         matchState[EX_ID] = {
-            items: usable.map(function (item, i) {
-                return { id: i, word: item.word, meaning: item.meaning };
-            }),
+            items: withIds,
             leftOrder: null,
             rightOrder: null,
             selLeft: null,
@@ -1103,6 +1312,37 @@ function setupExercises(koreanText, vocabText) {
         };
 
         document.getElementById("match-wrapper").style.display = "block";
+
+        // Flashcards: needs at least 3 words.
+        flashState[EX_ID] = {
+            items: withIds,
+            deck: null,
+            flipped: false,
+            again: 0,
+            total: withIds.length
+        };
+
+        document.getElementById("flash-wrapper").style.display = "block";
+    }
+
+    // Quiz: needs at least 4 words to make four choices.
+    if (withIds.length >= 4) {
+        quizState[EX_ID] = {
+            items: withIds,
+            questions: null,
+            qIndex: 0,
+            options: [],
+            wrong: {},
+            hadError: false,
+            locked: false,
+            errors: 0,
+            firstTry: 0,
+            missed: {},
+            done: false,
+            reviewing: false
+        };
+
+        document.getElementById("quiz-wrapper").style.display = "block";
     }
 }
 
@@ -1492,6 +1732,464 @@ function toggleMatchExercise(articleId) {
         button.textContent = "🔗 Match Words & Meanings";
     }
 }
+
+
+/*
+ * ---------- Flashcards ----------
+ */
+
+function startFlash(articleId) {
+    const state = flashState[articleId];
+
+    if (!state) {
+        return;
+    }
+
+    state.deck = shuffleArray(
+        state.items.map(function (item) {
+            return item.id;
+        })
+    );
+    state.flipped = false;
+    state.again = 0;
+}
+
+function renderFlash(articleId) {
+    const state = flashState[articleId];
+    const box = document.getElementById(articleId + "-flash");
+
+    if (!state || !box) {
+        return;
+    }
+
+    const byId = {};
+
+    state.items.forEach(function (item) {
+        byId[item.id] = item;
+    });
+
+    let html = "";
+
+    if (state.deck.length === 0) {
+        html = `
+            <div class="order-result">
+                🎉 Deck complete! You went through all ${state.total} cards.
+                "Again" was pressed ${state.again} time${state.again === 1 ? "" : "s"}.
+            </div>
+            <div class="order-actions">
+                <button class="translation-btn" onclick="restartFlash('${articleId}')">
+                    🔀 Shuffle &amp; Start Over
+                </button>
+            </div>
+        `;
+        box.innerHTML = html;
+        return;
+    }
+
+    const current = byId[state.deck[0]];
+
+    html += `
+        <div class="flash-progress">
+            Cards left: ${state.deck.length} of ${state.total} · Again: ${state.again}
+        </div>
+        <div class="flash-card" onclick="flipCard('${articleId}')">
+            <div class="flash-word">${escapeHtml(current.word)}</div>
+            ${
+                state.flipped
+                    ? `<div class="flash-meaning">${escapeHtml(current.meaning)}</div>`
+                    : `<div class="flash-hint">Think of the meaning, then tap to reveal</div>`
+            }
+        </div>
+    `;
+
+    if (state.flipped) {
+        html += `
+            <div class="order-actions">
+                <button class="translation-btn flash-btn-got" onclick="flashAnswer('${articleId}', true)">
+                    ✓ Got it
+                </button>
+                <button class="translation-btn flash-btn-again" onclick="flashAnswer('${articleId}', false)">
+                    ↺ Again
+                </button>
+            </div>
+        `;
+    }
+
+    box.innerHTML = html;
+}
+
+function flipCard(articleId) {
+    const state = flashState[articleId];
+
+    if (!state || !state.deck || state.deck.length === 0) {
+        return;
+    }
+
+    state.flipped = !state.flipped;
+    renderFlash(articleId);
+}
+
+function flashAnswer(articleId, gotIt) {
+    const state = flashState[articleId];
+
+    if (!state || !state.deck || state.deck.length === 0) {
+        return;
+    }
+
+    const current = state.deck.shift();
+
+    if (!gotIt) {
+        state.again++;
+        state.deck.push(current);
+    }
+
+    state.flipped = false;
+    renderFlash(articleId);
+}
+
+function restartFlash(articleId) {
+    startFlash(articleId);
+    renderFlash(articleId);
+}
+
+function toggleFlashExercise(articleId) {
+    const box = document.getElementById(articleId + "-flash");
+    const button = document.getElementById(articleId + "-flash-btn");
+
+    if (!box || !button || !flashState[articleId]) {
+        return;
+    }
+
+    if (box.style.display === "none") {
+        if (!flashState[articleId].deck) {
+            startFlash(articleId);
+        }
+
+        renderFlash(articleId);
+        box.style.display = "block";
+        button.textContent = "Hide Flashcards";
+    } else {
+        box.style.display = "none";
+        button.textContent = "🃏 Flashcards";
+    }
+}
+
+
+/*
+ * ---------- Vocab Quiz (multiple choice, both directions) ----------
+ */
+
+function setQuizQuestion(state) {
+    const q = state.questions[state.qIndex];
+    const key = q.dir === "ko2en" ? "meaning" : "word";
+
+    const correct = state.items.filter(function (item) {
+        return item.id === q.id;
+    })[0];
+
+    const seen = {};
+    seen[correct[key]] = true;
+
+    const distractors = [];
+
+    shuffleArray(
+        state.items.filter(function (item) {
+            return item.id !== q.id;
+        })
+    ).forEach(function (item) {
+        if (distractors.length < 3 && !seen[item[key]]) {
+            seen[item[key]] = true;
+            distractors.push(item.id);
+        }
+    });
+
+    state.options = shuffleArray([q.id].concat(distractors));
+    state.wrong = {};
+    state.hadError = false;
+    state.locked = false;
+}
+
+function startQuiz(articleId, onlyIds) {
+    const state = quizState[articleId];
+
+    if (!state) {
+        return;
+    }
+
+    const ids = onlyIds && onlyIds.length
+        ? onlyIds
+        : state.items.map(function (item) {
+            return item.id;
+        });
+
+    let qs = [];
+
+    ids.forEach(function (id) {
+        qs.push({ id: id, dir: "ko2en" });
+        qs.push({ id: id, dir: "en2ko" });
+    });
+
+    qs = shuffleArray(qs);
+
+    // Avoid asking the same word twice in a row.
+    for (let i = 1; i < qs.length; i++) {
+        if (qs[i].id === qs[i - 1].id) {
+            for (let j = i + 1; j < qs.length; j++) {
+                if (qs[j].id !== qs[i - 1].id) {
+                    const temp = qs[i];
+                    qs[i] = qs[j];
+                    qs[j] = temp;
+                    break;
+                }
+            }
+        }
+    }
+
+    state.questions = qs;
+    state.qIndex = 0;
+    state.errors = 0;
+    state.firstTry = 0;
+    state.missed = {};
+    state.done = false;
+    state.reviewing = !!(onlyIds && onlyIds.length);
+
+    setQuizQuestion(state);
+}
+
+function renderQuiz(articleId) {
+    const state = quizState[articleId];
+    const box = document.getElementById(articleId + "-quiz");
+
+    if (!state || !box || !state.questions) {
+        return;
+    }
+
+    const byId = {};
+
+    state.items.forEach(function (item) {
+        byId[item.id] = item;
+    });
+
+    const total = state.questions.length;
+
+    if (state.done) {
+        const missedItems = state.items.filter(function (item) {
+            return state.missed[item.id];
+        });
+
+        let html = `
+            <div class="quiz-bar"><div class="quiz-bar-fill" style="width:100%"></div></div>
+            <div class="order-result">
+                ${state.errors === 0 ? "🎉 Perfect run!" : "Quiz complete!"}
+                ${state.reviewing ? "(Review round)" : ""}
+            </div>
+            <div class="order-result">
+                Mistakes: ${state.errors} ·
+                Right on first try: ${state.firstTry} of ${total}
+            </div>
+        `;
+
+        if (missedItems.length) {
+            html += `
+                <div class="quiz-missed">
+                    <strong>Words to review:</strong>
+                    ${missedItems.map(function (item) {
+                        return `<div>${escapeHtml(item.word)} — ${escapeHtml(item.meaning)}</div>`;
+                    }).join("")}
+                </div>
+            `;
+        }
+
+        html += `
+            <div class="order-actions">
+                <button class="translation-btn" onclick="retryQuiz('${articleId}')">
+                    🔀 New Full Quiz
+                </button>
+                ${
+                    missedItems.length
+                        ? `<button class="translation-btn" onclick="reviewMissedQuiz('${articleId}')">
+                               📝 Review Missed Words
+                           </button>`
+                        : ""
+                }
+            </div>
+        `;
+
+        box.innerHTML = html;
+        return;
+    }
+
+    const q = state.questions[state.qIndex];
+    const item = byId[q.id];
+    const key = q.dir === "ko2en" ? "meaning" : "word";
+
+    const percent = Math.round((state.qIndex / total) * 100);
+
+    let html = `
+        <div class="quiz-bar"><div class="quiz-bar-fill" style="width:${percent}%"></div></div>
+        <div class="quiz-status">
+            Question ${state.qIndex + 1} of ${total} · Mistakes: ${state.errors}
+            ${state.reviewing ? " · Review round" : ""}
+        </div>
+        <div class="quiz-label">
+            ${q.dir === "ko2en" ? "What does this mean?" : "Which Korean word matches?"}
+        </div>
+        <div class="quiz-prompt ${q.dir === "ko2en" ? "" : "english"}">
+            ${escapeHtml(q.dir === "ko2en" ? item.word : item.meaning)}
+        </div>
+    `;
+
+    state.options.forEach(function (optId, i) {
+        let className = "quiz-option";
+
+        if (state.wrong[optId]) {
+            className += " wrong";
+        } else if (state.locked && optId === q.id) {
+            className += " correct";
+        }
+
+        const clickAttr = (state.locked || state.wrong[optId])
+            ? ""
+            : `onclick="pickQuizOption('${articleId}', ${optId})"`;
+
+        html += `
+            <button class="${className}" ${clickAttr}>
+                <span class="quiz-num">${i + 1}</span>${escapeHtml(byId[optId][key])}
+            </button>
+        `;
+    });
+
+    box.innerHTML = html;
+}
+
+function pickQuizOption(articleId, optId) {
+    const state = quizState[articleId];
+
+    if (!state || state.done || state.locked || state.wrong[optId]) {
+        return;
+    }
+
+    activeQuizId = articleId;
+
+    const q = state.questions[state.qIndex];
+
+    if (optId === q.id) {
+        state.locked = true;
+
+        if (!state.hadError) {
+            state.firstTry++;
+        }
+
+        renderQuiz(articleId);
+
+        setTimeout(function () {
+            // Ignore if a new article was generated or the quiz restarted.
+            if (quizState[articleId] !== state || !state.locked) {
+                return;
+            }
+
+            state.qIndex++;
+
+            if (state.qIndex >= state.questions.length) {
+                state.done = true;
+            } else {
+                setQuizQuestion(state);
+            }
+
+            renderQuiz(articleId);
+        }, QUIZ_ADVANCE_MS);
+    } else {
+        state.wrong[optId] = true;
+        state.errors++;
+
+        if (!state.hadError) {
+            state.hadError = true;
+            state.missed[q.id] = true;
+        }
+
+        renderQuiz(articleId);
+    }
+}
+
+function retryQuiz(articleId) {
+    startQuiz(articleId, null);
+    renderQuiz(articleId);
+}
+
+function reviewMissedQuiz(articleId) {
+    const state = quizState[articleId];
+
+    if (!state) {
+        return;
+    }
+
+    const ids = Object.keys(state.missed).map(Number);
+
+    startQuiz(articleId, ids);
+    renderQuiz(articleId);
+}
+
+function toggleQuizExercise(articleId) {
+    const box = document.getElementById(articleId + "-quiz");
+    const button = document.getElementById(articleId + "-quiz-btn");
+
+    if (!box || !button || !quizState[articleId]) {
+        return;
+    }
+
+    if (box.style.display === "none") {
+        if (!quizState[articleId].questions) {
+            startQuiz(articleId, null);
+        }
+
+        renderQuiz(articleId);
+        box.style.display = "block";
+        button.textContent = "Hide Vocab Quiz";
+        activeQuizId = articleId;
+    } else {
+        box.style.display = "none";
+        button.textContent = "⚡ Vocab Quiz";
+
+        if (activeQuizId === articleId) {
+            activeQuizId = null;
+        }
+    }
+}
+
+// Keyboard shortcuts: press 1-4 to answer the open quiz.
+document.addEventListener("keydown", function (event) {
+    if (!activeQuizId) {
+        return;
+    }
+
+    const tag = (event.target.tagName || "").toLowerCase();
+
+    if (tag === "input" || tag === "textarea" || tag === "select") {
+        return;
+    }
+
+    const n = parseInt(event.key, 10);
+
+    if (!(n >= 1 && n <= 4)) {
+        return;
+    }
+
+    const state = quizState[activeQuizId];
+    const box = document.getElementById(activeQuizId + "-quiz");
+
+    if (
+        !state ||
+        !box ||
+        box.style.display === "none" ||
+        state.done ||
+        !state.options ||
+        n > state.options.length
+    ) {
+        return;
+    }
+
+    pickQuizOption(activeQuizId, state.options[n - 1]);
+});
 
 </script>
 

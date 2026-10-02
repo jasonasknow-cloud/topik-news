@@ -13,6 +13,14 @@ from google.genai import types
 
 
 # ============================================================
+# CUSTOM ERROR
+# ============================================================
+
+class GeminiOutputError(RuntimeError):
+    """Gemini answered, but the content broke one of our rules."""
+
+
+# ============================================================
 # GEMINI SETUP
 # ============================================================
 
@@ -524,6 +532,7 @@ ALSO PROVIDE:
 
 - Exactly 10 useful advanced vocabulary items or expressions from the article.
 - Choose words that are useful for TOPIK learners. Avoid trivial or overly basic words.
+- List verbs and adjectives in dictionary form (ending in 다).
 
 FOR EACH OF THE 10 VOCABULARY ITEMS, PROVIDE:
 
@@ -541,13 +550,15 @@ EXAMPLE SENTENCE RULES:
 - Avoid unnecessary advanced grammar in the example sentence.
 - The example should be useful to a Korean learner.
 - Put square brackets around the target vocabulary as it appears
-  in the Korean example sentence.
+  in the Korean example sentence. If the word is a verb or adjective,
+  bracket it in its conjugated form as used in the sentence, even though
+  the vocabulary word itself is listed in dictionary form.
 - Use EXACTLY ONE bracketed target word or expression in each
   Korean example sentence.
 - Do not put brackets around any other words.
+- Do not use square brackets anywhere in the English example.
 - The English example must accurately translate the Korean example.
-- Provide exactly 10 vocabulary objects, in the same order as
-  vocabulary items 1 through 10.
+- Provide exactly 10 vocabulary objects.
 
 RETURN EXACTLY FOUR STORIES:
 
@@ -574,13 +585,13 @@ def validate_articles(result):
 
     if not isinstance(result, dict):
 
-        raise RuntimeError(
+        raise GeminiOutputError(
             "Gemini response was not a JSON object."
         )
 
     if "articles" not in result:
 
-        raise RuntimeError(
+        raise GeminiOutputError(
             "Gemini response did not contain an 'articles' field."
         )
 
@@ -588,13 +599,13 @@ def validate_articles(result):
 
     if not isinstance(articles, list):
 
-        raise RuntimeError(
+        raise GeminiOutputError(
             "Gemini 'articles' field was not a list."
         )
 
     if len(articles) != 4:
 
-        raise RuntimeError(
+        raise GeminiOutputError(
             f"Gemini returned {len(articles)} articles "
             f"instead of exactly 4."
         )
@@ -613,7 +624,7 @@ def validate_articles(result):
 
     if actual_categories != expected_categories:
 
-        raise RuntimeError(
+        raise GeminiOutputError(
             "Gemini did not return exactly one article "
             "for each category.\n"
             f"Returned categories: {actual_categories}"
@@ -633,7 +644,7 @@ def validate_articles(result):
 
             if not article.get(field):
 
-                raise RuntimeError(
+                raise GeminiOutputError(
                     f"Gemini article is missing: {field}"
                 )
 
@@ -641,13 +652,13 @@ def validate_articles(result):
 
         if not isinstance(vocab_items, list):
 
-            raise RuntimeError(
+            raise GeminiOutputError(
                 "Gemini 'vocab' field must be a list."
             )
 
         if len(vocab_items) != 10:
 
-            raise RuntimeError(
+            raise GeminiOutputError(
                 f"Gemini returned {len(vocab_items)} vocabulary items "
                 "instead of exactly 10."
             )
@@ -659,7 +670,7 @@ def validate_articles(result):
 
             if not isinstance(item, dict):
 
-                raise RuntimeError(
+                raise GeminiOutputError(
                     f"Vocabulary item {index} is not an object."
                 )
 
@@ -672,7 +683,7 @@ def validate_articles(result):
 
                 if not item.get(field):
 
-                    raise RuntimeError(
+                    raise GeminiOutputError(
                         f"Vocabulary item {index} is missing: {field}"
                     )
 
@@ -685,7 +696,7 @@ def validate_articles(result):
 
             if bracket_count != 1:
 
-                raise RuntimeError(
+                raise GeminiOutputError(
                     f"Vocabulary item {index} must contain "
                     "exactly one bracketed target word "
                     "in example_ko."
@@ -742,7 +753,7 @@ def generate_topik_news(
 
                 if not text:
 
-                    raise RuntimeError(
+                    raise GeminiOutputError(
                         "Gemini returned an empty response."
                     )
 
@@ -768,6 +779,15 @@ def generate_topik_news(
                     f"{model_name} failed:"
                 )
                 print(error_text)
+
+                # Gemini answered, but the output broke a rule
+                # (for example, a missing bracket). Try again.
+                if isinstance(e, (GeminiOutputError, json.JSONDecodeError)):
+
+                    print()
+                    print("Output didn't meet the rules. Retrying...")
+
+                    continue
 
                 # If this model has reached its quota,
                 # skip it and immediately try the next model.

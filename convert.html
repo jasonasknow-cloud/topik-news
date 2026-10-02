@@ -762,6 +762,7 @@ async function generateArticle() {
             status.textContent =
                 "The converter returned an error: " +
                 (
+                    data.error ||
                     data.message ||
                     "Unknown error."
                 );

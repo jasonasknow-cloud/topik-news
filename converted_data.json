@@ -2,6 +2,76 @@
   {
     "category": "converted",
     "date": "2026-10-03",
+    "published_at": "2026-10-03 06:55",
+    "title": "부산 수로 갇힌 상어 '북항이' 2차 구조 실패",
+    "body": "부산 동구 북항 친수공원의 인공수로에 들어온 상어를 바다로 돌려보내려는 2차 구조 작업이 실패로 끝났다. 부산해양경찰서와 관계 당국은 금요일 오후에 대형 그물을 이용해 상어를 수로 출구 쪽으로 유도하는 작업을 시작했다. 당국은 3일 전에도 물 펌프를 사용해 상어를 밖으로 내보내려 했지만 실패한 바 있다. 이번 작업에는 길이 50미터, 높이 6.8미터 크기의 대형 그물이 사용되었다. 구조대는 그물을 천천히 당기며 '북항이'라는 이름이 붙은 약 3.5미터 길이의 상어를 출구 쪽으로 몰았다. 하지만 상어는 출구로 나가지 않고 그물 주변을 계속 맴돌았다. 결국 오후 5시 35분쯤 그물이 바닥에 걸리면서 작업은 출구에서 약 150미터 떨어진 지점에서 중단되었다. 당국은 상어에게 스트레스를 주지 않기 위해 국립수산과학원의 조언을 받아 그물을 고정하고 상어가 스스로 나갈 때까지 기다리기로 했다. 이 상어는 지난 9월 18일에 인공수로에서 처음 발견되었다. 상어를 보려고 지금까지 60만 명이 넘는 관광객이 공원을 찾아왔다. 관계 당국은 앞으로 상어의 상태를 계속 관찰하며 추가 구조 작업이 필요한지 결정할 계획이다.",
+    "translation": "부산 동구 북항 친수공원의 인공수로에 들어온 상어를 바다로 돌려보내려는 2차 구조 작업이 실패로 끝났다.\nA second rescue operation to return a shark that entered an artificial canal at North Port Waterfront Park in Dong-gu, Busan, to the sea ended in failure.\n\n부산해양경찰서와 관계 당국은 금요일 오후에 대형 그물을 이용해 상어를 수로 출구 쪽으로 유도하는 작업을 시작했다.\nThe Busan Coast Guard and relevant authorities launched an operation on Friday afternoon to guide the shark toward the canal exit using a large net.\n\n당국은 3일 전에도 물 펌프를 사용해 상어를 밖으로 내보내려 했지만 실패한 바 있다.\nAuthorities had also attempted to drive the shark out using water pumps three days earlier, but it had failed.\n\n이번 작업에는 길이 50미터, 높이 6.8미터 크기의 대형 그물이 사용되었다.\nA large net measuring 50 meters in length and 6.8 meters in height was used in this operation.\n\n구조대는 그물을 천천히 당기며 '북항이'라는 이름이 붙은 약 3.5미터 길이의 상어를 출구 쪽으로 몰았다.\nThe rescue team slowly pulled the net, driving the roughly 3.5-meter-long shark nicknamed \"Bukang\" toward the exit.\n\n하지만 상어는 출구로 나가지 않고 그물 주변을 계속 맴돌았다.\nHowever, rather than heading toward the exit, the shark continued to circle around the net.\n\n결국 오후 5시 35분쯤 그물이 바닥에 걸리면서 작업은 출구에서 약 150미터 떨어진 지점에서 중단되었다.\nEventually, around 5:35 p.m., the net became caught on the bottom, and the operation was stopped at a point about 150 meters away from the exit.\n\n당국은 상어에게 스트레스를 주지 않기 위해 국립수산과학원의 조언을 받아 그물을 고정하고 상어가 스스로 나갈 때까지 기다리기로 했다.\nTo avoid stressing the shark, authorities followed the advice of the National Institute of Fisheries Science and decided to secure the net and wait until the shark leaves on its own.\n\n이 상어는 지난 9월 18일에 인공수로에서 처음 발견되었다.\nThis shark was first spotted in the artificial canal on September 18.\n\n상어를 보려고 지금까지 60만 명이 넘는 관광객이 공원을 찾아왔다.\nSo far, more than 600,000 tourists have visited the park to see the shark.\n\n관계 당국은 앞으로 상어의 상태를 계속 관찰하며 추가 구조 작업이 필요한지 결정할 계획이다.\nRelevant authorities plan to continue monitoring the shark's condition and decide whether further rescue operations are necessary.",
+    "vocab": [
+      {
+        "word": "구조",
+        "meaning": "rescue",
+        "example_ko": "소방관들이 물에 빠진 사람을 [구조]했다.",
+        "example_en": "Firefighters rescued the person who fell into the water."
+      },
+      {
+        "word": "당국",
+        "meaning": "authorities",
+        "example_ko": "보건 [당국]은 시민들에게 마스크 착용을 권했다.",
+        "example_en": "Health authorities advised citizens to wear masks."
+      },
+      {
+        "word": "유도하다",
+        "meaning": "to guide, to lead",
+        "example_ko": "직원이 손님들을 안전한 출구로 [유도했다].",
+        "example_en": "The employee guided the customers to a safe exit."
+      },
+      {
+        "word": "대형",
+        "meaning": "large-size, large-scale",
+        "example_ko": "주말이라 [대형] 마트에 사람들이 아주 많았다.",
+        "example_en": "Since it was the weekend, there were a lot of people at the large supermarket."
+      },
+      {
+        "word": "맴돌다",
+        "meaning": "to circle, to hover",
+        "example_ko": "새 한 마리가 나무 위를 천천히 [맴돌았다].",
+        "example_en": "A bird slowly circled above the tree."
+      },
+      {
+        "word": "중단되다",
+        "meaning": "to be suspended, to be stopped",
+        "example_ko": "비가 너무 많이 와서 축구 경기가 [중단되었다].",
+        "example_en": "The soccer match was suspended because it rained too much."
+      },
+      {
+        "word": "고정하다",
+        "meaning": "to fix, to secure",
+        "example_ko": "바람이 불어도 흔들리지 않게 텐트를 단단히 [고정했다].",
+        "example_en": "I firmly secured the tent so it wouldn't shake even if the wind blew."
+      },
+      {
+        "word": "스스로",
+        "meaning": "by oneself, on one's own",
+        "example_ko": "아이는 부모의 도움 없이 [스스로] 숙제를 끝냈다.",
+        "example_en": "The child finished the homework on his own without help from his parents."
+      },
+      {
+        "word": "발견되다",
+        "meaning": "to be discovered, to be found",
+        "example_ko": "잃어버린 지갑이 지하철역에서 [발견되었다].",
+        "example_en": "The lost wallet was found at the subway station."
+      },
+      {
+        "word": "관찰하다",
+        "meaning": "to observe, to monitor",
+        "example_ko": "학생들은 식물이 자라는 모습을 매일 [관찰했다].",
+        "example_en": "The students observed the growth of the plant every day."
+      }
+    ]
+  },
+  {
+    "category": "converted",
+    "date": "2026-10-03",
     "published_at": "2026-10-03 06:47",
     "title": "미국 테네시주에서 사형 집행 중 살아남은 사형수",
     "body": "미국 테네시주에서 독극물 주사로 사형을 집행받던 사형수가 살아남는 일이 발생했다. 사형수 크리스타 파이크는 수요일 저녁에 사형 집행을 받았으나 목숨을 건졌다. 변호인단에 따르면 파이크는 현재 내슈빌의 한 병원에서 의식을 잃은 채 인공호흡기를 달고 치료를 받고 있다. 그녀는 집행 과정에서 치명적인 약물을 두 번 투여받았으며, 양쪽 팔에도 심한 부상을 입었다. 파이크는 1995년에 19세 여성을 살해한 혐의로 사형을 선고받았으며, 테네시주에서 200년 만에 처음으로 사형되는 여성이 될 예정이었다. 목격자들에 따르면 그녀는 약물을 투여받은 후에도 코를 골며 살아 있는 모습을 보였다. 이번 사건이 일어난 후 빌 리 테네시 주지사는 정확한 조사를 위해 올해 남은 사형 집행을 중단한다고 발표했다. 파이크의 변호인들은 실패한 사형 집행과 관련된 모든 증거를 보존해 달라고 법원에 긴급 요청했다. 또한 변호인들은 그녀가 역사상 가장 큰 고통을 겪었다며 형벌을 줄여 줄 것을 요구했다. 한편 피해자의 유족은 주정부가 다음 상황을 미리 알려주지 않아 크게 화가 나고 지친 상태라고 전했다.",

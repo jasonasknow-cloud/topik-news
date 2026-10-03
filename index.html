@@ -223,6 +223,16 @@
             color: var(--accent-color);
         }
 
+        .translation-btn:disabled {
+            opacity: 0.45;
+            cursor: default;
+        }
+
+        .translation-btn:disabled:hover {
+            border-color: var(--border-color);
+            color: #444;
+        }
+
         .translation-btn.mode-active {
             background: var(--accent-color);
             border-color: var(--accent-color);
@@ -758,6 +768,108 @@
             color: #b91c1c;
         }
 
+        /* ---------- Word Order ---------- */
+
+        .word-hint {
+            font-size: 1.05rem;
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+
+        .word-answer-line {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            min-height: 54px;
+            padding: 10px 12px;
+            background: white;
+            border: 2px dashed #cbd5e0;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+
+        .word-answer-line.correct {
+            border: 2px solid var(--green-color);
+            background: #f0fdf4;
+        }
+
+        .word-answer-line.wrong {
+            border: 2px solid #b91c1c;
+            background: #fef2f2;
+        }
+
+        .word-placeholder {
+            color: var(--muted-color);
+            font-size: 0.88rem;
+        }
+
+        .word-bank {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 12px;
+            background: #edf2f7;
+            border-radius: 8px;
+            min-height: 54px;
+        }
+
+        .word-tile {
+            background: white;
+            border: 2px solid #cbd5e0;
+            padding: 7px 13px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+
+        .word-tile:hover {
+            border-color: var(--accent-color);
+        }
+
+        .word-tile.placed {
+            border-color: var(--accent-color);
+            background: #ebf8ff;
+            color: var(--accent-color);
+        }
+
+        .word-tile.static {
+            cursor: default;
+        }
+
+        .word-tile.static:hover {
+            border-color: inherit;
+        }
+
+        .word-status {
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .word-status.wrong {
+            color: #b91c1c;
+        }
+
+        .word-status.ok {
+            color: var(--green-color);
+        }
+
+        .word-reveal {
+            margin-top: 12px;
+            padding: 12px 14px;
+            background: white;
+            border-left: 3px solid var(--green-color);
+            border-radius: 5px;
+            line-height: 1.8;
+        }
+
+        .word-reveal .note {
+            color: var(--muted-color);
+            font-size: 0.85rem;
+        }
+
         @media (max-width: 600px) {
             .container {
                 width: min(100% - 22px, 900px);
@@ -875,6 +987,7 @@
     let flashState = {};
     let quizState = {};
     let fillState = {};
+    let wordState = {};
 
     // Which tabs each article has, and which one is showing.
     let practiceKeys = {};
@@ -1343,6 +1456,11 @@
                 startFill(articleId);
             }
             renderFill(articleId);
+        } else if (key === "word") {
+            if (!wordState[articleId].order) {
+                startWord(articleId, null);
+            }
+            renderWord(articleId);
         }
     }
 
@@ -2437,6 +2555,425 @@
     }
 
     /*
+     * ---------- Word Order (rebuild each example sentence) ----------
+     */
+
+    function registerWord(articleId, items) {
+        const usable = items
+            .filter(function (item) {
+                return item.example_ko;
+            })
+            .map(function (item) {
+                const ko = item.example_ko
+                    .replace(/[\[\]]/g, "")
+                    .replace(/\s+/g, " ")
+                    .trim();
+
+                return {
+                    ko: ko,
+                    en: item.example_en || "",
+                    chunks: ko.split(" ").filter(Boolean)
+                };
+            })
+            .filter(function (item) {
+                // A one-chunk sentence has nothing to reorder.
+                return item.chunks.length >= 2;
+            });
+
+        usable.forEach(function (item, i) {
+            item.id = i;
+        });
+
+        if (usable.length < 1) {
+            return false;
+        }
+
+        wordState[articleId] = {
+            items: usable,
+            order: null,
+            qIndex: 0,
+            tiles: [],
+            placed: [],
+            status: "",
+            locked: false,
+            shown: false,
+            hadError: false,
+            errors: 0,
+            firstTry: 0,
+            missed: {},
+            done: false,
+            reviewing: false
+        };
+
+        return true;
+    }
+
+    function setWordQuestion(state) {
+        const item = state.items[state.order[state.qIndex]];
+        const n = item.chunks.length;
+
+        const base = [];
+
+        for (let i = 0; i < n; i++) {
+            base.push(i);
+        }
+
+        let tiles = shuffleArray(base);
+        let attempts = 0;
+
+        // Make sure the shuffle is not already the correct order.
+        while (
+            attempts < 20 &&
+            tiles.every(function (t, i) {
+                return item.chunks[t] === item.chunks[i];
+            })
+        ) {
+            tiles = shuffleArray(base);
+            attempts++;
+        }
+
+        state.tiles = tiles;
+        state.placed = [];
+        state.status = "";
+        state.locked = false;
+        state.shown = false;
+        state.hadError = false;
+    }
+
+    function startWord(articleId, onlyIds) {
+        const state = wordState[articleId];
+
+        if (!state) {
+            return;
+        }
+
+        const ids = onlyIds && onlyIds.length
+            ? onlyIds
+            : state.items.map(function (item) {
+                return item.id;
+            });
+
+        state.order = shuffleArray(ids);
+        state.qIndex = 0;
+        state.errors = 0;
+        state.firstTry = 0;
+        state.missed = {};
+        state.done = false;
+        state.reviewing = !!(onlyIds && onlyIds.length);
+
+        setWordQuestion(state);
+    }
+
+    function renderWord(articleId) {
+        const state = wordState[articleId];
+        const box = document.getElementById(articleId + "-word");
+
+        if (!state || !box || !state.order) {
+            return;
+        }
+
+        const total = state.order.length;
+
+        if (state.done) {
+            const missedItems = state.items.filter(function (item) {
+                return state.missed[item.id];
+            });
+
+            let html = `
+                <div class="quiz-bar"><div class="quiz-bar-fill" style="width:100%"></div></div>
+                <div class="order-result">
+                    ${state.errors === 0 && missedItems.length === 0 ? "🎉 Perfect run!" : "Word Order complete!"}
+                    ${state.reviewing ? "(Review round)" : ""}
+                </div>
+                <div class="order-result">
+                    Wrong checks: ${state.errors} ·
+                    Right on first try: ${state.firstTry} of ${total}
+                </div>
+            `;
+
+            if (missedItems.length) {
+                html += `
+                    <div class="quiz-missed">
+                        <strong>Sentences to review:</strong>
+                        ${missedItems.map(function (item) {
+                            return `<div>${escapeHtml(item.ko)}</div>`;
+                        }).join("")}
+                    </div>
+                `;
+            }
+
+            html += `
+                <div class="order-actions">
+                    <button class="translation-btn" onclick="retryWord('${articleId}')">
+                        🔀 New Round
+                    </button>
+                    ${
+                        missedItems.length
+                            ? `<button class="translation-btn" onclick="reviewMissedWord('${articleId}')">
+                                   📝 Review Missed
+                               </button>`
+                            : ""
+                    }
+                </div>
+            `;
+
+            box.innerHTML = html;
+            return;
+        }
+
+        const item = state.items[state.order[state.qIndex]];
+        const n = item.chunks.length;
+        const percent = Math.round((state.qIndex / total) * 100);
+
+        const finished = state.locked || state.shown;
+
+        let lineClass = "word-answer-line";
+
+        if (state.locked) {
+            lineClass += " correct";
+        } else if (state.status === "wrong") {
+            lineClass += " wrong";
+        }
+
+        let html = `
+            <div class="quiz-bar"><div class="quiz-bar-fill" style="width:${percent}%"></div></div>
+            <div class="quiz-status">
+                Sentence ${state.qIndex + 1} of ${total} · Wrong checks: ${state.errors}
+                ${state.reviewing ? " · Review round" : ""}
+            </div>
+            <p class="order-help">
+                Tap the words in the right order to rebuild the sentence.
+                Tap a placed word to take it back.
+            </p>
+            ${
+                item.en
+                    ? `<div class="word-hint">${escapeHtml(item.en)}</div>`
+                    : ""
+            }
+            <div class="${lineClass}">
+                ${
+                    state.placed.length
+                        ? state.placed.map(function (t) {
+                            const click = finished
+                                ? ""
+                                : `onclick="removeWordTile('${articleId}', ${t})"`;
+
+                            return `<button class="word-tile placed ${finished ? "static" : ""}" ${click}>${escapeHtml(item.chunks[t])}</button>`;
+                        }).join("")
+                        : `<span class="word-placeholder">Your sentence goes here</span>`
+                }
+            </div>
+            <div class="word-bank">
+                ${
+                    state.tiles
+                        .filter(function (t) {
+                            return state.placed.indexOf(t) === -1;
+                        })
+                        .map(function (t) {
+                            const click = finished
+                                ? ""
+                                : `onclick="placeWordTile('${articleId}', ${t})"`;
+
+                            return `<button class="word-tile ${finished ? "static" : ""}" ${click}>${escapeHtml(item.chunks[t])}</button>`;
+                        })
+                        .join("")
+                }
+            </div>
+        `;
+
+        if (state.locked) {
+            html += `<div class="word-status ok">✅ Correct!</div>`;
+        } else if (state.shown) {
+            html += `
+                <div class="word-reveal">
+                    <strong>Answer:</strong> ${escapeHtml(item.ko)}
+                    <div class="note">Other word orders can also be natural in Korean.</div>
+                </div>
+                <div class="order-actions">
+                    <button class="translation-btn" onclick="nextWord('${articleId}')">
+                        Next →
+                    </button>
+                </div>
+            `;
+        } else {
+            if (state.status === "wrong") {
+                html += `<div class="word-status wrong">Not quite. Adjust the order and check again.</div>`;
+            }
+
+            html += `
+                <div class="order-actions">
+                    <button
+                        class="translation-btn"
+                        onclick="checkWord('${articleId}')"
+                        ${state.placed.length === n ? "" : "disabled"}
+                    >
+                        ✓ Check
+                    </button>
+                    <button class="translation-btn" onclick="clearWord('${articleId}')">
+                        ↺ Clear
+                    </button>
+                    <button class="translation-btn" onclick="showWordAnswer('${articleId}')">
+                        👁 Show answer
+                    </button>
+                </div>
+            `;
+        }
+
+        box.innerHTML = html;
+    }
+
+    function placeWordTile(articleId, t) {
+        const state = wordState[articleId];
+
+        if (!state || state.done || state.locked || state.shown) {
+            return;
+        }
+
+        if (state.placed.indexOf(t) === -1) {
+            state.placed.push(t);
+            state.status = "";
+        }
+
+        renderWord(articleId);
+    }
+
+    function removeWordTile(articleId, t) {
+        const state = wordState[articleId];
+
+        if (!state || state.done || state.locked || state.shown) {
+            return;
+        }
+
+        state.placed = state.placed.filter(function (p) {
+            return p !== t;
+        });
+        state.status = "";
+
+        renderWord(articleId);
+    }
+
+    function clearWord(articleId) {
+        const state = wordState[articleId];
+
+        if (!state || state.done || state.locked || state.shown) {
+            return;
+        }
+
+        state.placed = [];
+        state.status = "";
+
+        renderWord(articleId);
+    }
+
+    function advanceWord(articleId, state) {
+        state.qIndex++;
+
+        if (state.qIndex >= state.order.length) {
+            state.done = true;
+        } else {
+            setWordQuestion(state);
+        }
+
+        renderWord(articleId);
+    }
+
+    function checkWord(articleId) {
+        const state = wordState[articleId];
+
+        if (!state || state.done || state.locked || state.shown) {
+            return;
+        }
+
+        const item = state.items[state.order[state.qIndex]];
+
+        if (state.placed.length !== item.chunks.length) {
+            return;
+        }
+
+        const attempt = state.placed.map(function (t) {
+            return item.chunks[t];
+        }).join(" ");
+
+        if (attempt === item.chunks.join(" ")) {
+            state.locked = true;
+            state.status = "ok";
+
+            if (!state.hadError) {
+                state.firstTry++;
+            }
+
+            renderWord(articleId);
+
+            setTimeout(function () {
+                // Ignore if the list was redrawn or the round restarted.
+                if (wordState[articleId] !== state || !state.locked) {
+                    return;
+                }
+
+                advanceWord(articleId, state);
+            }, QUIZ_ADVANCE_MS);
+        } else {
+            state.status = "wrong";
+            state.errors++;
+
+            if (!state.hadError) {
+                state.hadError = true;
+                state.missed[item.id] = true;
+            }
+
+            renderWord(articleId);
+        }
+    }
+
+    function showWordAnswer(articleId) {
+        const state = wordState[articleId];
+
+        if (!state || state.done || state.locked || state.shown) {
+            return;
+        }
+
+        const item = state.items[state.order[state.qIndex]];
+
+        state.shown = true;
+
+        if (!state.hadError) {
+            state.hadError = true;
+        }
+
+        state.missed[item.id] = true;
+
+        renderWord(articleId);
+    }
+
+    function nextWord(articleId) {
+        const state = wordState[articleId];
+
+        if (!state || state.done || !state.shown) {
+            return;
+        }
+
+        advanceWord(articleId, state);
+    }
+
+    function retryWord(articleId) {
+        startWord(articleId, null);
+        renderWord(articleId);
+    }
+
+    function reviewMissedWord(articleId) {
+        const state = wordState[articleId];
+
+        if (!state) {
+            return;
+        }
+
+        const ids = Object.keys(state.missed).map(Number);
+
+        startWord(articleId, ids);
+        renderWord(articleId);
+    }
+
+    /*
      * ---------- Rendering the article list ----------
      */
 
@@ -2455,6 +2992,7 @@
         flashState = {};
         quizState = {};
         fillState = {};
+        wordState = {};
         practiceKeys = {};
         practiceCurrent = {};
         activeQuizId = null;
@@ -2638,6 +3176,10 @@
 
             if (registerFill(articleId, vocabItems)) {
                 tabs.push(["fill", "✏️ Fill in the Blank"]);
+            }
+
+            if (registerWord(articleId, vocabItems)) {
+                tabs.push(["word", "🧩 Word Order"]);
             }
 
             let practiceHtml = "";

@@ -108,21 +108,66 @@
             background: var(--card-color);
             border: 1px solid var(--border-color);
             border-radius: 10px;
-            padding: 24px;
-            margin-bottom: 24px;
+            padding: 20px 24px;
+            margin-bottom: 16px;
             box-shadow: 0 2px 7px rgba(0, 0, 0, 0.03);
+        }
+
+        .news-card.open {
+            border-color: #bfdbfe;
+        }
+
+        /* ---------- Collapsible card header ---------- */
+
+        .news-head {
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .news-head:focus-visible {
+            outline: 2px solid var(--accent-color);
+            outline-offset: 4px;
+            border-radius: 6px;
         }
 
         .news-meta {
             color: var(--muted-color);
             font-size: 0.82rem;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .news-title {
             font-size: 1.45rem;
             line-height: 1.45;
-            margin: 0 0 16px;
+            margin: 0 0 6px;
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .card-arrow {
+            flex: none;
+            color: var(--accent-color);
+            font-size: 1.1rem;
+            line-height: 1.7;
+            width: 16px;
+        }
+
+        .news-preview {
+            color: var(--muted-color);
+            font-size: 0.9rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-left: 26px;
+        }
+
+        .news-card.open .news-preview {
+            display: none;
+        }
+
+        .news-detail {
+            margin-top: 16px;
         }
 
         .audio-controls {
@@ -880,7 +925,7 @@
             }
 
             .news-card {
-                padding: 18px;
+                padding: 16px 16px;
             }
 
             .news-title {
@@ -974,6 +1019,10 @@
     let filteredArticles = [];
     let currentCategory = "all";
     let displayedCount = 10;
+
+    // true  = opening a story closes the others (keeps the page short).
+    // false = several stories can stay open at once.
+    const ACCORDION = true;
 
     // How many opening sentences to use in the Sentence Order exercise.
     const ORDER_SENTENCE_COUNT = 5;
@@ -1326,6 +1375,82 @@
             box.style.display = "none";
             button.textContent = "Show Example Sentences";
         }
+    }
+
+    /*
+     * ---------- Collapsible story cards ----------
+     */
+
+    function setCardOpen(articleId, open) {
+        const card = document.getElementById(articleId + "-card");
+        const detail = document.getElementById(articleId + "-detail");
+        const arrow = document.getElementById(articleId + "-arrow");
+
+        if (!card || !detail) {
+            return;
+        }
+
+        card.classList.toggle("open", open);
+        detail.style.display = open ? "block" : "none";
+
+        if (arrow) {
+            arrow.textContent = open ? "▾" : "▸";
+        }
+
+        const head = card.querySelector(".news-head");
+
+        if (head) {
+            head.setAttribute("aria-expanded", open ? "true" : "false");
+        }
+
+        if (open) {
+            // If a quiz was showing when this card was closed, give it back
+            // the 1-4 keyboard shortcuts.
+            const panel = document.getElementById(articleId + "-practice");
+
+            if (
+                practiceCurrent[articleId] === "quiz" &&
+                panel &&
+                panel.style.display !== "none"
+            ) {
+                activeQuizId = articleId;
+            }
+        } else {
+            // Stop audio if this card was the one playing.
+            const listenBtn = card.querySelector(".audio-controls .audio-btn");
+
+            if (listenBtn && listenBtn.textContent.indexOf("Playing") !== -1) {
+                stopSpeech();
+                listenBtn.textContent = "▶ Listen";
+            }
+
+            if (activeQuizId === articleId) {
+                activeQuizId = null;
+            }
+        }
+    }
+
+    function toggleCard(articleId) {
+        const card = document.getElementById(articleId + "-card");
+
+        if (!card) {
+            return;
+        }
+
+        if (card.classList.contains("open")) {
+            setCardOpen(articleId, false);
+            return;
+        }
+
+        if (ACCORDION) {
+            document.querySelectorAll(".news-card.open").forEach(function (c) {
+                setCardOpen(c.id.replace(/-card$/, ""), false);
+            });
+        }
+
+        setCardOpen(articleId, true);
+
+        card.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
     /*
@@ -3226,94 +3351,127 @@
                 `;
             }
 
-            return `
-                <article class="news-card">
+            // One-line preview: the first sentence of the article.
+            const previewSentence = splitKoreanSentences(
+                article.body || article.content || ""
+            )[0] || "";
 
-                    <div class="news-meta">
-                        ${escapeHtml(categoryLabel(article.category))}
+            const preview = escapeHtml(previewSentence);
+
+            return `
+                <article class="news-card" id="${articleId}-card">
+
+                    <div
+                        class="news-head"
+                        role="button"
+                        tabindex="0"
+                        aria-expanded="false"
+                        onclick="toggleCard('${articleId}')"
+                        onkeydown="if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggleCard('${articleId}'); }"
+                    >
+
+                        <div class="news-meta">
+                            ${escapeHtml(categoryLabel(article.category))}
+
+                            ${
+                               article.published_at || article.date
+        ? " · " + formatDate(article.date, article.published_at)
+        : ""
+                            }
+                        </div>
+
+                        <h2 class="news-title">
+                            <span class="card-arrow" id="${articleId}-arrow">▸</span>
+                            <span>${title}</span>
+                        </h2>
 
                         ${
-                           article.published_at || article.date
-    ? " · " + formatDate(article.date, article.published_at)
-    : ""
+                            preview
+                                ? `<div class="news-preview">${preview}</div>`
+                                : ""
                         }
-                    </div>
-
-                    <h2 class="news-title">
-                        ${title}
-                    </h2>
-
-                    <div class="audio-controls">
-
-                        <button
-                            class="audio-btn"
-                            onclick="
-                                speakArticle(
-                                    '${articleId}',
-                                    document.getElementById('${articleId}-text').innerText,
-                                    this
-                                )
-                            "
-                        >
-                            ▶ Listen
-                        </button>
-
-                        <button
-                            class="audio-btn"
-                            onclick="pauseSpeech()"
-                        >
-                            ⏸ Pause
-                        </button>
-
-                        <button
-                            class="audio-btn"
-                            onclick="resumeSpeech()"
-                        >
-                            ▶ Resume
-                        </button>
-
-                        <button
-                            class="audio-btn"
-                            onclick="stopSpeech()"
-                        >
-                            ■ Stop
-                        </button>
-
-                        <select
-                            id="${articleId}-speed"
-                            class="speed-select"
-                        >
-                            <option value="0.75">0.75×</option>
-                            <option value="0.9">0.9×</option>
-                            <option value="1" selected>1×</option>
-                            <option value="1.15">1.15×</option>
-                            <option value="1.25">1.25×</option>
-                            <option value="1.5">1.5×</option>
-                        </select>
 
                     </div>
 
                     <div
-                        id="${articleId}-text"
-                        class="news-body"
+                        class="news-detail"
+                        id="${articleId}-detail"
+                        style="display:none;"
                     >
-                        <p>
-                            ${body}
-                        </p>
+
+                        <div class="audio-controls">
+
+                            <button
+                                class="audio-btn"
+                                onclick="
+                                    speakArticle(
+                                        '${articleId}',
+                                        document.getElementById('${articleId}-text').innerText,
+                                        this
+                                    )
+                                "
+                            >
+                                ▶ Listen
+                            </button>
+
+                            <button
+                                class="audio-btn"
+                                onclick="pauseSpeech()"
+                            >
+                                ⏸ Pause
+                            </button>
+
+                            <button
+                                class="audio-btn"
+                                onclick="resumeSpeech()"
+                            >
+                                ▶ Resume
+                            </button>
+
+                            <button
+                                class="audio-btn"
+                                onclick="stopSpeech()"
+                            >
+                                ■ Stop
+                            </button>
+
+                            <select
+                                id="${articleId}-speed"
+                                class="speed-select"
+                            >
+                                <option value="0.75">0.75×</option>
+                                <option value="0.9">0.9×</option>
+                                <option value="1" selected>1×</option>
+                                <option value="1.15">1.15×</option>
+                                <option value="1.25">1.25×</option>
+                                <option value="1.5">1.5×</option>
+                            </select>
+
+                        </div>
+
+                        <div
+                            id="${articleId}-text"
+                            class="news-body"
+                        >
+                            <p>
+                                ${body}
+                            </p>
+                        </div>
+
+                        <button
+                            class="select-text-btn"
+                            onclick="selectArticleText('${articleId}-text', this)"
+                        >
+                            📋 Select All Korean
+                        </button>
+
+                        ${translationHtml}
+
+                        ${vocabularyHtml}
+
+                        ${practiceHtml}
+
                     </div>
-
-                    <button
-                        class="select-text-btn"
-                        onclick="selectArticleText('${articleId}-text', this)"
-                    >
-                        📋 Select All Korean
-                    </button>
-
-                    ${translationHtml}
-
-                    ${vocabularyHtml}
-
-                    ${practiceHtml}
 
                 </article>
             `;

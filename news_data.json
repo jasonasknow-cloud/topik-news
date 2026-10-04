@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-10-05",
+        "published_at": "2026-10-05 06:35",
+        "title": "트럼프 미 대통령, 여론조사 결과 반박하며 지지층 투표 독려",
+        "body": "도널드 트럼프 미국 대통령이 고유가와 고물가로 지지율이 역대 최저치라는 여론조사 결과를 강하게 부인했다. 트럼프 대통령은 현지시간 4일 자신의 소셜미디어를 통해 지지층에게 다가오는 중간선거 투표에 적극적으로 참여할 것을 독려했다. 그는 여론조사 기관들이 항상 자신의 강성 지지층인 '마가(MAGA)'를 과소평가해 왔다고 비판했다. 이어 지난 2024년 대선에서도 여론조사는 접전을 예상했으나 개표 결과 자신이 압승을 거두었다고 강조했다. 트럼프 대통령은 이번 선거에 자신이 직접 출마한 것처럼 생각하고 투표장에 나와 달라고 지지자들에게 호소했다. 또한 그는 선거 전략가의 분석을 인용하며 자신의 실제 지지율이 여전히 49% 수준을 유지하고 있다고 주장했다. 이러한 수치는 집권여당인 공화당이 중간선거에서 하원 다수당 지위를 지켜내기에 충분한 수준이라는 설명도 덧붙였다. 하지만 트럼프 대통령의 이러한 주장과 달리 주요 언론의 여론조사 결과 평균에서 그의 지지율은 37%에 머물렀다. 이처럼 대통령의 자체적인 지지율 평가와 주요 언론의 조사 결과 사이에는 상당한 격차가 나타나고 있다.",
+        "translation": "도널드 트럼프 미국 대통령이 고유가와 고물가로 지지율이 역대 최저치라는 여론조사 결과를 강하게 부인했다.\nU.S. President Donald Trump strongly denied opinion poll results showing that his approval rating has fallen to an all-time low due to high oil prices and high inflation.\n\n트럼프 대통령은 현지시간 4일 자신의 소셜미디어를 통해 지지층에게 다가오는 중간선거 투표에 적극적으로 참여할 것을 독려했다.\nOn the 4th local time, President Trump encouraged his base through his social media to actively participate in voting in the upcoming midterm elections.\n\n그는 여론조사 기관들이 항상 자신의 강성 지지층인 '마가(MAGA)'를 과소평가해 왔다고 비판했다.\nHe criticized polling companies for always underestimating his staunch base of support, \"MAGA.\"\n\n이어 지난 2024년 대선에서도 여론조사는 접전을 예상했으나 개표 결과 자신이 압승을 거두었다고 강조했다.\nHe then emphasized that while polls had predicted a tight race in the 2024 presidential election as well, the vote-counting results showed that he won by a landslide.\n\n트럼프 대통령은 이번 선거에 자신이 직접 출마한 것처럼 생각하고 투표장에 나와 달라고 지지자들에게 호소했다.\nPresident Trump appealed to his supporters to come out to the polling stations, thinking as if he were running directly in this election.\n\n또한 그는 선거 전략가의 분석을 인용하며 자신의 실제 지지율이 여전히 49% 수준을 유지하고 있다고 주장했다.\nHe also cited the analysis of an election strategist, claiming that his actual approval rating still remains at around 49 percent.\n\n이러한 수치는 집권여당인 공화당이 중간선거에서 하원 다수당 지위를 지켜내기에 충분한 수준이라는 설명도 덧붙였다.\nHe added an explanation that this figure is sufficient for the ruling Republican Party to maintain its majority status in the House of Representatives in the midterm elections.\n\n하지만 트럼프 대통령의 이러한 주장과 달리 주요 언론의 여론조사 결과 평균에서 그의 지지율은 37%에 머물렀다.\nHowever, contrary to President Trump's claim, his approval rating remained at 37 percent in the average of opinion polls compiled by major media outlets.\n\n이처럼 대통령의 자체적인 지지율 평가와 주요 언론의 조사 결과 사이에는 상당한 격차가 나타나고 있다.\nAs such, a considerable gap is appearing between the president's own evaluation of his approval rating and the survey results of major media outlets.",
+        "vocab": [
+            {
+                "word": "지지율",
+                "meaning": "approval rating",
+                "example_ko": "최근 대통령의 [지지율]이 크게 올랐다.",
+                "example_en": "The president's approval rating rose significantly recently."
+            },
+            {
+                "word": "부인하다",
+                "meaning": "to deny",
+                "example_ko": "피의자는 혐의 사실을 강하게 [부인했다].",
+                "example_en": "The suspect strongly denied the allegations."
+            },
+            {
+                "word": "독려하다",
+                "meaning": "to encourage, to urge",
+                "example_ko": "선생님은 학생들에게 시험 준비를 열심히 하라고 [독려했다].",
+                "example_en": "The teacher encouraged the students to study hard for the exam."
+            },
+            {
+                "word": "과소평가하다",
+                "meaning": "to underestimate",
+                "example_ko": "상대방의 능력을 절대로 [과소평가해서는] 안 된다.",
+                "example_en": "You should never underestimate the opponent's ability."
+            },
+            {
+                "word": "접전",
+                "meaning": "a close battle, tight race",
+                "example_ko": "두 선수는 경기 마지막까지 치열한 [접전을] 벌였다.",
+                "example_en": "The two players engaged in a fierce close contest until the end of the match."
+            },
+            {
+                "word": "압승",
+                "meaning": "a landslide victory, sweeping win",
+                "example_ko": "우리 축구팀은 결승전에서 세 골 차이로 [압승을] 거두었다.",
+                "example_en": "Our soccer team won a sweeping victory by three goals in the finals."
+            },
+            {
+                "word": "호소하다",
+                "meaning": "to appeal, to plead",
+                "example_ko": "환경단체는 시민들에게 플라스틱 줄이기에 동참해 달라고 [호소했다].",
+                "example_en": "The environmental group appealed to citizens to join in reducing plastic."
+            },
+            {
+                "word": "인용하다",
+                "meaning": "to cite, to quote",
+                "example_ko": "그는 발표를 하면서 유명한 학자의 말을 [인용했다].",
+                "example_en": "He quoted the words of a famous scholar during his presentation."
+            },
+            {
+                "word": "집권여당",
+                "meaning": "the ruling party",
+                "example_ko": "[집권여당은] 새로운 경제 정책을 발표했다.",
+                "example_en": "The ruling party announced a new economic policy."
+            },
+            {
+                "word": "격차",
+                "meaning": "a gap, disparity",
+                "example_ko": "도시와 시골 사이의 소득 [격차가] 점점 커지고 있다.",
+                "example_en": "The income gap between cities and the countryside is gradually widening."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-05",
+        "published_at": "2026-10-05 06:35",
+        "title": "모기 잡는 레이저 기기 상용화…중국 스타트업 본격 출시 나서",
+        "body": "중국의 한 신생 벤처기업이 레이저를 이용해 모기를 잡는 기기를 개발하고 본격적인 제품 출하에 나선다. 현지 보도에 따르면 이 스타트업은 광선 레이더인 라이다를 활용해 모기의 움직임을 포착한 뒤 레이저를 발사하는 기술을 완성했다. 이 기기는 주변 공간을 스캔하여 작고 느리게 날아다니는 곤충을 감지하며, 사람이나 큰 동물이 범위 안에 들어오면 작동을 멈추도록 설계되었다. 레이저로 모기를 박멸하는 기술은 과거 연구실 실험에 머물렀으나, 이번에 처음으로 일반 소비자를 위한 상용화 단계에 도달했다. 해당 업체는 크라우드펀딩을 통해 초기 목표 금액을 크게 웃도는 약 38억 원의 투자금을 모으며 큰 관심을 끌었다. 그러나 안전성을 확보하고 대량 생산 체제를 구축하는 과정에서 예상보다 많은 시간이 소요되어 제품 출시까지 3년이 걸렸다. 판매 가격은 실내용 적외선 모델이 약 134만 원, 야외용 블루 레이저 모델이 약 147만 원으로 책정되었다. 업체 관계자는 이미 북미와 유럽 등지에서 5천 대 이상의 선주문을 확보했다며 향후 시장 수요가 꾸준히 늘어날 것으로 기대했다.",
+        "translation": "중국의 한 신생 벤처기업이 레이저를 이용해 모기를 잡는 기기를 개발하고 본격적인 제품 출하에 나선다.\nA Chinese startup has developed a device that catches mosquitoes using lasers and is beginning full-scale product shipments.\n\n현지 보도에 따르면 이 스타트업은 광선 레이더인 라이다를 활용해 모기의 움직임을 포착한 뒤 레이저를 발사하는 기술을 완성했다.\nAccording to local reports, the startup perfected technology that detects the movement of mosquitoes using lidar, an optical radar, and then fires a laser.\n\n이 기기는 주변 공간을 스캔하여 작고 느리게 날아다니는 곤충을 감지하며, 사람이나 큰 동물이 범위 안에 들어오면 작동을 멈추도록 설계되었다.\nThis device scans the surrounding space to detect small, slow-flying insects, and is designed to stop operating when a human or large animal comes within range.\n\n레이저로 모기를 박멸하는 기술은 과거 연구실 실험에 머물렀으나, 이번에 처음으로 일반 소비자를 위한 상용화 단계에 도달했다.\nThe technology to eradicate mosquitoes with lasers had remained at the stage of laboratory experiments in the past, but has now reached the commercialization stage for general consumers for the first time.\n\n해당 업체는 크라우드펀딩을 통해 초기 목표 금액을 크게 웃도는 약 38억 원의 투자금을 모으며 큰 관심을 끌었다.\nThe company attracted great attention by raising about 3.8 billion won in investment funds through crowdfunding, vastly exceeding its initial target amount.\n\n그러나 안전성을 확보하고 대량 생산 체제를 구축하는 과정에서 예상보다 많은 시간이 소요되어 제품 출시까지 3년이 걸렸다.\nHowever, in the process of ensuring safety and establishing a mass production system, more time was required than expected, taking three years until the product launch.\n\n판매 가격은 실내용 적외선 모델이 약 134만 원, 야외용 블루 레이저 모델이 약 147만 원으로 책정되었다.\nThe selling price was set at approximately 1.34 million won for the indoor infrared model and about 1.47 million won for the outdoor blue laser model.\n\n업체 관계자는 이미 북미와 유럽 등지에서 5천 대 이상의 선주문을 확보했다며 향후 시장 수요가 꾸준히 늘어날 것으로 기대했다.\nA company official stated that they have already secured more than 5,000 preorders from regions including North America and Europe, and expected market demand to increase steadily going forward.",
+        "vocab": [
+            {
+                "word": "출하",
+                "meaning": "shipment, release of goods to market",
+                "example_ko": "공장에서 완성된 신제품의 [출하가] 다음 주부터 시작된다.",
+                "example_en": "Shipments of the completed new products from the factory will begin next week."
+            },
+            {
+                "word": "포착하다",
+                "meaning": "to capture, to detect",
+                "example_ko": "기상 레이더가 태풍의 이동 경로를 정확히 [포착했다].",
+                "example_en": "The weather radar accurately detected the typhoon's path of movement."
+            },
+            {
+                "word": "발사하다",
+                "meaning": "to fire, to shoot, to launch",
+                "example_ko": "연구팀은 목표 지점을 향해 레이저를 [발사했다].",
+                "example_en": "The research team fired a laser toward the target point."
+            },
+            {
+                "word": "박멸하다",
+                "meaning": "to eradicate, to exterminate",
+                "example_ko": "보건소는 여름철 모기를 [박멸하기] 위해 방역 작업을 실시했다.",
+                "example_en": "The public health clinic carried out disinfection work to eradicate mosquitoes in the summer."
+            },
+            {
+                "word": "상용화",
+                "meaning": "commercialization",
+                "example_ko": "신기술의 [상용화로] 사람들의 생활이 더욱 편리해졌다.",
+                "example_en": "With the commercialization of the new technology, people's lives became much more convenient."
+            },
+            {
+                "word": "웃돌다",
+                "meaning": "to exceed, to top",
+                "example_ko": "올해 회사 매출액은 작년 실적을 크게 [웃돌았다].",
+                "example_en": "This year's company revenue vastly exceeded last year's performance."
+            },
+            {
+                "word": "대량 생산",
+                "meaning": "mass production",
+                "example_ko": "새로운 공장이 완공되면서 제품의 [대량 생산이] 가능해졌다.",
+                "example_en": "With the completion of the new factory, mass production of the product became possible."
+            },
+            {
+                "word": "소요되다",
+                "meaning": "to be required, to take (time or money)",
+                "example_ko": "프로젝트를 완성하는 데 두 달 정도의 시간이 [소요되었다].",
+                "example_en": "About two months of time was required to complete the project."
+            },
+            {
+                "word": "책정되다",
+                "meaning": "to be fixed, to be set (price/budget)",
+                "example_ko": "이번 신제품의 판매 가격은 매우 저렴하게 [책정되었다].",
+                "example_en": "The selling price of this new product was set very affordably."
+            },
+            {
+                "word": "확보하다",
+                "meaning": "to secure, to obtain",
+                "example_ko": "회사는 새로운 사업을 위해 충분한 자금을 [확보했다].",
+                "example_en": "The company secured sufficient funds for the new business."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-05",
+        "published_at": "2026-10-05 06:35",
+        "title": "전주 배 저장창고서 화재 발생…건물 전소됐으나 인명 피해 없어",
+        "body": "전북 전주시의 한 과일 저장창고에서 원인을 알 수 없는 불이 나 창고 건물이 전소되는 사고가 발생했다. 소방 당국에 따르면 어제(4일) 오후 6시쯤 전북 전주시 덕진구 원동에 위치한 배 저장창고에서 갑작스럽게 화재가 발생했다. 창고에서 불이 났다는 신고를 받고 긴급 출동한 소방 당국은 곧바로 대대적인 진화 작업에 돌입했다. 소방 당국은 거센 불길을 신속하게 잡기 위해 소방 장비 18대와 진압 인원 40여 명을 화재 현장에 전격 동원했다. 현장에 투입된 소방 대원들이 총력을 다해 진압 활동을 펼친 끝에 화재는 발생 약 세 시간여 만에 완전히 꺼졌다. 화재 당시에 창고 주변에 머물던 사람이 없었던 덕분에 다행히 이번 사고로 인한 인명 피해는 전혀 발생하지 않았다. 하지만 이번 불길을 피하지 못한 배 저장창고 건물이 완전히 불에 타 소실되면서 적지 않은 재산 피해를 남겼다. 진화 작업을 마친 경찰과 소방 당국은 화재 현장을 면밀히 보존하며 정확한 발화 지점과 화재 원인을 밝히기 위한 조사에 나섰다. 이와 함께 당국은 이번 화재로 완전히 불타버린 저장창고 시설과 보관 물품의 피해 정도를 확인하며 구체적인 피해 규모를 정밀하게 조사하고 있다.",
+        "translation": "전북 전주시의 한 과일 저장창고에서 원인을 알 수 없는 불이 나 창고 건물이 전소되는 사고가 발생했다.\nAn accident occurred in which an unknown fire broke out at a fruit storage warehouse in Jeonju, Jeonbuk, completely burning down the warehouse building.\n\n소방 당국에 따르면 어제(4일) 오후 6시쯤 전북 전주시 덕진구 원동에 위치한 배 저장창고에서 갑작스럽게 화재가 발생했다.\nAccording to fire authorities, a fire suddenly broke out at around 6 p.m. yesterday (4th) at a pear storage warehouse located in Won-dong, Deokjin-gu, Jeonju, Jeonbuk.\n\n창고에서 불이 났다는 신고를 받고 긴급 출동한 소방 당국은 곧바로 대대적인 진화 작업에 돌입했다.\nUpon receiving a report that a fire had broken out in the warehouse, fire authorities rushed to the scene and immediately began extensive firefighting operations.\n\n소방 당국은 거센 불길을 신속하게 잡기 위해 소방 장비 18대와 진압 인원 40여 명을 화재 현장에 전격 동원했다.\nTo quickly contain the fierce flames, fire authorities swiftly mobilized 18 pieces of firefighting equipment and about 40 firefighting personnel to the fire scene.\n\n현장에 투입된 소방 대원들이 총력을 다해 진압 활동을 펼친 끝에 화재는 발생 약 세 시간여 만에 완전히 꺼졌다.\nAfter firefighters deployed to the scene exerted all their efforts in suppression activities, the fire was completely extinguished about three hours after it broke out.\n\n화재 당시에 창고 주변에 머물던 사람이 없었던 덕분에 다행히 이번 사고로 인한 인명 피해는 전혀 발생하지 않았다.\nThanks to the fact that no one was staying around the warehouse at the time of the fire, fortunately, no casualties occurred from this accident.\n\n하지만 이번 불길을 피하지 못한 배 저장창고 건물이 완전히 불에 타 소실되면서 적지 않은 재산 피해를 남겼다.\nHowever, as the pear storage warehouse building could not escape the flames and was completely burned and destroyed, it left considerable property damage.\n\n진화 작업을 마친 경찰과 소방 당국은 화재 현장을 면밀히 보존하며 정확한 발화 지점과 화재 원인을 밝히기 위한 조사에 나섰다.\nHaving completed the firefighting operation, the police and fire authorities carefully preserved the fire scene and launched an investigation to determine the exact point of ignition and the cause of the fire.\n\n이와 함께 당국은 이번 화재로 완전히 불타버린 저장창고 시설과 보관 물품의 피해 정도를 확인하며 구체적인 피해 규모를 정밀하게 조사하고 있다.\nAlong with this, authorities are checking the extent of damage to the storage warehouse facility and stored goods completely burned by the fire, precisely investigating the specific scale of damage.",
+        "vocab": [
+            {
+                "word": "전소되다",
+                "meaning": "to be completely burned down",
+                "example_ko": "어젯밤 발생한 화재로 오래된 목조 건물이 완전히 [전소되었다].",
+                "example_en": "The old wooden building was completely burned down due to the fire that broke out last night."
+            },
+            {
+                "word": "진화",
+                "meaning": "firefighting, extinguishing a fire",
+                "example_ko": "소방관들의 빠른 대처 덕분에 산불 [진화가] 신속히 완료되었다.",
+                "example_en": "Thanks to the firefighters' quick response, the extinguishing of the forest fire was completed quickly."
+            },
+            {
+                "word": "돌입하다",
+                "meaning": "to enter into, to begin in earnest",
+                "example_ko": "양측 대표단은 협상의 세부 내용을 정하기 위해 본격적인 논의에 [돌입했다].",
+                "example_en": "Delegations from both sides entered into full-fledged discussions to determine the details of the negotiation."
+            },
+            {
+                "word": "동원하다",
+                "meaning": "to mobilize",
+                "example_ko": "경찰은 실종된 어린이를 찾기 위해 수색 인력을 대거 [동원했다].",
+                "example_en": "The police mobilized a large number of search personnel to find the missing child."
+            },
+            {
+                "word": "진압",
+                "meaning": "suppression, containment",
+                "example_ko": "소방 당국은 이틀 만에 불길의 [진압에] 성공했다고 발표했다.",
+                "example_en": "Fire authorities announced that they succeeded in the suppression of the flames after two days."
+            },
+            {
+                "word": "소실되다",
+                "meaning": "to be destroyed by fire, to be lost in a fire",
+                "example_ko": "귀중한 문화재가 뜻하지 않은 사고로 [소실되어] 안타까움을 주고 있다.",
+                "example_en": "It is regrettable that valuable cultural heritage was destroyed by fire in an unexpected accident."
+            },
+            {
+                "word": "보존하다",
+                "meaning": "to preserve, to maintain",
+                "example_ko": "사고 원인을 밝히려면 현장을 훼손하지 않고 그대로 [보존해야] 한다.",
+                "example_en": "To determine the cause of the accident, the scene must be preserved intact without being damaged."
+            },
+            {
+                "word": "발화",
+                "meaning": "ignition, catching fire",
+                "example_ko": "소방서는 전기 합선을 화재의 주요 [발화] 원인으로 추정했다.",
+                "example_en": "The fire department presumed an electrical short circuit to be the main cause of the ignition of the fire."
+            },
+            {
+                "word": "규명하다",
+                "meaning": "to investigate and clarify, to determine",
+                "example_ko": "정부는 이번 사고의 원인을 철저하게 [규명하겠다고] 약속했다.",
+                "example_en": "The government promised to thoroughly investigate and clarify the cause of this accident."
+            },
+            {
+                "word": "정밀하다",
+                "meaning": "to be precise, to be detailed",
+                "example_ko": "의사는 환자의 건강 상태를 파악하기 위해 [정밀한] 검사를 진행했다.",
+                "example_en": "The doctor conducted a precise examination to understand the patient's health status."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-05",
+        "published_at": "2026-10-05 06:35",
+        "title": "네타냐후 이스라엘 총리, 이스라엘행 외국 민항기 보안 절차 전면 재검토 지시",
+        "body": "베냐민 네타냐후 이스라엘 총리가 자국으로 입국하는 외국 민간 항공편의 보안 절차를 전면적으로 재검토하라고 지시했다. 이스라엘 총리실은 국가안보위원회 의장에게 조사관을 임명하여 외국 항공기의 보안 조치 전반을 철저히 점검하도록 명령했다고 밝혔다. 이번 조치는 최근 두바이에서 텔아비브로 향하던 여객기에서 오만 국적의 부기장이 기장에게 흉기를 휘두르며 고의 추락을 시도한 사건 이후 발표되었다. 이스라엘은 원칙적으로 자국과 공식 외교관계를 맺지 않은 국가 출신의 조종사가 이스라엘행 여객기를 운항하는 것을 금지해 왔다. 그러나 이번 사건을 계기로 외국 항공사의 조종사 신원 확인 및 탑승 보안 체계에 심각한 허점이 드러났다는 비판이 쏟아졌다. 이에 대해 이스라엘 교통부 장관은 외국 조종사들의 신원을 모두 조사할 역량이 부족하며 이는 국가 보안 당국의 책임이라고 주장했다. 반면 감사기구 등에서는 교통부가 수년 동안 외국 항공편의 보안 점검을 소홀히 해왔다고 지적하며 대비 태세의 문제를 경고했다. 총리실의 이번 지시에 따라 이스라엘 안보 당국은 외국 항공편에 대한 감시와 보안 규정을 대폭 강화할 방침이다.",
+        "translation": "베냐민 네타냐후 이스라엘 총리가 자국으로 입국하는 외국 민간 항공편의 보안 절차를 전면적으로 재검토하라고 지시했다.\nIsraeli Prime Minister Benjamin Netanyahu instructed a comprehensive review of the security procedures for foreign civil flights entering the country.\n\n이스라엘 총리실은 국가안보위원회 의장에게 조사관을 임명하여 외국 항공기의 보안 조치 전반을 철저히 점검하도록 명령했다고 밝혔다.\nThe Israeli Prime Minister's Office stated that it ordered the chairman of the National Security Council to appoint an investigator to thoroughly inspect overall security measures for foreign aircraft.\n\n이번 조치는 최근 두바이에서 텔아비브로 향하던 여객기에서 오만 국적의 부기장이 기장에게 흉기를 휘두르며 고의 추락을 시도한 사건 이후 발표되었다.\nThis measure was announced after an incident in which an Omani co-pilot wielded a deadly weapon against the captain and attempted an intentional crash on a passenger plane heading from Dubai to Tel Aviv recently.\n\n이스라엘은 원칙적으로 자국과 공식 외교관계를 맺지 않은 국가 출신의 조종사가 이스라엘행 여객기를 운항하는 것을 금지해 왔다.\nIn principle, Israel has prohibited pilots from countries that do not have formal diplomatic relations with Israel from operating passenger flights bound for Israel.\n\n그러나 이번 사건을 계기로 외국 항공사의 조종사 신원 확인 및 탑승 보안 체계에 심각한 허점이 드러났다는 비판이 쏟아졌다.\nHowever, with this incident as a trigger, criticisms poured in stating that serious loopholes were revealed in the pilot background check and boarding security systems of foreign airlines.\n\n이에 대해 이스라엘 교통부 장관은 외국 조종사들의 신원을 모두 조사할 역량이 부족하며 이는 국가 보안 당국의 책임이라고 주장했다.\nIn response to this, the Israeli Minister of Transportation claimed that the ministry lacks the capacity to investigate the backgrounds of all foreign pilots and that this is the responsibility of state security authorities.\n\n반면 감사기구 등에서는 교통부가 수년 동안 외국 항공편의 보안 점검을 소홀히 해왔다고 지적하며 대비 태세의 문제를 경고했다.\nOn the other hand, audit bodies and others pointed out that the Ministry of Transportation had neglected security inspections of foreign flights for years and warned of problems with the readiness posture.\n\n총리실의 이번 지시에 따라 이스라엘 안보 당국은 외국 항공편에 대한 감시와 보안 규정을 대폭 강화할 방침이다.\nFollowing this instruction from the Prime Minister's Office, Israeli security authorities plan to significantly strengthen surveillance and security regulations regarding foreign flights.",
+        "vocab": [
+            {
+                "word": "재검토하다",
+                "meaning": "to reexamine, to review",
+                "example_ko": "위원회는 안전 기준을 강화하기 위해 기존 정책을 전면 [재검토했다].",
+                "example_en": "The committee comprehensively reexamined existing policies to strengthen safety standards."
+            },
+            {
+                "word": "임명하다",
+                "meaning": "to appoint",
+                "example_ko": "대통령은 경험이 풍부한 외교관을 새로운 대사로 [임명했다].",
+                "example_en": "The president appointed an experienced diplomat as the new ambassador."
+            },
+            {
+                "word": "고의",
+                "meaning": "intention, deliberation",
+                "example_ko": "그는 상대방을 다치게 하려는 [고의가] 전혀 없었다고 말했다.",
+                "example_en": "He said he had no intention whatsoever to hurt the opponent."
+            },
+            {
+                "word": "운항하다",
+                "meaning": "to operate, to navigate (ships/aircraft)",
+                "example_ko": "기상 악화로 인해 섬으로 가는 여객선이 오늘 [운항하지] 않는다.",
+                "example_en": "Due to worsening weather conditions, the passenger ferry heading to the island does not operate today."
+            },
+            {
+                "word": "신원",
+                "meaning": "identity, background",
+                "example_ko": "경찰은 사고 현장에서 발견된 사람의 [신원을] 신속히 확인했다.",
+                "example_en": "The police quickly confirmed the identity of the person found at the accident scene."
+            },
+            {
+                "word": "허점",
+                "meaning": "a loophole, blind spot, weakness",
+                "example_ko": "법의 [허점을] 이용해 부당한 이익을 챙기는 사람들이 있다.",
+                "example_en": "There are people who take unfair profits by exploiting loopholes in the law."
+            },
+            {
+                "word": "역량",
+                "meaning": "capability, capacity",
+                "example_ko": "직원은 자신의 업무 [역량을] 키우기 위해 외국어 공부를 시작했다.",
+                "example_en": "The employee began studying foreign languages to develop their work capability."
+            },
+            {
+                "word": "소홀히",
+                "meaning": "carelessly, neglectfully",
+                "example_ko": "아무리 바쁘더라도 건강 관리를 [소홀히] 해서는 안 된다.",
+                "example_en": "No matter how busy you are, you must not neglectfully manage your health."
+            },
+            {
+                "word": "대비 태세",
+                "meaning": "readiness posture, state of preparedness",
+                "example_ko": "군 당국은 국경 지역의 경계를 강화하며 철저한 [대비 태세를] 유지하고 있다.",
+                "example_en": "Military authorities are maintaining a thorough readiness posture while strengthening vigilance in the border region."
+            },
+            {
+                "word": "방침",
+                "meaning": "policy, plan, course of action",
+                "example_ko": "회사는 올해부터 직원들의 근무 시간을 단축한다는 [방침을] 세웠다.",
+                "example_en": "The company established a policy to reduce employees' working hours starting this year."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-10-05",
         "published_at": "2026-10-05 00:58",
         "title": "트럼프 미 대통령, 유세 보도 소홀한 폭스뉴스 비판하며 경고",
         "body": "도널드 트럼프 미국 대통령이 보수 성향의 방송사인 폭스뉴스를 향해 공개적으로 강한 불만을 나타냈다. 트럼프 대통령은 자신의 소셜미디어를 통해 폭스뉴스의 시사 프로그램이 최근 열린 중간선거 유세 현장을 제대로 보도하지 않았다고 주장했다. 그는 오하이오와 텍사스 등 여러 지역에서 진행된 유세에 수천 명의 인파가 몰려 성황을 이뤘다고 강조했다. 이어 자신의 유세를 적극적으로 다루지 않는 방송사의 태도는 오래된 의도적인 행동이라고 비판했다. 또한 이러한 보도 태도가 계속된다면 지지자들의 외면을 받아 방송 시청률이 크게 떨어질 것이라고 경고했다. 이번 미국 중간선거에서는 집권 여당인 공화당이 의회 다수당 지위를 잃을 수 있다는 전망이 나오고 있다. 트럼프 대통령은 선거를 앞두고 방송사가 야당인 민주당 지도부와 비판적인 논객들을 자주 출연시키는 점에도 불만을 드러냈다. 그는 폭스뉴스가 과거에도 선거 직전에 비슷한 태도를 보이다가 위기에 처한 적이 있다며 강력한 비판을 이어갔다.",

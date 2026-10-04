@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-05",
+        "published_at": "2026-10-05 00:58",
+        "title": "트럼프 미 대통령, 유세 보도 소홀한 폭스뉴스 비판하며 경고",
+        "body": "도널드 트럼프 미국 대통령이 보수 성향의 방송사인 폭스뉴스를 향해 공개적으로 강한 불만을 나타냈다. 트럼프 대통령은 자신의 소셜미디어를 통해 폭스뉴스의 시사 프로그램이 최근 열린 중간선거 유세 현장을 제대로 보도하지 않았다고 주장했다. 그는 오하이오와 텍사스 등 여러 지역에서 진행된 유세에 수천 명의 인파가 몰려 성황을 이뤘다고 강조했다. 이어 자신의 유세를 적극적으로 다루지 않는 방송사의 태도는 오래된 의도적인 행동이라고 비판했다. 또한 이러한 보도 태도가 계속된다면 지지자들의 외면을 받아 방송 시청률이 크게 떨어질 것이라고 경고했다. 이번 미국 중간선거에서는 집권 여당인 공화당이 의회 다수당 지위를 잃을 수 있다는 전망이 나오고 있다. 트럼프 대통령은 선거를 앞두고 방송사가 야당인 민주당 지도부와 비판적인 논객들을 자주 출연시키는 점에도 불만을 드러냈다. 그는 폭스뉴스가 과거에도 선거 직전에 비슷한 태도를 보이다가 위기에 처한 적이 있다며 강력한 비판을 이어갔다.",
+        "translation": "도널드 트럼프 미국 대통령이 보수 성향의 방송사인 폭스뉴스를 향해 공개적으로 강한 불만을 나타냈다.\nU.S. President Donald Trump publicly expressed strong dissatisfaction toward Fox News, a conservative broadcaster.\n\n트럼프 대통령은 자신의 소셜미디어를 통해 폭스뉴스의 시사 프로그램이 최근 열린 중간선거 유세 현장을 제대로 보도하지 않았다고 주장했다.\nPresident Trump claimed on his social media that Fox News's current affairs program did not properly cover his recent midterm election campaign rallies.\n\n그는 오하이오와 텍사스 등 여러 지역에서 진행된 유세에 수천 명의 인파가 몰려 성황을 이뤘다고 강조했다.\nHe emphasized that rallies held in various regions, such as Ohio and Texas, were a great success, drawing crowds of thousands of people.\n\n이어 자신의 유세를 적극적으로 다루지 않는 방송사의 태도는 오래된 의도적인 행동이라고 비판했다.\nHe further criticized that the broadcaster's attitude of not actively covering his rallies was a longstanding, intentional behavior.\n\n또한 이러한 보도 태도가 계속된다면 지지자들의 외면을 받아 방송 시청률이 크게 떨어질 것이라고 경고했다.\nHe also warned that if this reporting attitude continues, the broadcaster would be shunned by supporters and its viewership ratings would drop significantly.\n\n이번 미국 중간선거에서는 집권 여당인 공화당이 의회 다수당 지위를 잃을 수 있다는 전망이 나오고 있다.\nIn this U.S. midterm election, outlooks are emerging that the ruling Republican Party could lose its majority status in Congress.\n\n트럼프 대통령은 선거를 앞두고 방송사가 야당인 민주당 지도부와 비판적인 논객들을 자주 출연시키는 점에도 불만을 드러냈다.\nWith the election ahead, President Trump also voiced discontent over the broadcaster frequently featuring the leadership of the opposition Democratic Party and critical commentators.\n\n그는 폭스뉴스가 과거에도 선거 직전에 비슷한 태도를 보이다가 위기에 처한 적이 있다며 강력한 비판을 이어갔다.\nHe continued his fierce criticism, saying that Fox News had faced a crisis in the past after displaying a similar attitude right before an election.",
+        "vocab": [
+            {
+                "word": "성향",
+                "meaning": "disposition; inclination; leaning",
+                "example_ko": "그 신문사는 비교적 진보적인 [성향]을 띠고 있다.",
+                "example_en": "That newspaper has a relatively progressive inclination."
+            },
+            {
+                "word": "유세",
+                "meaning": "election campaigning; canvassing",
+                "example_ko": "선거철이 다가오자 후보자들의 거리 [유세]가 시작되었다.",
+                "example_en": "As the election season approached, the candidates' street campaigning began."
+            },
+            {
+                "word": "성황",
+                "meaning": "great success; thriving condition",
+                "example_ko": "이번 박람회는 많은 관람객이 찾아와 [성황]을 이루었다.",
+                "example_en": "This fair was a great success, drawing many visitors."
+            },
+            {
+                "word": "의도적",
+                "meaning": "intentional; deliberate",
+                "example_ko": "그는 약속 시간을 지키지 않으려고 [의도적]으로 늦게 출발했다.",
+                "example_en": "He intentionally left late because he didn't want to keep the appointment time."
+            },
+            {
+                "word": "외면",
+                "meaning": "turning away; shunning; ignoring",
+                "example_ko": "어려움에 처한 이웃의 요청을 차마 [외면]할 수 없었다.",
+                "example_en": "I could not simply turn away from the request of a neighbor in difficulty."
+            },
+            {
+                "word": "시청률",
+                "meaning": "viewership ratings; television ratings",
+                "example_ko": "그 드라마는 흥미로운 줄거리 덕분에 높은 [시청률]을 기록했다.",
+                "example_en": "The drama recorded high viewership ratings thanks to its interesting plot."
+            },
+            {
+                "word": "집권",
+                "meaning": "seizing or holding political power",
+                "example_ko": "새로운 정당이 [집권]하면서 주요 경제 정책이 변경되었다.",
+                "example_en": "Major economic policies changed as the new political party took power."
+            },
+            {
+                "word": "전망",
+                "meaning": "outlook; forecast; prospect",
+                "example_ko": "전문가들은 내년 경제 성장에 대해 긍정적인 [전망]을 내놓았다.",
+                "example_en": "Experts presented an optimistic outlook regarding next year's economic growth."
+            },
+            {
+                "word": "지도부",
+                "meaning": "leadership; board of leaders",
+                "example_ko": "당 [지도부]는 총선을 앞두고 긴급 대책 회의를 소집했다.",
+                "example_en": "The party leadership convened an emergency meeting ahead of the general election."
+            },
+            {
+                "word": "출연시키다",
+                "meaning": "to have someone appear (on TV, stage, etc.)",
+                "example_ko": "방송국은 이번 특집 방송에 유명 전문가들을 대거 [출연시켰다].",
+                "example_en": "The broadcasting station featured many famous experts on this special program."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-05",
+        "published_at": "2026-10-05 00:58",
+        "title": "소래포구 어시장, 축제와 현장센터로 신뢰 회복과 쇄신 나서",
+        "body": "수도권의 대표적인 수산물 시장인 소래포구가 고객 신뢰를 회복하기 위해 대대적인 쇄신에 나섰다. 소래포구는 과거 연간 방문객이 800만 명을 넘을 정도로 번성했으나, 최근 바가지요금 논란이 이어지며 큰 위기를 맞았다. 지나치게 비싼 가격과 불친절에 대한 비판이 커지자 올해 방문객 수는 300만 명대까지 급감했다. 이에 따라 관할 구청은 부정적인 인식을 개선하고 상권을 살리기 위해 어시장 내에 현장지원센터를 설치했다. 구청 직원들이 상설 센터에 직접 상주하며 방문객의 불편 사항을 접수하고 즉시 해결하는 역할을 맡는다. 한편 가을 성어기를 맞아 열린 이번 축제에는 요리 대회와 다양한 체험 행사가 마련되어 50만 명이 넘는 시민이 다녀갔다. 상인회 역시 자정 노력을 강화하며 불법적이거나 부당한 상거래 행위를 뿌리 뽑겠다고 약속했다. 지자체와 상인들은 지속적인 협의를 통해 건전한 유통 질서를 확립하고 지역 경제를 되살릴 계획이다.",
+        "translation": "수도권의 대표적인 수산물 시장인 소래포구가 고객 신뢰를 회복하기 위해 대대적인 쇄신에 나섰다.\nSoraepogu, a representative seafood market in the capital region, has launched an extensive overhaul to restore customer trust.\n\n소래포구는 과거 연간 방문객이 800만 명을 넘을 정도로 번성했으나, 최근 바가지요금 논란이 이어지며 큰 위기를 맞았다.\nSoraepogu once thrived to the point of drawing over eight million visitors a year, but it recently faced a major crisis amid successive controversies over rip-off prices.\n\n지나치게 비싼 가격과 불친절에 대한 비판이 커지자 올해 방문객 수는 300만 명대까지 급감했다.\nAs criticism of excessively high prices and unkindness grew, the number of visitors this year plummeted to the three-million range.\n\n이에 따라 관할 구청은 부정적인 인식을 개선하고 상권을 살리기 위해 어시장 내에 현장지원센터를 설치했다.\nAccordingly, the competent district office established an on-site support center within the fish market to improve negative perceptions and revive the commercial district.\n\n구청 직원들이 상설 센터에 직접 상주하며 방문객의 불편 사항을 접수하고 즉시 해결하는 역할을 맡는다.\nDistrict office employees reside directly at the permanent center, handling visitor complaints and resolving them immediately.\n\n한편 가을 성어기를 맞아 열린 이번 축제에는 요리 대회와 다양한 체험 행사가 마련되어 50만 명이 넘는 시민이 다녀갔다.\nMeanwhile, at this festival held during the autumn fishing peak season, cooking competitions and various experiential events were prepared, drawing over 500,000 citizens.\n\n상인회 역시 자정 노력을 강화하며 불법적이거나 부당한 상거래 행위를 뿌리 뽑겠다고 약속했다.\nThe merchants' association also promised to strengthen self-purification efforts and root out illegal or unfair commercial practices.\n\n지자체와 상인들은 지속적인 협의를 통해 건전한 유통 질서를 확립하고 지역 경제를 되살릴 계획이다.\nThe local government and merchants plan to establish a sound distribution order and revitalize the local economy through continuous consultations.",
+        "vocab": [
+            {
+                "word": "쇄신",
+                "meaning": "reform; overhaul; renovation",
+                "example_ko": "기업은 경영 위기를 극복하기 위해 대대적인 조직 [쇄신]을 단행했다.",
+                "example_en": "The enterprise carried out an extensive organizational overhaul to overcome the management crisis."
+            },
+            {
+                "word": "번성하다",
+                "meaning": "to prosper; to thrive",
+                "example_ko": "이 항구 도시는 활발한 해상 무역 덕분에 크게 [번성했다].",
+                "example_en": "This port city prospered greatly thanks to active maritime trade."
+            },
+            {
+                "word": "급감하다",
+                "meaning": "to decrease rapidly; to drop sharply",
+                "example_ko": "물가가 오르자 외식을 즐기는 소비자의 수가 [급감했다].",
+                "example_en": "As prices rose, the number of consumers dining out dropped sharply."
+            },
+            {
+                "word": "상권",
+                "meaning": "commercial district; trading area",
+                "example_ko": "지하철역이 새로 개통되면서 주변 [상권]이 빠르게 활성화되었다.",
+                "example_en": "As the new subway station opened, the surrounding commercial district quickly revitalized."
+            },
+            {
+                "word": "상주하다",
+                "meaning": "to reside permanently; to be stationed",
+                "example_ko": "안전사고에 대비해 응급 의료진이 행사장 내에 [상주하고] 있다.",
+                "example_en": "Emergency medical personnel are stationed inside the venue in preparation for safety accidents."
+            },
+            {
+                "word": "성어기",
+                "meaning": "peak fishing season",
+                "example_ko": "가을 [성어기]를 맞이하여 포구는 조업을 나가는 어선들로 붐볐다.",
+                "example_en": "Greeting the autumn peak fishing season, the port was crowded with fishing boats heading out to sea."
+            },
+            {
+                "word": "자정",
+                "meaning": "self-cleansing; self-purification",
+                "example_ko": "업계 내부에서 비리를 없애기 위한 적극적인 [자정] 노력이 필요하다.",
+                "example_en": "Active self-cleansing efforts are needed within the industry to eliminate corrupt practices."
+            },
+            {
+                "word": "상거래",
+                "meaning": "commercial transaction; business deal",
+                "example_ko": "공정한 [상거래] 질서를 지키는 것은 소비자 신뢰의 바탕이 된다.",
+                "example_en": "Observing fair commercial transaction order forms the foundation of consumer trust."
+            },
+            {
+                "word": "뿌리뽑다",
+                "meaning": "to eradicate; to root out",
+                "example_ko": "정부는 시장 질서를 해치는 불법 유통 행위를 [뿌리뽑겠다고] 밝혔다.",
+                "example_en": "The government announced that it would root out illegal distribution practices that harm market order."
+            },
+            {
+                "word": "확립하다",
+                "meaning": "to establish; to settle firmly",
+                "example_ko": "사회적 규칙을 올바르게 [확립해야] 혼란을 줄일 수 있다.",
+                "example_en": "Confusion can be reduced only when social rules are properly established."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-05",
+        "published_at": "2026-10-05 00:58",
+        "title": "경남 섬마을 주민을 위한 친환경 새 병원선 출항 준비",
+        "body": "의료 시설이 부족한 섬마을 주민들을 직접 찾아가 진료하는 새로운 병원선이 건조되었다. 경상남도는 20년 넘게 운항하며 노후화된 기존 병원선을 대체할 친환경 새 병원선의 진수식을 열었다. 새 병원선은 290톤급 규모로 기존 선박보다 크기가 커졌으며, 대기오염 물질을 줄이는 설비를 도입했다. 또한 내부에는 정밀 검사를 위한 임상병리실과 백신 보관용 냉장고를 갖춘 감염병 예방실이 새롭게 마련되었다. 거동이 불편한 고령 환자들을 배려해 선착장에서 환자 이송용 차량이 배에 바로 탑승할 수 있는 구조도 설계에 반영되었다. 이 배는 창원과 통영 등 7개 시·군의 50여 개 섬을 순회하며 매년 수천 명의 주민 건강을 돌볼 예정이다. 그러나 유류비와 약품비를 비롯한 막대한 운영 비용을 지자체가 전액 부담하고 있어 제도적 지원이 필요하다는 지적이 나온다. 특히 병원선에 사용되는 연료가 면세유 혜택을 받지 못하고 있어 국비 지원을 촉구하는 건의안이 발의되기도 했다.",
+        "translation": "의료 시설이 부족한 섬마을 주민들을 직접 찾아가 진료하는 새로운 병원선이 건조되었다.\nA new hospital ship that visits and treats residents of island villages lacking medical facilities has been built.\n\n경상남도는 20년 넘게 운항하며 노후화된 기존 병원선을 대체할 친환경 새 병원선의 진수식을 열었다.\nGyeongsangnam-do held a launching ceremony for an eco-friendly new hospital ship to replace the aging vessel that had operated for over twenty years.\n\n새 병원선은 290톤급 규모로 기존 선박보다 크기가 커졌으며, 대기오염 물질을 줄이는 설비를 도입했다.\nThe new hospital ship is a 290-ton class vessel, larger than the previous ship, and incorporates facilities to reduce air pollutants.\n\n또한 내부에는 정밀 검사를 위한 임상병리실과 백신 보관용 냉장고를 갖춘 감염병 예방실이 새롭게 마련되었다.\nIn addition, a clinical pathology lab for precise tests and an infectious disease prevention room equipped with a vaccine storage refrigerator were newly set up inside.\n\n거동이 불편한 고령 환자들을 배려해 선착장에서 환자 이송용 차량이 배에 바로 탑승할 수 있는 구조도 설계에 반영되었다.\nTaking elderly patients with mobility difficulties into consideration, a design allowing patient transport vehicles to board the ship directly from the dock was also reflected.\n\n이 배는 창원과 통영 등 7개 시·군의 50여 개 섬을 순회하며 매년 수천 명의 주민 건강을 돌볼 예정이다.\nThis ship is scheduled to tour around fifty islands across seven cities and counties, including Changwon and Tongyeong, caring for the health of thousands of residents every year.\n\n그러나 유류비와 약품비를 비롯한 막대한 운영 비용을 지자체가 전액 부담하고 있어 제도적 지원이 필요하다는 지적이 나온다.\nHowever, points are being raised that institutional support is needed, as the local government bears all enormous operating expenses, including fuel costs and pharmaceutical expenses.\n\n특히 병원선에 사용되는 연료가 면세유 혜택을 받지 못하고 있어 국비 지원을 촉구하는 건의안이 발의되기도 했다.\nIn particular, because fuel used for the hospital ship does not receive tax-exempt fuel benefits, a recommendation urging state funding support has even been proposed.",
+        "vocab": [
+            {
+                "word": "진료하다",
+                "meaning": "to examine and treat; to provide medical care",
+                "example_ko": "의사는 외딴 시골 마을을 매주 방문하여 어르신들을 [진료했다].",
+                "example_en": "The doctor visited the remote rural village every week to examine and treat the elderly."
+            },
+            {
+                "word": "노후화",
+                "meaning": "aging; deterioration; becoming obsolete",
+                "example_ko": "시설의 [노후화]로 인해 안전 점검과 보수 공사가 시급하다.",
+                "example_en": "Safety inspections and repair works are urgent due to the deterioration of the facilities."
+            },
+            {
+                "word": "진수식",
+                "meaning": "ship launching ceremony",
+                "example_ko": "조선소에서는 새로 건조한 대형 선박의 [진수식]이 성대하게 열렸다.",
+                "example_en": "A ship launching ceremony for the newly constructed large vessel was held grandly at the shipyard."
+            },
+            {
+                "word": "정밀",
+                "meaning": "precise; detailed; accurate",
+                "example_ko": "환자는 이상 증상을 확인하기 위해 병원에서 [정밀] 검사를 받았다.",
+                "example_en": "The patient underwent a detailed medical examination at the hospital to identify abnormal symptoms."
+            },
+            {
+                "word": "거동",
+                "meaning": "bodily movement; moving about",
+                "example_ko": "할머니께서는 무릎 수술을 받은 후 혼자서 [거동]하기가 힘들어지셨다.",
+                "example_en": "My grandmother found it difficult to move about alone after undergoing knee surgery."
+            },
+            {
+                "word": "순회하다",
+                "meaning": "to tour; to make rounds",
+                "example_ko": "이동 도서관 차량은 시골 학교들을 정기적으로 [순회한다].",
+                "example_en": "The mobile library vehicle regularly makes rounds among rural schools."
+            },
+            {
+                "word": "부담하다",
+                "meaning": "to bear; to shoulder (expenses, burden)",
+                "example_ko": "회사 측은 직원들의 건강 검진 비용 전액을 [부담하기로] 결정했다.",
+                "example_en": "The company decided to shoulder the entire cost of the employees' health checkups."
+            },
+            {
+                "word": "면세",
+                "meaning": "duty-free; tax exemption",
+                "example_ko": "농업인들은 영농 비용을 아끼기 위해 [면세] 기름을 지원받는다.",
+                "example_en": "Farmers receive support through tax-exempt fuel to save on farming costs."
+            },
+            {
+                "word": "촉구하다",
+                "meaning": "to urge; to demand; to call for",
+                "example_ko": "시민단체는 정부에 신속한 안전 대책 마련을 강력히 [촉구했다].",
+                "example_en": "The civic group strongly urged the government to prepare prompt safety measures."
+            },
+            {
+                "word": "발의하다",
+                "meaning": "to introduce; to propose (a bill or motion)",
+                "example_ko": "의원들은 취약계층 복지를 확대하기 위한 새로운 법안을 [발의했다].",
+                "example_en": "Lawmakers proposed a new bill to expand welfare for vulnerable groups."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-05",
+        "published_at": "2026-10-05 00:58",
+        "title": "미국 코넬대 총장, 교내 집단 성폭행 의혹에 첫 공식 입장 발표",
+        "body": "미국의 유명 대학인 코넬대학교 총장이 교내에서 발생한 집단 성폭행 의혹과 관련해 처음으로 공식 입장을 표명했다. 총장은 영상 메시지를 통해 이번 사건이 학교 공동체에 무거운 짐이 되었다며 깊은 유감을 표시했다. 이어 피해 학생 지원과 교내 성범죄 예방을 위한 안전 조치를 즉각 강화하겠다고 약속했다. 피해 여성은 과거 교내 사교클럽 건물에서 남학생 여러 명에게 성폭행을 당했다고 주장하며 최근 대학을 상대로 소송을 냈다. 당시 사건 처리 과정에서 경찰 진술서의 일부 핵심 내용이 누락되는 등 수사가 제대로 이루어지지 않았다는 의혹이 제기되었다. 가해 학생들에 대한 처벌 역시 경미한 수준에 그쳤다는 사실이 알려지면서 미국 전역에서 거센 비판이 일었다. 이에 따라 뉴욕주 법무장관이 특별검사로 임명되어 사건에 대한 전면적인 재수사에 착수했다. 그러나 대학 구성원들은 총장의 입장 발표에 진정한 사과가 빠져 있다며 여전히 싸늘한 반응을 보이고 있다.",
+        "translation": "미국의 유명 대학인 코넬대학교 총장이 교내에서 발생한 집단 성폭행 의혹과 관련해 처음으로 공식 입장을 표명했다.\nThe president of Cornell University, a prestigious American university, stated an official position for the first time regarding allegations of a gang sexual assault on campus.\n\n총장은 영상 메시지를 통해 이번 사건이 학교 공동체에 무거운 짐이 되었다며 깊은 유감을 표시했다.\nThrough a video message, the president expressed deep regret, stating that this incident had become a heavy burden on the school community.\n\n이어 피해 학생 지원과 교내 성범죄 예방을 위한 안전 조치를 즉각 강화하겠다고 약속했다.\nHe subsequently promised to immediately strengthen safety measures to support victimized students and prevent campus sex crimes.\n\n피해 여성은 과거 교내 사교클럽 건물에서 남학생 여러 명에게 성폭행을 당했다고 주장하며 최근 대학을 상대로 소송을 냈다.\nThe female victim recently filed a lawsuit against the university, claiming that she was sexually assaulted by multiple male students in a campus fraternity building in the past.\n\n당시 사건 처리 과정에서 경찰 진술서의 일부 핵심 내용이 누락되는 등 수사가 제대로 이루어지지 않았다는 의혹이 제기되었다.\nSuspicions were raised that the investigation had not been conducted properly during the case processing at that time, such as some core content being omitted from the police statement.\n\n가해 학생들에 대한 처벌 역시 경미한 수준에 그쳤다는 사실이 알려지면서 미국 전역에서 거센 비판이 일었다.\nFierce criticism arose throughout the United States as it became known that the punishments for the perpetrator students had also remained at a lenient level.\n\n이에 따라 뉴욕주 법무장관이 특별검사로 임명되어 사건에 대한 전면적인 재수사에 착수했다.\nAccordingly, the New York State Attorney General was appointed as special prosecutor and launched a full-scale reinvestigation into the case.\n\n그러나 대학 구성원들은 총장의 입장 발표에 진정한 사과가 빠져 있다며 여전히 싸늘한 반응을 보이고 있다.\nHowever, university members are still showing a chilly response, saying that a genuine apology was missing from the president's statement.",
+        "vocab": [
+            {
+                "word": "표명하다",
+                "meaning": "to express; to state; to manifest",
+                "example_ko": "정부는 이번 사태에 대해 깊은 우려의 뜻을 공식적으로 [표명했다].",
+                "example_en": "The government officially expressed deep concern regarding this situation."
+            },
+            {
+                "word": "유감",
+                "meaning": "regret; sorrow; pity",
+                "example_ko": "상대방의 갑작스러운 계약 취소에 대해 깊은 [유감]을 표했다.",
+                "example_en": "I expressed deep regret over the other party's sudden cancellation of the contract."
+            },
+            {
+                "word": "소송",
+                "meaning": "lawsuit; legal action",
+                "example_ko": "피해 주민들은 공장을 상대로 환경오염 피해에 대한 손해배상 [소송]을 제기했다.",
+                "example_en": "The affected residents filed a compensation lawsuit against the factory for environmental pollution damage."
+            },
+            {
+                "word": "진술서",
+                "meaning": "written statement; deposition",
+                "example_ko": "목격자는 사건 당일 목격한 사실을 적은 [진술서]를 경찰에 제출했다.",
+                "example_en": "The witness submitted a written statement to the police detailing what was seen on the day of the incident."
+            },
+            {
+                "word": "누락되다",
+                "meaning": "to be omitted; to be left out",
+                "example_ko": "서류 제출 과정에서 중요한 정보가 [누락되지] 않도록 주의해야 한다.",
+                "example_en": "Care must be taken so that important information is not omitted during the document submission process."
+            },
+            {
+                "word": "가해",
+                "meaning": "inflicting harm; perpetrator (as modifier)",
+                "example_ko": "학교 폭력의 [가해] 학생에게는 봉사 활동 처분이 내려졌다.",
+                "example_en": "A community service penalty was handed down to the perpetrator student of school violence."
+            },
+            {
+                "word": "경미하다",
+                "meaning": "minor; slight; light",
+                "example_ko": "다행히도 교통사고로 입은 부상이 [경미하여] 바로 퇴원할 수 있었다.",
+                "example_en": "Fortunately, the injuries sustained from the car accident were minor, so discharge from the hospital was possible immediately."
+            },
+            {
+                "word": "전면적",
+                "meaning": "full-scale; general; comprehensive",
+                "example_ko": "문제가 반복되자 관리 당국은 안전 점검을 [전면적]으로 실시하기로 했다.",
+                "example_en": "As problems recurred, the regulatory authorities decided to carry out safety inspections on a full scale."
+            },
+            {
+                "word": "착수하다",
+                "meaning": "to launch; to commence; to embark on",
+                "example_ko": "연구팀은 신약 개발을 위한 임상 시험에 본격적으로 [착수했다].",
+                "example_en": "The research team commenced clinical trials in earnest for developing the new medicine."
+            },
+            {
+                "word": "싸늘하다",
+                "meaning": "cold; chilly; frosty (attitude or atmosphere)",
+                "example_ko": "거짓 해명에 실망한 대중들의 반응은 매우 [싸늘했다].",
+                "example_en": "The public's response, disappointed by the false explanation, was very chilly."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-04",
         "published_at": "2026-10-04 11:48",
         "title": "정점식 국민의힘 원내대표, 대통령 SNS 소통 비판하며 중단 촉구",

@@ -248,6 +248,26 @@
             margin-bottom: 7px;
         }
 
+        /* ---------- Star (save word) button ---------- */
+
+        .star-btn {
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 1.25rem;
+            color: #d97706;
+            padding: 2px 8px;
+            margin-left: 2px;
+            line-height: 1;
+            font-family: inherit;
+            vertical-align: middle;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .star-btn:hover {
+            transform: scale(1.15);
+        }
+
         .translation-toggle {
             margin-top: 18px;
         }
@@ -282,6 +302,11 @@
             background: var(--accent-color);
             border-color: var(--accent-color);
             color: white;
+        }
+
+        .translation-btn.flash-btn-star {
+            border-color: #d97706;
+            color: #b45309;
         }
 
         .translation-box {
@@ -352,6 +377,108 @@
         .example-en {
             color: var(--muted-color);
             font-size: 0.93rem;
+        }
+
+        /* ---------- My Words ---------- */
+
+        .mw-card {
+            background: var(--card-color);
+            border: 1px solid #fde68a;
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 7px rgba(0, 0, 0, 0.03);
+        }
+
+        .mw-card h2 {
+            margin: 0 0 4px;
+            font-size: 1.35rem;
+        }
+
+        .mw-sub {
+            margin: 0 0 14px;
+            font-size: 0.85rem;
+            color: var(--muted-color);
+        }
+
+        .mw-empty {
+            padding: 14px 0 4px;
+            color: var(--muted-color);
+        }
+
+        .mw-list {
+            margin-top: 14px;
+        }
+
+        .mw-row {
+            padding: 12px 14px;
+            margin-bottom: 8px;
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .mw-row-top {
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .mw-word {
+            font-size: 1.1rem;
+        }
+
+        .mw-meaning {
+            color: #444;
+        }
+
+        .mw-remove {
+            flex: none;
+            border: 1px solid var(--border-color);
+            background: white;
+            color: #b91c1c;
+            border-radius: 6px;
+            padding: 3px 9px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-family: inherit;
+        }
+
+        .mw-example {
+            margin-top: 6px;
+            font-size: 0.93rem;
+        }
+
+        .mw-source {
+            margin-top: 4px;
+            font-size: 0.78rem;
+            color: var(--muted-color);
+        }
+
+        .mw-list.hide-meanings .mw-row:not(.revealed) .mw-hidable {
+            display: none;
+        }
+
+        .mw-list.hide-meanings .mw-row:not(.revealed) .mw-word::after {
+            content: "  · tap to reveal";
+            font-size: 0.78rem;
+            font-weight: 400;
+            color: var(--muted-color);
+        }
+
+        .mw-practice-title {
+            margin: 22px 0 0;
+            padding-top: 18px;
+            border-top: 1px solid var(--border-color);
+            font-size: 1rem;
+        }
+
+        .mw-note {
+            margin-top: 10px;
+            font-size: 0.82rem;
+            color: var(--muted-color);
         }
 
         /* ---------- Practice panel ---------- */
@@ -924,7 +1051,8 @@
                 font-size: 1.65rem;
             }
 
-            .news-card {
+            .news-card,
+            .mw-card {
                 padding: 16px 16px;
             }
 
@@ -943,6 +1071,11 @@
 
             .quiz-prompt {
                 font-size: 1.4rem;
+            }
+
+            .star-btn {
+                font-size: 1.4rem;
+                padding: 4px 10px;
             }
         }
     </style>
@@ -987,6 +1120,10 @@
     <button class="category-btn" data-category="converted">
         Converted
     </button>
+
+    <button class="category-btn" data-category="mywords">
+        ★ My Words
+    </button>
 </div>
 
     <div id="archive-count" class="archive-count"></div>
@@ -1013,6 +1150,15 @@
     TOPIK News Study
 </footer>
 
+<!-- Hidden file picker used by My Words → Import -->
+<input
+    type="file"
+    id="mywords-file"
+    accept=".json,application/json"
+    style="display:none;"
+    onchange="importMyWords(this)"
+>
+
 <script>
     let allArticles = [];
     let convertedArticles = [];
@@ -1030,6 +1176,12 @@
     // Milliseconds to wait after a correct quiz answer before the next question.
     const QUIZ_ADVANCE_MS = 900;
 
+    // Where saved words live in this browser.
+    const MYWORDS_KEY = "topik_my_words_v1";
+
+    // The ID used for the My Words practice panel.
+    const MW_ID = "mywords";
+
     // State of each article's practice exercises.
     let orderState = {};
     let matchState = {};
@@ -1038,12 +1190,19 @@
     let fillState = {};
     let wordState = {};
 
+    // Vocab items and titles per rendered article (used by the star buttons).
+    let vocabStore = {};
+
     // Which tabs each article has, and which one is showing.
     let practiceKeys = {};
     let practiceCurrent = {};
 
     // The quiz that keyboard keys 1-4 apply to.
     let activeQuizId = null;
+
+    // My Words: the saved list and whether meanings are hidden.
+    let savedWords = loadSavedWords();
+    let myWordsHide = false;
 
     let speechSupported = "speechSynthesis" in window;
     let availableVoices = [];
@@ -1378,6 +1537,496 @@
     }
 
     /*
+     * ---------- My Words: saving in this browser ----------
+     */
+
+    function wordKey(word, meaning) {
+        return String(word || "").trim() + "||" + String(meaning || "").trim();
+    }
+
+    function cleanSavedEntry(entry) {
+        if (!entry || typeof entry !== "object") {
+            return null;
+        }
+
+        const word = String(entry.word || "").trim();
+
+        if (!word) {
+            return null;
+        }
+
+        return {
+            word: word,
+            meaning: String(entry.meaning || "").trim(),
+            example_ko: String(entry.example_ko || "").trim(),
+            example_en: String(entry.example_en || "").trim(),
+            source: String(entry.source || "").trim(),
+            added: Number(entry.added) || Date.now()
+        };
+    }
+
+    function loadSavedWords() {
+        try {
+            const raw = localStorage.getItem(MYWORDS_KEY);
+
+            if (!raw) {
+                return [];
+            }
+
+            const data = JSON.parse(raw);
+
+            if (!Array.isArray(data)) {
+                return [];
+            }
+
+            return data
+                .map(cleanSavedEntry)
+                .filter(Boolean);
+        } catch (error) {
+            console.error(error);
+            return [];
+        }
+    }
+
+    // Returns true if the list was saved.
+    function writeSavedWords(list) {
+        try {
+            localStorage.setItem(MYWORDS_KEY, JSON.stringify(list));
+            return true;
+        } catch (error) {
+            console.error(error);
+            alert(
+                "Could not save your words. Your browser may be blocking " +
+                "storage (for example, in private browsing)."
+            );
+            return false;
+        }
+    }
+
+    function findSavedIndex(word, meaning) {
+        const key = wordKey(word, meaning);
+
+        for (let i = 0; i < savedWords.length; i++) {
+            if (wordKey(savedWords[i].word, savedWords[i].meaning) === key) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
+    function isWordSaved(item) {
+        return findSavedIndex(item.word, item.meaning) !== -1;
+    }
+
+    // Adds or removes a word. Returns true (now saved), false (now removed),
+    // or null if saving failed.
+    function toggleSavedWord(item, source) {
+        const idx = findSavedIndex(item.word, item.meaning);
+        let next = savedWords.slice();
+
+        if (idx !== -1) {
+            next.splice(idx, 1);
+        } else {
+            next.unshift({
+                word: String(item.word || "").trim(),
+                meaning: String(item.meaning || "").trim(),
+                example_ko: String(item.example_ko || "").trim(),
+                example_en: String(item.example_en || "").trim(),
+                source: String(source || "").trim(),
+                added: Date.now()
+            });
+        }
+
+        if (!writeSavedWords(next)) {
+            return null;
+        }
+
+        savedWords = next;
+        updateArchiveCount();
+
+        return idx === -1;
+    }
+
+    // Star button in the Key Vocabulary list.
+    function toggleWordStar(articleId, idx, btn) {
+        const entry = vocabStore[articleId];
+
+        if (!entry || !entry.items[idx]) {
+            return;
+        }
+
+        const result = toggleSavedWord(entry.items[idx], entry.title);
+
+        if (result === null) {
+            return;
+        }
+
+        btn.textContent = result ? "★" : "☆";
+        btn.title = result ? "Saved to My Words (tap to remove)" : "Save to My Words";
+    }
+
+    // Save / remove button on the back of a flashcard.
+    function toggleFlashStar(articleId, itemId) {
+        const state = flashState[articleId];
+
+        if (!state) {
+            return;
+        }
+
+        const item = state.items.filter(function (it) {
+            return it.id === itemId;
+        })[0];
+
+        if (!item) {
+            return;
+        }
+
+        const entry = vocabStore[articleId];
+
+        const result = toggleSavedWord(item, entry ? entry.title : "");
+
+        if (result === null) {
+            return;
+        }
+
+        renderFlash(articleId);
+    }
+
+    /*
+     * ---------- My Words: backup (export / import) ----------
+     */
+
+    function exportMyWords() {
+        if (!savedWords.length) {
+            alert("You have no saved words to export yet.");
+            return;
+        }
+
+        const payload = JSON.stringify(
+            { version: 1, words: savedWords },
+            null,
+            2
+        );
+
+        const blob = new Blob([payload], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "my-topik-words.json";
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+
+        setTimeout(function () {
+            URL.revokeObjectURL(url);
+        }, 1000);
+    }
+
+    function chooseImportFile() {
+        const input = document.getElementById("mywords-file");
+
+        if (input) {
+            input.click();
+        }
+    }
+
+    function importMyWords(input) {
+        const file = input.files && input.files[0];
+
+        if (!file) {
+            return;
+        }
+
+        const reader = new FileReader();
+
+        reader.onload = function () {
+            try {
+                const data = JSON.parse(String(reader.result || ""));
+
+                const list = Array.isArray(data)
+                    ? data
+                    : Array.isArray(data.words)
+                        ? data.words
+                        : null;
+
+                if (!list) {
+                    throw new Error("Unrecognized file");
+                }
+
+                const merged = savedWords.slice();
+                let added = 0;
+
+                list.forEach(function (raw) {
+                    const entry = cleanSavedEntry(raw);
+
+                    if (!entry) {
+                        return;
+                    }
+
+                    const exists = merged.some(function (w) {
+                        return wordKey(w.word, w.meaning) ===
+                            wordKey(entry.word, entry.meaning);
+                    });
+
+                    if (!exists) {
+                        merged.push(entry);
+                        added++;
+                    }
+                });
+
+                merged.sort(function (a, b) {
+                    return b.added - a.added;
+                });
+
+                if (writeSavedWords(merged)) {
+                    savedWords = merged;
+                    updateArchiveCount();
+
+                    if (currentCategory === "mywords") {
+                        renderMyWords();
+                    }
+
+                    alert(
+                        added + " new word" + (added === 1 ? "" : "s") +
+                        " imported."
+                    );
+                }
+            } catch (error) {
+                console.error(error);
+                alert("That file could not be read as a My Words backup.");
+            }
+
+            input.value = "";
+        };
+
+        reader.onerror = function () {
+            alert("That file could not be read.");
+            input.value = "";
+        };
+
+        reader.readAsText(file);
+    }
+
+    /*
+     * ---------- My Words: the page ----------
+     */
+
+    function removeMyWord(index, event) {
+        if (event) {
+            event.stopPropagation();
+        }
+
+        const next = savedWords.slice();
+        next.splice(index, 1);
+
+        if (writeSavedWords(next)) {
+            savedWords = next;
+            updateArchiveCount();
+            renderMyWords();
+        }
+    }
+
+    function toggleHideMeanings() {
+        myWordsHide = !myWordsHide;
+
+        const list = document.getElementById("mywords-list");
+        const btn = document.getElementById("mywords-hide-btn");
+
+        if (list) {
+            list.classList.toggle("hide-meanings", myWordsHide);
+
+            // Start fresh: nothing revealed.
+            list.querySelectorAll(".mw-row.revealed").forEach(function (row) {
+                row.classList.remove("revealed");
+            });
+        }
+
+        if (btn) {
+            btn.textContent = myWordsHide ? "👁 Show meanings" : "🙈 Hide meanings";
+        }
+    }
+
+    function renderMyWords() {
+        const container = document.getElementById("articles-container");
+
+        if (!container) {
+            return;
+        }
+
+        resetPracticeStates();
+
+        document.getElementById("load-more-btn").style.display = "none";
+
+        if (!savedWords.length) {
+            container.innerHTML = `
+                <div class="mw-card">
+                    <h2>★ My Words</h2>
+                    <div class="mw-empty">
+                        No saved words yet. Tap the ☆ next to a word in
+                        <strong>Key Vocabulary</strong>, or use
+                        <strong>Save word</strong> on a flashcard, to add
+                        words you want to remember.
+                    </div>
+                    <div class="order-actions" style="margin-top: 16px;">
+                        <button class="translation-btn" onclick="chooseImportFile()">
+                            ⬆ Import backup
+                        </button>
+                    </div>
+                </div>
+            `;
+            return;
+        }
+
+        const items = savedWords.map(function (w) {
+            return {
+                word: w.word,
+                meaning: w.meaning,
+                example_ko: w.example_ko,
+                example_en: w.example_en
+            };
+        });
+
+        const tabs = [];
+
+        if (registerFlash(MW_ID, items)) {
+            tabs.push(["flash", "🃏 Flashcards"]);
+        }
+
+        if (registerQuiz(MW_ID, items)) {
+            tabs.push(["quiz", "⚡ Quiz"]);
+        }
+
+        if (registerMatch(MW_ID, items)) {
+            tabs.push(["match", "🔗 Match"]);
+        }
+
+        if (registerFill(MW_ID, items)) {
+            tabs.push(["fill", "✏️ Fill in the Blank"]);
+        }
+
+        practiceKeys[MW_ID] = tabs.map(function (t) {
+            return t[0];
+        });
+
+        let practiceHtml = "";
+
+        if (tabs.length) {
+            practiceHtml = `
+                <h3 class="mw-practice-title">Practice your saved words</h3>
+
+                <div class="practice-tabs">
+                    ${tabs.map(function (t) {
+                        return `<button
+                            id="${MW_ID}-tab-${t[0]}"
+                            class="practice-tab"
+                            onclick="showPracticeTab('${MW_ID}', '${t[0]}')"
+                        >${t[1]}</button>`;
+                    }).join("")}
+                </div>
+
+                ${tabs.map(function (t) {
+                    return `<div
+                        id="${MW_ID}-${t[0]}"
+                        class="translation-box"
+                        style="display:none;"
+                    ></div>`;
+                }).join("")}
+            `;
+        }
+
+        const needMore = [];
+
+        if (savedWords.length < 4) {
+            needMore.push("Quiz unlocks at 4 saved words");
+        }
+
+        if (savedWords.length < 3) {
+            needMore.push("Match unlocks at 3");
+        }
+
+        const noteHtml = needMore.length
+            ? `<div class="mw-note">${needMore.join(" · ")}.</div>`
+            : "";
+
+        container.innerHTML = `
+            <div class="mw-card">
+
+                <h2>★ My Words (${savedWords.length})</h2>
+                <p class="mw-sub">
+                    Words you chose to remember. Un-star a word (✕) when you know it.
+                </p>
+
+                <div class="order-actions" style="margin-top: 0;">
+                    <button
+                        id="mywords-hide-btn"
+                        class="translation-btn"
+                        onclick="toggleHideMeanings()"
+                    >
+                        ${myWordsHide ? "👁 Show meanings" : "🙈 Hide meanings"}
+                    </button>
+                    <button class="translation-btn" onclick="exportMyWords()">
+                        ⬇ Export backup
+                    </button>
+                    <button class="translation-btn" onclick="chooseImportFile()">
+                        ⬆ Import backup
+                    </button>
+                </div>
+
+                <div
+                    id="mywords-list"
+                    class="mw-list ${myWordsHide ? "hide-meanings" : ""}"
+                >
+                    ${savedWords.map(function (w, i) {
+                        return `
+                            <div class="mw-row" onclick="this.classList.toggle('revealed')">
+                                <div class="mw-row-top">
+                                    <div>
+                                        <strong class="mw-word">${escapeHtml(w.word)}</strong>
+                                        ${
+                                            w.meaning
+                                                ? `<span class="mw-meaning mw-hidable"> — ${escapeHtml(w.meaning)}</span>`
+                                                : ""
+                                        }
+                                    </div>
+                                    <button
+                                        class="mw-remove"
+                                        title="Remove from My Words"
+                                        onclick="removeMyWord(${i}, event)"
+                                    >✕</button>
+                                </div>
+                                ${
+                                    w.example_ko
+                                        ? `<div class="mw-example">
+                                               <div class="example-ko">${exampleHtml(w.example_ko)}</div>
+                                               ${
+                                                   w.example_en
+                                                       ? `<div class="example-en mw-hidable">${escapeHtml(w.example_en)}</div>`
+                                                       : ""
+                                               }
+                                           </div>`
+                                        : ""
+                                }
+                                ${
+                                    w.source
+                                        ? `<div class="mw-source">From: ${escapeHtml(w.source)}</div>`
+                                        : ""
+                                }
+                            </div>
+                        `;
+                    }).join("")}
+                </div>
+
+                ${noteHtml}
+
+                ${practiceHtml}
+
+            </div>
+        `;
+    }
+
+    /*
      * ---------- Collapsible story cards ----------
      */
 
@@ -1503,6 +2152,20 @@
                     example_en: item.example_en || ""
                 };
             });
+    }
+
+    // Clears every exercise's state (used whenever the list is redrawn).
+    function resetPracticeStates() {
+        orderState = {};
+        matchState = {};
+        flashState = {};
+        quizState = {};
+        fillState = {};
+        wordState = {};
+        vocabStore = {};
+        practiceKeys = {};
+        practiceCurrent = {};
+        activeQuizId = null;
     }
 
     /*
@@ -2106,6 +2769,16 @@
         `;
 
         if (state.flipped) {
+            // In My Words every word is already saved, so no save button there.
+            const saveButton = articleId === MW_ID
+                ? ""
+                : `<button
+                       class="translation-btn flash-btn-star"
+                       onclick="toggleFlashStar('${articleId}', ${current.id})"
+                   >
+                       ${isWordSaved(current) ? "★ Saved" : "☆ Save word"}
+                   </button>`;
+
             html += `
                 <div class="order-actions">
                     <button class="translation-btn flash-btn-got" onclick="flashAnswer('${articleId}', true)">
@@ -2114,6 +2787,7 @@
                     <button class="translation-btn flash-btn-again" onclick="flashAnswer('${articleId}', false)">
                         ↺ Again
                     </button>
+                    ${saveButton}
                 </div>
             `;
         }
@@ -3112,15 +3786,7 @@
         }
 
         // Reset all exercises whenever the list is redrawn.
-        orderState = {};
-        matchState = {};
-        flashState = {};
-        quizState = {};
-        fillState = {};
-        wordState = {};
-        practiceKeys = {};
-        practiceCurrent = {};
-        activeQuizId = null;
+        resetPracticeStates();
 
         if (!filteredArticles.length) {
             const emptyMessage = currentCategory === "converted"
@@ -3171,6 +3837,12 @@
 
             const vocabItems = getVocabItems(article);
 
+            // Remember the items so the star buttons can save them.
+            vocabStore[articleId] = {
+                items: vocabItems,
+                title: article.title || ""
+            };
+
             let vocabularyHtml = "";
 
             if (vocabItems.length) {
@@ -3220,7 +3892,9 @@
                         <h3>Key Vocabulary</h3>
 
                         <ul class="vocab-list">
-                            ${vocabItems.map(function (item) {
+                            ${vocabItems.map(function (item, idx) {
+                                const saved = isWordSaved(item);
+
                                 return `
                                     <li class="vocab-item" data-word="${escapeHtml(item.word)}" data-meaning="${escapeHtml(item.meaning)}">
                                         <strong class="word">${escapeHtml(item.word)}</strong>
@@ -3229,6 +3903,11 @@
                                                 ? " — " + escapeHtml(item.meaning)
                                                 : ""
                                         }</span>
+                                        <button
+                                            class="star-btn"
+                                            title="${saved ? "Saved to My Words (tap to remove)" : "Save to My Words"}"
+                                            onclick="toggleWordStar('${articleId}', ${idx}, this)"
+                                        >${saved ? "★" : "☆"}</button>
                                     </li>
                                 `;
                             }).join("")}
@@ -3497,7 +4176,12 @@
             return;
         }
 
-        if (currentCategory === "converted") {
+        if (currentCategory === "mywords") {
+            countElement.textContent =
+                savedWords.length +
+                " saved word" +
+                (savedWords.length === 1 ? "" : "s");
+        } else if (currentCategory === "converted") {
             countElement.textContent =
                 convertedArticles.length +
                 " converted lessons";
@@ -3599,6 +4283,17 @@
                     button.dataset.category;
 
                 displayedCount = 10;
+
+                // Stop any audio when switching views.
+                stopSpeech();
+
+                if (currentCategory === "mywords") {
+
+                    updateArchiveCount();
+                    renderMyWords();
+                    return;
+
+                }
 
                 if (currentCategory === "all") {
 

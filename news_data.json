@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-10-05",
+        "published_at": "2026-10-05 18:26",
+        "title": "새 정부 첫 정기국회 국정감사 개막…여야의 치열한 공방 예고",
+        "body": "올해 정기국회 국정감사가 6일 본격적으로 막을 올린다. 이번 국정감사는 새 정부 출범 이후 지난 1년간의 국정 운영을 들여다보는 사실상 첫 국감이다. 여당인 더불어민주당은 주요 국정 과제가 제대로 이행되고 있는지 점검하겠다며 정책 중심의 국감을 강조하고 있다. 반면에 야당인 국민의힘은 정부의 각종 실정을 꼼꼼히 따져 묻겠다며 강력한 검증을 예고했다. 이번 국감 첫날의 최대 격전지는 조희대 대법원장의 증인 출석 문제가 걸려 있는 법제사법위원회가 될 것으로 보인다. 조 대법원장이 일반 증인으로 국회에 출석하기 어렵다는 의견서를 제출하자 여야 간 거센 충돌이 이어지고 있다. 행정안전위원회 국감에서도 새로 출범한 중대범죄수사청의 초대 청장 인선과 초기 혼란상을 둘러싸고 치열한 대치가 펼쳐질 전망이다. 또한 기획재정위원회에서는 최근 발표된 대미 투자 프로젝트와 부동산 세제 개편안 등이 집중적으로 다뤄질 예정이다. 외교통일위원회 역시 안보 현안을 둘러싼 여야의 날 선 공방으로 긴장감이 높아질 것으로 예상된다.",
+        "translation": "올해 정기국회 국정감사가 6일 본격적으로 막을 올린다.\nThis year's regular parliamentary audit officially kicks off on the 6th.\n\n이번 국정감사는 새 정부 출범 이후 지난 1년간의 국정 운영을 들여다보는 사실상 첫 국감이다.\nThis audit is virtually the first inspection of state affairs examining the governance of the new administration over the past year since its launch.\n\n여당인 더불어민주당은 주요 국정 과제가 제대로 이행되고 있는지 점검하겠다며 정책 중심의 국감을 강조하고 있다.\nThe ruling Democratic Party of Korea emphasizes a policy-oriented audit, stating that it will check whether key national tasks are being properly implemented.\n\n반면에 야당인 국민의힘은 정부의 각종 실정을 꼼꼼히 따져 묻겠다며 강력한 검증을 예고했다.\nOn the other hand, the opposition People Power Party heralded sharp scrutiny, declaring that it will thoroughly question various missteps of the government.\n\n이번 국감 첫날의 최대 격전지는 조희대 대법원장의 증인 출석 문제가 걸려 있는 법제사법위원회가 될 것으로 보인다.\nThe biggest battleground on the first day of the audit is expected to be the Legislation and Judiciary Committee, where the issue of Chief Justice Cho Hee-dae's witness appearance is at stake.\n\n조 대법원장이 일반 증인으로 국회에 출석하기 어렵다는 의견서를 제출하자 여야 간 거센 충돌이 이어지고 있다.\nAs Chief Justice Cho submitted a written opinion stating that it is difficult to appear at the National Assembly as a general witness, fierce clashes between the ruling and opposition parties are continuing.\n\n행정안전위원회 국감에서도 새로 출범한 중대범죄수사청의 초대 청장 인선과 초기 혼란상을 둘러싸고 치열한 대치가 펼쳐질 전망이다.\nIn the Public Administration and Security Committee audit as well, a fierce standoff is expected over the appointment of the inaugural head of the newly launched Serious Crime Investigation Agency and its initial disarray.\n\n또한 기획재정위원회에서는 최근 발표된 대미 투자 프로젝트와 부동산 세제 개편안 등이 집중적으로 다뤄질 예정이다.\nIn addition, in the Strategy and Finance Committee, recently announced investment projects in the United States and real estate tax reform proposals are scheduled to be intensively addressed.\n\n외교통일위원회 역시 안보 현안을 둘러싼 여야의 날 선 공방으로 긴장감이 높아질 것으로 예상된다.\nThe Foreign Affairs and Unification Committee is also anticipated to see rising tensions amid sharp debates between rival parties over pending security issues.",
+        "vocab": [
+            {
+                "word": "국정감사",
+                "meaning": "parliamentary audit, inspection of government offices",
+                "example_ko": "국회는 매년 가을 정부 기관을 대상으로 [국정감사]를 실시한다.",
+                "example_en": "The National Assembly conducts a parliamentary audit on government agencies every autumn."
+            },
+            {
+                "word": "본격적",
+                "meaning": "genuine, full-scale, in earnest",
+                "example_ko": "날씨가 따뜻해지면서 [본격적]으로 농사일이 시작되었다.",
+                "example_en": "As the weather warmed up, farming began in earnest."
+            },
+            {
+                "word": "출범하다",
+                "meaning": "to launch, to set sail, to begin operations",
+                "example_ko": "새로운 학생회가 이번 달부터 공식적으로 [출범했다].",
+                "example_en": "The new student council was officially launched starting this month."
+            },
+            {
+                "word": "이행되다",
+                "meaning": "to be fulfilled, to be implemented",
+                "example_ko": "선거 때 약속한 공약들이 차례대로 [이행되고] 있다.",
+                "example_en": "The pledges promised during the election are being implemented one after another."
+            },
+            {
+                "word": "실정",
+                "meaning": "misgovernment, administrative failure",
+                "example_ko": "시민들은 시장의 계속되는 [실정]에 대해 크게 실망했다.",
+                "example_en": "Citizens were greatly disappointed by the mayor's continued misgovernment."
+            },
+            {
+                "word": "검증",
+                "meaning": "verification, scrutiny",
+                "example_ko": "신제품을 시장에 내놓기 전에 엄격한 품질 [검증]을 거쳤다.",
+                "example_en": "Before releasing the new product to the market, it underwent strict quality verification."
+            },
+            {
+                "word": "격전지",
+                "meaning": "fierce battleground",
+                "example_ko": "그 도시는 이번 선거에서 양당의 최대 [격전지]로 꼽힌다.",
+                "example_en": "That city is considered the biggest battleground for both parties in this election."
+            },
+            {
+                "word": "출석하다",
+                "meaning": "to attend, to appear",
+                "example_ko": "그는 피치 못할 사정으로 회의에 [출석하지] 못했다.",
+                "example_en": "He could not attend the meeting due to unavoidable circumstances."
+            },
+            {
+                "word": "대치",
+                "meaning": "standoff, confrontation",
+                "example_ko": "시위대와 경찰의 날카로운 [대치]가 밤늦게까지 이어졌다.",
+                "example_en": "The sharp standoff between the protesters and the police continued late into the night."
+            },
+            {
+                "word": "현안",
+                "meaning": "pending issue, current problem",
+                "example_ko": "두 나라의 정상들은 경제 협력 등 주요 [현안]을 논의했다.",
+                "example_en": "The leaders of the two countries discussed major pending issues such as economic cooperation."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-05",
+        "published_at": "2026-10-05 18:26",
+        "title": "미 재무장관, 중국 AI 기술 도용 비판하며 위험 통보체계 제안",
+        "body": "스콧 베선트 미국 재무장관이 중국의 인공지능 모델이 인민해방군의 군사 무기 계획을 미국 기업에 유출했다고 주장했다. 베선트 장관은 최근 언론 인터뷰에서 중국의 인공지능 모델인 키미가 미국의 인공지능 기업인 앤스로픽에 관련 자료를 전달했다고 밝혔다. 그는 이러한 인공지능 사고에 효과적으로 대응하기 위해 미중 양국 간의 통보체계를 마련해야 한다고 제안했다. 다만 구체적인 무기의 종류나 전달 경위, 이를 뒷받침할 객관적인 근거는 상세히 언급하지 않았다. 베선트 장관은 중국 업체들이 미국 모델의 답변을 학습에 활용하는 기술 증류 행위를 일종의 도용이라고 강하게 비판했다. 또한 중국의 일부 모델이 때때로 자신을 미국의 모델이라고 소개하는 현상이 발생하고 있다고 지적했다. 그는 중국 정부 역시 자국 공개형 인공지능의 강력한 성능과 함께 그에 따르는 위험을 인식하기 시작했다고 평가했다. 따라서 기술적 문제가 발생했을 때 양국이 신속히 연락할 수 있는 공식적인 통로를 구축할 필요가 있다고 덧붙였다. 아울러 양국이 차세대 기술 성능을 모두 공개하기는 어렵더라도 인공지능이 해서는 안 되는 행동에 대해서는 합의할 수 있을 것이라고 강조했다.",
+        "translation": "스콧 베선트 미국 재무장관이 중국의 인공지능 모델이 인민해방군의 군사 무기 계획을 미국 기업에 유출했다고 주장했다.\nU.S. Treasury Secretary Scott Bessent claimed that a Chinese artificial intelligence model leaked the People's Liberation Army's military weapons plans to an American company.\n\n베선트 장관은 최근 언론 인터뷰에서 중국의 인공지능 모델인 키미가 미국의 인공지능 기업인 앤스로픽에 관련 자료를 전달했다고 밝혔다.\nSecretary Bessent revealed in a recent media interview that Kimi, a Chinese artificial intelligence model, transmitted related data to the American artificial intelligence company Anthropic.\n\n그는 이러한 인공지능 사고에 효과적으로 대응하기 위해 미중 양국 간의 통보체계를 마련해야 한다고 제안했다.\nHe proposed establishing a notification system between the United States and China to effectively respond to such artificial intelligence accidents.\n\n다만 구체적인 무기의 종류나 전달 경위, 이를 뒷받침할 객관적인 근거는 상세히 언급하지 않았다.\nHowever, he did not mention in detail the specific types of weapons, the transmission process, or objective evidence to support the claim.\n\n베선트 장관은 중국 업체들이 미국 모델의 답변을 학습에 활용하는 기술 증류 행위를 일종의 도용이라고 강하게 비판했다.\nSecretary Bessent strongly criticized tech distillation, where Chinese companies utilize the responses of American models for training, as a form of theft.\n\n또한 중국의 일부 모델이 때때로 자신을 미국의 모델이라고 소개하는 현상이 발생하고 있다고 지적했다.\nHe also pointed out that a phenomenon is occurring where some Chinese models occasionally introduce themselves as American models.\n\n그는 중국 정부 역시 자국 공개형 인공지능의 강력한 성능과 함께 그에 따르는 위험을 인식하기 시작했다고 평가했다.\nHe assessed that the Chinese government has also begun to recognize the powerful performance of its open artificial intelligence alongside its accompanying risks.\n\n따라서 기술적 문제가 발생했을 때 양국이 신속히 연락할 수 있는 공식적인 통로를 구축할 필요가 있다고 덧붙였다.\nTherefore, he added that there is a need to establish an official channel through which both countries can contact each other promptly when technical problems arise.\n\n아울러 양국이 차세대 기술 성능을 모두 공개하기는 어렵더라도 인공지능이 해서는 안 되는 행동에 대해서는 합의할 수 있을 것이라고 강조했다.\nFurthermore, he emphasized that even if it is difficult for both countries to disclose all next-generation technological performance, they can reach an agreement on actions that artificial intelligence must not do.",
+        "vocab": [
+            {
+                "word": "유출하다",
+                "meaning": "to leak, to divulge",
+                "example_ko": "회사의 중요한 영업 비밀을 외부로 [유출하면] 처벌을 받는다.",
+                "example_en": "If you leak important trade secrets of the company to the outside, you will be punished."
+            },
+            {
+                "word": "통보",
+                "meaning": "notification, notice",
+                "example_ko": "합격 여부는 내일 아침에 문자로 [통보]할 예정이다.",
+                "example_en": "The acceptance result will be notified by text message tomorrow morning."
+            },
+            {
+                "word": "경위",
+                "meaning": "details, circumstances, process",
+                "example_ko": "경찰은 목격자들을 만나 사고가 일어난 [경위]를 자세히 물었다.",
+                "example_en": "The police met with witnesses and asked in detail about the circumstances of the accident."
+            },
+            {
+                "word": "뒷받침하다",
+                "meaning": "to support, to back up",
+                "example_ko": "주장을 설득력 있게 만들려면 객관적인 통계가 이를 [뒷받침해야] 한다.",
+                "example_en": "To make an argument persuasive, objective statistics must support it."
+            },
+            {
+                "word": "도용",
+                "meaning": "unauthorized use, misappropriation, theft",
+                "example_ko": "다른 사람의 사진을 무단으로 [도용]하는 것은 법에 어긋난다.",
+                "example_en": "Misappropriating someone else's photo without permission is against the law."
+            },
+            {
+                "word": "자국",
+                "meaning": "one's own country",
+                "example_ko": "정부는 [자국] 기업들을 보호하기 위해 새로운 무역 정책을 발표했다.",
+                "example_en": "The government announced a new trade policy to protect its own country's enterprises."
+            },
+            {
+                "word": "인식하다",
+                "meaning": "to perceive, to recognize, to be aware of",
+                "example_ko": "많은 사람들이 환경 보호의 중요성을 깊이 [인식하고] 있다.",
+                "example_en": "Many people deeply recognize the importance of environmental protection."
+            },
+            {
+                "word": "신속히",
+                "meaning": "quickly, promptly, swiftly",
+                "example_ko": "화재가 발생했을 때는 비상계단을 통해 [신속히] 대피해야 한다.",
+                "example_en": "When a fire breaks out, you must evacuate promptly via the emergency stairs."
+            },
+            {
+                "word": "구축하다",
+                "meaning": "to build, to construct, to establish",
+                "example_ko": "주민들의 안전을 위해 마을 곳곳에 감시 카메라망을 [구축했다].",
+                "example_en": "A surveillance camera network was established throughout the village for residents' safety."
+            },
+            {
+                "word": "합의하다",
+                "meaning": "to agree, to reach a consensus",
+                "example_ko": "노사는 임금 인상률에 대해 원만하게 [합의했다].",
+                "example_en": "Labor and management smoothly agreed on the wage increase rate."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-05",
+        "published_at": "2026-10-05 18:26",
+        "title": "경찰, 국회의원의 사건 문의 원천 차단…공익 민원 예외 삭제",
+        "body": "경찰이 국회의원이 공익 목적으로 전달하는 민원이라도 사건 관련 문의라면 원천적으로 금지하기로 결정했다. 경찰은 수사 정보 유출 파문 이후 내부 지침으로만 운영하던 사건 문의 금지 제도를 훈령에 공식 명문화하기로 했다. 당초 경찰은 수사에 부당한 영향력을 행사하는 것을 막으면서도 국회의원이나 정당의 공익 민원은 예외로 둘 계획이었다. 그러나 국가경찰위원회가 공익 목적의 민원인지 객관적으로 판단하기 어렵다는 이유로 예외 조항 삭제를 요청했다. 이에 따라 일반 국민의 민원과 국회의원의 민원을 달리 취급할 이유가 없다는 지적이 최종적으로 반영되었다. 앞으로 사건 문의가 허용되는 예외는 경찰관 자신이 당사자인 사건이나 피해자 보호 등 업무상 필수적인 경우로 대폭 축소된다. 이번 결정은 최근 전직 공직자 후보자의 청탁 논란으로 인해 공익 민원과 부정한 청탁의 경계가 모호해진 상황과 무관하지 않다. 경찰청은 이번 조치가 청탁금지법 등을 참고해 마련되었으며 앞으로 부당한 외압을 차단하는 데 기여할 것이라고 설명했다.",
+        "translation": "경찰이 국회의원이 공익 목적으로 전달하는 민원이라도 사건 관련 문의라면 원천적으로 금지하기로 결정했다.\nThe police have decided to fundamentally ban any inquiries related to cases, even if they are civil petitions forwarded by lawmakers for public interest purposes.\n\n경찰은 수사 정보 유출 파문 이후 내부 지침으로만 운영하던 사건 문의 금지 제도를 훈령에 공식 명문화하기로 했다.\nFollowing the scandal over leaks of investigation information, the police decided to officially stipulate in their directives the system banning case inquiries, which had previously been operated only through internal guidelines.\n\n당초 경찰은 수사에 부당한 영향력을 행사하는 것을 막으면서도 국회의원이나 정당의 공익 민원은 예외로 둘 계획이었다.\nInitially, the police planned to prevent the exercise of unfair influence on investigations while retaining exceptions for public interest petitions from lawmakers or political parties.\n\n그러나 국가경찰위원회가 공익 목적의 민원인지 객관적으로 판단하기 어렵다는 이유로 예외 조항 삭제를 요청했다.\nHowever, the National Police Commission requested the deletion of the exception clause on grounds that it is difficult to objectively judge whether a petition is truly for the public interest.\n\n이에 따라 일반 국민의 민원과 국회의원의 민원을 달리 취급할 이유가 없다는 지적이 최종적으로 반영되었다.\nAccordingly, the point that there is no reason to treat petitions from ordinary citizens and lawmakers differently was ultimately reflected.\n\n앞으로 사건 문의가 허용되는 예외는 경찰관 자신이 당사자인 사건이나 피해자 보호 등 업무상 필수적인 경우로 대폭 축소된다.\nGoing forward, exceptions permitting case inquiries will be drastically reduced to work-related essentials, such as cases where the police officer is directly a party or for victim protection.\n\n이번 결정은 최근 전직 공직자 후보자의 청탁 논란으로 인해 공익 민원과 부정한 청탁의 경계가 모호해진 상황과 무관하지 않다.\nThis decision is not unrelated to the recent situation where the boundary between public interest petitions and improper solicitations became blurred due to a former public official candidate's solicitation controversy.\n\n경찰청은 이번 조치가 청탁금지법 등을 참고해 마련되었으며 앞으로 부당한 외압을 차단하는 데 기여할 것이라고 설명했다.\nThe National Police Agency explained that this measure was formulated with reference to the Improper Solicitation and Graft Act and will contribute to blocking improper external pressure in the future.",
+        "vocab": [
+            {
+                "word": "민원",
+                "meaning": "civil petition, civil complaint",
+                "example_ko": "구청 주민센터에 소음 문제를 해결해 달라는 [민원]을 넣었다.",
+                "example_en": "I filed a civil petition at the district office community center asking to resolve the noise problem."
+            },
+            {
+                "word": "원천적",
+                "meaning": "fundamental, at the source",
+                "example_ko": "불법 거래를 막기 위해 [원천적]으로 시스템을 차단했다.",
+                "example_en": "The system was fundamentally blocked to prevent illegal transactions."
+            },
+            {
+                "word": "유출",
+                "meaning": "leak, disclosure, spill",
+                "example_ko": "개인정보의 외부 [유출]을 방지하기 위해 보안 프로그램을 강화했다.",
+                "example_en": "Security programs were strengthened to prevent the external leak of personal information."
+            },
+            {
+                "word": "파문",
+                "meaning": "stir, scandal, repercussions",
+                "example_ko": "유명 인사의 거짓말이 밝혀지며 사회적으로 큰 [파문]을 일으켰다.",
+                "example_en": "The celebrity's lie was revealed, causing a huge stir in society."
+            },
+            {
+                "word": "명문화하다",
+                "meaning": "to stipulate in writing, to codify",
+                "example_ko": "동아리의 모든 규칙을 서류로 분명하게 [명문화했다].",
+                "example_en": "All the club's rules were clearly codified in documents."
+            },
+            {
+                "word": "부당하다",
+                "meaning": "to be unfair, to be unjust",
+                "example_ko": "직원은 회사의 [부당한] 해고 조치에 맞서 싸우기로 결심했다.",
+                "example_en": "The employee decided to fight against the company's unfair dismissal measure."
+            },
+            {
+                "word": "취급하다",
+                "meaning": "to treat, to handle",
+                "example_ko": "나이가 어리다고 해서 사람을 함부로 [취급하면] 안 된다.",
+                "example_en": "You should not treat someone carelessly just because they are young."
+            },
+            {
+                "word": "필수적",
+                "meaning": "essential, indispensable",
+                "example_ko": "건강한 몸을 유지하려면 규칙적인 운동이 [필수적]이다.",
+                "example_en": "Regular exercise is essential to maintaining a healthy body."
+            },
+            {
+                "word": "모호하다",
+                "meaning": "to be vague, to be ambiguous",
+                "example_ko": "질문의 의미가 너무 [모호해서] 대답하기 어려웠다.",
+                "example_en": "The meaning of the question was so ambiguous that it was difficult to answer."
+            },
+            {
+                "word": "외압",
+                "meaning": "external pressure",
+                "example_ko": "심사위원들은 어떠한 정치적 [외압]에도 흔들리지 않고 공정하게 심사했다.",
+                "example_en": "The judges evaluated fairly without wavering under any political external pressure."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-05",
+        "published_at": "2026-10-05 18:26",
+        "title": "미 FBI, 대만 총통 가족 감시 혐의로 중국계 여성 공항서 체포",
+        "body": "미국 연방수사국이 라이칭더 대만 총통의 아들과 가족을 감시한 혐의를 받는 30대 여성을 체포했다. 미 당국에 따르면 장 모 씨는 로스앤젤레스 공항에서 중국으로 출국하려던 중 수사관들에게 전격적으로 붙잡혔다. 장 씨는 중국 정부 관리의 지시를 받아 미국에 거주하는 라이 총통 아들 가족의 주변을 몰래 감시한 혐의를 받고 있다. 조사 결과 장 씨는 지난해 시애틀로 이동해 가족들의 사진과 동영상을 촬영하고 차량 번호 등의 개인정보를 수집한 것으로 밝혀졌다. 그녀는 수집한 감시 정보를 중국 관리들에게 전달하는 대가로 활동해 온 것으로 전해졌다. 미 사법 당국은 장 씨가 미 정부에 정식으로 신고하지 않은 채 외국 정부의 대리인 역할을 한 혐의를 적용했다. 미국 정부는 다른 나라 정부의 부당한 지시에 따라 개인을 감시하고 보고하는 행위를 엄중한 범죄로 보고 수사를 이어가고 있다. 대만 대륙위원회는 이번 사건에 대해 해외에 거주하는 총통 가족까지 겨냥한 용납할 수 없는 탄압이라며 강하게 규탄했다. 대만 정부는 이러한 해외 감시 행위를 국내법으로 처벌할 수 있도록 관련 법률의 개정을 서두르고 있다.",
+        "translation": "미국 연방수사국이 라이칭더 대만 총통의 아들과 가족을 감시한 혐의를 받는 30대 여성을 체포했다.\nThe Federal Bureau of Investigation of the United States arrested a woman in her 30s suspected of surveilling the son and family of Taiwanese President Lai Ching-te.\n\n미 당국에 따르면 장 모 씨는 로스앤젤레스 공항에서 중국으로 출국하려던 중 수사관들에게 전격적으로 붙잡혔다.\nAccording to U.S. authorities, a woman surnamed Chang was caught by investigators in a surprise arrest while attempting to depart for China at Los Angeles International Airport.\n\n장 씨는 중국 정부 관리의 지시를 받아 미국에 거주하는 라이 총통 아들 가족의 주변을 몰래 감시한 혐의를 받고 있다.\nChang is accused of covertly surveilling the family of President Lai's son residing in the United States under instructions from Chinese government officials.\n\n조사 결과 장 씨는 지난해 시애틀로 이동해 가족들의 사진과 동영상을 촬영하고 차량 번호 등의 개인정보를 수집한 것으로 밝혀졌다.\nInvestigations revealed that Chang moved to Seattle last year, took photographs and videos of the family members, and collected personal information such as vehicle license plate numbers.\n\n그녀는 수집한 감시 정보를 중국 관리들에게 전달하는 대가로 활동해 온 것으로 전해졌다.\nShe reportedly acted in exchange for delivering the collected surveillance information to Chinese officials.\n\n미 사법 당국은 장 씨가 미 정부에 정식으로 신고하지 않은 채 외국 정부의 대리인 역할을 한 혐의를 적용했다.\nU.S. judicial authorities applied charges against Chang for acting as an agent of a foreign government without formally registering with the U.S. government.\n\n미국 정부는 다른 나라 정부의 부당한 지시에 따라 개인을 감시하고 보고하는 행위를 엄중한 범죄로 보고 수사를 이어가고 있다.\nThe U.S. government views the act of surveilling and reporting on individuals under improper instructions from another country's government as a severe crime and is continuing its investigation.\n\n대만 대륙위원회는 이번 사건에 대해 해외에 거주하는 총통 가족까지 겨냥한 용납할 수 없는 탄압이라며 강하게 규탄했다.\nTaiwan's Mainland Affairs Council strongly condemned this incident, calling it unacceptable suppression targeting even family members of the president living abroad.\n\n대만 정부는 이러한 해외 감시 행위를 국내법으로 처벌할 수 있도록 관련 법률의 개정을 서두르고 있다.\nThe Taiwanese government is hastening the revision of relevant legislation so that such overseas surveillance acts can be punished under domestic law.",
+        "vocab": [
+            {
+                "word": "감시하다",
+                "meaning": "to monitor, to surveil, to keep watch over",
+                "example_ko": "교도관들은 수감자들의 행동을 24시간 철저히 [감시한다].",
+                "example_en": "Prison guards monitor inmates' behavior thoroughly 24 hours a day."
+            },
+            {
+                "word": "출국하다",
+                "meaning": "to depart from a country, to leave a country",
+                "example_ko": "그는 유학을 떠나기 위해 인천국제공항을 통해 [출국했다].",
+                "example_en": "He departed via Incheon International Airport to study abroad."
+            },
+            {
+                "word": "전격적",
+                "meaning": "surprise, dramatic, sudden",
+                "example_ko": "두 회사는 모두의 예상을 깨고 [전격적]으로 합병을 선언했다.",
+                "example_en": "Defying everyone's expectations, the two companies made a surprise merger announcement."
+            },
+            {
+                "word": "거주하다",
+                "meaning": "to reside, to dwell, to live",
+                "example_ko": "외국인이 한국에 장기 [거주하려면] 비자가 필요하다.",
+                "example_en": "Foreigners need a visa to reside long term in Korea."
+            },
+            {
+                "word": "수집하다",
+                "meaning": "to collect, to gather",
+                "example_ko": "그는 어릴 때부터 전 세계의 희귀한 우표를 [수집했다].",
+                "example_en": "He has collected rare stamps from all over the world since childhood."
+            },
+            {
+                "word": "대리인",
+                "meaning": "representative, agent, proxy",
+                "example_ko": "계약자가 직접 오지 못할 경우 법적 [대리인]이 대신 서명할 수 있다.",
+                "example_en": "If the contractor cannot come in person, a legal representative can sign on their behalf."
+            },
+            {
+                "word": "엄중하다",
+                "meaning": "to be severe, to be grave, to be strict",
+                "example_ko": "정부는 법을 어긴 범죄자에게 [엄중한] 책임을 묻겠다고 경고했다.",
+                "example_en": "The government warned that it would hold criminals who broke the law strictly accountable."
+            },
+            {
+                "word": "겨냥하다",
+                "meaning": "to aim at, to target",
+                "example_ko": "이 신제품은 20대 젊은 소비자층을 [겨냥하여] 만들었다.",
+                "example_en": "This new product was made targeting young consumers in their 20s."
+            },
+            {
+                "word": "탄압",
+                "meaning": "suppression, oppression",
+                "example_ko": "독재 정권은 민주화를 요구하는 국민의 목소리를 [탄압]했다.",
+                "example_en": "The authoritarian regime suppressed the voices of citizens demanding democratization."
+            },
+            {
+                "word": "규탄하다",
+                "meaning": "to condemn, to denounce",
+                "example_ko": "시민단체는 기업의 부도덕한 비리 행위를 강력히 [규탄했다].",
+                "example_en": "Civic groups strongly condemned the immoral corrupt practices of the corporation."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-10-05",
         "published_at": "2026-10-05 06:35",
         "title": "트럼프 미 대통령, 여론조사 결과 반박하며 지지층 투표 독려",
         "body": "도널드 트럼프 미국 대통령이 고유가와 고물가로 지지율이 역대 최저치라는 여론조사 결과를 강하게 부인했다. 트럼프 대통령은 현지시간 4일 자신의 소셜미디어를 통해 지지층에게 다가오는 중간선거 투표에 적극적으로 참여할 것을 독려했다. 그는 여론조사 기관들이 항상 자신의 강성 지지층인 '마가(MAGA)'를 과소평가해 왔다고 비판했다. 이어 지난 2024년 대선에서도 여론조사는 접전을 예상했으나 개표 결과 자신이 압승을 거두었다고 강조했다. 트럼프 대통령은 이번 선거에 자신이 직접 출마한 것처럼 생각하고 투표장에 나와 달라고 지지자들에게 호소했다. 또한 그는 선거 전략가의 분석을 인용하며 자신의 실제 지지율이 여전히 49% 수준을 유지하고 있다고 주장했다. 이러한 수치는 집권여당인 공화당이 중간선거에서 하원 다수당 지위를 지켜내기에 충분한 수준이라는 설명도 덧붙였다. 하지만 트럼프 대통령의 이러한 주장과 달리 주요 언론의 여론조사 결과 평균에서 그의 지지율은 37%에 머물렀다. 이처럼 대통령의 자체적인 지지율 평가와 주요 언론의 조사 결과 사이에는 상당한 격차가 나타나고 있다.",

@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-10-07",
+        "published_at": "2026-10-07 18:24",
+        "title": "여야, 조희대 대법원장 국감 발언 두고 사퇴와 탄핵 거론하며 격돌",
+        "body": "국회 법제사법위원회의 대법원 국정감사 이후 여야의 대립이 한층 격화되고 있다. 더불어민주당은 조희대 대법원장이 국정감사장에서 증인 선서를 하지 않은 채 부적절한 발언을 쏟아냈다고 비판했다. 또한 업무추진비 집행 문제 등을 지적하며 조 대법원장이 스스로 자리에서 물러나야 한다고 거듭 압박했다. 여당 일각에서는 대법원장에 대한 탄핵까지 거론되었으나 지도부는 책임 있는 설명을 요구하며 유화적인 태도를 보이기도 했다. 반면 국민의힘은 여당이 사법부 수장을 향해 무리한 공격을 퍼붓고 있다며 강력히 반발했다. 야당은 대법원장에 대한 부당한 압박을 중단하라며 만약 자신이 있다면 탄핵을 직접 추진하라고 맞불을 놓았다. 아울러 민주당 소속 법제사법위원장의 회의 진행 방식을 비판하며 위원장 사퇴와 형사고발 조치까지 검토하겠다고 밝혔다. 이번 사태를 둘러싼 여야의 공방은 향후 사법부 관련 국정감사 전반에 걸쳐 큰 갈등으로 번질 것으로 보인다.",
+        "translation": "국회 법제사법위원회의 대법원 국정감사 이후 여야의 대립이 한층 격화되고 있다.\nFollowing the parliamentary audit of the Supreme Court by the National Assembly's Legislation and Judiciary Committee, confrontation between the ruling and opposition parties is intensifying further.\n\n더불어민주당은 조희대 대법원장이 국정감사장에서 증인 선서를 하지 않은 채 부적절한 발언을 쏟아냈다고 비판했다.\nThe Democratic Party of Korea criticized Chief Justice Cho Hee-dae for pouring out inappropriate remarks without taking a witness oath at the parliamentary audit site.\n\n또한 업무추진비 집행 문제 등을 지적하며 조 대법원장이 스스로 자리에서 물러나야 한다고 거듭 압박했다.\nThey also pointed out issues regarding the execution of institutional business expenses and repeatedly pressured Chief Justice Cho to step down voluntarily.\n\n여당 일각에서는 대법원장에 대한 탄핵까지 거론되었으나 지도부는 책임 있는 설명을 요구하며 유화적인 태도를 보이기도 했다.\nWhile some within the ruling party mentioned even impeachment against the Chief Justice, the party leadership showed a somewhat appeasing stance by demanding a responsible explanation.\n\n반면 국민의힘은 여당이 사법부 수장을 향해 무리한 공격을 퍼붓고 있다며 강력히 반발했다.\nOn the other hand, the People Power Party strongly pushed back, arguing that the ruling party was launching unreasonable attacks against the head of the judiciary.\n\n야당은 대법원장에 대한 부당한 압박을 중단하라며 만약 자신이 있다면 탄핵을 직접 추진하라고 맞불을 놓았다.\nThe opposition party demanded an end to unfair pressure on the Chief Justice and countered by saying they should directly push for impeachment if they are confident.\n\n아울러 민주당 소속 법제사법위원장의 회의 진행 방식을 비판하며 위원장 사퇴와 형사고발 조치까지 검토하겠다고 밝혔다.\nIn addition, they criticized the committee chairing style of the committee head from the Democratic Party and announced that they would review actions including the chair's resignation and criminal complaints.\n\n이번 사태를 둘러싼 여야의 공방은 향후 사법부 관련 국정감사 전반에 걸쳐 큰 갈등으로 번질 것으로 보인다.\nThe dispute between the ruling and opposition parties surrounding this incident is expected to spread into a major conflict across the parliamentary audit of the judiciary.",
+        "vocab": [
+            {
+                "word": "격화되다",
+                "meaning": "to intensify, to escalate",
+                "example_ko": "두 나라 사이의 무역 갈등이 날이 갈수록 [격화되고] 있다.",
+                "example_en": "The trade conflict between the two countries is intensifying day by day."
+            },
+            {
+                "word": "선서",
+                "meaning": "oath, pledge",
+                "example_ko": "신임 공무원들이 국민을 위해 성실히 일하겠다고 [선서]를 했다.",
+                "example_en": "The new civil servants took an oath to work faithfully for the citizens."
+            },
+            {
+                "word": "집행",
+                "meaning": "execution, enforcement, implementation",
+                "example_ko": "정부는 복지 예산의 효율적인 [집행]을 위해 제도를 정비했다.",
+                "example_en": "The government restructured the system for the efficient execution of the welfare budget."
+            },
+            {
+                "word": "물러나다",
+                "meaning": "to step down, to resign",
+                "example_ko": "회사 대표는 실적 부진에 책임을 지고 자리에서 [물러났다].",
+                "example_en": "The company CEO stepped down from his position taking responsibility for poor performance."
+            },
+            {
+                "word": "탄핵",
+                "meaning": "impeachment",
+                "example_ko": "국회는 비리를 저지른 고위 공직자에 대한 [탄핵]을 논의하기 시작했다.",
+                "example_en": "The National Assembly began discussing the impeachment of high-ranking public officials who committed corruption."
+            },
+            {
+                "word": "유화적",
+                "meaning": "conciliatory, appeasing",
+                "example_ko": "그는 갈등을 풀기 위해 상대방에게 [유화적인] 태도를 취했다.",
+                "example_en": "He adopted a conciliatory attitude toward the other person to resolve the conflict."
+            },
+            {
+                "word": "수장",
+                "meaning": "head, leader, chief",
+                "example_ko": "조직의 새로운 [수장]으로 선출된 그는 개혁을 약속했다.",
+                "example_en": "Having been elected as the new head of the organization, he promised reform."
+            },
+            {
+                "word": "맞불을 놓다",
+                "meaning": "to counterfire, to fight back with an equal response",
+                "example_ko": "상대 후보의 비판에 대해 우리 당도 즉각 [맞불을 놓았다].",
+                "example_en": "Our party also immediately countered the opposing candidate's criticism."
+            },
+            {
+                "word": "고발",
+                "meaning": "formal complaint, accusation, report to authorities",
+                "example_ko": "시민 단체는 환경을 오염시킨 공장을 경찰에 [고발]하기로 했다.",
+                "example_en": "The civic group decided to file a complaint with the police against the factory that polluted the environment."
+            },
+            {
+                "word": "공방",
+                "meaning": "battle of words, dispute, offensive and defensive battle",
+                "example_ko": "법정에서 양측 변호인 사이에 치열한 진실 [공방]이 벌어졌다.",
+                "example_en": "A fierce battle of words over the truth took place between the lawyers of both sides in court."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-07",
+        "published_at": "2026-10-07 18:24",
+        "title": "금융권 AI 해킹 사태 후폭풍…은행장 국감 소환과 집단소송 확산",
+        "body": "최근 발생한 금융권 인공지능(AI) 해킹 공격으로 인한 피해가 일파만파로 커지고 있다. 금융당국 조사 결과 이번 공격으로 7개 금융회사에서 6만 8천여 명의 개인정보가 유출된 것으로 드러났다. 공격자들은 추적을 피하기 위해 여러 개의 세탁용 인터넷 주소(IP)를 사용한 것으로 확인되었다. 이에 따라 금융감독원은 가장 먼저 피해를 신고한 시중은행을 상대로 정밀 검사에 착수했다. 국회 정무위원회 역시 사태의 심각성을 고려해 5대 주요 시중은행장을 국정감사 증인으로 부르기로 합의했다. 특히 연말 임기 만료를 앞둔 은행장들에게는 이번 사안이 연임 여부를 결정짓는 중대한 변수가 될 전망이다. 한편 개인정보가 유출된 피해 고객들은 법무법인을 통해 대규모 집단 손해배상 소송을 준비하기 시작했다. 이번 사고의 여파로 은행뿐만 아니라 증권사와 가상자산 거래소까지 보안 체계를 긴급히 점검하며 비상 대응에 들어갔다.",
+        "translation": "최근 발생한 금융권 인공지능(AI) 해킹 공격으로 인한 피해가 일파만파로 커지고 있다.\nDamage caused by the recent artificial intelligence (AI) hacking attack on the financial sector is spreading far and wide.\n\n금융당국 조사 결과 이번 공격으로 7개 금융회사에서 6만 8천여 명의 개인정보가 유출된 것으로 드러났다.\nAccording to an investigation by financial authorities, it was revealed that personal information of about 68,000 individuals was leaked from seven financial institutions through this attack.\n\n공격자들은 추적을 피하기 위해 여러 개의 세탁용 인터넷 주소(IP)를 사용한 것으로 확인되었다.\nIt was confirmed that the attackers used multiple laundering IP addresses to evade tracking.\n\n이에 따라 금융감독원은 가장 먼저 피해를 신고한 시중은행을 상대로 정밀 검사에 착수했다.\nAccordingly, the Financial Supervisory Service launched a detailed inspection targeting the commercial bank that reported damage first.\n\n국회 정무위원회 역시 사태의 심각성을 고려해 5대 주요 시중은행장을 국정감사 증인으로 부르기로 합의했다.\nThe National Assembly's National Policy Committee also agreed to summon the heads of the five major commercial banks as parliamentary audit witnesses, considering the seriousness of the situation.\n\n특히 연말 임기 만료를 앞둔 은행장들에게는 이번 사안이 연임 여부를 결정짓는 중대한 변수가 될 전망이다.\nParticularly for bank CEOs facing the expiration of their terms at the end of the year, this issue is expected to serve as a crucial variable deciding whether they will be reappointed.\n\n한편 개인정보가 유출된 피해 고객들은 법무법인을 통해 대규모 집단 손해배상 소송을 준비하기 시작했다.\nMeanwhile, victimized customers whose personal data was leaked began preparing large-scale class-action lawsuits for damages through law firms.\n\n이번 사고의 여파로 은행뿐만 아니라 증권사와 가상자산 거래소까지 보안 체계를 긴급히 점검하며 비상 대응에 들어갔다.\nIn the wake of this accident, not only banks but also securities firms and crypto asset exchanges urgently inspected their security systems and entered emergency response mode.",
+        "vocab": [
+            {
+                "word": "후폭풍",
+                "meaning": "aftermath, repercussion",
+                "example_ko": "부실 대출 문제가 불러온 [후폭풍]으로 금융 시장이 크게 흔들렸다.",
+                "example_en": "The financial market was severely shaken by the aftermath caused by the problem of bad loans."
+            },
+            {
+                "word": "유출되다",
+                "meaning": "to be leaked, to be spilled out",
+                "example_ko": "고객들의 전화번호와 주소가 외부로 [유출되는] 사고가 일어났다.",
+                "example_en": "An incident occurred in which customers' phone numbers and addresses were leaked to the outside."
+            },
+            {
+                "word": "선제적",
+                "meaning": "preemptive, proactive",
+                "example_ko": "물가 안정을 위해 정부의 [선제적인] 통화 정책이 필요하다.",
+                "example_en": "The government's preemptive monetary policy is needed to stabilize prices."
+            },
+            {
+                "word": "착수하다",
+                "meaning": "to embark on, to initiate, to start",
+                "example_ko": "경찰은 이번 금융 사기 사건에 대한 본격적인 수사에 [착수했다].",
+                "example_en": "The police initiated a full-scale investigation into this financial fraud case."
+            },
+            {
+                "word": "소환",
+                "meaning": "summon, citation",
+                "example_ko": "국회는 대기업 대표들을 청문회에 증인으로 [소환]하기로 결정했다.",
+                "example_en": "The National Assembly decided to summon the heads of major conglomerates as witnesses to the hearing."
+            },
+            {
+                "word": "연임",
+                "meaning": "serving consecutive terms, reappointment",
+                "example_ko": "그는 뛰어난 경영 성과를 인정받아 은행장으로 [연임]하는 데 성공했다.",
+                "example_en": "He succeeded in serving another consecutive term as bank president in recognition of his outstanding management performance."
+            },
+            {
+                "word": "손해배상",
+                "meaning": "compensation for damages",
+                "example_ko": "법원은 피해를 본 소비자들에게 회사가 [손해배상]을 하라고 판결했다.",
+                "example_en": "The court ruled that the company must pay compensation for damages to the affected consumers."
+            },
+            {
+                "word": "원고",
+                "meaning": "plaintiff",
+                "example_ko": "소송을 제기한 [원고] 측은 법정에 구체적인 피해 자료를 제출했다.",
+                "example_en": "The plaintiffs who filed the lawsuit submitted specific damage materials to the court."
+            },
+            {
+                "word": "청구하다",
+                "meaning": "to claim, to charge, to demand",
+                "example_ko": "고객은 환불 지연에 따른 피해보상금을 회사에 정식으로 [청구했다].",
+                "example_en": "The customer officially claimed compensation for damages from the company due to delayed refunds."
+            },
+            {
+                "word": "가상자산",
+                "meaning": "virtual assets, cryptocurrency",
+                "example_ko": "최근 젊은 층 사이에서 [가상자산]에 투자하는 비중이 크게 늘었다.",
+                "example_en": "Recently, the proportion of investing in virtual assets has increased significantly among young people."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-07",
+        "published_at": "2026-10-07 18:24",
+        "title": "최교진 교육부 장관, 영화 단체관람 논란과 대입 전산 오류에 머리 숙여",
+        "body": "최교진 교육부 장관이 학교 현장의 영화 단체관람 논란과 대입 수시모집 접수 오류 사태에 대해 공식 입장을 밝혔다. 최 장관은 국회 교육위원회 국정감사에서 특정 영화를 관람하는 문제를 교육부가 일일이 간섭하기는 어렵다고 말했다. 다만 학생들이 역사적 사실과 영화적 허구를 혼동하지 않도록 돕는 지도가 교육적으로 반드시 필요하다고 강조했다. 최근 일부 고등학교에서는 학생 투표를 거쳐 논란의 영화 관람을 추진했다가 여론의 반발로 취소하는 일이 벌어졌다. 이와 함께 최 장관은 지난달 발생한 2027학년도 대입 수시모집 원서접수 시스템 마비 사태에 대해서도 깊은 유감을 표명했다. 그는 민간 기업에만 의존하지 않고 국가 차원에서 직접 전산 시스템을 관리하는 방안을 검토하겠다고 밝혔다. 또한 정시모집에서는 추가적인 혼란이 생기지 않도록 관련 지침과 매뉴얼을 전면적으로 수정하고 있다고 덧붙였다. 최 장관은 이번 전산 오류로 큰 불편을 겪은 수험생과 학부모들에게 고개 숙여 사과했다.",
+        "translation": "최교진 교육부 장관이 학교 현장의 영화 단체관람 논란과 대입 수시모집 접수 오류 사태에 대해 공식 입장을 밝혔다.\nEducation Minister Choi Kyo-jin announced an official stance regarding controversies over group movie viewings at schools and college rolling admission application errors.\n\n최 장관은 국회 교육위원회 국정감사에서 특정 영화를 관람하는 문제를 교육부가 일일이 간섭하기는 어렵다고 말했다.\nMinister Choi stated during the parliamentary audit of the National Assembly's Education Committee that it is difficult for the Ministry of Education to interfere with viewing specific movies one by one.\n\n다만 학생들이 역사적 사실과 영화적 허구를 혼동하지 않도록 돕는 지도가 교육적으로 반드시 필요하다고 강조했다.\nHowever, he stressed that guidance helping students not confuse historical facts with cinematic fiction is educationally essential.\n\n최근 일부 고등학교에서는 학생 투표를 거쳐 논란의 영화 관람을 추진했다가 여론의 반발로 취소하는 일이 벌어졌다.\nRecently, at some high schools, plans to watch the controversial movie through student voting were pushed forward but then canceled due to public backlash.\n\n이와 함께 최 장관은 지난달 발생한 2027학년도 대입 수시모집 원서접수 시스템 마비 사태에 대해서도 깊은 유감을 표명했다.\nAlong with this, Minister Choi expressed deep regret over the paralyzation of the application system for 2027 academic year college rolling admissions last month.\n\n그는 민간 기업에만 의존하지 않고 국가 차원에서 직접 전산 시스템을 관리하는 방안을 검토하겠다고 밝혔다.\nHe announced that they would review measures to manage the computer systems directly at the national level instead of relying solely on private corporations.\n\n또한 정시모집에서는 추가적인 혼란이 생기지 않도록 관련 지침과 매뉴얼을 전면적으로 수정하고 있다고 덧붙였다.\nHe also added that they are completely revising related guidelines and manuals to prevent additional confusion during regular admissions.\n\n최 장관은 이번 전산 오류로 큰 불편을 겪은 수험생과 학부모들에게 고개 숙여 사과했다.\nMinister Choi bowed his head in apology to examinees and parents who experienced great inconvenience due to this system error.",
+        "vocab": [
+            {
+                "word": "간섭하다",
+                "meaning": "to interfere, to meddle",
+                "example_ko": "부모가 자녀의 사소한 결정까지 지나치게 [간섭하면] 갈등이 생긴다.",
+                "example_en": "If parents interfere too much even in trivial decisions of their children, conflict arises."
+            },
+            {
+                "word": "허구",
+                "meaning": "fiction, fabrication",
+                "example_ko": "이 소설은 실제 사건을 바탕으로 했지만 인물들은 [허구]이다.",
+                "example_en": "This novel is based on actual events, but the characters are fiction."
+            },
+            {
+                "word": "혼동하다",
+                "meaning": "to confuse, to mix up",
+                "example_ko": "비슷하게 생긴 두 단어를 의미상 서로 [혼동하기] 쉽다.",
+                "example_en": "It is easy to confuse two similar-looking words with each other in meaning."
+            },
+            {
+                "word": "수시모집",
+                "meaning": "rolling admission, early admission (to university)",
+                "example_ko": "고등학교 3학년 학생들은 다음 달부터 시작되는 [수시모집] 준비에 바쁘다.",
+                "example_en": "High school seniors are busy preparing for rolling admissions starting next month."
+            },
+            {
+                "word": "마비",
+                "meaning": "paralysis, stoppage, breakdown",
+                "example_ko": "폭설로 인해 시내 주요 도로의 교통이 완전히 [마비]되었다.",
+                "example_en": "Traffic on major downtown roads was completely paralyzed due to heavy snow."
+            },
+            {
+                "word": "정시모집",
+                "meaning": "regular admission (to university)",
+                "example_ko": "그는 대학수학능력시험 점수를 바탕으로 [정시모집]에 지원할 계획이다.",
+                "example_en": "He plans to apply for regular admissions based on his College Scholastic Ability Test scores."
+            },
+            {
+                "word": "도래하다",
+                "meaning": "to arrive, to dawn, to come (of a time or era)",
+                "example_ko": "친환경 에너지가 산업의 중심이 되는 새로운 시대가 [도래했다].",
+                "example_en": "A new era in which eco-friendly energy becomes the core of industry has arrived."
+            },
+            {
+                "word": "수정하다",
+                "meaning": "to modify, to revise, to correct",
+                "example_ko": "선생님의 조언을 들은 학생은 글의 오류를 꼼꼼하게 [수정했다].",
+                "example_en": "Having listened to the teacher's advice, the student meticulously revised the errors in the writing."
+            },
+            {
+                "word": "수험생",
+                "meaning": "examinee, student preparing for an examination",
+                "example_ko": "시험 당일 아침에는 긴장한 [수험생]들이 일찍 시험장으로 모여들었다.",
+                "example_en": "On the morning of the exam, nervous examinees gathered early at the test center."
+            },
+            {
+                "word": "책임감",
+                "meaning": "sense of responsibility",
+                "example_ko": "조장의 역할을 맡은 사람은 강한 [책임감]을 가져야 한다.",
+                "example_en": "A person who undertakes the role of group leader must possess a strong sense of responsibility."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-07",
+        "published_at": "2026-10-07 18:24",
+        "title": "국방부, 비무장지대 군사분계선 침범 관련 유엔사와 정전협정 위반 통지 추진",
+        "body": "대한민국 국방부가 비무장지대(DMZ) 내 북한의 군사분계선 침범 행위에 대해 유엔군사령부와 공동 조사를 추진하기로 했다. 국방부는 조사를 마친 뒤 정전협정 위반 사실을 공식화하여 북측에 통지할 계획이라고 밝혔다. 이번 조치는 북한 외무성이 지뢰 폭발 사건의 책임을 부인하고 자작극이라고 주장한 것에 대한 대응이다. 강신철 국방부 장관은 국회 국방위원회 국정감사에서 북한이 우리 군의 신속한 대응에 상당히 당황했을 것이라고 평가했다. 또한 군 당국은 군사분계선 이남 지역에 수백 발 이상의 북한군 지뢰가 묻혀 있을 가능성을 공식 인정했다. 국회에서는 군이 이미 1년 전 한미연합 위성 자산을 통해 해당 지역의 지뢰 매설 징후를 파악했었다는 사실이 공개되었다. 여야 의원들은 북한의 도발에 대한 규탄 결의안을 마련하기로 뜻을 모으면서도 구체적인 문구를 두고 신경전을 벌였다. 정전협정을 준수하고 비무장지대의 안전을 확보하기 위한 국제사회의 공조와 감시가 더욱 중요해질 전망이다.",
+        "translation": "대한민국 국방부가 비무장지대(DMZ) 내 북한의 군사분계선 침범 행위에 대해 유엔군사령부와 공동 조사를 추진하기로 했다.\nThe Ministry of National Defense of the Republic of Korea has decided to pursue a joint investigation with the United Nations Command regarding North Korea's violations of the Military Demarcation Line within the Demilitarized Zone (DMZ).\n\n국방부는 조사를 마친 뒤 정전협정 위반 사실을 공식화하여 북측에 통지할 계획이라고 밝혔다.\nThe Defense Ministry announced that following the investigation, it plans to formalize the violation of the Armistice Agreement and notify the North Korean side.\n\n이번 조치는 북한 외무성이 지뢰 폭발 사건의 책임을 부인하고 자작극이라고 주장한 것에 대한 대응이다.\nThis measure comes as a response to North Korea's Foreign Ministry denying responsibility for the landmine explosion and claiming it was a staged setup.\n\n강신철 국방부 장관은 국회 국방위원회 국정감사에서 북한이 우리 군의 신속한 대응에 상당히 당황했을 것이라고 평가했다.\nDefense Minister Kang Shin-chul assessed during the parliamentary audit of the National Defense Committee that North Korea must have been quite flustered by our military's swift response.\n\n또한 군 당국은 군사분계선 이남 지역에 수백 발 이상의 북한군 지뢰가 묻혀 있을 가능성을 공식 인정했다.\nIn addition, military authorities officially acknowledged the possibility that more than several hundred North Korean landmines may be buried in the area south of the Military Demarcation Line.\n\n국회에서는 군이 이미 1년 전 한미연합 위성 자산을 통해 해당 지역의 지뢰 매설 징후를 파악했었다는 사실이 공개되었다.\nIt was revealed in the National Assembly that the military had already identified signs of landmine burials in that area a year ago through South Korea-U.S. combined satellite assets.\n\n여야 의원들은 북한의 도발에 대한 규탄 결의안을 마련하기로 뜻을 모으면서도 구체적인 문구를 두고 신경전을 벌였다.\nWhile ruling and opposition lawmakers agreed on preparing a resolution condemning North Korea's provocation, they engaged in a war of nerves over specific wording.\n\n정전협정을 준수하고 비무장지대의 안전을 확보하기 위한 국제사회의 공조와 감시가 더욱 중요해질 전망이다.\nInternational cooperation and surveillance to abide by the Armistice Agreement and ensure safety in the Demilitarized Zone are expected to become even more important.",
+        "vocab": [
+            {
+                "word": "정전협정",
+                "meaning": "armistice agreement, ceasefire agreement",
+                "example_ko": "한반도는 1953년에 체결된 [정전협정] 체제 아래에 놓여 있다.",
+                "example_en": "The Korean Peninsula remains under the armistice agreement framework signed in 1953."
+            },
+            {
+                "word": "통지하다",
+                "meaning": "to notify, to inform",
+                "example_ko": "정부는 새로운 규정이 시행된다는 사실을 국민들에게 미리 [통지했다].",
+                "example_en": "The government notified the public in advance that the new regulation would be enforced."
+            },
+            {
+                "word": "침범",
+                "meaning": "violation, trespass, intrusion",
+                "example_ko": "국경선을 무단으로 [침범]하는 행위는 엄격히 금지되어 있다.",
+                "example_en": "The act of trespassing across the border without authorization is strictly prohibited."
+            },
+            {
+                "word": "자작극",
+                "meaning": "staged incident, fabricated setup",
+                "example_ko": "경찰 조사 결과 그 도난 사건은 보험금을 노린 [자작극]으로 밝혀졌다.",
+                "example_en": "The police investigation revealed that the theft was a staged setup aiming for insurance money."
+            },
+            {
+                "word": "당황하다",
+                "meaning": "to be flustered, to be taken aback, to be bewildered",
+                "example_ko": "갑작스러운 질문을 받은 발표자는 잠시 [당황한] 기색을 보였다.",
+                "example_en": "Having received an unexpected question, the presenter looked momentarily flustered."
+            },
+            {
+                "word": "매설되다",
+                "meaning": "to be buried (underground)",
+                "example_ko": "과거 전쟁 중에 땅속에 [매설된] 폭발물이 공사 현장에서 발견되었다.",
+                "example_en": "Explosives buried underground during a past war were discovered at the construction site."
+            },
+            {
+                "word": "공식화하다",
+                "meaning": "to formalize, to make official",
+                "example_ko": "두 나라는 오랜 협상 끝에 평화 협정을 체결하기로 [공식화했다].",
+                "example_en": "After long negotiations, the two nations formalized their plan to sign a peace treaty."
+            },
+            {
+                "word": "결의안",
+                "meaning": "resolution",
+                "example_ko": "유엔 안전보장이사회는 분쟁 지역의 평화를 요구하는 [결의안]을 통과시켰다.",
+                "example_en": "The United Nations Security Council passed a resolution demanding peace in the conflict zone."
+            },
+            {
+                "word": "상응하다",
+                "meaning": "to correspond to, to be equivalent to",
+                "example_ko": "위험한 업무를 수행하는 근로자에게는 그에 [상응하는] 보상이 주어져야 한다.",
+                "example_en": "Compensation corresponding to their work must be given to workers performing dangerous tasks."
+            },
+            {
+                "word": "안보",
+                "meaning": "national security",
+                "example_ko": "국가 [안보]를 지키기 위해 군사 훈련과 정보 수집을 철저히 진행한다.",
+                "example_en": "Military exercises and intelligence collection are thoroughly conducted to safeguard national security."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-10-07",
         "published_at": "2026-10-07 06:18",
         "title": "민주당 김민석 대표, 검찰개혁 갈등에 \"당에서 제어할 때\" 경고",
         "body": "더불어민주당 김민석 대표가 검찰개혁 추진 과정에서 불거진 여권 내부의 갈등에 대해 직접 경고의 메시지를 냈다. 김 대표는 6일 당 공식 방송을 통해 검찰개혁을 둘러싼 과도한 요구나 주장은 이제 당 차원에서 제어할 때가 되었다고 밝혔다. 그는 개혁을 강하게 주장하는 목소리가 지나칠 경우 전체 개혁 진영의 대열을 흐트러뜨릴 수 있다고 지적했다. 아울러 이러한 내부 갈등이 향후 개혁 전선뿐만 아니라 대통령의 리더십 자체를 훼손할 수 있다는 우려를 표명했다. 앞서 이재명 대통령은 초대 중수청장 후보자를 둘러싼 당내 강경파들의 반발과 비토 움직임에 제동을 건 바 있다. 이번 발언은 대통령의 이러한 결정에 발맞추어 여당 대표 역시 당내 과열된 분위기를 가라앉힐 필요성을 공개적으로 언급한 것으로 풀이된다. 김 대표는 현재 추진 중인 검찰개혁 방안이 당초 강경론이 요구했던 내용을 대부분 충족하고 있다고 설명했다. 심지어 일부 영역에서는 기존 요구보다 더 나아간 부분도 이미 반영되어 있다고 덧붙였다. 그러면서 지금은 무리한 주장을 이어가기보다 실질적인 개혁 성과를 차분하게 만들어내는 것이 가장 중요하다고 강조했다.",

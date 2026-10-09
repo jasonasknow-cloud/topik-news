@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-10",
+        "published_at": "2026-10-10 06:18",
+        "title": "트럼프 미국 행정부, 국제형사재판소에 고강도 제재 발표",
+        "body": "도널드 트럼프 미국 행정부가 국제형사재판소(ICC)를 겨냥해 강도 높은 제재 조치를 공식 발표했다. 마코 루비오 미국 국무장관은 영상 메시지를 통해 많은 동맹국이 이 재판소를 제지하는 데 적극적으로 나서주기를 기대한다고 밝혔다. 또한 루비오 장관은 동맹국들이 협조하지 않을 경우 미국인을 향한 위협이 사라질 때까지 행동을 멈추지 않겠다고 경고했다. 이번 제재로 미국 관할 지역 안에 있는 국제형사재판소의 모든 자산이 동결 조치될 예정이다. 아울러 미국의 기업과 개인은 앞으로 6개월 안에 국제형사재판소와의 모든 거래를 완전히 끊어야 한다. 국제형사재판소는 전쟁범죄나 대량학살 같은 반인도주의 범죄를 처벌하기 위해 지난 2002년에 설립된 기구이다. 그러나 미국은 해당 재판소가 자국 군인을 처벌하려 한다는 이유로 그동안 회원국으로 가입하지 않았다. 이번 제재 발표는 과거 국제형사재판소에서 활동했던 나비 필라이 재판관의 노벨평화상 수상 소식이 전해진 직후에 나왔다. 이에 따라 일각에서는 트럼프 정부의 이번 조치 발표 시점이 상당히 의도적이라는 분석도 제기되고 있다.",
+        "translation": "도널드 트럼프 미국 행정부가 국제형사재판소(ICC)를 겨냥해 강도 높은 제재 조치를 공식 발표했다.\nThe Donald Trump administration of the United States officially announced high-intensity sanctions targeting the International Criminal Court (ICC).\n\n마코 루비오 미국 국무장관은 영상 메시지를 통해 많은 동맹국이 이 재판소를 제지하는 데 적극적으로 나서주기를 기대한다고 밝혔다.\nU.S. Secretary of State Marco Rubio stated through a video message that he expects many allies to actively step forward to restrain this court.\n\n또한 루비오 장관은 동맹국들이 협조하지 않을 경우 미국인을 향한 위협이 사라질 때까지 행동을 멈추지 않겠다고 경고했다.\nIn addition, Secretary Rubio warned that if allies do not cooperate, the U.S. will not stop its actions until threats against Americans disappear.\n\n이번 제재로 미국 관할 지역 안에 있는 국제형사재판소의 모든 자산이 동결 조치될 예정이다.\nUnder these sanctions, all assets of the ICC within areas under U.S. jurisdiction will be frozen.\n\n아울러 미국의 기업과 개인은 앞으로 6개월 안에 국제형사재판소와의 모든 거래를 완전히 끊어야 한다.\nFurthermore, American companies and individuals must completely sever all transactions with the ICC within the next six months.\n\n국제형사재판소는 전쟁범죄나 대량학살 같은 반인도주의 범죄를 처벌하기 위해 지난 2002년에 설립된 기구이다.\nThe International Criminal Court is an organization established in 2002 to punish crimes against humanity, such as war crimes and genocide.\n\n그러나 미국은 해당 재판소가 자국 군인을 처벌하려 한다는 이유로 그동안 회원국으로 가입하지 않았다.\nHowever, the United States has not joined as a member state on the grounds that the court attempts to prosecute its own soldiers.\n\n이번 제재 발표는 과거 국제형사재판소에서 활동했던 나비 필라이 재판관의 노벨평화상 수상 소식이 전해진 직후에 나왔다.\nThis sanctions announcement came immediately after the news broke that Judge Navi Pillay, who previously served at the ICC, won the Nobel Peace Prize.\n\n이에 따라 일각에서는 트럼프 정부의 이번 조치 발표 시점이 상당히 의도적이라는 분석도 제기되고 있다.\nAccordingly, some analysts suggest that the timing of the Trump administration's announcement was quite intentional.",
+        "vocab": [
+            {
+                "word": "겨냥하다",
+                "meaning": "to target, to aim at",
+                "example_ko": "정부는 젊은 층을 [겨냥한] 새로운 정책을 발표했다.",
+                "example_en": "The government announced a new policy aimed at young people."
+            },
+            {
+                "word": "공식",
+                "meaning": "official, formal",
+                "example_ko": "대통령은 오늘 기자회견에서 [공식] 입장을 밝혔다.",
+                "example_en": "The president stated his official position at today's press conference."
+            },
+            {
+                "word": "제지하다",
+                "meaning": "to stop, to restrain",
+                "example_ko": "경찰관이 위험한 행동을 하는 사람을 바로 [제지했다].",
+                "example_en": "The police officer immediately restrained the person acting dangerously."
+            },
+            {
+                "word": "협조하다",
+                "meaning": "to cooperate",
+                "example_ko": "주민들이 깨끗한 마을을 만들기 위해 적극적으로 [협조했다].",
+                "example_en": "Residents actively cooperated to make a clean neighborhood."
+            },
+            {
+                "word": "관할",
+                "meaning": "jurisdiction",
+                "example_ko": "이 사건은 우리 경찰서의 [관할] 구역에서 일어났다.",
+                "example_en": "This incident occurred within our police station's jurisdiction."
+            },
+            {
+                "word": "동결",
+                "meaning": "freezing (of assets, prices)",
+                "example_ko": "은행은 범죄와 관련된 계좌의 자금 [동결]을 결정했다.",
+                "example_en": "The bank decided on an asset freeze for the accounts linked to the crime."
+            },
+            {
+                "word": "거래",
+                "meaning": "transaction, deal, trade",
+                "example_ko": "우리는 신뢰를 바탕으로 오랜 기간 [거래]를 이어왔다.",
+                "example_en": "We have continued our transactions for a long time based on trust."
+            },
+            {
+                "word": "처벌하다",
+                "meaning": "to punish",
+                "example_ko": "법을 어긴 사람은 법에 따라 엄격하게 [처벌해야] 한다.",
+                "example_en": "People who break the law must be punished strictly according to the law."
+            },
+            {
+                "word": "수호",
+                "meaning": "protection, defense, safeguarding",
+                "example_ko": "군인들은 조국의 평화 [수호]를 위해 훈련을 받는다.",
+                "example_en": "Soldiers undergo training to safeguard the peace of their homeland."
+            },
+            {
+                "word": "의도적",
+                "meaning": "intentional, deliberate",
+                "example_ko": "그는 실수가 아니라 [의도적으로] 회의에 늦게 참석했다.",
+                "example_en": "He arrived late to the meeting deliberately, not by mistake."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-10",
+        "published_at": "2026-10-10 06:18",
+        "title": "미국 소비자심리지수 5개월 만에 최저치 기록",
+        "body": "미국 소비자들의 경기 심리가 물가 상승과 생활비 부담으로 인해 최근 5개월 만에 가장 낮은 수준으로 떨어졌다. 미국 미시간대학교의 발표에 따르면 10월 소비자심리지수 잠정치는 지난달보다 1.8포인트 하락한 46.3으로 나타났다. 이는 지난 5월 이후 가장 낮은 수치이며 전문가들의 예상치보다도 밑도는 결과이다. 특히 현재의 경제 상황을 나타내는 경제 여건 지수는 44.7로 급락하며 역대 최악을 기록했다. 반면에 미래 경제에 대한 기대를 보여주는 소비자 기대지수는 지난달보다 소폭 상승한 것으로 집계되었다. 전문가들은 중동 지역의 긴장이 이어지면서 기름값이 높은 수준을 유지하고 있는 점을 주요 원인으로 꼽았다. 여기에 돈을 빌리는 비용이 늘어나고 기업들의 신규 채용마저 둔화하면서 소비 심리가 크게 위축되었다. 또한 최근 몇 달 동안 물가 상승률이 임금 상승률을 앞지르면서 가계의 실질적인 부담이 커졌다. 결국 고물가와 고금리가 겹치면서 미국 내 소비자들의 지갑이 더욱 굳게 닫히고 있는 상황이다.",
+        "translation": "미국 소비자들의 경기 심리가 물가 상승과 생활비 부담으로 인해 최근 5개월 만에 가장 낮은 수준으로 떨어졌다.\nEconomic sentiment among U.S. consumers fell to its lowest level in five months due to rising inflation and the burden of living costs.\n\n미국 미시간대학교의 발표에 따르면 10월 소비자심리지수 잠정치는 지난달보다 1.8포인트 하락한 46.3으로 나타났다.\nAccording to an announcement by the University of Michigan, the preliminary consumer sentiment index for October stood at 46.3, down 1.8 points from the previous month.\n\n이는 지난 5월 이후 가장 낮은 수치이며 전문가들의 예상치보다도 밑도는 결과이다.\nThis is the lowest figure since last May and falls below experts' forecasts.\n\n특히 현재의 경제 상황을 나타내는 경제 여건 지수는 44.7로 급락하며 역대 최악을 기록했다.\nIn particular, the current economic conditions index, which reflects present economic circumstances, plummeted to 44.7, marking an all-time low.\n\n반면에 미래 경제에 대한 기대를 보여주는 소비자 기대지수는 지난달보다 소폭 상승한 것으로 집계되었다.\nOn the other hand, the consumer expectations index, reflecting outlooks on the future economy, was tallied to have risen slightly from the previous month.\n\n전문가들은 중동 지역의 긴장이 이어지면서 기름값이 높은 수준을 유지하고 있는 점을 주요 원인으로 꼽았다.\nExperts cited high oil prices remaining elevated as Middle East tensions continue as a major cause.\n\n여기에 돈을 빌리는 비용이 늘어나고 기업들의 신규 채용마저 둔화하면서 소비 심리가 크게 위축되었다.\nOn top of this, rising borrowing costs and slowing new hiring by companies have severely dampened consumer sentiment.\n\n또한 최근 몇 달 동안 물가 상승률이 임금 상승률을 앞지르면서 가계의 실질적인 부담이 커졌다.\nFurthermore, as the rate of price increases outpaced wage growth over the past few months, the real burden on households grew.\n\n결국 고물가와 고금리가 겹치면서 미국 내 소비자들의 지갑이 더욱 굳게 닫히고 있는 상황이다.\nUltimately, with high inflation and high interest rates overlapping, consumers' wallets in the U.S. are closing ever tighter.",
+        "vocab": [
+            {
+                "word": "심리",
+                "meaning": "sentiment, psychology",
+                "example_ko": "경기가 나빠지자 소비자들의 소비 [심리]가 얼어붙었다.",
+                "example_en": "As the economy worsened, consumer spending sentiment froze."
+            },
+            {
+                "word": "부담",
+                "meaning": "burden, strain",
+                "example_ko": "물가가 너무 많이 올라서 생활비 [부담]이 커졌다.",
+                "example_en": "Prices rose so much that the burden of living expenses grew."
+            },
+            {
+                "word": "하락하다",
+                "meaning": "to fall, to decline, to drop",
+                "example_ko": "부동산 가격이 지난달보다 조금씩 [하락하고] 있다.",
+                "example_en": "Real estate prices are declining little by little compared to last month."
+            },
+            {
+                "word": "밑돌다",
+                "meaning": "to fall short of, to be below",
+                "example_ko": "올해 회사 매출은 원래 목표치를 크게 [밑돌았다].",
+                "example_en": "The company's sales this year fell significantly short of the original target."
+            },
+            {
+                "word": "급락하다",
+                "meaning": "to plummet, to drop sharply",
+                "example_ko": "나쁜 소식이 전해지자 주가가 하루 만에 [급락했다].",
+                "example_en": "Stock prices plummeted in a single day after the bad news was reported."
+            },
+            {
+                "word": "전망",
+                "meaning": "outlook, prospect",
+                "example_ko": "전문가들은 내년 경제 성장에 대해 긍정적인 [전망]을 내놓았다.",
+                "example_en": "Experts offered a positive outlook regarding next year's economic growth."
+            },
+            {
+                "word": "장기화되다",
+                "meaning": "to be prolonged, to drag on",
+                "example_ko": "두 나라 사이의 갈등이 [장기화되면서] 피해가 커지고 있다.",
+                "example_en": "Damage is growing as the conflict between the two nations is being prolonged."
+            },
+            {
+                "word": "채용",
+                "meaning": "hiring, recruitment",
+                "example_ko": "많은 대기업들이 하반기 신입 사원 [채용]을 시작했다.",
+                "example_en": "Many large corporations have begun hiring new employees for the second half of the year."
+            },
+            {
+                "word": "위축되다",
+                "meaning": "to shrink, to contract, to become intimidated",
+                "example_ko": "경기 침체로 인해 시장 분위기가 크게 [위축되었다].",
+                "example_en": "The market mood contracted greatly due to the economic recession."
+            },
+            {
+                "word": "가계",
+                "meaning": "household (finances)",
+                "example_ko": "대출 금리가 오르면 [가계] 경제에 큰 어려움이 생긴다.",
+                "example_en": "When loan interest rates rise, big difficulties arise in household finances."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-10",
+        "published_at": "2026-10-10 06:18",
+        "title": "보건복지부, '정신 건강의 날' 맞아 생성형 AI 상담 주의 지침 발표",
+        "body": "정부가 '정신 건강의 날'을 맞아 생성형 인공지능과 마음 고민을 나눌 때 지켜야 할 주의 지침을 발표했다. 보건복지부와 대한신경정신의학회는 인공지능에 지나치게 의존하면서 생길 수 있는 부작용을 막기 위해 이번 지침을 마련했다. 안내에 따르면 이용자는 인공지능과 상담하기 전에 서비스의 목적과 개인정보 처리 방식을 먼저 꼼꼼히 확인해야 한다. 또한 이름이나 연락처는 물론 진단서와 검사 결과 같은 민감한 건강 정보를 입력하지 않는 것이 바람직하다. 특히 인공지능이 제시하는 진단이나 위험도 평가를 의사의 확정적인 판단으로 받아들여서는 안 된다. 정확한 정보는 전문 학회나 정부 기관의 공식 자료, 혹은 실제 의사와의 상담을 통해 재확인해야 한다. 아울러 보호자는 아이들의 인공지능 이용을 무조건 막기보다 대화 방식과 이용 시간의 변화를 주의 깊게 살펴야 한다. 최근 조사에 따르면 인공지능 이용자의 약 69%가 일상 대화나 심리 상담 등 정서적인 목적으로 인공지능을 사용하고 있다. 정부는 앞으로 중증 정신질환자 등 고위험군을 위한 맞춤형 안내 지침도 새롭게 마련할 계획이다.",
+        "translation": "정부가 '정신 건강의 날'을 맞아 생성형 인공지능과 마음 고민을 나눌 때 지켜야 할 주의 지침을 발표했다.\nThe government announced precautionary guidelines to follow when sharing personal worries with generative AI on the occasion of 'Mental Health Day.'\n\n보건복지부와 대한신경정신의학회는 인공지능에 지나치게 의존하면서 생길 수 있는 부작용을 막기 위해 이번 지침을 마련했다.\nThe Ministry of Health and Welfare and the Korean Neuropsychiatric Association prepared these guidelines to prevent side effects that may arise from over-relying on artificial intelligence.\n\n안내에 따르면 이용자는 인공지능과 상담하기 전에 서비스의 목적과 개인정보 처리 방식을 먼저 꼼꼼히 확인해야 한다.\nAccording to the guidance, users must first carefully check the purpose of the service and how personal data is handled before consulting with AI.\n\n또한 이름이나 연락처는 물론 진단서와 검사 결과 같은 민감한 건강 정보를 입력하지 않는 것이 바람직하다.\nIn addition, it is desirable not to enter sensitive health information such as medical certificates and test results, let alone names or contact numbers.\n\n특히 인공지능이 제시하는 진단이나 위험도 평가를 의사의 확정적인 판단으로 받아들여서는 안 된다.\nIn particular, users should not accept diagnoses or risk assessments presented by AI as definitive medical evaluations from doctors.\n\n정확한 정보는 전문 학회나 정부 기관의 공식 자료, 혹은 실제 의사와의 상담을 통해 재확인해야 한다.\nAccurate information should be reconfirmed through official materials from professional academic societies or government agencies, or through consultations with actual physicians.\n\n아울러 보호자는 아이들의 인공지능 이용을 무조건 막기보다 대화 방식과 이용 시간의 변화를 주의 깊게 살펴야 한다.\nFurthermore, rather than unconditionally banning children's use of AI, guardians must carefully observe changes in conversation patterns and usage time.\n\n최근 조사에 따르면 인공지능 이용자의 약 69%가 일상 대화나 심리 상담 등 정서적인 목적으로 인공지능을 사용하고 있다.\nAccording to a recent survey, about 69% of AI users use artificial intelligence for emotional purposes such as daily conversation and psychological counseling.\n\n정부는 앞으로 중증 정신질환자 등 고위험군을 위한 맞춤형 안내 지침도 새롭게 마련할 계획이다.\nThe government plans to formulate new tailored guidelines for high-risk groups such as patients with severe mental illness in the future.",
+        "vocab": [
+            {
+                "word": "의존하다",
+                "meaning": "to rely on, to depend on",
+                "example_ko": "부모에게만 [의존하지] 말고 스스로 문제를 해결해 보세요.",
+                "example_en": "Do not depend only on your parents; try to solve problems yourself."
+            },
+            {
+                "word": "부작용",
+                "meaning": "side effect, adverse reaction",
+                "example_ko": "감기약을 먹은 뒤 졸음이 오는 [부작용]이 나타났다.",
+                "example_en": "A side effect of drowsiness appeared after taking the cold medicine."
+            },
+            {
+                "word": "마련하다",
+                "meaning": "to prepare, to arrange, to establish",
+                "example_ko": "회사는 직원들을 위한 휴식 공간을 새로 [마련했다].",
+                "example_en": "The company arranged a new resting area for employees."
+            },
+            {
+                "word": "꼼꼼히",
+                "meaning": "meticulously, carefully",
+                "example_ko": "계약서에 서명하기 전에 내용을 [꼼꼼히] 읽어야 한다.",
+                "example_en": "You must read the contents carefully before signing the contract."
+            },
+            {
+                "word": "민감하다",
+                "meaning": "to be sensitive",
+                "example_ko": "환절기에는 피부가 평소보다 [민감해지기] 쉽다.",
+                "example_en": "Skin easily becomes more sensitive than usual during in-between seasons."
+            },
+            {
+                "word": "진단",
+                "meaning": "diagnosis",
+                "example_ko": "의사의 정확한 [진단을] 받고 치료를 시작했다.",
+                "example_en": "I received an accurate diagnosis from the doctor and started treatment."
+            },
+            {
+                "word": "확정적",
+                "meaning": "definitive, conclusive",
+                "example_ko": "아직 [확정적인] 결과가 나오지 않았으니 조금 더 기다려 봅시다.",
+                "example_en": "A definitive result has not come out yet, so let's wait a little longer."
+            },
+            {
+                "word": "살피다",
+                "meaning": "to examine, to look closely, to observe",
+                "example_ko": "길을 건널 때는 좌우를 잘 [살펴야] 안전하다.",
+                "example_en": "When crossing the street, it is safe to look left and right carefully."
+            },
+            {
+                "word": "정서적",
+                "meaning": "emotional",
+                "example_ko": "어릴 때 반려동물을 기르면 아이의 [정서적] 안정에 도움이 된다.",
+                "example_en": "Raising a pet during childhood helps a child's emotional stability."
+            },
+            {
+                "word": "맞춤형",
+                "meaning": "customized, tailored",
+                "example_ko": "학원에서는 학생의 실력에 맞춘 [맞춤형] 수업을 제공한다.",
+                "example_en": "The academy provides customized classes tailored to students' abilities."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-10",
+        "published_at": "2026-10-10 06:18",
+        "title": "UAE 검찰, 여객기 추락 테러 기도한 플라이두바이 부기장 수사 결과 발표",
+        "body": "이스라엘로 향하던 여객기 조종실에서 기장을 공격한 부기장이 공항에 기체를 추락시키려 했던 것으로 밝혀졌다. 아랍에미리트 검찰총장은 용의자가 큰 인명 피해를 내기 위해 텔아비브 공항 여객터미널을 겨냥한 자살 테러를 시도했다고 발표했다. 오만 국적인 이 부기장은 외국 유학 시절을 거치면서 이슬람 극단주의 사상에 점차 물들었던 것으로 드러났다. 용의자는 2001년 미국 9·11 테러에서 영감을 받아 비행기를 추락시키는 작전을 계획했다고 자백했다. 실제로 그는 범행을 저지르기 위해 비행기 조종 경력을 쌓고 이스라엘 현지 공항을 두 차례나 사전 답사했다. 지난달 운항 도중 부기장이 흉기로 기장을 공격하면서 당시 비행기는 급강하하는 등 심각한 위험을 겪었다. 다행히 다른 승무원들에게 부기장이 제압되었고 여객기는 사우디아라비아에 무사히 비상 착륙했다. 용의자는 변호인이 지켜보는 가운데 자신의 범행 동기와 구체적인 실행 과정을 모두 인정했다. 검찰은 이번 사건이 다른 공범 없이 용의자 혼자 단독으로 저지른 범행이라고 최종 확인했다.",
+        "translation": "이스라엘로 향하던 여객기 조종실에서 기장을 공격한 부기장이 공항에 기체를 추락시키려 했던 것으로 밝혀졌다.\nIt was revealed that a first officer who attacked the captain in the cockpit of an airliner bound for Israel had intended to crash the plane into the airport.\n\n아랍에미리트 검찰총장은 용의자가 큰 인명 피해를 내기 위해 텔아비브 공항 여객터미널을 겨냥한 자살 테러를 시도했다고 발표했다.\nThe Attorney General of the United Arab Emirates announced that the suspect attempted a suicide terror attack targeting the passenger terminal of Tel Aviv airport to cause massive casualties.\n\n오만 국적인 이 부기장은 외국 유학 시절을 거치면서 이슬람 극단주의 사상에 점차 물들었던 것으로 드러났다.\nThis first officer, an Omani national, was found to have gradually been influenced by Islamic extremist ideology while studying abroad.\n\n용의자는 2001년 미국 9·11 테러에서 영감을 받아 비행기를 추락시키는 작전을 계획했다고 자백했다.\nThe suspect confessed that he planned the operation to crash the airplane inspired by the September 11 terrorist attacks in the United States in 2001.\n\n실제로 그는 범행을 저지르기 위해 비행기 조종 경력을 쌓고 이스라엘 현지 공항을 두 차례나 사전 답사했다.\nIn fact, he built up a career in piloting aircraft and conducted preliminary reconnaissance of the local airport in Israel twice to commit the crime.\n\n지난달 운항 도중 부기장이 흉기로 기장을 공격하면서 당시 비행기는 급강하하는 등 심각한 위험을 겪었다.\nWhen the first officer attacked the captain with a weapon during flight last month, the aircraft experienced severe danger, including a steep dive.\n\n다행히 다른 승무원들에게 부기장이 제압되었고 여객기는 사우디아라비아에 무사히 비상 착륙했다.\nFortunately, the first officer was subdued by other crew members, and the airliner made a safe emergency landing in Saudi Arabia.\n\n용의자는 변호인이 지켜보는 가운데 자신의 범행 동기와 구체적인 실행 과정을 모두 인정했다.\nThe suspect admitted both his motive for the crime and the specific process of execution in the presence of his defense attorney.\n\n검찰은 이번 사건이 다른 공범 없이 용의자 혼자 단독으로 저지른 범행이라고 최종 확인했다.\nThe prosecution finally confirmed that this incident was a solo crime committed by the suspect alone without any accomplices.",
+        "vocab": [
+            {
+                "word": "추락시키다",
+                "meaning": "to cause to crash, to bring down",
+                "example_ko": "적군은 미사일을 발사해 전투기를 [추락시켰다].",
+                "example_en": "The enemy forces launched a missile and brought down the fighter plane."
+            },
+            {
+                "word": "인명",
+                "meaning": "human life",
+                "example_ko": "큰 화재가 났지만 신속한 대피 덕분에 [인명] 피해는 없었다.",
+                "example_en": "A large fire broke out, but there were no casualties thanks to prompt evacuation."
+            },
+            {
+                "word": "극단주의",
+                "meaning": "extremism",
+                "example_ko": "사회가 발전하려면 폭력적인 [극단주의를] 멀리해야 한다.",
+                "example_en": "Society must stay away from violent extremism in order to develop."
+            },
+            {
+                "word": "영감",
+                "meaning": "inspiration",
+                "example_ko": "작가는 자연의 아름다운 풍경에서 예술적 [영감을] 얻었다.",
+                "example_en": "The artist gained artistic inspiration from the beautiful scenery of nature."
+            },
+            {
+                "word": "자백하다",
+                "meaning": "to confess",
+                "example_ko": "경찰의 계속된 질문에 도둑은 결국 자신의 죄를 [자백했다].",
+                "example_en": "Under continuous questioning by the police, the thief finally confessed to his crime."
+            },
+            {
+                "word": "경력",
+                "meaning": "career, work experience",
+                "example_ko": "그는 무역 회사에서 10년 동안 일한 풍부한 [경력이] 있다.",
+                "example_en": "He has a rich work experience of working at a trading company for 10 years."
+            },
+            {
+                "word": "급강하하다",
+                "meaning": "to dive steeply, to swoop down rapidly",
+                "example_ko": "갑작스러운 기류 변화로 여객기가 순간적으로 [급강하했다].",
+                "example_en": "Due to a sudden change in air currents, the airliner momentarily dived steeply."
+            },
+            {
+                "word": "제압하다",
+                "meaning": "to overpower, to subdue",
+                "example_ko": "용감한 시민들이 힘을 모아 흉기를 든 범인을 [제압했다].",
+                "example_en": "Brave citizens joined forces and subdued the criminal holding a weapon."
+            },
+            {
+                "word": "비상 착륙",
+                "meaning": "emergency landing",
+                "example_ko": "엔진에 문제가 생긴 비행기는 가까운 활주로에 [비상 착륙을] 시도했다.",
+                "example_en": "The airplane with engine trouble attempted an emergency landing on a nearby runway."
+            },
+            {
+                "word": "단독",
+                "meaning": "independent, solo, single-handed",
+                "example_ko": "경찰은 이번 사건을 공범이 없는 [단독] 범행으로 결론지었다.",
+                "example_en": "The police concluded that this case was a solo crime with no accomplices."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-09",
         "published_at": "2026-10-09 18:25",
         "title": "정부와 군, 북한 지뢰 도발에 지뢰 직접 제거와 첨단무기 시험으로 맞대응",

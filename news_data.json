@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-11",
+        "published_at": "2026-10-11 06:17",
+        "title": "미 야당, 트럼프 행정부의 러시아산 경유 수입 합의에 강력 반발",
+        "body": "도널드 트럼프 미국 대통령이 러시아산 경유를 대규모로 수입하기로 블라디미르 푸틴 러시아 대통령과 합의하자 미국 야당이 거세게 반발하고 나섰다. 민주당 척 슈머 상원 원내대표는 이번 합의를 두고 위태로워진 정치적 운명을 구하기 위해 악마와 거래한 것이라며 강하게 비판했다. 슈머 원내대표는 이번 거래가 우크라이나를 침공한 러시아를 도울 뿐이라고 지적했다. 군사위원회 소속 리처드 블루먼솔 상원의원 역시 이번 시도는 러시아와 중국 경제에만 이익이 되고 무고한 사람들의 희생을 늘릴 것이라며 거래 철회를 요구했다. 딕 더빈 상원의원도 대러시아 제재 해제는 전쟁을 장기화시킬 뿐이라고 경고했다. 반면 새로 발탁된 케이티 자카리아 백악관 대변인은 물가 상승에 대응하기 위한 합의라며 결정을 적극 옹호했다. 자카리아 대변인은 트럼프 대통령이 미국인의 이익을 최우선에 두고 있으며 이번 조치로 저렴한 연료와 식료품 공급이 가능해질 것이라고 강조했다. 이처럼 경유 수입 합의를 둘러싼 미국 정치권의 대립은 중간선거를 앞두고 더욱 치열해지는 모습이다.",
+        "translation": "도널드 트럼프 미국 대통령이 러시아산 경유를 대규모로 수입하기로 블라디미르 푸틴 러시아 대통령과 합의하자 미국 야당이 거세게 반발하고 나섰다.\nWhen U.S. President Donald Trump agreed with Russian President Vladimir Putin to import Russian diesel on a large scale, the U.S. opposition party strongly pushed back.\n\n민주당 척 슈머 상원 원내대표는 이번 합의를 두고 위태로워진 정치적 운명을 구하기 위해 악마와 거래한 것이라며 강하게 비판했다.\nSenate Democratic Leader Chuck Schumer harshly criticized the agreement, stating that Trump made a deal with the devil to save his endangered political fate.\n\n슈머 원내대표는 이번 거래가 우크라이나를 침공한 러시아를 도울 뿐이라고 지적했다.\nLeader Schumer pointed out that this deal only aids Russia, which invaded Ukraine.\n\n군사위원회 소속 리처드 블루먼솔 상원의원 역시 이번 시도는 러시아와 중국 경제에만 이익이 되고 무고한 사람들의 희생을 늘릴 것이라며 거래 철회를 요구했다.\nSenator Richard Blumenthal of the Armed Services Committee also demanded the withdrawal of the deal, saying this attempt would only benefit the economies of Russia and China and increase the sacrifice of innocent people.\n\n딕 더빈 상원의원도 대러시아 제재 해제는 전쟁을 장기화시킬 뿐이라고 경고했다.\nSenator Dick Durbin also warned that lifting sanctions against Russia would only prolong the war.\n\n반면 새로 발탁된 케이티 자카리아 백악관 대변인은 물가 상승에 대응하기 위한 합의라며 결정을 적극 옹호했다.\nOn the other hand, newly appointed White House Press Secretary Katie Zacharia actively defended the decision, describing it as an agreement to address rising prices.\n\n자카리아 대변인은 트럼프 대통령이 미국인의 이익을 최우선에 두고 있으며 이번 조치로 저렴한 연료와 식료품 공급이 가능해질 것이라고 강조했다.\nPress Secretary Zacharia emphasized that President Trump places the interests of Americans as the top priority and that this measure will enable supplies of cheaper fuel and groceries.\n\n이처럼 경유 수입 합의를 둘러싼 미국 정치권의 대립은 중간선거를 앞두고 더욱 치열해지는 모습이다.\nAs seen here, the confrontation in U.S. politics surrounding the diesel import deal appears to be intensifying ahead of the midterm elections.",
+        "vocab": [
+            {
+                "word": "반발하다",
+                "meaning": "to oppose, to push back against",
+                "example_ko": "주민들은 새로운 정책에 크게 [반발했습니다].",
+                "example_en": "The residents pushed back strongly against the new policy."
+            },
+            {
+                "word": "거세다",
+                "meaning": "to be fierce, strong, intense",
+                "example_ko": "시민들의 비판 여론이 갈수록 [거세지고] 있습니다.",
+                "example_en": "Public criticism from citizens is growing increasingly fierce."
+            },
+            {
+                "word": "위태롭다",
+                "meaning": "to be precarious, in danger",
+                "example_ko": "회사의 재정 상황이 매우 [위태로운] 상태입니다.",
+                "example_en": "The financial situation of the company is in a very precarious state."
+            },
+            {
+                "word": "침공하다",
+                "meaning": "to invade",
+                "example_ko": "적군이 국경을 넘어 이웃 나라를 [침공했습니다].",
+                "example_en": "Enemy forces crossed the border and invaded the neighboring country."
+            },
+            {
+                "word": "철회하다",
+                "meaning": "to withdraw, to retract",
+                "example_ko": "노조는 파업 계획을 조건 없이 [철회하기로] 했습니다.",
+                "example_en": "The union decided to withdraw its strike plan without conditions."
+            },
+            {
+                "word": "장기화하다",
+                "meaning": "to prolong, to drag out",
+                "example_ko": "두 나라 사이의 갈등이 예상보다 [장기화하고] 있습니다.",
+                "example_en": "The conflict between the two countries is dragging out longer than expected."
+            },
+            {
+                "word": "발탁되다",
+                "meaning": "to be selected, to be appointed",
+                "example_ko": "그는 능력을 인정받아 최연소 팀장으로 [발탁되었습니다].",
+                "example_en": "He had his competence recognized and was selected as the youngest team leader."
+            },
+            {
+                "word": "옹호하다",
+                "meaning": "to defend, to advocate for",
+                "example_ko": "그는 친구의 잘못된 행동을 일방적으로 [옹호했습니다].",
+                "example_en": "He one-sidedly defended his friend's wrongful action."
+            },
+            {
+                "word": "최우선",
+                "meaning": "top priority",
+                "example_ko": "우리 회사는 고객의 안전을 [최우선]으로 생각합니다.",
+                "example_en": "Our company considers customer safety our top priority."
+            },
+            {
+                "word": "대립",
+                "meaning": "conflict, confrontation",
+                "example_ko": "노사 간의 심한 [대립]으로 협상이 중단되었습니다.",
+                "example_en": "Negotiations were halted due to severe confrontation between labor and management."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-11",
+        "published_at": "2026-10-11 06:17",
+        "title": "반도체 호황 속 대기업과 중소기업 간 격차 심화",
+        "body": "최근 반도체 수출 호조에도 불구하고 대기업과 중소기업 사이의 생산 및 수출 격차는 오히려 더 벌어지고 있다. 통계청 자료에 따르면 지난 8월 중소기업 제조업 생산지수는 작년 같은 달보다 4.0% 감소했다. 반면 대기업의 생산지수는 중소기업보다 훨씬 높은 수준을 유지하며 두 기업군 사이의 지수 차이가 34.7에 달했다. 이러한 생산 감소는 자동차 생산 부진으로 인해 협력업체인 중소 부품업체들이 타격을 받은 데 따른 것으로 분석된다. 수출 실적에서도 중소기업의 전체 수출 비중은 지난해 14.4%에서 올해 8월 10.3%로 줄어들었다. 전체 반도체 수출의 대부분을 대기업이 차지하면서 중소기업의 비중은 미미한 수준에 그쳤다. 임금 부문에서도 대기업과 중소기업 노동자 간의 소득 격차가 작년보다 소폭 확대되었다. 전문가들은 대기업 중심의 반도체 쏠림 현상 때문에 향후 소비 회복 효과가 제한적일 수 있다고 전망한다.",
+        "translation": "최근 반도체 수출 호조에도 불구하고 대기업과 중소기업 사이의 생산 및 수출 격차는 오히려 더 벌어지고 있다.\nDespite the recent boom in semiconductor exports, the gap in production and exports between large conglomerates and small and medium-sized enterprises (SMEs) is widening even further.\n\n통계청 자료에 따르면 지난 8월 중소기업 제조업 생산지수는 작년 같은 달보다 4.0% 감소했다.\nAccording to statistical data, the SME manufacturing production index this past August dropped by 4.0% compared to the same month last year.\n\n반면 대기업의 생산지수는 중소기업보다 훨씬 높은 수준을 유지하며 두 기업군 사이의 지수 차이가 34.7에 달했다.\nOn the other hand, the production index for large corporations maintained a far higher level than that of SMEs, with the index gap between the two corporate groups reaching 34.7.\n\n이러한 생산 감소는 자동차 생산 부진으로 인해 협력업체인 중소 부품업체들이 타격을 받은 데 따른 것으로 분석된다.\nThis drop in production is analyzed to be due to partner SME parts manufacturers taking a hit from a slump in automobile production.\n\n수출 실적에서도 중소기업의 전체 수출 비중은 지난해 14.4%에서 올해 8월 10.3%로 줄어들었다.\nIn export performance as well, the share of SMEs in total exports shrank from 14.4% last year to 10.3% this August.\n\n전체 반도체 수출의 대부분을 대기업이 차지하면서 중소기업의 비중은 미미한 수준에 그쳤다.\nAs large corporations accounted for the vast majority of total semiconductor exports, the SME share remained at an insignificant level.\n\n임금 부문에서도 대기업과 중소기업 노동자 간의 소득 격차가 작년보다 소폭 확대되었다.\nIn the wage sector too, the income gap between workers at large companies and SMEs widened slightly compared to last year.\n\n전문가들은 대기업 중심의 반도체 쏠림 현상 때문에 향후 소비 회복 효과가 제한적일 수 있다고 전망한다.\nExperts forecast that the effect of consumer spending recovery in the future could be limited due to the concentration on semiconductors centered around large corporations.",
+        "vocab": [
+            {
+                "word": "호황",
+                "meaning": "economic boom, prosperous market",
+                "example_ko": "관광 산업의 [호황] 덕분에 지역 경제가 활기를 띠고 있습니다.",
+                "example_en": "Thanks to the boom in the tourism industry, the regional economy is gaining vitality."
+            },
+            {
+                "word": "벌어지다",
+                "meaning": "to widen (a gap), to grow apart",
+                "example_ko": "두 후보 사이의 득표율 차이가 점점 더 [벌어지고] 있습니다.",
+                "example_en": "The vote share gap between the two candidates is widening more and more."
+            },
+            {
+                "word": "유지하다",
+                "meaning": "to maintain, to preserve",
+                "example_ko": "건강을 위해 규칙적인 운동 습관을 [유지하는] 것이 좋습니다.",
+                "example_en": "It is good to maintain a regular exercise habit for your health."
+            },
+            {
+                "word": "부진",
+                "meaning": "slump, sluggishness",
+                "example_ko": "영업 실적의 [부진]으로 인해 회사가 대책 회의를 열었습니다.",
+                "example_en": "The company held a strategy meeting due to sluggish sales performance."
+            },
+            {
+                "word": "타격",
+                "meaning": "blow, severe impact, damage",
+                "example_ko": "태풍으로 인해 농작물이 큰 [타격을] 받았습니다.",
+                "example_en": "Crops suffered a major blow due to the typhoon."
+            },
+            {
+                "word": "차지하다",
+                "meaning": "to occupy, to account for",
+                "example_ko": "외국인 관광객이 전체 방문객의 절반 이상을 [차지합니다].",
+                "example_en": "Foreign tourists account for more than half of all visitors."
+            },
+            {
+                "word": "미미하다",
+                "meaning": "to be insignificant, slight, minuscule",
+                "example_ko": "새로운 제품의 매출 증가율은 아직 [미미한] 편입니다.",
+                "example_en": "The revenue growth rate of the new product is still on the insignificant side."
+            },
+            {
+                "word": "소폭",
+                "meaning": "slightly, by a narrow margin",
+                "example_ko": "기름값이 지난주보다 [소폭] 올랐습니다.",
+                "example_en": "Gas prices rose slightly compared to last week."
+            },
+            {
+                "word": "쏠림",
+                "meaning": "leaning, concentration, tilt",
+                "example_ko": "수도권으로의 인구 [쏠림] 현상이 계속되고 있습니다.",
+                "example_en": "The phenomenon of population concentration toward the capital area is continuing."
+            },
+            {
+                "word": "제한적이다",
+                "meaning": "to be limited, restricted",
+                "example_ko": "예산이 부족하여 사업 규모가 [제한적일] 수밖에 없습니다.",
+                "example_en": "Because the budget is insufficient, the project scale cannot help but be limited."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-11",
+        "published_at": "2026-10-11 06:17",
+        "title": "한국은행과 국책은행 향한 해킹 시도 급증",
+        "body": "국내 주요 금융기관을 노린 사이버 공격이 늘어나는 가운데 한국은행과 국책은행을 향한 해킹 시도 역시 크게 증가했다. 국회에 제출된 자료에 따르면 최근 5년여 동안 이들 4개 은행을 대상으로 발생한 해킹 공격 시도는 약 498만 건에 달했다. 다행히 실제 침해 사고로 이어지지는 않았으나 해킹 시도 건수는 매년 눈에 띄게 늘어나는 추세이다. 특히 올해는 9월까지 이미 100만 건을 넘어서며 최근 몇 년 사이 가장 많은 수치를 기록했다. 기관별로는 일반 고객을 대상으로 인터넷 및 모바일 서비스를 활발히 제공하는 기업은행을 향한 공격이 압도적으로 많았다. 공격 유형 중에서는 시스템 자원을 독점해 정상적인 서비스 이용을 방해하는 서비스 거부 공격이 가장 큰 비중을 차지했다. 또한 정보 수집 공격과 악성코드를 이용한 공격 시도도 뒤를 이었다. 전문가들은 국가 금융 전산망의 안전을 지키기 위해 더욱 강력한 정보 보호 대책이 필요하다고 지적한다.",
+        "translation": "국내 주요 금융기관을 노린 사이버 공격이 늘어나는 가운데 한국은행과 국책은행을 향한 해킹 시도 역시 크게 증가했다.\nAmid growing cyberattacks targeting major domestic financial institutions, hacking attempts toward the Bank of Korea and state-run banks have also increased significantly.\n\n국회에 제출된 자료에 따르면 최근 5년여 동안 이들 4개 은행을 대상으로 발생한 해킹 공격 시도는 약 498만 건에 달했다.\nAccording to data submitted to the National Assembly, hacking attack attempts targeting these four banks over the past five years or so totaled about 4.98 million cases.\n\n다행히 실제 침해 사고로 이어지지는 않았으나 해킹 시도 건수는 매년 눈에 띄게 늘어나는 추세이다.\nFortunately, they did not lead to actual breach accidents, but the number of hacking attempts has been noticeably increasing every year.\n\n특히 올해는 9월까지 이미 100만 건을 넘어서며 최근 몇 년 사이 가장 많은 수치를 기록했다.\nIn particular, this year surpassed 1 million cases already by September, recording the highest figure in recent years.\n\n기관별로는 일반 고객을 대상으로 인터넷 및 모바일 서비스를 활발히 제공하는 기업은행을 향한 공격이 압도적으로 많았다.\nBy institution, attacks targeting the Industrial Bank of Korea, which actively provides internet and mobile services to general customers, were overwhelmingly high.\n\n공격 유형 중에서는 시스템 자원을 독점해 정상적인 서비스 이용을 방해하는 서비스 거부 공격이 가장 큰 비중을 차지했다.\nAmong attack types, denial-of-service attacks, which monopolize system resources and hinder normal service use, accounted for the largest share.\n\n또한 정보 수집 공격과 악성코드를 이용한 공격 시도도 뒤를 이었다.\nIn addition, information gathering attacks and attack attempts using malicious codes followed behind.\n\n전문가들은 국가 금융 전산망의 안전을 지키기 위해 더욱 강력한 정보 보호 대책이 필요하다고 지적한다.\nExperts point out that stronger information protection measures are necessary to safeguard the security of national financial computer networks.",
+        "vocab": [
+            {
+                "word": "금융기관",
+                "meaning": "financial institution",
+                "example_ko": "대출을 받기 위해 여러 [금융기관을] 방문했습니다.",
+                "example_en": "I visited several financial institutions to get a loan."
+            },
+            {
+                "word": "급증하다",
+                "meaning": "to surge, to increase sharply",
+                "example_ko": "온라인 쇼핑 이용자가 최근 몇 년간 [급증했습니다].",
+                "example_en": "Online shopping users have surged over the past few years."
+            },
+            {
+                "word": "침해",
+                "meaning": "infringement, violation, breach",
+                "example_ko": "개인 정보에 대한 무단 [침해]를 막아야 합니다.",
+                "example_en": "We must prevent unauthorized infringement of personal information."
+            },
+            {
+                "word": "추세",
+                "meaning": "trend, tendency",
+                "example_ko": "친환경 자동차를 구매하는 소비자가 늘어나는 [추세]입니다.",
+                "example_en": "It is a trend that consumers purchasing eco-friendly cars are increasing."
+            },
+            {
+                "word": "압도적이다",
+                "meaning": "to be overwhelming",
+                "example_ko": "그 선수는 [압도적인] 실력으로 금메달을 땄습니다.",
+                "example_en": "That athlete won the gold medal with overwhelming skill."
+            },
+            {
+                "word": "독점하다",
+                "meaning": "to monopolize",
+                "example_ko": "한 기업이 시장을 완전히 [독점해서는] 안 됩니다.",
+                "example_en": "A single company must not completely monopolize the market."
+            },
+            {
+                "word": "방해하다",
+                "meaning": "to disturb, to interrupt, to hinder",
+                "example_ko": "시끄러운 소음이 학생들의 공부를 [방해하고] 있습니다.",
+                "example_en": "Loud noise is disturbing the students' study."
+            },
+            {
+                "word": "비중",
+                "meaning": "share, proportion, relative weight",
+                "example_ko": "가계 지출에서 식비가 차지하는 [비중]이 큽니다.",
+                "example_en": "The share that food expenses take up in household spending is large."
+            },
+            {
+                "word": "악성코드",
+                "meaning": "malicious code, malware",
+                "example_ko": "출처가 불분명한 이메일 첨부 파일은 [악성코드]일 위험이 있습니다.",
+                "example_en": "Email attachments from unclear sources risk being malicious code."
+            },
+            {
+                "word": "전산망",
+                "meaning": "computer network",
+                "example_ko": "은행 [전산망]의 점검 작업으로 주말 동안 송금이 중단됩니다.",
+                "example_en": "Remittances will be suspended over the weekend due to maintenance on the bank computer network."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-11",
+        "published_at": "2026-10-11 06:17",
+        "title": "미국의 대러시아 경유 제재 완화에 유럽 국가들 강력 반발",
+        "body": "미국이 러시아산 경유에 대한 제재를 한시적으로 완화하기로 결정하자 유럽연합과 주요 유럽 국가들이 거세게 비판했다. 카야 칼라스 유럽연합 외교안보 고위대표는 이번 조치가 러시아에 전쟁 자금을 보태주는 결과를 낳을 것이라고 지적했다. 칼라스 대표는 지금은 러시아에 대한 압박을 늦출 시기가 아니며 유럽은 제재를 완화하지 않겠다고 단언했다. 유럽연합 집행위원회 역시 성명을 내고 러시아 에너지에 의존하는 행위는 위험하며 전쟁을 부추길 수 없다고 밝혔다. 영국과 독일 정부도 미국과 달리 대러시아 제재를 계속해서 유지하겠다는 입장을 분명히 했다. 영국 총리는 우크라이나 대통령과의 통화에서 흔들림 없는 연대를 강조하며 제재 강화 방침을 재확인했다. 독일 정부 대변인 또한 우크라이나의 자력 방위를 위한 지원에 변함이 없을 것이라고 밝혔다. 이로써 대러시아 제재와 에너지 수입 문제를 둘러싸고 미국과 유럽 동맹국 간의 갈등이 커지고 있다.",
+        "translation": "미국이 러시아산 경유에 대한 제재를 한시적으로 완화하기로 결정하자 유럽연합과 주요 유럽 국가들이 거세게 비판했다.\nWhen the United States decided to temporarily ease sanctions on Russian diesel, the European Union and major European nations strongly criticized the move.\n\n카야 칼라스 유럽연합 외교안보 고위대표는 이번 조치가 러시아에 전쟁 자금을 보태주는 결과를 낳을 것이라고 지적했다.\nKaja Kallas, EU High Representative for Foreign Affairs and Security Policy, pointed out that this measure would bring about the result of providing more war funds to Russia.\n\n칼라스 대표는 지금은 러시아에 대한 압박을 늦출 시기가 아니며 유럽은 제재를 완화하지 않겠다고 단언했다.\nRepresentative Kallas asserted that now is not the time to loosen pressure on Russia and that Europe will not ease sanctions.\n\n유럽연합 집행위원회 역시 성명을 내고 러시아 에너지에 의존하는 행위는 위험하며 전쟁을 부추길 수 없다고 밝혔다.\nThe European Commission also issued a statement, declaring that depending on Russian energy carries risks and that they cannot encourage the war.\n\n영국과 독일 정부도 미국과 달리 대러시아 제재를 계속해서 유지하겠다는 입장을 분명히 했다.\nThe British and German governments also made clear their stance that, unlike the United States, they will continue to maintain sanctions against Russia.\n\n영국 총리는 우크라이나 대통령과의 통화에서 흔들림 없는 연대를 강조하며 제재 강화 방침을 재확인했다.\nThe British Prime Minister emphasized unwavering solidarity in a phone call with the Ukrainian President and reaffirmed the policy of strengthening sanctions.\n\n독일 정부 대변인 또한 우크라이나의 자력 방위를 위한 지원에 변함이 없을 것이라고 밝혔다.\nA spokesperson for the German government also stated that there will be no change in support for Ukraine's self-reliant defense.\n\n이로써 대러시아 제재와 에너지 수입 문제를 둘러싸고 미국과 유럽 동맹국 간의 갈등이 커지고 있다.\nAs a result, conflict between the United States and European allies surrounding anti-Russia sanctions and energy import issues is growing.",
+        "vocab": [
+            {
+                "word": "한시적이다",
+                "meaning": "to be temporary, for a limited time",
+                "example_ko": "정부는 물가를 낮추기 위해 [한시적인] 세금 감면 혜택을 제공합니다.",
+                "example_en": "The government is providing temporary tax cuts to bring down consumer prices."
+            },
+            {
+                "word": "완화하다",
+                "meaning": "to ease, to relax, to alleviate",
+                "example_ko": "정부는 주택 거래를 늘리기 위해 부동산 규제를 [완화했습니다].",
+                "example_en": "The government eased real estate regulations to increase housing transactions."
+            },
+            {
+                "word": "보태다",
+                "meaning": "to add, to supplement, to chip in",
+                "example_ko": "가족들이 생활비를 조금씩 [보태어] 집을 마련했습니다.",
+                "example_en": "The family members each chipped in a little for living expenses to purchase a house."
+            },
+            {
+                "word": "늦추다",
+                "meaning": "to delay, to slow down, to loosen",
+                "example_ko": "운전자는 비가 오자 차량의 속도를 [늦추었습니다].",
+                "example_en": "The driver slowed down the vehicle speed when it began to rain."
+            },
+            {
+                "word": "단언하다",
+                "meaning": "to state positively, to assert firmly",
+                "example_ko": "의사는 환자의 상태가 곧 회복될 것이라고 [단언했습니다].",
+                "example_en": "The doctor firmly asserted that the patient's condition would recover soon."
+            },
+            {
+                "word": "부추기다",
+                "meaning": "to instigate, to incite, to fuel",
+                "example_ko": "잘못된 소문이 사람들의 불안감을 더욱 [부추겼습니다].",
+                "example_en": "False rumors further fueled people's anxiety."
+            },
+            {
+                "word": "연대",
+                "meaning": "solidarity",
+                "example_ko": "국제사회가 재난 지역 주민들과 [연대를] 보여주어야 합니다.",
+                "example_en": "The international community must show solidarity with the residents of disaster areas."
+            },
+            {
+                "word": "방침",
+                "meaning": "policy, course of action",
+                "example_ko": "회사는 근무 환경을 개선하기로 새로운 [방침을] 세웠습니다.",
+                "example_en": "The company established a new policy to improve the working environment."
+            },
+            {
+                "word": "자력",
+                "meaning": "one's own power, self-reliance",
+                "example_ko": "그는 남의 도움을 받지 않고 [자력으로] 시험에 합격했습니다.",
+                "example_en": "He passed the examination by his own power without receiving help from others."
+            },
+            {
+                "word": "갈등",
+                "meaning": "conflict, discord",
+                "example_ko": "대화를 통해 이웃 간의 사소한 [갈등을] 풀 수 있었습니다.",
+                "example_en": "Through conversation, we were able to resolve minor conflict between neighbors."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-10",
         "published_at": "2026-10-10 18:22",
         "title": "개정 형사소송법 시행 후 첫 경찰청 국감… 수사 역량과 조직 쇄신 시험대",

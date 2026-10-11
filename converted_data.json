@@ -1,6 +1,76 @@
 [
   {
     "category": "converted",
+    "date": "2026-10-11",
+    "published_at": "2026-10-11 18:14",
+    "title": "편의점 매출 가파른 상승세, 대형 마트 역전 전망",
+    "body": "산업경제연구소의 조사에 따르면 대형 마트의 매출액은 2015년 24조 2천억 원에서 2022년 24조 3천억 원으로 집계되어 뚜렷한 변화를 보이지 않은 것으로 나타났다. 이에 반해 편의점 매출액은 2015년 17조 2천억 원에서 2022년 22조 3천억 원에 이르기까지 가파른 증가세를 기록하였다. 이처럼 편의점의 매출액이 큰 폭으로 증가하게 된 데에는 두 가지 주요 원인이 존재한다. 첫째는 편의점 점포 수가 증가함에 따라 고객의 접근성이 한층 향상되었다는 점이다. 둘째는 소포장 상품에 대한 수요가 크게 늘어났다는 점이다. 이러한 추세로 미루어 볼 때 2023년에는 편의점 매출액이 대형 마트를 넘어설 것으로 전망된다.",
+    "translation": "산업경제연구소의 조사에 따르면 대형 마트의 매출액은 2015년 24조 2천억 원에서 2022년 24조 3천억 원으로 집계되어 뚜렷한 변화를 보이지 않은 것으로 나타났다.\nAccording to a survey by the Institute of Industrial Economics, the sales revenue of large supermarkets was tallied at 24.2 trillion won in 2015 and 24.3 trillion won in 2022, showing no distinct change.\n\n이에 반해 편의점 매출액은 2015년 17조 2천억 원에서 2022년 22조 3천억 원에 이르기까지 가파른 증가세를 기록하였다.\nIn contrast, convenience store sales recorded a steep upward trend, rising from 17.2 trillion won in 2015 to 22.3 trillion won in 2022.\n\n이처럼 편의점의 매출액이 큰 폭으로 증가하게 된 데에는 두 가지 주요 원인이 존재한다.\nTwo main reasons account for such a substantial increase in convenience store sales revenue.\n\n첫째는 편의점 점포 수가 증가함에 따라 고객의 접근성이 한층 향상되었다는 점이다.\nThe first is that customer accessibility was further enhanced as the number of convenience store branches increased.\n\n둘째는 소포장 상품에 대한 수요가 크게 늘어났다는 점이다.\nThe second is that the demand for small-packaged goods increased significantly.\n\n이러한 추세로 미루어 볼 때 2023년에는 편의점 매출액이 대형 마트를 넘어설 것으로 전망된다.\nJudging from this trend, it is projected that convenience store sales will surpass those of large supermarkets in 2023.",
+    "vocab": [
+      {
+        "word": "매출액",
+        "meaning": "sales revenue",
+        "example_ko": "우리 회사는 올해 사상 최대의 [매출액]을 달성했다.",
+        "example_en": "Our company achieved record sales revenue this year."
+      },
+      {
+        "word": "집계되다",
+        "meaning": "to be tallied, to be counted",
+        "example_ko": "이번 주말 관람객 수가 10만 명으로 [집계되었다].",
+        "example_en": "The number of visitors this weekend was tallied at 100,000."
+      },
+      {
+        "word": "뚜렷하다",
+        "meaning": "clear, distinct",
+        "example_ko": "약을 먹은 뒤에 증상이 호전되는 효과가 [뚜렷했다].",
+        "example_en": "After taking the medicine, the effect of symptom improvement was clear."
+      },
+      {
+        "word": "가파르다",
+        "meaning": "steep, sharp",
+        "example_ko": "최근 물가가 [가파르게] 오르고 있어서 걱정이다.",
+        "example_en": "I am worried because prices are rising steeply these days."
+      },
+      {
+        "word": "증가세",
+        "meaning": "upward trend",
+        "example_ko": "해외 여행객 수가 최근 빠른 [증가세]를 보이고 있다.",
+        "example_en": "The number of overseas travelers is recently showing a rapid upward trend."
+      },
+      {
+        "word": "접근성",
+        "meaning": "accessibility",
+        "example_ko": "이 아파트는 지하철역과 가까워서 [접근성]이 매우 좋다.",
+        "example_en": "This apartment has very good accessibility because it is close to a subway station."
+      },
+      {
+        "word": "향상되다",
+        "meaning": "to improve, to be enhanced",
+        "example_ko": "꾸준한 연습 덕분에 수영 실력이 많이 [향상되었다].",
+        "example_en": "Thanks to consistent practice, my swimming skills have improved a lot."
+      },
+      {
+        "word": "소포장",
+        "meaning": "small packaging",
+        "example_ko": "혼자 사는 사람들이 늘면서 [소포장] 과일이 인기를 끌고 있다.",
+        "example_en": "As more people live alone, small-packaged fruit is gaining popularity."
+      },
+      {
+        "word": "추세",
+        "meaning": "trend, tendency",
+        "example_ko": "많은 기업이 재택근무를 줄이는 [추세]를 보인다.",
+        "example_en": "Many companies show a trend of reducing remote work."
+      },
+      {
+        "word": "전망되다",
+        "meaning": "to be projected, to be forecasted",
+        "example_ko": "내일은 전국에 많은 비가 내릴 것으로 [전망된다].",
+        "example_en": "Heavy rain is forecasted to fall across the nation tomorrow."
+      }
+    ]
+  },
+  {
+    "category": "converted",
     "date": "2026-10-03",
     "published_at": "2026-10-03 06:55",
     "title": "부산 수로 갇힌 상어 '북항이' 2차 구조 실패",

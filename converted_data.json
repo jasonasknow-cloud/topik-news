@@ -2,6 +2,76 @@
   {
     "category": "converted",
     "date": "2026-10-11",
+    "published_at": "2026-10-11 18:17",
+    "title": "국내 캠핑 인구 2배 급증 속 40·50대 비중 1위 차지",
+    "body": "한국관광공사가 국내 캠핑 인구의 변화를 조사한 자료에 따르면, 캠핑 인구는 2019년 340만 명에서 2024년 650만 명으로 약 2배 증가하였다.\n캠핑 이용자의 연령별 순위 변화를 살펴보면, 2019년에는 20대와 30대가 1위를 차지하였고 40대와 50대가 그 뒤를 이어 2위로 나타났다.\n이와 달리 2024년에는 40대와 50대 이용자가 가장 많은 1위를 차지한 반면, 20대와 30대는 2위로 나타나며 순위 변동을 보였다.\n이러한 변화의 배경에는 캠핑 장비의 고급화와 캠핑장 대여료 증가로 인해 경제력이 요구된 점이 자리하고 있는 것으로 나타났다.\n아울러 자녀와의 여가 활동을 목적으로 한 가족 단위 캠핑이 증가한 것 역시 주요 원인으로 분석되었다.",
+    "translation": "한국관광공사가 국내 캠핑 인구의 변화를 조사한 자료에 따르면, 캠핑 인구는 2019년 340만 명에서 2024년 650만 명으로 약 2배 증가하였다.\nAccording to survey data from the Korea Tourism Organization regarding changes in the domestic camping population, the camping population increased by approximately two times, from 3.4 million in 2019 to 6.5 million in 2024.\n\n캠핑 이용자의 연령별 순위 변화를 살펴보면, 2019년에는 20대와 30대가 1위를 차지하였고 40대와 50대가 그 뒤를 이어 2위로 나타났다.\nLooking at the changes in age group rankings among campers, those in their 20s and 30s occupied first place in 2019, followed by those in their 40s and 50s in second place.\n\n이와 달리 2024년에는 40대와 50대 이용자가 가장 많은 1위를 차지한 반면, 20대와 30대는 2위로 나타나며 순위 변동을 보였다.\nIn contrast, in 2024, campers in their 40s and 50s accounted for the largest share in first place, whereas those in their 20s and 30s came in second, showing a shift in rankings.\n\n이러한 변화의 배경에는 캠핑 장비의 고급화와 캠핑장 대여료 증가로 인해 경제력이 요구된 점이 자리하고 있는 것으로 나타났다.\nIt was found that the backdrop of this change involved economic capability being required due to the upgrading of camping equipment and the increase in campsite rental fees.\n\n아울러 자녀와의 여가 활동을 목적으로 한 가족 단위 캠핑이 증가한 것 역시 주요 원인으로 분석되었다.\nIn addition, the increase in family-unit camping for leisure activities with children was also analyzed as a major factor.",
+    "vocab": [
+      {
+        "word": "인구",
+        "meaning": "population",
+        "example_ko": "서울은 [인구]가 많은 대도시이다.",
+        "example_en": "Seoul is a large city with a large population."
+      },
+      {
+        "word": "차지하다",
+        "meaning": "to occupy, to account for",
+        "example_ko": "스마트폰이 내 가방에서 큰 부피를 [차지한다].",
+        "example_en": "The smartphone takes up a large space in my bag."
+      },
+      {
+        "word": "순위",
+        "meaning": "ranking",
+        "example_ko": "우리 팀은 경기에서 높은 [순위]를 기록했다.",
+        "example_en": "Our team recorded a high ranking in the match."
+      },
+      {
+        "word": "변동",
+        "meaning": "fluctuation, change",
+        "example_ko": "최근 시장 물가에 큰 [변동]이 생겼다.",
+        "example_en": "There has been a big fluctuation in market prices recently."
+      },
+      {
+        "word": "장비",
+        "meaning": "equipment",
+        "example_ko": "등산을 갈 때 필요한 [장비]를 챙겼다.",
+        "example_en": "I packed the necessary equipment when going hiking."
+      },
+      {
+        "word": "고급화",
+        "meaning": "upgrading, becoming high-end",
+        "example_ko": "그 식당은 메뉴의 [고급화]를 추진하고 있다.",
+        "example_en": "The restaurant is promoting the upgrading of its menu."
+      },
+      {
+        "word": "대여료",
+        "meaning": "rental fee",
+        "example_ko": "자전거 [대여료]를 내고 공원을 달렸다.",
+        "example_en": "I paid the bicycle rental fee and rode through the park."
+      },
+      {
+        "word": "경제력",
+        "meaning": "financial capability, economic power",
+        "example_ko": "그는 집을 살 만한 [경제력]을 갖추고 있다.",
+        "example_en": "He has the financial capability to buy a house."
+      },
+      {
+        "word": "여가",
+        "meaning": "leisure, spare time",
+        "example_ko": "주말에는 책을 읽으며 [여가]를 보낸다.",
+        "example_en": "On weekends, I spend my leisure time reading books."
+      },
+      {
+        "word": "단위",
+        "meaning": "unit",
+        "example_ko": "이 제품은 상자 [단위]로 판매된다.",
+        "example_en": "This product is sold in box units."
+      }
+    ]
+  },
+  {
+    "category": "converted",
+    "date": "2026-10-11",
     "published_at": "2026-10-11 18:14",
     "title": "편의점 매출 가파른 상승세, 대형 마트 역전 전망",
     "body": "산업경제연구소의 조사에 따르면 대형 마트의 매출액은 2015년 24조 2천억 원에서 2022년 24조 3천억 원으로 집계되어 뚜렷한 변화를 보이지 않은 것으로 나타났다. 이에 반해 편의점 매출액은 2015년 17조 2천억 원에서 2022년 22조 3천억 원에 이르기까지 가파른 증가세를 기록하였다. 이처럼 편의점의 매출액이 큰 폭으로 증가하게 된 데에는 두 가지 주요 원인이 존재한다. 첫째는 편의점 점포 수가 증가함에 따라 고객의 접근성이 한층 향상되었다는 점이다. 둘째는 소포장 상품에 대한 수요가 크게 늘어났다는 점이다. 이러한 추세로 미루어 볼 때 2023년에는 편의점 매출액이 대형 마트를 넘어설 것으로 전망된다.",

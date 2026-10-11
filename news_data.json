@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-12",
+        "published_at": "2026-10-12 06:18",
+        "title": "미 중간선거 앞두고 정치인 대상 살해 협박 급증… 신변 안전 비상",
+        "body": "미국에서 11월 중간선거를 3주 앞두고 정치인을 겨냥한 살해 협박과 폭력 위협이 일상화되면서 큰 사회적 문제가 되고 있다. 최근 2년간 법원 문서와 수사기관 기록을 분석한 결과, 미국 전역의 선출직 공직자들에게 수천 건의 위협이 가해진 것으로 확인되었다. 조사에 따르면 연방 상원의원 100명 중 최소 70명이 폭력 위협을 받았고, 연방 하원의원도 185명 이상이 위협에 노출되었다. 또한 주지사 역시 최소 44명이 협박을 경험하는 등 폭력의 그림자가 정치권 전반에 깊게 드리우고 있다. 이러한 협박은 여당과 야당을 가리지 않고 전방위적으로 발생하고 있으며, 정치인 본인뿐만 아니라 가족의 안전까지 위협하고 있다. 이로 인해 후보들이 군중과 직접 만나는 야외 유세를 대폭 줄이고 실내 행사장 보안을 대폭 강화하는 등 선거운동 방식도 달라졌다. 대부분의 행사장에 금속탐지기가 설치되고 참석자에 대한 사전 몸수색이 필수가 되면서 보안 비용도 크게 늘어났다. 실제로 연방 공직 후보자들의 보안 관련 지출 비용은 지난 2018년 주기와 비교해 4배 이상 증가한 2,500만 달러에 달했다. 일부 후보들은 자택에 감시카메라를 설치하거나 사설 경호원을 자비로 고용하는 등 개인의 신변 보호에 안간힘을 쓰고 있다.",
+        "translation": "미국에서 11월 중간선거를 3주 앞두고 정치인을 겨냥한 살해 협박과 폭력 위협이 일상화되면서 큰 사회적 문제가 되고 있다.\nWith the U.S. midterm elections just three weeks away in November, death threats and threats of violence targeting politicians have become commonplace, turning into a major social issue.\n\n최근 2년간 법원 문서와 수사기관 기록을 분석한 결과, 미국 전역의 선출직 공직자들에게 수천 건의 위협이 가해진 것으로 확인되었다.\nAn analysis of court documents and law enforcement records over the past two years confirmed that thousands of threats were directed at elected officials across the United States.\n\n조사에 따르면 연방 상원의원 100명 중 최소 70명이 폭력 위협을 받았고, 연방 하원의원도 185명 이상이 위협에 노출되었다.\nAccording to the investigation, at least 70 out of 100 federal senators received violent threats, and more than 185 federal representatives were also exposed to threats.\n\n또한 주지사 역시 최소 44명이 협박을 경험하는 등 폭력의 그림자가 정치권 전반에 깊게 드리우고 있다.\nIn addition, at least 44 governors also experienced threats, showing that the shadow of violence is cast deeply across the entire political spectrum.\n\n이러한 협박은 여당과 야당을 가리지 않고 전방위적으로 발생하고 있으며, 정치인 본인뿐만 아니라 가족의 안전까지 위협하고 있다.\nThese threats are occurring on all fronts without regard to ruling or opposition parties, threatening not only the politicians themselves but also the safety of their families.\n\n이로 인해 후보들이 군중과 직접 만나는 야외 유세를 대폭 줄이고 실내 행사장 보안을 대폭 강화하는 등 선거운동 방식도 달라졌다.\nBecause of this, campaign methods have changed, with candidates drastically cutting back on outdoor rallies where they meet crowds directly and substantially strengthening indoor venue security.\n\n대부분의 행사장에 금속탐지기가 설치되고 참석자에 대한 사전 몸수색이 필수가 되면서 보안 비용도 크게 늘어났다.\nAs metal detectors are installed at most venues and advance physical searches of attendees have become mandatory, security costs have also risen sharply.\n\n실제로 연방 공직 후보자들의 보안 관련 지출 비용은 지난 2018년 주기와 비교해 4배 이상 증가한 2,500만 달러에 달했다.\nIn fact, security-related expenditures by candidates for federal office reached 25 million dollars, more than quadrupling compared to the 2018 election cycle.\n\n일부 후보들은 자택에 감시카메라를 설치하거나 사설 경호원을 자비로 고용하는 등 개인의 신변 보호에 안간힘을 쓰고 있다.\nSome candidates are doing everything in their power to protect their personal safety, such as installing surveillance cameras at their homes or hiring private bodyguards at their own expense.",
+        "vocab": [
+            {
+                "word": "겨냥하다",
+                "meaning": "to aim at, to target",
+                "example_ko": "범인은 무고한 시민들을 [겨냥해] 범죄를 저질렀다.",
+                "example_en": "The criminal committed crimes targeting innocent citizens."
+            },
+            {
+                "word": "일상화되다",
+                "meaning": "to become routine, to become commonplace",
+                "example_ko": "최근 재택근무가 [일상화되면서] 출퇴근 시간이 줄었다.",
+                "example_en": "As working from home has recently become routine, commute times have decreased."
+            },
+            {
+                "word": "공직자",
+                "meaning": "public official",
+                "example_ko": "[공직자는] 항상 청렴하고 공정한 태도를 유지해야 한다.",
+                "example_en": "Public officials must always maintain an honest and fair attitude."
+            },
+            {
+                "word": "노출되다",
+                "meaning": "to be exposed",
+                "example_ko": "스마트폰을 너무 오래 보면 눈이 쉽게 피로에 [노출된다].",
+                "example_en": "If you look at a smartphone for too long, your eyes are easily exposed to fatigue."
+            },
+            {
+                "word": "전방위적",
+                "meaning": "all-directional, omnidirectional, comprehensive",
+                "example_ko": "정부는 물가를 안정시키기 위해 [전방위적인] 노력을 기울이고 있다.",
+                "example_en": "The government is making all-out efforts to stabilize consumer prices."
+            },
+            {
+                "word": "유세",
+                "meaning": "campaigning, electioneering",
+                "example_ko": "정치인들이 시장을 방문하여 시민들에게 [유세를] 펼쳤다.",
+                "example_en": "Politicians visited the market and campaigned to the citizens."
+            },
+            {
+                "word": "사전",
+                "meaning": "preliminary, prior, advance",
+                "example_ko": "중요한 회의에 참석하기 전에 [사전] 조사를 철저히 마쳤다.",
+                "example_en": "Before attending the important meeting, I thoroughly completed prior research."
+            },
+            {
+                "word": "지출",
+                "meaning": "expenditure, spending",
+                "example_ko": "생활비를 아끼기 위해 불필요한 [지출을] 줄이기로 했다.",
+                "example_en": "I decided to reduce unnecessary expenditures to save on living expenses."
+            },
+            {
+                "word": "사설",
+                "meaning": "private, privately run",
+                "example_ko": "늦은 밤 안전을 지키기 위해 [사설] 경비 업체를 이용하기로 했다.",
+                "example_en": "We decided to use a private security company to ensure safety late at night."
+            },
+            {
+                "word": "안간힘",
+                "meaning": "all one's might, desperate effort",
+                "example_ko": "그는 마라톤 완주를 위해 마지막까지 [안간힘을] 썼다.",
+                "example_en": "He made every desperate effort until the very end to complete the marathon."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-12",
+        "published_at": "2026-10-12 06:18",
+        "title": "스타벅스, '탱크데이' 여파 딛고 5개월 만에 결제액 1위 탈환",
+        "body": "국내 커피 프랜차이즈 시장에서 스타벅스가 논란을 딛고 5개월 만에 결제액 1위 자리를 되찾았다. 금융권의 신용카드와 체크카드 추정 결제액 분석에 따르면, 스타벅스는 지난달 1,200억 원대의 결제액을 기록했다. 스타벅스는 지난 5월 이른바 '탱크데이' 사태 이후 넉 달 동안 경쟁사인 투썸플레이스에 선두 자리를 내주며 고전해 왔다. 그러나 지난 6월 결제액이 최저점을 찍은 이후 석 달 연속으로 꾸준히 증가세를 보이며 반등에 성공했다. 반면에 줄곧 선두를 지켜오던 투썸플레이스는 지난달 결제액이 전달보다 6% 감소한 1,105억 원에 그치며 순위가 역전되었다. 업계에서는 과거 불거졌던 논란의 여파가 점차 잦아들면서 소비자들의 소비 심리가 다시 회복된 것으로 보고 있다. 여기에 계절 신제품 출시와 다양한 고객 혜택 제공 등 적극적인 마케팅 활동을 재개한 점도 긍정적인 영향을 미쳤다. 전문가들은 대형 프랜차이즈 간의 치열한 점유율 경쟁 속에서 고객 신뢰 회복이 매출 반등을 이끌었다고 평가하고 있다.",
+        "translation": "국내 커피 프랜차이즈 시장에서 스타벅스가 논란을 딛고 5개월 만에 결제액 1위 자리를 되찾았다.\nIn the domestic coffee franchise market, Starbucks overcame controversies and reclaimed the top spot in payment amount after five months.\n\n금융권의 신용카드와 체크카드 추정 결제액 분석에 따르면, 스타벅스는 지난달 1,200억 원대의 결제액을 기록했다.\nAccording to an analysis of estimated credit and debit card payment amounts from the financial sector, Starbucks recorded payment totals in the 120 billion won range last month.\n\n스타벅스는 지난 5월 이른바 '탱크데이' 사태 이후 넉 달 동안 경쟁사인 투썸플레이스에 선두 자리를 내주며 고전해 왔다.\nStarbucks had been struggling after yielding its lead to rival A Twosome Place for four months following the so-called 'Tank Day' incident in May.\n\n그러나 지난 6월 결제액이 최저점을 찍은 이후 석 달 연속으로 꾸준히 증가세를 보이며 반등에 성공했다.\nHowever, after payments hit a low point in June, it succeeded in rebounding with continuous increases for three consecutive months.\n\n반면에 줄곧 선두를 지켜오던 투썸플레이스는 지난달 결제액이 전달보다 6% 감소한 1,105억 원에 그치며 순위가 역전되었다.\nOn the other hand, A Twosome Place, which had held the lead, saw its payments fall 6% from the previous month to 110.5 billion won, resulting in a reversal of rankings.\n\n업계에서는 과거 불거졌던 논란의 여파가 점차 잦아들면서 소비자들의 소비 심리가 다시 회복된 것으로 보고 있다.\nThe industry views that consumer sentiment recovered as the fallout from the earlier controversies gradually subsided.\n\n여기에 계절 신제품 출시와 다양한 고객 혜택 제공 등 적극적인 마케팅 활동을 재개한 점도 긍정적인 영향을 미쳤다.\nIn addition, the resumption of aggressive marketing activities, such as releasing seasonal new products and offering various customer benefits, also had a positive impact.\n\n전문가들은 대형 프랜차이즈 간의 치열한 점유율 경쟁 속에서 고객 신뢰 회복이 매출 반등을 이끌었다고 평가하고 있다.\nExperts assess that the restoration of customer trust drove the revenue rebound amid fierce market share competition among large franchises.",
+        "vocab": [
+            {
+                "word": "탈환하다",
+                "meaning": "to recapture, to take back",
+                "example_ko": "우리 팀은 이번 대회에서 우승 트로피를 다시 [탈환했다].",
+                "example_en": "Our team recaptured the championship trophy in this tournament."
+            },
+            {
+                "word": "추정",
+                "meaning": "estimation, assumption",
+                "example_ko": "전문가들은 이번 행사의 참가자 수를 1,000명으로 [추정하고] 있다.",
+                "example_en": "Experts estimate the number of participants in this event to be 1,000."
+            },
+            {
+                "word": "선두",
+                "meaning": "lead, head, forefront",
+                "example_ko": "마라톤 대회에서 우리 학교 선수가 [선두를] 달리고 있다.",
+                "example_en": "Our school's runner is running in the lead in the marathon race."
+            },
+            {
+                "word": "반등하다",
+                "meaning": "to rebound, to bounce back",
+                "example_ko": "폭락하던 주가가 며칠 만에 빠르게 [반등했다].",
+                "example_en": "The plunging stock prices rebounded quickly within a few days."
+            },
+            {
+                "word": "역전되다",
+                "meaning": "to be reversed, to be overturned",
+                "example_ko": "경기 후반에 터진 골 덕분에 경기 결과가 [역전되었다].",
+                "example_en": "Thanks to a goal scored late in the match, the result of the game was reversed."
+            },
+            {
+                "word": "불거지다",
+                "meaning": "to arise, to come to the surface",
+                "example_ko": "회사 내부에서 직원 처우에 대한 불만이 크게 [불거졌다].",
+                "example_en": "Complaints about employee treatment surfaced prominently within the company."
+            },
+            {
+                "word": "여파",
+                "meaning": "aftermath, ripple effect",
+                "example_ko": "태풍의 [여파로] 인해 주말 동안 항공기 운항이 중단되었다.",
+                "example_en": "In the aftermath of the typhoon, flight operations were suspended over the weekend."
+            },
+            {
+                "word": "잦아들다",
+                "meaning": "to subside, to die down",
+                "example_ko": "거세게 불던 바람이 밤이 되자 점차 [잦아들었다].",
+                "example_en": "The fierce wind gradually died down as night fell."
+            },
+            {
+                "word": "점유율",
+                "meaning": "market share",
+                "example_ko": "새로운 제품이 인기를 끌면서 회사의 시장 [점유율이] 크게 올랐다.",
+                "example_en": "As the new product gained popularity, the company's market share rose significantly."
+            },
+            {
+                "word": "이끌다",
+                "meaning": "to lead, to guide, to bring about",
+                "example_ko": "훌륭한 지도자는 팀원들의 적극적인 협력을 잘 [이끈다].",
+                "example_en": "A good leader leads the active cooperation of team members well."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-12",
+        "published_at": "2026-10-12 06:18",
+        "title": "12년 전 화재 참변서 살아난 여고생, 결혼 앞두고 은인 소방관 찾아",
+        "body": "12년 전 대형 화재 현장에서 구사일생으로 목숨을 건진 생존자가 결혼을 앞두고 자신을 구해 준 소방관을 찾아 감사의 뜻을 전했다. 지난 2014년 발생한 고양종합터미널 화재는 스프링클러가 작동하지 않아 9명이 숨지고 60명이 다친 참변이었다. 당시 지하 1층에 갇혀 있던 17세 김예빈 씨는 무너진 잔해 속에서 힘겹게 버티다 극적으로 구조되었다. 경기북부특수대응단 소속 채종영 소방위는 잔해 속에서 김 씨의 발을 발견하고 장애물을 부수며 신속히 구조해 심폐소생술을 실시했다. 김 씨는 구조된 이후 심각한 화상과 연골 손상으로 여섯 차례의 수술과 3년간의 고통스러운 재활 치료를 견뎌냈다. 오랜 노력 끝에 다시 건강하게 걸을 수 있게 된 김 씨는 평생의 반려자를 만나 새로운 출발을 알리기 위해 소방서를 방문했다. 김 씨는 당시 목숨을 걸고 구조해 준 소방관이야말로 자신에게 제2의 삶을 선물해 준 최고의 은인이라고 고백했다. 채 소방위는 인생의 소중한 출발을 앞둔 김 씨를 위해 화목한 부부를 상징하는 원앙 그림을 직접 그려 선물하며 앞날을 축복했다.",
+        "translation": "12년 전 대형 화재 현장에서 구사일생으로 목숨을 건진 생존자가 결혼을 앞두고 자신을 구해 준 소방관을 찾아 감사의 뜻을 전했다.\nA survivor who narrowly escaped death in a major fire 12 years ago visited the firefighter who saved her ahead of her wedding to express her gratitude.\n\n지난 2014년 발생한 고양종합터미널 화재는 스프링클러가 작동하지 않아 9명이 숨지고 60명이 다친 참변이었다.\nThe Goyang Bus Terminal fire that occurred in 2014 was a tragedy in which nine people died and 60 were injured because sprinklers did not activate.\n\n당시 지하 1층에 갇혀 있던 17세 김예빈 씨는 무너진 잔해 속에서 힘겹게 버티다 극적으로 구조되었다.\nSeventeen-year-old Kim Ye-bin, who was trapped on the first basement floor at the time, endured painfully amid collapsed debris before being dramatically rescued.\n\n경기북부특수대응단 소속 채종영 소방위는 잔해 속에서 김 씨의 발을 발견하고 장애물을 부수며 신속히 구조해 심폐소생술을 실시했다.\nFire Lieutenant Chae Jong-yeong of the Northern Gyeonggi Special Response Team spotted Kim's foot in the debris, quickly broke through obstacles to rescue her, and performed CPR.\n\n김 씨는 구조된 이후 심각한 화상과 연골 손상으로 여섯 차례의 수술과 3년간의 고통스러운 재활 치료를 견뎌냈다.\nAfter being rescued, Kim endured six surgeries and three years of painful rehabilitation therapy due to severe burns and cartilage damage.\n\n오랜 노력 끝에 다시 건강하게 걸을 수 있게 된 김 씨는 평생의 반려자를 만나 새로운 출발을 알리기 위해 소방서를 방문했다.\nHaving become able to walk healthily again after prolonged efforts, Kim visited the fire station to announce her new beginning after meeting her lifelong partner.\n\n김 씨는 당시 목숨을 걸고 구조해 준 소방관이야말로 자신에게 제2의 삶을 선물해 준 최고의 은인이라고 고백했다.\nKim confessed that the firefighter who risked his life to rescue her back then was the greatest benefactor who gifted her a second life.\n\n채 소방위는 인생의 소중한 출발을 앞둔 김 씨를 위해 화목한 부부를 상징하는 원앙 그림을 직접 그려 선물하며 앞날을 축복했다.\nFire Lieutenant Chae blessed Kim's future ahead of her precious start in life by personally painting and gifting a picture of mandarin ducks, which symbolize a harmonious couple.",
+        "vocab": [
+            {
+                "word": "구사일생",
+                "meaning": "narrow escape from death, surviving against all odds",
+                "example_ko": "사고를 당한 운전자는 [구사일생으로] 목숨을 건질 수 있었다.",
+                "example_en": "The driver in the accident was able to survive against all odds."
+            },
+            {
+                "word": "생존자",
+                "meaning": "survivor",
+                "example_ko": "지진 현장에서 구조대원들이 [생존자를] 찾는 작업을 계속하고 있다.",
+                "example_en": "Rescue workers are continuing the operation to search for survivors at the earthquake site."
+            },
+            {
+                "word": "참변",
+                "meaning": "tragic disaster, fatal accident",
+                "example_ko": "갑작스러운 화재로 많은 이들이 목숨을 잃는 [참변이] 발생했다.",
+                "example_en": "A tragic disaster occurred where many people lost their lives due to a sudden fire."
+            },
+            {
+                "word": "잔해",
+                "meaning": "debris, wreckage",
+                "example_ko": "비행기가 추락한 현장에는 부서진 기체 [잔해가] 널려 있었다.",
+                "example_en": "Broken wreckage of the aircraft was scattered across the crash site."
+            },
+            {
+                "word": "극적으로",
+                "meaning": "dramatically, miraculously",
+                "example_ko": "실종되었던 아이가 사흘 만에 [극적으로] 가족의 품으로 돌아왔다.",
+                "example_en": "The missing child miraculously returned to the family's arms after three days."
+            },
+            {
+                "word": "신속히",
+                "meaning": "swiftly, promptly",
+                "example_ko": "구급차가 사이렌을 울리며 환자를 [신속히] 병원으로 이송했다.",
+                "example_en": "The ambulance promptly transported the patient to the hospital with its siren blaring."
+            },
+            {
+                "word": "재활",
+                "meaning": "rehabilitation",
+                "example_ko": "그는 다리 수술을 받은 후 꾸준히 [재활] 훈련을 받았다.",
+                "example_en": "He steadily underwent rehabilitation training after having leg surgery."
+            },
+            {
+                "word": "반려자",
+                "meaning": "lifelong partner, spouse",
+                "example_ko": "두 사람은 서로를 평생의 [반려자로] 맞이하기로 약속했다.",
+                "example_en": "The two promised to take each other as lifelong companions."
+            },
+            {
+                "word": "은인",
+                "meaning": "benefactor, savior",
+                "example_ko": "물에 빠진 저를 구해 주신 분은 평생 잊지 못할 [은인입니다].",
+                "example_en": "The person who saved me from drowning is an unforgettable lifelong benefactor."
+            },
+            {
+                "word": "축복하다",
+                "meaning": "to bless, to wish happiness for",
+                "example_ko": "하객들은 결혼하는 두 사람의 앞날을 진심으로 [축복했다].",
+                "example_en": "The wedding guests sincerely wished happiness for the future of the marrying couple."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-12",
+        "published_at": "2026-10-12 06:18",
+        "title": "남극 턱끈펭귄 기후변화로 멸종 위기… 먹이 찾아 이동하며 개체수 급감",
+        "body": "남극 인근 자보도프스키섬에 서식하는 독특한 생김새의 턱끈펭귄이 기후변화의 여파로 심각한 멸종 위기에 처했다. 영국 남극조사국 연구진에 따르면 세계 최대 규모의 군집지인 이 섬의 턱끈펭귄 개체수가 2011년 이후 3분의 2나 급감했다. 턱끈펭귄은 턱 아래에 가느다란 검은 줄이 있는 것이 특징이며, 지난 10여 년간 약 50만 마리가 사라진 것으로 추산된다. 과학자들은 펭귄 개체수가 급격히 줄어든 결정적인 원인으로 인간의 활동으로 인한 지구 온난화를 지목하고 있다. 남극 반도 일대의 기온은 산업화 이전보다 약 5도나 상승하여 전 세계에서 가장 빠른 온난화 속도를 기록하고 있다. 이로 인해 바닷물이 따뜻해지면서 턱끈펭귄의 주식인 크릴새우가 더 차가운 남쪽 바다로 서식지를 옮겼다. 특정한 수온과 먹이를 고집하는 까다로운 식성 탓에 턱끈펭귄은 먹이 사냥에 큰 어려움을 겪으며 굶주림에 내몰리고 있다. 반면에 식성이 덜 까다로운 인근의 마카로니펭귄은 같은 환경에서도 개체수가 오히려 30% 증가한 것으로 나타났다. 연구진은 턱끈펭귄의 급격한 감소가 남극 해양 생태계 전체의 먹이사슬을 무너뜨리는 심각한 도미노 현상을 부를 수 있다고 경고했다.",
+        "translation": "남극 인근 자보도프스키섬에 서식하는 독특한 생김새의 턱끈펭귄이 기후변화의 여파로 심각한 멸종 위기에 처했다.\nThe chinstrap penguin, with its distinctive appearance and habitat on Zavodovski Island near Antarctica, is facing a severe crisis of extinction due to climate change.\n\n영국 남극조사국 연구진에 따르면 세계 최대 규모의 군집지인 이 섬의 턱끈펭귄 개체수가 2011년 이후 3분의 2나 급감했다.\nAccording to researchers from the British Antarctic Survey, the population of chinstrap penguins on this island, the world's largest colony, has plunged by two-thirds since 2011.\n\n턱끈펭귄은 턱 아래에 가느다란 검은 줄이 있는 것이 특징이며, 지난 10여 년간 약 50만 마리가 사라진 것으로 추산된다.\nThe chinstrap penguin is characterized by a thin black line beneath its beak, and it is estimated that about 500,000 birds have disappeared over the past decade.\n\n과학자들은 펭귄 개체수가 급격히 줄어든 결정적인 원인으로 인간의 활동으로 인한 지구 온난화를 지목하고 있다.\nScientists point to global warming caused by human activity as the decisive cause of the sharp decline in the penguin population.\n\n남극 반도 일대의 기온은 산업화 이전보다 약 5도나 상승하여 전 세계에서 가장 빠른 온난화 속도를 기록하고 있다.\nTemperatures around the Antarctic Peninsula have risen by about 5 degrees Celsius compared to pre-industrial times, recording one of the fastest warming rates in the world.\n\n이로 인해 바닷물이 따뜻해지면서 턱끈펭귄의 주식인 크릴새우가 더 차가운 남쪽 바다로 서식지를 옮겼다.\nAs ocean waters warmed because of this, krill, the staple food of chinstrap penguins, moved their habitat to colder southern waters.\n\n특정한 수온과 먹이를 고집하는 까다로운 식성 탓에 턱끈펭귄은 먹이 사냥에 큰 어려움을 겪으며 굶주림에 내몰리고 있다.\nDue to their picky diet of insisting on specific water temperatures and prey, chinstrap penguins are experiencing great difficulty hunting for food and are driven into starvation.\n\n반면에 식성이 덜 까다로운 인근의 마카로니펭귄은 같은 환경에서도 개체수가 오히려 30% 증가한 것으로 나타났다.\nOn the other hand, the neighboring macaroni penguins, which have less finicky eating habits, were found to have increased their population by 30% in the same environment.\n\n연구진은 턱끈펭귄의 급격한 감소가 남극 해양 생태계 전체의 먹이사슬을 무너뜨리는 심각한 도미노 현상을 부를 수 있다고 경고했다.\nThe research team warned that the sharp decline of chinstrap penguins could cause a serious domino effect that breaks down the food chain of the entire Antarctic marine ecosystem.",
+        "vocab": [
+            {
+                "word": "서식하다",
+                "meaning": "to inhabit, to live in, to dwell",
+                "example_ko": "이 깊은 숲에는 희귀한 동물들이 많이 [서식한다].",
+                "example_en": "Many rare animals inhabit this deep forest."
+            },
+            {
+                "word": "군집",
+                "meaning": "colony, cluster, group",
+                "example_ko": "해안가 절벽에 수만 마리의 바닷새들이 거대한 [군집을] 이루고 있다.",
+                "example_en": "Tens of thousands of seabirds form a huge colony on the coastal cliff."
+            },
+            {
+                "word": "급감하다",
+                "meaning": "to drop sharply, to decrease rapidly",
+                "example_ko": "출산율 저하로 인해 신입생 수가 크게 [급감했다].",
+                "example_en": "Due to the falling birth rate, the number of incoming students dropped sharply."
+            },
+            {
+                "word": "추산되다",
+                "meaning": "to be estimated",
+                "example_ko": "이번 홍수로 인한 피해액은 수백억 원에 달할 것으로 [추산된다].",
+                "example_en": "The damage caused by this flood is estimated to reach tens of billions of won."
+            },
+            {
+                "word": "온난화",
+                "meaning": "global warming",
+                "example_ko": "지구 [온난화로] 인해 북극의 빙하가 빠르게 녹고 있다.",
+                "example_en": "Due to global warming, Arctic glaciers are melting rapidly."
+            },
+            {
+                "word": "주식",
+                "meaning": "staple food, main diet",
+                "example_ko": "한국 사람들은 오랜 세월 동안 쌀밥을 [주식으로] 삼아 왔다.",
+                "example_en": "Koreans have eaten cooked rice as their staple food for a long time."
+            },
+            {
+                "word": "고집하다",
+                "meaning": "to persist in, to insist on",
+                "example_ko": "그는 자신의 낡은 생각만을 [고집해서] 친구들과 자주 다툰다.",
+                "example_en": "He frequently argues with friends because he insists only on his outdated ideas."
+            },
+            {
+                "word": "굶주림",
+                "meaning": "starvation, hunger",
+                "example_ko": "오랜 가뭄으로 인해 많은 주민들이 극심한 [굶주림에] 시달렸다.",
+                "example_en": "Due to the prolonged drought, many residents suffered from severe hunger."
+            },
+            {
+                "word": "먹이사슬",
+                "meaning": "food chain",
+                "example_ko": "특정 동물이 멸종하면 생태계의 [먹이사슬이] 크게 흔들릴 수 있다.",
+                "example_en": "If a particular animal goes extinct, the food chain of the ecosystem can be shaken severely."
+            },
+            {
+                "word": "도미노",
+                "meaning": "domino effect",
+                "example_ko": "한 은행의 파산이 다른 금융 기관의 부도로 이어지는 [도미노] 현상이 일어났다.",
+                "example_en": "A domino effect occurred where the failure of one bank led to bankruptcies of other financial institutions."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-11",
         "published_at": "2026-10-11 18:22",
         "title": "중수청장 인선을 둘러싼 여권 내 갈등과 정치권 공방 가열",

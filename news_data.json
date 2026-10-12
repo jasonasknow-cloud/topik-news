@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-10-12",
+        "published_at": "2026-10-12 18:26",
+        "title": "이재명 대통령, 이란 등 8개국 신임 대사로부터 신임장 접수",
+        "body": "이재명 대통령이 12일 오후 청와대에서 새로 부임한 주한 상주대사 8명으로부터 신임장을 받았다. 이날 신임장을 제정한 대사는 이란, 튀르키예, 노르웨이, 키르기스스탄 등 8개국의 주한대사들이다. 신임장 제정식 이후 이 대통령은 각국 대사들과 개별 환담을 진행했다. 이 대통령은 환담 자리에서 대사들의 한국 부임을 진심으로 환영한다고 밝혔다. 또한 양국이 서로에게 실질적인 도움이 되는 협력을 넓혀가는 데 대사들이 적극적인 역할을 해줄 것을 당부했다. 이에 신임 대사들은 경제와 무역, 투자 등 여러 분야에서 협력을 강화하겠다고 화답했다. 아울러 첨단산업과 방위산업, 문화 분야에서도 양국의 강점을 살려 나가겠다고 말했다. 대사들은 상호호혜적 관계를 발전시키기 위해 최선을 다하겠다는 뜻을 명확히 밝혔다. 이번 행사는 한국과 각국 간의 외교적 교류와 우호 관계를 다지는 계기가 되었다.",
+        "translation": "이재명 대통령이 12일 오후 청와대에서 새로 부임한 주한 상주대사 8명으로부터 신임장을 받았다.\nOn the afternoon of the 12th, President Lee Jae-myung received credentials from eight newly appointed resident ambassadors to South Korea at the Blue House.\n\n이날 신임장을 제정한 대사는 이란, 튀르키예, 노르웨이, 키르기스스탄 등 8개국의 주한대사들이다.\nThe ambassadors presenting their credentials on this day were from eight countries, including Iran, Türkiye, Norway, and Kyrgyzstan.\n\n신임장 제정식 이후 이 대통령은 각국 대사들과 개별 환담을 진행했다.\nFollowing the credential presentation ceremony, President Lee held individual friendly conversations with each country's ambassador.\n\n이 대통령은 환담 자리에서 대사들의 한국 부임을 진심으로 환영한다고 밝혔다.\nDuring the talks, President Lee stated that he sincerely welcomed the ambassadors' assumption of their posts in South Korea.\n\n또한 양국이 서로에게 실질적인 도움이 되는 협력을 넓혀가는 데 대사들이 적극적인 역할을 해줄 것을 당부했다.\nHe also requested that the ambassadors play an active role in expanding mutually beneficial cooperation between the two nations.\n\n이에 신임 대사들은 경제와 무역, 투자 등 여러 분야에서 협력을 강화하겠다고 화답했다.\nIn response, the new ambassadors replied that they would strengthen cooperation in various fields, such as economy, trade, and investment.\n\n아울러 첨단산업과 방위산업, 문화 분야에서도 양국의 강점을 살려 나가겠다고 말했다.\nThey also said they would make the most of each other's strengths in cutting-edge industries, defense industries, and culture.\n\n대사들은 상호호혜적 관계를 발전시키기 위해 최선을 다하겠다는 뜻을 명확히 밝혔다.\nThe ambassadors clearly expressed their intention to do their best to develop mutually beneficial relations.\n\n이번 행사는 한국과 각국 간의 외교적 교류와 우호 관계를 다지는 계기가 되었다.\nThis event served as an opportunity to solidify diplomatic exchanges and friendly ties between South Korea and the respective countries.",
+        "vocab": [
+            {
+                "word": "부임하다",
+                "meaning": "to assume a new post or office",
+                "example_ko": "새 교장 선생님께서 우리 학교로 [부임하셨다].",
+                "example_en": "The new principal assumed his post at our school."
+            },
+            {
+                "word": "신임장",
+                "meaning": "letter of credence, diplomatic credentials",
+                "example_ko": "대사는 대통령에게 직접 [신임장]을 전달했다.",
+                "example_en": "The ambassador delivered his credentials directly to the president."
+            },
+            {
+                "word": "환담",
+                "meaning": "friendly talk, pleasant conversation",
+                "example_ko": "두 사람은 차를 마시며 즐거운 [환담]을 나누었다.",
+                "example_en": "The two had a pleasant chat while drinking tea."
+            },
+            {
+                "word": "실질적",
+                "meaning": "practical, substantial",
+                "example_ko": "정부는 시민들에게 [실질적인] 도움을 주는 정책을 만들었다.",
+                "example_en": "The government created policies that offer practical help to citizens."
+            },
+            {
+                "word": "협력",
+                "meaning": "cooperation, collaboration",
+                "example_ko": "문제를 해결하기 위해 주민들의 [협력]이 필요하다.",
+                "example_en": "Cooperation from residents is needed to resolve the issue."
+            },
+            {
+                "word": "당부하다",
+                "meaning": "to request, to ask earnestly",
+                "example_ko": "선생님은 학생들에게 안전에 주의할 것을 [당부했다].",
+                "example_en": "The teacher requested the students to pay attention to safety."
+            },
+            {
+                "word": "화답하다",
+                "meaning": "to respond favorably, to reciprocate",
+                "example_ko": "가수는 관객의 뜨거운 박수에 노래로 [화답했다].",
+                "example_en": "The singer responded to the audience's enthusiastic applause with a song."
+            },
+            {
+                "word": "첨단",
+                "meaning": "cutting-edge, state-of-the-art",
+                "example_ko": "이 연구소는 [첨단] 기술 개발에 힘쓰고 있다.",
+                "example_en": "This research center is focusing on developing cutting-edge technology."
+            },
+            {
+                "word": "호혜적",
+                "meaning": "mutually beneficial, reciprocal",
+                "example_ko": "양측은 [호혜적인] 무역 관계를 맺기로 합의했다.",
+                "example_en": "Both sides agreed to establish a mutually beneficial trade relationship."
+            },
+            {
+                "word": "우호",
+                "meaning": "friendship, friendly relations",
+                "example_ko": "두 나라는 오랜 시간 동안 깊은 [우호]를 유지해 왔다.",
+                "example_en": "The two countries have maintained deep friendship for a long time."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-12",
+        "published_at": "2026-10-12 18:26",
+        "title": "코스피, 연휴 직후 외국인 대규모 매도에 3%대 급락",
+        "body": "한글날 연휴를 마치고 개장한 코스피가 외국인의 대규모 매도세로 인해 3% 넘게 급락했다. 12일 코스피 지수는 하락세로 출발한 뒤 오후 들어 낙폭을 키워 6,300선까지 내려앉았다. 이날 증시에서는 외국인이 2조 원 넘게 주식을 팔아치우며 5거래일 연속 순매도를 이어갔다. 기관 역시 매도에 동참했으며, 개인이 1조 원 넘게 순매수했으나 하락을 막기에는 부족했다. 특히 삼성전자와 SK하이닉스 등 주요 반도체 대형주에 외국인 매도가 집중되었다. 두 종목 모두 자사주 매입 종료에 따른 우려 속에 4%대 하락세를 기록했다. 여기에 오픈AI의 연환산 매출이 예상보다 낮았다는 외신 보도도 투자심리를 위축시켰다. 또한 중동 지역에서 발생한 군사적 긴장 고조 역시 국내 시장에 악재로 작용했다. 코스닥 지수 역시 4% 이상 하락하며 850선 아래로 떨어지는 등 국내 증시 전반이 크게 흔들렸다.",
+        "translation": "한글날 연휴를 마치고 개장한 코스피가 외국인의 대규모 매도세로 인해 3% 넘게 급락했다.\nThe KOSPI, opening after the Hangeul Day holiday, plunged by more than 3% due to massive selling by foreign investors.\n\n12일 코스피 지수는 하락세로 출발한 뒤 오후 들어 낙폭을 키워 6,300선까지 내려앉았다.\nOn the 12th, the KOSPI index started on a downward trend and extended its losses in the afternoon, falling to the 6,300 level.\n\n이날 증시에서는 외국인이 2조 원 넘게 주식을 팔아치우며 5거래일 연속 순매도를 이어갔다.\nIn the stock market that day, foreigners sold more than 2 trillion won worth of shares, continuing net selling for five consecutive trading days.\n\n기관 역시 매도에 동참했으며, 개인이 1조 원 넘게 순매수했으나 하락을 막기에는 부족했다.\nInstitutions also joined the selling, and although retail investors net bought over 1 trillion won, it was insufficient to prevent the decline.\n\n특히 삼성전자와 SK하이닉스 등 주요 반도체 대형주에 외국인 매도가 집중되었다.\nForeign selling was particularly concentrated on major large-cap semiconductor stocks such as Samsung Electronics and SK Hynix.\n\n두 종목 모두 자사주 매입 종료에 따른 우려 속에 4%대 하락세를 기록했다.\nBoth stocks fell in the 4% range amid concerns over the conclusion of their share buybacks.\n\n여기에 오픈AI의 연환산 매출이 예상보다 낮았다는 외신 보도도 투자심리를 위축시켰다.\nAdditionally, foreign media reports that OpenAI's annualized revenue was lower than expected dampened investor sentiment.\n\n또한 중동 지역에서 발생한 군사적 긴장 고조 역시 국내 시장에 악재로 작용했다.\nFurthermore, escalating military tensions in the Middle East also acted as a negative factor for the domestic market.\n\n코스닥 지수 역시 4% 이상 하락하며 850선 아래로 떨어지는 등 국내 증시 전반이 크게 흔들렸다.\nThe KOSDAQ index also tumbled over 4% to fall below the 850 mark, causing widespread tremors throughout the domestic stock market.",
+        "vocab": [
+            {
+                "word": "급락하다",
+                "meaning": "to plunge, to drop sharply",
+                "example_ko": "주가가 하루 만에 큰 폭으로 [급락했다].",
+                "example_en": "Stock prices plunged sharply in a single day."
+            },
+            {
+                "word": "매도세",
+                "meaning": "selling trend, selling pressure",
+                "example_ko": "시장에 [매도세]가 강해지면서 가격이 떨어졌다.",
+                "example_en": "As selling pressure intensified in the market, prices dropped."
+            },
+            {
+                "word": "낙폭",
+                "meaning": "drop, decline margin",
+                "example_ko": "오후가 되자 지수의 [낙폭]이 점점 커졌다.",
+                "example_en": "As afternoon came, the index's decline margin grew wider."
+            },
+            {
+                "word": "순매도",
+                "meaning": "net selling",
+                "example_ko": "외국인 투자자들의 [순매도] 규모가 계속 늘어나고 있다.",
+                "example_en": "The scale of net selling by foreign investors continues to grow."
+            },
+            {
+                "word": "순매수",
+                "meaning": "net buying",
+                "example_ko": "개인 투자자들은 하락장에서도 [순매수]를 기록했다.",
+                "example_en": "Retail investors recorded net buying even during a falling market."
+            },
+            {
+                "word": "투자심리",
+                "meaning": "investor sentiment",
+                "example_ko": "불안한 경제 상황 때문에 [투자심리]가 얼어붙었다.",
+                "example_en": "Investor sentiment froze due to unstable economic conditions."
+            },
+            {
+                "word": "위축시키다",
+                "meaning": "to dampen, to shrink, to intimidate",
+                "example_ko": "금리 인상 소식은 소비 활동을 [위축시켰다].",
+                "example_en": "News of the interest rate hike dampened consumer spending."
+            },
+            {
+                "word": "악재",
+                "meaning": "unfavorable factor, bad news",
+                "example_ko": "유가 상승은 항공사 주가에 큰 [악재]로 작용한다.",
+                "example_en": "Rising oil prices act as a major unfavorable factor for airline stocks."
+            },
+            {
+                "word": "긴장",
+                "meaning": "tension, strain",
+                "example_ko": "국경 지역에서 군사적 [긴장]이 계속 높아지고 있다.",
+                "example_en": "Military tension continues to rise in the border region."
+            },
+            {
+                "word": "흔들리다",
+                "meaning": "to be shaken, to fluctuate unstably",
+                "example_ko": "갑작스러운 사건으로 시장의 신뢰가 크게 [흔들렸다].",
+                "example_en": "Market confidence was severely shaken by the sudden event."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-12",
+        "published_at": "2026-10-12 18:26",
+        "title": "'나주 부부 살해' 피의자, 신상정보 공개 여부 심의 착수",
+        "body": "전남 나주시에서 발생한 60대 부부 강도살인 사건의 피의자에 대해 경찰이 신상정보 공개 여부를 심의한다. 전남경찰청은 13일 오후 52세 남성 피의자에 대한 신상정보 공개심의위원회를 개최한다고 밝혔다. 위원회에서 공개 결정이 내려질 경우 피의자의 얼굴과 이름, 나이 등이 대중에 공개된다. 피의자가 이의를 제기하거나 확인서를 내지 않으면 최대 5일의 유예 기간을 거치게 된다. 피의자는 지난 5일 밤 지인인 부부의 자택에서 흉기를 휘둘러 이들을 살해한 혐의로 구속되었다. 그는 범행 직후 피해 부부의 은행 계좌에서 현금 600만 원을 인출한 것으로 밝혀졌다. 경찰 조사에 따르면 피의자는 사전에 현장을 답사하고 여러 이동 수단을 번갈아 타며 치밀하게 도주했다. 피의자는 과거 빌려준 돈을 받으러 갔다가 범행을 저질렀다는 취지로 진술했다.",
+        "translation": "'나주 부부 살해' 피의자, 신상정보 공개 여부 심의 착수\nDeliberation begins on whether to disclose personal information of the suspect in the 'Naju couple murder.'\n\n전남 나주시에서 발생한 60대 부부 강도살인 사건의 피의자에 대해 경찰이 신상정보 공개 여부를 심의한다.\nPolice will deliberate on whether to disclose the personal information of the suspect in a robbery and murder case involving a couple in their 60s in Naju, South Jeolla Province.\n\n전남경찰청은 13일 오후 52세 남성 피의자에 대한 신상정보 공개심의위원회를 개최한다고 밝혔다.\nThe South Jeolla Provincial Police Agency announced that it will hold a personal information disclosure review committee on the afternoon of the 13th for the 52-year-old male suspect.\n\n위원회에서 공개 결정이 내려질 경우 피의자의 얼굴과 이름, 나이 등이 대중에 공개된다.\nIf the committee decides on disclosure, the suspect's face, name, and age will be revealed to the public.\n\n피의자가 이의를 제기하거나 확인서를 내지 않으면 최대 5일의 유예 기간을 거치게 된다.\nIf the suspect raises an objection or does not submit a confirmation form, a grace period of up to five days will follow before disclosure.\n\n피의자는 지난 5일 밤 지인인 부부의 자택에서 흉기를 휘둘러 이들을 살해한 혐의로 구속되었다.\nThe suspect was arrested on charges of murdering the couple, who were acquaintances, by wielding a deadly weapon at their home on the night of the 5th.\n\n그는 범행 직후 피해 부부의 은행 계좌에서 현금 600만 원을 인출한 것으로 밝혀졌다.\nIt was revealed that immediately after the crime, he withdrew 6 million won in cash from the victim couple's bank account.\n\n경찰 조사에 따르면 피의자는 사전에 현장을 답사하고 여러 이동 수단을 번갈아 타며 치밀하게 도주했다.\nAccording to police investigations, the suspect scouted the scene in advance and fled meticulously by alternating between various means of transportation.\n\n피의자는 과거 빌려준 돈을 받으러 갔다가 범행을 저질렀다는 취지로 진술했다.\nThe suspect testified to the effect that he committed the crime after going there to collect previously lent money.",
+        "vocab": [
+            {
+                "word": "강도살인",
+                "meaning": "robbery-murder",
+                "example_ko": "경찰은 이번 사건을 계획적인 [강도살인]으로 보고 수사 중이다.",
+                "example_en": "Police are investigating this incident as a premeditated robbery-murder."
+            },
+            {
+                "word": "피의자",
+                "meaning": "suspect",
+                "example_ko": "[피의자]는 경찰서에서 자신의 혐의를 인정했다.",
+                "example_en": "The suspect admitted to his charges at the police station."
+            },
+            {
+                "word": "심의하다",
+                "meaning": "to deliberate, to review",
+                "example_ko": "위원회는 새로운 법안을 신중하게 [심의했다].",
+                "example_en": "The committee carefully deliberated on the new bill."
+            },
+            {
+                "word": "이의",
+                "meaning": "objection, dissent",
+                "example_ko": "결정에 대해 질문이나 [이의]가 있으면 말씀해 주세요.",
+                "example_en": "If you have any questions or objections to the decision, please speak up."
+            },
+            {
+                "word": "유예",
+                "meaning": "grace period, postponement",
+                "example_ko": "시험 준비 기간이 부족해 제출 기한의 [유예]를 요청했다.",
+                "example_en": "Lacking preparation time for the exam, I requested an extension of the submission deadline."
+            },
+            {
+                "word": "구속되다",
+                "meaning": "to be arrested, to be detained",
+                "example_ko": "범인은 도주 우려가 있어 현장에서 바로 [구속되었다].",
+                "example_en": "The criminal was immediately detained at the scene due to concerns of fleeing."
+            },
+            {
+                "word": "인출하다",
+                "meaning": "to withdraw money",
+                "example_ko": "은행 현금인출기에서 생활비를 [인출했다].",
+                "example_en": "I withdrew living expenses from the bank ATM."
+            },
+            {
+                "word": "답사하다",
+                "meaning": "to scout, to explore on foot",
+                "example_ko": "우리는 여행을 떠나기 전에 목적지를 미리 [답사했다].",
+                "example_en": "We scouted our destination in advance before setting off on the trip."
+            },
+            {
+                "word": "도주하다",
+                "meaning": "to flee, to run away",
+                "example_ko": "사고를 낸 운전자는 차량을 버리고 산으로 [도주했다].",
+                "example_en": "The driver who caused the accident abandoned the vehicle and fled into the mountain."
+            },
+            {
+                "word": "진술하다",
+                "meaning": "to state, to testify",
+                "example_ko": "목격자는 사고 당일 상황을 사실대로 [진술했다].",
+                "example_en": "The eyewitness testified truthfully about the situation on the day of the accident."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-12",
+        "published_at": "2026-10-12 18:26",
+        "title": "미국 '사형 생중계' 방침 논란 확산…주무장관 옹호 발언에 비판 고조",
+        "body": "미군 기지 총기난사범의 사형 집행을 생중계하겠다는 트럼프 행정부의 방침을 둘러싸고 논란이 커지고 있다. 주무부처인 국토안보부 장관은 공격 가해자가 합당한 처벌을 받는 것을 대중이 알아야 한다며 방침을 적극 옹호했다. 그러나 여당인 공화당 내부에서조차 이번 결정의 재고를 촉구하는 비판의 목소리가 쏟아지고 있다. 정치권 일각에서는 사형 생중계가 극단주의자들을 자극해 테러의 빌미가 될 수 있다고 경고했다. 또한 온라인 공간을 통해 어린이들에게 잔혹한 영상이 무분별하게 퍼질 수 있다는 우려도 제기되었다. 국제사회 역시 공개 사형 집행은 잔혹하고 비인간적인 처벌에 해당한다며 강하게 비판했다. 이러한 처벌 방식은 인간의 존엄성을 해치는 굴욕적인 조치라는 지적도 뒤따랐다. 한편 트럼프 대통령은 총살형 자체에는 찬성하면서도 생중계 여부에 대해서는 신중한 태도를 보이고 있다. 정부 안팎의 거센 반발 속에서 최종 결정을 둘러싼 후폭풍은 쉽게 가라앉지 않을 전망이다.",
+        "translation": "미군 기지 총기난사범의 사형 집행을 생중계하겠다는 트럼프 행정부의 방침을 둘러싸고 논란이 커지고 있다.\nControversy is growing over the Trump administration's policy to broadcast live the execution of a military base mass shooter.\n\n주무부처인 국토안보부 장관은 공격 가해자가 합당한 처벌을 받는 것을 대중이 알아야 한다며 방침을 적극 옹호했다.\nThe Secretary of Homeland Security, who is the minister in charge, actively defended the policy, arguing that the public needs to understand that attackers receive deserved punishment.\n\n그러나 여당인 공화당 내부에서조차 이번 결정의 재고를 촉구하는 비판의 목소리가 쏟아지고 있다.\nHowever, even within the ruling Republican Party, a barrage of critical voices is urging reconsideration of this decision.\n\n정치권 일각에서는 사형 생중계가 극단주의자들을 자극해 테러의 빌미가 될 수 있다고 경고했다.\nSome political quarters warned that broadcasting executions live could provoke extremists and provide an excuse for terrorism.\n\n또한 온라인 공간을 통해 어린이들에게 잔혹한 영상이 무분별하게 퍼질 수 있다는 우려도 제기되었다.\nConcerns were also raised that brutal footage could spread indiscriminately to children via online spaces.\n\n국제사회 역시 공개 사형 집행은 잔혹하고 비인간적인 처벌에 해당한다며 강하게 비판했다.\nThe international community also strongly criticized the move, stating that public executions constitute cruel and inhumane punishment.\n\n이러한 처벌 방식은 인간의 존엄성을 해치는 굴욕적인 조치라는 지적도 뒤따랐다.\nCriticism also followed that such methods of punishment are humiliating measures that harm human dignity.\n\n한편 트럼프 대통령은 총살형 자체에는 찬성하면서도 생중계 여부에 대해서는 신중한 태도를 보이고 있다.\nMeanwhile, President Trump supports the firing squad itself, but maintains a cautious stance regarding whether to broadcast it live.\n\n정부 안팎의 거센 반발 속에서 최종 결정을 둘러싼 후폭풍은 쉽게 가라앉지 않을 전망이다.\nAmid strong backlash both inside and outside the government, the aftermath surrounding the final decision is expected not to subside easily.",
+        "vocab": [
+            {
+                "word": "집행",
+                "meaning": "execution, enforcement",
+                "example_ko": "법원은 판결에 따라 법률 [집행]을 시작했다.",
+                "example_en": "The court began law enforcement according to the ruling."
+            },
+            {
+                "word": "주무부처",
+                "meaning": "competent ministry, ministry in charge",
+                "example_ko": "환경 정책을 담당하는 [주무부처]가 개선안을 발표했다.",
+                "example_en": "The ministry in charge of environmental policy announced an improvement plan."
+            },
+            {
+                "word": "옹호하다",
+                "meaning": "to defend, to advocate, to stand up for",
+                "example_ko": "그는 친구의 잘못된 행동을 무조건 [옹호했다].",
+                "example_en": "He unconditionally defended his friend's wrongdoing."
+            },
+            {
+                "word": "재고",
+                "meaning": "reconsideration",
+                "example_ko": "시민들은 사업 계획의 전면적인 [재고]를 요구했다.",
+                "example_en": "Citizens demanded a full reconsideration of the project plan."
+            },
+            {
+                "word": "빌미",
+                "meaning": "pretext, excuse, cause of trouble",
+                "example_ko": "작은 말실수가 큰 다툼의 [빌미]가 될 수 있다.",
+                "example_en": "A small slip of the tongue can become a cause of a big fight."
+            },
+            {
+                "word": "무분별하다",
+                "meaning": "indiscriminate, thoughtless",
+                "example_ko": "자연을 [무분별하게] 개발하면 환경이 파괴된다.",
+                "example_en": "If we develop nature indiscriminately, the environment will be destroyed."
+            },
+            {
+                "word": "비인간적",
+                "meaning": "inhumane",
+                "example_ko": "동물을 좁은 공간에 가두는 것은 [비인간적인] 행동이다.",
+                "example_en": "Confining animals to a cramped space is an inhumane act."
+            },
+            {
+                "word": "굴욕적",
+                "meaning": "humiliating, degrading",
+                "example_ko": "그는 경기에서 패배한 후 [굴욕적인] 기분을 느꼈다.",
+                "example_en": "He felt humiliated after losing the match."
+            },
+            {
+                "word": "신중하다",
+                "meaning": "cautious, prudent",
+                "example_ko": "중요한 결정을 내릴 때는 항상 [신중해야] 한다.",
+                "example_en": "When making an important decision, one must always be prudent."
+            },
+            {
+                "word": "후폭풍",
+                "meaning": "aftermath, repercussion",
+                "example_ko": "정치인의 발언으로 인해 상당한 [후폭풍]이 일어났다.",
+                "example_en": "The politician's remarks caused significant repercussions."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-10-12",
         "published_at": "2026-10-12 06:18",
         "title": "미 중간선거 앞두고 정치인 대상 살해 협박 급증… 신변 안전 비상",
         "body": "미국에서 11월 중간선거를 3주 앞두고 정치인을 겨냥한 살해 협박과 폭력 위협이 일상화되면서 큰 사회적 문제가 되고 있다. 최근 2년간 법원 문서와 수사기관 기록을 분석한 결과, 미국 전역의 선출직 공직자들에게 수천 건의 위협이 가해진 것으로 확인되었다. 조사에 따르면 연방 상원의원 100명 중 최소 70명이 폭력 위협을 받았고, 연방 하원의원도 185명 이상이 위협에 노출되었다. 또한 주지사 역시 최소 44명이 협박을 경험하는 등 폭력의 그림자가 정치권 전반에 깊게 드리우고 있다. 이러한 협박은 여당과 야당을 가리지 않고 전방위적으로 발생하고 있으며, 정치인 본인뿐만 아니라 가족의 안전까지 위협하고 있다. 이로 인해 후보들이 군중과 직접 만나는 야외 유세를 대폭 줄이고 실내 행사장 보안을 대폭 강화하는 등 선거운동 방식도 달라졌다. 대부분의 행사장에 금속탐지기가 설치되고 참석자에 대한 사전 몸수색이 필수가 되면서 보안 비용도 크게 늘어났다. 실제로 연방 공직 후보자들의 보안 관련 지출 비용은 지난 2018년 주기와 비교해 4배 이상 증가한 2,500만 달러에 달했다. 일부 후보들은 자택에 감시카메라를 설치하거나 사설 경호원을 자비로 고용하는 등 개인의 신변 보호에 안간힘을 쓰고 있다.",

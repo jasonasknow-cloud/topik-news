@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-13",
+        "published_at": "2026-10-13 06:19",
+        "title": "국회 외통위 주미대사관 국감서 '한미동맹 이상 기류' 공방",
+        "body": "국회 외교통일위원회가 미국 워싱턴 현지에서 주미한국대사관을 상대로 국정감사를 실시했다. 이번 국정감사에서는 최근 불거진 한미동맹의 이상 기류를 둘러싸고 여야 간의 치열한 공방이 벌어졌다. 야당 의원들은 한국 정치인과 정보기관 직원들의 미국 비자 발급이 지연된 사례를 언급하며 미국이 한국을 홀대하고 있다고 비판했다. 이에 대해 무소속 한동훈 의원은 대미 외교가 어려워진 것이 현실이라며 철저한 대응을 촉구했다. 반면 여당인 민주당 박성준 의원은 외교 쟁점 하나로 한미 관계가 분열되었다고 주장하는 것은 국제 질서의 큰 흐름을 보지 못한 것이라고 반박했다. 강경화 주미대사는 동맹에 문제가 있다기보다는 현안이 많은 것이라며 70년이 넘은 한미동맹이 도약하는 과정에서의 성장통이라고 설명했다. 아울러 강 대사는 통일부 장관의 발언으로 촉발된 정보 공유 제한 논란에 대해 정보 협력이 동맹의 핵심 축인 만큼 어려움을 극복해야 한다고 말했다. 또한 트럼프 대통령이 추진하는 북미정상회담에 대해서는 아직 구체적인 진전 사항이나 징조는 없다고 전했다. 한편 북한 비핵화 문제와 관련해서는 북한의 핵 역량이 고도화되는 상황에서 핵 동결을 통한 단계적 접근이 논의되고 있다고 덧붙였다.",
+        "translation": "국회 외교통일위원회가 미국 워싱턴 현지에서 주미한국대사관을 상대로 국정감사를 실시했다.\nThe National Assembly's Foreign Affairs and Unification Committee conducted a parliamentary audit of the South Korean Embassy in the United States on-site in Washington.\n\n이번 국정감사에서는 최근 불거진 한미동맹의 이상 기류를 둘러싸고 여야 간의 치열한 공방이 벌어졌다.\nDuring this parliamentary audit, a fierce debate unfolded between the ruling and opposition parties over recent signs of unusual tension in the South Korea-US alliance.\n\n야당 의원들은 한국 정치인과 정보기관 직원들의 미국 비자 발급이 지연된 사례를 언급하며 미국이 한국을 홀대하고 있다고 비판했다.\nOpposition lawmakers cited cases of delayed US visa issuance for South Korean politicians and intelligence officials, criticizing that the US authorities might be mistreating South Korea.\n\n이에 대해 무소속 한동훈 의원은 대미 외교가 어려워진 것이 현실이라며 철저한 대응을 촉구했다.\nRegarding this, independent lawmaker Han Dong-hoon emphasized that diplomacy toward the United States becoming difficult is a reality and called for a thorough response.\n\n반면 여당인 민주당 박성준 의원은 외교 쟁점 하나로 한미 관계가 분열되었다고 주장하는 것은 국제 질서의 큰 흐름을 보지 못한 것이라고 반박했다.\nOn the other hand, ruling Democratic Party lawmaker Park Sung-joon countered that claiming the South Korea-US relationship has fractured over a single diplomatic issue fails to see the broader flow of the international order.\n\n강경화 주미대사는 동맹에 문제가 있다기보다는 현안이 많은 것이라며 70년이 넘은 한미동맹이 도약하는 과정에서의 성장통이라고 설명했다.\nSouth Korean Ambassador to the US Kang Kyung-wha explained that rather than a problem, there are simply many pending issues, describing it as growing pains in the process of the over 70-year-old alliance taking a leap forward.\n\n아울러 강 대사는 통일부 장관의 발언으로 촉발된 정보 공유 제한 논란에 대해 정보 협력이 동맹의 핵심 축인 만큼 어려움을 극복해야 한다고 말했다.\nIn addition, Ambassador Kang stated regarding the controversy over restricted intelligence sharing sparked by the Unification Minister's remarks that since intelligence cooperation is a key pillar of the alliance, current difficulties must be overcome.\n\n또한 트럼프 대통령이 추진하는 북미정상회담에 대해서는 아직 구체적인 진전 사항이나 징조는 없다고 전했다.\nShe also reported that there are still no concrete signs or progress regarding the North Korea-US summit pursued by President Trump.\n\n한편 북한 비핵화 문제와 관련해서는 북한의 핵 역량이 고도화되는 상황에서 핵 동결을 통한 단계적 접근이 논의되고 있다고 덧붙였다.\nMeanwhile, concerning the issue of North Korea's denuclearization, she added that a phased approach through a nuclear freeze is being discussed amid the advancing sophistication of North Korea's nuclear capabilities.",
+        "vocab": [
+            {
+                "word": "국정감사",
+                "meaning": "parliamentary audit / inspection of government offices",
+                "example_ko": "국회는 매년 가을 정부 부처를 상대로 [국정감사]를 실시한다.",
+                "example_en": "The National Assembly conducts a parliamentary audit of government ministries every autumn."
+            },
+            {
+                "word": "공방",
+                "meaning": "battle of words / fierce debate",
+                "example_ko": "두 후보는 토론회에서 치열한 말의 [공방]을 벌였다.",
+                "example_en": "The two candidates engaged in a fierce battle of words at the debate."
+            },
+            {
+                "word": "지연되다",
+                "meaning": "to be delayed",
+                "example_ko": "폭설 때문에 비행기 출발이 두 시간 동안 [지연되었다].",
+                "example_en": "The flight departure was delayed for two hours due to heavy snow."
+            },
+            {
+                "word": "홀대하다",
+                "meaning": "to treat coldly / to mistreat / to slight",
+                "example_ko": "손님을 이유 없이 [홀대하면] 다시는 우리 가게에 오지 않는다.",
+                "example_en": "If you treat customers coldly without reason, they will never return to our store."
+            },
+            {
+                "word": "반박하다",
+                "meaning": "to refute / to counter",
+                "example_ko": "그는 상대방의 잘못된 주장을 조목조목 [반박했다].",
+                "example_en": "He refuted the other party's incorrect arguments point by point."
+            },
+            {
+                "word": "현안",
+                "meaning": "pending issue / unresolved matter",
+                "example_ko": "두 나라는 무역 갈등 등 시급한 [현안]을 해결하기 위해 만났다.",
+                "example_en": "The two countries met to resolve urgent pending issues such as trade conflicts."
+            },
+            {
+                "word": "도약하다",
+                "meaning": "to leap forward / to take a leap",
+                "example_ko": "그 회사는 신기술 개발을 통해 세계적인 기업으로 [도약했다].",
+                "example_en": "The company took a leap forward into a global enterprise through developing new technology."
+            },
+            {
+                "word": "극복하다",
+                "meaning": "to overcome / to surmount",
+                "example_ko": "우리는 서로 힘을 합쳐 경제적 위기를 성공적으로 [극복했다].",
+                "example_en": "We joined forces and successfully overcame the economic crisis."
+            },
+            {
+                "word": "징조",
+                "meaning": "sign / indication / omen",
+                "example_ko": "하늘에 먹구름이 끼는 것은 비가 내릴 [징조]이다.",
+                "example_en": "Dark clouds forming in the sky is a sign that it will rain."
+            },
+            {
+                "word": "고도화되다",
+                "meaning": "to advance / to become sophisticated",
+                "example_ko": "기술이 발전하면서 범죄 수법도 점차 [고도화되고] 있다.",
+                "example_en": "As technology advances, crime methods are also gradually becoming sophisticated."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-13",
+        "published_at": "2026-10-13 06:19",
+        "title": "사우디 공습 여파에 국제유가 급등…브렌트유 최고치 기록",
+        "body": "예멘 후티 반군이 사우디아라비아를 잇따라 공격하면서 중동 지역의 지정학적 위험이 크게 고조되었다. 이에 따라 국제 원유 시장에서 유가가 3거래일 연속으로 상승세를 이어갔다. 현지 시간 12일 선물거래소에서 12월 인도분 브렌트유는 전장보다 1.84% 오른 배럴당 106.65달러에 거래를 마쳤다. 같은 날 뉴욕상업거래소에서 거래된 11월 인도분 서부텍사스산원유 역시 2.06% 상승한 배럴당 93.74달러에 마감했다. 이번 상승으로 브렌트유는 9월 15일 이후, 서부텍사스산원유는 9월 24일 이후 가장 높은 가격을 기록하게 되었다. 전문가들은 사우디를 겨냥한 후티 반군의 공습이 원유 공급 차질에 대한 우려를 자극한 것으로 보고 있다. 후티 반군은 사우디 수도 리야드의 공항을 공격한 데 이어 연일 공습을 이어가고 있다. 여기에 오만 인근 해역과 호르무즈 해협을 지나던 유조선들까지 드론 공격을 받아 긴장이 더해졌다. 이로 인해 잠시 회복세를 보이던 중동 지역의 원유 수출길 운항이 다시 불투명해지며 시장의 불안을 키우고 있다.",
+        "translation": "예멘 후티 반군이 사우디아라비아를 잇따라 공격하면서 중동 지역의 지정학적 위험이 크게 고조되었다.\nAs Yemen's Houthi rebels attacked Saudi Arabia one after another, geopolitical risks in the Middle East escalated significantly.\n\n이에 따라 국제 원유 시장에서 유가가 3거래일 연속으로 상승세를 이어갔다.\nConsequently, oil prices in the international crude market continued their upward trend for three consecutive trading days.\n\n현지 시간 12일 선물거래소에서 12월 인도분 브렌트유는 전장보다 1.84% 오른 배럴당 106.65달러에 거래를 마쳤다.\nOn the 12th local time, Brent crude for December delivery closed at $106.65 per barrel on the futures exchange, up 1.84% from the previous session.\n\n같은 날 뉴욕상업거래소에서 거래된 11월 인도분 서부텍사스산원유 역시 2.06% 상승한 배럴당 93.74달러에 마감했다.\nOn the same day, West Texas Intermediate crude for November delivery traded on the New York Mercantile Exchange also finished at $93.74 per barrel, rising 2.06%.\n\n이번 상승으로 브렌트유는 9월 15일 이후, 서부텍사스산원유는 9월 24일 이후 가장 높은 가격을 기록하게 되었다.\nWith this rise, Brent crude and West Texas Intermediate crude recorded their highest prices since September 15 and September 24, respectively.\n\n전문가들은 사우디를 겨냥한 후티 반군의 공습이 원유 공급 차질에 대한 우려를 자극한 것으로 보고 있다.\nExperts view that the Houthi rebels' airstrikes targeting Saudi Arabia have stimulated concerns over crude oil supply disruptions.\n\n후티 반군은 사우디 수도 리야드의 공항을 공격한 데 이어 연일 공습을 이어가고 있다.\nThe Houthi rebels attacked the airport in the Saudi capital Riyadh and have continued their airstrikes day after day.\n\n여기에 오만 인근 해역과 호르무즈 해협을 지나던 유조선들까지 드론 공격을 받아 긴장이 더해졌다.\nAdding to the tension, oil tankers passing through waters near Oman and the Strait of Hormuz were also attacked by drones.\n\n이로 인해 잠시 회복세를 보이던 중동 지역의 원유 수출길 운항이 다시 불투명해지며 시장의 불안을 키우고 있다.\nAs a result, operations along the Middle East's crude oil export routes, which had briefly shown signs of recovery, became uncertain again, heightening market anxiety.",
+        "vocab": [
+            {
+                "word": "잇따르다",
+                "meaning": "to occur one after another / to succeed continuously",
+                "example_ko": "가을철에는 전국 각지에서 축제가 [잇따라] 열린다.",
+                "example_en": "In autumn, festivals are held one after another across the country."
+            },
+            {
+                "word": "고조되다",
+                "meaning": "to heighten / to escalate / to rise",
+                "example_ko": "중요한 경기를 앞두고 선수들 사이에 긴장감이 [고조되었다].",
+                "example_en": "Tension heightened among the players ahead of the important match."
+            },
+            {
+                "word": "원유",
+                "meaning": "crude oil",
+                "example_ko": "한국은 공장을 돌리기 위해 필요한 [원유]를 대부분 수입한다.",
+                "example_en": "Korea imports most of the crude oil needed to run factories."
+            },
+            {
+                "word": "상승세",
+                "meaning": "upward trend / rising trend",
+                "example_ko": "최근 물가가 가파른 [상승세]를 보이고 있어서 걱정이다.",
+                "example_en": "I am worried because consumer prices have recently shown a steep upward trend."
+            },
+            {
+                "word": "인도분",
+                "meaning": "deliveries / delivery portion",
+                "example_ko": "회사는 다음 달 [인도분] 상품을 만들기 위해 공장을 가동했다.",
+                "example_en": "The company operated the factory to produce goods for next month's delivery."
+            },
+            {
+                "word": "전장",
+                "meaning": "previous trading session / previous market close",
+                "example_ko": "주가가 [전장]보다 소폭 하락하며 장을 마감했다.",
+                "example_en": "Stock prices closed slightly down from the previous trading session."
+            },
+            {
+                "word": "자극하다",
+                "meaning": "to stimulate / to provoke / to spur",
+                "example_ko": "맛있는 음식 냄새가 지나가는 사람들의 식욕을 [자극했다].",
+                "example_en": "The smell of delicious food stimulated the appetite of passersby."
+            },
+            {
+                "word": "공습",
+                "meaning": "airstrike / air raid",
+                "example_ko": "군대는 적의 기지를 무력화하기 위해 기습적인 [공습]을 감행했다.",
+                "example_en": "The military launched a surprise airstrike to neutralize the enemy base."
+            },
+            {
+                "word": "유조선",
+                "meaning": "oil tanker",
+                "example_ko": "거대한 [유조선]이 기름을 가득 싣고 항구에 안전하게 도착했다.",
+                "example_en": "A huge oil tanker arrived safely at the port loaded with oil."
+            },
+            {
+                "word": "불투명하다",
+                "meaning": "to be uncertain / to be opaque",
+                "example_ko": "경제 침체가 지속되면서 청년들의 취업 전망이 여전히 [불투명하다].",
+                "example_en": "As the economic downturn persists, youth employment prospects remain uncertain."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-13",
+        "published_at": "2026-10-13 06:19",
+        "title": "무인 매장 냉동고 전원 뽑아 휴대폰 충전…아이스크림 전량 폐기",
+        "body": "최근 한 무인 아이스크림 매장에서 냉동고 전원이 뽑혀 제품이 모두 녹아내리는 황당한 일이 일어났다. 매장 점주가 공개한 사진에는 한 여성이 냉동고 옆 콘센트 주변에 서 있는 모습이 담겨 있었다. 조사 결과 이 여성은 자신의 휴대전화를 충전하기 위해 무인 매장 냉동고의 전원 코드를 임의로 뽑은 것으로 밝혀졌다. 더욱 큰 문제는 여성이 휴대전화 충전을 마친 뒤에도 전원을 다시 꽂지 않은 채 매장을 떠났다는 점이다. 이로 인해 냉동고 내부 온도가 올라가면서 보관되어 있던 아이스크림이 전부 녹아 상품 가치를 완전히 잃었다. 피해를 본 점주는 냉동고 안의 아이스크림을 전량 폐기 처분할 수밖에 없었다고 억울함을 호소했다. 현재 점주는 해당 여성을 상대로 영업방해 혐의로 고발 절차를 밟고 있는 것으로 전해졌다. 이 같은 소식이 온라인 커뮤니티를 통해 알려지자 누리꾼들은 상식 이하의 행동이라며 거세게 비판했다. 누리꾼들은 점주가 입은 금전적 피해에 대해 반드시 배상을 받아야 마땅하다는 반응을 보였다. 아울러 타인의 영업에 큰 피해를 준 무책임한 행동인 만큼 엄중한 처벌이 뒤따라야 한다고 목소리를 모았다.",
+        "translation": "최근 한 무인 아이스크림 매장에서 냉동고 전원이 뽑혀 제품이 모두 녹아내리는 황당한 일이 일어났다.\nRecently, an absurd incident occurred at an unattended ice cream store where the freezer was unplugged, causing all products to melt.\n\n매장 점주가 공개한 사진에는 한 여성이 냉동고 옆 콘센트 주변에 서 있는 모습이 담겨 있었다.\nIn the photo released by the store owner, a woman was seen standing near an electrical outlet next to the freezer.\n\n조사 결과 이 여성은 자신의 휴대전화를 충전하기 위해 무인 매장 냉동고의 전원 코드를 임의로 뽑은 것으로 밝혀졌다.\nIt was revealed that this woman had arbitrarily unplugged the power cord of the unattended store's freezer to charge her mobile phone.\n\n더욱 큰 문제는 여성이 휴대전화 충전을 마친 뒤에도 전원을 다시 꽂지 않은 채 매장을 떠났다는 점이다.\nThe bigger problem was that even after finishing charging her phone, the woman left the store without plugging the power back in.\n\n이로 인해 냉동고 내부 온도가 올라가면서 보관되어 있던 아이스크림이 전부 녹아 상품 가치를 완전히 잃었다.\nAs a result, as the internal temperature of the freezer rose, all the stored ice cream melted, completely losing its commercial value.\n\n피해를 본 점주는 냉동고 안의 아이스크림을 전량 폐기 처분할 수밖에 없었다고 억울함을 호소했다.\nThe victimized owner appealed to unfairness, stating that they had no choice but to dispose of all the ice cream in the freezer.\n\n현재 점주는 해당 여성을 상대로 영업방해 혐의로 고발 절차를 밟고 있는 것으로 전해졌다.\nIt was reported that the owner is currently proceeding with formal complaint procedures against the woman on charges of obstruction of business.\n\n이 같은 소식이 온라인 커뮤니티를 통해 알려지자 누리꾼들은 상식 이하의 행동이라며 거세게 비판했다.\nWhen this news became known through online communities, netizens fiercely criticized it as behavior below common sense.\n\n누리꾼들은 점주가 입은 금전적 피해에 대해 반드시 배상을 받아야 마땅하다는 반응을 보였다.\nNetizens showed reactions that the owner rightfully must receive compensation for the financial damage suffered.\n\n아울러 타인의 영업에 큰 피해를 준 무책임한 행동인 만큼 엄중한 처벌이 뒤따라야 한다고 목소리를 모았다.\nFurthermore, they united their voices saying that strict punishment must follow, as it was irresponsible behavior that caused great damage to another person's business.",
+        "vocab": [
+            {
+                "word": "무인",
+                "meaning": "unattended / unmanned",
+                "example_ko": "요즘 동네에 직원이 없는 [무인] 편의점이 점점 늘어나고 있다.",
+                "example_en": "These days, unmanned convenience stores without staff are increasing in the neighborhood."
+            },
+            {
+                "word": "황당하다",
+                "meaning": "to be absurd / to be nonsensical",
+                "example_ko": "약속 장소에 아무도 나오지 않아서 정말 [황당했다].",
+                "example_en": "It was truly absurd because no one showed up at the meeting place."
+            },
+            {
+                "word": "점주",
+                "meaning": "store owner / shopkeeper",
+                "example_ko": "친절한 [점주] 덕분에 가게를 찾는 단골손님이 많아졌다.",
+                "example_en": "Thanks to the friendly store owner, regular customers visiting the shop increased."
+            },
+            {
+                "word": "임의로",
+                "meaning": "arbitrarily / at one's discretion without permission",
+                "example_ko": "다른 사람의 물건을 허락 없이 [임의로] 가져가면 안 된다.",
+                "example_en": "You must not arbitrarily take someone else's belonging without permission."
+            },
+            {
+                "word": "전량",
+                "meaning": "the entire quantity / whole amount",
+                "example_ko": "결함이 발견된 스마트폰은 안전을 위해 [전량] 리콜되었다.",
+                "example_en": "The smartphones found with defects were recalled in their entire quantity for safety."
+            },
+            {
+                "word": "폐기하다",
+                "meaning": "to discard / to dispose of / to scrap",
+                "example_ko": "유통기한이 지난 우유는 건강을 위해 즉시 [폐기해야] 한다.",
+                "example_en": "Milk past its expiration date must be disposed of immediately for health reasons."
+            },
+            {
+                "word": "호소하다",
+                "meaning": "to appeal / to plead",
+                "example_ko": "환자는 의사에게 극심한 통증을 [호소하며] 도움을 요청했다.",
+                "example_en": "The patient pleaded with the doctor, appealing about severe pain and asking for help."
+            },
+            {
+                "word": "영업방해",
+                "meaning": "obstruction of business",
+                "example_ko": "가게 앞에서 큰 소리로 소란을 피우면 [영업방해]에 해당한다.",
+                "example_en": "Making a loud disturbance in front of a shop amounts to obstruction of business."
+            },
+            {
+                "word": "고발하다",
+                "meaning": "to report / to lodge an accusation / to accuse",
+                "example_ko": "시민들은 불법으로 쓰레기를 버린 사람을 경찰에 [고발했다].",
+                "example_en": "Citizens reported the person who dumped garbage illegally to the police."
+            },
+            {
+                "word": "배상",
+                "meaning": "compensation / indemnification",
+                "example_ko": "교통사고를 낸 운전자는 피해자에게 수리비를 [배상]해 주었다.",
+                "example_en": "The driver who caused the car accident paid compensation for the repair costs to the victim."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-13",
+        "published_at": "2026-10-13 06:19",
+        "title": "프랑스 대형 슈퍼마켓 냉장고 50도로 해킹…유럽 식량 안보 비상",
+        "body": "프랑스 전역의 주요 슈퍼마켓 체인 냉장고 온도를 최고 50도까지 끌어올리는 대규모 사이버 공격이 발생했다. 이번 해킹으로 수백 개에 달하는 대형 매장이 피해를 보면서 대량의 식품이 부패할 위험에 처했다. 파리 검찰청은 주요 식품 유통업체 여러 곳이 공격의 대상이 되었다고 밝혔으며, 총리는 국가사이버보안청에 조사를 지시했다. 유통업체 까르푸는 80개 점포가 피해를 입었고 다른 유명 슈퍼마켓 체인들도 매장 곳곳에서 냉장 시스템 이상을 겪었다. 앵테르마르셰를 운영하는 한 업체는 밤사이 냉장고 온도가 치솟아 보건상 위험이 발생하자 영향을 받은 신선식품을 전량 폐기 처분했다. 유통업계 관계자들은 국민의 식량 공급과 보존에 필수적인 장비를 노린 이번 공격이 매우 심각하고 전례 없는 사태라고 지적했다. 시스템 관리를 맡고 있는 덴마크 냉장 전문 업체는 피해를 줄이기 위해 각 고객사와 긴밀히 협력하고 있다고 밝혔다. 프랑스뿐만 아니라 독일, 스페인, 벨기에 등 유럽 다른 국가의 매장들도 유사한 공격을 받았을 가능성이 제기되고 있다. 유럽연합 고위 당국자는 식량 악용이 이제 현실적인 위협이 되었다며 식량 안보에 대한 국제적인 관심과 대응을 강력히 촉구했다.",
+        "translation": "프랑스 전역의 주요 슈퍼마켓 체인 냉장고 온도를 최고 50도까지 끌어올리는 대규모 사이버 공격이 발생했다.\nA large-scale cyberattack occurred across France, raising the temperatures of refrigerators at major supermarket chains up to 50 degrees Celsius.\n\n이번 해킹으로 수백 개에 달하는 대형 매장이 피해를 보면서 대량의 식품이 부패할 위험에 처했다.\nWith hundreds of large stores suffering damage from this hacking, large quantities of food were put at risk of spoiling.\n\n파리 검찰청은 주요 식품 유통업체 여러 곳이 공격의 대상이 되었다고 밝혔으며, 총리는 국가사이버보안청에 조사를 지시했다.\nThe Paris Prosecutor's Office announced that multiple major food distributors became targets of the attack, and the Prime Minister ordered the National Cybersecurity Agency to investigate.\n\n유통업체 까르푸는 80개 점포가 피해를 입었고 다른 유명 슈퍼마켓 체인들도 매장 곳곳에서 냉장 시스템 이상을 겪었다.\nRetailer Carrefour suffered damage in 80 stores, and other famous supermarket chains also experienced cooling system malfunctions across their locations.\n\n앵테르마르셰를 운영하는 한 업체는 밤사이 냉장고 온도가 치솟아 보건상 위험이 발생하자 영향을 받은 신선식품을 전량 폐기 처분했다.\nA company running Intermarché disposed of all affected fresh food after refrigerator temperatures soared overnight, creating health hazards.\n\n유통업계 관계자들은 국민의 식량 공급과 보존에 필수적인 장비를 노린 이번 공격이 매우 심각하고 전례 없는 사태라고 지적했다.\nRetail industry officials pointed out that this attack targeting equipment essential for national food supply and preservation is an extremely serious and unprecedented incident.\n\n시스템 관리를 맡고 있는 덴마크 냉장 전문 업체는 피해를 줄이기 위해 각 고객사와 긴밀히 협력하고 있다고 밝혔다.\nA Danish refrigeration specialist company in charge of system management stated that it is cooperating closely with clients to mitigate damages.\n\n프랑스뿐만 아니라 독일, 스페인, 벨기에 등 유럽 다른 국가의 매장들도 유사한 공격을 받았을 가능성이 제기되고 있다.\nPossibilities have been raised that stores in other European countries, including Germany, Spain, and Belgium, may also have suffered similar attacks.\n\n유럽연합 고위 당국자는 식량 악용이 이제 현실적인 위협이 되었다며 식량 안보에 대한 국제적인 관심과 대응을 강력히 촉구했다.\nA high-ranking European Union official urged strong international attention and response regarding food security, noting that weaponizing food has now become a realistic threat.",
+        "vocab": [
+            {
+                "word": "유통업체",
+                "meaning": "distributor / retail distributor",
+                "example_ko": "그 대형 [유통업체]는 전국에 신선한 채소를 빠르게 공급한다.",
+                "example_en": "That large retail distributor quickly supplies fresh vegetables nationwide."
+            },
+            {
+                "word": "부패하다",
+                "meaning": "to spoil / to rot / to decay",
+                "example_ko": "여름철에는 음식이 쉽게 [부패하므로] 냉장 보관을 해야 한다.",
+                "example_en": "In the summer, food spoils easily, so it must be kept refrigerated."
+            },
+            {
+                "word": "점포",
+                "meaning": "store / shop / retail branch",
+                "example_ko": "우리 회사는 올해 전국에 새로운 [점포]를 열 개 더 열기로 했다.",
+                "example_en": "Our company decided to open ten more new stores nationwide this year."
+            },
+            {
+                "word": "치솟다",
+                "meaning": "to soar / to skyrocket / to shoot up",
+                "example_ko": "가뭄 때문에 채소 가격이 평소보다 두 배 이상 [치솟았다].",
+                "example_en": "Vegetable prices soared more than twice as much as usual due to the drought."
+            },
+            {
+                "word": "보건",
+                "meaning": "health / sanitation / public health",
+                "example_ko": "정부는 국민의 건강을 지키기 위해 [보건] 관리를 강화하고 있다.",
+                "example_en": "The government is strengthening public health management to protect citizens' health."
+            },
+            {
+                "word": "보존",
+                "meaning": "preservation / conservation",
+                "example_ko": "고대 유적지의 원래 모습을 지키기 위해 철저한 [보존] 작업이 필요하다.",
+                "example_en": "Thorough preservation work is needed to protect the original appearance of ancient ruins."
+            },
+            {
+                "word": "전례",
+                "meaning": "precedent",
+                "example_ko": "이번 사건은 법원에서 이전에 비슷한 [전례]를 찾아보기 어렵다.",
+                "example_en": "In this case, it is difficult to find a similar precedent previously in the court."
+            },
+            {
+                "word": "완화",
+                "meaning": "mitigation / easing / relief",
+                "example_ko": "의사는 환자의 고통을 줄이기 위해 통증 [완화] 치료를 시작했다.",
+                "example_en": "The doctor began pain relief treatment to reduce the patient's suffering."
+            },
+            {
+                "word": "악용",
+                "meaning": "misuse / abuse / exploitation",
+                "example_ko": "기술이 발전하면서 개인정보를 나쁜 목적에 [악용]하는 사례가 늘었다.",
+                "example_en": "As technology develops, cases of misusing personal information for bad purposes have increased."
+            },
+            {
+                "word": "안보",
+                "meaning": "security / national security",
+                "example_ko": "평화로운 일상을 지키기 위해서는 국가의 [안보]가 튼튼해야 한다.",
+                "example_en": "To maintain a peaceful daily life, a nation's security must be robust."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-12",
         "published_at": "2026-10-12 18:26",
         "title": "이재명 대통령, 이란 등 8개국 신임 대사로부터 신임장 접수",

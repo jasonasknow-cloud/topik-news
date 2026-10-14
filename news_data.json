@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-15",
+        "published_at": "2026-10-15 06:29",
+        "title": "주한미군사령관, 전작권 전환 조건 변화 언급하며 새 기준 강조",
+        "body": "제이비어 브런슨 주한미군사령관은 한미 양국이 합의한 전시작전통제권 전환 조건이 변화했다고 밝혔다. 브런슨 사령관은 미국 워싱턴에서 열린 세미나에서 자신은 동맹 현대화를 위한 전작권 전환 찬성론자라고 말했다. 그러나 과거에 설정된 조건들을 위반하는 것에는 반대한다는 입장을 분명히 했다. 그는 최근 북한의 잦은 미사일 발사 등 안보 환경이 바뀌었고 계획이 변경됨에 따라 새로운 기준이 생겼다고 설명했다. 이번 발언은 북한의 군사적 도발로 인해 전작권 전환 조건이 아직 완전히 충족되지 않았음을 시사한 것으로 풀이된다. 현재 한국 정부는 필요한 역량이 충분히 갖춰졌다며 조속한 전환을 추진하고 있다. 반면에 미국 측은 안보 상황과 핵심 작전 능력을 고려할 때 아직 조건이 충족되지 않았다고 판단하며 이견을 보이고 있다. 전작권 전환 기준과 시기를 둘러싼 양국의 조율이 향후 중요한 외교 안보 과제로 떠오르고 있다.",
+        "translation": "제이비어 브런슨 주한미군사령관은 한미 양국이 합의한 전시작전통제권 전환 조건이 변화했다고 밝혔다.\nGeneral Xavier Brunson, commander of the Republic of Korea-United States Combined Forces Command, stated that the conditions agreed upon by South Korea and the United States for the transition of wartime operational control have changed.\n\n브런슨 사령관은 미국 워싱턴에서 열린 세미나에서 자신은 동맹 현대화를 위한 전작권 전환 찬성론자라고 말했다.\nDuring a seminar held in Washington, Commander Brunson said that he is a proponent of the wartime operational control transition to modernize the alliance.\n\n그러나 과거에 설정된 조건들을 위반하는 것에는 반대한다는 입장을 분명히 했다.\nHowever, he made it clear that he opposes violating the conditions established in the past.\n\n그는 최근 북한의 잦은 미사일 발사 등 안보 환경이 바뀌었고 계획이 변경됨에 따라 새로운 기준이 생겼다고 설명했다.\nHe explained that new standards have emerged as the security environment changed due to North Korea's recent frequent missile launches and the plan was altered.\n\n이번 발언은 북한의 군사적 도발로 인해 전작권 전환 조건이 아직 완전히 충족되지 않았음을 시사한 것으로 풀이된다.\nHis remarks are interpreted as suggesting that the conditions for the transition have not yet been fully met due to North Korea's military provocations.\n\n현재 한국 정부는 필요한 역량이 충분히 갖춰졌다며 조속한 전환을 추진하고 있다.\nCurrently, the South Korean government is pushing for a prompt transition, arguing that the necessary capabilities have been sufficiently secured.\n\n반면에 미국 측은 안보 상황과 핵심 작전 능력을 고려할 때 아직 조건이 충족되지 않았다고 판단하며 이견을 보이고 있다.\nOn the other hand, the U.S. side maintains that the conditions have not yet been met when considering the security situation and core operational capabilities, revealing a difference in opinion.\n\n전작권 전환 기준과 시기를 둘러싼 양국의 조율이 향후 중요한 외교 안보 과제로 떠오르고 있다.\nCoordinating the criteria and timing of the wartime operational control transition is emerging as an important foreign affairs and security task for both nations in the future.",
+        "vocab": [
+            {
+                "word": "합의하다",
+                "meaning": "to agree, to reach an agreement",
+                "example_ko": "노사는 오랜 대화 끝에 새로운 근로 조건에 [합의했다].",
+                "example_en": "Labor and management agreed on new working conditions after a long discussion."
+            },
+            {
+                "word": "동맹",
+                "meaning": "alliance, partnership",
+                "example_ko": "두 나라는 안보를 지키기 위해 군사 [동맹]을 맺었다.",
+                "example_en": "The two countries formed a military alliance to protect security."
+            },
+            {
+                "word": "설정되다",
+                "meaning": "to be established, to be set",
+                "example_ko": "이 구역은 안전을 위해 보호 구역으로 [설정되었다].",
+                "example_en": "This area was established as a protected zone for safety."
+            },
+            {
+                "word": "위반하다",
+                "meaning": "to violate, to breach",
+                "example_ko": "교통 법규를 [위반하면] 벌금을 내야 한다.",
+                "example_en": "If you violate traffic regulations, you have to pay a fine."
+            },
+            {
+                "word": "도발",
+                "meaning": "provocation",
+                "example_ko": "적의 갑작스러운 [도발]에 군대는 즉시 대응했다.",
+                "example_en": "The military responded immediately to the enemy's sudden provocation."
+            },
+            {
+                "word": "시사하다",
+                "meaning": "to imply, to suggest",
+                "example_ko": "전문가의 발언은 향후 정책의 변화를 [시사한다].",
+                "example_en": "The expert's comment implies a future change in policy."
+            },
+            {
+                "word": "충족되다",
+                "meaning": "to be satisfied, to be met (criteria/conditions)",
+                "example_ko": "지원 자격이 [충족되면] 다음 단계 면접을 볼 수 있다.",
+                "example_en": "If the application qualifications are met, you can take the next-round interview."
+            },
+            {
+                "word": "역량",
+                "meaning": "capability, competence",
+                "example_ko": "새로운 프로젝트를 성공시키려면 직원의 [역량]을 키워야 한다.",
+                "example_en": "To make the new project successful, we must develop the employees' capabilities."
+            },
+            {
+                "word": "이견",
+                "meaning": "difference of opinion, disagreement",
+                "example_ko": "양측은 예산 문제를 두고 서로 [이견]을 보이고 있다.",
+                "example_en": "Both sides are showing differences of opinion over budget issues."
+            },
+            {
+                "word": "조율",
+                "meaning": "coordination, mediation, fine-tuning",
+                "example_ko": "회의를 통해 부서 간의 업무 일정을 [조율]했다.",
+                "example_en": "We coordinated work schedules among departments through a meeting."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-15",
+        "published_at": "2026-10-15 06:29",
+        "title": "트럼프, 한국의 500억 달러 알래스카 LNG 투자 거듭 주장",
+        "body": "도널드 트럼프 미국 대통령이 한국이 알래스카 액화천연가스 개발 사업에 500억 달러를 투자하기로 했다고 재차 주장했다. 트럼프 대통령은 최근 알래스카 유세를 마친 뒤 자신의 소셜미디어를 통해 이번 대규모 인프라 프로젝트 출범 소식을 알렸다. 그는 한국의 막대한 투자가 양국 간 무역 및 투자 합의의 일환이라고 강조했다. 또한 이번 프로젝트가 수만 개의 일자리를 만들고 주민들의 에너지 비용을 크게 절감할 것이라고 덧붙였다. 그러나 한국 정부는 상업적 합리성을 검토하는 단계이며 구체적인 투자 확정에 대해 신중한 태도를 유지하고 있다. 전문가들은 미국 중간선거를 앞두고 트럼프 대통령이 자신의 경제적 치적을 홍보하기 위해 이러한 주장을 이어가는 것으로 분석한다. 한국 정부의 공식 입장과 차이가 있는 만큼 향후 양국 간의 실제 투자 협상 과정에 관심이 쏠리고 있다.",
+        "translation": "도널드 트럼프 미국 대통령이 한국이 알래스카 액화천연가스 개발 사업에 500억 달러를 투자하기로 했다고 재차 주장했다.\nU.S. President Donald Trump reiterated his claim that South Korea has agreed to invest 50 billion dollars in the Alaska liquefied natural gas development project.\n\n트럼프 대통령은 최근 알래스카 유세를 마친 뒤 자신의 소셜미디어를 통해 이번 대규모 인프라 프로젝트 출범 소식을 알렸다.\nPresident Trump announced the launch of this massive infrastructure project through his social media after concluding a campaign rally in Alaska.\n\n그는 한국의 막대한 투자가 양국 간 무역 및 투자 합의의 일환이라고 강조했다.\nHe emphasized that South Korea's massive investment is part of a bilateral trade and investment agreement.\n\n또한 이번 프로젝트가 수만 개의 일자리를 만들고 주민들의 에너지 비용을 크게 절감할 것이라고 덧붙였다.\nHe also added that this project will create tens of thousands of jobs and significantly reduce energy costs for local residents.\n\n그러나 한국 정부는 상업적 합리성을 검토하는 단계이며 구체적인 투자 확정에 대해 신중한 태도를 유지하고 있다.\nHowever, the South Korean government is at the stage of reviewing commercial feasibility and maintains a cautious stance on confirming specific investments.\n\n전문가들은 미국 중간선거를 앞두고 트럼프 대통령이 자신의 경제적 치적을 홍보하기 위해 이러한 주장을 이어가는 것으로 분석한다.\nExperts analyze that President Trump continues to make such claims to promote his economic achievements ahead of the U.S. midterm elections.\n\n한국 정부의 공식 입장과 차이가 있는 만큼 향후 양국 간의 실제 투자 협상 과정에 관심이 쏠리고 있다.\nAs there is a gap with the South Korean government's official position, attention is focused on the actual investment negotiation process between the two nations moving forward.",
+        "vocab": [
+            {
+                "word": "출범",
+                "meaning": "launch, inception, kick-off",
+                "example_ko": "새로운 정부 위원회가 오늘 공식적으로 [출범]했다.",
+                "example_en": "A new government committee was officially launched today."
+            },
+            {
+                "word": "막대하다",
+                "meaning": "huge, enormous, colossal",
+                "example_ko": "태풍으로 인해 농가들이 [막대한] 피해를 입었다.",
+                "example_en": "Farms suffered enormous damage due to the typhoon."
+            },
+            {
+                "word": "일환",
+                "meaning": "part (of a broader whole/plan)",
+                "example_ko": "이번 행사는 환경 보호 운동의 [일환]으로 준비되었다.",
+                "example_en": "This event was prepared as part of the environmental protection movement."
+            },
+            {
+                "word": "창출하다",
+                "meaning": "to create (jobs, value)",
+                "example_ko": "신기술 개발은 새로운 일자리를 많이 [창출한다].",
+                "example_en": "Developing new technologies creates many new jobs."
+            },
+            {
+                "word": "절감하다",
+                "meaning": "to reduce, to cut down (costs/expenses)",
+                "example_ko": "기업들은 생산 비용을 [절감하려고] 노력하고 있다.",
+                "example_en": "Companies are trying to cut down production costs."
+            },
+            {
+                "word": "합리성",
+                "meaning": "rationality, feasibility, reasonableness",
+                "example_ko": "투자 결정을 내리기 전에 경제적 [합리성]을 따져봐야 한다.",
+                "example_en": "Before making an investment decision, one must examine its economic feasibility."
+            },
+            {
+                "word": "신중하다",
+                "meaning": "cautious, discreet, prudent",
+                "example_ko": "계약서에 서명할 때는 매우 [신중해야] 한다.",
+                "example_en": "You must be very cautious when signing a contract."
+            },
+            {
+                "word": "기정사실",
+                "meaning": "an established fact, a foregone conclusion",
+                "example_ko": "그는 아직 결정되지 않은 일을 [기정사실]로 받아들였다.",
+                "example_en": "He accepted an undecided matter as a foregone conclusion."
+            },
+            {
+                "word": "접전",
+                "meaning": "close contest, tight race",
+                "example_ko": "두 후보는 이번 선거에서 치열한 [접전]을 벌이고 있다.",
+                "example_en": "The two candidates are engaged in a fierce close race in this election."
+            },
+            {
+                "word": "치적",
+                "meaning": "achievement, administrative accomplishment",
+                "example_ko": "시장은 임기 동안 이룬 [치적]을 주민들에게 설명했다.",
+                "example_en": "The mayor explained to residents the achievements accomplished during his term."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-15",
+        "published_at": "2026-10-15 06:29",
+        "title": "인천 대형 상가 흉기 난동 피의자, 과거 살인미수 전력 드러나",
+        "body": "인천의 한 대형 상업시설에서 흉기 난동을 벌여 시민 10명을 다치게 한 50대 남성이 과거에도 수차례 흉기 범죄를 저질렀던 것으로 드러났다. 법원 판결문에 따르면 피의자는 2004년에 부동산 직원을 흉기로 찔러 살해하려 했으나 피해자와 합의했다는 이유로 집행유예를 선고받았다. 이후 2007년과 2015년에도 동거했던 여성을 흉기로 공격해 실형을 살았다. 당시 재판부는 피의자의 살인 재범 위험성이 높다고 판단해 출소 후 전자발찌 부착 명령을 내렸다. 하지만 피의자는 복역을 마치고 전자발찌를 찬 상태에서 또다시 불특정 다수의 시민을 향해 흉기를 휘둘렀다. 피해자 중 한 명은 심정지 상태로 병원에 이송되었으며 현재까지 의식을 되찾지 못하고 있다. 경찰은 피의자에게 살인미수와 공공장소 흉기 소지 혐의를 적용해 구속영장을 신청했다. 강력 범죄 전력자에 대한 관리 체계와 솜방망이 처벌에 대한 비판이 커지고 있다.",
+        "translation": "인천의 한 대형 상업시설에서 흉기 난동을 벌여 시민 10명을 다치게 한 50대 남성이 과거에도 수차례 흉기 범죄를 저질렀던 것으로 드러났다.\nIt was revealed that a man in his 50s, who injured 10 citizens during a knife rampage at a large commercial facility in Incheon, had committed multiple knife crimes in the past as well.\n\n법원 판결문에 따르면 피의자는 2004년에 부동산 직원을 흉기로 찔러 살해하려 했으나 피해자와 합의했다는 이유로 집행유예를 선고받았다.\nAccording to court rulings, the suspect attempted to kill a real estate agency employee by stabbing them with a fruit knife in 2004, but was given a suspended sentence on the grounds that he settled with the victim.\n\n이후 2007년과 2015년에도 동거했던 여성을 흉기로 공격해 실형을 살았다.\nAfterward, he served prison sentences for attacking a former cohabiting partner with a deadly weapon in both 2007 and 2015.\n\n당시 재판부는 피의자의 살인 재범 위험성이 높다고 판단해 출소 후 전자발찌 부착 명령을 내렸다.\nAt that time, the court determined that the suspect's risk of repeating murder was high and ordered him to wear an electronic ankle monitor after release from prison.\n\n하지만 피의자는 복역을 마치고 전자발찌를 찬 상태에서 또다시 불특정 다수의 시민을 향해 흉기를 휘둘렀다.\nHowever, after completing his prison term, the suspect brandished a knife toward an unspecified number of citizens once again while wearing the electronic monitor.\n\n피해자 중 한 명은 심정지 상태로 병원에 이송되었으며 현재까지 의식을 되찾지 못하고 있다.\nOne of the victims was transported to a hospital in cardiac arrest and has not regained consciousness to this day.\n\n경찰은 피의자에게 살인미수와 공공장소 흉기 소지 혐의를 적용해 구속영장을 신청했다.\nPolice applied charges of attempted murder and carrying a weapon in a public place against the suspect and requested an arrest warrant.\n\n강력 범죄 전력자에 대한 관리 체계와 솜방망이 처벌에 대한 비판이 커지고 있다.\nCriticism is mounting over the management system for repeat violent offenders and overly lenient punishments.",
+        "vocab": [
+            {
+                "word": "저지르다",
+                "meaning": "to commit (a crime or mistake)",
+                "example_ko": "순간의 잘못된 판단으로 큰 범죄를 [저질렀다].",
+                "example_en": "He committed a major crime due to a momentary poor judgment."
+            },
+            {
+                "word": "살인미수",
+                "meaning": "attempted murder",
+                "example_ko": "범인은 타인을 다치게 한 혐의로 [살인미수]죄를 적용받았다.",
+                "example_en": "The criminal was charged with attempted murder for injuring another person."
+            },
+            {
+                "word": "집행유예",
+                "meaning": "suspended sentence, probation",
+                "example_ko": "초범이고 반성하고 있다는 이유로 징역형의 [집행유예]를 받았다.",
+                "example_en": "He received a suspended prison sentence because he was a first-time offender and showed remorse."
+            },
+            {
+                "word": "감형하다",
+                "meaning": "to commute or reduce a sentence",
+                "example_ko": "법원은 피해자와 합의한 점을 참작하여 형량을 [감형했다].",
+                "example_en": "The court reduced the sentence considering the settlement reached with the victim."
+            },
+            {
+                "word": "재범",
+                "meaning": "repeat offense, recidivism",
+                "example_ko": "범죄자의 [재범]을 막기 위해 교화 교육을 강화해야 한다.",
+                "example_en": "Correctional education must be strengthened to prevent criminals from committing repeat offenses."
+            },
+            {
+                "word": "복역",
+                "meaning": "serving a prison term",
+                "example_ko": "그는 3년간의 [복역]을 마치고 지난달 교도소에서 출소했다.",
+                "example_en": "He was released from prison last month after completing three years of serving his sentence."
+            },
+            {
+                "word": "휘두르다",
+                "meaning": "to brandish, to swing (a weapon)",
+                "example_ko": "위험한 물건을 함부로 [휘두르면] 다른 사람이 다칠 수 있다.",
+                "example_en": "If you recklessly swing a dangerous object, someone could get hurt."
+            },
+            {
+                "word": "의식불명",
+                "meaning": "state of unconsciousness, coma",
+                "example_ko": "교통사고를 당한 환자는 며칠째 [의식불명] 상태에 빠져 있다.",
+                "example_en": "The patient who suffered a traffic accident has been in a state of unconsciousness for days."
+            },
+            {
+                "word": "구속영장",
+                "meaning": "arrest warrant",
+                "example_ko": "경찰은 도주 우려가 있는 용의자에 대해 [구속영장]을 신청했다.",
+                "example_en": "The police requested an arrest warrant for the suspect who was considered a flight risk."
+            },
+            {
+                "word": "전력",
+                "meaning": "previous record, past history (of crime)",
+                "example_ko": "피의자는 과거에도 여러 번 절도를 저지른 [전력]이 있다.",
+                "example_en": "The suspect has a previous record of committing theft several times in the past."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-15",
+        "published_at": "2026-10-15 06:29",
+        "title": "머스크, 우크라이나 스타실드 속도 제한 논란에 미 정부 소관 강조",
+        "body": "일론 머스크 스페이스X 최고경영자가 우크라이나에서 불거진 군용 통신망 스타실드의 속도 제한 논란에 대해 해명했다. 머스크는 소셜미디어를 통해 스타실드 시스템은 미국 정부가 소유하고 통제하는 자산이라고 밝혔다. 따라서 서비스의 속도나 사용에 대한 모든 제한 결정은 미군 당국과 대통령의 권한이라고 선을 그었다. 민간 상업용 서비스인 일반 스타링크에 대해서는 방어적인 용도로만 사용해야 하며 공격 작전에 투입하는 것은 부적절하다고 설명했다. 앞서 우크라이나 정부 관계자들은 사전 통보 없이 스타실드에 속도 제한이 걸렸다며 강한 불만을 나타냈다. 우크라이나군은 러시아와의 전쟁에서 무인기 작전을 수행할 때 스타실드 통신망에 크게 의존하고 있다. 이러한 통신 속도 저하는 전장 상황에 직접적이고 치명적인 영향을 미칠 수 있다. 이에 따라 우크라이나 측은 자국의 방어를 위해 스타실드의 속도 제한을 전면 해제해 줄 것을 강력히 요청하고 있다.",
+        "translation": "일론 머스크 스페이스X 최고경영자가 우크라이나에서 불거진 군용 통신망 스타실드의 속도 제한 논란에 대해 해명했다.\nElon Musk, CEO of SpaceX, gave an explanation regarding the controversy that arose in Ukraine over speed restrictions on Starshield, a military communication network.\n\n머스크는 소셜미디어를 통해 스타실드 시스템은 미국 정부가 소유하고 통제하는 자산이라고 밝혔다.\nMusk stated through social media that the Starshield system is an asset owned and controlled by the U.S. government.\n\n따라서 서비스의 속도나 사용에 대한 모든 제한 결정은 미군 당국과 대통령의 권한이라고 선을 그었다.\nTherefore, he drew the line by stating that any decisions regarding restrictions on the speed or usage of the service are the authority of the U.S. military authorities and the president.\n\n민간 상업용 서비스인 일반 스타링크에 대해서는 방어적인 용도로만 사용해야 하며 공격 작전에 투입하는 것은 부적절하다고 설명했다.\nRegarding the regular Starlink, which is a commercial service for civilians, he explained that it should only be used for defensive purposes and that deploying it for offensive operations is inappropriate.\n\n앞서 우크라이나 정부 관계자들은 사전 통보 없이 스타실드에 속도 제한이 걸렸다며 강한 불만을 나타냈다.\nPreviously, Ukrainian government officials expressed strong dissatisfaction, saying that speed limits were placed on Starshield without prior notice.\n\n우크라이나군은 러시아와의 전쟁에서 무인기 작전을 수행할 때 스타실드 통신망에 크게 의존하고 있다.\nThe Ukrainian military relies heavily on the Starshield communication network when carrying out drone operations in the war with Russia.\n\n이러한 통신 속도 저하는 전장 상황에 직접적이고 치명적인 영향을 미칠 수 있다.\nSuch degradation of communication speed can have a direct and fatal impact on battlefield situations.\n\n이에 따라 우크라이나 측은 자국의 방어를 위해 스타실드의 속도 제한을 전면 해제해 줄 것을 강력히 요청하고 있다.\nAccordingly, the Ukrainian side is strongly requesting the full lifting of the speed limits on Starshield for the defense of their country.",
+        "vocab": [
+            {
+                "word": "불거지다",
+                "meaning": "to surface, to arise (an issue or controversy)",
+                "example_ko": "선거를 앞두고 후보자의 자격에 대한 논란이 [불거졌다].",
+                "example_en": "Ahead of the election, controversy arose over the candidate's qualifications."
+            },
+            {
+                "word": "소관",
+                "meaning": "jurisdiction, purview, responsibility",
+                "example_ko": "이 민원 업무는 우리 부서의 [소관]이 아니므로 담당 부서로 연결해 드리겠습니다.",
+                "example_en": "Since this civil complaint is not under our department's jurisdiction, I will connect you to the responsible department."
+            },
+            {
+                "word": "부적절하다",
+                "meaning": "inappropriate, improper",
+                "example_ko": "공식 석상에서 그러한 거친 표현을 쓰는 것은 매우 [부적절하다].",
+                "example_en": "Using such harsh language on an official occasion is very inappropriate."
+            },
+            {
+                "word": "복구되다",
+                "meaning": "to be restored, to recover",
+                "example_ko": "폭우로 끊겼던 통신망이 밤새 정상적으로 [복구되었다].",
+                "example_en": "The communication network that had been disconnected by heavy rain was normally restored overnight."
+            },
+            {
+                "word": "해제하다",
+                "meaning": "to lift, to remove (a ban or restriction)",
+                "example_ko": "정부는 태풍 위험이 사라지자 비상 경보를 [해제했다].",
+                "example_en": "The government lifted the emergency alert once the typhoon danger subsided."
+            },
+            {
+                "word": "시급하다",
+                "meaning": "urgent, pressing",
+                "example_ko": "화재 현장에 갇힌 주민들을 구출하는 일이 가장 [시급하다].",
+                "example_en": "Rescuing residents trapped at the fire scene is the most urgent task."
+            },
+            {
+                "word": "통보",
+                "meaning": "notification, notice",
+                "example_ko": "회의 일정이 변경되면 참석자들에게 미리 [통보]해 주시기 바랍니다.",
+                "example_en": "Please notify attendees in advance if the meeting schedule changes."
+            },
+            {
+                "word": "의존하다",
+                "meaning": "to rely on, to depend on",
+                "example_ko": "그 나라는 천연자원 수출에 경제를 지나치게 [의존한다].",
+                "example_en": "That country relies too heavily on natural resource exports for its economy."
+            },
+            {
+                "word": "치명적",
+                "meaning": "fatal, lethal, critical",
+                "example_ko": "작은 실수가 전체 시스템 운영에 [치명적인] 결함을 부를 수 있다.",
+                "example_en": "A small mistake can cause a fatal flaw in the overall operation of the system."
+            },
+            {
+                "word": "전세",
+                "meaning": "the tide of war, the war situation",
+                "example_ko": "새로운 무기의 투입으로 아군에게 유리하게 [전세]가 바뀌었다.",
+                "example_en": "With the deployment of new weapons, the tide of war turned favorably for our forces."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-14",
         "published_at": "2026-10-14 18:36",
         "title": "임광현 비서실장 임명에 여야 극명한 시각차… 공방 가열",

@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-10-15",
+        "published_at": "2026-10-15 18:36",
+        "title": "국회 국정감사서 대법관 재제청과 증인 채택 두고 여야 충돌 격화",
+        "body": "국회 국정감사장에서 대법관 후보 재제청과 핵심 증인 채택 문제 등을 둘러싸고 여야의 충돌이 격화되었다. 국회 법제사법위원회에서는 조희대 대법원장의 대법관 후보 재제청 거부 사태를 두고 여야 간에 거센 난타전이 벌어졌다. 더불어민주당은 대법원장의 재제청 요청 거부가 명백한 직무 유기이자 탄핵 사유라며 강력하게 비판했다. 반면 국민의힘은 헌법상 대법관 제청권이 대통령의 임명권을 견제하기 위한 합법적 수단이라며 맞섰다. 또한 법사위에서는 대통령의 불소추특권을 둘러싸고 여야 의원들 사이에 거친 막말이 오가며 갈등이 깊어졌다. 국토교통위원회에서도 문재인 정부 시절의 민간인 불법 사찰 의혹과 관련된 증인 채택을 두고 여야가 대립했다. 국민의힘이 전직 장관의 증인 출석을 요구하자 야당은 다른 주요 인사를 부르겠다며 맞불을 놓아 신경전이 이어졌다. 기후에너지환경노동위원회 역시 공공기관장들의 인사 자료 미제출을 둘러싸고 반말과 삿대질이 오가며 한때 파행을 겪었다. 한편 과학기술정보방송통신위원회는 주요 정보기술 기업의 대표들을 종합감사 증인으로 추가 채택하기로 결정했다.",
+        "translation": "국회 국정감사장에서 대법관 후보 재제청과 핵심 증인 채택 문제 등을 둘러싸고 여야의 충돌이 격화되었다.\nClashes between the ruling and opposition parties intensified at the National Assembly audit over issues such as the re-nomination of Supreme Court justice candidates and the adoption of key witnesses.\n\n국회 법제사법위원회에서는 조희대 대법원장의 대법관 후보 재제청 거부 사태를 두고 여야 간에 거센 난타전이 벌어졌다.\nIn the Legislation and Judiciary Committee of the National Assembly, a fierce slugfest broke out between the ruling and opposition parties over Chief Justice Cho Hee-dae's refusal to re-nominate a Supreme Court justice candidate.\n\n더불어민주당은 대법원장의 재제청 요청 거부가 명백한 직무 유기이자 탄핵 사유라며 강력하게 비판했다.\nThe Democratic Party of Korea strongly criticized the Chief Justice's refusal to request re-nomination, calling it an obvious dereliction of duty and grounds for impeachment.\n\n반면 국민의힘은 헌법상 대법관 제청권이 대통령의 임명권을 견제하기 위한 합법적 수단이라며 맞섰다.\nOn the other hand, the People Power Party countered that the constitutional right to nominate Supreme Court justices is a legitimate means to check the president's appointment power.\n\n또한 법사위에서는 대통령의 불소추특권을 둘러싸고 여야 의원들 사이에 거친 막말이 오가며 갈등이 깊어졌다.\nAdditionally, in the Judiciary Committee, conflicts deepened as harsh insults were traded between ruling and opposition lawmakers over the president's immunity from prosecution.\n\n국토교통위원회에서도 문재인 정부 시절의 민간인 불법 사찰 의혹과 관련된 증인 채택을 두고 여야가 대립했다.\nIn the Land, Infrastructure and Transport Committee, the ruling and opposition parties also clashed over the adoption of witnesses related to suspicions of illegal civilian surveillance during the Moon Jae-in administration.\n\n국민의힘이 전직 장관의 증인 출석을 요구하자 야당은 다른 주요 인사를 부르겠다며 맞불을 놓아 신경전이 이어졌다.\nWhen the People Power Party demanded the attendance of a former minister as a witness, the opposition party countered by demanding to summon another prominent figure, continuing a war of nerves.\n\n기후에너지환경노동위원회 역시 공공기관장들의 인사 자료 미제출을 둘러싸고 반말과 삿대질이 오가며 한때 파행을 겪었다.\nThe Climate, Energy, Environment and Labor Committee also suffered temporary disruption as informal speech and finger-pointing were exchanged over public institution heads' failure to submit personnel records.\n\n한편 과학기술정보방송통신위원회는 주요 정보기술 기업의 대표들을 종합감사 증인으로 추가 채택하기로 결정했다.\nMeanwhile, the Science, ICT, Broadcasting and Communications Committee decided to additionally adopt heads of major information technology companies as witnesses for the comprehensive audit.",
+        "vocab": [
+            {
+                "word": "충돌",
+                "meaning": "clash, collision",
+                "example_ko": "두 차량의 [충돌]로 인해 도로가 심하게 막혔다.",
+                "example_en": "The collision of two vehicles caused heavy traffic on the road."
+            },
+            {
+                "word": "거부하다",
+                "meaning": "to reject, to refuse",
+                "example_ko": "그는 회사의 무리한 요구를 단호하게 [거부했다].",
+                "example_en": "He firmly rejected the company's unreasonable demand."
+            },
+            {
+                "word": "직무",
+                "meaning": "duty, job, official business",
+                "example_ko": "모든 직원은 자신의 [직무]에 책임을 다해야 한다.",
+                "example_en": "Every employee must take full responsibility for their duties."
+            },
+            {
+                "word": "견제하다",
+                "meaning": "to keep in check, to check",
+                "example_ko": "정부 부처들은 서로의 권력을 [견제한다].",
+                "example_en": "Government departments keep each other's power in check."
+            },
+            {
+                "word": "수단",
+                "meaning": "means, method, measure",
+                "example_ko": "대화는 갈등을 해결하는 가장 평화로운 [수단]이다.",
+                "example_en": "Conversation is the most peaceful means to resolve conflict."
+            },
+            {
+                "word": "의혹",
+                "meaning": "suspicion, doubt",
+                "example_ko": "경찰은 그 사건에 대한 사람들의 [의혹]을 풀기 위해 수사를 시작했다.",
+                "example_en": "The police began an investigation to clear people's suspicions about the incident."
+            },
+            {
+                "word": "채택하다",
+                "meaning": "to adopt, to choose",
+                "example_ko": "회의에서는 새로운 제안을 공식 정책으로 [채택했다].",
+                "example_en": "The meeting adopted the new proposal as official policy."
+            },
+            {
+                "word": "신경전",
+                "meaning": "war of nerves",
+                "example_ko": "두 팀은 결승전을 앞두고 치열한 [신경전]을 벌였다.",
+                "example_en": "The two teams engaged in an intense war of nerves ahead of the finals."
+            },
+            {
+                "word": "파행",
+                "meaning": "disruption, crippled operation",
+                "example_ko": "노사 갈등으로 인해 공장 운영에 [파행]이 빚어졌다.",
+                "example_en": "Factory operations suffered a disruption due to labor-management conflict."
+            },
+            {
+                "word": "종합",
+                "meaning": "synthesis, overall summary",
+                "example_ko": "이번 보고서는 여러 전문가의 의견을 [종합]하여 작성되었다.",
+                "example_en": "This report was prepared by synthesizing the opinions of several experts."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-15",
+        "published_at": "2026-10-15 18:36",
+        "title": "1∼8월 나라살림 적자 43조 원 기록… 반도체 호조에 8년 만에 최소",
+        "body": "올해 들어 8월까지의 나라살림 적자 규모가 반도체 업황 개선에 따른 세수 증가로 8년 만에 가장 작았던 것으로 나타났다. 기획예산처가 발간한 월간 재정동향 10월호에 따르면 지난 1월부터 8월까지의 누계 총수입은 529조 7천억 원으로 집계되었다. 이는 반도체발 법인세 예납 등이 크게 늘어나면서 지난해 같은 기간과 비교해 98조 원이나 증가한 수치이다. 총수입에서 총지출을 뺀 수치인 통합재정수지는 5조 원 흑자를 기록한 것으로 집계되었다. 정부 재정의 통합재정수지가 흑자를 나타낸 것은 지난 2018년 이후 8년 만에 처음이다. 또한 통합재정수지에서 사회보장성기금 수지를 제외하여 정부의 실질적인 재정 상태를 보여주는 관리재정수지는 43조 원 적자를 기록했다. 관리재정수지 적자 역시 2018년 이후 가장 작은 폭을 기록해 재정 건전성 지표가 다소 개선된 모습을 보였다. 정부는 반도체 기업들의 실적 개선에 힘입은 법인세 납부가 국가 재정 수지를 방어하는 데 크게 기여한 것으로 평가하고 있다.",
+        "translation": "올해 들어 8월까지의 나라살림 적자 규모가 반도체 업황 개선에 따른 세수 증가로 8년 만에 가장 작았던 것으로 나타났다.\nThe size of the national fiscal deficit through August this year was found to be the smallest in eight years due to increased tax revenue driven by improved semiconductor business conditions.\n\n기획예산처가 발간한 월간 재정동향 10월호에 따르면 지난 1월부터 8월까지의 누계 총수입은 529조 7천억 원으로 집계되었다.\nAccording to the October issue of Monthly Fiscal Trends published by the Ministry of Planning and Budget, cumulative total revenue from January to August was tabulated at 529.7 trillion won.\n\n이는 반도체발 법인세 예납 등이 크게 늘어나면서 지난해 같은 기간과 비교해 98조 원이나 증가한 수치이다.\nThis is a figure that increased by as much as 98 trillion won compared to the same period last year as corporate tax advance payments stemming from semiconductors grew significantly.\n\n총수입에서 총지출을 뺀 수치인 통합재정수지는 5조 원 흑자를 기록한 것으로 집계되었다.\nThe consolidated fiscal balance, which is the figure subtracting total expenditure from total revenue, was calculated to have recorded a surplus of 5 trillion won.\n\n정부 재정의 통합재정수지가 흑자를 나타낸 것은 지난 2018년 이후 8년 만에 처음이다.\nIt is the first time in eight years since 2018 that the consolidated fiscal balance of government finances posted a surplus.\n\n또한 통합재정수지에서 사회보장성기금 수지를 제외하여 정부의 실질적인 재정 상태를 보여주는 관리재정수지는 43조 원 적자를 기록했다.\nIn addition, the managed fiscal balance, which shows the government's actual fiscal condition by excluding the social security fund balance from the consolidated fiscal balance, recorded a deficit of 43 trillion won.\n\n관리재정수지 적자 역시 2018년 이후 가장 작은 폭을 기록해 재정 건전성 지표가 다소 개선된 모습을 보였다.\nThe managed fiscal deficit also posted the smallest margin since 2018, showing a somewhat improved picture in fiscal soundness indicators.\n\n정부는 반도체 기업들의 실적 개선에 힘입은 법인세 납부가 국가 재정 수지를 방어하는 데 크게 기여한 것으로 평가하고 있다.\nThe government evaluates that corporate tax payments backed by semiconductor firms' improved earnings contributed significantly to defending the national fiscal balance.",
+        "vocab": [
+            {
+                "word": "규모",
+                "meaning": "scale, size",
+                "example_ko": "정부는 내년 예산의 [규모]를 크게 늘리기로 했다.",
+                "example_en": "The government decided to greatly increase the scale of next year's budget."
+            },
+            {
+                "word": "발간하다",
+                "meaning": "to publish, to issue",
+                "example_ko": "연구소는 매달 경제 동향 보고서를 [발간한다].",
+                "example_en": "The research institute publishes an economic trends report every month."
+            },
+            {
+                "word": "누계",
+                "meaning": "cumulative total",
+                "example_ko": "올해 상반기 수출액의 [누계]가 사상 최고치를 기록했다.",
+                "example_en": "The cumulative total of exports in the first half of this year hit an all-time high."
+            },
+            {
+                "word": "수치",
+                "meaning": "numerical figure, value",
+                "example_ko": "정확한 [수치]를 확인한 후에 결정을 내리는 것이 좋다.",
+                "example_en": "It is better to make a decision after checking the exact figures."
+            },
+            {
+                "word": "지출",
+                "meaning": "expenditure, spending",
+                "example_ko": "생활비를 아끼기 위해 불필요한 [지출]을 줄였다.",
+                "example_en": "I reduced unnecessary spending to save on living expenses."
+            },
+            {
+                "word": "흑자",
+                "meaning": "surplus",
+                "example_ko": "우리 회사는 지난 분기에 상당한 규모의 [흑자]를 냈다.",
+                "example_en": "Our company made a considerable surplus last quarter."
+            },
+            {
+                "word": "제외하다",
+                "meaning": "to exclude",
+                "example_ko": "주말을 [제외하고] 매일 도서관에 가서 공부했다.",
+                "example_en": "I went to the library to study every day except for weekends."
+            },
+            {
+                "word": "실질적",
+                "meaning": "substantial, actual, practical",
+                "example_ko": "피해 주민들에게 [실질적인] 도움을 줄 수 있는 대책이 필요하다.",
+                "example_en": "Measures are needed that can provide practical help to the affected residents."
+            },
+            {
+                "word": "건전성",
+                "meaning": "soundness, healthiness",
+                "example_ko": "은행은 재정의 [건전성]을 유지하기 위해 대출 관리를 강화했다.",
+                "example_en": "The bank strengthened loan management to maintain financial soundness."
+            },
+            {
+                "word": "기여하다",
+                "meaning": "to contribute",
+                "example_ko": "자원봉사자들의 헌신은 지역사회의 발전에 크게 [기여했다].",
+                "example_en": "The dedication of volunteers contributed greatly to the development of the local community."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-15",
+        "published_at": "2026-10-15 18:36",
+        "title": "배달대행업체 사이트서 라이더 200여 명 개인정보 노출… 보안 취약점 지적",
+        "body": "국내 한 배달대행업체가 운영하는 웹사이트를 통해 배달 라이더 200여 명의 개인정보가 외부에 무방비로 노출되는 사고가 발생했다. 해당 웹사이트에는 주요 배달 플랫폼에서 일하는 라이더 201명의 아이디와 이름, 전화번호가 담긴 폴더가 포함되어 있었다. 이 사이트는 배달 기사들이 자신의 실적을 조회할 수 있도록 만든 곳이었으나 정작 개인정보 폴더는 로그인 없이도 열람이 가능했다. 복잡한 해킹 도구를 사용하지 않고 인터넷 주소창에 특정 경로만 입력해도 누구나 개인정보에 쉽게 접근할 수 있었던 것으로 확인되었다. 문제가 불거지자 해당 대행업체는 서버를 즉시 닫고 시스템을 보완하기 전까지 사이트 운영을 전면 중단하기로 결정했다. 이에 대해 대형 배달 플랫폼 운영사인 우아한형제들은 해당 사이트가 자신들이 관리하는 서비스가 아니며 위수탁 관계도 아니라고 선을 그었다. 보안 전문가들은 업체의 접근 통제가 미흡했거나 최근 확산하는 생성형 인공지능 기반 웹 개발 과정에서 보안 설정이 빠졌을 가능성을 제기했다. 특히 인공지능 기술로 손쉽게 웹사이트를 만들 수 있게 되었지만 여력이 부족한 영세 업체들이 사후 보안 점검을 놓치기 쉽다는 우려가 나온다. 전문가들은 중소업체들이 보안 사각지대에 놓이지 않도록 정부 차원의 관리 감독과 대책 마련이 시급하다고 지적했다.",
+        "translation": "국내 한 배달대행업체가 운영하는 웹사이트를 통해 배달 라이더 200여 명의 개인정보가 외부에 무방비로 노출되는 사고가 발생했다.\nAn incident occurred where personal information of around 200 delivery riders was defenselessly exposed to the outside through a website operated by a domestic delivery agency.\n\n해당 웹사이트에는 주요 배달 플랫폼에서 일하는 라이더 201명의 아이디와 이름, 전화번호가 담긴 폴더가 포함되어 있었다.\nThe website in question included a folder containing the IDs, names, and phone numbers of 201 riders working across major delivery platforms.\n\n이 사이트는 배달 기사들이 자신의 실적을 조회할 수 있도록 만든 곳이었으나 정작 개인정보 폴더는 로그인 없이도 열람이 가능했다.\nThis site had been built to allow delivery workers to check their performance, but the personal information folder could actually be viewed even without logging in.\n\n복잡한 해킹 도구를 사용하지 않고 인터넷 주소창에 특정 경로만 입력해도 누구나 개인정보에 쉽게 접근할 수 있었던 것으로 확인되었다.\nIt was confirmed that anyone could easily access the personal information by merely typing a specific path into the internet address bar without using complex hacking tools.\n\n문제가 불거지자 해당 대행업체는 서버를 즉시 닫고 시스템을 보완하기 전까지 사이트 운영을 전면 중단하기로 결정했다.\nWhen the problem came to light, the agency decided to immediately shut down the server and completely suspend site operations until the system was reinforced.\n\n이에 대해 대형 배달 플랫폼 운영사인 우아한형제들은 해당 사이트가 자신들이 관리하는 서비스가 아니며 위수탁 관계도 아니라고 선을 그었다.\nIn response, Woowa Brothers, the operator of the major delivery platform, drew the line by stating that the site was not a service managed by them and that there was no entrustment relationship.\n\n보안 전문가들은 업체의 접근 통제가 미흡했거나 최근 확산하는 생성형 인공지능 기반 웹 개발 과정에서 보안 설정이 빠졌을 가능성을 제기했다.\nSecurity experts raised the possibility that the company's access controls were inadequate or that security settings were omitted during recent generative AI-based web development processes.\n\n특히 인공지능 기술로 손쉽게 웹사이트를 만들 수 있게 되었지만 여력이 부족한 영세 업체들이 사후 보안 점검을 놓치기 쉽다는 우려가 나온다.\nIn particular, concerns are raised that while websites can now be easily built with AI technology, small businesses lacking resources are likely to miss post-development security inspections.\n\n전문가들은 중소업체들이 보안 사각지대에 놓이지 않도록 정부 차원의 관리 감독과 대책 마련이 시급하다고 지적했다.\nExperts pointed out that government-level supervision and measures are urgently needed so that small businesses do not end up in security blind spots.",
+        "vocab": [
+            {
+                "word": "무방비",
+                "meaning": "defenselessness, unprotected state",
+                "example_ko": "문을 잠그지 않아 집이 도난 위험에 [무방비] 상태로 놓였다.",
+                "example_en": "Leaving the door unlocked left the house defenseless against the risk of theft."
+            },
+            {
+                "word": "노출되다",
+                "meaning": "to be exposed",
+                "example_ko": "개인 정보가 외부에 [노출되지] 않도록 비밀번호를 자주 변경해야 한다.",
+                "example_en": "You should change your password frequently so that your personal information is not exposed to the outside."
+            },
+            {
+                "word": "조회하다",
+                "meaning": "to check, to look up, to inquire",
+                "example_ko": "인터넷을 통해 나의 은행 잔액을 쉽게 [조회할] 수 있다.",
+                "example_en": "You can easily look up your bank balance on the internet."
+            },
+            {
+                "word": "열람하다",
+                "meaning": "to view, to inspect, to read",
+                "example_ko": "학생들은 도서관에서 희귀 자료를 직접 [열람했다].",
+                "example_en": "The students directly viewed the rare materials in the library."
+            },
+            {
+                "word": "경로",
+                "meaning": "route, path",
+                "example_ko": "내비게이션이 목적지로 가는 가장 빠른 [경로]를 안내해 주었다.",
+                "example_en": "The navigation system guided me to the fastest route to my destination."
+            },
+            {
+                "word": "보완하다",
+                "meaning": "to supplement, to fix, to complement",
+                "example_ko": "팀원들과 상의하여 계획서의 부족한 점을 [보완했다].",
+                "example_en": "I consulted with team members and supplemented the shortcomings of the proposal."
+            },
+            {
+                "word": "미흡하다",
+                "meaning": "to be insufficient, to be inadequate",
+                "example_ko": "준비가 [미흡해서] 발표 중에 실수를 많이 했다.",
+                "example_en": "Because preparation was insufficient, I made many mistakes during the presentation."
+            },
+            {
+                "word": "누락되다",
+                "meaning": "to be omitted, to be left out",
+                "example_ko": "서류에서 중요한 정보가 [누락되어] 신청이 반려되었다.",
+                "example_en": "The application was rejected because important information was omitted from the documents."
+            },
+            {
+                "word": "사각지대",
+                "meaning": "blind spot",
+                "example_ko": "골목길 구석은 안전 관리의 [사각지대로] 남아 있다.",
+                "example_en": "The corners of the alleys remain a blind spot in safety management."
+            },
+            {
+                "word": "시급하다",
+                "meaning": "to be urgent, to be pressing",
+                "example_ko": "홍수로 무너진 다리를 다시 짓는 일이 매우 [시급하다].",
+                "example_en": "Rebuilding the bridge that collapsed due to the flood is very urgent."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-15",
+        "published_at": "2026-10-15 18:36",
+        "title": "해외 야생조류 고병원성 AI 발생 급증… 정부, 겨울철 방역 4단계로 전격 확대",
+        "body": "전 세계적으로 야생조류의 고병원성 조류인플루엔자 발생이 급증하면서 겨울철 가축전염병 확산에 대한 경각심이 높아지고 있다. 농림축산식품부에 따르면 올해 해외 야생조류에서 확인된 고병원성 조류인플루엔자 발생 건수는 지난해와 비교해 2배 이상 늘어났다. 국경을 넘어 이동하는 철새로 인해 전염병 바이러스가 국내 농가로 유입될 위험이 그 어느 때보다 커진 상황이다. 이에 대응하여 정부는 겨울철 가축전염병 특별방역대책 점검회의를 열고 대형 산란계 농장과 밀집 단지에 대한 집중 관리에 나섰다. 특히 올해부터는 대형 산란계 농장에 출입하는 인력과 차량을 사전에 등록하도록 하는 제도를 새롭게 도입했다. 이를 통해 기존의 거점 소독시설과 농장 통제초소, 농장으로 이어지던 3단계 방역 체계를 4단계로 확대하여 감시망을 대폭 강화했다. 해외에서 급증한 바이러스가 국내로 유입되는 것을 조기에 차단하기 위해 농장 단위의 방역 절차를 한층 철저하게 정비한 것이다. 방역 당국은 해외 전염병 동향을 예의주시하며 철새 이동 시기에 맞춘 현장 방역에 만전을 기하겠다고 강조했다.",
+        "translation": "전 세계적으로 야생조류의 고병원성 조류인플루엔자 발생이 급증하면서 겨울철 가축전염병 확산에 대한 경각심이 높아지고 있다.\nAs outbreaks of highly pathogenic avian influenza in wild birds have surged globally, alertness over the spread of livestock epidemics during the winter is growing.\n\n농림축산식품부에 따르면 올해 해외 야생조류에서 확인된 고병원성 조류인플루엔자 발생 건수는 지난해와 비교해 2배 이상 늘어났다.\nAccording to the Ministry of Agriculture, Food and Rural Affairs, the number of confirmed cases of highly pathogenic avian influenza in overseas wild birds this year has more than doubled compared to last year.\n\n국경을 넘어 이동하는 철새로 인해 전염병 바이러스가 국내 농가로 유입될 위험이 그 어느 때보다 커진 상황이다.\nDue to migratory birds traveling across borders, the risk of epidemic viruses entering domestic farms has become greater than ever.\n\n이에 대응하여 정부는 겨울철 가축전염병 특별방역대책 점검회의를 열고 대형 산란계 농장과 밀집 단지에 대한 집중 관리에 나섰다.\nResponding to this, the government held a review meeting on special quarantine measures for winter livestock epidemics and launched intensive management for large layer hen farms and dense clusters.\n\n특히 올해부터는 대형 산란계 농장에 출입하는 인력과 차량을 사전에 등록하도록 하는 제도를 새롭게 도입했다.\nIn particular, starting this year, it newly introduced a system requiring personnel and vehicles entering large egg-laying farms to register in advance.\n\n이를 통해 기존의 거점 소독시설과 농장 통제초소, 농장으로 이어지던 3단계 방역 체계를 4단계로 확대하여 감시망을 대폭 강화했다.\nThrough this, it substantially strengthened the surveillance network by expanding the quarantine system from three stages—base disinfection facilities, farm control checkpoints, and the farm—to four stages.\n\n해외에서 급증한 바이러스가 국내로 유입되는 것을 조기에 차단하기 위해 농장 단위의 방역 절차를 한층 철저하게 정비한 것이다.\nThis thoroughly overhauled farm-level quarantine procedures to block viruses that have surged abroad from entering the country at an early stage.\n\n방역 당국은 해외 전염병 동향을 예의주시하며 철새 이동 시기에 맞춘 현장 방역에 만전을 기하겠다고 강조했다.\nQuarantine authorities emphasized that they will closely monitor overseas epidemic trends and do their utmost to conduct on-site quarantine tailored to the migratory bird movement season.",
+        "vocab": [
+            {
+                "word": "경각심",
+                "meaning": "alertness, sense of alarm, vigilance",
+                "example_ko": "큰 화재 사고 이후 주민들의 화재 안전에 대한 [경각심]이 높아졌다.",
+                "example_en": "After the big fire accident, residents' sense of alarm regarding fire safety heightened."
+            },
+            {
+                "word": "발생하다",
+                "meaning": "to occur, to break out",
+                "example_ko": "공장에서 갑작스러운 정전이 [발생해] 작업이 중단되었다.",
+                "example_en": "A sudden power outage occurred at the factory, halting work."
+            },
+            {
+                "word": "유입",
+                "meaning": "inflow, influx",
+                "example_ko": "외국인 관광객의 [유입]으로 지역 경제가 활기를 되찾고 있다.",
+                "example_en": "With the influx of foreign tourists, the local economy is regaining vitality."
+            },
+            {
+                "word": "대응하다",
+                "meaning": "to respond, to cope with",
+                "example_ko": "회사는 시장 변화에 빠르게 [대응하기] 위해 신제품을 출시했다.",
+                "example_en": "The company launched new products to quickly respond to market changes."
+            },
+            {
+                "word": "밀집",
+                "meaning": "concentration, crowding",
+                "example_ko": "상가가 [밀집한] 지역은 밤늦게까지 사람들로 붐빈다.",
+                "example_en": "The area with a high concentration of shops is crowded with people until late at night."
+            },
+            {
+                "word": "도입하다",
+                "meaning": "to introduce, to adopt",
+                "example_ko": "우리 학교는 학생들의 편의를 위해 전자 출결 제도를 [도입했다].",
+                "example_en": "Our school introduced an electronic attendance system for students' convenience."
+            },
+            {
+                "word": "체계",
+                "meaning": "system",
+                "example_ko": "효율적인 업무를 위해 조직의 관리 [체계를] 개편했다.",
+                "example_en": "We reorganized the management system of the organization for efficient work."
+            },
+            {
+                "word": "강화하다",
+                "meaning": "to strengthen, to reinforce",
+                "example_ko": "시험을 앞두고 도서관 출입 관리를 [강화했다].",
+                "example_en": "Ahead of exams, the library strengthened access control."
+            },
+            {
+                "word": "차단하다",
+                "meaning": "to block, to cut off",
+                "example_ko": "도로 공사로 인해 차량 통행을 완전히 [차단했다].",
+                "example_en": "Vehicular traffic was completely blocked due to road construction."
+            },
+            {
+                "word": "정비하다",
+                "meaning": "to reorganize, to overhaul, to maintain",
+                "example_ko": "시청은 안전사고를 예방하기 위해 낡은 시설을 [정비했다].",
+                "example_en": "The city hall overhauled aged facilities to prevent safety accidents."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-10-15",
         "published_at": "2026-10-15 06:29",
         "title": "주한미군사령관, 전작권 전환 조건 변화 언급하며 새 기준 강조",
         "body": "제이비어 브런슨 주한미군사령관은 한미 양국이 합의한 전시작전통제권 전환 조건이 변화했다고 밝혔다. 브런슨 사령관은 미국 워싱턴에서 열린 세미나에서 자신은 동맹 현대화를 위한 전작권 전환 찬성론자라고 말했다. 그러나 과거에 설정된 조건들을 위반하는 것에는 반대한다는 입장을 분명히 했다. 그는 최근 북한의 잦은 미사일 발사 등 안보 환경이 바뀌었고 계획이 변경됨에 따라 새로운 기준이 생겼다고 설명했다. 이번 발언은 북한의 군사적 도발로 인해 전작권 전환 조건이 아직 완전히 충족되지 않았음을 시사한 것으로 풀이된다. 현재 한국 정부는 필요한 역량이 충분히 갖춰졌다며 조속한 전환을 추진하고 있다. 반면에 미국 측은 안보 상황과 핵심 작전 능력을 고려할 때 아직 조건이 충족되지 않았다고 판단하며 이견을 보이고 있다. 전작권 전환 기준과 시기를 둘러싼 양국의 조율이 향후 중요한 외교 안보 과제로 떠오르고 있다.",

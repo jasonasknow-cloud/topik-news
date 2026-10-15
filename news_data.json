@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-16",
+        "published_at": "2026-10-16 06:31",
+        "title": "정부, 흉기 범죄 예방 대책 마련… 관계부처 회의서 전자발찌 확대 등 보고",
+        "body": "정부와 경찰이 잇따른 강력 범죄에 대응하기 위해 범죄 예방 대책을 강화하기로 했다. 경찰청은 어제 청와대에서 열린 관계부처 회의에서 흉기 범죄 및 강력 사건 예방 대책을 보고했다. 이번 대책은 최근 발생한 인천 흉기 난동과 서울 송파구 살인 사건 등 흉악 범죄가 잇따르자 마련되었다. 경찰은 우선 흉기 소지 신고가 자주 접수되는 장소와 시간대를 정밀하게 분석하기로 했다. 이를 바탕으로 위험도가 높은 지역에 경찰력을 집중적으로 배치해 범죄 발생을 사전에 차단할 계획이다. 또한 지하철역이나 대형 상가와 같은 다중이용시설 등 인파 밀집 장소에서는 시민들이 쉽게 볼 수 있는 가시적 순찰을 대폭 강화한다. 아울러 법과 제도를 개선하여 범죄 피해자를 보호하는 방안도 이번 대책에 함께 포함되었다. 현행법상 스토킹 범죄로 한정되어 있는 전자발찌 부착 대상을 가정 폭력 가해자에게까지 확대하는 방안이 추진된다. 정부는 관련 부처와의 긴밀한 협력을 통해 국민의 불안감을 해소하고 공공 안전을 확보하겠다는 방침이다.",
+        "translation": "정부와 경찰이 잇따른 강력 범죄에 대응하기 위해 범죄 예방 대책을 강화하기로 했다.\nThe government and police have decided to strengthen crime prevention measures to respond to a series of violent crimes.\n\n경찰청은 어제 청와대에서 열린 관계부처 회의에서 흉기 범죄 및 강력 사건 예방 대책을 보고했다.\nAt an inter-agency meeting held yesterday at the Blue House, the National Police Agency reported measures to prevent weapon-related crimes and violent incidents.\n\n이번 대책은 최근 발생한 인천 흉기 난동과 서울 송파구 살인 사건 등 흉악 범죄가 잇따르자 마련되었다.\nThese measures were prepared following a series of heinous crimes, including the recent knife rampage in Incheon and a murder case in Songpa-gu, Seoul.\n\n경찰은 우선 흉기 소지 신고가 자주 접수되는 장소와 시간대를 정밀하게 분석하기로 했다.\nThe police decided to first precisely analyze the locations and times when reports of carrying weapons are frequently received.\n\n이를 바탕으로 위험도가 높은 지역에 경찰력을 집중적으로 배치해 범죄 발생을 사전에 차단할 계획이다.\nBased on this, they plan to deploy police forces intensively in high-risk areas to prevent crimes from occurring in advance.\n\n또한 지하철역이나 대형 상가와 같은 다중이용시설 등 인파 밀집 장소에서는 시민들이 쉽게 볼 수 있는 가시적 순찰을 대폭 강화한다.\nIn addition, visible patrols that citizens can easily see will be significantly strengthened in crowded places such as multi-use facilities like subway stations and large shopping malls.\n\n아울러 법과 제도를 개선하여 범죄 피해자를 보호하는 방안도 이번 대책에 함께 포함되었다.\nFurthermore, measures to protect crime victims by improving laws and systems were also included in this plan.\n\n현행법상 스토킹 범죄로 한정되어 있는 전자발찌 부착 대상을 가정 폭력 가해자에게까지 확대하는 방안이 추진된다.\nA plan to expand the requirement of electronic monitoring anklets, which is limited to stalking crimes under current law, to domestic violence perpetrators is being pursued.\n\n정부는 관련 부처와의 긴밀한 협력을 통해 국민의 불안감을 해소하고 공공 안전을 확보하겠다는 방침이다.\nThe government plans to relieve public anxiety and secure public safety through close cooperation with relevant ministries.",
+        "vocab": [
+            {
+                "word": "강력 범죄",
+                "meaning": "violent crime",
+                "example_ko": "경찰은 [강력 범죄]를 예방하기 위해 밤길 순찰을 늘렸다.",
+                "example_en": "The police increased nighttime patrols to prevent violent crimes."
+            },
+            {
+                "word": "예방하다",
+                "meaning": "to prevent",
+                "example_ko": "사고를 [예방하기] 위해 안전모를 착용해야 한다.",
+                "example_en": "You must wear a helmet to prevent accidents."
+            },
+            {
+                "word": "소지",
+                "meaning": "possession, carrying",
+                "example_ko": "위험한 물건의 [소지]는 법으로 엄격히 금지된다.",
+                "example_en": "Possession of dangerous objects is strictly prohibited by law."
+            },
+            {
+                "word": "파악하다",
+                "meaning": "to grasp, identify",
+                "example_ko": "문제점을 정확히 [파악하는] 것이 가장 중요하다.",
+                "example_en": "It is most important to accurately grasp the problem."
+            },
+            {
+                "word": "배치하다",
+                "meaning": "to deploy, arrange",
+                "example_ko": "입구에 안내 직원을 [배치하여] 손님을 맞이했다.",
+                "example_en": "They deployed information staff at the entrance to greet visitors."
+            },
+            {
+                "word": "차단하다",
+                "meaning": "to block, cut off",
+                "example_ko": "찬 바람을 [차단하려고] 창문을 꼭 닫았다.",
+                "example_en": "I closed the window tightly to block the cold wind."
+            },
+            {
+                "word": "밀집",
+                "meaning": "congestion, dense crowd",
+                "example_ko": "축제 기간에는 인파 [밀집] 지역에서 각별히 주의해야 한다.",
+                "example_en": "During the festival, special care must be taken in areas with crowded people."
+            },
+            {
+                "word": "순찰",
+                "meaning": "patrol",
+                "example_ko": "경찰관들이 동네 골목을 돌며 [순찰]을 진행했다.",
+                "example_en": "Police officers patrolled around the neighborhood alleys."
+            },
+            {
+                "word": "한정되다",
+                "meaning": "to be limited, restricted",
+                "example_ko": "지원 대상이 특정 연령으로 [한정되어] 아쉽다.",
+                "example_en": "It is disappointing that the support targets are limited to a specific age."
+            },
+            {
+                "word": "가해자",
+                "meaning": "perpetrator, assailant",
+                "example_ko": "법원은 폭행 사건의 [가해자]에게 무거운 벌금을 부과했다.",
+                "example_en": "The court imposed a heavy fine on the perpetrator of the assault case."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-16",
+        "published_at": "2026-10-16 06:31",
+        "title": "서울 주택 매매가격 상승폭 두 달째 둔화… 강남권 하락세 영향",
+        "body": "서울의 주택 매매가격 상승률이 두 달 연속으로 둔화한 것으로 나타났다. 한국부동산원이 발표한 9월 전국 주택가격 동향조사에 따르면 서울 주택종합 매매가격은 전월 대비 평균 0.84% 상승했다. 서울 집값은 오름세를 이어가고 있지만 지난 8월에 이어 9월에도 상승 폭이 줄어들며 진정되는 양상을 보였다. 지역별로는 강남권과 비강남권 사이에서 뚜렷한 차이가 나타났다. 세제 개편 발표 이후 세금 부담이 크게 늘어날 것으로 예상되는 강남구와 서초구는 가격 하락세를 이어갔다. 반면에 성북구, 노원구, 중랑구, 관악구 등 중위권 이하 지역은 여전히 강세를 유지했다. 한편 이번 조사에서 서울의 평균 주택 매매가격은 10억 3,418만 원으로 집계되었다. 또한 서울 주택의 평균 전셋값은 4억 9,768만 원이었으며 평균 월세는 147만 8천 원을 기록했다. 전문가들은 세제 개편의 영향과 지역별 수요 차이가 주택 시장의 흐름에 영향을 미치고 있다고 분석했다.",
+        "translation": "서울의 주택 매매가격 상승률이 두 달 연속으로 둔화한 것으로 나타났다.\nIt was revealed that the growth rate of housing sales prices in Seoul slowed for the second consecutive month.\n\n한국부동산원이 발표한 9월 전국 주택가격 동향조사에 따르면 서울 주택종합 매매가격은 전월 대비 평균 0.84% 상승했다.\nAccording to the September nationwide housing price trend survey released by the Korea Real Estate Board, comprehensive housing sale prices in Seoul rose by an average of 0.84% compared to the previous month.\n\n서울 집값은 오름세를 이어가고 있지만 지난 8월에 이어 9월에도 상승 폭이 줄어들며 진정되는 양상을 보였다.\nAlthough housing prices in Seoul continued an upward trend, the growth margin decreased in September following August, showing a calming aspect.\n\n지역별로는 강남권과 비강남권 사이에서 뚜렷한 차이가 나타났다.\nBy region, a distinct difference appeared between the Gangnam area and non-Gangnam areas.\n\n세제 개편 발표 이후 세금 부담이 크게 늘어날 것으로 예상되는 강남구와 서초구는 가격 하락세를 이어갔다.\nGangnam-gu and Seocho-gu, where tax burdens are expected to surge following the tax reform announcement, continued a price downward trend.\n\n반면에 성북구, 노원구, 중랑구, 관악구 등 중위권 이하 지역은 여전히 강세를 유지했다.\nOn the other hand, mid- to lower-tier areas such as Seongbuk-gu, Nowon-gu, Jungnang-gu, and Gwanak-gu still maintained a strong trend.\n\n한편 이번 조사에서 서울의 평균 주택 매매가격은 10억 3,418만 원으로 집계되었다.\nMeanwhile, in this survey, the average housing sale price in Seoul was tallied at 1,034,180,000 won.\n\n또한 서울 주택의 평균 전셋값은 4억 9,768만 원이었으며 평균 월세는 147만 8천 원을 기록했다.\nIn addition, the average jeonse price of Seoul housing was 497,680,000 won, and the average monthly rent recorded 1,478,000 won.\n\n전문가들은 세제 개편의 영향과 지역별 수요 차이가 주택 시장의 흐름에 영향을 미치고 있다고 분석했다.\nExperts analyzed that the impact of tax reforms and regional demand differences are affecting the flow of the housing market.",
+        "vocab": [
+            {
+                "word": "둔화하다",
+                "meaning": "to slow down",
+                "example_ko": "경제 성장률이 작년에 비해 크게 [둔화했다].",
+                "example_en": "The economic growth rate slowed down significantly compared to last year."
+            },
+            {
+                "word": "동향",
+                "meaning": "trend, tendency",
+                "example_ko": "최근 부동산 시장의 [동향]을 살펴보는 것이 좋다.",
+                "example_en": "It is good to examine the recent trends in the real estate market."
+            },
+            {
+                "word": "상승세",
+                "meaning": "upward trend, rising trend",
+                "example_ko": "물가의 [상승세]가 좀처럼 꺾이지 않고 있다.",
+                "example_en": "The upward trend in consumer prices is hardly declining."
+            },
+            {
+                "word": "양상",
+                "meaning": "aspect, pattern",
+                "example_ko": "이번 사건은 이전과는 전혀 다른 [양상]을 보인다.",
+                "example_en": "This incident shows a completely different aspect from previous ones."
+            },
+            {
+                "word": "개편",
+                "meaning": "reorganization, restructuring",
+                "example_ko": "회사는 업무 효율을 높이기 위해 조직 [개편]을 단행했다.",
+                "example_en": "The company carried out organizational restructuring to increase work efficiency."
+            },
+            {
+                "word": "부담",
+                "meaning": "burden",
+                "example_ko": "매달 지출하는 생활비가 가계에 큰 [부담]이 된다.",
+                "example_en": "The monthly living expenses pose a heavy burden on the household."
+            },
+            {
+                "word": "하락세",
+                "meaning": "downward trend, declining trend",
+                "example_ko": "기름값이 몇 주째 [하락세]를 이어가고 있다.",
+                "example_en": "Gasoline prices have continued a downward trend for several weeks."
+            },
+            {
+                "word": "집계되다",
+                "meaning": "to be totaled, tallied",
+                "example_ko": "올해 수출액이 역대 최고 수준으로 [집계되었다].",
+                "example_en": "This year's export volume was tallied at an all-time high level."
+            },
+            {
+                "word": "기록하다",
+                "meaning": "to record",
+                "example_ko": "오늘의 최고 기온은 삼십 도를 [기록했다].",
+                "example_en": "Today's high temperature recorded thirty degrees."
+            },
+            {
+                "word": "수요",
+                "meaning": "demand",
+                "example_ko": "최근 건강식품에 대한 [수요]가 꾸준히 증가하고 있다.",
+                "example_en": "Recently, demand for health food has been steadily increasing."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-16",
+        "published_at": "2026-10-16 06:31",
+        "title": "의료계, 경찰의 소아응급실 압수수색 규탄… 공식 사과 촉구",
+        "body": "의료계가 대학병원 소아응급실에 대한 경찰의 압수수색을 강하게 규탄하며 공식 사과를 촉구했다. 대한의사협회와 대한소아응급의학회는 국회에서 합동 기자회견을 열고 경기남부경찰청의 수사 방식을 비판했다. 이번 갈등은 최근 경찰이 아주대병원 소아응급센터를 대상으로 강제 압수수색을 진행하면서 시작되었다. 의사협회는 이번 수사를 극악무도한 행위로 규정하며 경찰의 무리한 법 집행을 거듭 문제 삼았다. 협회 측은 경찰이 최소한의 절차조차 지키지 않은 채 일분일초를 다투는 생명의 현장을 유린했다고 주장했다. 또한 소아응급의학회는 경찰이 수사 편의만을 앞세워 환자들의 진료권을 심각하게 침해했다고 지적했다. 이어 필수 의료 현장에서 헌신하는 의료진을 잠재적 범죄자로 낙인찍었다며 깊은 유감을 표명했다. 학회 측은 과잉 압수수색으로 인해 의료진의 사기가 크게 떨어졌다며 경찰의 즉각적인 사과를 거듭 요구했다. 이번 사태를 계기로 응급 의료 현장에 대한 수사 기관의 압수수색 절차를 둘러싼 논란이 확산하고 있다.",
+        "translation": "의료계가 대학병원 소아응급실에 대한 경찰의 압수수색을 강하게 규탄하며 공식 사과를 촉구했다.\nThe medical community strongly condemned the police's search and seizure of a university hospital pediatric emergency room and urged an official apology.\n\n대한의사협회와 대한소아응급의학회는 국회에서 합동 기자회견을 열고 경기남부경찰청의 수사 방식을 비판했다.\nThe Korean Medical Association and the Korean Society of Pediatric Emergency Medicine held a joint press conference at the National Assembly and criticized the Gyeonggi Nambu Provincial Police's investigation method.\n\n이번 갈등은 최근 경찰이 아주대병원 소아응급센터를 대상으로 강제 압수수색을 진행하면서 시작되었다.\nThis conflict began when the police recently carried out a compulsory search and seizure on the pediatric emergency center of Ajou University Hospital.\n\n의사협회는 이번 수사를 극악무도한 행위로 규정하며 경찰의 무리한 법 집행을 거듭 문제 삼았다.\nThe Medical Association defined this investigation as an atrocious act and repeatedly took issue with the police's unreasonable law enforcement.\n\n협회 측은 경찰이 최소한의 절차조차 지키지 않은 채 일분일초를 다투는 생명의 현장을 유린했다고 주장했다.\nThe association claimed that the police trampled upon a scene of life where every second counts without even observing minimum procedures.\n\n또한 소아응급의학회는 경찰이 수사 편의만을 앞세워 환자들의 진료권을 심각하게 침해했다고 지적했다.\nIn addition, the Pediatric Emergency Medicine Society pointed out that the police seriously violated patients' rights to treatment by prioritizing investigative convenience.\n\n이어 필수 의료 현장에서 헌신하는 의료진을 잠재적 범죄자로 낙인찍었다며 깊은 유감을 표명했다.\nThey then expressed deep regret, saying the police branded medical personnel dedicating themselves to essential medical fields as potential criminals.\n\n학회 측은 과잉 압수수색으로 인해 의료진의 사기가 크게 떨어졌다며 경찰의 즉각적인 사과를 거듭 요구했다.\nThe society repeatedly demanded an immediate apology from the police, saying that the excessive search and seizure significantly diminished the morale of the medical staff.\n\n이번 사태를 계기로 응급 의료 현장에 대한 수사 기관의 압수수색 절차를 둘러싼 논란이 확산하고 있다.\nWith this incident as a turning point, controversy surrounding investigative agencies' search and seizure procedures in emergency medical sites is spreading.",
+        "vocab": [
+            {
+                "word": "압수수색",
+                "meaning": "search and seizure",
+                "example_ko": "검찰은 증거를 확보하기 위해 회사에 대한 [압수수색]을 실시했다.",
+                "example_en": "The prosecution carried out a search and seizure on the company to secure evidence."
+            },
+            {
+                "word": "규탄하다",
+                "meaning": "to condemn, denounce",
+                "example_ko": "시민 단체는 정부의 부당한 결정을 강력히 [규탄했다].",
+                "example_en": "Civic groups strongly condemned the government's unfair decision."
+            },
+            {
+                "word": "촉구하다",
+                "meaning": "to urge, demand",
+                "example_ko": "주민들은 도로 보수를 신속히 진행할 것을 구청에 [촉구했다].",
+                "example_en": "Residents urged the district office to proceed quickly with road repairs."
+            },
+            {
+                "word": "갈등",
+                "meaning": "conflict, dispute",
+                "example_ko": "두 사람 사이의 의견 [갈등]이 쉽게 해결되지 않았다.",
+                "example_en": "The conflict of opinion between the two people was not easily resolved."
+            },
+            {
+                "word": "절차",
+                "meaning": "procedure, process",
+                "example_ko": "시험에 응시하려면 정해진 [절차]를 따라야 한다.",
+                "example_en": "To take the exam, you must follow the established procedure."
+            },
+            {
+                "word": "유린하다",
+                "meaning": "to trample on, violate",
+                "example_ko": "전쟁은 수많은 무고한 사람들의 인권을 [유린했다].",
+                "example_en": "War trampled on the human rights of countless innocent people."
+            },
+            {
+                "word": "침해하다",
+                "meaning": "to infringe upon, violate",
+                "example_ko": "다른 사람의 사생활을 [침해하는] 행동을 해서는 안 된다.",
+                "example_en": "You should not engage in behavior that infringes upon others' privacy."
+            },
+            {
+                "word": "낙인찍다",
+                "meaning": "to brand, stigmatize",
+                "example_ko": "한 번의 실수로 사람을 나쁜 사람으로 [낙인찍어서는] 안 된다.",
+                "example_en": "You should not brand someone as a bad person for a single mistake."
+            },
+            {
+                "word": "유감",
+                "meaning": "regret, pity",
+                "example_ko": "원하던 결과를 얻지 못해 깊은 [유감]을 표했다.",
+                "example_en": "He expressed deep regret for failing to achieve the desired result."
+            },
+            {
+                "word": "과잉",
+                "meaning": "excess, surplus",
+                "example_ko": "건강을 위해 영양제의 [과잉] 섭취를 피해야 한다.",
+                "example_en": "To stay healthy, one should avoid excess intake of nutritional supplements."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-16",
+        "published_at": "2026-10-16 06:31",
+        "title": "프랑스, 사우디 석유 시설 보호 위한 군사 자산 배치 시작",
+        "body": "프랑스 정부가 사우디아라비아의 주요 석유 시설을 보호하기 위해 군사 자산 배치를 시작했다. 프랑스 외무부 대변인은 사우디 내 석유 시설을 방어하기 위한 군사 수단 배치가 본격화되었다고 밝혔다. 다만 구체적으로 어떤 종류의 군사 자산이 투입되는지에 대해서는 상세한 설명을 거절했다고 외신은 전했다. 앞서 에마뉘엘 마크롱 프랑스 대통령은 방송 인터뷰를 통해 홍해 연안의 얀부 기지를 보호하겠다는 뜻을 밝힌 바 있다. 당시 마크롱 대통령은 프랑스가 어떤 국제 분쟁에도 개입하지 않으며 오직 시설 보호 목적이라고 강조했다. 이번 군사 배치는 최근 사우디아라비아를 겨냥한 주변 세력의 무력 공격이 잇따르는 가운데 이루어졌다. 사우디 주도 연합군에 따르면 예멘 후티 반군은 이달 들어 사우디 수도 리야드의 국제공항을 스무 차례나 공격했다. 이 공격으로 인해 현지에서 17명이 목숨을 잃고 330명이 넘는 부상자가 발생한 것으로 집계되었다. 프랑스의 이번 군사 배치는 중동 지역의 긴장이 고조되는 상황에서 주요 에너지 기반 시설의 안전을 확보하기 위한 조치로 풀이된다.",
+        "translation": "프랑스 정부가 사우디아라비아의 주요 석유 시설을 보호하기 위해 군사 자산 배치를 시작했다.\nThe French government has begun deploying military assets to protect key oil facilities in Saudi Arabia.\n\n프랑스 외무부 대변인은 사우디 내 석유 시설을 방어하기 위한 군사 수단 배치가 본격화되었다고 밝혔다.\nA French Foreign Ministry spokesperson announced that the deployment of military means to defend oil facilities in Saudi Arabia has begun in earnest.\n\n다만 구체적으로 어떤 종류의 군사 자산이 투입되는지에 대해서는 상세한 설명을 거절했다고 외신은 전했다.\nHowever, foreign media reported that the spokesperson declined to provide detailed explanations on what kind of military assets are specifically being deployed.\n\n앞서 에마뉘엘 마크롱 프랑스 대통령은 방송 인터뷰를 통해 홍해 연안의 얀부 기지를 보호하겠다는 뜻을 밝힌 바 있다.\nEarlier, French President Emmanuel Macron expressed his intention to protect the Yanbu base on the Red Sea coast through a broadcast interview.\n\n당시 마크롱 대통령은 프랑스가 어떤 국제 분쟁에도 개입하지 않으며 오직 시설 보호 목적이라고 강조했다.\nAt that time, President Macron emphasized that France would not intervene in any international conflict and that it was solely for facility protection.\n\n이번 군사 배치는 최근 사우디아라비아를 겨냥한 주변 세력의 무력 공격이 잇따르는 가운데 이루어졌다.\nThis military deployment was made amid consecutive armed attacks by surrounding forces targeting Saudi Arabia recently.\n\n사우디 주도 연합군에 따르면 예멘 후티 반군은 이달 들어 사우디 수도 리야드의 국제공항을 스무 차례나 공격했다.\nAccording to the Saudi-led coalition, Yemen's Houthi rebels attacked the international airport in Riyadh, the capital of Saudi Arabia, twenty times this month.\n\n이 공격으로 인해 현지에서 17명이 목숨을 잃고 330명이 넘는 부상자가 발생한 것으로 집계되었다.\nDue to these attacks, it was tallied that 17 people lost their lives and more than 330 were injured locally.\n\n프랑스의 이번 군사 배치는 중동 지역의 긴장이 고조되는 상황에서 주요 에너지 기반 시설의 안전을 확보하기 위한 조치로 풀이된다.\nFrance's military deployment is interpreted as a measure to secure the safety of key energy infrastructure amid escalating tensions in the Middle East region.",
+        "vocab": [
+            {
+                "word": "자산",
+                "meaning": "asset, property",
+                "example_ko": "기업은 핵심 [자산]을 안전하게 지키기 위해 보안을 강화했다.",
+                "example_en": "The company strengthened security to safely protect its core assets."
+            },
+            {
+                "word": "배치",
+                "meaning": "deployment, placement",
+                "example_ko": "안전을 위해 위험 구역 주변에 안전요원의 [배치]를 늘렸다.",
+                "example_en": "They increased the deployment of safety personnel around the hazardous area for safety."
+            },
+            {
+                "word": "본격화되다",
+                "meaning": "to get into full swing, begin in earnest",
+                "example_ko": "날씨가 따뜻해지면서 봄꽃 축제가 [본격화되었다].",
+                "example_en": "As the weather warmed up, spring flower festivals got into full swing."
+            },
+            {
+                "word": "투입되다",
+                "meaning": "to be put in, deployed",
+                "example_ko": "산불을 신속히 진압하기 위해 소방 헬기가 [투입되었다].",
+                "example_en": "Firefighting helicopters were deployed to quickly extinguish the forest fire."
+            },
+            {
+                "word": "거절하다",
+                "meaning": "to refuse, decline",
+                "example_ko": "그는 바쁜 일정 때문에 인터뷰 요청을 정중히 [거절했다].",
+                "example_en": "He politely declined the interview request due to a busy schedule."
+            },
+            {
+                "word": "연안",
+                "meaning": "coast, shore",
+                "example_ko": "이 지역은 [연안]을 따라 아름다운 산책로가 길게 이어져 있다.",
+                "example_en": "This region has a long, beautiful walking trail along the coast."
+            },
+            {
+                "word": "개입하다",
+                "meaning": "to intervene, interfere",
+                "example_ko": "다른 사람의 개인적인 다툼에 함부로 [개입하면] 안 된다.",
+                "example_en": "You should not carelessly intervene in someone else's personal fight."
+            },
+            {
+                "word": "겨냥하다",
+                "meaning": "to target, aim at",
+                "example_ko": "새로운 상품은 젊은 소비자들을 [겨냥하여] 개발되었다.",
+                "example_en": "The new product was developed targeting young consumers."
+            },
+            {
+                "word": "부상자",
+                "meaning": "injured person, casualty",
+                "example_ko": "사고 현장에서 발생한 [부상자]들이 신속하게 병원으로 옮겨졌다.",
+                "example_en": "The injured persons from the accident scene were swiftly moved to the hospital."
+            },
+            {
+                "word": "고조되다",
+                "meaning": "to heighten, escalate",
+                "example_ko": "결승전 경기가 시작되자 관중석의 응원 열기가 크게 [고조되었다].",
+                "example_en": "As the final match began, the cheering enthusiasm in the stands escalated greatly."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-15",
         "published_at": "2026-10-15 18:36",
         "title": "국회 국정감사서 대법관 재제청과 증인 채택 두고 여야 충돌 격화",

@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-17",
+        "published_at": "2026-10-17 06:27",
+        "title": "국가기간시설 촬영 드론 60% 중국산… 국회서 안보 유출 우려 제기",
+        "body": "공항과 철도, 도로 등 국가 주요 기간시설을 촬영하고 관리하는 공공기관 드론 10대 중 6대가 중국산인 것으로 나타났다. 국회 국토교통위원회 소속 국민의힘 김은혜 의원이 국토교통부 산하 공공기관들로부터 제출받은 자료에 따르면, 전체 332대의 드론 가운데 62.3%인 207대가 중국산이었다. 기관별로는 인천국제공항공사가 보유한 드론 전량이 중국산이었으며, 한국철도공사도 80%가 넘는 높은 비율을 기록했다. 또한 한국국토정보공사와 한국공항공사 등에서도 보유 드론의 절반 이상이 중국산인 것으로 파악되었다. 앞서 미국 정부는 드론에 장착된 카메라와 센서를 통해 주요 시설의 영상과 지형 정보가 해외로 유출될 수 있다는 이유로 중국산 드론 구매를 전면 금지한 바 있다. 국내에서도 농림축산식품부가 농지 전수조사에 투입된 드론의 보안 우려가 제기되자 관련 촬영을 일시 중단하기도 했다. 김은혜 의원은 공항과 철도 등은 유사시에 국가 안보와 직결되는 핵심 시설인 만큼 철저한 보안성 검증이 시급하다고 지적했다. 아울러 중국산 장비를 국산 장비로 교체할 수 있도록 관련 법률과 예산 등 제도적 대안을 조속히 마련해야 한다고 강조했다. 이에 대해 국토교통부는 관계 부처 합동 회의를 통해 공공용 드론의 보안 기준을 마련하고 있으며, 오는 2029년 시행을 목표로 하고 있다고 밝혔다.",
+        "translation": "공항과 철도, 도로 등 국가 주요 기간시설을 촬영하고 관리하는 공공기관 드론 10대 중 6대가 중국산인 것으로 나타났다.\nIt was revealed that six out of ten drones used by public institutions to photograph and manage key national infrastructure, such as airports, railways, and roads, are made in China.\n\n국회 국토교통위원회 소속 국민의힘 김은혜 의원이 국토교통부 산하 공공기관들로부터 제출받은 자료에 따르면, 전체 332대의 드론 가운데 62.3%인 207대가 중국산이었다.\nAccording to data submitted by public institutions under the Ministry of Land, Infrastructure and Transport to People Power Party lawmaker Kim Eun-hye, 207 out of a total of 332 drones, or 62.3%, were manufactured in China.\n\n기관별로는 인천국제공항공사가 보유한 드론 전량이 중국산이었으며, 한국철도공사도 80%가 넘는 높은 비율을 기록했다.\nBy institution, all drones owned by Incheon International Airport Corporation were Chinese-made, and the Korea Railroad Corporation also recorded a high proportion of over 80%.\n\n또한 한국국토정보공사와 한국공항공사 등에서도 보유 드론의 절반 이상이 중국산인 것으로 파악되었다.\nIn addition, more than half of the drones owned by organizations such as the Korea Land and Geospatial Informatix Corporation and the Korea Airports Corporation were found to be of Chinese make.\n\n앞서 미국 정부는 드론에 장착된 카메라와 센서를 통해 주요 시설의 영상과 지형 정보가 해외로 유출될 수 있다는 이유로 중국산 드론 구매를 전면 금지한 바 있다.\nPreviously, the U.S. government completely banned the purchase of Chinese drones on concerns that footage and geographical data of critical facilities could be leaked abroad through cameras and sensors mounted on the drones.\n\n국내에서도 농림축산식품부가 농지 전수조사에 투입된 드론의 보안 우려가 제기되자 관련 촬영을 일시 중단하기도 했다.\nIn South Korea, the Ministry of Agriculture, Food and Rural Affairs also temporarily suspended filming after security concerns were raised regarding drones deployed for a complete survey of farmlands.\n\n김은혜 의원은 공항과 철도 등은 유사시에 국가 안보와 직결되는 핵심 시설인 만큼 철저한 보안성 검증이 시급하다고 지적했다.\nLawmaker Kim Eun-hye pointed out that because airports and railways are core facilities directly linked to national security in emergencies, thorough security verification is urgent.\n\n아울러 중국산 장비를 국산 장비로 교체할 수 있도록 관련 법률과 예산 등 제도적 대안을 조속히 마련해야 한다고 강조했다.\nShe also emphasized that institutional alternatives, such as relevant laws and budgets, must be promptly prepared to replace Chinese equipment with domestically produced equipment.\n\n이에 대해 국토교통부는 관계 부처 합동 회의를 통해 공공용 드론의 보안 기준을 마련하고 있으며, 오는 2029년 시행을 목표로 하고 있다고 밝혔다.\nIn response, the Ministry of Land, Infrastructure and Transport stated that it is establishing security standards for public drones through joint interagency meetings, aiming for implementation by 2029.",
+        "vocab": [
+            {
+                "word": "기간시설",
+                "meaning": "infrastructure",
+                "example_ko": "정부는 국가의 중요한 [기간시설]을 안전하게 보호하고 있다.",
+                "example_en": "The government safely protects the nation's important infrastructure."
+            },
+            {
+                "word": "보유하다",
+                "meaning": "to possess, to hold",
+                "example_ko": "우리 회사는 최첨단 기술 특허를 여러 개 [보유하고] 있다.",
+                "example_en": "Our company possesses several cutting-edge technology patents."
+            },
+            {
+                "word": "장착되다",
+                "meaning": "to be equipped, to be mounted",
+                "example_ko": "모든 자동차에는 안전벨트가 기본으로 [장착되어] 있다.",
+                "example_en": "Seat belts are mounted as standard in all cars."
+            },
+            {
+                "word": "유출되다",
+                "meaning": "to be leaked, to be spilled",
+                "example_ko": "회사의 중요한 고객 정보가 인터넷으로 [유출되었다].",
+                "example_en": "Important customer information of the company was leaked online."
+            },
+            {
+                "word": "전면",
+                "meaning": "full-scale, completely, entirely",
+                "example_ko": "폭설 때문에 고속도로 통행이 [전면] 금지되었다.",
+                "example_en": "Highway traffic was completely banned due to heavy snow."
+            },
+            {
+                "word": "투입되다",
+                "meaning": "to be deployed, to be invested",
+                "example_ko": "산불 진화를 위해 수백 명의 소방관이 현장에 [투입되었다].",
+                "example_en": "Hundreds of firefighters were deployed to the scene to extinguish the forest fire."
+            },
+            {
+                "word": "유사시",
+                "meaning": "in case of emergency",
+                "example_ko": "군대는 [유사시에] 대비하여 철저한 훈련을 실시한다.",
+                "example_en": "The military conducts thorough training in preparation for emergencies."
+            },
+            {
+                "word": "직결되다",
+                "meaning": "to be directly linked, to be directly connected",
+                "example_ko": "식습관은 사람의 건강과 [직결된다].",
+                "example_en": "Dietary habits are directly linked to a person's health."
+            },
+            {
+                "word": "검증",
+                "meaning": "verification, inspection",
+                "example_ko": "전문가들은 새로운 백신의 안전성에 대한 [검증을] 마쳤다.",
+                "example_en": "Experts finished the verification of the new vaccine's safety."
+            },
+            {
+                "word": "조속히",
+                "meaning": "promptly, as soon as possible",
+                "example_ko": "문제가 더 커지기 전에 [조속히] 해결책을 찾아야 한다.",
+                "example_en": "We must promptly find a solution before the problem gets bigger."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-17",
+        "published_at": "2026-10-17 06:27",
+        "title": "미국 철강 가격 4년 만에 최고치… 트럼프 관세 여파로 공급 부족 심화",
+        "body": "미국 내 철강 가격이 트럼프 행정부의 고율 관세 정책 여파로 치솟으면서 약 4년 만에 최고 수준을 기록했다. 주요 외신에 따르면 미국 철강 가격의 기준이 되는 열연강판 가격은 1년 전보다 50% 이상 오른 것으로 나타났다. 이러한 급등세는 2022년 5월 이후 가장 높은 수준으로, 시장에 상당한 충격을 주고 있다. 가격 폭등의 핵심 원인으로는 수입산 철강에 부과된 50%의 높은 관세와 주요 교역국 간의 무역 갈등이 지목된다. 미국 정부의 강경한 무역 정책으로 인해 수입 주문이 급격히 줄어들면서 완제품 철강의 공급 부족 현상이 심화되었다. 실제로 올해 미국의 완제품 철강 수입량은 지난해 같은 기간에 비해 14% 감소하며 시장 내 비중도 크게 줄었다. 여기에 연말 미국 제철소들의 정기 설비 보수 일정까지 겹치면서 철강 수급 불안은 당분간 이어질 전망이다. 철강 가격 상승으로 현지 철강 제조사들은 큰 이익을 얻고 있지만, 건설사와 자동차 제조사 등 철강을 소비하는 기업들의 원가 부담은 눈덩이처럼 불어나고 있다.",
+        "translation": "미국 내 철강 가격이 트럼프 행정부의 고율 관세 정책 여파로 치솟으면서 약 4년 만에 최고 수준을 기록했다.\nSteel prices in the United States surged to their highest level in about four years in the aftermath of the Trump administration's high-tariff policy.\n\n주요 외신에 따르면 미국 철강 가격의 기준이 되는 열연강판 가격은 1년 전보다 50% 이상 오른 것으로 나타났다.\nAccording to major foreign media, the price of hot-rolled steel coil, which serves as the benchmark for U.S. steel prices, rose by more than 50% compared to a year ago.\n\n이러한 급등세는 2022년 5월 이후 가장 높은 수준으로, 시장에 상당한 충격을 주고 있다.\nThis surge is the highest level since May 2022, dealing a considerable shock to the market.\n\n가격 폭등의 핵심 원인으로는 수입산 철강에 부과된 50%의 높은 관세와 주요 교역국 간의 무역 갈등이 지목된다.\nA 50% high tariff imposed on imported steel and trade conflicts with major trading partners are pointed out as the key causes of the price explosion.\n\n미국 정부의 강경한 무역 정책으로 인해 수입 주문이 급격히 줄어들면서 완제품 철강의 공급 부족 현상이 심화되었다.\nAs import orders decreased sharply due to the U.S. government's hardline trade policy, the supply shortage of finished steel products worsened.\n\n실제로 올해 미국의 완제품 철강 수입량은 지난해 같은 기간에 비해 14% 감소하며 시장 내 비중도 크게 줄었다.\nIn fact, U.S. imports of finished steel products this year fell by 14% compared to the same period last year, and their share in the market also dropped significantly.\n\n여기에 연말 미국 제철소들의 정기 설비 보수 일정까지 겹치면서 철강 수급 불안은 당분간 이어질 전망이다.\nWith regular equipment maintenance schedules of U.S. steel mills at the end of the year overlapping, the instability in steel supply and demand is expected to continue for the time being.\n\n철강 가격 상승으로 현지 철강 제조사들은 큰 이익을 얻고 있지만, 건설사와 자동차 제조사 등 철강을 소비하는 기업들의 원가 부담은 눈덩이처럼 불어나고 있다.\nWhile local steelmakers are earning large profits from rising steel prices, the cost burden on steel-consuming companies such as construction and automobile manufacturers is snowballing.",
+        "vocab": [
+            {
+                "word": "치솟다",
+                "meaning": "to soar, to skyrocket",
+                "example_ko": "물가가 무서운 속도로 [치솟아] 서민들의 생활이 어려워졌다.",
+                "example_en": "Living conditions for ordinary people have become difficult as prices soared at a frightening rate."
+            },
+            {
+                "word": "부과하다",
+                "meaning": "to impose, to levy",
+                "example_ko": "정부는 불법 주차 차량에 과태료를 [부과했다].",
+                "example_en": "The government imposed a fine on illegally parked vehicles."
+            },
+            {
+                "word": "지목되다",
+                "meaning": "to be pointed out, to be identified",
+                "example_ko": "공사장의 소음이 주민 갈등의 주된 원인으로 [지목되었다].",
+                "example_en": "Noise from the construction site was pointed out as the main cause of conflict among residents."
+            },
+            {
+                "word": "강경하다",
+                "meaning": "to be firm, to be hardline",
+                "example_ko": "회사는 노조의 무리한 요구에 대해 [강경한] 태도를 유지했다.",
+                "example_en": "The company maintained a firm stance against the union's unreasonable demands."
+            },
+            {
+                "word": "완제품",
+                "meaning": "finished goods, complete product",
+                "example_ko": "부품을 조립하여 공장에서 [완제품을] 생산한다.",
+                "example_en": "Finished goods are produced in the factory by assembling components."
+            },
+            {
+                "word": "심화되다",
+                "meaning": "to deepen, to intensify",
+                "example_ko": "청년층의 취업난이 갈수록 [심화되고] 있다.",
+                "example_en": "The employment difficulties of young people are worsening day by day."
+            },
+            {
+                "word": "비중",
+                "meaning": "proportion, share, importance",
+                "example_ko": "한국 경제에서 수출이 차지하는 [비중이] 매우 높다.",
+                "example_en": "The proportion of exports in the Korean economy is very high."
+            },
+            {
+                "word": "설비",
+                "meaning": "facilities, equipment",
+                "example_ko": "공장은 제품 생산성을 높이기 위해 최신 [설비를] 들여왔다.",
+                "example_en": "The factory brought in the latest facilities to increase product productivity."
+            },
+            {
+                "word": "보수",
+                "meaning": "maintenance, repair",
+                "example_ko": "낡은 다리의 안전을 위해 정기적인 시설 [보수가] 필요하다.",
+                "example_en": "Regular maintenance of facilities is necessary for the safety of the old bridge."
+            },
+            {
+                "word": "불어나다",
+                "meaning": "to increase, to swell, to snowball",
+                "example_ko": "갑작스러운 폭우로 인해 하천의 물이 크게 [불어났다].",
+                "example_en": "The river water swelled significantly due to sudden heavy rain."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-17",
+        "published_at": "2026-10-17 06:27",
+        "title": "제주발 항공편 무더기 지연 소동… 승객들 목적지 변경에 큰 불편",
+        "body": "제주국제공항에서 항공편 운항이 잇따라 지연되면서 늦은 밤까지 수많은 승객이 큰 혼란과 불편을 겪었다. 항공업계에 따르면 주요 항공사의 제주발 항공편들이 예정된 출발 시간보다 1시간 이상 늦게 이륙했다. 일부 항공편은 김포국제공항의 야간 운항 제한 시간과 겹치면서 목적지를 인천국제공항으로 급히 변경해야 했다. 김포로 향하던 한 여객기는 출발이 두 시간 가까이 지연된 끝에 자정이 다 되어서야 인천공항에 착륙했다. 이에 따라 항공사는 승객들을 김포공항까지 이동시키기 위해 심야 버스를 긴급 투입하기도 했다. 또한 김해공항으로 가려던 항공기 역시 공항 운영 시간에 맞추지 못해 인천공항으로 회항하는 일이 벌어졌다. 항공사 측은 항공기 연결 문제와 함께 제주공항의 교통 혼잡이 지연의 주요 원인이었다고 설명했다. 특히 대통령의 전국체전 제주 방문 일정으로 인해 항공기 이착륙이 일시적으로 제한되면서 혼잡이 가중된 것으로 나타났다. 승객들은 사전에 충분한 안내가 부족했다며 불만을 터뜨렸고, 공항 터미널에서는 밤늦게까지 항의가 이어졌다.",
+        "translation": "제주국제공항에서 항공편 운항이 잇따라 지연되면서 늦은 밤까지 수많은 승객이 큰 혼란과 불편을 겪었다.\nFlight operations at Jeju International Airport were delayed one after another, causing great confusion and inconvenience for numerous passengers until late at night.\n\n항공업계에 따르면 주요 항공사의 제주발 항공편들이 예정된 출발 시간보다 1시간 이상 늦게 이륙했다.\nAccording to the aviation industry, flights departing from Jeju by major airlines took off more than an hour later than their scheduled departure times.\n\n일부 항공편은 김포국제공항의 야간 운항 제한 시간과 겹치면서 목적지를 인천국제공항으로 급히 변경해야 했다.\nSome flights had to urgently change their destination to Incheon International Airport as their arrival coincided with the nighttime flight curfew at Gimpo International Airport.\n\n김포로 향하던 한 여객기는 출발이 두 시간 가까이 지연된 끝에 자정이 다 되어서야 인천공항에 착륙했다.\nA passenger plane bound for Gimpo, after its departure was delayed by nearly two hours, only landed at Incheon Airport around midnight.\n\n이에 따라 항공사는 승객들을 김포공항까지 이동시키기 위해 심야 버스를 긴급 투입하기도 했다.\nConsequently, the airline urgently dispatched late-night buses to transport passengers to Gimpo Airport.\n\n또한 김해공항으로 가려던 항공기 역시 공항 운영 시간에 맞추지 못해 인천공항으로 회항하는 일이 벌어졌다.\nIn addition, an aircraft bound for Gimhae Airport also diverted to Incheon Airport after failing to meet the airport's operating hours.\n\n항공사 측은 항공기 연결 문제와 함께 제주공항의 교통 혼잡이 지연의 주요 원인이었다고 설명했다.\nThe airline explained that aircraft connection problems along with traffic congestion at Jeju Airport were the main causes of the delays.\n\n특히 대통령의 전국체전 제주 방문 일정으로 인해 항공기 이착륙이 일시적으로 제한되면서 혼잡이 가중된 것으로 나타났다.\nIn particular, congestion reportedly worsened as aircraft takeoffs and landings were temporarily restricted due to the president's visit to Jeju for the National Sports Festival.\n\n승객들은 사전에 충분한 안내가 부족했다며 불만을 터뜨렸고, 공항 터미널에서는 밤늦게까지 항의가 이어졌다.\nPassengers voiced complaints, citing a lack of sufficient advance notice, and protests continued in the airport terminal until late at night.",
+        "vocab": [
+            {
+                "word": "운항",
+                "meaning": "flight operation, service",
+                "example_ko": "기상 악화로 인해 오늘 모든 여객선의 [운항이] 중단되었다.",
+                "example_en": "Operations of all passenger ferries were suspended today due to worsening weather conditions."
+            },
+            {
+                "word": "지연되다",
+                "meaning": "to be delayed",
+                "example_ko": "짙은 안개로 인해 기차 출발이 30분 정도 [지연되었다].",
+                "example_en": "The train departure was delayed by about 30 minutes due to dense fog."
+            },
+            {
+                "word": "이륙하다",
+                "meaning": "to take off",
+                "example_ko": "비행기는 활주로를 힘차게 달려 하늘로 [이륙했다].",
+                "example_en": "The airplane ran forcefully along the runway and took off into the sky."
+            },
+            {
+                "word": "착륙하다",
+                "meaning": "to land",
+                "example_ko": "비행기가 안전하게 활주로에 [착륙하자] 승객들이 안도했다.",
+                "example_en": "The passengers were relieved as the plane landed safely on the runway."
+            },
+            {
+                "word": "목적지",
+                "meaning": "destination",
+                "example_ko": "우리는 긴 여행 끝에 마침내 최종 [목적지에] 도착했다.",
+                "example_en": "After a long journey, we finally arrived at our final destination."
+            },
+            {
+                "word": "긴급",
+                "meaning": "urgency, emergency",
+                "example_ko": "병원은 부상자를 치료하기 위해 [긴급] 의료진을 파견했다.",
+                "example_en": "The hospital dispatched emergency medical staff to treat the injured."
+            },
+            {
+                "word": "혼잡",
+                "meaning": "congestion, crowding",
+                "example_ko": "출근 시간에는 지하철역이 사람들로 매우 [혼잡하다].",
+                "example_en": "During rush hour, subway stations are very crowded with people."
+            },
+            {
+                "word": "이착륙",
+                "meaning": "takeoff and landing",
+                "example_ko": "강풍이 불면 항공기의 안전한 [이착륙이] 어렵다.",
+                "example_en": "When strong winds blow, safe takeoff and landing of aircraft are difficult."
+            },
+            {
+                "word": "가중되다",
+                "meaning": "to worsen, to be aggravated",
+                "example_ko": "무더위가 계속되면서 전력 부족 문제가 더욱 [가중되고] 있다.",
+                "example_en": "As the heatwave continues, the power shortage problem is further worsening."
+            },
+            {
+                "word": "항의",
+                "meaning": "protest, complaint",
+                "example_ko": "소비자들은 제품 불량에 대해 본사에 강력히 [항의했다].",
+                "example_en": "Consumers strongly protested to headquarters regarding product defects."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-17",
+        "published_at": "2026-10-17 06:27",
+        "title": "'허위 경력 의혹' 백악관 대변인, 임명 나흘 만에 전격 경질",
+        "body": "미국 도널드 트럼프 대통령이 새로 발탁했던 케이티 재커라이어 백악관 대변인이 업무를 시작한 지 나흘 만에 전격 경질되었다. 백악관은 현지시간 16일 언론 브리핑을 통해 재커라이어 대변인의 해임 결정을 공식적으로 확인했다. 앞서 트럼프 대통령은 기자들과 만난 자리에서 그녀에게 이 일이 맞지 않을 수도 있다며 스스로 재고해보라는 뜻을 내비쳤다. 재커라이어 대변인은 지난 9일 임명된 직후부터 자질 논란과 허위 경력 의혹에 휩싸였다. 그녀는 방송 등에서 자신을 변호사로 소개해 왔지만, 실제로는 변호사 시험에 합격하지 못한 사실이 드러나 큰 비판을 받았다. 또한 첫 공식 브리핑에서 특정 보수 성향 매체의 질문 몇 개만 받은 뒤 불과 10여 분 만에 퇴장해 기자단의 반발을 샀다. 게다가 최근 인터뷰에서 중국의 위생 시설을 비하하는 발언을 하여 중국 외교부의 공식 항의를 불러일으키기도 했다. 트럼프 대통령의 열렬한 지지자로 꼽히며 발탁되었던 그녀는 결국 나흘 만에 물러나며 역대 최단명 백악관 대변인이라는 불명예를 안게 되었다.",
+        "translation": "미국 도널드 트럼프 대통령이 새로 발탁했던 케이티 재커라이어 백악관 대변인이 업무를 시작한 지 나흘 만에 전격 경질되었다.\nKatie Zacharias, the White House press secretary newly appointed by U.S. President Donald Trump, was abruptly dismissed just four days after starting her duties.\n\n백악관은 현지시간 16일 언론 브리핑을 통해 재커라이어 대변인의 해임 결정을 공식적으로 확인했다.\nThe White House officially confirmed the decision to dismiss Press Secretary Zacharias through a press briefing on the 16th, local time.\n\n앞서 트럼프 대통령은 기자들과 만난 자리에서 그녀에게 이 일이 맞지 않을 수도 있다며 스스로 재고해보라는 뜻을 내비쳤다.\nEarlier, when meeting with reporters, President Trump hinted that this job might not be right for her and suggested that she reconsider.\n\n재커라이어 대변인은 지난 9일 임명된 직후부터 자질 논란과 허위 경력 의혹에 휩싸였다.\nRight after her appointment on the 9th, Press Secretary Zacharias was engulfed in qualifications controversies and suspicions of falsified credentials.\n\n그녀는 방송 등에서 자신을 변호사로 소개해 왔지만, 실제로는 변호사 시험에 합격하지 못한 사실이 드러나 큰 비판을 받았다.\nAlthough she had introduced herself as a lawyer on television and other platforms, it was revealed that she had actually failed the bar examination, drawing severe criticism.\n\n또한 첫 공식 브리핑에서 특정 보수 성향 매체의 질문 몇 개만 받은 뒤 불과 10여 분 만에 퇴장해 기자단의 반발을 샀다.\nIn addition, at her first official briefing, she took questions only from a few specific conservative media outlets and walked out after merely ten minutes or so, provoking a backlash from the press corps.\n\n게다가 최근 인터뷰에서 중국의 위생 시설을 비하하는 발언을 하여 중국 외교부의 공식 항의를 불러일으키기도 했다.\nMoreover, in a recent interview, she made disparaging remarks about sanitary facilities in China, prompting an official protest from the Chinese foreign ministry.\n\n트럼프 대통령의 열렬한 지지자로 꼽히며 발탁되었던 그녀는 결국 나흘 만에 물러나며 역대 최단명 백악관 대변인이라는 불명예를 안게 되었다.\nHaving been selected as an ardent supporter of President Trump, she ultimately stepped down after only four days, bearing the disgrace of becoming the shortest-serving White House press secretary in history.",
+        "vocab": [
+            {
+                "word": "발탁하다",
+                "meaning": "to select, to appoint",
+                "example_ko": "감독은 잠재력이 뛰어난 신인 선수를 주전으로 [발탁했다].",
+                "example_en": "The coach selected a rookie player with outstanding potential as a starter."
+            },
+            {
+                "word": "경질되다",
+                "meaning": "to be dismissed, to be replaced",
+                "example_ko": "성적 부진으로 인해 축구 대표팀 감독이 전격 [경질되었다].",
+                "example_en": "The national soccer team coach was abruptly dismissed due to poor performance."
+            },
+            {
+                "word": "해임",
+                "meaning": "dismissal, discharge",
+                "example_ko": "회사는 비리를 저지른 임원에 대해 [해임] 결정을 내렸다.",
+                "example_en": "The company made a decision on the dismissal of the executive who committed corruption."
+            },
+            {
+                "word": "재고하다",
+                "meaning": "to reconsider",
+                "example_ko": "사장은 직원들의 의견을 들은 후 이전 결정을 [재고하기로] 했다.",
+                "example_en": "After listening to the employees' opinions, the president decided to reconsider the previous decision."
+            },
+            {
+                "word": "자질",
+                "meaning": "qualification, caliber",
+                "example_ko": "훌륭한 지도자가 되기 위해서는 소통 능력과 책임감 있는 [자질이] 필요하다.",
+                "example_en": "To become an admirable leader, communication skills and responsible qualifications are necessary."
+            },
+            {
+                "word": "휩싸이다",
+                "meaning": "to be engulfed in, to be surrounded by",
+                "example_ko": "갑작스러운 사고 소식에 마을 전체가 슬픔에 [휩싸였다].",
+                "example_en": "The entire village was engulfed in sorrow at the news of the sudden accident."
+            },
+            {
+                "word": "허위",
+                "meaning": "falsehood, untruth",
+                "example_ko": "경찰은 인터넷에 [허위] 사실을 유포한 사람을 찾아냈다.",
+                "example_en": "The police tracked down the person who spread false facts on the internet."
+            },
+            {
+                "word": "퇴장하다",
+                "meaning": "to exit, to walk out",
+                "example_ko": "경기 규칙을 심하게 위반한 선수는 경기장 밖으로 [퇴장했다].",
+                "example_en": "The player who severely violated the game rules exited off the field."
+            },
+            {
+                "word": "비하하다",
+                "meaning": "to disparage, to belittle",
+                "example_ko": "다른 사람의 외모나 배경을 함부로 [비하해서는] 안 된다.",
+                "example_en": "One should never carelessly disparage another person's appearance or background."
+            },
+            {
+                "word": "불명예",
+                "meaning": "disgrace, dishonor",
+                "example_ko": "부정행위로 시험에서 탈락한 학생은 큰 [불명예를] 안게 되었다.",
+                "example_en": "The student who was disqualified from the exam for cheating suffered great dishonor."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-16",
         "published_at": "2026-10-16 18:35",
         "title": "소방관 부상에 '소방 예산 빨대' 발언 공방… 여야 갈등 격화",

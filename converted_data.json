@@ -1,6 +1,76 @@
 [
   {
     "category": "converted",
+    "date": "2026-10-19",
+    "published_at": "2026-10-19 06:16",
+    "title": "100대 기업 임원 비율 5년째 0.8% 수준 머물러",
+    "body": "한국 100대 기업에서 임원이 차지하는 비율이 5년 동안 0.8% 수준에 머문 것으로 나타났다.\n기업분석전문 한국CXO연구소는 19일에 100대 기업의 직원과 미등기임원 수를 분석한 결과를 발표했다.\n올해 100대 기업의 전체 직원 수는 86만 2천163명으로 지난해보다 1천87명 늘었다.\n같은 기간 임원 수는 7천28명에서 7천137명으로 109명 증가했다.\n이에 따라 직원 대비 임원 비율은 지난해 0.82%에서 올해 0.83%로 조금 높아졌다.\n기업별로 보면 SK하이닉스의 임원 수가 203명에서 275명으로 72명 늘어나 가장 큰 증가세를 보였다.\n이어서 HD현대중공업이 23명, 대한항공이 12명, 미래에셋증권이 11명 늘었다.\n반면에 현대자동차는 25명이 줄었고 LG전자도 19명이 감소했다.\n100개 기업 가운데 52곳은 임원이 늘었고, 38곳은 줄었으며, 10곳은 지난해 규모를 유지했다.\n한편 개별 기업 중에서 미등기임원이 가장 많은 곳은 1천108명을 기록한 삼성전자였다.\n한국CXO연구소 측은 기업의 사업 구조와 성장 전략의 차이가 임원 수 변화에 영향을 미쳤다고 설명했다.",
+    "translation": "한국 100대 기업에서 임원이 차지하는 비율이 5년 동안 0.8% 수준에 머문 것으로 나타났다.\nIt was revealed that the proportion of executives among employees at South Korea's top 100 companies has remained at the 0.8% level for five years.\n\n기업분석전문 한국CXO연구소는 19일에 100대 기업의 직원과 미등기임원 수를 분석한 결과를 발표했다.\nOn the 19th, corporate analysis specialist Korea CXO Institute released the results of an analysis of the number of employees and unregistered executives at the top 100 companies.\n\n올해 100대 기업의 전체 직원 수는 86만 2천163명으로 지난해보다 1천87명 늘었다.\nThis year, the total number of employees at the top 100 companies stood at 862,163, an increase of 1,087 from last year.\n\n같은 기간 임원 수는 7천28명에서 7천137명으로 109명 증가했다.\nDuring the same period, the number of executives rose by 109, from 7,028 to 7,137.\n\n이에 따라 직원 대비 임원 비율은 지난해 0.82%에서 올해 0.83%로 조금 높아졌다.\nAs a result, the ratio of executives to employees slightly increased from 0.82% last year to 0.83% this year.\n\n기업별로 보면 SK하이닉스의 임원 수가 203명에서 275명으로 72명 늘어나 가장 큰 증가세를 보였다.\nBy company, SK Hynix showed the largest increase, with its executive count rising by 72 from 203 to 275.\n\n이어서 HD현대중공업이 23명, 대한항공이 12명, 미래에셋증권이 11명 늘었다.\nThis was followed by HD Hyundai Heavy Industries with an increase of 23, Korean Air with 12, and Mirae Asset Securities with 11.\n\n반면에 현대자동차는 25명이 줄었고 LG전자도 19명이 감소했다.\nOn the other hand, Hyundai Motor decreased by 25 and LG Electronics also dropped by 19.\n\n100개 기업 가운데 52곳은 임원이 늘었고, 38곳은 줄었으며, 10곳은 지난해 규모를 유지했다.\nAmong the 100 companies, 52 saw an increase in executives, 38 experienced a decrease, and 10 maintained the same scale as last year.\n\n한편 개별 기업 중에서 미등기임원이 가장 많은 곳은 1천108명을 기록한 삼성전자였다.\nMeanwhile, among individual companies, Samsung Electronics had the highest number of unregistered executives, recording 1,108.\n\n한국CXO연구소 측은 기업의 사업 구조와 성장 전략의 차이가 임원 수 변화에 영향을 미쳤다고 설명했다.\nThe Korea CXO Institute explained that differences in corporate business structures and growth strategies influenced the changes in the number of executives.",
+    "vocab": [
+      {
+        "word": "임원",
+        "meaning": "executive, board member",
+        "example_ko": "그는 열심히 일해서 대기업의 [임원]이 되었다.",
+        "example_en": "He worked hard and became an executive at a large company."
+      },
+      {
+        "word": "차지하다",
+        "meaning": "to account for, to occupy",
+        "example_ko": "스마트폰 사업이 회사 매출의 절반을 [차지했다].",
+        "example_en": "The smartphone business accounted for half of the company's sales."
+      },
+      {
+        "word": "분석하다",
+        "meaning": "to analyze",
+        "example_ko": "전문가들이 최근 시장의 변화를 자세히 [분석했다].",
+        "example_en": "Experts analyzed recent market changes in detail."
+      },
+      {
+        "word": "증가하다",
+        "meaning": "to increase",
+        "example_ko": "해외 여행을 떠나는 사람의 수가 크게 [증가했다].",
+        "example_en": "The number of people traveling abroad increased significantly."
+      },
+      {
+        "word": "비율",
+        "meaning": "ratio, proportion",
+        "example_ko": "올해 우리 대학교의 취업 [비율이] 작년보다 올랐다.",
+        "example_en": "Our university's employment rate rose compared to last year."
+      },
+      {
+        "word": "반면",
+        "meaning": "on the other hand, while",
+        "example_ko": "형은 운동을 잘하는 [반면] 동생은 공부를 잘한다.",
+        "example_en": "While the older brother is good at sports, the younger brother is good at studying."
+      },
+      {
+        "word": "감소하다",
+        "meaning": "to decrease",
+        "example_ko": "출생률이 낮아지면서 학생 수가 계속 [감소했다].",
+        "example_en": "As the birth rate dropped, the number of students continued to decrease."
+      },
+      {
+        "word": "유지하다",
+        "meaning": "to maintain, to keep",
+        "example_ko": "건강을 위해 매일 운동하며 체중을 [유지하고] 있다.",
+        "example_en": "I exercise every day for my health and maintain my weight."
+      },
+      {
+        "word": "전략",
+        "meaning": "strategy",
+        "example_ko": "회사는 새로운 고객을 모으기 위한 마케팅 [전략을] 세웠다.",
+        "example_en": "The company established a marketing strategy to attract new customers."
+      },
+      {
+        "word": "영향",
+        "meaning": "influence, effect",
+        "example_ko": "부모님의 독서 습관은 아이에게 큰 [영향을] 준다.",
+        "example_en": "Parents' reading habits have a great influence on a child."
+      }
+    ]
+  },
+  {
+    "category": "converted",
     "date": "2026-10-11",
     "published_at": "2026-10-11 18:25",
     "title": "직장 내 개인 자율성 보장과 원활한 협력 방안",

@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-10-18",
+        "published_at": "2026-10-18 18:30",
+        "title": "이 대통령, 국무회의 부분 공개 유지 방침 재확인",
+        "body": "이재명 대통령이 국무회의의 부분 공개 방침을 계속 유지하겠다는 입장을 분명히 밝혔다. 이 대통령은 자신의 사회관계망서비스를 통해 국무회의를 비공개로 전환하라는 정치권의 요구에 대해 이해하기 어렵다고 언급했다. 특히 회의가 공개되면 솔직한 발언을 하기 어렵다는 주장을 거짓말이라고 일축했다. 이 대통령은 국무회의 생중계를 지켜본 국민이라면 누구나 알 수 있듯이 지방자치단체장까지 자유롭게 자신의 의견을 밝히고 있다고 강조했다. 아울러 국무위원들이 대통령의 눈치를 보느라 반대 의견을 제대로 내지 못한다는 일각의 지적도 반박했다. 자신은 언제나 자유로운 토론을 즐기며 다른 생각을 가진 사람들의 의견을 깊이 존중한다고 설명했다. 정책을 결정하는 과정에서 조직 내부의 약점을 지적하는 레드팀의 역할이 정상적으로 작동해야 여러 가지 문제를 사전에 예방할 수 있다는 점도 덧붙였다. 이번 발언은 국정 운영의 투명성을 높이고 정책 토론을 활성화하겠다는 의지를 거듭 드러낸 것으로 풀이된다.",
+        "translation": "이재명 대통령이 국무회의의 부분 공개 방침을 계속 유지하겠다는 입장을 분명히 밝혔다.\nPresident Lee Jae-myung made it clear that he will maintain the policy of partially opening cabinet meetings to the public.\n\n이 대통령은 자신의 사회관계망서비스를 통해 국무회의를 비공개로 전환하라는 정치권의 요구에 대해 이해하기 어렵다고 언급했다.\nThrough his social media, President Lee stated that it is hard to understand demands from political circles to make cabinet meetings closed to the public.\n\n특히 회의가 공개되면 솔직한 발언을 하기 어렵다는 주장을 거짓말이라고 일축했다.\nIn particular, he dismissed the claim that it is difficult to speak candidly when meetings are open as a lie.\n\n이 대통령은 국무회의 생중계를 지켜본 국민이라면 누구나 알 수 있듯이 지방자치단체장까지 자유롭게 자신의 의견을 밝히고 있다고 강조했다.\nPresident Lee emphasized that, as anyone who watched the live broadcast of the cabinet meeting knows, even heads of local governments are freely voicing their opinions.\n\n아울러 국무위원들이 대통령의 눈치를 보느라 반대 의견을 제대로 내지 못한다는 일각의 지적도 반박했다.\nHe also refuted criticism from some quarters that cabinet members are unable to express opposing opinions out of fear of the president's reaction.\n\n자신은 언제나 자유로운 토론을 즐기며 다른 생각을 가진 사람들의 의견을 깊이 존중한다고 설명했다.\nHe explained that he always enjoys free discussions and deeply respects the opinions of those with differing views.\n\n정책을 결정하는 과정에서 조직 내부의 약점을 지적하는 레드팀의 역할이 정상적으로 작동해야 여러 가지 문제를 사전에 예방할 수 있다는 점도 덧붙였다.\nHe added that only when the role of a red team, which points out internal weaknesses during policymaking, functions properly can various problems be prevented in advance.\n\n이번 발언은 국정 운영의 투명성을 높이고 정책 토론을 활성화하겠다는 의지를 거듭 드러낸 것으로 풀이된다.\nThese remarks are interpreted as once again demonstrating his commitment to enhancing transparency in state affairs and promoting policy debate.",
+        "vocab": [
+            {
+                "word": "방침",
+                "meaning": "policy, guideline",
+                "example_ko": "회사에서는 새로운 재택근무 [방침]을 발표했다.",
+                "example_en": "The company announced a new telecommuting policy."
+            },
+            {
+                "word": "유지하다",
+                "meaning": "to maintain, to preserve",
+                "example_ko": "건강을 위해 좋은 생활 습관을 [유지하는] 것이 중요하다.",
+                "example_en": "It is important to maintain good lifestyle habits for your health."
+            },
+            {
+                "word": "전환하다",
+                "meaning": "to switch, to convert",
+                "example_ko": "그 회사는 전통적인 사업 방식을 디지털로 [전환하기로] 결정했다.",
+                "example_en": "The company decided to switch its traditional business model to digital."
+            },
+            {
+                "word": "일축하다",
+                "meaning": "to dismiss, to flatly reject",
+                "example_ko": "감독은 팀 내에 불화가 있다는 소문을 단호하게 [일축했다].",
+                "example_en": "The manager firmly dismissed rumors of discord within the team."
+            },
+            {
+                "word": "생중계",
+                "meaning": "live broadcast",
+                "example_ko": "축구 팬들은 오늘 밤 결승전 [생중계]를 기다리고 있다.",
+                "example_en": "Soccer fans are waiting for the live broadcast of the final tonight."
+            },
+            {
+                "word": "개진하다",
+                "meaning": "to express, to state one's opinion",
+                "example_ko": "회의 시간에 팀원들은 각자의 의견을 자유롭게 [개진했다].",
+                "example_en": "During the meeting, team members freely expressed their opinions."
+            },
+            {
+                "word": "반박하다",
+                "meaning": "to refute, to rebut",
+                "example_ko": "연구원은 제기된 비판에 대해 객관적인 자료를 제시하며 [반박했다].",
+                "example_en": "The researcher refuted the raised criticisms by presenting objective data."
+            },
+            {
+                "word": "존중하다",
+                "meaning": "to respect",
+                "example_ko": "서로 다른 문화를 이해하고 [존중해야] 갈등을 줄일 수 있다.",
+                "example_en": "We must understand and respect different cultures to reduce conflict."
+            },
+            {
+                "word": "작동하다",
+                "meaning": "to operate, to function",
+                "example_ko": "기계가 정상적으로 [작동하는지] 먼저 점검해 보세요.",
+                "example_en": "Please first check whether the machine is functioning properly."
+            },
+            {
+                "word": "예방하다",
+                "meaning": "to prevent",
+                "example_ko": "손을 자주 씻으면 감염병을 쉽게 [예방할] 수 있다.",
+                "example_en": "Washing your hands frequently can easily prevent infectious diseases."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-18",
+        "published_at": "2026-10-18 18:30",
+        "title": "국민연금, 증시 폭락에 3분기 대규모 평가손실… '안전판' 역할 논란",
+        "body": "최근 국내 증시가 큰 폭으로 하락하면서 국민연금이 막대한 주식 평가손실을 입은 것으로 나타났다. 금융정보업체에 따르면 국민연금이 보유한 주요 상장사의 주식 평가액은 지난 석 달여 만에 182조 원 넘게 줄어들었다. 이는 지난 6월 말과 비교해 주식 가치가 약 35%나 급감한 것으로, 분기 기준으로 7분기 만에 손실로 돌아섰다. 이번 손실은 삼성전자와 SK하이닉스 등 대표적인 반도체 대형주의 주가가 급락한 영향이 매우 컸다. 실제로 전체 평가손실 가운데 약 72%가 이 두 종목에 집중된 것으로 확인됐다. 이러한 충격은 반도체 협력업체와 주요 제조업 기업들로도 빠르게 번져 나갔다. 당초 국민연금은 주가가 폭락할 때 주식을 사들여 증시를 떠받치는 안전판 역할을 해야 한다는 기대를 받았다. 그러나 국민연금은 올해 초 주식 매도를 멈추는 리밸런싱 유예를 결정한 데 이어 최근의 급락장에서도 주식을 매도해 논란이 일고 있다. 이에 따라 증시를 안정시키는 본래의 기능을 다하지 못하고 손실만 키웠다는 비판이 커지고 있다.",
+        "translation": "최근 국내 증시가 큰 폭으로 하락하면서 국민연금이 막대한 주식 평가손실을 입은 것으로 나타났다.\nAs the domestic stock market fell sharply recently, the National Pension Service was found to have suffered massive paper losses on its stock holdings.\n\n금융정보업체에 따르면 국민연금이 보유한 주요 상장사의 주식 평가액은 지난 석 달여 만에 182조 원 넘게 줄어들었다.\nAccording to a financial information provider, the assessed value of stocks held by the National Pension Service in major listed companies decreased by more than 182 trillion won over the past three months or so.\n\n이는 지난 6월 말과 비교해 주식 가치가 약 35%나 급감한 것으로, 분기 기준으로 7분기 만에 손실로 돌아섰다.\nThis represents a plunge of roughly 35 percent in stock value compared to late June, turning into a quarterly loss for the first time in seven quarters.\n\n이번 손실은 삼성전자와 SK하이닉스 등 대표적인 반도체 대형주의 주가가 급락한 영향이 매우 컸다.\nThis loss was heavily driven by a sharp drop in the stock prices of leading large-cap semiconductor companies such as Samsung Electronics and SK Hynix.\n\n실제로 전체 평가손실 가운데 약 72%가 이 두 종목에 집중된 것으로 확인됐다.\nIn fact, it was confirmed that about 72 percent of total paper losses were concentrated in these two stocks.\n\n이러한 충격은 반도체 협력업체와 주요 제조업 기업들로도 빠르게 번져 나갔다.\nThis impact quickly spread to semiconductor partners and major manufacturing companies.\n\n당초 국민연금은 주가가 폭락할 때 주식을 사들여 증시를 떠받치는 안전판 역할을 해야 한다는 기대를 받았다.\nOriginally, the National Pension Service was expected to act as a safety buffer supporting the stock market by buying stocks when prices plunged.\n\n그러나 국민연금은 올해 초 주식 매도를 멈추는 리밸런싱 유예를 결정한 데 이어 최근의 급락장에서도 주식을 매도해 논란이 일고 있다.\nHowever, controversy is brewing as the National Pension Service decided earlier this year to defer rebalancing to halt mechanical selling, and has recently been selling stocks even in a plunging market.\n\n이에 따라 증시를 안정시키는 본래의 기능을 다하지 못하고 손실만 키웠다는 비판이 커지고 있다.\nAs a result, criticism is mounting that it failed to fulfill its original function of stabilizing the stock market and only increased losses.",
+        "vocab": [
+            {
+                "word": "증시",
+                "meaning": "stock market",
+                "example_ko": "글로벌 경제 불안으로 국내 [증시]의 변동성이 커졌다.",
+                "example_en": "Global economic uncertainty increased volatility in the domestic stock market."
+            },
+            {
+                "word": "평가손실",
+                "meaning": "paper loss, unrealized loss",
+                "example_ko": "주가 하락으로 펀드의 [평가손실]이 확대되었다.",
+                "example_en": "Due to the fall in stock prices, the fund's paper loss widened."
+            },
+            {
+                "word": "상장사",
+                "meaning": "listed company",
+                "example_ko": "코스피 시장에 새로 등록된 [상장사]들의 주가가 상승했다.",
+                "example_en": "Stock prices of newly registered listed companies on the KOSPI rose."
+            },
+            {
+                "word": "급감하다",
+                "meaning": "to drop sharply, to plunge",
+                "example_ko": "경기 침체로 인해 백화점 매출이 [급감했다].",
+                "example_en": "Department store sales dropped sharply due to the economic downturn."
+            },
+            {
+                "word": "대형주",
+                "meaning": "large-cap stock, blue-chip stock",
+                "example_ko": "초보 투자자들은 변동성이 적은 [대형주]를 선호하는 경향이 있다.",
+                "example_en": "Novice investors tend to prefer large-cap stocks with low volatility."
+            },
+            {
+                "word": "번지다",
+                "meaning": "to spread",
+                "example_ko": "작은 실수가 큰 문제로 [번지지] 않도록 주의해야 한다.",
+                "example_en": "One must be careful not to let a small mistake spread into a big problem."
+            },
+            {
+                "word": "안전판",
+                "meaning": "safety buffer, cushion",
+                "example_ko": "가계 저축은 갑작스러운 경제 위기에 대비하는 [안전판]이 된다.",
+                "example_en": "Household savings serve as a safety buffer against sudden economic crises."
+            },
+            {
+                "word": "유예",
+                "meaning": "deferral, postponement",
+                "example_ko": "정부는 영세 소상공인을 위해 세금 납부 [유예] 조치를 시행했다.",
+                "example_en": "The government implemented a tax payment deferral measure for small merchants."
+            },
+            {
+                "word": "매도하다",
+                "meaning": "to sell (stocks or assets)",
+                "example_ko": "그는 손실을 줄이기 위해 보유 주식을 전량 [매도했다].",
+                "example_en": "He sold all of his held shares to reduce losses."
+            },
+            {
+                "word": "안정시키다",
+                "meaning": "to stabilize",
+                "example_ko": "정부는 급등하는 부동산 가격을 [안정시키기] 위해 대책을 내놓았다.",
+                "example_en": "The government came up with measures to stabilize soaring real estate prices."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-18",
+        "published_at": "2026-10-18 18:30",
+        "title": "전국 곳곳 요란한 가을 폭우와 강풍… 시설물 피해·교통 차질 잇따라",
+        "body": "전국적으로 강풍을 동반한 요란한 가을비가 쏟아지면서 곳곳에서 피해가 잇따랐다. 특히 수도권 지역에는 시간당 30밀리미터가 넘는 세찬 비가 내리며 주요 도로가 물에 잠겼다. 서울 연신내역 인근에서는 차량 바퀴가 절반가량 물에 잠긴 채 운행하는 위험한 상황이 벌어졌다. 경기도 고양시와 김포시 등에서도 도로 침수 피해 신고가 빗발치면서 긴급 배수 작업이 이루어졌다. 거센 바람으로 인한 시설물 파손 피해도 잇따라 발생했다. 충남 당진시의 한 다세대주택에서는 강풍을 견디지 못한 지붕 철제 구조물이 통째로 뜯겨 날아갔다. 서울 강남에서는 강한 바람에 가로수가 뿌리째 꺾여 쓰러지면서 차량 통행에 큰 불편을 겪었다. 궂은 날씨의 여파로 바닷길과 하늘길의 교통도 큰 차질을 빚었다. 인천과 섬 지역을 잇는 여객선 운항이 대부분 중단되었고, 인천과 제주 국제공항에서는 수백 편의 항공기가 지연되거나 결항했다.",
+        "translation": "전국적으로 강풍을 동반한 요란한 가을비가 쏟아지면서 곳곳에서 피해가 잇따랐다.\nAs heavy autumn rain accompanied by strong winds poured across the nation, damage was reported one after another in various areas.\n\n특히 수도권 지역에는 시간당 30밀리미터가 넘는 세찬 비가 내리며 주요 도로가 물에 잠겼다.\nIn particular, torrential rain exceeding 30 millimeters per hour fell in the capital area, submerging major roads underwater.\n\n서울 연신내역 인근에서는 차량 바퀴가 절반가량 물에 잠긴 채 운행하는 위험한 상황이 벌어졌다.\nNear Yeonsinnae Station in Seoul, dangerous situations unfolded as vehicles operated with wheels about half-submerged in water.\n\n경기도 고양시와 김포시 등에서도 도로 침수 피해 신고가 빗발치면서 긴급 배수 작업이 이루어졌다.\nIn Goyang and Gimpo in Gyeonggi Province, emergency drainage work was carried out as reports of flooded roads flooded in.\n\n거센 바람으로 인한 시설물 파손 피해도 잇따라 발생했다.\nDamage caused by powerful winds destroying facilities also occurred successively.\n\n충남 당진시의 한 다세대주택에서는 강풍을 견디지 못한 지붕 철제 구조물이 통째로 뜯겨 날아갔다.\nAt a multi-family house in Dangjin, South Chungcheong Province, a steel roof structure unable to withstand the strong wind was ripped off entirely and blown away.\n\n서울 강남에서는 강한 바람에 가로수가 뿌리째 꺾여 쓰러지면서 차량 통행에 큰 불편을 겪었다.\nIn Gangnam, Seoul, street trees broke and fell by the roots due to the strong wind, causing great inconvenience to vehicular traffic.\n\n궂은 날씨의 여파로 바닷길과 하늘길의 교통도 큰 차질을 빚었다.\nIn the aftermath of the severe weather, sea routes and air traffic also suffered major disruptions.\n\n인천과 섬 지역을 잇는 여객선 운항이 대부분 중단되었고, 인천과 제주 국제공항에서는 수백 편의 항공기가 지연되거나 결항했다.\nMost ferry operations connecting Incheon and island areas were suspended, and hundreds of flights were delayed or canceled at Incheon and Jeju International Airports.",
+        "vocab": [
+            {
+                "word": "동반하다",
+                "meaning": "to accompany",
+                "example_ko": "가을철에는 찬 공기를 [동반한] 강한 비가 자주 내린다.",
+                "example_en": "In autumn, heavy rain accompanied by cold air often falls."
+            },
+            {
+                "word": "침수",
+                "meaning": "flooding, submersion",
+                "example_ko": "폭우로 인해 저지대 주택가에 [침수] 피해가 발생했다.",
+                "example_en": "Due to torrential rain, flooding damage occurred in the low-lying residential area."
+            },
+            {
+                "word": "배수",
+                "meaning": "drainage",
+                "example_ko": "물이 잘 빠지도록 옥상 [배수] 시설을 미리 청소했다.",
+                "example_en": "I cleaned the rooftop drainage facilities in advance so that water would drain well."
+            },
+            {
+                "word": "파손되다",
+                "meaning": "to be damaged, to be broken",
+                "example_ko": "강풍으로 인해 베란다 창문이 심하게 [파손되었다].",
+                "example_en": "The veranda window was severely damaged by the strong wind."
+            },
+            {
+                "word": "견디다",
+                "meaning": "to endure, to withstand",
+                "example_ko": "이 건물은 강한 지진도 안전하게 [견딜] 수 있게 설계되었다.",
+                "example_en": "This building is designed to safely withstand strong earthquakes."
+            },
+            {
+                "word": "가로수",
+                "meaning": "street tree",
+                "example_ko": "가을이 깊어지자 도로변의 [가로수]들이 붉게 물들었다.",
+                "example_en": "As autumn deepened, the street trees along the road turned red."
+            },
+            {
+                "word": "여파",
+                "meaning": "aftermath, ripple effect",
+                "example_ko": "물가 상승의 [여파]로 외식 소비가 크게 줄었다.",
+                "example_en": "In the aftermath of inflation, dining-out spending decreased significantly."
+            },
+            {
+                "word": "차질",
+                "meaning": "disruption, setback",
+                "example_ko": "부품 공급이 늦어지면서 제품 생산 일정에 [차질이] 생겼다.",
+                "example_en": "As parts supply was delayed, a disruption occurred in the product production schedule."
+            },
+            {
+                "word": "운항",
+                "meaning": "operation, sailing, flight service",
+                "example_ko": "짙은 안개로 인해 아침 여객선의 [운항]이 잠시 중단되었다.",
+                "example_en": "Due to dense fog, the morning ferry service was temporarily suspended."
+            },
+            {
+                "word": "결항하다",
+                "meaning": "to be canceled (flight or ferry)",
+                "example_ko": "태풍의 영향으로 제주도로 향하는 항공편이 모두 [결항했다].",
+                "example_en": "All flights heading to Jeju were canceled due to the typhoon."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-18",
+        "published_at": "2026-10-18 18:30",
+        "title": "중국, AI·바이오 등 핵심기술 40개 수출통제 추진",
+        "body": "중국 정부가 인공지능을 비롯한 국가 핵심기술에 대해 수출 규제를 대폭 강화하기로 했다. 홍콩 언론에 따르면 중국 상무부와 과학기술부는 기술 수출통제 목록에 40개 기술을 추가하는 개정안을 발표했다. 통제 목록에 새로 포함된 기술에는 인공지능 관련 23개 기술과 바이오의약 5개, 태양광 12개 기술이 들어갔다. 이번 개정안에 따라 이 가운데 14개 기술은 수출이 완전히 금지되며, 26개 기술은 제한적으로만 수출이 허용된다. 중국 당국은 법안의 정식 시행에 앞서 해외로 기술을 이전할 때 거쳐야 하는 사전 등록 의무를 즉시 적용하기 시작했다. 다만 널리 공개되어 누구나 접근할 수 있는 오픈소스 기술은 이번 통제 대상에서 제외되었다. 이에 따라 딥시크나 알리바바 같은 주요 중국 인공지능 기업들의 해외 사업에 미칠 영향은 아직 불확실하다. 전문가들은 이번 조치로 중국 인공지능 기업들의 해외 진출 비용이 단기적으로 늘어날 수 있다고 보았다. 그러나 장기적인 관점에서는 중국이 보유한 첨단 핵심기술을 안전하게 보호하는 계기가 될 것으로 분석했다.",
+        "translation": "중국 정부가 인공지능을 비롯한 국가 핵심기술에 대해 수출 규제를 대폭 강화하기로 했다.\nThe Chinese government has decided to significantly strengthen export controls on core national technologies, including artificial intelligence.\n\n홍콩 언론에 따르면 중국 상무부와 과학기술부는 기술 수출통제 목록에 40개 기술을 추가하는 개정안을 발표했다.\nAccording to Hong Kong media, China's Ministry of Commerce and the Ministry of Science and Technology announced an amendment adding 40 technologies to the export control list.\n\n통제 목록에 새로 포함된 기술에는 인공지능 관련 23개 기술과 바이오의약 5개, 태양광 12개 기술이 들어갔다.\nTechnologies newly included in the control list include 23 AI-related technologies, 5 biopharmaceutical technologies, and 12 solar power technologies.\n\n이번 개정안에 따라 이 가운데 14개 기술은 수출이 완전히 금지되며, 26개 기술은 제한적으로만 수출이 허용된다.\nUnder this amendment, exports of 14 of these technologies are completely prohibited, while 26 technologies are permitted for export only with restrictions.\n\n중국 당국은 법안의 정식 시행에 앞서 해외로 기술을 이전할 때 거쳐야 하는 사전 등록 의무를 즉시 적용하기 시작했다.\nChinese authorities immediately began applying the pre-registration requirement when transferring technology abroad, ahead of the formal implementation of the bill.\n\n다만 널리 공개되어 누구나 접근할 수 있는 오픈소스 기술은 이번 통제 대상에서 제외되었다.\nHowever, open-source technology that is widely public and accessible to anyone was excluded from this control list.\n\n이에 따라 딥시크나 알리바바 같은 주요 중국 인공지능 기업들의 해외 사업에 미칠 영향은 아직 불확실하다.\nAccordingly, the impact on the overseas business of major Chinese AI companies such as DeepSeek and Alibaba remains uncertain.\n\n전문가들은 이번 조치로 중국 인공지능 기업들의 해외 진출 비용이 단기적으로 늘어날 수 있다고 보았다.\nExperts saw that this measure could increase the cost of overseas expansion for Chinese AI firms in the short term.\n\n그러나 장기적인 관점에서는 중국이 보유한 첨단 핵심기술을 안전하게 보호하는 계기가 될 것으로 분석했다.\nHowever, they analyzed that from a long-term perspective, it will serve as an opportunity to securely protect China's cutting-edge core technologies.",
+        "vocab": [
+            {
+                "word": "핵심기술",
+                "meaning": "core technology, key technology",
+                "example_ko": "그 기업은 미래 경쟁력을 높이기 위해 [핵심기술] 개발에 투자하고 있다.",
+                "example_en": "The company is investing in core technology development to enhance future competitiveness."
+            },
+            {
+                "word": "개정안",
+                "meaning": "amendment, revised bill",
+                "example_ko": "국회는 근로 환경 개선을 위한 법률 [개정안]을 통과시켰다.",
+                "example_en": "The National Assembly passed a legislative amendment to improve working conditions."
+            },
+            {
+                "word": "통제",
+                "meaning": "control, regulation",
+                "example_ko": "경찰은 사고 현장 주변의 교통 [통제를] 신속하게 실시했다.",
+                "example_en": "The police promptly carried out traffic control around the accident scene."
+            },
+            {
+                "word": "허용되다",
+                "meaning": "to be permitted, to be allowed",
+                "example_ko": "시험장 안에서는 전자 기기의 사용이 일절 [허용되지] 않는다.",
+                "example_en": "The use of electronic devices is not permitted at all inside the examination hall."
+            },
+            {
+                "word": "시행",
+                "meaning": "implementation, enforcement",
+                "example_ko": "새 교통 법규의 [시행] 이후 사고 발생률이 크게 줄었다.",
+                "example_en": "Since the implementation of the new traffic regulations, the accident rate has dropped significantly."
+            },
+            {
+                "word": "이전",
+                "meaning": "transfer, relocation",
+                "example_ko": "두 나라는 친환경 에너지 분야의 기술 [이전을] 위해 협력하기로 했다.",
+                "example_en": "The two countries agreed to cooperate on technology transfer in the green energy sector."
+            },
+            {
+                "word": "제외되다",
+                "meaning": "to be excluded",
+                "example_ko": "이번 할인 행사에서 일부 인기 품목은 대상에서 [제외되었다].",
+                "example_en": "Some popular items were excluded from the eligible products in this discount event."
+            },
+            {
+                "word": "불확실하다",
+                "meaning": "to be uncertain",
+                "example_ko": "세계 정세의 변화로 인해 향후 시장 전망이 매우 [불확실하다].",
+                "example_en": "Due to changes in global conditions, future market prospects are very uncertain."
+            },
+            {
+                "word": "진출",
+                "meaning": "expansion, entry (into a market)",
+                "example_ko": "우리 회사는 내년부터 동남아 시장 [진출을] 적극 추진할 계획이다.",
+                "example_en": "Our company plans to actively pursue expansion into Southeast Asian markets starting next year."
+            },
+            {
+                "word": "첨단",
+                "meaning": "cutting-edge, state-of-the-art",
+                "example_ko": "이 병원은 [첨단] 의료 장비를 도입하여 치료 효과를 높였다.",
+                "example_en": "This hospital introduced cutting-edge medical equipment to enhance treatment effectiveness."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-10-18",
         "published_at": "2026-10-18 06:24",
         "title": "여야 지도부, 순직 소방관 빈소 잇단 조문… 국회 차원 지원 약속",
         "body": "여야 지도부가 부천 공장 화재 현장에서 순직한 고 김진석 소방위의 빈소를 일제히 찾아 조문한다. 더불어민주당 김민석 대표는 부산 일정을 마무리한 후 늦은 저녁 빈소가 차려진 순천향대학교 부천병원 장례식장을 찾아 애도를 표할 예정이다. 국민의힘에서는 장동혁 대표와 정점식 원내대표를 포함한 주요 당직자들이 오전 중에 빈소를 방문하여 고인을 추모한다. 이에 앞서 조국혁신당 신장식 대표와 지도부가 빈소를 다녀갔으며, 개혁신당 이기인 비상대책위원장과 천하람 원내대표 등도 조문에 동참한다. 정치권 인사들은 화재 진압 과정에서 안타깝게 목숨을 잃은 소방관의 헌신과 희생정신을 기리며 유가족들에게 깊은 위로를 건넸다. 전날 조정식 국회의장 역시 고인의 명복을 빌며 소방관들이 안전하게 근무할 수 있는 환경을 만들겠다고 밝혔다. 또한 국회의장은 소방 인력의 처우를 개선하기 위해 국회 차원의 실질적인 지원을 아끼지 않겠다고 약속했다. 이번 사고를 계기로 위험한 현장에 출동하는 소방관들의 안전 대책을 강화해야 한다는 목소리가 정치권 안팎에서 더욱 커지고 있다. 한편 화재 진압 도중 순직한 고 김진석 소방위의 영결식은 내일 오전 부천시체육관에서 엄수될 예정이다.",

@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-10-22",
+        "published_at": "2026-10-22 18:38",
+        "title": "이 대통령, 수석보좌관회의서 \"3대 핵심 사회정책 세심한 추진\" 주문",
+        "body": "이재명 대통령은 청와대에서 수석보좌관회의를 주재하고 3대 핵심 사회정책의 세심하고 차별화된 추진을 주문했다. 강유정 수석대변인은 서면 브리핑을 통해 이 대통령이 비공개회의에서 이러한 내용을 강조했다고 전했다. 이 대통령이 언급한 3대 핵심 사회정책은 국민일자리 프로젝트와 서민에게 다가가는 금융, 그리고 국민 주거권 보장이다. 이 대통령은 모든 국민에게 단일한 정책을 적용하기보다 대상과 시기에 맞추어 적재적소에 제공해야 한다고 역설했다. 또한 고용노동부에 지시했던 공정수당 검토 상황을 점검하며 적정임금의 보편화에 대한 화두를 던졌다. 아울러 국민이 실생활에서 변화를 직접 느낄 수 있도록 시그니처 정책 개발에 속도를 내어 달라고 거듭 당부했다. 정책 집행 과정에서는 누구나 이해하기 쉽고 신속하며 과감한 조치가 이루어져야 한다는 점도 함께 덧붙였다. 특히 서민금융 정책과 관련해서는 대출금리 상승 위험에 정부가 선제적으로 대비해야 한다고 강조했다. 이 대통령은 정부가 어려움을 겪는 서민들의 숨구멍을 틔워주고 최후의 든든한 버팀목 역할을 다해야 한다고 밝혔다.",
+        "translation": "이재명 대통령은 청와대에서 수석보좌관회의를 주재하고 3대 핵심 사회정책의 세심하고 차별화된 추진을 주문했다.\nPresident Lee Jae-myung presided over a senior aides meeting at the Blue House and ordered the meticulous and differentiated implementation of three key social policies.\n\n강유정 수석대변인은 서면 브리핑을 통해 이 대통령이 비공개회의에서 이러한 내용을 강조했다고 전했다.\nSenior Spokesperson Kang Yu-jeong reported through a written briefing that President Lee emphasized these points during a closed-door meeting.\n\n이 대통령이 언급한 3대 핵심 사회정책은 국민일자리 프로젝트와 서민에게 다가가는 금융, 그리고 국민 주거권 보장이다.\nThe three key social policies mentioned by President Lee are the National Jobs Project, finance that approaches ordinary citizens, and the guarantee of the people's right to housing.\n\n이 대통령은 모든 국민에게 단일한 정책을 적용하기보다 대상과 시기에 맞추어 적재적소에 제공해야 한다고 역설했다.\nPresident Lee emphasized that rather than applying a single uniform policy to all citizens, policies should be delivered to the right places according to the target group and timing.\n\n또한 고용노동부에 지시했던 공정수당 검토 상황을 점검하며 적정임금의 보편화에 대한 화두를 던졌다.\nHe also checked the progress of the review on fair allowances instructed to the Ministry of Employment and Labor and raised the topic of generalizing reasonable wages.\n\n아울러 국민이 실생활에서 변화를 직접 느낄 수 있도록 시그니처 정책 개발에 속도를 내어 달라고 거듭 당부했다.\nIn addition, he repeatedly asked for acceleration in developing signature policies so that citizens can directly feel the changes in their daily lives.\n\n정책 집행 과정에서는 누구나 이해하기 쉽고 신속하며 과감한 조치가 이루어져야 한다는 점도 함께 덧붙였다.\nHe also added that policy execution must involve measures that are easy for anyone to understand, swift, and bold.\n\n특히 서민금융 정책과 관련해서는 대출금리 상승 위험에 정부가 선제적으로 대비해야 한다고 강조했다.\nIn particular, regarding financial policies for low-income citizens, he stressed that the government must preemptively prepare for the risk of rising loan interest rates.\n\n이 대통령은 정부가 어려움을 겪는 서민들의 숨구멍을 틔워주고 최후의 든든한 버팀목 역할을 다해야 한다고 밝혔다.\nPresident Lee stated that the government must provide breathing room for ordinary citizens in difficulty and fulfill its role as their ultimate strong support.",
+        "vocab": [
+            {
+                "word": "주재하다",
+                "meaning": "to preside over, to chair",
+                "example_ko": "부서장이 오늘 아침 회의를 [주재했다].",
+                "example_en": "The department head presided over the meeting this morning."
+            },
+            {
+                "word": "차별화되다",
+                "meaning": "to be differentiated",
+                "example_ko": "우리 회사의 제품은 다른 회사와 확실히 [차별화된다].",
+                "example_en": "Our company's product is clearly differentiated from other companies."
+            },
+            {
+                "word": "단일하다",
+                "meaning": "to be single, to be uniform",
+                "example_ko": "여러 의견을 모아 [단일한] 계획을 세웠다.",
+                "example_en": "We gathered various opinions and established a single plan."
+            },
+            {
+                "word": "적재적소",
+                "meaning": "the right person/measure in the right place",
+                "example_ko": "인재를 [적재적소]에 배치하는 것이 중요하다.",
+                "example_en": "It is important to assign talented people to the right places."
+            },
+            {
+                "word": "역설하다",
+                "meaning": "to emphasize, to stress",
+                "example_ko": "선생님은 매일 복습하는 습관의 중요성을 [역설했다].",
+                "example_en": "The teacher emphasized the importance of a daily review habit."
+            },
+            {
+                "word": "보편화",
+                "meaning": "generalization, becoming widespread",
+                "example_ko": "스마트폰의 [보편화]로 일상생활이 크게 바뀌었다.",
+                "example_en": "Everyday life has changed significantly with the widespread use of smartphones."
+            },
+            {
+                "word": "화두를 던지다",
+                "meaning": "to bring up a topic, to raise an issue",
+                "example_ko": "교수는 첫 수업에서 환경 보호에 대한 [화두를 던졌다].",
+                "example_en": "The professor brought up the topic of environmental protection in the first class."
+            },
+            {
+                "word": "당부하다",
+                "meaning": "to ask earnestly, to request",
+                "example_ko": "의사는 환자에게 약을 제시간에 복용할 것을 [당부했다].",
+                "example_en": "The doctor asked the patient earnestly to take the medicine on time."
+            },
+            {
+                "word": "과감하다",
+                "meaning": "to be bold, to be drastic",
+                "example_ko": "그녀는 오랜 고민 끝에 [과감한] 결정을 내렸다.",
+                "example_en": "She made a bold decision after a long period of contemplation."
+            },
+            {
+                "word": "선제적",
+                "meaning": "preemptive, proactive",
+                "example_ko": "정부는 위기에 대비해 [선제적인] 조치를 취했다.",
+                "example_en": "The government took preemptive measures in preparation for the crisis."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-22",
+        "published_at": "2026-10-22 18:38",
+        "title": "유튜브 음원 저작권료 어뷰징 의혹에 300억 원대 지급 보류",
+        "body": "유튜브 쇼츠 등에서 소수 음악 창작자들이 비정상적인 방법으로 막대한 저작권료를 챙기려 했다는 의혹이 제기되었다. 국회 문화체육관광위원회 국정감사에서는 이러한 유튜브 음원 저작권료 어뷰징 문제가 집중적으로 다루어졌다. 감사 과정에서 공개된 자료에 따르면 해당 사안과 관련된 권리자는 총 4명으로 파악되었다. 이들이 시스템에 등록한 음원은 무려 802곡에 이르는 것으로 확인되었다. 이들 권리자가 지급을 요구한 저작권료만 해도 약 240억 원에 달했다. 여기에 이미 이들에게 분배된 금액까지 모두 합하면 총규모는 300억 원을 넘어설 것으로 추산된다. 소수의 창작자가 거액의 저작권료 수익 창출을 꾀했다는 의혹이 커지자 관계 기관도 대응에 나섰다. 한국음악저작권협회는 국정감사에서 의혹이 불거짐에 따라 일부 권리자에 대한 저작권료 지급을 전격 보류했다. 협회는 현재 해당 음원들에 대한 구체적인 사실관계를 밝히기 위해 추가 검증 작업을 진행하고 있다고 밝혔다.",
+        "translation": "유튜브 쇼츠 등에서 소수 음악 창작자들이 비정상적인 방법으로 막대한 저작권료를 챙기려 했다는 의혹이 제기되었다.\nSuspicions were raised that a small number of music creators attempted to pocket tens of billions of won in copyright royalties through abnormal methods on platforms such as YouTube Shorts.\n\n국회 문화체육관광위원회 국정감사에서는 이러한 유튜브 음원 저작권료 어뷰징 문제가 집중적으로 다루어졌다.\nIn the parliamentary audit by the National Assembly Culture, Sports and Tourism Committee, this issue of YouTube music copyright royalty abuse was dealt with intensively.\n\n감사 과정에서 공개된 자료에 따르면 해당 사안과 관련된 권리자는 총 4명으로 파악되었다.\nAccording to data disclosed during the audit process, a total of four rights holders were identified in connection with the matter.\n\n이들이 시스템에 등록한 음원은 무려 802곡에 이르는 것으로 확인되었다.\nIt was confirmed that the music tracks they registered in the system numbered as many as 802 songs.\n\n이들 권리자가 지급을 요구한 저작권료만 해도 약 240억 원에 달했다.\nThe copyright royalties requested for payment by these rights holders alone reached about 24 billion won.\n\n여기에 이미 이들에게 분배된 금액까지 모두 합하면 총규모는 300억 원을 넘어설 것으로 추산된다.\nWhen combined with the amount already distributed to them, the total scale is estimated to exceed 30 billion won.\n\n소수의 창작자가 거액의 저작권료 수익 창출을 꾀했다는 의혹이 커지자 관계 기관도 대응에 나섰다.\nAs suspicions grew that a small number of creators sought to generate large copyright royalty revenues, relevant organizations also took action.\n\n한국음악저작권협회는 국정감사에서 의혹이 불거짐에 따라 일부 권리자에 대한 저작권료 지급을 전격 보류했다.\nFollowing the emergence of suspicions during the parliamentary audit, the Korea Music Copyright Association put copyright royalty payments to certain rights holders on hold.\n\n협회는 현재 해당 음원들에 대한 구체적인 사실관계를 밝히기 위해 추가 검증 작업을 진행하고 있다고 밝혔다.\nThe association stated that it is currently conducting additional verification work to clarify the specific factual relations regarding the music tracks in question.",
+        "vocab": [
+            {
+                "word": "비정상적",
+                "meaning": "abnormal, irregular",
+                "example_ko": "기계가 갑자기 [비정상적인] 소리를 내며 멈추었다.",
+                "example_en": "The machine suddenly made an abnormal sound and stopped."
+            },
+            {
+                "word": "창작자",
+                "meaning": "creator",
+                "example_ko": "인터넷 플랫폼에서는 누구나 콘텐츠 [창작자]가 될 수 있다.",
+                "example_en": "On internet platforms, anyone can become a content creator."
+            },
+            {
+                "word": "꾀하다",
+                "meaning": "to seek, to aim for, to scheme",
+                "example_ko": "회사는 새로운 기술을 도입해 업무 효율성을 [꾀했다].",
+                "example_en": "The company aimed for work efficiency by introducing new technology."
+            },
+            {
+                "word": "의혹",
+                "meaning": "suspicion, doubt",
+                "example_ko": "경찰은 뇌물 수수 [의혹]을 밝히기 위해 조사를 시작했다.",
+                "example_en": "The police began an investigation to clear up suspicions of bribery."
+            },
+            {
+                "word": "제기되다",
+                "meaning": "to be raised (an issue, question)",
+                "example_ko": "회의 중에 새로운 안전 문제에 대한 질문이 [제기되었다].",
+                "example_en": "A question about a new safety issue was raised during the meeting."
+            },
+            {
+                "word": "권리자",
+                "meaning": "rights holder",
+                "example_ko": "이 음악의 [권리자]는 해외에 거주하고 있다.",
+                "example_en": "The rights holder of this music resides overseas."
+            },
+            {
+                "word": "분배되다",
+                "meaning": "to be distributed, to be allocated",
+                "example_ko": "이번 행사의 수익금은 어려운 이웃들에게 공평하게 [분배되었다].",
+                "example_en": "The proceeds from this event were distributed evenly to neighbors in need."
+            },
+            {
+                "word": "추산되다",
+                "meaning": "to be estimated, to be calculated",
+                "example_ko": "이번 태풍으로 인한 피해액은 수백억 원에 달할 것으로 [추산된다].",
+                "example_en": "The damage caused by this typhoon is estimated to reach tens of billions of won."
+            },
+            {
+                "word": "보류하다",
+                "meaning": "to hold off, to put on hold, to withhold",
+                "example_ko": "팀장은 중요한 결정을 다음 주 회의까지 [보류하기로] 했다.",
+                "example_en": "The team leader decided to put the important decision on hold until next week's meeting."
+            },
+            {
+                "word": "검증",
+                "meaning": "verification, examination",
+                "example_ko": "연구진은 새로운 치료법의 안전성에 대한 [검증]을 마쳤다.",
+                "example_en": "The research team completed the verification of the safety of the new treatment."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-22",
+        "published_at": "2026-10-22 18:38",
+        "title": "등굣길 스쿨존 숙취 운전 집중 단속… 1시간 만에 면허 정지 적발",
+        "body": "연말을 맞아 술자리가 늘어나면서 이른 아침 숙취 운전에 대한 경찰의 집중 단속이 실시되었다. 특히 어린이들이 등교하는 초등학교 앞 스쿨존에서 단속이 이루어져 긴장감이 감돌았다. 단속을 시작한 지 불과 1시간 만에 숙취 운전자 2명과 교통법규 위반자 10명이 경찰에 적발되었다. 한 운전자는 전날 밤 집에서 맥주 2잔만 마셨다고 진술했으나 음주 감지기가 계속해서 울렸다. 측정 결과 이 운전자의 혈중알코올농도는 면허 정지 기준인 0.03%를 넘는 0.053%로 확인되었다. 또 다른 운전자 역시 전날 밤 와인 한 병을 마신 뒤 운전대를 잡았다가 면허 정지 처분을 받았다. 경찰은 개인에 따라 소량의 술을 마셔도 다음 날 아침까지 알코올이 남아 단속될 수 있다고 경고했다. 어린이보호구역은 돌출 행동이 잦은 아이들이 많아 술이 덜 깬 상태로 운전할 경우 인명 사고 위험이 매우 크다. 어린이 교통사고를 무겁게 처벌하는 민식이법이 시행된 지 6년이 넘었지만 관련 사고는 매년 수백 건씩 이어지고 있다. 경찰은 학생들의 안전을 보호하기 위해 다가오는 겨울방학까지 스쿨존 특별 단속을 계속 이어갈 방침이다.",
+        "translation": "연말을 맞아 술자리가 늘어나면서 이른 아침 숙취 운전에 대한 경찰의 집중 단속이 실시되었다.\nAs drinking gatherings increased toward the end of the year, police conducted an intensive crackdown on early morning hangover driving.\n\n특히 어린이들이 등교하는 초등학교 앞 스쿨존에서 단속이 이루어져 긴장감이 감돌았다.\nIn particular, the crackdown was carried out in school zones in front of elementary schools where children were heading to school, creating a tense atmosphere.\n\n단속을 시작한 지 불과 1시간 만에 숙취 운전자 2명과 교통법규 위반자 10명이 경찰에 적발되었다.\nJust one hour after the crackdown began, two hangover drivers and ten violators of traffic regulations were caught by the police.\n\n한 운전자는 전날 밤 집에서 맥주 2잔만 마셨다고 진술했으나 음주 감지기가 계속해서 울렸다.\nOne driver stated that he had drunk only two beers at home the previous night, but the alcohol detector continued to beep.\n\n측정 결과 이 운전자의 혈중알코올농도는 면허 정지 기준인 0.03%를 넘는 0.053%로 확인되었다.\nAs a result of the measurement, this driver's blood alcohol concentration was confirmed to be 0.053%, exceeding the 0.03% threshold for license suspension.\n\n또 다른 운전자 역시 전날 밤 와인 한 병을 마신 뒤 운전대를 잡았다가 면허 정지 처분을 받았다.\nAnother driver was also subject to license suspension after taking the wheel having drunk a bottle of wine the previous night.\n\n경찰은 개인에 따라 소량의 술을 마셔도 다음 날 아침까지 알코올이 남아 단속될 수 있다고 경고했다.\nPolice warned that, depending on the individual, alcohol can remain in the system until the next morning even after drinking a small amount, leading to detection.\n\n어린이보호구역은 돌출 행동이 잦은 아이들이 많아 술이 덜 깬 상태로 운전할 경우 인명 사고 위험이 매우 크다.\nBecause there are many children who frequently exhibit unexpected behavior in child protection zones, driving without fully sobering up carries a very high risk of casualties.\n\n어린이 교통사고를 무겁게 처벌하는 민식이법이 시행된 지 6년이 넘었지만 관련 사고는 매년 수백 건씩 이어지고 있다.\nAlthough more than six years have passed since the enforcement of the Minsik Law, which severely punishes child traffic accidents, hundreds of related accidents still occur every year.\n\n경찰은 학생들의 안전을 보호하기 위해 다가오는 겨울방학까지 스쿨존 특별 단속을 계속 이어갈 방침이다.\nThe police plan to continue the special crackdown in school zones until the upcoming winter vacation to protect student safety.",
+        "vocab": [
+            {
+                "word": "숙취",
+                "meaning": "hangover",
+                "example_ko": "친구는 어제 과음을 해서 아침부터 심한 [숙취]에 시달렸다.",
+                "example_en": "My friend drank excessively yesterday and suffered from a severe hangover since morning."
+            },
+            {
+                "word": "단속",
+                "meaning": "crackdown, regulation enforcement",
+                "example_ko": "경찰은 주말마다 고속도로에서 과속 [단속]을 강화하고 있다.",
+                "example_en": "The police are strengthening speeding crackdowns on the highway every weekend."
+            },
+            {
+                "word": "적발되다",
+                "meaning": "to be caught, to be uncovered",
+                "example_ko": "신호를 무시하고 달리던 차량이 경찰관에게 [적발되었다].",
+                "example_en": "The vehicle speeding through a red light was caught by a police officer."
+            },
+            {
+                "word": "진술하다",
+                "meaning": "to state, to testify",
+                "example_ko": "목격자는 사고 당시의 상황을 경찰에게 정확하게 [진술했다].",
+                "example_en": "The witness stated the situation at the time of the accident accurately to the police."
+            },
+            {
+                "word": "혈중알코올농도",
+                "meaning": "blood alcohol concentration",
+                "example_ko": "운전자의 [혈중알코올농도]가 기준치를 초과해 면허가 취소되었다.",
+                "example_en": "The driver's blood alcohol concentration exceeded the standard limit, resulting in license revocation."
+            },
+            {
+                "word": "돌출행동",
+                "meaning": "abrupt behavior, unexpected action",
+                "example_ko": "유치원 교사는 아이들의 [돌출행동]에 늘 주의를 기울여야 한다.",
+                "example_en": "Kindergarten teachers must always pay attention to children's unexpected behavior."
+            },
+            {
+                "word": "처벌하다",
+                "meaning": "to punish",
+                "example_ko": "법을 고의로 위반한 사람을 엄격하게 [처벌해야] 한다.",
+                "example_en": "Those who intentionally violate the law must be punished strictly."
+            },
+            {
+                "word": "시행되다",
+                "meaning": "to be implemented, to come into effect",
+                "example_ko": "새로운 교통 법안이 다음 달부터 본격적으로 [시행된다].",
+                "example_en": "The new traffic legislation will be implemented in earnest starting next month."
+            },
+            {
+                "word": "인명사고",
+                "meaning": "accident resulting in casualties",
+                "example_ko": "빙판길에서는 큰 [인명사고]가 발생하지 않도록 서행해야 한다.",
+                "example_en": "On icy roads, one should drive slowly to prevent large accidents resulting in casualties."
+            },
+            {
+                "word": "방침",
+                "meaning": "policy, plan, course of action",
+                "example_ko": "회사는 직원들의 복지를 위해 새로운 근무 [방침을] 발표했다.",
+                "example_en": "The company announced a new work policy for employee welfare."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-22",
+        "published_at": "2026-10-22 18:38",
+        "title": "북한의 위협 담화와 대남 확성기 예고에 여야 안보 공방 가열",
+        "body": "북한 김여정 노동당 부장이 거친 내용의 대남 담화를 발표하면서 정치권의 안보 공방이 격화되었다. 김 부장의 담화에는 대남 확성기 방송을 다시 가동하겠다는 위협적인 예고가 담겼다. 이에 대해 더불어민주당 김병주 의원은 북한이 적반하장식 태도를 보이고 있다며 확성기 재가동은 최악의 수라고 비판했다. 다만 김 의원은 북한의 이번 반응이 과거 정면충돌 수준에 비해 긴장을 통제하려는 절제된 측면도 있다고 분석했다. 그는 북한이 지뢰 사고 책임을 전가하며 국경선화 작업을 방해받지 않으려는 의도로 보인다고 설명했다. 그러면서 도발에 단호히 대응하되 한반도의 긴장 고조를 완화하기 위한 남북 대화의 필요성을 함께 강조했다. 반면 국민의힘은 정부의 미온적인 대북 대응을 문제 삼으며 강도 높은 비판을 쏟아냈다. 국민의힘 지도부는 군 장병이 다치는 사고가 발생했음에도 정부가 단호한 조치를 취하지 못했다고 성토했다. 정점식 원내대표는 대북 확성기 재개와 유엔 안보리 결의안 채택 등 실질적인 대응이 없다며 통일부 장관과 국정원장의 경질을 촉구했다. 아울러 여야는 한미 간 전시작전통제권 전환 추진 일정을 두고도 조속한 환수와 준비 미비를 주장하며 팽팽한 대립을 이어갔다.",
+        "translation": "북한 김여정 노동당 부장이 거친 내용의 대남 담화를 발표하면서 정치권의 안보 공방이 격화되었다.\nAs North Korea's Workers' Party Vice Department Director Kim Yo-jong issued a harshly worded statement against South Korea, political disputes over national security intensified.\n\n김 부장의 담화에는 대남 확성기 방송을 다시 가동하겠다는 위협적인 예고가 담겼다.\nDirector Kim's statement contained a threatening notice that loudspeaker broadcasts toward the South would be resumed.\n\n이에 대해 더불어민주당 김병주 의원은 북한이 적반하장식 태도를 보이고 있다며 확성기 재가동은 최악의 수라고 비판했다.\nIn response, Democratic Party lawmaker Kim Byung-joo criticized North Korea for displaying an audacious attitude and called the resumption of loudspeakers the worst move.\n\n다만 김 의원은 북한의 이번 반응이 과거 정면충돌 수준에 비해 긴장을 통제하려는 절제된 측면도 있다고 분석했다.\nHowever, Representative Kim analyzed that North Korea's reaction also showed a restrained aspect aimed at controlling tensions compared to past levels of direct confrontation.\n\n그는 북한이 지뢰 사고 책임을 전가하며 국경선화 작업을 방해받지 않으려는 의도로 보인다고 설명했다.\nHe explained that North Korea appeared to intend to shift blame for the landmine incident while ensuring that its border demarcation work would not be disrupted.\n\n그러면서 도발에 단호히 대응하되 한반도의 긴장 고조를 완화하기 위한 남북 대화의 필요성을 함께 강조했다.\nAt the same time, while emphasizing a firm response to provocations, he also stressed the need for inter-Korean dialogue to ease escalating tensions on the Korean Peninsula.\n\n반면 국민의힘은 정부의 미온적인 대북 대응을 문제 삼으며 강도 높은 비판을 쏟아냈다.\nOn the other hand, the People Power Party took issue with the government's lukewarm response toward North Korea and poured out high-intensity criticism.\n\n국민의힘 지도부는 군 장병이 다치는 사고가 발생했음에도 정부가 단호한 조치를 취하지 못했다고 성토했다.\nThe leadership of the People Power Party denounced the government for failing to take firm measures even after an accident occurred in which a military service member was injured.\n\n정점식 원내대표는 대북 확성기 재개와 유엔 안보리 결의안 채택 등 실질적인 대응이 없다며 통일부 장관과 국정원장의 경질을 촉구했다.\nFloor Leader Jeong Jeom-sig urged the dismissal of the Unification Minister and the National Intelligence Service Director, arguing that there were no practical responses such as resuming loudspeaker broadcasts or adopting a UN Security Council resolution.\n\n아울러 여야는 한미 간 전시작전통제권 전환 추진 일정을 두고도 조속한 환수와 준비 미비를 주장하며 팽팽한 대립을 이어갔다.\nIn addition, the ruling and opposition parties continued their sharp confrontation over the schedule for the transfer of wartime operational control between South Korea and the United States, arguing respectively for prompt transfer versus lack of preparation.",
+        "vocab": [
+            {
+                "word": "담화",
+                "meaning": "statement, official talk",
+                "example_ko": "정부는 이번 사태에 대한 공식 [담화를] 발표했다.",
+                "example_en": "The government released an official statement regarding this situation."
+            },
+            {
+                "word": "격화되다",
+                "meaning": "to intensify, to escalate",
+                "example_ko": "양국 사이의 무역 갈등이 날이 갈수록 더욱 [격화되고] 있다.",
+                "example_en": "The trade dispute between the two countries is intensifying day by day."
+            },
+            {
+                "word": "적반하장",
+                "meaning": "audacity, reversing roles by having the guilty party accuse the victim",
+                "example_ko": "잘못을 저지른 사람이 오히려 화를 내는 [적반하장의] 태도를 보였다.",
+                "example_en": "The person who made the mistake showed the audacious attitude of getting angry instead."
+            },
+            {
+                "word": "재가동",
+                "meaning": "resumption of operation, restart",
+                "example_ko": "점검을 마친 공장 시설의 [재가동이] 내일부터 시작된다.",
+                "example_en": "The resumption of operation of the inspected factory facilities will begin tomorrow."
+            },
+            {
+                "word": "절제하다",
+                "meaning": "to exercise restraint, to moderate",
+                "example_ko": "갈등 상황에서는 감정을 [절제하고] 이성적으로 대화해야 한다.",
+                "example_en": "In conflict situations, one should exercise restraint over emotions and converse rationally."
+            },
+            {
+                "word": "전가하다",
+                "meaning": "to shift blame or responsibility",
+                "example_ko": "그는 자신의 실수를 동료에게 [전가하려고] 했다.",
+                "example_en": "He tried to shift the blame for his own mistake onto his colleague."
+            },
+            {
+                "word": "완화하다",
+                "meaning": "to ease, to alleviate, to relax",
+                "example_ko": "양측 대표단은 군사적 긴장을 [완화하기] 위해 협상을 진행했다.",
+                "example_en": "Delegates from both sides held negotiations to ease military tensions."
+            },
+            {
+                "word": "미온적",
+                "meaning": "lukewarm, passive",
+                "example_ko": "불법 행위에 대해 경찰이 [미온적인] 태도를 보여서는 안 된다.",
+                "example_en": "The police should not show a lukewarm attitude toward illegal acts."
+            },
+            {
+                "word": "경질",
+                "meaning": "dismissal, replacement (of an official)",
+                "example_ko": "위기 관리에 실패한 장관에 대해 야당은 즉각적인 [경질을] 요구했다.",
+                "example_en": "The opposition party demanded the immediate dismissal of the minister who failed in crisis management."
+            },
+            {
+                "word": "대립하다",
+                "meaning": "to confront, to oppose each other",
+                "example_ko": "두 정당은 정책 방향을 두고 국회에서 날카롭게 [대립했다].",
+                "example_en": "The two political parties sharply confronted each other in the National Assembly over the policy direction."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-10-22",
         "published_at": "2026-10-22 06:31",
         "title": "미·중·러 3자 담판 추진에 美 정계 '제2의 얄타회담' 우려",
         "body": "다음 달 중국에서 열리는 아시아태평양경제협력체(APEC) 정상회의를 계기로 미국과 중국, 러시아 정상이 함께하는 3자 회담의 추진 가능성이 제기되고 있다. 러시아 측은 중국이 회담 준비 작업을 진행 중이라며 APEC 기간에 3국 정상 간 회담을 성사시키는 것이 목표라고 밝혔다. 도널드 트럼프 미국 대통령 역시 시진핑 중국 국가주석이 원한다면 기꺼이 회담을 할 것이라며 긍정적인 입장을 표명했다. 트럼프 대통령은 세계 1, 2, 3위 핵보유국 정상이 한자리에 모이는 만큼 이번 회담의 핵심 의제로 핵 군축을 제시했다. 그러나 러시아는 핵 감축뿐 아니라 우크라이나를 배제한 종전 협상과 무역, 국제 안보까지 논의 범위를 넓히려는 의도를 가진 것으로 알려졌다. 이에 대해 미국 정치권에서는 제2차 세계대전 당시 강대국들이 모여 국경을 나눴던 '제2의 얄타회담'이 재현될 수 있다는 우려가 확산하고 있다. 특히 미국 집권여당인 공화당 내부에서도 피해국인 우크라이나의 운명을 3국이 일방적으로 결정하는 구상은 무모하고 터무니없다는 강도 높은 비판이 쏟아졌다. 한편 러시아가 4년 동안 구금했던 미국인을 전격 석방하자 트럼프 대통령은 자신이 제재 완화를 통해 이뤄낸 외교적 성과라며 자화자찬했다. 하지만 11월 중간선거를 앞두고 대러 제재 완화를 정당화하려는 트럼프 대통령의 행보에 대해 미국 의회 내 반발은 계속 이어지고 있다.",

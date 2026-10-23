@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-10-23",
+        "published_at": "2026-10-23 18:36",
+        "title": "오세훈 서울시장 항소심 무죄 선고… 여야 극명한 입장 차 보여",
+        "body": "오세훈 서울시장이 2심 재판에서 1심의 유죄 판단을 뒤집고 무죄를 선고받았다. 이에 따라 정치권에서는 여당과 야당 사이에 극명하게 엇갈린 반응이 나타나고 있다. 더불어민주당은 법리적으로나 상식적으로 도저히 납득하기 어려운 판결이라며 강하게 반발했다. 민주당 지도부는 이번 판결에 대해 깊은 유감을 표명하고 특검이 즉각 상고해야 한다고 주장했다. 반면 국민의힘은 사필귀정이라며 재판부의 무죄 판결을 크게 환영하는 입장을 밝혔다. 여당은 특검의 무리한 표적 수사와 정치적 기소의 실체가 드러났다고 비판의 목소리를 높였다. 이번 판결로 오 시장은 사법 리스크를 상당 부분 덜어내며 향후 정치적 행보에 탄력을 받게 되었다. 다만 특검이 대법원에 상고할 경우 최종 판결이 나올 때까지 상황을 지켜봐야 한다는 의견도 나온다.",
+        "translation": "오세훈 서울시장이 2심 재판에서 1심의 유죄 판단을 뒤집고 무죄를 선고받았다.\nSeoul Mayor Oh Se-hoon was acquitted in his second trial, overturning the first trial's guilty verdict.\n\n이에 따라 정치권에서는 여당과 야당 사이에 극명하게 엇갈린 반응이 나타나고 있다.\nAs a result, sharply contrasting reactions are emerging between the ruling and opposition parties in the political arena.\n\n더불어민주당은 법리적으로나 상식적으로 도저히 납득하기 어려운 판결이라며 강하게 반발했다.\nThe Democratic Party of Korea strongly pushed back, stating that the ruling was difficult to accept, both legally and in terms of common sense.\n\n민주당 지도부는 이번 판결에 대해 깊은 유감을 표명하고 특검이 즉각 상고해야 한다고 주장했다.\nThe Democratic Party leadership expressed deep regret over the verdict and insisted that the special counsel must appeal to the Supreme Court immediately.\n\n반면 국민의힘은 사필귀정이라며 재판부의 무죄 판결을 크게 환영하는 입장을 밝혔다.\nOn the other hand, the People Power Party warmly welcomed the court's not-guilty ruling, describing it as justice prevailing.\n\n여당은 특검의 무리한 표적 수사와 정치적 기소의 실체가 드러났다고 비판의 목소리를 높였다.\nThe ruling party raised its voice in criticism, claiming that the true nature of the special counsel's unreasonable targeted investigation and political indictment had been exposed.\n\n이번 판결로 오 시장은 사법 리스크를 상당 부분 덜어내며 향후 정치적 행보에 탄력을 받게 되었다.\nWith this ruling, Mayor Oh has relieved a significant portion of his legal risks and gained momentum for his future political steps.\n\n다만 특검이 대법원에 상고할 경우 최종 판결이 나올 때까지 상황을 지켜봐야 한다는 의견도 나온다.\nHowever, some note that if the special counsel appeals to the Supreme Court, the situation must be monitored until a final verdict is reached.",
+        "vocab": [
+            {
+                "word": "뒤집다",
+                "meaning": "to overturn, to reverse",
+                "example_ko": "재판부는 이전 판결을 [뒤집고] 새로운 결정을 내렸다.",
+                "example_en": "The court overturned the previous ruling and made a new decision."
+            },
+            {
+                "word": "엇갈리다",
+                "meaning": "to diverge, to clash, to be divided",
+                "example_ko": "그 사건에 대해 사람들의 의견이 서로 [엇갈린다].",
+                "example_en": "People's opinions regarding that incident are divided."
+            },
+            {
+                "word": "납득하다",
+                "meaning": "to understand, to accept, to be convinced",
+                "example_ko": "나는 그 사람의 설명을 쉽게 [납득할] 수 없었다.",
+                "example_en": "I could not easily accept that person's explanation."
+            },
+            {
+                "word": "유감",
+                "meaning": "regret, pity",
+                "example_ko": "회사는 이번 사고에 대해 깊은 [유감]을 표했다.",
+                "example_en": "The company expressed deep regret over this accident."
+            },
+            {
+                "word": "상고하다",
+                "meaning": "to appeal to the Supreme Court",
+                "example_ko": "검찰은 재판 결과에 불복하여 대법원에 [상고했다].",
+                "example_en": "Dissatisfied with the trial result, the prosecution appealed to the Supreme Court."
+            },
+            {
+                "word": "사필귀정",
+                "meaning": "justice will prevail, things right themselves in the end",
+                "example_ko": "거짓은 언젠가 밝혀지고 [사필귀정]으로 끝난다.",
+                "example_en": "Falsehoods will eventually be revealed and justice will prevail."
+            },
+            {
+                "word": "표적",
+                "meaning": "target, mark",
+                "example_ko": "이번 조사는 특정 부서만을 노린 [표적] 감사라는 비판을 받았다.",
+                "example_en": "This investigation was criticized as a targeted audit aiming only at a specific department."
+            },
+            {
+                "word": "기소",
+                "meaning": "indictment, prosecution",
+                "example_ko": "검찰은 증거를 확보한 뒤 용의자를 법원에 [기소했다].",
+                "example_en": "After securing evidence, the prosecution indicted the suspect in court."
+            },
+            {
+                "word": "행보",
+                "meaning": "moves, course of action, footsteps",
+                "example_ko": "선거가 끝난 후 그의 정치적 [행보]에 많은 관심이 쏠렸다.",
+                "example_en": "After the election, a lot of attention focused on his political moves."
+            },
+            {
+                "word": "신중론",
+                "meaning": "cautious approach, theory of caution",
+                "example_ko": "새로운 사업을 급하게 추진하기보다는 [신중론]을 따라야 한다.",
+                "example_en": "Rather than hastily pushing forward a new business, we must follow a cautious approach."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-23",
+        "published_at": "2026-10-23 18:36",
+        "title": "경기 버스 노조 파업 찬반투표 가결… 협상 결렬 시 30일 첫차부터 운행 중단",
+        "body": "경기도 내 버스 노동조합이 조합원 투표를 통해 파업을 최종 가결했다. 노동조합 측은 전체 투표 참여 인원 중 97.7%라는 압도적인 찬성표를 얻었다고 발표했다. 노조는 오는 29일 열리는 경기지방노동위원회의 최종 조정에서도 합의가 이뤄지지 않으면 파업에 들어갈 계획이다. 합의가 무산될 경우 오는 30일 첫차부터 도내 29개 업체의 버스 운행이 중단된다. 이번 파업 참여 대상에는 광역버스를 포함해 총 4천100여 대의 버스가 포함되어 있다. 노조는 서울 지역 버스와의 임금 격차를 해소하고 노동시간을 단축해 줄 것을 요구하고 있다. 반면 회사 측은 재정 여건이 악화되었다는 이유로 임금 동결을 주장하며 맞서고 있다. 양측의 의견 차이가 좁혀지지 않으면서 출퇴근길 시민들의 대중교통 이용에 큰 불편이 예상된다.",
+        "translation": "경기도 내 버스 노동조합이 조합원 투표를 통해 파업을 최종 가결했다.\nThe bus labor union in Gyeonggi Province ultimately approved a strike through a union member vote.\n\n노동조합 측은 전체 투표 참여 인원 중 97.7%라는 압도적인 찬성표를 얻었다고 발표했다.\nThe labor union announced that it received an overwhelming 97.7% in favor among all participating voters.\n\n노조는 오는 29일 열리는 경기지방노동위원회의 최종 조정에서도 합의가 이뤄지지 않으면 파업에 들어갈 계획이다.\nThe union plans to go on strike if no agreement is reached during the Gyeonggi Regional Labor Relations Commission's final mediation on the 29th.\n\n합의가 무산될 경우 오는 30일 첫차부터 도내 29개 업체의 버스 운행이 중단된다.\nIf an agreement falls through, bus operations across 29 companies in the province will halt starting from the first bus on the 30th.\n\n이번 파업 참여 대상에는 광역버스를 포함해 총 4천100여 대의 버스가 포함되어 있다.\nThe buses subject to this strike include over 4,100 buses in total, including intercity express buses.\n\n노조는 서울 지역 버스와의 임금 격차를 해소하고 노동시간을 단축해 줄 것을 요구하고 있다.\nThe union is demanding the narrowing of the wage gap with Seoul buses and the reduction of working hours.\n\n반면 회사 측은 재정 여건이 악화되었다는 이유로 임금 동결을 주장하며 맞서고 있다.\nOn the other hand, management is countering with calls for a wage freeze, citing deteriorating financial conditions.\n\n양측의 의견 차이가 좁혀지지 않으면서 출퇴근길 시민들의 대중교통 이용에 큰 불편이 예상된다.\nAs the gap in opinion between both sides remains unbridged, significant inconvenience is expected for commuters using public transportation.",
+        "vocab": [
+            {
+                "word": "노동조합",
+                "meaning": "labor union",
+                "example_ko": "회사 직원들은 권리를 지키기 위해 [노동조합]을 만들었다.",
+                "example_en": "Company employees formed a labor union to protect their rights."
+            },
+            {
+                "word": "압도적",
+                "meaning": "overwhelming",
+                "example_ko": "그 후보는 [압도적인] 표 차이로 선거에서 승리했다.",
+                "example_en": "The candidate won the election by an overwhelming margin of votes."
+            },
+            {
+                "word": "조정",
+                "meaning": "mediation, arbitration, adjustment",
+                "example_ko": "노사 간의 갈등을 해결하기 위해 위원회가 [조정]에 나섰다.",
+                "example_en": "The committee stepped in for mediation to resolve the conflict between labor and management."
+            },
+            {
+                "word": "합의",
+                "meaning": "agreement, consensus",
+                "example_ko": "양측은 오랜 대화 끝에 원만한 [합의]를 이루었다.",
+                "example_en": "Both sides reached an amicable agreement after a long conversation."
+            },
+            {
+                "word": "무산되다",
+                "meaning": "to fall through, to be aborted",
+                "example_ko": "준비가 부족하여 이번 여행 계획은 결국 [무산되었다].",
+                "example_en": "Due to a lack of preparation, this travel plan eventually fell through."
+            },
+            {
+                "word": "운행",
+                "meaning": "operation, running (of vehicles)",
+                "example_ko": "폭설로 인해 시내버스의 [운행]이 잠시 중단되었다.",
+                "example_en": "The operation of city buses was temporarily halted due to heavy snowfall."
+            },
+            {
+                "word": "격차",
+                "meaning": "gap, disparity",
+                "example_ko": "도시와 시골 사이의 소득 [격차]를 줄여야 한다.",
+                "example_en": "We must reduce the income gap between cities and rural areas."
+            },
+            {
+                "word": "단축하다",
+                "meaning": "to shorten, to reduce",
+                "example_ko": "정부는 근로자의 피로를 줄이기 위해 근무시간을 [단축했다].",
+                "example_en": "The government shortened working hours to reduce workers' fatigue."
+            },
+            {
+                "word": "동결",
+                "meaning": "freeze (of wages or prices)",
+                "example_ko": "물가가 오르고 있지만 회사는 올해 월급의 [동결]을 결정했다.",
+                "example_en": "Although prices are rising, the company decided on a wage freeze this year."
+            },
+            {
+                "word": "결렬되다",
+                "meaning": "to break down, to fall through",
+                "example_ko": "서로의 입장 차이를 좁히지 못해 협상이 [결렬되었다].",
+                "example_en": "The negotiations broke down because they could not narrow their differences."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-23",
+        "published_at": "2026-10-23 18:36",
+        "title": "북한 대남방송 재개 예고… 김포와 파주 등 접경지역 비상 대응 체계 가동",
+        "body": "북한이 대남 확성기 방송을 다시 시작하겠다고 예고하자 접경지역 지방자치단체들이 비상 대응에 나섰다. 경기도 김포시와 파주시는 과거 소음 피해로 고통받았던 주민들의 불안감이 커지고 있다고 밝혔다. 접경지역 주민들은 과거 괴물 소리나 동물 울음소리 같은 기괴한 소음으로 심각한 수면 장애와 스트레스를 겪은 바 있다. 파주시는 대남방송의 영향을 받는 지역을 중심으로 소음을 측정하고 현장 상황을 세밀히 점검할 방침이다. 또한 파주시는 주민의 평온한 생활권을 지키기 위해 정부와 관계 기관에 근본적인 해결책 마련을 촉구할 계획이다. 김포시 역시 군부대 및 경찰 등 관계 기관과 공조 체계를 강화하여 북한군의 동향을 면밀히 감시하고 있다. 김포시는 실제 방송이 시작되면 마을 이장단과 핫라인을 가동하여 피해 상황을 신속히 파악하기로 했다. 아울러 지자체들은 소음 피해가 장기화할 경우 주민들을 위한 심리 상담 지원 방안도 함께 검토하고 있다.",
+        "translation": "북한이 대남 확성기 방송을 다시 시작하겠다고 예고하자 접경지역 지방자치단체들이 비상 대응에 나섰다.\nAs North Korea announced plans to resume loudspeaker broadcasts toward South Korea, local governments in border regions launched emergency response measures.\n\n경기도 김포시와 파주시는 과거 소음 피해로 고통받았던 주민들의 불안감이 커지고 있다고 밝혔다.\nGyeonggi Province's Gimpo and Paju cities stated that anxiety among residents, who had previously suffered from noise damage, is growing.\n\n접경지역 주민들은 과거 괴물 소리나 동물 울음소리 같은 기괴한 소음으로 심각한 수면 장애와 스트레스를 겪은 바 있다.\nBorder area residents had previously experienced severe sleep disorders and stress due to bizarre noises, such as monster noises and animal cries.\n\n파주시는 대남방송의 영향을 받는 지역을 중심으로 소음을 측정하고 현장 상황을 세밀히 점검할 방침이다.\nPaju plans to measure noise levels focusing on areas affected by the broadcasts and thoroughly inspect conditions on the ground.\n\n또한 파주시는 주민의 평온한 생활권을 지키기 위해 정부와 관계 기관에 근본적인 해결책 마련을 촉구할 계획이다.\nPaju also plans to urge the central government and relevant agencies to devise fundamental solutions to protect the peaceful living conditions of residents.\n\n김포시 역시 군부대 및 경찰 등 관계 기관과 공조 체계를 강화하여 북한군의 동향을 면밀히 감시하고 있다.\nGimpo is likewise closely monitoring North Korean military movements by strengthening its cooperation system with relevant organizations like the military and police.\n\n김포시는 실제 방송이 시작되면 마을 이장단과 핫라인을 가동하여 피해 상황을 신속히 파악하기로 했다.\nGimpo decided to quickly assess damage conditions by operating a hotline with village heads once broadcasts actually begin.\n\n아울러 지자체들은 소음 피해가 장기화할 경우 주민들을 위한 심리 상담 지원 방안도 함께 검토하고 있다.\nIn addition, local governments are considering psychological counseling support measures for residents if the noise damage drags on.",
+        "vocab": [
+            {
+                "word": "접경지역",
+                "meaning": "border region, frontier area",
+                "example_ko": "정부는 [접경지역]에 사는 주민들의 안전을 특별히 점검했다.",
+                "example_en": "The government conducted special safety checks for residents living in border regions."
+            },
+            {
+                "word": "비상",
+                "meaning": "emergency, alert",
+                "example_ko": "태풍이 다가오자 소방관들은 [비상] 근무에 들어갔다.",
+                "example_en": "As the typhoon approached, firefighters went on emergency duty."
+            },
+            {
+                "word": "고통받다",
+                "meaning": "to suffer, to be tormented",
+                "example_ko": "그는 심한 허리 통증으로 오랫동안 [고통받았다].",
+                "example_en": "He suffered for a long time from severe back pain."
+            },
+            {
+                "word": "기괴하다",
+                "meaning": "bizarre, strange, grotesque",
+                "example_ko": "어두운 숲속에서 [기괴한] 소리가 들려와 깜짝 놀랐다.",
+                "example_en": "I was startled by a bizarre sound coming from the dark forest."
+            },
+            {
+                "word": "생활권",
+                "meaning": "living sphere, sphere of daily life",
+                "example_ko": "이곳은 지하철역이 가까워서 주민들의 [생활권]이 매우 편리하다.",
+                "example_en": "Being close to the subway station, the residents' sphere of daily life is very convenient here."
+            },
+            {
+                "word": "촉구하다",
+                "meaning": "to urge, to press for",
+                "example_ko": "시민단체는 정부에 신속한 문제 해결을 [촉구했다].",
+                "example_en": "Civic organizations urged the government to resolve the issue swiftly."
+            },
+            {
+                "word": "공조",
+                "meaning": "cooperation, mutual assistance",
+                "example_ko": "경찰은 다른 기관과의 긴밀한 [공조]를 통해 범인을 잡았다.",
+                "example_en": "The police caught the criminal through close cooperation with other agencies."
+            },
+            {
+                "word": "동향",
+                "meaning": "trend, movement",
+                "example_ko": "전문가들은 최근 세계 경제의 [동향]을 면밀하게 분석하고 있다.",
+                "example_en": "Experts are thoroughly analyzing recent trends in the global economy."
+            },
+            {
+                "word": "신속히",
+                "meaning": "swiftly, promptly",
+                "example_ko": "화재가 발생하자 소방대가 현장으로 [신속히] 출동했다.",
+                "example_en": "When a fire broke out, the fire brigade promptly dispatched to the scene."
+            },
+            {
+                "word": "장기화하다",
+                "meaning": "to be prolonged, to drag on",
+                "example_ko": "전쟁이 [장기화하면서] 많은 사람들이 큰 고통을 겪고 있다.",
+                "example_en": "As the war drags on, many people are experiencing great suffering."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-23",
+        "published_at": "2026-10-23 18:36",
+        "title": "국방부, 북한에 군사회담 재제안… 군사분계선 우발 충돌 방지 및 유엔사 3자 회담 열어둬",
+        "body": "국방부가 군사분계선 일대에서 일어날 수 있는 우발적인 무력 충돌을 막기 위해 북한에 군사회담을 다시 제안했다. 정부는 끊어진 남북 군 통신선을 복원하고 경계선에 대한 양측의 인식 차이를 좁히자고 촉구했다. 국방부 관계자는 특단의 조치가 없다면 장병들이 각자의 기준으로 활동하게 되어 충돌 위험이 높아진다고 강조했다. 또한 군 당국은 필요한 경우 정전협정을 관리하는 유엔군사령부를 포함한 3자 회담도 수용할 수 있다고 밝혔다. 이번 제안에 앞서 국방부는 정전협정 관리 주체인 유엔사와 관련 내용을 미리 협의한 것으로 알려졌다. 유엔사는 우발적 긴장 고조의 위험을 줄이는 데 전념하고 있다는 원칙적인 입장을 재확인했다. 군 당국에 따르면 북한군은 최근 국경선 요새화 작업을 진행하며 비무장지대에 대규모 지뢰를 묻은 것으로 추정된다. 정부는 북한군이 자의적으로 설치한 지뢰가 우리 관할 구역까지 침범했는지 확인하기 위해 유엔사와 특별조사를 벌이고 있다.",
+        "translation": "국방부가 군사분계선 일대에서 일어날 수 있는 우발적인 무력 충돌을 막기 위해 북한에 군사회담을 다시 제안했다.\nThe Ministry of National Defense once again proposed military talks to North Korea to prevent accidental armed clashes around the Military Demarcation Line.\n\n정부는 끊어진 남북 군 통신선을 복원하고 경계선에 대한 양측의 인식 차이를 좁히자고 촉구했다.\nThe government urged the restoration of severed inter-Korean military communication lines and the narrowing of perceptual differences between both sides regarding the border.\n\n국방부 관계자는 특단의 조치가 없다면 장병들이 각자의 기준으로 활동하게 되어 충돌 위험이 높아진다고 강조했다.\nA defense official emphasized that without extraordinary measures, troops would act according to their own standards, raising the risk of conflict.\n\n또한 군 당국은 필요한 경우 정전협정을 관리하는 유엔군사령부를 포함한 3자 회담도 수용할 수 있다고 밝혔다.\nThe military authorities also stated that, if necessary, they could accept a three-way meeting including the United Nations Command, which oversees the Armistice Agreement.\n\n이번 제안에 앞서 국방부는 정전협정 관리 주체인 유엔사와 관련 내용을 미리 협의한 것으로 알려졌다.\nPrior to this proposal, the Defense Ministry reportedly consulted in advance with the UN Command, the administrative body of the Armistice Agreement.\n\n유엔사는 우발적 긴장 고조의 위험을 줄이는 데 전념하고 있다는 원칙적인 입장을 재확인했다.\nThe UN Command reaffirmed its principled stance that it remains dedicated to reducing the risk of accidental escalation and miscalculation.\n\n군 당국에 따르면 북한군은 최근 국경선 요새화 작업을 진행하며 비무장지대에 대규모 지뢰를 묻은 것으로 추정된다.\nAccording to military authorities, the North Korean military is presumed to have laid large numbers of landmines in the DMZ while carrying out border fortification work recently.\n\n정부는 북한군이 자의적으로 설치한 지뢰가 우리 관할 구역까지 침범했는지 확인하기 위해 유엔사와 특별조사를 벌이고 있다.\nThe government is conducting a special investigation with the UN Command to verify whether mines arbitrarily planted by North Korean troops encroached into our jurisdiction.",
+        "vocab": [
+            {
+                "word": "우발적",
+                "meaning": "accidental, inadvertent",
+                "example_ko": "작은 말다툼이 [우발적인] 싸움으로 번지고 말았다.",
+                "example_en": "A minor argument escalated into an accidental fight."
+            },
+            {
+                "word": "제안하다",
+                "meaning": "to propose, to suggest",
+                "example_ko": "친구가 이번 주말에 함께 교외로 여행을 가자고 [제안했다].",
+                "example_en": "My friend proposed that we go on a trip to the suburbs together this weekend."
+            },
+            {
+                "word": "단절되다",
+                "meaning": "to be severed, to be cut off",
+                "example_ko": "폭우로 도로가 끊겨 외딴 마을과의 연락이 완전히 [단절되었다].",
+                "example_en": "Due to heavy rain cutting off roads, contact with the remote village was completely severed."
+            },
+            {
+                "word": "특단",
+                "meaning": "extraordinary, special",
+                "example_ko": "환경오염을 막기 위해 정부의 [특단] 대책이 필요하다.",
+                "example_en": "Extraordinary government measures are necessary to prevent environmental pollution."
+            },
+            {
+                "word": "수용하다",
+                "meaning": "to accept, to accommodate",
+                "example_ko": "회사는 직원들의 건의를 적극적으로 [수용하기로] 결정했다.",
+                "example_en": "The company decided to actively accommodate the employees' suggestions."
+            },
+            {
+                "word": "정전협정",
+                "meaning": "armistice agreement",
+                "example_ko": "남북한은 긴 전쟁을 멈추기 위해 [정전협정]을 맺었다.",
+                "example_en": "South and North Korea signed an armistice agreement to halt the long war."
+            },
+            {
+                "word": "긴장",
+                "meaning": "tension, nervousness",
+                "example_ko": "중요한 시험을 앞둔 학생들의 얼굴에 [긴장]이 가득했다.",
+                "example_en": "The faces of the students taking an important exam were filled with tension."
+            },
+            {
+                "word": "요새화",
+                "meaning": "fortification",
+                "example_ko": "군대는 침략을 막기 위해 국경 기지를 단단히 [요새화했다].",
+                "example_en": "The military firmly fortified the border base to prevent invasion."
+            },
+            {
+                "word": "매설하다",
+                "meaning": "to bury, to lay underground",
+                "example_ko": "도로 정비 공사를 하면서 지하에 새 수도관을 [매설했다].",
+                "example_en": "During road maintenance work, they laid new water pipes underground."
+            },
+            {
+                "word": "자의적",
+                "meaning": "arbitrary",
+                "example_ko": "모든 규정은 [자의적인] 해석을 피하고 공정하게 적용해야 한다.",
+                "example_en": "All rules should avoid arbitrary interpretation and be applied fairly."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-10-23",
         "published_at": "2026-10-23 06:30",
         "title": "정부, '북한 지뢰 도발 및 정전협정 위반' 유엔 안보리에 공식 서한 발송",
         "body": "우리 정부가 북한의 비무장지대 지뢰 폭발 사건과 군사분계선 일대의 긴장 조성 행위에 대응하여 유엔 안전보장이사회에 공식 서한을 보냈다. 차지훈 주유엔한국대사는 안보리 의장국인 그리스 주유엔대사에게 이번 사태의 경위를 담은 두 쪽 분량의 서한을 직접 전달했다. 서한에는 북한군이 매설한 지뢰로 인해 폭발 사고가 발생했다는 군 당국의 정밀 조사 결과가 상세히 기술되었다. 정부는 북한의 이러한 무모한 행위가 한반도의 평화를 깨뜨리는 명백한 정전협정 위반에 해당한다고 강력히 규탄했다. 아울러 북한 당국에 사건에 대한 진정성 있는 사과와 책임 있는 조치를 요구하며, 신뢰 회복을 위한 대화의 장으로 나올 것을 촉구했다. 또한 최근 북한이 우리 군의 정당한 방어 작전을 오히려 도발로 규정하고 책임을 한국에 전가하려는 태도 역시 엄중히 지적했다. 이번에 발송된 정부 서한은 유엔 안보리의 공식 문서로 채택되어 조만간 안보리 공식 웹사이트에 정식으로 게재될 예정이다. 이는 국제사회 무대에서 대남 공세 수위를 높이고 있는 북한에 맞서 한국 정부가 외교적 대응을 한층 강화하려는 조치로 풀이된다. 비록 이번 서한 등록이 유엔 차원의 별도 결의안이나 즉각적인 제재로 이어지지는 않더라도, 북한의 불법 도발을 국제사회에 널리 알리는 중요한 계기가 될 것으로 보인다.",

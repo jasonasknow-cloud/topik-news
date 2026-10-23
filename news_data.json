@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-24",
+        "published_at": "2026-10-24 06:29",
+        "title": "트럼프 행정부, 알래스카주 상원의원 선거 결과 공식 인증 보류 소송 제기",
+        "body": "트럼프 행정부가 최근 치러진 중간선거에서 알래스카주 연방 상원의원 선거 결과를 곧바로 확정하지 못하도록 법원에 소송을 냈다. 이번 소송은 공화당의 댄 설리번 후보가 민주당 메리 펠톨라 후보에게 근소한 차이로 패배할 경우 선거 결과 인증을 막아 달라는 취지이다. 법무부는 설리번 후보와 이름이 완전히 같은 동명이인의 후보가 투표용지에 포함되어 있어 유권자들에게 큰 혼란을 주었다고 주장했다. 앞서 공화당 측은 동명이인 후보가 민주당의 의도적인 혼선 유도 전략에 따라 출마한 인물이라고 강하게 비판해 왔다. 법무부는 설리번 의원이 패배하더라도 이러한 혼란이 선거 결과에 미친 영향을 명확히 규명할 때까지 공식 인증이 보류되어야 한다고 설명했다. 만약 법원이 이 요청을 받아들인다면 최종 당선자 확정이 상당 기간 지연될 가능성이 커졌다. 트럼프 대통령 또한 소셜미디어를 통해 동명이인 후보의 출마를 명백한 사기라고 규정하며 여론전을 펼쳤다. 이에 따라 알래스카주 상원의원 선거를 둘러싼 양당 간의 정치적 갈등과 법적 공방은 더욱 치열해질 것으로 보인다.",
+        "translation": "트럼프 행정부가 최근 치러진 중간선거에서 알래스카주 연방 상원의원 선거 결과를 곧바로 확정하지 못하도록 법원에 소송을 냈다.\nThe Trump administration filed a lawsuit in court to prevent the immediate certification of the Alaska federal Senate election results from the recent midterm elections.\n\n이번 소송은 공화당의 댄 설리번 후보가 민주당 메리 펠톨라 후보에게 근소한 차이로 패배할 경우 선거 결과 인증을 막아 달라는 취지이다.\nThis lawsuit aims to block the certification of election results if Republican candidate Dan Sullivan loses to Democratic candidate Mary Peltola by a narrow margin.\n\n법무부는 설리번 후보와 이름이 완전히 같은 동명이인의 후보가 투표용지에 포함되어 있어 유권자들에게 큰 혼란을 주었다고 주장했다.\nThe Department of Justice argued that a candidate with the exact same name as candidate Sullivan was included on the ballot, causing significant confusion for voters.\n\n앞서 공화당 측은 동명이인 후보가 민주당의 의도적인 혼선 유도 전략에 따라 출마한 인물이라고 강하게 비판해 왔다.\nPreviously, the Republican Party strongly criticized that the candidate with the same name ran under the Democratic Party's deliberate strategy to induce confusion.\n\n법무부는 설리번 의원이 패배하더라도 이러한 혼란이 선거 결과에 미친 영향을 명확히 규명할 때까지 공식 인증이 보류되어야 한다고 설명했다.\nThe Department of Justice explained that even if Senator Sullivan loses, official certification must be put on hold until the impact of such confusion on the election outcome is clearly determined.\n\n만약 법원이 이 요청을 받아들인다면 최종 당선자 확정이 상당 기간 지연될 가능성이 커졌다.\nIf the court accepts this request, the likelihood that the final confirmation of the winner will be delayed for a considerable period has increased.\n\n트럼프 대통령 또한 소셜미디어를 통해 동명이인 후보의 출마를 명백한 사기라고 규정하며 여론전을 펼쳤다.\nPresident Trump also engaged in a public relations campaign via social media, characterizing the candidacy of the same-name candidate as an outright fraud.\n\n이에 따라 알래스카주 상원의원 선거를 둘러싼 양당 간의 정치적 갈등과 법적 공방은 더욱 치열해질 것으로 보인다.\nAccordingly, the political conflict and legal dispute between the two parties over the Alaska Senate election are expected to intensify further.",
+        "vocab": [
+            {
+                "word": "제기하다",
+                "meaning": "to file (a lawsuit), to raise (an issue)",
+                "example_ko": "민우는 회의에서 새로운 문제점을 [제기했다].",
+                "example_en": "Minwoo raised a new problem at the meeting."
+            },
+            {
+                "word": "근소하다",
+                "meaning": "to be slight, narrow (margin)",
+                "example_ko": "두 후보는 [근소한] 표 차이로 승패가 갈렸다.",
+                "example_en": "The victory of the two candidates was decided by a narrow vote difference."
+            },
+            {
+                "word": "인증",
+                "meaning": "certification, verification",
+                "example_ko": "은행 업무를 보려면 본인 [인증] 절차를 거쳐야 한다.",
+                "example_en": "To do banking business, you must go through the identity verification process."
+            },
+            {
+                "word": "동명이인",
+                "meaning": "person with the same name",
+                "example_ko": "학교에 나와 [동명이인] 학생이 있어서 가끔 출석 부를 때 헷갈린다.",
+                "example_en": "There is a student with the same name as me at school, so it is sometimes confusing during roll call."
+            },
+            {
+                "word": "유권자",
+                "meaning": "voter",
+                "example_ko": "선거 날에는 많은 [유권자]들이 투표소로 향했다.",
+                "example_en": "On election day, many voters headed to the polling stations."
+            },
+            {
+                "word": "혼란",
+                "meaning": "confusion, disorder",
+                "example_ko": "갑작스러운 정전 때문에 지하철역에 큰 [혼란]이 발생했다.",
+                "example_en": "Due to a sudden power outage, great confusion occurred in the subway station."
+            },
+            {
+                "word": "보류하다",
+                "meaning": "to defer, put on hold",
+                "example_ko": "우리 팀은 예산 부족으로 새 사업 계획을 [보류했다].",
+                "example_en": "Our team put the new business plan on hold due to a lack of budget."
+            },
+            {
+                "word": "지연되다",
+                "meaning": "to be delayed",
+                "example_ko": "비행기 출발 시간이 폭설 때문에 2시간 [지연되었다].",
+                "example_en": "The flight departure time was delayed by two hours due to heavy snow."
+            },
+            {
+                "word": "규정하다",
+                "meaning": "to define, stipulate",
+                "example_ko": "회사 규칙은 지각을 근무 태만으로 [규정한다].",
+                "example_en": "Company rules define tardiness as negligence of work."
+            },
+            {
+                "word": "공방",
+                "meaning": "battle of words, legal dispute",
+                "example_ko": "두 정치인은 텔레비전 토론에서 치열한 말 [공방]을 벌였다.",
+                "example_en": "The two politicians engaged in a fierce battle of words during the television debate."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-24",
+        "published_at": "2026-10-24 06:29",
+        "title": "중동 군사적 긴장 고조에 브렌트유 배럴당 117달러 돌파",
+        "body": "미국과 이란 간의 무력 충돌이 다시 격화할 수 있다는 우려가 커지면서 국제유가가 급등세를 보이고 있다. 국제유가의 핵심 기준물인 브렌트유 12월 인도분 가격은 장중 3.5% 상승하며 배럴당 117.14달러를 기록했다. 브렌트유 가격이 배럴당 117달러를 넘어선 것은 지난 4월 이후 약 반년 만에 처음 있는 일이다. 이번 유가 급등은 미국과 이스라엘이 미국 중간선거 이후 이란에 대한 군사 공격을 재개할 수 있다는 관측에 큰 영향을 받았다. 보도에 따르면 미국과 이스라엘은 이란의 에너지 기반 시설과 주요 핵 시설 등을 목표로 공격 계획을 준비하고 있다. 이에 맞서 이란 정부는 군사적 재공격이 발생할 경우 강력하게 대응하겠다고 엄중히 경고했다. 실제로 이란은 전 세계 원유 수송의 주요 통로인 호르무즈 해협을 지나는 유조선에 대한 압박을 강화하고 있다. 전문가들은 중동 정세의 불안정이 계속될 경우 국제 에너지 시장의 불확실성이 한층 더 커질 것이라고 경고했다.",
+        "translation": "미국과 이란 간의 무력 충돌이 다시 격화할 수 있다는 우려가 커지면서 국제유가가 급등세를 보이고 있다.\nAs concerns grow that armed conflict between the United States and Iran could intensify again, international oil prices are showing a sharp upward trend.\n\n국제유가의 핵심 기준물인 브렌트유 12월 인도분 가격은 장중 3.5% 상승하며 배럴당 117.14달러를 기록했다.\nThe price of Brent crude for December delivery, a key benchmark for international oil prices, rose 3.5% during intraday trading to reach $117.14 per barrel.\n\n브렌트유 가격이 배럴당 117달러를 넘어선 것은 지난 4월 이후 약 반년 만에 처음 있는 일이다.\nThis is the first time since last April, roughly half a year ago, that Brent crude prices have surpassed $117 per barrel.\n\n이번 유가 급등은 미국과 이스라엘이 미국 중간선거 이후 이란에 대한 군사 공격을 재개할 수 있다는 관측에 큰 영향을 받았다.\nThis surge in oil prices was heavily influenced by speculation that the United States and Israel could resume military strikes against Iran following the US midterm elections.\n\n보도에 따르면 미국과 이스라엘은 이란의 에너지 기반 시설과 주요 핵 시설 등을 목표로 공격 계획을 준비하고 있다.\nAccording to reports, the United States and Israel are preparing attack plans targeting Iran's energy infrastructure and key nuclear facilities.\n\n이에 맞서 이란 정부는 군사적 재공격이 발생할 경우 강력하게 대응하겠다고 엄중히 경고했다.\nIn response, the Iranian government sternly warned that it would react strongly if a military re-attack occurs.\n\n실제로 이란은 전 세계 원유 수송의 주요 통로인 호르무즈 해협을 지나는 유조선에 대한 압박을 강화하고 있다.\nIn fact, Iran is stepping up pressure on oil tankers passing through the Strait of Hormuz, a major route for worldwide crude oil transportation.\n\n전문가들은 중동 정세의 불안정이 계속될 경우 국제 에너지 시장의 불확실성이 한층 더 커질 것이라고 경고했다.\nExperts warned that if instability in the Middle East situation continues, uncertainty in the international energy market will increase even further.",
+        "vocab": [
+            {
+                "word": "격화하다",
+                "meaning": "to intensify, worsen",
+                "example_ko": "경쟁이 [격화하면서] 중소기업들의 부담이 커지고 있다.",
+                "example_en": "As competition intensifies, the burden on small and medium enterprises is growing."
+            },
+            {
+                "word": "급등세",
+                "meaning": "sharp upward trend, soaring trend",
+                "example_ko": "채소 가격이 연일 [급등세를] 보여 장보기가 겁난다.",
+                "example_en": "Vegetable prices are showing a sharp upward trend day after day, making grocery shopping intimidating."
+            },
+            {
+                "word": "기준물",
+                "meaning": "benchmark asset, standard commodity",
+                "example_ko": "이 원자재는 국제 거래에서 중요한 가격 [기준물] 역할을 한다.",
+                "example_en": "This raw material serves as an important price benchmark in international transactions."
+            },
+            {
+                "word": "인도분",
+                "meaning": "deliverable lot, futures delivery portion",
+                "example_ko": "선물 시장에서 다음 달 [인도분] 곡물 가격이 크게 뛰었다.",
+                "example_en": "In the futures market, grain prices for next month's delivery jumped significantly."
+            },
+            {
+                "word": "재개하다",
+                "meaning": "to resume, restart",
+                "example_ko": "두 나라는 중단되었던 무역 회담을 다음 주에 [재개한다].",
+                "example_en": "The two countries will resume their suspended trade talks next week."
+            },
+            {
+                "word": "기반 시설",
+                "meaning": "infrastructure",
+                "example_ko": "도시는 도로와 수도 같은 [기반 시설]을 정비하기로 했다.",
+                "example_en": "The city decided to renovate infrastructure such as roads and water supply."
+            },
+            {
+                "word": "엄중히",
+                "meaning": "strictly, sternly",
+                "example_ko": "선생님은 학생들에게 시험 규칙을 지키라고 [엄중히] 경고했다.",
+                "example_en": "The teacher strictly warned the students to follow the test rules."
+            },
+            {
+                "word": "통로",
+                "meaning": "passageway, route",
+                "example_ko": "이 문은 비상시에 사용하는 탈출 [통로] 역할을 한다.",
+                "example_en": "This door serves as an escape passageway used in emergencies."
+            },
+            {
+                "word": "유조선",
+                "meaning": "oil tanker",
+                "example_ko": "대형 [유조선] 한 척이 기름을 싣고 항구에 도착했다.",
+                "example_en": "A large oil tanker loaded with oil arrived at the port."
+            },
+            {
+                "word": "불확실성",
+                "meaning": "uncertainty",
+                "example_ko": "미래의 경제적 [불확실성] 때문에 기업들이 투자를 망설인다.",
+                "example_en": "Companies are hesitating to invest due to future economic uncertainty."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-24",
+        "published_at": "2026-10-24 06:29",
+        "title": "다친 길고양이 치료한 카페 사장에 전해진 '음료 없는 주문'",
+        "body": "울산의 한 카페에서 음료를 만들지 말아 달라는 특별한 배달 주문이 접수되어 온라인에서 큰 화제를 모았다. 최근 사회관계망서비스에는 카페에 들어온 음료 다섯 잔의 영수증 사진과 따뜻한 사연이 함께 게시되었다. 공개된 영수증에는 다른 지역에 살고 있으니 음료를 절대 만들지 말고 고양이를 치료해 줘서 감사하다는 요청 사항이 적혀 있었다. 이 감동적인 사연은 턱뼈가 심하게 부러져 먹이를 먹지 못하던 한 길고양이에게서 시작되었다. 당시 고양이를 가엾게 여긴 카페 사장은 직접 먹이를 챙겨 주고 동물병원으로 데려가 큰 수술을 받도록 도왔다. 이 소식을 인터넷을 통해 접한 다른 지역의 손님이 감사의 뜻을 전하고자 고양이 이름을 딴 음료를 주문한 것이다. 카페 사장은 먼 곳에서도 자신의 따뜻한 마음을 알아주는 사람이 있다는 사실에 깊은 감동을 받았다고 털어놓았다. 해당 사연을 접한 수많은 누리꾼들은 곤경에 처한 생명을 구한 사장과 따뜻한 손님에게 아낌없는 응원을 보내고 있다.",
+        "translation": "울산의 한 카페에서 음료를 만들지 말아 달라는 특별한 배달 주문이 접수되어 온라인에서 큰 화제를 모았다.\nA special delivery order asking not to make the drinks was received at a cafe in Ulsan, garnering huge attention online.\n\n최근 사회관계망서비스에는 카페에 들어온 음료 다섯 잔의 영수증 사진과 따뜻한 사연이 함께 게시되었다.\nRecently, a photo of a receipt for five drinks received by the cafe was posted on social media along with a heartwarming story.\n\n공개된 영수증에는 다른 지역에 살고 있으니 음료를 절대 만들지 말고 고양이를 치료해 줘서 감사하다는 요청 사항이 적혀 있었다.\nOn the released receipt, a request note was written asking never to make the drinks since the customer lives in another region, while thanking the owner for treating the cat.\n\n이 감동적인 사연은 턱뼈가 심하게 부러져 먹이를 먹지 못하던 한 길고양이에게서 시작되었다.\nThis touching story began with a stray cat whose jawbone was severely fractured, leaving it unable to eat food.\n\n당시 고양이를 가엾게 여긴 카페 사장은 직접 먹이를 챙겨 주고 동물병원으로 데려가 큰 수술을 받도록 도왔다.\nThe cafe owner, who took pity on the cat at the time, fed it personally and took it to an animal hospital to help it receive major surgery.\n\n이 소식을 인터넷을 통해 접한 다른 지역의 손님이 감사의 뜻을 전하고자 고양이 이름을 딴 음료를 주문한 것이다.\nA customer from another region who learned of this news via the internet ordered drinks named after the cat to express gratitude.\n\n카페 사장은 먼 곳에서도 자신의 따뜻한 마음을 알아주는 사람이 있다는 사실에 깊은 감동을 받았다고 털어놓았다.\nThe cafe owner confessed to being deeply moved by the fact that someone even from far away recognized their warm heart.\n\n해당 사연을 접한 수많은 누리꾼들은 곤경에 처한 생명을 구한 사장과 따뜻한 손님에게 아낌없는 응원을 보내고 있다.\nNumerous netizens who read the story are sending generous support to the owner who saved a life in distress and to the warmhearted customer.",
+        "vocab": [
+            {
+                "word": "접수되다",
+                "meaning": "to be received, accepted",
+                "example_ko": "고객센터에 오늘 하루 동안 수백 건의 문의가 [접수되었다].",
+                "example_en": "Hundreds of inquiries were received at the customer service center today."
+            },
+            {
+                "word": "화제",
+                "meaning": "hot topic, matter of interest",
+                "example_ko": "그 가수의 새로운 노래는 인터넷에서 큰 [화제]가 되었다.",
+                "example_en": "That singer's new song became a big topic of conversation on the internet."
+            },
+            {
+                "word": "게시되다",
+                "meaning": "to be posted (online or on a bulletin board)",
+                "example_ko": "도서관 휴관 안내문이 게시판에 [게시되었다].",
+                "example_en": "The library closure notice was posted on the bulletin board."
+            },
+            {
+                "word": "요청",
+                "meaning": "request",
+                "example_ko": "고객의 특별한 [요청]에 따라 음식을 맵지 않게 만들었다.",
+                "example_en": "In accordance with the customer's special request, the food was made not spicy."
+            },
+            {
+                "word": "가엾다",
+                "meaning": "to be pitiful, pathetic",
+                "example_ko": "길에서 떨고 있는 어린 강아지가 너무 [가여웠다].",
+                "example_en": "The little puppy trembling on the street was so pitiful."
+            },
+            {
+                "word": "챙기다",
+                "meaning": "to take care of, look after",
+                "example_ko": "어머니는 매일 아침 가족들의 건강을 위해 비타민을 [챙겨] 주신다.",
+                "example_en": "Every morning, mother takes care to provide vitamins for the family's health."
+            },
+            {
+                "word": "털어놓다",
+                "meaning": "to speak candidly, confess",
+                "example_ko": "친구는 나에게 오랫동안 숨겨온 비밀을 [털어놓았다].",
+                "example_en": "My friend candidly revealed the secret he had kept hidden for a long time to me."
+            },
+            {
+                "word": "곤경",
+                "meaning": "plight, predicament",
+                "example_ko": "그는 길을 잃고 돈도 없어 큰 [곤경]에 빠졌다.",
+                "example_en": "He fell into great plight as he was lost and had no money."
+            },
+            {
+                "word": "생명",
+                "meaning": "life",
+                "example_ko": "의사들은 위험에 처한 환자의 소중한 [생명]을 구했다.",
+                "example_en": "Doctors saved the precious life of the patient in danger."
+            },
+            {
+                "word": "아낌없다",
+                "meaning": "to be generous, unsparing",
+                "example_ko": "부모님은 자녀의 꿈을 위해 [아낌없는] 지원을 보내 주셨다.",
+                "example_en": "The parents gave generous support for their child's dream."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-24",
+        "published_at": "2026-10-24 06:29",
+        "title": "미국, 북한 나포 '푸에블로호' 승조원 손해배상 판결문 북측에 전달",
+        "body": "미국 정부가 1968년 북한에 나포되었던 미 해군 정보수집함 푸에블로호 사건과 관련한 법원 판결문을 북한 측에 전달했다. 미국 국무부는 뉴욕에 있는 북한 유엔대표부에 4억 달러를 배상하라는 내용의 판결 문건을 직접 전달했다고 밝혔다. 이번에 북측에 넘겨진 서류에는 미국 법원의 배상 명령서와 의견문, 피고가 출석하지 않은 상태에서 내려진 궐석 판결문 등이 포함되었다. 푸에블로호는 과거 동해에서 임무를 수행하던 도중 북한군에 기습 나포되어 11개월 동안 억류된 비극적인 역사를 가지고 있다. 당시 나포 과정에서 미국 해군 승조원 한 명이 목숨을 잃었고 나머지 대원들도 극심한 고초를 겪었다. 워싱턴 연방법원은 생존 승조원과 희생자 유가족 등 119명이 제기한 소송에서 북한 당국의 법적 책임을 인정했다. 이에 따라 법원은 북한이 피해자들에게 총 4억 달러 규모의 손해를 배상해야 한다고 최종 판결했다. 수십 년 만에 이루어진 이번 판결문 전달 조치로 인해 북미 간의 오랜 과거사 갈등이 다시 국제사회의 주목을 받고 있다.",
+        "translation": "미국 정부가 1968년 북한에 나포되었던 미 해군 정보수집함 푸에블로호 사건과 관련한 법원 판결문을 북한 측에 전달했다.\nThe US government delivered a court ruling to North Korea regarding the USS Pueblo, a US Navy intelligence gathering ship captured by North Korea in 1968.\n\n미국 국무부는 뉴욕에 있는 북한 유엔대표부에 4억 달러를 배상하라는 내용의 판결 문건을 직접 전달했다고 밝혔다.\nThe US Department of State announced that it directly delivered ruling documents ordering North Korea to pay 400 million dollars in compensation to the North Korean Mission to the United Nations in New York.\n\n이번에 북측에 넘겨진 서류에는 미국 법원의 배상 명령서와 의견문, 피고가 출석하지 않은 상태에서 내려진 궐석 판결문 등이 포함되었다.\nThe documents handed over to the North Korean side included the US court's compensation order, opinion memo, and a default judgment issued without the defendant's appearance.\n\n푸에블로호는 과거 동해에서 임무를 수행하던 도중 북한군에 기습 나포되어 11개월 동안 억류된 비극적인 역사를 가지고 있다.\nThe USS Pueblo has a tragic history of being ambushed and captured by the North Korean military while conducting a mission in the East Sea, followed by 11 months of detention.\n\n당시 나포 과정에서 미국 해군 승조원 한 명이 목숨을 잃었고 나머지 대원들도 극심한 고초를 겪었다.\nDuring the capture process at that time, one US Navy crew member lost his life, and the remaining crew members suffered severe hardships.\n\n워싱턴 연방법원은 생존 승조원과 희생자 유가족 등 119명이 제기한 소송에서 북한 당국의 법적 책임을 인정했다.\nThe Washington Federal District Court recognized the North Korean regime's legal liability in a lawsuit filed by 119 people, including surviving crew members and bereaved family members of victims.\n\n이에 따라 법원은 북한이 피해자들에게 총 4억 달러 규모의 손해를 배상해야 한다고 최종 판결했다.\nAccordingly, the court ruled definitively that North Korea must compensate the victims for damages totaling 400 million dollars.\n\n수십 년 만에 이루어진 이번 판결문 전달 조치로 인해 북미 간의 오랜 과거사 갈등이 다시 국제사회의 주목을 받고 있다.\nWith this delivery of court documents taking place after several decades, the long-standing historical conflict between North Korea and the US is once again drawing international attention.",
+        "vocab": [
+            {
+                "word": "나포되다",
+                "meaning": "to be captured, seized (of a ship/vessel)",
+                "example_ko": "불법 조업을 하던 외국 어선이 해경에 의해 [나포되었다].",
+                "example_en": "A foreign fishing boat engaged in illegal fishing was seized by the maritime police."
+            },
+            {
+                "word": "전달하다",
+                "meaning": "to deliver, convey",
+                "example_ko": "나는 부모님의 감사 인사를 선생님께 직접 [전달했다].",
+                "example_en": "I directly conveyed my parents' words of gratitude to the teacher."
+            },
+            {
+                "word": "문건",
+                "meaning": "document, paper",
+                "example_ko": "회의에 앞서 비밀 [문건] 하나가 참석자들에게 배포되었다.",
+                "example_en": "Prior to the meeting, a confidential document was distributed to the attendees."
+            },
+            {
+                "word": "궐석",
+                "meaning": "default, absence (in court)",
+                "example_ko": "피고인은 법정에 출석하지 않아 [궐석] 상태로 재판이 진행되었다.",
+                "example_en": "The trial proceeded in default because the defendant did not appear in court."
+            },
+            {
+                "word": "억류",
+                "meaning": "detention, internment",
+                "example_ko": "전쟁 지역에서 민간인들의 불법 [억류]가 계속되고 있다.",
+                "example_en": "Illegal detention of civilians continues in the war zone."
+            },
+            {
+                "word": "목숨을 잃다",
+                "meaning": "to lose one's life",
+                "example_ko": "큰 교통사고로 인해 안타깝게도 운전자가 [목숨을 잃었다].",
+                "example_en": "Regrettably, the driver lost his life due to a major traffic accident."
+            },
+            {
+                "word": "고초",
+                "meaning": "hardship, suffering",
+                "example_ko": "탐험대는 혹독한 추위 속에서 심한 [고초]를 겪었다.",
+                "example_en": "The expedition suffered severe hardships in the bitter cold."
+            },
+            {
+                "word": "생존",
+                "meaning": "survival",
+                "example_ko": "무인도에서 [생존]하기 위해 물과 식량을 찾는 것이 가장 중요하다.",
+                "example_en": "To survive on an uninhabited island, finding water and food is most important."
+            },
+            {
+                "word": "유가족",
+                "meaning": "bereaved family",
+                "example_ko": "많은 조문객들이 슬픔에 잠긴 [유가족]들을 위로했다.",
+                "example_en": "Many mourners comforted the sorrowful bereaved family."
+            },
+            {
+                "word": "주목",
+                "meaning": "attention, notice",
+                "example_ko": "그 신인 배우의 뛰어난 연기는 전 세계 언론의 [주목]을 받았다.",
+                "example_en": "The rookie actor's outstanding acting received the attention of media worldwide."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-23",
         "published_at": "2026-10-23 18:36",
         "title": "오세훈 서울시장 항소심 무죄 선고… 여야 극명한 입장 차 보여",

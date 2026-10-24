@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-25",
+        "published_at": "2026-10-25 08:05",
+        "title": "이재명 대통령, 민생 현장 방문과 대국민 직접 소통 행보 강화",
+        "body": "이재명 대통령이 온·오프라인을 넘나들며 국민과의 직접적인 접촉을 대폭 늘리고 있다. 이 대통령은 최근 부산 북항 친수공원을 방문하여 산책을 나온 시민들과 사진을 찍고 인사를 나누며 현장 스킨십을 강화했다. 또한 3기 신도시 입주가 시작되는 인천 계양지구의 전통시장을 찾아 상인들과 만나며 돼지고기 가격 등 체감 물가를 점검했다. 이어 전북 익산의 한 초등학교 가을 운동회에도 깜짝 방문해 학생들과 함께 호흡하고 지역 소규모 학교의 현황을 직접 살폈다. 일부에서 국무회의 생중계와 소셜미디어를 통한 직접 소통 방식에 대해 비판의 목소리를 내기도 했다. 그러나 이 대통령은 국민과 현장은 물고기가 헤엄치는 물과 같다며 온·오프라인 소통을 모두 확대하겠다는 의지를 재확인했다. 최근 한국갤럽 여론조사에서 국정 지지율이 7주 만에 40%대를 회복함에 따라 이러한 현장 행보는 더욱 탄력을 받을 것으로 보인다. 대통령실이 직접 접촉을 통해 정국 돌파구를 찾으려는 시도가 국정 동력 확보로 이어질 수 있을지 주목된다.",
+        "translation": "이재명 대통령이 온·오프라인을 넘나들며 국민과의 직접적인 접촉을 대폭 늘리고 있다.\nPresident Lee Jae-myung is significantly expanding direct contact with the public across both online and offline spaces.\n\n이 대통령은 최근 부산 북항 친수공원을 방문하여 산책을 나온 시민들과 사진을 찍고 인사를 나누며 현장 스킨십을 강화했다.\nPresident Lee recently visited the Busan North Port Waterfront Park, strengthening on-site engagement by taking photos and greeting citizens who came out for a stroll.\n\n또한 3기 신도시 입주가 시작되는 인천 계양지구의 전통시장을 찾아 상인들과 만나며 돼지고기 가격 등 체감 물가를 점검했다.\nHe also visited a traditional market in the Gyeyang district of Incheon, where move-ins for the third-generation new town are beginning, meeting with merchants to check perceived prices such as pork prices.\n\n이어 전북 익산의 한 초등학교 가을 운동회에도 깜짝 방문해 학생들과 함께 호흡하고 지역 소규모 학교의 현황을 직접 살폈다.\nSubsequently, he made a surprise visit to an autumn sports day at an elementary school in Iksan, Jeonbuk, interacting with students and personally examining the conditions of small local schools.\n\n일부에서 국무회의 생중계와 소셜미디어를 통한 직접 소통 방식에 대해 비판의 목소리를 내기도 했다.\nSome have raised critical voices regarding live broadcasts of cabinet meetings and the method of direct communication via social media.\n\n그러나 이 대통령은 국민과 현장은 물고기가 헤엄치는 물과 같다며 온·오프라인 소통을 모두 확대하겠다는 의지를 재확인했다.\nHowever, President Lee reaffirmed his commitment to expanding both online and offline communication, stating that the people and the field are like water in which fish swim.\n\n최근 한국갤럽 여론조사에서 국정 지지율이 7주 만에 40%대를 회복함에 따라 이러한 현장 행보는 더욱 탄력을 받을 것으로 보인다.\nAs state administration approval ratings recovered to the 40% range in seven weeks according to a recent Gallup poll, these on-site moves are expected to gain further momentum.\n\n대통령실이 직접 접촉을 통해 정국 돌파구를 찾으려는 시도가 국정 동력 확보로 이어질 수 있을지 주목된다.\nAttention is focusing on whether the presidential office's attempt to find a political breakthrough through direct contact will lead to securing governing momentum.",
+        "vocab": [
+            {
+                "word": "접촉",
+                "meaning": "contact, touch",
+                "example_ko": "그는 다양한 사람들과 [접촉]하면서 새로운 아이디어를 얻었다.",
+                "example_en": "He gained new ideas while making contact with various people."
+            },
+            {
+                "word": "행보",
+                "meaning": "moves, steps, course of action",
+                "example_ko": "회사의 새로운 [행보]에 많은 사람들의 관심이 쏠렸다.",
+                "example_en": "Many people's attention was focused on the company's new moves."
+            },
+            {
+                "word": "체감하다",
+                "meaning": "to feel directly, to experience personally",
+                "example_ko": "날씨가 따뜻해졌지만 바람 때문에 추위를 [체감했다].",
+                "example_en": "Although the weather got warmer, I personally felt the cold because of the wind."
+            },
+            {
+                "word": "점검하다",
+                "meaning": "to inspect, to check",
+                "example_ko": "출발하기 전에 자동차 타이어 상태를 꼼꼼하게 [점검했다].",
+                "example_en": "Before departing, I thoroughly checked the condition of the car tires."
+            },
+            {
+                "word": "생중계",
+                "meaning": "live broadcast",
+                "example_ko": "우리는 축구 경기 결승전을 텔레비전 [생중계]로 시청했다.",
+                "example_en": "We watched the soccer final on a live television broadcast."
+            },
+            {
+                "word": "재확인하다",
+                "meaning": "to reaffirm, to reconfirm",
+                "example_ko": "두 나라는 평화를 지키기 위한 약속을 다시 한번 [재확인했다].",
+                "example_en": "The two countries reaffirmed their promise to maintain peace once again."
+            },
+            {
+                "word": "여론조사",
+                "meaning": "public opinion poll",
+                "example_ko": "최근 실시된 [여론조사]에서 새로운 정책에 찬성하는 의견이 많았다.",
+                "example_en": "In a recently conducted public opinion poll, many opinions supported the new policy."
+            },
+            {
+                "word": "회복하다",
+                "meaning": "to recover, to restore",
+                "example_ko": "환자는 수술을 받은 뒤에 건강을 빠르게 [회복했다].",
+                "example_en": "The patient quickly recovered his health after receiving surgery."
+            },
+            {
+                "word": "돌파구",
+                "meaning": "breakthrough",
+                "example_ko": "팀원들은 힘을 모아 어려운 상황의 [돌파구]를 찾아냈다.",
+                "example_en": "The team members joined forces and found a breakthrough for the difficult situation."
+            },
+            {
+                "word": "확보하다",
+                "meaning": "to secure, to obtain",
+                "example_ko": "회사는 사업을 확장하기 위해 필요한 예산을 미리 [확보했다].",
+                "example_en": "The company secured the necessary budget in advance to expand its business."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-25",
+        "published_at": "2026-10-25 08:05",
+        "title": "프랑스 국가부채 급증과 재정 불안… '제2의 그리스 사태' 경고 확산",
+        "body": "프랑스 전역에서 열악한 교육 환경과 생계비 부담에 항의하는 대규모 시위가 벌어지며 사회적 혼란이 커지고 있다. 이번 사태의 근본적인 원인으로는 누적된 재정 적자로 인해 정부가 청년 복지 예산 등을 축소한 점이 지목된다. 현재 프랑스의 국내총생산 대비 국가부채 비율은 119%로 약 80년 만에 최고 수준을 기록했다. 경제 전문가들은 내년에 부채 비율이 120%를 넘어 지난 2009년 그리스 국가부도 위기 당시의 수준에 근접할 수 있다고 경고한다. 프랑스의 전체 부채 규모는 재정위기 당시 그리스의 약 10배에 달하며, 국채 금리 역시 4.9%대로 급등했다. 일부 전문가들은 프랑스의 경제 규모가 크고 금융 환경이 달라 단순 비교는 어렵다는 신중론을 펴고 있다. 하지만 국가적 위기를 해결할 재정 정책이 시급함에도 불구하고 의회 분열로 인한 정치적 교착 상태가 심각하다. 여기에 대선을 앞둔 정치권이 대책 마련보다는 책임 공방에 몰두하면서 경제적 불안감을 더욱 키우고 있다는 비판이 나온다.",
+        "translation": "프랑스 전역에서 열악한 교육 환경과 생계비 부담에 항의하는 대규모 시위가 벌어지며 사회적 혼란이 커지고 있다.\nLarge-scale protests protesting poor educational environments and living cost burdens are taking place across France, increasing social turmoil.\n\n이번 사태의 근본적인 원인으로는 누적된 재정 적자로 인해 정부가 청년 복지 예산 등을 축소한 점이 지목된다.\nThe government's reduction of youth welfare budgets and other spending due to accumulated fiscal deficits is pointed to as the fundamental cause of this crisis.\n\n현재 프랑스의 국내총생산 대비 국가부채 비율은 119%로 약 80년 만에 최고 수준을 기록했다.\nFrance's national debt-to-GDP ratio currently stands at 119%, recording its highest level in about 80 years.\n\n경제 전문가들은 내년에 부채 비율이 120%를 넘어 지난 2009년 그리스 국가부도 위기 당시의 수준에 근접할 수 있다고 경고한다.\nEconomic experts warn that the debt ratio could exceed 120% next year, approaching the level seen during Greece's sovereign default crisis in 2009.\n\n프랑스의 전체 부채 규모는 재정위기 당시 그리스의 약 10배에 달하며, 국채 금리 역시 4.9%대로 급등했다.\nFrance's total debt volume is approximately ten times that of Greece at the time of its financial crisis, and its government bond yield has also surged to the 4.9% range.\n\n일부 전문가들은 프랑스의 경제 규모가 크고 금융 환경이 달라 단순 비교는 어렵다는 신중론을 펴고 있다.\nSome experts hold a cautious view that simple comparisons are difficult because France's economic scale is much larger and its financial environment is different.\n\n하지만 국가적 위기를 해결할 재정 정책이 시급함에도 불구하고 의회 분열로 인한 정치적 교착 상태가 심각하다.\nHowever, despite the urgent need for fiscal policies to overcome the national crisis, the political deadlock caused by a divided parliament is severe.\n\n여기에 대선을 앞둔 정치권이 대책 마련보다는 책임 공방에 몰두하면서 경제적 불안감을 더욱 키우고 있다는 비판이 나온다.\nFurthermore, criticism is arising that the political circle, ahead of the presidential election, is fueling economic anxiety by indulging in mutual blame rather than formulating solutions.",
+        "vocab": [
+            {
+                "word": "열악하다",
+                "meaning": "poor, substandard, inferior",
+                "example_ko": "학생들이 [열악한] 환경에서도 꿈을 잃지 않고 열심히 공부했다.",
+                "example_en": "The students studied hard without losing their dreams even in poor environments."
+            },
+            {
+                "word": "누적되다",
+                "meaning": "to accumulate, to pile up",
+                "example_ko": "피로가 [누적되면] 건강을 해칠 수 있으므로 충분한 휴식이 필요하다.",
+                "example_en": "If fatigue accumulates, it can harm your health, so sufficient rest is needed."
+            },
+            {
+                "word": "축소하다",
+                "meaning": "to reduce, to shrink, to scale down",
+                "example_ko": "회사는 경영난을 극복하기 위해 올해 사업 규모를 [축소했다].",
+                "example_en": "The company reduced the scale of its business this year to overcome management difficulties."
+            },
+            {
+                "word": "근접하다",
+                "meaning": "to approach, to come close to",
+                "example_ko": "이번 시험 점수가 만점에 [근접해서] 기분이 아주 좋았다.",
+                "example_en": "I felt very good because my score on this exam was close to a perfect score."
+            },
+            {
+                "word": "급등하다",
+                "meaning": "to skyrocket, to surge",
+                "example_ko": "갑작스러운 이상 기후로 인해 채소 가격이 [급등했다].",
+                "example_en": "Due to sudden abnormal weather, vegetable prices skyrocketed."
+            },
+            {
+                "word": "신중론",
+                "meaning": "cautious view, approach of caution",
+                "example_ko": "성급한 결정보다는 상황을 더 지켜보자는 [신중론]이 힘을 얻고 있다.",
+                "example_en": "The view of caution that we should watch the situation more rather than making a hasty decision is gaining strength."
+            },
+            {
+                "word": "타개하다",
+                "meaning": "to overcome, to break through",
+                "example_ko": "회사는 신제품 개발을 통해 현재의 위기를 [타개하려고] 노력하고 있다.",
+                "example_en": "The company is trying to overcome the current crisis through the development of new products."
+            },
+            {
+                "word": "교착",
+                "meaning": "deadlock, stalemate",
+                "example_ko": "노사 간의 협상이 오랜 시간 [교착] 상태에 빠져 진전이 없다.",
+                "example_en": "Negotiations between labor and management have fallen into a state of deadlock for a long time without progress."
+            },
+            {
+                "word": "걸림돌",
+                "meaning": "obstacle, stumbling block",
+                "example_ko": "높은 언어 장벽이 해외 진출에 큰 [걸림돌이] 되었다.",
+                "example_en": "The high language barrier became a big obstacle to expanding overseas."
+            },
+            {
+                "word": "몰두하다",
+                "meaning": "to be absorbed in, to immerse oneself in",
+                "example_ko": "그는 주말 내내 방에서 책 읽기에 [몰두했다].",
+                "example_en": "He was absorbed in reading books in his room all weekend."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-25",
+        "published_at": "2026-10-25 08:05",
+        "title": "구조 유기동물 절반 보호소에서 폐사… 직영 확대 및 국비 지원 촉구",
+        "body": "국내에서 구조된 유기동물 두 마리 중 한 마리가 보호소에서 자연사하거나 안락사되는 것으로 드러났다. 국회 국정감사 자료에 따르면 지난해부터 올해 9월까지 전국에서 구조된 유기동물은 총 38만 5천여 마리에 달했다. 이 가운데 새로운 가족을 찾아 입양된 비율은 매년 23%에서 25% 수준에 그친 것으로 나타났다. 반면 보호소 내 자연사와 안락사를 합친 비율은 연평균 43.4%에 달해 심각한 현실을 보여주고 있다. 유기동물이 급증하는 현실과 달리 정부의 구조와 보호비 지원 예산은 12억 6천만 원으로 제자리걸음을 하고 있다. 또한 연간 입양되는 동물의 38%만이 지원을 받고 있어 입양비 지원 역시 턱없이 부족한 실정이다. 전국 236개 동물보호센터는 한 곳당 평균 400마리 이상을 관리해야 하는 극심한 업무 과부하에 시달린다. 특히 지방자치단체가 직접 운영하는 센터 비율이 36.9%에 불과해 보호 체계의 질적 개선이 시급한 과제로 떠올랐다. 국회에서는 지자체 직영 센터 확충을 위한 국비 지원을 강화하여 근본적인 동물 보호 체계를 혁신해야 한다는 지적이 제기되었다.",
+        "translation": "국내에서 구조된 유기동물 두 마리 중 한 마리가 보호소에서 자연사하거나 안락사되는 것으로 드러났다.\nIt was revealed that one out of every two abandoned animals rescued in the country either dies of natural causes or is euthanized in shelters.\n\n국회 국정감사 자료에 따르면 지난해부터 올해 9월까지 전국에서 구조된 유기동물은 총 38만 5천여 마리에 달했다.\nAccording to parliamentary audit data from the National Assembly, abandoned animals rescued nationwide from last year to September of this year reached a total of about 385,000.\n\n이 가운데 새로운 가족을 찾아 입양된 비율은 매년 23%에서 25% 수준에 그친 것으로 나타났다.\nAmong them, the proportion adopted to find new families was found to remain at only 23% to 25% each year.\n\n반면 보호소 내 자연사와 안락사를 합친 비율은 연평균 43.4%에 달해 심각한 현실을 보여주고 있다.\nOn the other hand, the combined rate of natural deaths and euthanasia in shelters reached an annual average of 43.4%, revealing a dire reality.\n\n유기동물이 급증하는 현실과 달리 정부의 구조와 보호비 지원 예산은 12억 6천만 원으로 제자리걸음을 하고 있다.\nContrary to the reality of surging abandoned animals, the government budget supporting rescue and protection costs remains stagnant at 1.26 billion won.\n\n또한 연간 입양되는 동물의 38%만이 지원을 받고 있어 입양비 지원 역시 턱없이 부족한 실정이다.\nMoreover, only 38% of animals adopted annually receive support, leaving adoption cost assistance sorely lacking as well.\n\n전국 236개 동물보호센터는 한 곳당 평균 400마리 이상을 관리해야 하는 극심한 업무 과부하에 시달린다.\nThe 236 animal protection centers nationwide suffer from severe operational overload, having to manage an average of over 400 animals per center.\n\n특히 지방자치단체가 직접 운영하는 센터 비율이 36.9%에 불과해 보호 체계의 질적 개선이 시급한 과제로 떠올랐다.\nIn particular, because the proportion of centers operated directly by local governments is only 36.9%, qualitative improvement in the protection system has emerged as an urgent task.\n\n국회에서는 지자체 직영 센터 확충을 위한 국비 지원을 강화하여 근본적인 동물 보호 체계를 혁신해야 한다는 지적이 제기되었다.\nIn the National Assembly, it was pointed out that government subsidies must be reinforced to expand municipally managed centers and fundamentally reform the animal protection system.",
+        "vocab": [
+            {
+                "word": "유기동물",
+                "meaning": "abandoned animal",
+                "example_ko": "버려진 [유기동물을] 돕기 위해 주말마다 보호소에서 봉사활동을 한다.",
+                "example_en": "I volunteer at a shelter every weekend to help abandoned animals."
+            },
+            {
+                "word": "안락사",
+                "meaning": "euthanasia",
+                "example_ko": "회복할 수 없는 고통을 겪는 동물에 대해 [안락사를] 결정하는 것은 매우 어려운 일이다.",
+                "example_en": "Deciding on euthanasia for an animal suffering from irreversible pain is a very difficult matter."
+            },
+            {
+                "word": "입양하다",
+                "meaning": "to adopt",
+                "example_ko": "우리 가족은 유기견 보호소에서 작은 강아지 한 마리를 [입양했다].",
+                "example_en": "Our family adopted a small puppy from an abandoned dog shelter."
+            },
+            {
+                "word": "제자리걸음",
+                "meaning": "standing still, remaining unchanged, at a standstill",
+                "example_ko": "오랜 협상에도 불구하고 임금 인상 논의는 [제자리걸음을] 걷고 있다.",
+                "example_en": "Despite long negotiations, discussions on wage increases are at a standstill."
+            },
+            {
+                "word": "괴리",
+                "meaning": "gap, discrepancy, divergence",
+                "example_ko": "현실과 정책 사이의 [괴리를] 줄이기 위해 현장의 목소리를 들어야 한다.",
+                "example_en": "We must listen to voices from the field to reduce the gap between reality and policy."
+            },
+            {
+                "word": "동결되다",
+                "meaning": "to be frozen (budget, wage, price)",
+                "example_ko": "경기 침체로 인해 내년도 직원들의 연봉이 [동결되었다].",
+                "example_en": "Due to the economic downturn, employees' annual salaries for next year were frozen."
+            },
+            {
+                "word": "과부하",
+                "meaning": "overload",
+                "example_ko": "업무량이 지나치게 많아지면서 직원들이 심각한 정신적 [과부하를] 겪고 있다.",
+                "example_en": "As the workload increased excessively, employees are experiencing severe mental overload."
+            },
+            {
+                "word": "직영",
+                "meaning": "direct management",
+                "example_ko": "본사에서 [직영으로] 운영하는 매장은 서비스 품질이 매우 안정적이다.",
+                "example_en": "Stores managed directly by the headquarters have very stable service quality."
+            },
+            {
+                "word": "확충하다",
+                "meaning": "to expand, to enlarge",
+                "example_ko": "시청은 시민들의 안전을 위해 골목길에 가로등을 대폭 [확충했다].",
+                "example_en": "The city hall greatly expanded streetlights in alleys for the safety of citizens."
+            },
+            {
+                "word": "혁신하다",
+                "meaning": "to innovate, to reform",
+                "example_ko": "그 기업은 기존 생산 방식을 과감하게 [혁신하여] 경쟁력을 높였다.",
+                "example_en": "That company increased its competitiveness by boldly innovating its existing production methods."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-25",
+        "published_at": "2026-10-25 08:05",
+        "title": "김정은 위원장 방중… 북중 경제협력 확대 및 정상외교 조율 모색",
+        "body": "김정은 북한 국무위원장이 1년여 만에 중국을 방문해 중국 권력 서열 4위인 왕후닝 전국정협 주석과 만났다. 김 위원장은 전용 차량을 타고 12년 만에 개통된 신압록강대교를 직접 건너며 북중 경제협력 복원의 의지를 과시했다. 양측 인사는 항미원조기념관을 찾아 전사자들을 추모한 뒤 회담을 열고 경제 및 무역 협력 확대를 논의했다. 김 위원장은 중국의 오랜 지원에 감사를 표하며 양국 간의 협력 전망이 매우 넓다는 점을 강조했다. 이에 왕 주석도 신압록강대교 개통을 계기로 인적 왕래와 경제 협력을 적극적으로 넓혀가겠다고 화답했다. 두 사람은 중국 단둥의 자동차 공장을 함께 방문해 생산시설을 둘러보며 경제 협력의 구체화를 시도했다. 하지만 유엔의 대북 제재가 여전히 유지되고 있어 실질적인 경제 협력 추진에는 현실적인 걸림돌이 존재한다. 전문가들은 다음 달 아시아태평양경제협력체 정상회의를 앞두고 북미 대화를 위한 사전 조율 가능성도 제기하고 있다. 중국이 북미 대화 중재에 나설 경우 한반도 문제에서 자국의 외교적 영향력을 크게 확대할 수 있다는 분석이 나온다.",
+        "translation": "김정은 북한 국무위원장이 1년여 만에 중국을 방문해 중국 권력 서열 4위인 왕후닝 전국정협 주석과 만났다.\nNorth Korean State Affairs Commission Chairman Kim Jong Un visited China for the first time in about a year and met with Wang Huning, the fourth-ranked official in the Chinese hierarchy and chairman of the Chinese People's Political Consultative Conference.\n\n김 위원장은 전용 차량을 타고 12년 만에 개통된 신압록강대교를 직접 건너며 북중 경제협력 복원의 의지를 과시했다.\nChairman Kim demonstrated his commitment to restoring North Korea-China economic cooperation by personally crossing the New Yalu River Bridge, opened after 12 years, in his private vehicle.\n\n양측 인사는 항미원조기념관을 찾아 전사자들을 추모한 뒤 회담을 열고 경제 및 무역 협력 확대를 논의했다.\nThe dignitaries from both sides visited the Memorial Hall of the War to Resist U.S. Aggression and Aid Korea to pay tribute to fallen soldiers, then held talks to discuss expanding economic and trade cooperation.\n\n김 위원장은 중국의 오랜 지원에 감사를 표하며 양국 간의 협력 전망이 매우 넓다는 점을 강조했다.\nChairman Kim expressed gratitude for China's long-standing support, emphasizing that the prospects for cooperation between the two nations are very broad.\n\n이에 왕 주석도 신압록강대교 개통을 계기로 인적 왕래와 경제 협력을 적극적으로 넓혀가겠다고 화답했다.\nIn response, Chairman Wang answered that China would actively expand personnel exchanges and economic cooperation with the opening of the New Yalu River Bridge.\n\n두 사람은 중국 단둥의 자동차 공장을 함께 방문해 생산시설을 둘러보며 경제 협력의 구체화를 시도했다.\nThe two men visited an automobile plant in Dandong, China together and toured production facilities, attempting to give concrete shape to economic cooperation.\n\n하지만 유엔의 대북 제재가 여전히 유지되고 있어 실질적인 경제 협력 추진에는 현실적인 걸림돌이 존재한다.\nHowever, because UN sanctions on North Korea remain in place, realistic obstacles exist in pursuing substantive economic cooperation.\n\n전문가들은 다음 달 아시아태평양경제협력체 정상회의를 앞두고 북미 대화를 위한 사전 조율 가능성도 제기하고 있다.\nExperts are also raising the possibility of preliminary coordination for North Korea-U.S. dialogue ahead of next month's Asia-Pacific Economic Cooperation summit.\n\n중국이 북미 대화 중재에 나설 경우 한반도 문제에서 자국의 외교적 영향력을 크게 확대할 수 있다는 분석이 나온다.\nAnalyses suggest that if China steps up to mediate North Korea-U.S. dialogue, it could significantly expand its diplomatic influence on Korean Peninsula affairs.",
+        "vocab": [
+            {
+                "word": "복원",
+                "meaning": "restoration, recovery",
+                "example_ko": "정부는 역사적인 가치가 높은 옛 건물의 [복원을] 추진하기로 했다.",
+                "example_en": "The government decided to promote the restoration of old buildings of high historical value."
+            },
+            {
+                "word": "추모하다",
+                "meaning": "to commemorate, to pay tribute to",
+                "example_ko": "시민들은 사고로 목숨을 잃은 희생자들을 진심으로 [추모했다].",
+                "example_en": "Citizens sincerely commemorated the victims who lost their lives in the accident."
+            },
+            {
+                "word": "전망",
+                "meaning": "prospect, outlook",
+                "example_ko": "전문가들은 올해 한국 경제의 성장 [전망을] 긍정적으로 평가했다.",
+                "example_en": "Experts positively assessed the growth outlook for the Korean economy this year."
+            },
+            {
+                "word": "화답하다",
+                "meaning": "to reply favorably, to respond",
+                "example_ko": "관객들이 열렬히 박수를 보내자 가수는 앙코르 곡으로 [화답했다].",
+                "example_en": "When the audience applauded enthusiastically, the singer responded with an encore song."
+            },
+            {
+                "word": "구체화하다",
+                "meaning": "to materialize, to give concrete form to",
+                "example_ko": "우리는 회의를 통해 새로운 사업 계획을 [구체화하기로] 했다.",
+                "example_en": "We decided to give concrete form to the new business plan through meetings."
+            },
+            {
+                "word": "제재",
+                "meaning": "sanctions, restriction",
+                "example_ko": "국제사회는 평화를 위협하는 행위에 대해 강력한 경제적 [제재를] 가했다.",
+                "example_en": "The international community imposed strong economic sanctions against actions threatening peace."
+            },
+            {
+                "word": "맞물리다",
+                "meaning": "to mesh, to be interlocked, to coincide",
+                "example_ko": "여러 가지 복잡한 사정이 [맞물려] 프로젝트 일정이 예정보다 늦어졌다.",
+                "example_en": "Because various complicated circumstances were interlocked, the project schedule was delayed longer than planned."
+            },
+            {
+                "word": "정상회의",
+                "meaning": "summit meeting",
+                "example_ko": "세계 각국 지도자들이 환경 문제를 논의하기 위해 [정상회의에] 참석했다.",
+                "example_en": "Leaders of various countries around the world attended the summit meeting to discuss environmental issues."
+            },
+            {
+                "word": "조율하다",
+                "meaning": "to coordinate, to mediate, to tune",
+                "example_ko": "두 부서는 의견 차이를 좁히기 위해 일정을 서로 [조율했다].",
+                "example_en": "The two departments coordinated their schedules with each other to narrow the differences in opinion."
+            },
+            {
+                "word": "중재",
+                "meaning": "mediation, arbitration",
+                "example_ko": "선생님의 공정한 [중재] 덕분에 두 학생은 다툼을 끝내고 화해했다.",
+                "example_en": "Thanks to the teacher's fair mediation, the two students ended their quarrel and reconciled."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-24",
         "published_at": "2026-10-24 18:31",
         "title": "막바지 국정감사, 정책 검증 대신 '쇼츠 경쟁'과 정쟁 얼룩",

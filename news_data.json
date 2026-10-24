@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-10-24",
+        "published_at": "2026-10-24 18:31",
+        "title": "막바지 국정감사, 정책 검증 대신 '쇼츠 경쟁'과 정쟁 얼룩",
+        "body": "올해 국정감사가 막바지에 접어들었지만 민생을 위한 정책 검증보다 정치적 공방만 가득했다는 비판이 커지고 있다. 국정감사 초반부터 여야 의원들은 고성과 막말을 주고받으며 치열한 충돌을 이어갔다. 특히 이번 국감장에서는 짧은 영상인 '쇼츠'를 촬영해 온라인에 올리려는 의원들의 모습이 자주 포착되었다. 회의 도중 상대 의원을 향한 자극적인 발언을 유도하거나 보좌진이 내부에서 영상을 무단으로 촬영해 말다툼이 벌어지기도 했다. 잦은 대립과 파행으로 인해 질의 시간이 부족해지자 일찍 회의를 마치는 상임위원회도 잇따랐다. 이에 따라 일각에서는 국회가 본래의 감시 역할을 다하지 못하고 '워라밸 국감'이라는 오명만 남겼다고 꼬집었다. 감사장에는 휴머노이드 로봇이나 최신 인공지능 안경, 유명인 증인 등이 등장해 이색적인 화제를 모으기도 했다. 하지만 국민의 삶을 돌보는 실질적인 정책 논의가 실종되면서 생산적인 국감이 되지 못했다는 지적이 이어지고 있다.",
+        "translation": "올해 국정감사가 막바지에 접어들었지만 민생을 위한 정책 검증보다 정치적 공방만 가득했다는 비판이 커지고 있다.\nAlthough this year's parliamentary inspection is nearing its end, criticism is growing that it was filled only with political disputes rather than policy verification for the people's livelihoods.\n\n국정감사 초반부터 여야 의원들은 고성과 막말을 주고받으며 치열한 충돌을 이어갔다.\nFrom the beginning of the inspection, ruling and opposition lawmakers engaged in fierce clashes, exchanging shouting and abusive language.\n\n특히 이번 국감장에서는 짧은 영상인 '쇼츠'를 촬영해 온라인에 올리려는 의원들의 모습이 자주 포착되었다.\nIn particular, lawmakers were frequently seen filming short-form video content called \"shorts\" to upload online inside the audit venue.\n\n회의 도중 상대 의원을 향한 자극적인 발언을 유도하거나 보좌진이 내부에서 영상을 무단으로 촬영해 말다툼이 벌어지기도 했다.\nArguments also broke out during meetings as some induced provocative remarks aimed at rival lawmakers or aides filmed videos without authorization.\n\n잦은 대립과 파행으로 인해 질의 시간이 부족해지자 일찍 회의를 마치는 상임위원회도 잇따랐다.\nAs frequent confrontations and disruptions left insufficient time for questioning, standing committees ended their meetings early one after another.\n\n이에 따라 일각에서는 국회가 본래의 감시 역할을 다하지 못하고 '워라밸 국감'이라는 오명만 남겼다고 꼬집었다.\nAccordingly, some critics pointed out that the National Assembly failed to fulfill its original monitoring role and only left behind the dishonor of a \"work-life balance audit.\"\n\n감사장에는 휴머노이드 로봇이나 최신 인공지능 안경, 유명인 증인 등이 등장해 이색적인 화제를 모으기도 했다.\nInside the inspection hall, unique topics drew attention, such as the appearance of humanoid robots, cutting-edge AI glasses, and celebrity witnesses.\n\n하지만 국민의 삶을 돌보는 실질적인 정책 논의가 실종되면서 생산적인 국감이 되지 못했다는 지적이 이어지고 있다.\nHowever, pointing out that genuine policy discussions addressing the public's livelihood were missing, critics continue to say the inspection failed to be productive.",
+        "vocab": [
+            {
+                "word": "국정감사",
+                "meaning": "parliamentary inspection of government offices",
+                "example_ko": "국회는 다음 주부터 정부 부처를 대상으로 [국정감사]를 시작합니다.",
+                "example_en": "The National Assembly will begin parliamentary inspections of government ministries starting next week."
+            },
+            {
+                "word": "막바지",
+                "meaning": "final stage, the very end",
+                "example_ko": "시험 준비가 이제 [막바지]에 이르렀습니다.",
+                "example_en": "Exam preparations have now reached their final stage."
+            },
+            {
+                "word": "검증",
+                "meaning": "verification, screening",
+                "example_ko": "전문가들이 새로운 기술의 안전성을 철저하게 [검증]하고 있습니다.",
+                "example_en": "Experts are thoroughly verifying the safety of the new technology."
+            },
+            {
+                "word": "공방",
+                "meaning": "battle of words, debate, dispute",
+                "example_ko": "후보자들은 텔레비전 토론회에서 치열한 [공방]을 벌였습니다.",
+                "example_en": "The candidates engaged in a fierce debate during the televised forum."
+            },
+            {
+                "word": "포착되다",
+                "meaning": "to be captured, to be detected, to be spotted",
+                "example_ko": "카메라에 야생 동물의 모습이 선명하게 [포착되었습니다].",
+                "example_en": "The appearance of the wild animal was clearly captured on camera."
+            },
+            {
+                "word": "유도하다",
+                "meaning": "to induce, to guide, to lead",
+                "example_ko": "선생님은 학생들이 스스로 답을 찾도록 대화를 [유도했습니다].",
+                "example_en": "The teacher guided the conversation so that students could find the answer on their own."
+            },
+            {
+                "word": "파행",
+                "meaning": "disruption, crippled operation",
+                "example_ko": "노사 갈등으로 인해 공장 운영에 [파행]이 빚어졌습니다.",
+                "example_en": "Labor-management conflict led to a disruption in the factory's operation."
+            },
+            {
+                "word": "오명",
+                "meaning": "bad reputation, stigma, dishonor",
+                "example_ko": "그 선수는 오랜 노력 끝에 부진하다는 [오명]을 벗었습니다.",
+                "example_en": "After long efforts, the athlete cleared the bad reputation of being in a slump."
+            },
+            {
+                "word": "실종되다",
+                "meaning": "to disappear, to go missing",
+                "example_ko": "사고 현장에서 한 사람의 신분증이 [실종되었습니다].",
+                "example_en": "One person's identification card disappeared from the accident site."
+            },
+            {
+                "word": "생산적",
+                "meaning": "productive",
+                "example_ko": "우리는 더 [생산적인] 회의를 위해 의견을 솔직하게 나누었습니다.",
+                "example_en": "We shared opinions candidly for a more productive meeting."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-24",
+        "published_at": "2026-10-24 18:31",
+        "title": "식품부터 패션까지… 한국 소비재 기업들 유럽 공략 가속",
+        "body": "한국의 식품과 패션 등 이른바 'K-소비재' 기업들이 미국에 이어 유럽 시장 공략에 본격적으로 나서고 있다. 최근 프랑스 파리에서는 한국 분식을 선보이는 임시 매장인 팝업스토어에 현지 소비자들이 길게 줄을 서는 등 큰 인기를 끌었다. 또한 파리에서 열린 대규모 국제 식품 박람회에는 국내 대표 식품기업 11곳이 대거 참가해 다양한 제품을 알렸다. 기업들은 한국 라면뿐 아니라 고추장 등 전통 장류와 한과 같은 디저트를 소개하며 현지인들과의 접점을 넓혔다. 실제로 올해 1월부터 9월까지 유럽연합으로 수출된 한국 식품 규모는 약 7억 3천만 달러로 1년 전보다 23.5% 급증했다. 이는 같은 기간 미국이나 중국으로 향한 식품 수출 증가율을 두 배 이상 크게 웃도는 수치다. 식품업계의 최고경영진들도 직접 유럽 박람회를 찾아 시장 가능성을 면밀히 점검했다. 식품뿐만 아니라 온라인 패션 플랫폼 기업도 파리에 임시 매장을 열며 유럽 시장 확대에 속도를 내고 있다.",
+        "translation": "한국의 식품과 패션 등 이른바 'K-소비재' 기업들이 미국에 이어 유럽 시장 공략에 본격적으로 나서고 있다.\nKorean consumer goods companies in food and fashion are actively moving into the European market following the United States.\n\n최근 프랑스 파리에서는 한국 분식을 선보이는 임시 매장인 팝업스토어에 현지 소비자들이 길게 줄을 서는 등 큰 인기를 끌었다.\nRecently in Paris, France, local consumers formed long lines at a pop-up store introducing Korean snacks, drawing immense popularity.\n\n또한 파리에서 열린 대규모 국제 식품 박람회에는 국내 대표 식품기업 11곳이 대거 참가해 다양한 제품을 알렸다.\nIn addition, eleven leading domestic food companies participated en masse in a large-scale international food expo held in Paris to promote various products.\n\n기업들은 한국 라면뿐 아니라 고추장 등 전통 장류와 한과 같은 디저트를 소개하며 현지인들과의 접점을 넓혔다.\nCompanies expanded their touchpoints with local consumers by introducing traditional sauces such as red pepper paste and Korean desserts alongside ramen.\n\n실제로 올해 1월부터 9월까지 유럽연합으로 수출된 한국 식품 규모는 약 7억 3천만 달러로 1년 전보다 23.5% 급증했다.\nIn fact, Korean food exports to the European Union from January to September this year reached approximately 730 million dollars, jumping 23.5 percent from a year ago.\n\n이는 같은 기간 미국이나 중국으로 향한 식품 수출 증가율을 두 배 이상 크게 웃도는 수치다.\nThis figure easily surpasses the growth rate of food exports heading to the United States or China over the same period by more than twofold.\n\n식품업계의 최고경영진들도 직접 유럽 박람회를 찾아 시장 가능성을 면밀히 점검했다.\nTop executives from the food industry also visited the European fair in person to closely examine market potential.\n\n식품뿐만 아니라 온라인 패션 플랫폼 기업도 파리에 임시 매장을 열며 유럽 시장 확대에 속도를 내고 있다.\nBeyond food, online fashion platform companies are also picking up speed in expanding their European presence by opening pop-up stores in Paris.",
+        "vocab": [
+            {
+                "word": "소비재",
+                "meaning": "consumer goods",
+                "example_ko": "물가 상승으로 인해 일상적인 [소비재] 가격도 크게 올랐습니다.",
+                "example_en": "Prices of everyday consumer goods have risen sharply due to inflation."
+            },
+            {
+                "word": "공략",
+                "meaning": "targeting, attacking a market",
+                "example_ko": "회사는 새로운 제품으로 해외 시장 [공략]에 나섰습니다.",
+                "example_en": "The company stepped out to target overseas markets with its new product."
+            },
+            {
+                "word": "접점",
+                "meaning": "contact point, touchpoint",
+                "example_ko": "기업은 고객과의 [접점]을 늘리기 위해 체험 공간을 열었습니다.",
+                "example_en": "The company opened an experiential space to increase contact points with customers."
+            },
+            {
+                "word": "급증하다",
+                "meaning": "to surge, to increase rapidly",
+                "example_ko": "여름 휴가철이 되자 여행객 수가 [급증했습니다].",
+                "example_en": "The number of travelers surged as the summer vacation season arrived."
+            },
+            {
+                "word": "웃돌다",
+                "meaning": "to exceed, to top, to surpass",
+                "example_ko": "올해 매출액은 당초 목표치를 훨씬 [웃돌았습니다].",
+                "example_en": "This year's sales easily exceeded the original target."
+            },
+            {
+                "word": "최고경영진",
+                "meaning": "top management, senior executives",
+                "example_ko": "회사의 미래 사업 방향을 결정하기 위해 [최고경영진]이 모였습니다.",
+                "example_en": "Top management gathered to decide the company's future business direction."
+            },
+            {
+                "word": "점검하다",
+                "meaning": "to inspect, to check, to examine",
+                "example_ko": "운전을 시작하기 전에 자동차 타이어 상태를 꼼꼼히 [점검했습니다].",
+                "example_en": "Before driving, I carefully checked the condition of the car tires."
+            },
+            {
+                "word": "확대하다",
+                "meaning": "to expand, to enlarge",
+                "example_ko": "정부는 청년들을 위한 일자리 지원 사업을 더 [확대했습니다].",
+                "example_en": "The government expanded its job support programs for young adults further."
+            },
+            {
+                "word": "선보이다",
+                "meaning": "to introduce, to present, to showcase",
+                "example_ko": "디자이너는 이번 가을 패션쇼에서 새로운 옷을 [선보였습니다].",
+                "example_en": "The designer showcased new clothes at this autumn's fashion show."
+            },
+            {
+                "word": "확보하다",
+                "meaning": "to secure, to obtain",
+                "example_ko": "새로운 시장에서 경쟁력을 갖추려면 단골 고객을 먼저 [확보해야] 합니다.",
+                "example_en": "To be competitive in a new market, one must first secure regular customers."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-24",
+        "published_at": "2026-10-24 18:31",
+        "title": "서울 정비사업 이주 본격화… 5만 가구 이동에 전월세난 우려",
+        "body": "서울 시내 주요 재개발과 재건축 구역에서 대규모 이주가 시작될 예정이어서 전월세 시장에 큰 혼란이 예상된다. 서울에서 재개발 및 재건축 권한을 얻은 정비구역은 모두 66곳이며 기존 거주 가구는 약 4만 8천 가구에 이른다. 대표적으로 용산구 한남뉴타운의 4구역과 5구역만 합쳐도 약 6천 가구가 한꺼번에 다른 지역으로 이주해야 한다. 주민 이주가 보통 2~3년에 걸쳐 이뤄지는 점을 고려할 때 주택 공급 감소와 맞물려 임대차 시장의 불안이 커지고 있다. 이미 서울 아파트 전월세 매물은 연초와 비교해 약 12% 줄어들어 시장에 물량이 부족한 상태다. 특히 목동이나 강남 등 교육 환경이 좋아 거주 선호도가 높은 지역에서는 세입자들의 주거비 부담이 급격히 늘어날 전망이다. 전문가들은 정비사업의 주민 이주 시기를 분산하거나 공공 임대주택 공급을 늘리는 대책이 필요하다고 강조한다. 장기적으로 전월세 가격 상승이 전체 집값을 끌어올릴 수 있어 선제적인 관리가 요구된다.",
+        "translation": "서울 시내 주요 재개발과 재건축 구역에서 대규모 이주가 시작될 예정이어서 전월세 시장에 큰 혼란이 예상된다.\nWith large-scale relocations set to begin in major redevelopment and reconstruction areas in Seoul, considerable confusion is expected in the rental market.\n\n서울에서 재개발 및 재건축 권한을 얻은 정비구역은 모두 66곳이며 기존 거주 가구는 약 4만 8천 가구에 이른다.\nThere are 66 renewal zones in Seoul that have received redevelopment and reconstruction approval, and existing households reach roughly 48,000.\n\n대표적으로 용산구 한남뉴타운의 4구역과 5구역만 합쳐도 약 6천 가구가 한꺼번에 다른 지역으로 이주해야 한다.\nRepresentatively, combining just Zones 4 and 5 in Hannam New Town in Yongsan District, about 6,000 households must move to other areas all at once.\n\n주민 이주가 보통 2~3년에 걸쳐 이뤄지는 점을 고려할 때 주택 공급 감소와 맞물려 임대차 시장의 불안이 커지고 있다.\nConsidering that resident relocations usually take place over two to three years, anxiety in the rental market is growing in tandem with a decline in housing supply.\n\n이미 서울 아파트 전월세 매물은 연초와 비교해 약 12% 줄어들어 시장에 물량이 부족한 상태다.\nApartment listings for jeonse and monthly rentals in Seoul have already dropped by about 12 percent compared to the beginning of the year, leaving the market in short supply.\n\n특히 목동이나 강남 등 교육 환경이 좋아 거주 선호도가 높은 지역에서는 세입자들의 주거비 부담이 급격히 늘어날 전망이다.\nIn particular, in areas with high residential preference due to good educational environments, such as Mok-dong and Gangnam, housing cost burdens on tenants are projected to surge rapidly.\n\n전문가들은 정비사업의 주민 이주 시기를 분산하거나 공공 임대주택 공급을 늘리는 대책이 필요하다고 강조한다.\nExperts emphasize that measures are needed to distribute the timing of resident moves in renewal projects or expand the supply of public rental housing.\n\n장기적으로 전월세 가격 상승이 전체 집값을 끌어올릴 수 있어 선제적인 관리가 요구된다.\nBecause climbing rental prices can drive up overall home prices over the long term, preemptive management is required.",
+        "vocab": [
+            {
+                "word": "정비사업",
+                "meaning": "urban renewal project, redevelopment project",
+                "example_ko": "오래된 아파트 단지에서 새로운 [정비사업]이 추진되고 있습니다.",
+                "example_en": "A new urban renewal project is being promoted in the old apartment complex."
+            },
+            {
+                "word": "이주",
+                "meaning": "relocation, moving",
+                "example_ko": "재개발 공사가 시작되기 전에 모든 주민이 다른 동네로 [이주]를 마쳐야 합니다.",
+                "example_en": "All residents must complete their relocation to another neighborhood before redevelopment construction begins."
+            },
+            {
+                "word": "수요",
+                "meaning": "demand",
+                "example_ko": "도심 근처 원룸은 출퇴근하는 직장인들의 [수요]가 항상 많습니다.",
+                "example_en": "Studio apartments near the city center always have high demand from commuting office workers."
+            },
+            {
+                "word": "맞물리다",
+                "meaning": "to coincide with, to interlock with",
+                "example_ko": "물가 상승과 금리 인상이 [맞물려] 서민들의 살림이 더 어려워졌습니다.",
+                "example_en": "Inflation coincided with interest rate hikes, making everyday life harder for working people."
+            },
+            {
+                "word": "매물",
+                "meaning": "properties for sale or rent, listings",
+                "example_ko": "부동산 중개소에 마음에 드는 아파트 [매물]이 나와서 방문했습니다.",
+                "example_en": "I visited the real estate agency because an attractive apartment listing had become available."
+            },
+            {
+                "word": "세입자",
+                "meaning": "tenant, renter",
+                "example_ko": "집주인은 계약 기간이 끝나기 전에 [세입자]에게 이사 계획을 물어보았습니다.",
+                "example_en": "The landlord asked the tenant about moving plans before the lease term expired."
+            },
+            {
+                "word": "주거비",
+                "meaning": "housing costs, living expenses",
+                "example_ko": "월세가 오르면 매달 내야 하는 [주거비] 부담이 커집니다.",
+                "example_en": "When monthly rent goes up, the burden of housing expenses that must be paid each month increases."
+            },
+            {
+                "word": "조율하다",
+                "meaning": "to coordinate, to mediate, to tune",
+                "example_ko": "양측의 입장이 서로 달라서 회의 일정을 다시 [조율하기로] 했습니다.",
+                "example_en": "Because both sides had different positions, we decided to coordinate the meeting schedule again."
+            },
+            {
+                "word": "견인하다",
+                "meaning": "to lead, to drive, to tow",
+                "example_ko": "수출 호조가 이번 분기 경제 성장을 [견인했습니다].",
+                "example_en": "Strong exports drove economic growth this quarter."
+            },
+            {
+                "word": "선제적",
+                "meaning": "preemptive, proactive",
+                "example_ko": "사고를 예방하기 위해서는 위험 요소를 찾아 [선제적으로] 대응해야 합니다.",
+                "example_en": "To prevent accidents, we must identify risk factors and respond preemptively."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-24",
+        "published_at": "2026-10-24 18:31",
+        "title": "프랑스, 대규모 시위 앞두고 경찰 7만 명 배치… 총격 테러에 불안 고조",
+        "body": "프랑스 정부가 이번 주말 예정된 대규모 시위에 대비해 경찰 인력 7만 명을 전격 투입하며 최고 수준의 경계에 돌입했다. 당국은 집회 제한 조치를 내렸지만 시위 강행 움직임과 폭력 선동 게시물이 퍼지자 특수정예팀과 물대포를 동원했다. 이번 사태는 열악한 교육 여건에 항의하며 시작된 학생 시위가 계기가 되어 전국적인 움직임으로 확산했다. 마크롱 대통령이 학생 대표들과 직접 대화에 나섰으나 양측의 이견을 좁히지 못한 채 끝났다. 학생들은 정부가 공식적인 대응 방안을 제시할 때까지 시위를 멈추지 않겠다는 뜻을 밝혔다. 설상가상으로 파리 근교에서는 불특정 다수를 겨냥한 총격 사건까지 일어나 긴장감이 한층 높아졌다. 용의자는 차를 타고 이동하며 주유소와 병원 등지에서 무차별 난사를 벌여 최소 6명의 사상자를 냈다. 피해자들이 특정 인종 배경을 지닌 점을 확인한 프랑스 당국은 이번 총격을 '인종주의 테러 공격'으로 규정하고 범행 배후를 집중적으로 수사하고 있다.",
+        "translation": "프랑스 정부가 이번 주말 예정된 대규모 시위에 대비해 경찰 인력 7만 명을 전격 투입하며 최고 수준의 경계에 돌입했다.\nThe French government has entered its highest level of alert, deploying 70,000 police personnel ahead of large-scale protests scheduled for this weekend.\n\n당국은 집회 제한 조치를 내렸지만 시위 강행 움직임과 폭력 선동 게시물이 퍼지자 특수정예팀과 물대포를 동원했다.\nAlthough authorities issued measures restricting assemblies, they mobilized elite special units and water cannons as moves to press ahead with protests and posts inciting violence spread.\n\n이번 사태는 열악한 교육 여건에 항의하며 시작된 학생 시위가 계기가 되어 전국적인 움직임으로 확산했다.\nThis crisis escalated into a nationwide movement triggered by student protests that began in objection to poor educational conditions.\n\n마크롱 대통령이 학생 대표들과 직접 대화에 나섰으나 양측의 이견을 좁히지 못한 채 끝났다.\nPresident Macron engaged in direct dialogue with student representatives, but the talks ended without narrowing differences between the two sides.\n\n학생들은 정부가 공식적인 대응 방안을 제시할 때까지 시위를 멈추지 않겠다는 뜻을 밝혔다.\nThe students announced their intention not to halt protests until the government presents official response measures.\n\n설상가상으로 파리 근교에서는 불특정 다수를 겨냥한 총격 사건까지 일어나 긴장감이 한층 높아졌다.\nTo make matters worse, a shooting targeting unspecified individuals also occurred near Paris, heightening tension further.\n\n용의자는 차를 타고 이동하며 주유소와 병원 등지에서 무차별 난사를 벌여 최소 6명의 사상자를 냈다.\nThe suspect moved around by car, opening fire indiscriminately at gas stations, medical facilities, and elsewhere, resulting in at least six casualties.\n\n피해자들이 특정 인종 배경을 지닌 점을 확인한 프랑스 당국은 이번 총격을 '인종주의 테러 공격'으로 규정하고 범행 배후를 집중적으로 수사하고 있다.\nConfirming that the victims had specific racial backgrounds, French authorities classified the shooting as a \"racist terrorist attack\" and are intensively investigating the background behind the crime.",
+        "vocab": [
+            {
+                "word": "투입하다",
+                "meaning": "to deploy, to put in, to invest",
+                "example_ko": "화재를 진압하기 위해 소방관 백여 명이 현장에 [투입되었습니다].",
+                "example_en": "More than one hundred firefighters were deployed to the scene to extinguish the fire."
+            },
+            {
+                "word": "선동",
+                "meaning": "incitement, agitation",
+                "example_ko": "거짓 소문으로 사람들을 [선동하는] 행동은 법적 처벌을 받을 수 있습니다.",
+                "example_en": "Inciting people with false rumors can lead to legal punishment."
+            },
+            {
+                "word": "열악하다",
+                "meaning": "poor, inadequate, inferior",
+                "example_ko": "그 지역은 교통 환경이 매우 [열악해서] 이동하기가 불편합니다.",
+                "example_en": "That area has very poor transportation conditions, making it inconvenient to get around."
+            },
+            {
+                "word": "이견",
+                "meaning": "difference of opinion, disagreement",
+                "example_ko": "두 팀은 협상을 거듭했지만 끝내 [이견]을 좁히지 못했습니다.",
+                "example_en": "The two teams negotiated repeatedly but ultimately failed to narrow their disagreement."
+            },
+            {
+                "word": "설상가상",
+                "meaning": "to make matters worse, adding insult to injury",
+                "example_ko": "비가 쏟아지는데 [설상가상으로] 버스까지 놓치고 말았습니다.",
+                "example_en": "It was pouring rain, and to make matters worse, I ended up missing the bus."
+            },
+            {
+                "word": "사상자",
+                "meaning": "casualties (dead and injured)",
+                "example_ko": "교통사고로 여러 명의 [사상자가] 발생해 병원으로 이송되었습니다.",
+                "example_en": "Several casualties occurred in the traffic accident and were transported to the hospital."
+            },
+            {
+                "word": "난사",
+                "meaning": "firing indiscriminately, wild shooting",
+                "example_ko": "경찰은 총기를 [난사한] 범인을 현장에서 체포했습니다.",
+                "example_en": "Police arrested the criminal who had fired wildly at the scene."
+            },
+            {
+                "word": "표적",
+                "meaning": "target, mark",
+                "example_ko": "범죄 조직은 취약한 상인들을 범행의 [표적으로] 삼았습니다.",
+                "example_en": "The criminal organization took vulnerable merchants as targets for their crimes."
+            },
+            {
+                "word": "규정하다",
+                "meaning": "to define, to designate, to stipulate",
+                "example_ko": "정부는 이번 사건을 중대한 위법 행위로 [규정했습니다].",
+                "example_en": "The government defined this incident as a grave unlawful act."
+            },
+            {
+                "word": "동원하다",
+                "meaning": "to mobilize",
+                "example_ko": "축제를 원활히 진행하기 위해 수많은 자원봉사자를 [동원했습니다].",
+                "example_en": "They mobilized numerous volunteers to run the festival smoothly."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-10-24",
         "published_at": "2026-10-24 06:29",
         "title": "트럼프 행정부, 알래스카주 상원의원 선거 결과 공식 인증 보류 소송 제기",
         "body": "트럼프 행정부가 최근 치러진 중간선거에서 알래스카주 연방 상원의원 선거 결과를 곧바로 확정하지 못하도록 법원에 소송을 냈다. 이번 소송은 공화당의 댄 설리번 후보가 민주당 메리 펠톨라 후보에게 근소한 차이로 패배할 경우 선거 결과 인증을 막아 달라는 취지이다. 법무부는 설리번 후보와 이름이 완전히 같은 동명이인의 후보가 투표용지에 포함되어 있어 유권자들에게 큰 혼란을 주었다고 주장했다. 앞서 공화당 측은 동명이인 후보가 민주당의 의도적인 혼선 유도 전략에 따라 출마한 인물이라고 강하게 비판해 왔다. 법무부는 설리번 의원이 패배하더라도 이러한 혼란이 선거 결과에 미친 영향을 명확히 규명할 때까지 공식 인증이 보류되어야 한다고 설명했다. 만약 법원이 이 요청을 받아들인다면 최종 당선자 확정이 상당 기간 지연될 가능성이 커졌다. 트럼프 대통령 또한 소셜미디어를 통해 동명이인 후보의 출마를 명백한 사기라고 규정하며 여론전을 펼쳤다. 이에 따라 알래스카주 상원의원 선거를 둘러싼 양당 간의 정치적 갈등과 법적 공방은 더욱 치열해질 것으로 보인다.",

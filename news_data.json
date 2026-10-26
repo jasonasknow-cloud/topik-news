@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-27",
+        "published_at": "2026-10-27 01:06",
+        "title": "김건희 추가 구속 기로… 대법원서 비공개 영장 심문 열려",
+        "body": "구속 기한 만료를 앞둔 김건희 씨에 대해 특별검사가 추가 구속영장을 요청하면서 대법원에서 심사가 열렸다. 김 씨는 지난해 도이치모터스 주가조작과 무상 여론조사, 금품 수수 등 이른바 3대 의혹으로 구속되어 재판을 받아왔다. 원래 김 씨의 구속 기간은 오는 31일까지였으나 대법원 전원합의체 회부 등으로 심리가 길어지면서 만료 시점이 다가왔다. 기존 사건에서는 법적으로 허용된 구속 기간 연장 횟수가 이미 모두 소진된 상태였다. 이에 따라 특검은 대법원이 심리하고 있는 또 다른 사건인 매관매직 의혹 재판부에 추가 영장 발부를 공식 요청했다. 이번 영장 심문은 대법관 주심으로 비공개 진행되었으며 김 씨는 서울남부구치소에서 영상으로 참석했다. 특검 측은 하급심 재판이 진행 중인 상황에서 피고인이 말을 맞추는 등 증거를 인멸하거나 도주할 우려가 크다고 주장했다. 반면 김 씨 측 변호인은 핵심 증거가 이미 충분히 제출되어 인멸 가능성이 낮고 건강 상태도 좋지 않다며 불구속 재판을 요구했다. 대법원이 영장을 새로 발부하면 김 씨는 수감 상태를 유지하지만, 기각할 경우 이달 말 석방되어 불구속 상태로 재판을 받게 된다.",
+        "translation": "구속 기한 만료를 앞둔 김건희 씨에 대해 특별검사가 추가 구속영장을 요청하면서 대법원에서 심사가 열렸다.\nWith the special counsel requesting an additional arrest warrant for Kim Keon-hee ahead of the expiration of her detention period, a hearing was held at the Supreme Court.\n\n김 씨는 지난해 도이치모터스 주가조작과 무상 여론조사, 금품 수수 등 이른바 3대 의혹으로 구속되어 재판을 받아왔다.\nKim had been detained and tried on the so-called three major allegations, including Deutsch Motors stock price manipulation, free opinion polls, and acceptance of money and valuables last year.\n\n원래 김 씨의 구속 기간은 오는 31일까지였으나 대법원 전원합의체 회부 등으로 심리가 길어지면서 만료 시점이 다가왔다.\nOriginally, Kim's detention period was until the 31st of this month, but the expiration date approached as the trial was prolonged due to a referral to the Supreme Court's en banc panel.\n\n기존 사건에서는 법적으로 허용된 구속 기간 연장 횟수가 이미 모두 소진된 상태였다.\nIn the existing case, the legally permitted number of detention period extensions had already been completely exhausted.\n\n이에 따라 특검은 대법원이 심리하고 있는 또 다른 사건인 매관매직 의혹 재판부에 추가 영장 발부를 공식 요청했다.\nAccordingly, the special counsel officially requested the issuance of an additional warrant from the judicial panel handling the office-buying allegations, another case being examined by the Supreme Court.\n\n이번 영장 심문은 대법관 주심으로 비공개 진행되었으며 김 씨는 서울남부구치소에서 영상으로 참석했다.\nThis warrant interrogation was conducted behind closed doors with a Supreme Court Justice presiding, and Kim attended via video link from the Seoul Southern Detention Center.\n\n특검 측은 하급심 재판이 진행 중인 상황에서 피고인이 말을 맞추는 등 증거를 인멸하거나 도주할 우려가 크다고 주장했다.\nThe special counsel argued that while lower court trials are ongoing, there is a high risk that the defendant might destroy evidence by aligning testimonies or flee.\n\n반면 김 씨 측 변호인은 핵심 증거가 이미 충분히 제출되어 인멸 가능성이 낮고 건강 상태도 좋지 않다며 불구속 재판을 요구했다.\nOn the other hand, Kim's defense attorney requested a trial without detention, stating that sufficient key evidence has already been submitted, making destruction unlikely, and citing her poor health.\n\n대법원이 영장을 새로 발부하면 김 씨는 수감 상태를 유지하지만, 기각할 경우 이달 말 석방되어 불구속 상태로 재판을 받게 된다.\nIf the Supreme Court issues a new warrant, Kim will remain detained, but if dismissed, she will be released at the end of this month and stand trial without detention.",
+        "vocab": [
+            {
+                "word": "만료되다",
+                "meaning": "to expire",
+                "example_ko": "계약 기간이 [만료되어] 방을 비워 주어야 했다.",
+                "example_en": "I had to vacate the room because the contract period expired."
+            },
+            {
+                "word": "심리",
+                "meaning": "trial examination, hearing",
+                "example_ko": "법원은 이번 사건에 대한 [심리를] 다음 주에 열기로 했다.",
+                "example_en": "The court decided to hold a hearing for this case next week."
+            },
+            {
+                "word": "소진되다",
+                "meaning": "to be exhausted, to be used up completely",
+                "example_ko": "힘든 훈련 끝에 체력이 완전히 [소진되었다].",
+                "example_en": "My physical strength was completely exhausted after the grueling training."
+            },
+            {
+                "word": "발부하다",
+                "meaning": "to issue (a warrant or official document)",
+                "example_ko": "법관은 증거가 충분하다고 판단하여 체포영장을 [발부했다].",
+                "example_en": "The judge issued an arrest warrant, judging that there was sufficient evidence."
+            },
+            {
+                "word": "비공개",
+                "meaning": "private, closed to the public",
+                "example_ko": "개인정보를 보호하기 위해 회의를 [비공개로] 진행했다.",
+                "example_en": "The meeting was held behind closed doors to protect personal information."
+            },
+            {
+                "word": "출석하다",
+                "meaning": "to attend, to appear",
+                "example_ko": "그는 증인 자격으로 법정에 직접 [출석했다].",
+                "example_en": "He appeared directly in court as a witness."
+            },
+            {
+                "word": "인멸하다",
+                "meaning": "to destroy, to obliterate (evidence)",
+                "example_ko": "피의자가 범행과 관련된 증거를 [인멸하려] 했다.",
+                "example_en": "The suspect tried to destroy evidence related to the crime."
+            },
+            {
+                "word": "불구속",
+                "meaning": "without physical detention",
+                "example_ko": "검찰은 피의자의 죄질이 무겁지 않다고 보아 [불구속] 상태로 조사했다.",
+                "example_en": "The prosecution investigated the suspect without detention, judging that the offense was not severe."
+            },
+            {
+                "word": "기각하다",
+                "meaning": "to dismiss, to reject",
+                "example_ko": "법원은 증거가 부족하다는 이유로 원고의 청구를 [기각했다].",
+                "example_en": "The court dismissed the plaintiff's claim on the grounds of insufficient evidence."
+            },
+            {
+                "word": "수감되다",
+                "meaning": "to be imprisoned, to be incarcerated",
+                "example_ko": "그는 형이 확정된 후 곧바로 교도소에 [수감되었다].",
+                "example_en": "He was imprisoned in a correctional facility immediately after his sentence was finalized."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-27",
+        "published_at": "2026-10-27 01:06",
+        "title": "롯데 구단, 차기 사령탑에 이동욱 선임… 3년간 총 20억 원 규모 계약 체결",
+        "body": "프로야구 롯데 구단이 새로운 도약을 위해 대규모 투자를 단행하며 새로운 현장 사령탑과 행정 책임자를 선임했다. 롯데는 차기 감독으로 이동욱 전 NC 다이노스 감독을 영입하고, 신임 단장에는 이택근 전 KBO 전력강화위원을 임명했다. 이번 계약 규모는 기간 3년에 계약금 5억 원과 연봉 5억 원을 포함해 총 20억 원에 달한다. 신임 이동욱 감독은 지난 1997년 롯데에 입단해 프로 선수 생활을 시작했던 인물로 구단과 깊은 인연을 맺고 있다. 그는 이후 지도자로 변신하여 2020년에는 NC 다이노스를 창단 첫 통합 우승으로 이끌며 지도력을 널리 인정받았다. 함께 선임된 이택근 신임 단장은 2003년 프로에 데뷔한 뒤 18년 동안 간판 선수이자 국가대표로 활약한 베테랑이다. 구단 경영진은 풍부한 현장 경험과 전문성을 갖춘 두 인물을 영입하는 데 막대한 자금을 투입하며 팀 재건에 나섰다. 과감한 재정 투자를 결정한 롯데가 새로운 지도부 구성을 통해 성적 부진을 털어내고 경영 가치를 높일 수 있을지 기대를 모으고 있다.",
+        "translation": "프로야구 롯데 구단이 새로운 도약을 위해 대규모 투자를 단행하며 새로운 현장 사령탑과 행정 책임자를 선임했다.\nThe professional baseball team Lotte made a large-scale investment for a new leap forward, appointing a new on-field manager and an administrative head.\n\n롯데는 차기 감독으로 이동욱 전 NC 다이노스 감독을 영입하고, 신임 단장에는 이택근 전 KBO 전력강화위원을 임명했다.\nLotte recruited former NC Dinos manager Lee Dong-wook as its next manager and appointed former KBO reinforcement committee member Lee Taek-keun as its new general manager.\n\n이번 계약 규모는 기간 3년에 계약금 5억 원과 연봉 5억 원을 포함해 총 20억 원에 달한다.\nThe size of this contract amounts to a total of 2 billion won over three years, including a 500 million won signing bonus and an annual salary of 500 million won.\n\n신임 이동욱 감독은 지난 1997년 롯데에 입단해 프로 선수 생활을 시작했던 인물로 구단과 깊은 인연을 맺고 있다.\nThe new manager Lee Dong-wook has deep ties with the club, having started his professional player career by joining Lotte in 1997.\n\n그는 이후 지도자로 변신하여 2020년에는 NC 다이노스를 창단 첫 통합 우승으로 이끌며 지도력을 널리 인정받았다.\nLater transforming into a coach, he led the NC Dinos to their first combined championship since their founding in 2020, gaining widespread recognition for his leadership.\n\n함께 선임된 이택근 신임 단장은 2003년 프로에 데뷔한 뒤 18년 동안 간판 선수이자 국가대표로 활약한 베테랑이다.\nNewly appointed general manager Lee Taek-keun, who was appointed alongside him, is a veteran who debuted professionally in 2003 and played as a star player and national representative for 18 years.\n\n구단 경영진은 풍부한 현장 경험과 전문성을 갖춘 두 인물을 영입하는 데 막대한 자금을 투입하며 팀 재건에 나섰다.\nThe club's management set out to rebuild the team by investing massive funds to recruit two figures equipped with rich field experience and expertise.\n\n과감한 재정 투자를 결정한 롯데가 새로운 지도부 구성을 통해 성적 부진을 털어내고 경영 가치를 높일 수 있을지 기대를 모으고 있다.\nExpectations are growing over whether Lotte, having decided on a bold financial investment, can shake off poor performance and raise its organizational value through the new leadership structure.",
+        "vocab": [
+            {
+                "word": "단행하다",
+                "meaning": "to carry out resolutely, to enforce",
+                "example_ko": "회사는 위기를 극복하기 위해 과감한 조직 개편을 [단행했다].",
+                "example_en": "The company carried out a bold organizational restructuring to overcome the crisis."
+            },
+            {
+                "word": "선임하다",
+                "meaning": "to appoint, to select",
+                "example_ko": "이사회는 새로운 대표이사를 [선임하기] 위해 회의를 열었다.",
+                "example_en": "The board of directors held a meeting to appoint a new CEO."
+            },
+            {
+                "word": "영입하다",
+                "meaning": "to recruit, to scout",
+                "example_ko": "기업은 기술 개발을 위해 해외 우수 인재를 적극적으로 [영입했다].",
+                "example_en": "The enterprise actively recruited outstanding overseas talents for technology development."
+            },
+            {
+                "word": "계약금",
+                "meaning": "signing bonus, down payment",
+                "example_ko": "선수는 구단과 입단 계약을 맺으며 거액의 [계약금을] 받았다.",
+                "example_en": "The player received a large signing bonus while signing a contract with the club."
+            },
+            {
+                "word": "연봉",
+                "meaning": "annual salary",
+                "example_ko": "그는 높은 성과를 인정받아 작년보다 많은 [연봉을] 받게 되었다.",
+                "example_en": "He came to receive a higher annual salary than last year in recognition of his high performance."
+            },
+            {
+                "word": "달하다",
+                "meaning": "to reach, to amount to",
+                "example_ko": "이번 프로젝트에 들어간 총비용은 수십억 원에 [달한다].",
+                "example_en": "The total cost invested in this project amounts to billions of won."
+            },
+            {
+                "word": "지도력",
+                "meaning": "leadership",
+                "example_ko": "지도자의 뛰어난 [지도력이] 팀을 위기에서 구해냈다.",
+                "example_en": "The leader's outstanding leadership saved the team from crisis."
+            },
+            {
+                "word": "투입하다",
+                "meaning": "to inject, to put in (resources or funds)",
+                "example_ko": "정부는 경제 회복을 위해 대규모 예산을 [투입하기로] 결정했다.",
+                "example_en": "The government decided to inject a large budget for economic recovery."
+            },
+            {
+                "word": "재건",
+                "meaning": "rebuilding, reconstruction",
+                "example_ko": "회사는 경영난을 극복하고 사업 [재건을] 위한 계획을 세웠다.",
+                "example_en": "The company made plans for business reconstruction to overcome financial difficulties."
+            },
+            {
+                "word": "부진",
+                "meaning": "slump, poor performance",
+                "example_ko": "최근 매출 [부진으로] 인해 매장 운영에 어려움이 생겼다.",
+                "example_en": "Difficulties arose in store operations due to the recent slump in sales."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-27",
+        "published_at": "2026-10-27 01:06",
+        "title": "제주 도심서 흉기 들고 활보한 40대 남성… 경찰, 자택서 긴급 체포",
+        "body": "제주 도심 번화가 한복판에서 대낮에 흉기를 들고 거리를 활보하던 40대 남성이 경찰에 붙잡혔다. 제주 서부경찰서는 공공장소 흉기 소지 혐의로 40대 남성 A 씨를 긴급 체포해 조사하고 있다. 경찰에 따르면 A 씨는 오후 4시쯤 제주시 노형동 일대 길거리에서 흉기를 손에 든 채 돌아다닌 혐의를 받고 있다. 당시 길을 지나던 시민들이 위험한 물건을 든 남성을 목격하고 불안에 떨며 경찰에 잇따라 신고했다. 신고를 받고 즉시 출동한 경찰은 주변 폐쇄회로 텔레비전을 분석하고 추적에 나서 약 3시간 만에 피의자를 특정했다. 경찰관들은 사건 발생 당일 오후 7시쯤 노형동에 있는 A 씨의 자택을 찾아내 그를 현장에서 검거했다. 다행히 피의자가 행인들을 직접 공격하지 않아 인명 피해는 발생하지 않은 것으로 확인되었다. 경찰은 A 씨가 도심에서 흉기를 소지하게 된 구체적인 경위와 범행 동기 등을 집중적으로 조사하고 있다.",
+        "translation": "제주 도심 번화가 한복판에서 대낮에 흉기를 들고 거리를 활보하던 40대 남성이 경찰에 붙잡혔다.\nA man in his 40s who was walking around the street carrying a weapon in broad daylight in the middle of a downtown Jeju shopping area was caught by the police.\n\n제주 서부경찰서는 공공장소 흉기 소지 혐의로 40대 남성 A 씨를 긴급 체포해 조사하고 있다.\nThe Jeju Seobu Police Station arrested and is investigating a man in his 40s, Mr. A, on charges of carrying a weapon in a public place.\n\n경찰에 따르면 A 씨는 오후 4시쯤 제주시 노형동 일대 길거리에서 흉기를 손에 든 채 돌아다닌 혐의를 받고 있다.\nAccording to the police, Mr. A is accused of wandering around the streets in the Nohyeong-dong area of Jeju City around 4 p.m. holding a weapon in his hand.\n\n당시 길을 지나던 시민들이 위험한 물건을 든 남성을 목격하고 불안에 떨며 경찰에 잇따라 신고했다.\nCitizens passing by at the time witnessed the man holding a dangerous object and reported it to the police one after another in fear.\n\n신고를 받고 즉시 출동한 경찰은 주변 폐쇄회로 텔레비전을 분석하고 추적에 나서 약 3시간 만에 피의자를 특정했다.\nUpon receiving the report, police officers immediately mobilized, analyzed nearby closed-circuit televisions, began tracking, and identified the suspect in about three hours.\n\n경찰관들은 사건 발생 당일 오후 7시쯤 노형동에 있는 A 씨의 자택을 찾아내 그를 현장에서 검거했다.\nPolice officers located Mr. A's home in Nohyeong-dong at around 7 p.m. on the day of the incident and arrested him on the spot.\n\n다행히 피의자가 행인들을 직접 공격하지 않아 인명 피해는 발생하지 않은 것으로 확인되었다.\nFortunately, it was confirmed that no casualties occurred as the suspect did not directly attack pedestrians.\n\n경찰은 A 씨가 도심에서 흉기를 소지하게 된 구체적인 경위와 범행 동기 등을 집중적으로 조사하고 있다.\nThe police are intensively investigating the specific circumstances of how Mr. A came to carry a weapon in the downtown area and his motive for the crime.",
+        "vocab": [
+            {
+                "word": "흉기",
+                "meaning": "deadly weapon",
+                "example_ko": "경찰은 범행 현장에서 용의자가 버린 [흉기를] 찾아냈다.",
+                "example_en": "The police found the deadly weapon abandoned by the suspect at the crime scene."
+            },
+            {
+                "word": "소지하다",
+                "meaning": "to carry, to possess",
+                "example_ko": "비행기를 탈 때는 위험한 물건을 [소지할] 수 없다.",
+                "example_en": "You cannot carry dangerous objects when boarding an airplane."
+            },
+            {
+                "word": "혐의",
+                "meaning": "suspicion, charge",
+                "example_ko": "그는 다른 사람의 물건을 훔친 [혐의로] 조사를 받았다.",
+                "example_en": "He was investigated on suspicion of stealing someone else's property."
+            },
+            {
+                "word": "체포하다",
+                "meaning": "to arrest, to apprehend",
+                "example_ko": "경찰은 도망치던 도둑을 골목길 끝에서 [체포했다].",
+                "example_en": "The police arrested the fleeing thief at the end of the alleyway."
+            },
+            {
+                "word": "출동하다",
+                "meaning": "to mobilize, to be dispatched",
+                "example_ko": "화재 신고를 받은 소방관들이 현장으로 신속하게 [출동했다].",
+                "example_en": "Firefighters who received a fire report were dispatched quickly to the scene."
+            },
+            {
+                "word": "자택",
+                "meaning": "one's home, residence",
+                "example_ko": "경찰은 증거를 확보하기 위해 피의자의 [자택을] 수색했다.",
+                "example_en": "The police searched the suspect's home to secure evidence."
+            },
+            {
+                "word": "검거되다",
+                "meaning": "to be caught, to be arrested",
+                "example_ko": "사기 범죄를 저지르고 숨어 있던 범인이 결국 [검거되었다].",
+                "example_en": "The criminal who committed fraud and went into hiding was finally arrested."
+            },
+            {
+                "word": "행인",
+                "meaning": "pedestrian, passerby",
+                "example_ko": "길가에 쓰러진 사람을 보고 지나가던 [행인이] 구조대에 신고했다.",
+                "example_en": "Seeing a person collapsed on the street, a passerby reported it to rescue services."
+            },
+            {
+                "word": "인명 피해",
+                "meaning": "casualties, loss of life",
+                "example_ko": "이번 태풍으로 시설은 부서졌지만 다행히 [인명 피해는] 없었다.",
+                "example_en": "Facilities were destroyed by this typhoon, but fortunately there were no casualties."
+            },
+            {
+                "word": "경위",
+                "meaning": "circumstances, details",
+                "example_ko": "선생님은 학생들에게 싸움이 일어난 자세한 [경위를] 물어보았다.",
+                "example_en": "The teacher asked the students about the detailed circumstances of how the fight occurred."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-27",
+        "published_at": "2026-10-27 01:06",
+        "title": "미 트럼프 행정부, 차기 유엔 사무총장으로 헝가리 오르반 전 총리 지지 추진",
+        "body": "미국 도널드 트럼프 행정부가 차기 유엔 사무총장 후보로 빅토르 오르반 전 헝가리 총리를 추진하고 있는 것으로 알려졌다. 주요 외신에 따르면 미국 정부는 오르반 전 총리에게 출마를 권유했으며 러시아와 중국도 이에 긍정적인 반응을 보였다. 미국은 러시아 및 중국과 함께 오르반 전 총리를 유엔 사무총장 공동 후보로 지지하는 방안을 모색하고 있다. '유럽의 트럼프'로 불리는 오르반 전 총리는 16년 동안 헝가리를 통치하며 강력한 반이민과 민족주의 정책을 펼친 우파 정치인이다. 트럼프 행정부는 그를 핵심 지지층에 부합하는 이상적인 보수 지도자로 평가하며 이념적 친밀감을 나타내 왔다. 다만 오르반 전 총리는 미국의 제안에 관심을 나타내면서도 당선 가능성이 확실하지 않으면 출마하지 않겠다는 신중한 태도를 취하고 있다. 유엔 사무총장은 안전보장이사회의 추천을 거쳐 결정되며 미국 당국은 이사국 다수의 지지를 얻을 수 있을 것으로 기대한다. 그러나 유력 언론들은 오르반 전 총리가 러시아 등 독재 국가를 옹호해 온 인물이라는 점을 지적하며 이번 구상에 우려를 표하고 있다.",
+        "translation": "미국 도널드 트럼프 행정부가 차기 유엔 사무총장 후보로 빅토르 오르반 전 헝가리 총리를 추진하고 있는 것으로 알려졌다.\nIt has been reported that the U.S. Donald Trump administration is pushing former Hungarian Prime Minister Viktor Orban as a candidate for the next UN Secretary-General.\n\n주요 외신에 따르면 미국 정부는 오르반 전 총리에게 출마를 권유했으며 러시아와 중국도 이에 긍정적인 반응을 보였다.\nAccording to major foreign media, the U.S. government encouraged former Prime Minister Orban to run, and Russia and China also showed positive reactions.\n\n미국은 러시아 및 중국과 함께 오르반 전 총리를 유엔 사무총장 공동 후보로 지지하는 방안을 모색하고 있다.\nThe United States is exploring a plan to jointly support former Prime Minister Orban as a candidate along with Russia and China.\n\n'유럽의 트럼프'로 불리는 오르반 전 총리는 16년 동안 헝가리를 통치하며 강력한 반이민과 민족주의 정책을 펼친 우파 정치인이다.\nReferred to as the \"Trump of Europe,\" former Prime Minister Orban is a right-wing politician who governed Hungary for 16 years, pursuing strong anti-immigration and nationalist policies.\n\n트럼프 행정부는 그를 핵심 지지층에 부합하는 이상적인 보수 지도자로 평가하며 이념적 친밀감을 나타내 왔다.\nThe Trump administration has evaluated him as an ideal conservative leader fitting its core support base and expressed ideological closeness with him.\n\n다만 오르반 전 총리는 미국의 제안에 관심을 나타내면서도 당선 가능성이 확실하지 않으면 출마하지 않겠다는 신중한 태도를 취하고 있다.\nHowever, while showing interest in the U.S. proposal, former Prime Minister Orban is maintaining a cautious stance that he will not run unless his chances of winning are certain.\n\n유엔 사무총장은 안전보장이사회의 추천을 거쳐 결정되며 미국 당국은 이사국 다수의 지지를 얻을 수 있을 것으로 기대한다.\nThe UN Secretary-General is decided through a recommendation by the Security Council, and U.S. authorities expect to secure support from a majority of member states.\n\n그러나 유력 언론들은 오르반 전 총리가 러시아 등 독재 국가를 옹호해 온 인물이라는 점을 지적하며 이번 구상에 우려를 표하고 있다.\nHowever, influential media outlets are expressing concern over this plan, pointing out that former Prime Minister Orban is a figure who has defended authoritarian states such as Russia.",
+        "vocab": [
+            {
+                "word": "차기",
+                "meaning": "next, upcoming term",
+                "example_ko": "다음 달 총회에서 [차기] 협회장을 뽑는 선거가 진행된다.",
+                "example_en": "An election to pick the next association president will be held at next month's general meeting."
+            },
+            {
+                "word": "권유하다",
+                "meaning": "to advise, to recommend",
+                "example_ko": "의사는 환자에게 건강을 위해 가벼운 운동을 [권유했다].",
+                "example_en": "The doctor advised the patient to do light exercise for health."
+            },
+            {
+                "word": "친밀감",
+                "meaning": "feeling of closeness, intimacy",
+                "example_ko": "자주 대화를 나누면서 우리는 서로에게 깊은 [친밀감을] 느꼈다.",
+                "example_en": "Talking often, we felt a deep sense of closeness toward each other."
+            },
+            {
+                "word": "신중하다",
+                "meaning": "to be cautious, to be prudent",
+                "example_ko": "중요한 결정을 내릴 때는 매사 [신중해야] 한다.",
+                "example_en": "You should be cautious in everything when making an important decision."
+            },
+            {
+                "word": "모색하다",
+                "meaning": "to seek, to explore (solutions or ways)",
+                "example_ko": "두 나라는 갈등을 평화적으로 해결하기 위한 방법을 [모색하고] 있다.",
+                "example_en": "The two countries are exploring methods to resolve the conflict peacefully."
+            },
+            {
+                "word": "확보하다",
+                "meaning": "to secure, to procure",
+                "example_ko": "우리는 원활한 사업 진행을 위해 추가 예산을 [확보해야] 한다.",
+                "example_en": "We must secure an additional budget for smooth project progress."
+            },
+            {
+                "word": "거부권",
+                "meaning": "veto power, right to veto",
+                "example_ko": "대통령은 법안에 결함이 있다고 판단해 [거부권을] 행사했다.",
+                "example_en": "The president exercised veto power, judging that there was a flaw in the bill."
+            },
+            {
+                "word": "관철하다",
+                "meaning": "to carry through, to accomplish firmly",
+                "example_ko": "그는 자신의 목표를 끝까지 [관철하기] 위해 최선을 다했다.",
+                "example_en": "He did his best to carry through his goal to the end."
+            },
+            {
+                "word": "옹호하다",
+                "meaning": "to defend, to advocate",
+                "example_ko": "그는 비판 속에서도 동료의 정당한 입장을 적극적으로 [옹호했다].",
+                "example_en": "He actively defended his colleague's justified stance amid criticism."
+            },
+            {
+                "word": "구상",
+                "meaning": "plan, concept, blueprint",
+                "example_ko": "정부는 수도권 교통 혼잡을 줄이기 위한 새로운 [구상을] 발표했다.",
+                "example_en": "The government announced a new plan to reduce traffic congestion in the metropolitan area."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-26",
         "published_at": "2026-10-26 08:10",
         "title": "중국 공산당 5중전회 개막… 대규모 부패 척결과 지도부 개편 주목",

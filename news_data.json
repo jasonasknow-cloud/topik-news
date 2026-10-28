@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-29",
+        "published_at": "2026-10-29 00:57",
+        "title": "이 대통령, 여당 중진 의원들과 만찬 회동… 당청 협력과 통합 당부",
+        "body": "이재명 대통령이 더불어민주당 5선 이상 중진 의원들을 청와대로 초청해 만찬을 함께했다. 이번 만찬에는 6선의 송영길 의원을 비롯해 김태년, 박지원, 정동영 등 중진 의원 10명이 참석했다. 만찬은 약 2시간 동안 진행되었으며, 대통령비서실장과 정무수석도 함께 자리해 여러 국정 현안을 논의했다. 이 대통령은 국민의 삶이 어려운 상황 속에서 당과 청와대가 긴밀히 소통하고 협력해야 한다고 강조했다. 또한 오랜 정치 경험을 가진 중진 의원들의 경륜과 지혜를 국정 운영에 적극 반영하겠다는 뜻을 밝혔다. 아울러 집권 여당으로서 말과 행동 모두에서 국민 눈높이에 맞는 책임 있는 태도를 보여줄 것을 요청했다. 이와 함께 당내 여러 의견을 잘 조율하고 민생 개선과 개혁 추진에 힘을 모아달라고 당부했다. 참석한 의원들은 개헌과 정치개혁의 필요성, 남북관계 개선과 한반도 평화의 중요성 등 다양한 의견을 전달했다. 이번 회동은 당내 갈등을 수습하고 단합을 이끌어내기 위한 노력의 일환으로 풀이된다.",
+        "translation": "이재명 대통령이 더불어민주당 5선 이상 중진 의원들을 청와대로 초청해 만찬을 함께했다.\nPresident Lee Jae-myung invited veteran lawmakers of the Democratic Party who have served five or more terms to Cheong Wa Dae for a dinner meeting.\n\n이번 만찬에는 6선의 송영길 의원을 비롯해 김태년, 박지원, 정동영 등 중진 의원 10명이 참석했다.\nTen veteran lawmakers attended this dinner, including six-term lawmaker Song Young-gil, as well as Kim Tae-nyeon, Park Jie-won, and Chung Dong-young.\n\n만찬은 약 2시간 동안 진행되었으며, 대통령비서실장과 정무수석도 함께 자리해 여러 국정 현안을 논의했다.\nThe dinner lasted for about two hours, and the presidential chief of staff and senior secretary for political affairs also sat in to discuss various state affairs issues.\n\n이 대통령은 국민의 삶이 어려운 상황 속에서 당과 청와대가 긴밀히 소통하고 협력해야 한다고 강조했다.\nPresident Lee emphasized that the party and the presidential office must communicate and cooperate closely in a situation where the public's livelihood is difficult.\n\n또한 오랜 정치 경험을 가진 중진 의원들의 경륜과 지혜를 국정 운영에 적극 반영하겠다는 뜻을 밝혔다.\nHe also expressed his intention to actively reflect the political depth and wisdom of veteran lawmakers with long political experience in state administration.\n\n아울러 집권 여당으로서 말과 행동 모두에서 국민 눈높이에 맞는 책임 있는 태도를 보여줄 것을 요청했다.\nIn addition, he requested that as the ruling party, they show a responsible attitude that meets the public's expectations in both words and actions.\n\n이와 함께 당내 여러 의견을 잘 조율하고 민생 개선과 개혁 추진에 힘을 모아달라고 당부했다.\nAlong with this, he asked them to coordinate various opinions within the party well and pool their strength for improving public livelihoods and pursuing reforms.\n\n참석한 의원들은 개헌과 정치개혁의 필요성, 남북관계 개선과 한반도 평화의 중요성 등 다양한 의견을 전달했다.\nThe attending lawmakers conveyed diverse opinions, including the need for constitutional revision and political reform, and the importance of improving inter-Korean relations and peace on the Korean Peninsula.\n\n이번 회동은 당내 갈등을 수습하고 단합을 이끌어내기 위한 노력의 일환으로 풀이된다.\nThis meeting is interpreted as part of efforts to resolve internal party conflicts and achieve unity.",
+        "vocab": [
+            {
+                "word": "만찬",
+                "meaning": "banquet, official dinner",
+                "example_ko": "귀빈들을 환영하기 위해 호텔에서 [만찬]을 열었습니다.",
+                "example_en": "A banquet was held at the hotel to welcome the guests of honor."
+            },
+            {
+                "word": "초청하다",
+                "meaning": "to invite",
+                "example_ko": "선생님은 졸업생들을 저녁 식사에 [초청했다].",
+                "example_en": "The teacher invited the graduates to dinner."
+            },
+            {
+                "word": "배석하다",
+                "meaning": "to sit with, to attend as an aide",
+                "example_ko": "중요한 회담 자리에 비서관이 함께 [배석했다].",
+                "example_en": "The secretary sat in on the important meeting."
+            },
+            {
+                "word": "현안",
+                "meaning": "pending issue",
+                "example_ko": "양국은 경제 분야의 중요한 [현안]을 논의했습니다.",
+                "example_en": "The two countries discussed pending issues in the economic sector."
+            },
+            {
+                "word": "경륜",
+                "meaning": "political acumen, depth of experience",
+                "example_ko": "그는 오랜 공직 생활을 통해 풍부한 [경륜]을 쌓았습니다.",
+                "example_en": "He built up a wealth of administrative acumen through his long public service."
+            },
+            {
+                "word": "조율하다",
+                "meaning": "to tune, to coordinate, to mediate",
+                "example_ko": "팀원들은 서로 다른 의견을 하나로 [조율했다].",
+                "example_en": "The team members coordinated their differing opinions into one."
+            },
+            {
+                "word": "당부하다",
+                "meaning": "to request, to ask earnest cooperation",
+                "example_ko": "경찰은 시민들에게 안전 수칙을 지켜달라고 [당부했다].",
+                "example_en": "The police requested that citizens follow safety rules."
+            },
+            {
+                "word": "개헌",
+                "meaning": "constitutional revision",
+                "example_ko": "정치권에서는 새로운 시대에 맞춘 [개헌]을 논의하기 시작했습니다.",
+                "example_en": "Political circles began discussing constitutional revision suited to the new era."
+            },
+            {
+                "word": "결속",
+                "meaning": "solidarity, unity",
+                "example_ko": "어려운 위기를 극복하기 위해 구성원들의 [결속]이 필요합니다.",
+                "example_en": "The solidarity of the members is necessary to overcome the difficult crisis."
+            },
+            {
+                "word": "봉합하다",
+                "meaning": "to patch up, to settle superficially",
+                "example_ko": "노사는 대화를 통해 갈등을 원만하게 [봉합했다].",
+                "example_en": "Labor and management smoothly patched up their conflict through dialogue."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-29",
+        "published_at": "2026-10-29 00:57",
+        "title": "한독 정상회담 개최… 경제와 첨단 산업 협력 확대 논의",
+        "body": "이재명 대통령은 한국을 공식 방문한 프리드리히 메르츠 독일 총리를 소중한 동반자라며 환영했다. 메르츠 총리는 독일 아시아태평양 비즈니스 콘퍼런스 참석을 계기로 사흘간의 일정으로 방한했다. 이 대통령은 양국이 오랜 우정과 신뢰를 바탕으로 다양한 분야에서 긴밀히 협력해 왔다고 평가했다. 특히 경제와 산업, 과학기술 등 핵심 분야의 상호 협력이 양국의 공동 번영에 크게 기여했다고 밝혔다. 두 정상은 공식 회담을 열고 첨단 기술과 무역 등 경제 협력 방안에 대해 심도 있는 의견을 나눴다. 또한 세계 경제의 불확실성이 커지는 상황에서 양국 기업 간의 교류를 더욱 확대하기로 뜻을 모았다. 정상회담 이후에는 양국 관계의 미래 발전 방향을 담은 공동 언론 발표가 이어졌다. 저녁에는 두 정상이 공식 만찬을 함께하며 양국 간의 경제적 유대와 동반자 관계를 재확인했다. 이번 방한은 한국과 독일이 경제 협력을 한 단계 더 도약시키는 중요한 계기가 될 것으로 기대된다.",
+        "translation": "이재명 대통령은 한국을 공식 방문한 프리드리히 메르츠 독일 총리를 소중한 동반자라며 환영했다.\nPresident Lee Jae-myung welcomed German Chancellor Friedrich Merz, who made an official visit to Korea, calling Germany a precious partner.\n\n메르츠 총리는 독일 아시아태평양 비즈니스 콘퍼런스 참석을 계기로 사흘간의 일정으로 방한했다.\nChancellor Merz visited Korea for a three-day schedule on the occasion of attending the German Asia-Pacific Business Conference.\n\n이 대통령은 양국이 오랜 우정과 신뢰를 바탕으로 다양한 분야에서 긴밀히 협력해 왔다고 평가했다.\nPresident Lee evaluated that the two countries have cooperated closely across various sectors based on long-standing friendship and trust.\n\n특히 경제와 산업, 과학기술 등 핵심 분야의 상호 협력이 양국의 공동 번영에 크게 기여했다고 밝혔다.\nHe stated in particular that mutual cooperation in key sectors such as economy, industry, and science and technology has contributed greatly to mutual prosperity.\n\n두 정상은 공식 회담을 열고 첨단 기술과 무역 등 경제 협력 방안에 대해 심도 있는 의견을 나눴다.\nThe two leaders held an official summit and exchanged in-depth views on economic cooperation plans including advanced technology and trade.\n\n또한 세계 경제의 불확실성이 커지는 상황에서 양국 기업 간의 교류를 더욱 확대하기로 뜻을 모았다.\nThey also agreed to further expand exchanges between enterprises of both countries amid growing uncertainties in the global economy.\n\n정상회담 이후에는 양국 관계의 미래 발전 방향을 담은 공동 언론 발표가 이어졌다.\nFollowing the summit, a joint press announcement containing future development directions of bilateral relations followed.\n\n저녁에는 두 정상이 공식 만찬을 함께하며 양국 간의 경제적 유대와 동반자 관계를 재확인했다.\nIn the evening, the two leaders shared an official dinner, reaffirming the economic ties and partnership between the two nations.\n\n이번 방한은 한국과 독일이 경제 협력을 한 단계 더 도약시키는 중요한 계기가 될 것으로 기대된다.\nThis visit is expected to serve as an important opportunity for Korea and Germany to take their economic cooperation a step further.",
+        "vocab": [
+            {
+                "word": "동반자",
+                "meaning": "companion, partner",
+                "example_ko": "그는 내 인생의 든든한 [동반자]가 되어 주었습니다.",
+                "example_en": "He became a reliable partner in my life."
+            },
+            {
+                "word": "방한하다",
+                "meaning": "to visit Korea",
+                "example_ko": "외국의 유명한 학자가 강연을 위해 [방한했다].",
+                "example_en": "A famous foreign scholar visited Korea to give a lecture."
+            },
+            {
+                "word": "신뢰",
+                "meaning": "trust, confidence",
+                "example_ko": "사업 파트너 사이에 깊은 [신뢰]를 쌓는 것이 중요합니다.",
+                "example_en": "It is important to build deep trust between business partners."
+            },
+            {
+                "word": "번영",
+                "meaning": "prosperity",
+                "example_ko": "평화와 안정이 지속되어야 나라의 [번영]을 이룰 수 있습니다.",
+                "example_en": "The prosperity of a nation can be achieved only when peace and stability continue."
+            },
+            {
+                "word": "기여하다",
+                "meaning": "to contribute",
+                "example_ko": "자원봉사자들의 헌신은 지역사회 발전에 크게 [기여했다].",
+                "example_en": "The dedication of the volunteers contributed greatly to community development."
+            },
+            {
+                "word": "심도",
+                "meaning": "depth",
+                "example_ko": "전문가들은 환경 문제에 대해 [심도] 깊은 대화를 나누었습니다.",
+                "example_en": "Experts had in-depth conversations about environmental issues."
+            },
+            {
+                "word": "불확실성",
+                "meaning": "uncertainty",
+                "example_ko": "물가 상승으로 인해 미래 시장의 [불확실성]이 커졌습니다.",
+                "example_en": "Uncertainty in the future market has grown due to inflation."
+            },
+            {
+                "word": "교류",
+                "meaning": "exchange, interaction",
+                "example_ko": "두 대학은 학생들의 학술 [교류]를 꾸준히 이어오고 있습니다.",
+                "example_en": "The two universities have continuously maintained academic exchanges among students."
+            },
+            {
+                "word": "유대",
+                "meaning": "bond, ties",
+                "example_ko": "오랜 시간 동아리 활동을 함께하며 깊은 [유대]를 형성했습니다.",
+                "example_en": "We formed deep bonds while participating in club activities together for a long time."
+            },
+            {
+                "word": "도약하다",
+                "meaning": "to leap, to take off",
+                "example_ko": "그 회사는 신기술 개발을 통해 세계적인 기업으로 [도약했다].",
+                "example_en": "The company leaped into a global corporation through new technology development."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-29",
+        "published_at": "2026-10-29 00:57",
+        "title": "선관위 특검, 송파 투표지 247만 장 검증 마무리 단계… 이상 투표지 정밀 감정",
+        "body": "선거관리위원회 특별검사팀이 6·3 지방선거 투표지 약 247만 장에 대한 계수 작업을 마무리하고 있다. 특검팀은 서울 송파구 올림픽공원 핸드볼경기장에서 참관단이 지켜보는 가운데 투표지의 수량과 상태를 확인했다. 작업 과정에서 한 정당은 특정 후보의 표가 비정상적으로 많이 나왔다고 주장하며 선관위와 이견을 보였다. 이에 따라 특검팀은 특수 광학 장비를 동원해 이상 투표지에 대한 추가 검증 작업을 병행했다. 위조나 변조 여부를 과학적으로 가려내기 위해 국립과학수사연구원의 전문 장비도 현장에 투입되었다. 검증에는 사물을 최대 1천 배까지 확대할 수 있는 디지털 현미경과 적외선 분광기 등이 활용되었다. 이번 공개 검증 작업은 장시간에 걸쳐 신중하고 철저하게 진행되었다. 특검팀은 추가 검증을 통해 정밀 감정이 필요한 투표지를 선별하여 향후 수사에 적극 활용할 방침이다. 선거의 공정성을 둘러싼 국민적 의혹을 해소하기 위한 특검의 최종 결과 발표에 관심이 쏠리고 있다.",
+        "translation": "선거관리위원회 특별검사팀이 6·3 지방선거 투표지 약 247만 장에 대한 계수 작업을 마무리하고 있다.\nThe special prosecutor team for the National Election Commission is finalizing the counting of about 2.47 million ballots from the June 3 local elections.\n\n특검팀은 서울 송파구 올림픽공원 핸드볼경기장에서 참관단이 지켜보는 가운데 투표지의 수량과 상태를 확인했다.\nThe special prosecutor team verified the quantity and condition of the ballots in the presence of observers at the Olympic Park Handball Stadium in Songpa-gu, Seoul.\n\n작업 과정에서 한 정당은 특정 후보의 표가 비정상적으로 많이 나왔다고 주장하며 선관위와 이견을 보였다.\nDuring the process, a political party claimed that an abnormal number of votes appeared for a specific candidate, showing differences with the election commission.\n\n이에 따라 특검팀은 특수 광학 장비를 동원해 이상 투표지에 대한 추가 검증 작업을 병행했다.\nAccordingly, the special prosecutor team simultaneously conducted additional verification of abnormal ballots by mobilizing special optical equipment.\n\n위조나 변조 여부를 과학적으로 가려내기 위해 국립과학수사연구원의 전문 장비도 현장에 투입되었다.\nProfessional equipment from the National Forensic Service was also deployed to the site to scientifically determine whether there was forgery or alteration.\n\n검증에는 사물을 최대 1천 배까지 확대할 수 있는 디지털 현미경과 적외선 분광기 등이 활용되었다.\nA digital microscope capable of magnifying objects up to 1,000 times and an infrared spectrometer were used in the verification.\n\n이번 공개 검증 작업은 장시간에 걸쳐 신중하고 철저하게 진행되었다.\nThis public verification work was carried out carefully and thoroughly over a long period.\n\n특검팀은 추가 검증을 통해 정밀 감정이 필요한 투표지를 선별하여 향후 수사에 적극 활용할 방침이다.\nThe special prosecutor team plans to sort out ballots requiring detailed analysis through additional verification and actively utilize them in future investigations.\n\n선거의 공정성을 둘러싼 국민적 의혹을 해소하기 위한 특검의 최종 결과 발표에 관심이 쏠리고 있다.\nAttention is focusing on the special prosecutor's announcement of final results to resolve public suspicions surrounding election fairness.",
+        "vocab": [
+            {
+                "word": "계수",
+                "meaning": "counting, calculating numbers",
+                "example_ko": "은행 직원은 기계를 사용해 지폐의 정확한 [계수] 작업을 마쳤습니다.",
+                "example_en": "The bank teller finished counting the bills accurately using a machine."
+            },
+            {
+                "word": "참관하다",
+                "meaning": "to observe, to visit as an observer",
+                "example_ko": "학부모들은 교실 뒤에 서서 공개 수업을 조용히 [참관했다].",
+                "example_en": "Parents quietly observed the open class while standing at the back of the classroom."
+            },
+            {
+                "word": "이견",
+                "meaning": "difference of opinion",
+                "example_ko": "새로운 정책 방향을 두고 두 부서 간에 심각한 [이견]이 발생했습니다.",
+                "example_en": "A serious difference of opinion arose between the two departments over the direction of the new policy."
+            },
+            {
+                "word": "병행하다",
+                "meaning": "to carry out simultaneously",
+                "example_ko": "그녀는 대학교에 다니면서 아르바이트를 [병행했다].",
+                "example_en": "She worked a part-time job simultaneously while attending university."
+            },
+            {
+                "word": "가려내다",
+                "meaning": "to sift out, to distinguish, to identify",
+                "example_ko": "면접관들은 지원자들 중에서 유능한 인재를 신중하게 [가려냈다].",
+                "example_en": "The interviewers carefully screened out capable talent from among the applicants."
+            },
+            {
+                "word": "투입되다",
+                "meaning": "to be deployed, to be invested",
+                "example_ko": "산불을 끄기 위해 수많은 소방관과 헬리콥터가 [투입되었다].",
+                "example_en": "Numerous firefighters and helicopters were deployed to extinguish the forest fire."
+            },
+            {
+                "word": "분광기",
+                "meaning": "spectroscope, spectrometer",
+                "example_ko": "연구원은 화학 성분을 분석하기 위해 정밀한 [분광기]를 사용했습니다.",
+                "example_en": "The researcher used a precise spectrometer to analyze chemical components."
+            },
+            {
+                "word": "선별하다",
+                "meaning": "to select, to screen, to sort out",
+                "example_ko": "농부는 시장에 내놓기 전에 신선한 과일만 따로 [선별했다].",
+                "example_en": "The farmer sorted out only the fresh fruits before putting them on the market."
+            },
+            {
+                "word": "공정성",
+                "meaning": "fairness, impartiality",
+                "example_ko": "시험의 [공정성]을 유지하기 위해 감독관들이 엄격하게 감독했습니다.",
+                "example_en": "Supervisors oversaw the exam strictly to maintain its fairness."
+            },
+            {
+                "word": "의혹",
+                "meaning": "suspicion, doubt",
+                "example_ko": "경찰 수사를 통해 마침내 사건에 대한 모든 [의혹]이 풀렸습니다.",
+                "example_en": "All suspicions regarding the incident were finally cleared through the police investigation."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-29",
+        "published_at": "2026-10-29 00:57",
+        "title": "미 상원 선거 경합지 4곳 개표 지연 가능성… 의회 다수당 향방 안갯속",
+        "body": "미국 중간선거의 일부 연방 상원의원 경합주에서 개표 결과 발표가 늦어질 수 있다는 전망이 나왔다. 미국의 한 인터넷 매체는 주요 경합주 7곳 가운데 4개 주에서 당선자 확정이 지연될 가능성을 보도했다. 결과 지연이 예상되는 지역은 알래스카와 메인, 텍사스, 캔자스 등 4개 주로 알려졌다. 미국은 각 주마다 선거 결과를 확정하는 규정과 방식이 서로 다르기 때문에 개표에 차이가 발생한다. 특히 이들 4개 주에는 최종 집계와 결과 승인을 늦출 수 있는 법적 절차가 마련되어 있다. 상원의 다수당 지위가 경합주의 승패에 따라 결정되는 만큼 이번 지연은 큰 변수로 떠올랐다. 현재 공화당은 상원과 하원 모두에서 근소한 차이로 다수당의 지위를 가까스로 유지하고 있다. 만약 민주당이 이번 선거에서 승리한다면 의회의 권력 구도에는 커다란 변화가 일어날 것으로 보인다. 선거 결과가 확정되기 전까지 미국 정치권의 긴장감과 불확실성은 당분간 지속될 전망이다.",
+        "translation": "미국 중간선거의 일부 연방 상원의원 경합주에서 개표 결과 발표가 늦어질 수 있다는 전망이 나왔다.\nForecasts emerged that the announcement of vote counting results could be delayed in some battleground states for the U.S. Senate midterm elections.\n\n미국의 한 인터넷 매체는 주요 경합주 7곳 가운데 4개 주에서 당선자 확정이 지연될 가능성을 보도했다.\nAn American internet media outlet reported the possibility that confirming winners could be delayed in four out of seven major battleground states.\n\n결과 지연이 예상되는 지역은 알래스카와 메인, 텍사스, 캔자스 등 4개 주로 알려졌다.\nThe regions where outcome delays are anticipated were reported to be four states: Alaska, Maine, Texas, and Kansas.\n\n미국은 각 주마다 선거 결과를 확정하는 규정과 방식이 서로 다르기 때문에 개표에 차이가 발생한다.\nIn the United States, differences occur in vote counting because regulations and methods for finalizing election results differ from state to state.\n\n특히 이들 4개 주에는 최종 집계와 결과 승인을 늦출 수 있는 법적 절차가 마련되어 있다.\nIn particular, these four states have legal procedures in place that can delay final tabulation and approval of results.\n\n상원의 다수당 지위가 경합주의 승패에 따라 결정되는 만큼 이번 지연은 큰 변수로 떠올랐다.\nAs the majority status in the Senate is determined by victories and defeats in battleground states, this delay has emerged as a major variable.\n\n현재 공화당은 상원과 하원 모두에서 근소한 차이로 다수당의 지위를 가까스로 유지하고 있다.\nCurrently, the Republican Party is barely maintaining its majority party status in both the Senate and the House by a narrow margin.\n\n만약 민주당이 이번 선거에서 승리한다면 의회의 권력 구도에는 커다란 변화가 일어날 것으로 보인다.\nIf the Democratic Party wins this election, a major change is expected to occur in the balance of power in Congress.\n\n선거 결과가 확정되기 전까지 미국 정치권의 긴장감과 불확실성은 당분간 지속될 전망이다.\nTension and uncertainty in American politics are expected to continue for the time being until the election results are finalized.",
+        "vocab": [
+            {
+                "word": "경합",
+                "meaning": "competition, rivalry, contention",
+                "example_ko": "두 선수는 결승선 바로 앞까지 치열한 [경합]을 벌였습니다.",
+                "example_en": "The two athletes engaged in fierce contention right up to the finish line."
+            },
+            {
+                "word": "향방",
+                "meaning": "direction, course",
+                "example_ko": "새로운 법안의 통과 여부에 따라 경제의 [향방]이 결정될 것입니다.",
+                "example_en": "The direction of the economy will be determined depending on whether the new bill passes."
+            },
+            {
+                "word": "지연되다",
+                "meaning": "to be delayed",
+                "example_ko": "폭설 때문에 비행기 출발 시간이 두 시간이나 [지연되었다].",
+                "example_en": "The flight departure time was delayed by as much as two hours due to heavy snow."
+            },
+            {
+                "word": "확정하다",
+                "meaning": "to finalize, to confirm",
+                "example_ko": "회사는 다음 달 해외 출장 일정을 최종적으로 [확정했다].",
+                "example_en": "The company finally confirmed next month's overseas business trip schedule."
+            },
+            {
+                "word": "규정",
+                "meaning": "rule, regulation",
+                "example_ko": "모든 직원은 회사 내부의 안전 [규정]을 반드시 준수해야 합니다.",
+                "example_en": "All employees must comply with internal company safety regulations."
+            },
+            {
+                "word": "다수당",
+                "meaning": "majority party",
+                "example_ko": "선거에서 승리한 정당이 의회의 새로운 [다수당]이 되었습니다.",
+                "example_en": "The political party that won the election became the new majority party in parliament."
+            },
+            {
+                "word": "근소하다",
+                "meaning": "to be slight, to be narrow",
+                "example_ko": "그 후보는 매우 [근소한] 표 차이로 상대방을 이겼습니다.",
+                "example_en": "The candidate beat the opponent by a very narrow margin of votes."
+            },
+            {
+                "word": "변수",
+                "meaning": "variable, unexpected factor",
+                "example_ko": "갑작스러운 날씨 변화가 이번 야외 행사의 가장 큰 [변수]였습니다.",
+                "example_en": "The sudden change in weather was the biggest variable in this outdoor event."
+            },
+            {
+                "word": "구도",
+                "meaning": "structure, composition",
+                "example_ko": "새로운 기업이 시장에 진입하면서 경쟁 [구도]가 크게 바뀌었습니다.",
+                "example_en": "As a new enterprise entered the market, the competitive structure changed greatly."
+            },
+            {
+                "word": "산적하다",
+                "meaning": "to pile up",
+                "example_ko": "휴가를 다녀왔더니 책상 위에 처리해야 할 업무가 [산적해] 있었다.",
+                "example_en": "When I returned from vacation, tasks to be processed were piled up on my desk."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-28",
         "published_at": "2026-10-28 09:25",
         "title": "민주당 김민석, 대법원장 국정조사 추진 재확인… \"상식적인 결정 점검할 것\"",

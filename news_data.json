@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-30",
+        "published_at": "2026-10-30 01:02",
+        "title": "헌재, 검사 보완수사권 폐지 형사소송법 헌법소원 각하",
+        "body": "헌법재판소가 검사의 보완수사권을 폐지한 개정 형사소송법 조항에 대해 기본권 침해 가능성이 없다고 판단했다. 헌재는 형사소송법 제196조 삭제 부분과 제197조의2에 대한 위헌확인 소송을 각하하기로 결정했다. 이번 헌법소원을 청구한 A 씨는 검찰에서 피의자 조사를 받던 중 법 개정으로 수사 주체가 경찰로 바뀌었다. 이에 A 씨는 검사의 보완수사 요구로 사건이 경찰로 넘어가 공정한 재판을 받을 권리가 침해되었다며 소송을 제기했다. 하지만 재판관들은 보완수사권 관련 조항이 검사와 경찰 사이의 수사 권한 배분을 정한 규정일 뿐이라고 보았다. 헌재는 수사기관 간의 권한 배분 내용이 변경되었다고 해서 청구인의 법적 지위에 불이익이 발생했다고 보기 어렵다고 설명했다. 이번 결정에 따라 검사와 경찰의 수사권 조정과 관련된 법 조항은 헌법상 기본권을 침해하지 않는다는 점이 확인되었다.",
+        "translation": "헌법재판소가 검사의 보완수사권을 폐지한 개정 형사소송법 조항에 대해 기본권 침해 가능성이 없다고 판단했다.\nThe Constitutional Court ruled that there is no possibility of basic rights infringement regarding the revised Criminal Procedure Act provisions that abolished the prosecutor's supplementary investigation authority.\n\n헌재는 형사소송법 제196조 삭제 부분과 제197조의2에 대한 위헌확인 소송을 각하하기로 결정했다.\nThe Constitutional Court decided to dismiss the lawsuit seeking confirmation of unconstitutionality regarding the deleted portion of Article 196 and Article 197-2 of the Criminal Procedure Act.\n\n이번 헌법소원을 청구한 A 씨는 검찰에서 피의자 조사를 받던 중 법 개정으로 수사 주체가 경찰로 바뀌었다.\nPerson A, who filed this constitutional appeal, was being questioned as a suspect by the prosecution when the investigating entity changed to the police due to the legal revision.\n\n이에 A 씨는 검사의 보완수사 요구로 사건이 경찰로 넘어가 공정한 재판을 받을 권리가 침해되었다며 소송을 제기했다.\nAccordingly, Person A filed a lawsuit claiming that their right to a fair trial was infringed when the case was transferred to the police following a request for supplementary investigation.\n\n하지만 재판관들은 보완수사권 관련 조항이 검사와 경찰 사이의 수사 권한 배분을 정한 규정일 뿐이라고 보았다.\nHowever, the justices viewed the provisions regarding supplementary investigation authority merely as rules defining the distribution of investigative powers between the prosecution and the police.\n\n헌재는 수사기관 간의 권한 배분 내용이 변경되었다고 해서 청구인의 법적 지위에 불이익이 발생했다고 보기 어렵다고 설명했다.\nThe Constitutional Court explained that it is difficult to see that any disadvantage occurred to the claimant's legal status just because the content of power distribution between investigative agencies was changed.\n\n이번 결정에 따라 검사와 경찰의 수사권 조정과 관련된 법 조항은 헌법상 기본권을 침해하지 않는다는 점이 확인되었다.\nFollowing this decision, it was confirmed that the legal provisions related to the adjustment of investigative power between prosecutors and the police do not infringe upon constitutional basic rights.",
+        "vocab": [
+            {
+                "word": "폐지하다",
+                "meaning": "to abolish; to repeal",
+                "example_ko": "정부는 비효율적인 제도를 [폐지하기로] 결정했다.",
+                "example_en": "The government decided to abolish the inefficient system."
+            },
+            {
+                "word": "개정",
+                "meaning": "revision; amendment",
+                "example_ko": "법률 [개정]을 통해 시민들의 권리가 강화되었다.",
+                "example_en": "Citizens' rights were strengthened through the legal amendment."
+            },
+            {
+                "word": "기본권",
+                "meaning": "basic rights; fundamental rights",
+                "example_ko": "헌법은 국민의 모든 [기본권]을 보호하고 있다.",
+                "example_en": "The constitution protects all fundamental rights of the people."
+            },
+            {
+                "word": "침해하다",
+                "meaning": "to infringe upon; to violate",
+                "example_ko": "타인의 사생활을 [침해하면] 법적인 처벌을 받는다.",
+                "example_en": "If you infringe upon someone else's privacy, you will face legal punishment."
+            },
+            {
+                "word": "각하하다",
+                "meaning": "to dismiss (a lawsuit or request without examining merits)",
+                "example_ko": "법원은 요건을 갖추지 못한 소송을 [각하했다].",
+                "example_en": "The court dismissed the lawsuit that did not satisfy the requirements."
+            },
+            {
+                "word": "피의자",
+                "meaning": "suspect",
+                "example_ko": "경찰은 사건 현장에서 체포된 [피의자]를 조사하고 있다.",
+                "example_en": "The police are questioning the suspect arrested at the crime scene."
+            },
+            {
+                "word": "주체",
+                "meaning": "main agent; principal subject",
+                "example_ko": "이 사업의 중심 [주체]는 지역 주민들이다.",
+                "example_en": "The central driving force of this project is the local residents."
+            },
+            {
+                "word": "배분",
+                "meaning": "distribution; allocation",
+                "example_ko": "팀원들은 공정한 업무 [배분]을 요구했다.",
+                "example_en": "The team members demanded a fair allocation of work."
+            },
+            {
+                "word": "불이익",
+                "meaning": "disadvantage; penalty",
+                "example_ko": "규칙을 어기면 큰 [불이익]을 받을 수 있다.",
+                "example_en": "You may receive a significant disadvantage if you break the rules."
+            },
+            {
+                "word": "조정",
+                "meaning": "adjustment; mediation",
+                "example_ko": "노사 양측은 의견 [조정]을 거쳐 합의에 이르렀다.",
+                "example_en": "Both sides reached an agreement after mediating their opinions."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-30",
+        "published_at": "2026-10-30 01:02",
+        "title": "경기 버스 노사 최종 협상… 결렬 시 첫차부터 총파업 예고",
+        "body": "경기도 버스 노조의 총파업 돌입 여부를 결정할 최종 조정회의가 열렸다. 경기 버스 노사는 경기지방노동위원회에서 마주 앉아 핵심 쟁점인 임금 인상안을 두고 협상을 진행했다. 노조는 준공영제 노선의 임금을 서울 버스 수준으로 맞추기 위해 21.56% 인상을 요구하고 있다. 또한 민영제 노선에 대해서도 30%의 임금 인상과 함께 근로시간 단축을 주장했다. 반면 버스 회사 측은 경기도의 재정 여건 악화를 이유로 들며 민영제 노선의 임금 동결 입장을 고수했다. 준공영제 노선에 대해서도 구체적인 인상안을 내놓지 못해 노사 간의 입장 차이가 매우 큰 상황이다. 이번 협상이 끝내 결렬되면 도내 29개 업체의 버스 4천여 대가 내일 첫차부터 전면 파업에 들어간다. 특히 서울과 수도권을 잇는 광역버스도 다수 포함되어 있어 시민들의 출퇴근길 교통 혼잡이 우려된다. 이에 대비해 경기도는 비상 수송 대책을 세우고 주요 거점에 전세버스를 투입하기로 했다.",
+        "translation": "경기도 버스 노조의 총파업 돌입 여부를 결정할 최종 조정회의가 열렸다.\nThe final mediation meeting to decide whether the Gyeonggi bus union will launch a general strike was held.\n\n경기 버스 노사는 경기지방노동위원회에서 마주 앉아 핵심 쟁점인 임금 인상안을 두고 협상을 진행했다.\nManagement and labor of Gyeonggi buses sat down at the Gyeonggi Regional Labor Relations Commission to negotiate over wage increases, which are the core issue.\n\n노조는 준공영제 노선의 임금을 서울 버스 수준으로 맞추기 위해 21.56% 인상을 요구하고 있다.\nThe union is demanding a 21.56% increase to bring wages for quasi-public routes in line with Seoul bus levels.\n\n또한 민영제 노선에 대해서도 30%의 임금 인상과 함께 근로시간 단축을 주장했다.\nThey also demanded a 30% wage increase for privately operated routes along with reduced working hours.\n\n반면 버스 회사 측은 경기도의 재정 여건 악화를 이유로 들며 민영제 노선의 임금 동결 입장을 고수했다.\nOn the other hand, bus companies maintained their position of freezing wages for privately operated routes, citing the worsening financial conditions of Gyeonggi Province.\n\n준공영제 노선에 대해서도 구체적인 인상안을 내놓지 못해 노사 간의 입장 차이가 매우 큰 상황이다.\nThe gap between labor and management remains wide as no concrete wage proposal was presented for quasi-public routes either.\n\n이번 협상이 끝내 결렬되면 도내 29개 업체의 버스 4천여 대가 내일 첫차부터 전면 파업에 들어간다.\nIf this negotiation ultimately falls through, around 4,000 buses from 29 companies in the province will begin a full strike starting from tomorrow's first bus.\n\n특히 서울과 수도권을 잇는 광역버스도 다수 포함되어 있어 시민들의 출퇴근길 교통 혼잡이 우려된다.\nIn particular, because many commuter buses connecting Seoul and the metropolitan area are included, traffic congestion during citizens' commutes is heavily feared.\n\n이에 대비해 경기도는 비상 수송 대책을 세우고 주요 거점에 전세버스를 투입하기로 했다.\nIn preparation, Gyeonggi Province decided to establish emergency transport measures and deploy chartered buses to key transport hubs.",
+        "vocab": [
+            {
+                "word": "결렬되다",
+                "meaning": "to break down; to fall through",
+                "example_ko": "의견 차이가 좁혀지지 않아 결국 협상이 [결렬되었다].",
+                "example_en": "The negotiations ultimately broke down because the difference in opinions could not be narrowed."
+            },
+            {
+                "word": "쟁점",
+                "meaning": "issue; point of contention",
+                "example_ko": "회의에서 가장 뜨거운 [쟁점]은 예산 문제였다.",
+                "example_en": "The hottest issue at the meeting was the budget problem."
+            },
+            {
+                "word": "임금",
+                "meaning": "wage; salary",
+                "example_ko": "물가가 오른 만큼 직원들의 [임금]도 인상되었다.",
+                "example_en": "Employees' wages were also raised as much as prices went up."
+            },
+            {
+                "word": "단축",
+                "meaning": "shortening; reduction",
+                "example_ko": "회사는 직원 복지를 위해 근무 시간 [단축]을 실시했다.",
+                "example_en": "The company implemented a reduction in working hours for employee welfare."
+            },
+            {
+                "word": "재정",
+                "meaning": "finances; public finance",
+                "example_ko": "지방 정부는 [재정] 부족으로 사업을 연기했다.",
+                "example_en": "The local government postponed the project due to a lack of finances."
+            },
+            {
+                "word": "고수하다",
+                "meaning": "to stick to; to adhere strictly",
+                "example_ko": "그는 자신의 생각을 끝까지 [고수했다].",
+                "example_en": "He stuck to his thoughts until the end."
+            },
+            {
+                "word": "타결",
+                "meaning": "settlement; agreement",
+                "example_ko": "밤샘 대화 끝에 노사 협상이 극적으로 [타결]되었다.",
+                "example_en": "Labor-management negotiations reached a dramatic settlement after overnight talks."
+            },
+            {
+                "word": "철회하다",
+                "meaning": "to withdraw; to cancel",
+                "example_ko": "노조는 요구가 받아들여지자 파업 계획을 [철회했다].",
+                "example_en": "The union withdrew its strike plan when its demands were accepted."
+            },
+            {
+                "word": "혼잡",
+                "meaning": "congestion; overcrowding",
+                "example_ko": "출근 시간에는 지하철역의 [혼잡]이 매우 심하다.",
+                "example_en": "The congestion in the subway station is very severe during the morning commute."
+            },
+            {
+                "word": "투입하다",
+                "meaning": "to deploy; to inject",
+                "example_ko": "정부는 사고 현장에 구조 인력을 긴급히 [투입했다].",
+                "example_en": "The government urgently deployed rescue personnel to the accident site."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-30",
+        "published_at": "2026-10-30 01:02",
+        "title": "지하철 원당역 흉기 난동 역무원… 경찰, 살인미수 혐의 구속영장",
+        "body": "지하철역 안에서 동료 역무원에게 흉기를 휘둘러 중상을 입힌 남성 역무원에 대해 경찰이 구속영장을 신청했다. 경기 고양경찰서는 살인미수 혐의로 남성 역무원 A 씨에 대해 법원에 영장을 청구했다. A 씨는 지하철 3호선 원당역 역무실에서 함께 일하던 동료 여성 역무원 B 씨를 흉기로 공격했다. 피해자는 심한 부상을 입고 즉시 병원으로 옮겨져 치료를 받고 있다. 경찰 조사에서 A 씨는 범행에 사용한 흉기를 6개월 전에 미리 사서 가방에 넣어 다녔다고 진술했다. 이에 따라 경찰은 피의자가 사전에 범행을 계획했을 가능성에 무게를 두고 있다. 한편 피해자는 사건 발생 전 갈등을 겪던 A 씨와의 근무 분리를 회사 측에 요청했던 것으로 알려졌다. 하지만 사측이 이러한 분리 조치 요구를 묵살했다는 주장이 제기되었다. 경찰은 피의자에 대한 수사와 더불어 당시 회사의 대처가 적절했는지도 면밀히 조사할 방침이다.",
+        "translation": "지하철역 안에서 동료 역무원에게 흉기를 휘둘러 중상을 입힌 남성 역무원에 대해 경찰이 구속영장을 신청했다.\nThe police applied for an arrest warrant for a male station employee who wielded a weapon against a fellow employee inside a subway station and inflicted severe injuries.\n\n경기 고양경찰서는 살인미수 혐의로 남성 역무원 A 씨에 대해 법원에 영장을 청구했다.\nThe Goyang Police Station in Gyeonggi Province requested a warrant from the court for male station employee A on charges of attempted murder.\n\nA 씨는 지하철 3호선 원당역 역무실에서 함께 일하던 동료 여성 역무원 B 씨를 흉기로 공격했다.\nPerson A attacked female coworker B with a weapon in the station office of Wondang Station on Line 3.\n\n피해자는 심한 부상을 입고 즉시 병원으로 옮겨져 치료를 받고 있다.\nThe victim suffered severe injuries and was immediately taken to the hospital to receive treatment.\n\n경찰 조사에서 A 씨는 범행에 사용한 흉기를 6개월 전에 미리 사서 가방에 넣어 다녔다고 진술했다.\nIn the police investigation, Person A stated that he had bought the weapon used in the crime six months earlier and carried it around in his bag.\n\n이에 따라 경찰은 피의자가 사전에 범행을 계획했을 가능성에 무게를 두고 있다.\nAccordingly, the police are putting weight on the possibility that the suspect planned the crime in advance.\n\n한편 피해자는 사건 발생 전 갈등을 겪던 A 씨와의 근무 분리를 회사 측에 요청했던 것으로 알려졌다.\nMeanwhile, it was reported that before the incident, the victim had requested the company to separate her duties from Person A, with whom she had experienced conflict.\n\n하지만 사측이 이러한 분리 조치 요구를 묵살했다는 주장이 제기되었다.\nHowever, allegations have been raised that the management ignored this request for separation measures.\n\n경찰은 피의자에 대한 수사와 더불어 당시 회사의 대처가 적절했는지도 면밀히 조사할 방침이다.\nAlong with the investigation into the suspect, the police plan to closely investigate whether the company's response at the time was appropriate.",
+        "vocab": [
+            {
+                "word": "휘두르다",
+                "meaning": "to brandish; to swing",
+                "example_ko": "범인이 길거리에서 위험한 물건을 [휘둘렀다].",
+                "example_en": "The criminal brandished a dangerous object on the street."
+            },
+            {
+                "word": "살인미수",
+                "meaning": "attempted murder",
+                "example_ko": "경찰은 피의자에게 [살인미수] 혐의를 적용했다.",
+                "example_en": "The police applied attempted murder charges to the suspect."
+            },
+            {
+                "word": "중상",
+                "meaning": "serious injury",
+                "example_ko": "교통사고로 운전자가 큰 [중상]을 입었다.",
+                "example_en": "The driver suffered serious injuries from the traffic accident."
+            },
+            {
+                "word": "진술하다",
+                "meaning": "to state; to testify",
+                "example_ko": "목격자는 사건 당시의 상황을 정확히 [진술했다].",
+                "example_en": "The witness accurately described the situation at the time of the incident."
+            },
+            {
+                "word": "소지하다",
+                "meaning": "to carry; to possess",
+                "example_ko": "신분증을 항상 [소지하고] 다녀야 한다.",
+                "example_en": "You must always carry your identification card."
+            },
+            {
+                "word": "갈등",
+                "meaning": "conflict; discord",
+                "example_ko": "직원들 사이의 의견 [갈등]을 해결하기 위해 대화했다.",
+                "example_en": "They talked to resolve the conflict of opinions among employees."
+            },
+            {
+                "word": "분리",
+                "meaning": "separation; segregation",
+                "example_ko": "피해자를 보호하기 위해 가해자와의 공간적 [분리]가 필요하다.",
+                "example_en": "Spatial separation from the perpetrator is necessary to protect the victim."
+            },
+            {
+                "word": "묵살되다",
+                "meaning": "to be ignored; to be disregarded",
+                "example_ko": "주민들의 안전 개선 요구가 관리소에 의해 [묵살되었다].",
+                "example_en": "The residents' demands for safety improvements were ignored by the management office."
+            },
+            {
+                "word": "대응",
+                "meaning": "response; countermeasure",
+                "example_ko": "위기 상황에서는 빠르고 침착한 [대응]이 중요하다.",
+                "example_en": "In a crisis situation, a quick and calm response is important."
+            },
+            {
+                "word": "적절하다",
+                "meaning": "to be appropriate; to be suitable",
+                "example_ko": "상황에 맞는 [적절한] 조치를 취해야 한다.",
+                "example_en": "You must take appropriate measures suited to the situation."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-30",
+        "published_at": "2026-10-30 01:02",
+        "title": "미군, 일본·필리핀에 첨단 전투기와 드론 배치… 대중국 견제",
+        "body": "미국이 일본과 필리핀 등 중국 인근 동맹국에 첨단 공군 전력을 배치하며 대중국 압박을 강화하고 있다. 일본 오키나와에 있는 가데나 미 공군기지에는 최근 최신형 스텔스 전투기 F-22 랩터와 F-15C 비행대대가 배치되었다. 가데나 기지는 대만과 지리적으로 가까운 전략적 요충지로 평가받는 곳이다. 이번 배치는 낡은 노후 전투기를 신형 기종으로 교체하면서 공중 전투 능력을 유지하기 위한 조치로 풀이된다. 이와 함께 필리핀 팔라완의 공군기지에도 미 해병대의 무인항공기 부대가 배치되어 본격적인 작전을 수행하고 있다. 이 부대가 운용하는 무인기는 주로 정보 수집과 감시, 정찰 임무를 맡고 있다. 이로써 남중국해 일대에서 활동하는 중국군의 움직임을 정밀하게 감시할 수 있게 되었다. 미국은 중국이 해양 영유권 주장을 강화하자 필리핀의 군사 시설을 확충하고 전력 배치를 확대해 왔다. 전문가들은 앞으로 미국과 필리핀 사이의 정보 공유와 합동 순찰 활동이 더욱 늘어날 것으로 전망했다.",
+        "translation": "미국이 일본과 필리핀 등 중국 인근 동맹국에 첨단 공군 전력을 배치하며 대중국 압박을 강화하고 있다.\nThe United States is strengthening pressure against China by deploying advanced air power to allied nations near China, such as Japan and the Philippines.\n\n일본 오키나와에 있는 가데나 미 공군기지에는 최근 최신형 스텔스 전투기 F-22 랩터와 F-15C 비행대대가 배치되었다.\nAt Kadena Air Base in Okinawa, Japan, squadrons of state-of-the-art stealth fighters including F-22 Raptors and F-15Cs were recently deployed.\n\n가데나 기지는 대만과 지리적으로 가까운 전략적 요충지로 평가받는 곳이다.\nKadena Base is evaluated as a strategic stronghold that is geographically close to Taiwan.\n\n이번 배치는 낡은 노후 전투기를 신형 기종으로 교체하면서 공중 전투 능력을 유지하기 위한 조치로 풀이된다.\nThis deployment is interpreted as a measure to maintain air combat capabilities while replacing aging fighter jets with new models.\n\n이와 함께 필리핀 팔라완의 공군기지에도 미 해병대의 무인항공기 부대가 배치되어 본격적인 작전을 수행하고 있다.\nAlong with this, a U.S. Marine Corps unmanned aerial vehicle unit was deployed to an air base in Palawan, the Philippines, and is carrying out full-scale operations.\n\n이 부대가 운용하는 무인기는 주로 정보 수집과 감시, 정찰 임무를 맡고 있다.\nThe drones operated by this unit are mainly tasked with information gathering, surveillance, and reconnaissance missions.\n\n이로써 남중국해 일대에서 활동하는 중국군의 움직임을 정밀하게 감시할 수 있게 되었다.\nWith this, it has become possible to precisely monitor the movements of the Chinese military operating across the South China Sea area.\n\n미국은 중국이 해양 영유권 주장을 강화하자 필리핀의 군사 시설을 확충하고 전력 배치를 확대해 왔다.\nAs China bolstered its maritime territorial claims, the United States has expanded military infrastructure in the Philippines and increased troop deployments.\n\n전문가들은 앞으로 미국과 필리핀 사이의 정보 공유와 합동 순찰 활동이 더욱 늘어날 것으로 전망했다.\nExperts forecast that intelligence sharing and joint patrol activities between the United States and the Philippines will expand even further in the future.",
+        "vocab": [
+            {
+                "word": "배치하다",
+                "meaning": "to deploy; to arrange",
+                "example_ko": "정부는 국경 지역에 경찰 병력을 추가로 [배치했다].",
+                "example_en": "The government deployed additional police forces to the border area."
+            },
+            {
+                "word": "견제",
+                "meaning": "check; keeping in check",
+                "example_ko": "상대 팀의 공격을 효과적으로 [견제]해야 승리할 수 있다.",
+                "example_en": "We can win only by effectively keeping the opposing team's offense in check."
+            },
+            {
+                "word": "요충지",
+                "meaning": "strategic point; crucial location",
+                "example_ko": "이 항구는 무역과 국방의 중요한 [요충지]로 꼽힌다.",
+                "example_en": "This port is regarded as a vital strategic point for trade and national defense."
+            },
+            {
+                "word": "노후",
+                "meaning": "aging; worn-out; deteriorating",
+                "example_ko": "시에서는 [노후] 건물을 점검하여 안전사고를 예방했다.",
+                "example_en": "The city inspected aging buildings to prevent safety accidents."
+            },
+            {
+                "word": "운용하다",
+                "meaning": "to operate; to manage",
+                "example_ko": "그 기관은 최신 장비를 효율적으로 [운용하고] 있다.",
+                "example_en": "The agency is operating state-of-the-art equipment efficiently."
+            },
+            {
+                "word": "수행하다",
+                "meaning": "to carry out; to execute",
+                "example_ko": "직원들은 맡은 바 임무를 성실하게 [수행했다].",
+                "example_en": "The employees carried out their assigned duties faithfully."
+            },
+            {
+                "word": "영유권",
+                "meaning": "territorial rights; sovereignty",
+                "example_ko": "두 나라는 섬의 [영유권]을 두고 오랫동안 다투어 왔다.",
+                "example_en": "The two countries have long disputed territorial rights over the island."
+            },
+            {
+                "word": "확충하다",
+                "meaning": "to expand; to augment",
+                "example_ko": "병원은 응급실 시설을 대폭 [확충하기로] 결정했다.",
+                "example_en": "The hospital decided to significantly expand its emergency room facilities."
+            },
+            {
+                "word": "순찰",
+                "meaning": "patrol",
+                "example_ko": "경찰관들이 밤마다 골목길을 돌며 [순찰]을 돈다.",
+                "example_en": "Police officers patrol the alleys every night."
+            },
+            {
+                "word": "전망하다",
+                "meaning": "to forecast; to predict",
+                "example_ko": "경제학자들은 올해 경제 성장률이 오를 것으로 [전망했다].",
+                "example_en": "Economists predicted that the economic growth rate would rise this year."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-29",
         "published_at": "2026-10-29 09:45",
         "title": "윤석열 전 대통령 내란 혐의 항소심 결심공판… 특검, 사형 구형 전망",

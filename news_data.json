@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-10-30",
+        "published_at": "2026-10-30 09:46",
+        "title": "한미 국방장관 회담 개최… 동맹 이상설에 '가짜 뉴스' 일축",
+        "body": "강신철 국방부 장관은 최근 제기된 한미동맹 이상 기류설에 대해 미국 측이 사실이 아니라는 입장을 밝혔다고 전했다. 강 장관은 필리핀에서 열린 아세안 확대 국방장관회의에 참석한 뒤 귀국하는 길에 기자들과 만나 회담 결과를 설명했다. 그는 피트 헤그세스 미국 전쟁부 장관과의 면담에서 양국 간 이견이 전혀 없음을 확인했다고 강조했다. 특히 헤그세스 장관은 최근 언론 등에서 제기된 동맹 균열 우려에 대해 '가짜 뉴스'라고 명확히 선을 그었다. 강 장관 역시 이러한 소문이 한미동맹의 견고함을 흔들 수 없으며 흔들려서도 안 된다는 뜻을 밝혔다. 두 장관은 약 40분 동안 별도의 양자 회담을 진행하며 다양한 안보 현안을 논의했다. 전시작전통제권 전환과 관련해서는 목표 연도를 설정하기 위한 검증 절차에 뜻을 모으기로 합의했다. 또한 양국 간 대북 정보 공유 문제에 대해서도 군사적으로 큰 문제가 되지 않는다는 점을 분명히 했다. 이번 회담은 양국 국방 수장이 직접 만나 동맹의 신뢰를 재확인했다는 점에서 주목받고 있다.",
+        "translation": "강신철 국방부 장관은 최근 제기된 한미동맹 이상 기류설에 대해 미국 측이 사실이 아니라는 입장을 밝혔다고 전했다.\nMinister of National Defense Kang Shin-chul conveyed that the U.S. side stated rumors of unusual developments in the South Korea-U.S. alliance were not true.\n\n강 장관은 필리핀에서 열린 아세안 확대 국방장관회의에 참석한 뒤 귀국하는 길에 기자들과 만나 회담 결과를 설명했다.\nMinister Kang met with reporters on his way back home after attending the ASEAN Defense Ministers' Meeting-Plus held in the Philippines and explained the results of the talks.\n\n그는 피트 헤그세스 미국 전쟁부 장관과의 면담에서 양국 간 이견이 전혀 없음을 확인했다고 강조했다.\nHe emphasized that in his meeting with U.S. Secretary of War Pete Hegseth, he confirmed that there were no differences of opinion between the two countries at all.\n\n특히 헤그세스 장관은 최근 언론 등에서 제기된 동맹 균열 우려에 대해 '가짜 뉴스'라고 명확히 선을 그었다.\nIn particular, Secretary Hegseth clearly drew the line regarding concerns about alliance cracks raised in the media, calling them \"fake news.\"\n\n강 장관 역시 이러한 소문이 한미동맹의 견고함을 흔들 수 없으며 흔들려서도 안 된다는 뜻을 밝혔다.\nMinister Kang also stated that such rumors cannot and must not shake the solidity of the South Korea-U.S. alliance.\n\n두 장관은 약 40분 동안 별도의 양자 회담을 진행하며 다양한 안보 현안을 논의했다.\nThe two ministers held a separate bilateral meeting for about 40 minutes and discussed various pending security issues.\n\n전시작전통제권 전환과 관련해서는 목표 연도를 설정하기 위한 검증 절차에 뜻을 모으기로 합의했다.\nRegarding the transition of wartime operational control, they agreed to join forces on the verification process to set a target year.\n\n또한 양국 간 대북 정보 공유 문제에 대해서도 군사적으로 큰 문제가 되지 않는다는 점을 분명히 했다.\nAdditionally, they made it clear that the issue of intelligence sharing on North Korea between the two nations is not a major military problem.\n\n이번 회담은 양국 국방 수장이 직접 만나 동맹의 신뢰를 재확인했다는 점에서 주목받고 있다.\nThis meeting is drawing attention because the defense chiefs of both nations met in person and reaffirmed mutual trust in the alliance.",
+        "vocab": [
+            {
+                "word": "이상",
+                "meaning": "abnormality, unusualness",
+                "example_ko": "기계에서 [이상] 소음이 발생하여 작동을 멈췄다.",
+                "example_en": "I stopped operating the machine because it made an unusual noise."
+            },
+            {
+                "word": "기류",
+                "meaning": "current, tendency, atmosphere",
+                "example_ko": "최근 두 나라 사이에 평화를 바라는 새로운 [기류]가 생겼다.",
+                "example_en": "Recently, a new atmosphere of hoping for peace has emerged between the two countries."
+            },
+            {
+                "word": "귀국하다",
+                "meaning": "to return to one's home country",
+                "example_ko": "해외 유학을 마치고 다음 주에 한국으로 [귀국한다].",
+                "example_en": "I will return to Korea next week after finishing studying abroad."
+            },
+            {
+                "word": "면담",
+                "meaning": "interview, meeting, talk",
+                "example_ko": "선생님과의 [면담]을 통해 진로에 대해 상담했다.",
+                "example_en": "I consulted about my career path through an interview with the teacher."
+            },
+            {
+                "word": "이견",
+                "meaning": "difference of opinion, disagreement",
+                "example_ko": "팀원들 사이에 회의 주제를 두고 작은 [이견]이 있었다.",
+                "example_en": "There was a small difference of opinion among the team members over the meeting topic."
+            },
+            {
+                "word": "견고하다",
+                "meaning": "to be solid, firm, strong",
+                "example_ko": "두 사람은 오랜 시간 동안 [견고한] 우정을 유지해 왔다.",
+                "example_en": "The two have maintained a solid friendship for a long time."
+            },
+            {
+                "word": "현안",
+                "meaning": "pending issue, unresolved matter",
+                "example_ko": "정부는 시급한 경제 [현안]을 해결하기 위해 회의를 열었다.",
+                "example_en": "The government held a meeting to address urgent economic issues."
+            },
+            {
+                "word": "전환",
+                "meaning": "transition, switch, change",
+                "example_ko": "친환경 에너지로의 [전환]은 미래를 위해 매우 중요하다.",
+                "example_en": "The transition to eco-friendly energy is very important for the future."
+            },
+            {
+                "word": "검증",
+                "meaning": "verification, examination",
+                "example_ko": "새로 개발된 기술은 철저한 [검증]을 거쳐야 한다.",
+                "example_en": "The newly developed technology must undergo thorough verification."
+            },
+            {
+                "word": "수장",
+                "meaning": "head, leader, chief",
+                "example_ko": "그는 한 조직의 [수장]으로서 큰 책임감을 느꼈다.",
+                "example_en": "He felt great responsibility as the head of an organization."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-30",
+        "published_at": "2026-10-30 09:46",
+        "title": "엔비디아, 네이버에 1조 원대 투자… 3대 주주로 부상",
+        "body": "미국의 대표 인공지능 반도체 기업 엔비디아가 한국의 네이버에 대규모 투자를 단행한다. 네이버는 엔비디아로부터 유치하기로 한 약 10억 달러의 투자금 납입일이 다음 달 6일로 확정됐다고 공시했다. 이는 우리 돈으로 약 1조 3,500억 원에 달하는 막대한 규모이다. 납입 절차가 정상적으로 마무리되면 엔비디아는 네이버 지분 약 4.54%를 확보하게 된다. 이에 따라 엔비디아는 국민연금공단과 블랙록에 이어 네이버의 3대 주주로 올라설 전망이다. 네이버는 이번 투자를 위해 필요한 대규모 컴퓨팅 인프라 요건을 이미 성공적으로 충족했다고 밝혔다. 이번 투자를 계기로 네이버와 엔비디아는 글로벌 인공지능 인프라 구축 사업을 본격적으로 추진할 계획이다. 양사는 향후 세계 시장을 무대로 협력을 확대하며 차세대 기술 경쟁력을 한층 강화해 나갈 방침이다. 전문가들은 이번 협력이 한국 정보기술 산업의 위상을 높이는 중요한 전환점이 될 것으로 평가하고 있다.",
+        "translation": "미국의 대표 인공지능 반도체 기업 엔비디아가 한국의 네이버에 대규모 투자를 단행한다.\nNvidia, a leading American AI semiconductor company, is making a massive investment in South Korea's Naver.\n\n네이버는 엔비디아로부터 유치하기로 한 약 10억 달러의 투자금 납입일이 다음 달 6일로 확정됐다고 공시했다.\nNaver publicly disclosed that the payment date for the approximately 1 billion dollar investment from Nvidia has been confirmed for the 6th of next month.\n\n이는 우리 돈으로 약 1조 3,500억 원에 달하는 막대한 규모이다.\nThis is a massive scale amounting to about 1.35 trillion Korean won in our currency.\n\n납입 절차가 정상적으로 마무리되면 엔비디아는 네이버 지분 약 4.54%를 확보하게 된다.\nOnce the payment process is completed normally, Nvidia will secure about a 4.54% stake in Naver.\n\n이에 따라 엔비디아는 국민연금공단과 블랙록에 이어 네이버의 3대 주주로 올라설 전망이다.\nAccordingly, Nvidia is expected to rise as Naver's third-largest shareholder following the National Pension Service and BlackRock.\n\n네이버는 이번 투자를 위해 필요한 대규모 컴퓨팅 인프라 요건을 이미 성공적으로 충족했다고 밝혔다.\nNaver stated that it had already successfully met the large-scale computing infrastructure requirements necessary for this investment.\n\n이번 투자를 계기로 네이버와 엔비디아는 글로벌 인공지능 인프라 구축 사업을 본격적으로 추진할 계획이다.\nTaking this investment as an opportunity, Naver and Nvidia plan to push forward in earnest with a global AI infrastructure construction project.\n\n양사는 향후 세계 시장을 무대로 협력을 확대하며 차세대 기술 경쟁력을 한층 강화해 나갈 방침이다.\nBoth companies plan to expand cooperation on the global stage and further strengthen their next-generation technological competitiveness in the future.\n\n전문가들은 이번 협력이 한국 정보기술 산업의 위상을 높이는 중요한 전환점이 될 것으로 평가하고 있다.\nExperts assess that this cooperation will serve as an important turning point to elevate the standing of Korea's information technology industry.",
+        "vocab": [
+            {
+                "word": "단행하다",
+                "meaning": "to carry out, to implement resolutely",
+                "example_ko": "회사는 위기를 극복하기 위해 대규모 구조 조정을 [단행했다].",
+                "example_en": "The company carried out large-scale restructuring to overcome the crisis."
+            },
+            {
+                "word": "유치하다",
+                "meaning": "to attract, to bring in",
+                "example_ko": "도시는 외국인 관광객을 [유치하기] 위해 다양한 축제를 열었다.",
+                "example_en": "The city held various festivals to attract foreign tourists."
+            },
+            {
+                "word": "공시하다",
+                "meaning": "to publicly disclose, to announce officially",
+                "example_ko": "기업은 분기별 매출 실적을 시장에 정확하게 [공시해야] 한다.",
+                "example_en": "Companies must accurately disclose quarterly sales results to the market."
+            },
+            {
+                "word": "막대하다",
+                "meaning": "to be enormous, colossal, immense",
+                "example_ko": "이번 태풍으로 인해 농가들이 [막대한] 피해를 입었다.",
+                "example_en": "Farm households suffered immense damage due to this typhoon."
+            },
+            {
+                "word": "지분",
+                "meaning": "stake, equity, share",
+                "example_ko": "그는 회사 주식의 10%에 달하는 [지분을] 가지고 있다.",
+                "example_en": "He owns an equity stake amounting to 10% of the company's shares."
+            },
+            {
+                "word": "확보하다",
+                "meaning": "to secure, to obtain",
+                "example_ko": "여행을 떠나기 전에 안전한 숙소를 먼저 [확보해야] 한다.",
+                "example_en": "You must secure safe lodging before setting out on a trip."
+            },
+            {
+                "word": "충족하다",
+                "meaning": "to satisfy, to meet (conditions/requirements)",
+                "example_ko": "지원자는 서류 심사 기준을 충분히 [충족했다].",
+                "example_en": "The applicant fully met the criteria for document screening."
+            },
+            {
+                "word": "구축",
+                "meaning": "construction, building, establishment",
+                "example_ko": "안전한 통신망 [구축]은 디지털 사회의 기본이다.",
+                "example_en": "Building a safe communication network is fundamental to a digital society."
+            },
+            {
+                "word": "방침",
+                "meaning": "policy, course of action, plan",
+                "example_ko": "정부는 물가를 안정시키겠다는 확고한 [방침을] 세웠다.",
+                "example_en": "The government established a firm policy to stabilize prices."
+            },
+            {
+                "word": "위상",
+                "meaning": "status, standing, position",
+                "example_ko": "한국 문화가 세계적으로 인기를 끌면서 국가적 [위상이] 높아졌다.",
+                "example_en": "As Korean culture gained worldwide popularity, the nation's international standing rose."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-30",
+        "published_at": "2026-10-30 09:46",
+        "title": "경기 파주 접경지서 대남방송 추정 소음… 주민 불안 재확산",
+        "body": "경기도 파주시 접경지역에서 북한의 대남 확성기 방송으로 보이는 소음이 들려 주민들의 불안이 커지고 있다. 비무장지대 남방한계선 인근 마을 주민들은 아침 시간대에 동물 소리와 괴성 등 기괴한 소음이 수 시간 동안 이어졌다고 증언했다. 접경지역 주민들은 과거에도 장기간 이어진 소음으로 수면장애와 극심한 스트레스를 겪은 바 있다. 주민들은 과거의 악몽 같은 피해가 다시 반복되지 않을까 깊이 우려하고 있다. 군 당국은 전방부대에서 확성기 방송이 공식적으로 청취된 기록은 없다고 밝혔다. 정보 당국 또한 주민들의 이번 신고가 오인일 가능성에 무게를 두었다. 하지만 북한이 의도적으로 출력을 줄여 시험방송을 진행했을 경우 지형에 따라 특정 지역에서만 들렸을 가능성도 배제할 수 없다. 앞서 북한 당국은 이달 중 대남 방송을 재개하겠다고 예고한 상태이다. 접경지역 주민들은 일상의 평화가 또다시 위협받을까 봐 긴장을 늦추지 못하고 있다.",
+        "translation": "경기도 파주시 접경지역에서 북한의 대남 확성기 방송으로 보이는 소음이 들려 주민들의 불안이 커지고 있다.\nIn the border area of Paju, Gyeonggi Province, noises presumed to be North Korea's loudspeaker broadcasts toward the South were heard, heightening residents' anxiety.\n\n비무장지대 남방한계선 인근 마을 주민들은 아침 시간대에 동물 소리와 괴성 등 기괴한 소음이 수 시간 동안 이어졌다고 증언했다.\nVillagers near the Southern Limit Line of the Demilitarized Zone testified that bizarre noises such as animal sounds and screams continued for several hours in the morning.\n\n접경지역 주민들은 과거에도 장기간 이어진 소음으로 수면장애와 극심한 스트레스를 겪은 바 있다.\nBorder area residents have suffered sleep disorders and extreme stress in the past due to prolonged noise.\n\n주민들은 과거의 악몽 같은 피해가 다시 반복되지 않을까 깊이 우려하고 있다.\nResidents are deeply worried that the nightmare-like damage of the past might be repeated.\n\n군 당국은 전방부대에서 확성기 방송이 공식적으로 청취된 기록은 없다고 밝혔다.\nMilitary authorities stated that frontline units have no official record of loudspeaker broadcasts being heard.\n\n정보 당국 또한 주민들의 이번 신고가 오인일 가능성에 무게를 두었다.\nIntelligence authorities also placed weight on the possibility that the residents' report was a misunderstanding.\n\n하지만 북한이 의도적으로 출력을 줄여 시험방송을 진행했을 경우 지형에 따라 특정 지역에서만 들렸을 가능성도 배제할 수 없다.\nHowever, if North Korea deliberately reduced output to conduct test broadcasts, the possibility that it was heard only in specific areas depending on topography cannot be ruled out.\n\n앞서 북한 당국은 이달 중 대남 방송을 재개하겠다고 예고한 상태이다.\nPreviously, North Korean authorities announced in advance that they would resume broadcasts against the South within this month.\n\n접경지역 주민들은 일상의 평화가 또다시 위협받을까 봐 긴장을 늦추지 못하고 있다.\nResidents of the border area cannot relax their guard, fearing that the peace of their daily lives might be threatened once again.",
+        "vocab": [
+            {
+                "word": "접경지역",
+                "meaning": "border region, frontier area",
+                "example_ko": "군사 분계선과 가까운 [접경지역]은 출입이 엄격히 통제된다.",
+                "example_en": "Access to the border region close to the military demarcation line is strictly controlled."
+            },
+            {
+                "word": "증언하다",
+                "meaning": "to testify, to bear witness",
+                "example_ko": "목격자는 경찰서에서 자신이 본 사고 상황을 자세히 [증언했다].",
+                "example_en": "The eyewitness testified in detail at the police station about the accident situation he saw."
+            },
+            {
+                "word": "기괴하다",
+                "meaning": "to be bizarre, grotesque, weird",
+                "example_ko": "깊은 밤 숲속에서 정체를 알 수 없는 [기괴한] 소리가 들렸다.",
+                "example_en": "In the middle of the night, a bizarre and unidentified sound was heard from deep in the forest."
+            },
+            {
+                "word": "수면장애",
+                "meaning": "sleep disorder",
+                "example_ko": "스트레스가 심해지면 밤에 잠을 잘 자지 못하는 [수면장애]가 생긴다.",
+                "example_en": "When stress becomes severe, sleep disorders occur where one cannot sleep well at night."
+            },
+            {
+                "word": "극심하다",
+                "meaning": "to be extreme, severe",
+                "example_ko": "가뭄이 오랫동안 이어져 농촌 주민들이 [극심한] 고통을 겪고 있다.",
+                "example_en": "Because the drought has continued for a long time, rural residents are suffering severe pain."
+            },
+            {
+                "word": "청취하다",
+                "meaning": "to listen to, to hear",
+                "example_ko": "학생들은 외국어 실력을 높이기 위해 영어 라디오를 매일 [청취한다].",
+                "example_en": "Students listen to English radio every day to improve their foreign language skills."
+            },
+            {
+                "word": "오인",
+                "meaning": "misunderstanding, mistaking, misidentification",
+                "example_ko": "어두운 밤길에서 나무 그림자를 사람으로 [오인]하여 깜짝 놀랐다.",
+                "example_en": "On the dark road at night, I was startled after mistaking the shadow of a tree for a person."
+            },
+            {
+                "word": "배제하다",
+                "meaning": "to exclude, to rule out",
+                "example_ko": "어떤 계획을 세울 때는 작은 위험도 결코 [배제해서는] 안 된다.",
+                "example_en": "When making any plan, you must never rule out even small risks."
+            },
+            {
+                "word": "재개하다",
+                "meaning": "to resume, to restart",
+                "example_ko": "휴식을 마친 선수들은 다음 주부터 본격적인 훈련을 [재개한다].",
+                "example_en": "Having finished their break, the athletes will resume intensive training starting next week."
+            },
+            {
+                "word": "위협받다",
+                "meaning": "to be threatened",
+                "example_ko": "환경오염 때문에 많은 야생동물이 생존을 심각하게 [위협받고] 있다.",
+                "example_en": "Due to environmental pollution, many wild animals are having their survival seriously threatened."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-30",
+        "published_at": "2026-10-30 09:46",
+        "title": "튀르키예 카파도키아 '요정 굴뚝' 바위 붕괴… 8명 사상",
+        "body": "튀르키예의 대표적 관광지인 카파도키아에서 기암괴석이 무너져 내려 다수의 사상자가 발생했다. 외신에 따르면 중부 네브셰히르주의 야외박물관 입구에 위치한 '요정 굴뚝' 바위가 갑자기 붕괴했다. 거대한 낙석이 바위 아래에 있던 주차장과 도로를 덮치면서 현장은 순식간에 아수라장으로 변했다. 긴급 출동한 구조대는 현장에서 외국인 관광객을 포함한 사망자 3명의 시신을 수습했다. 또한 바위에 깔리거나 파편에 맞아 다친 부상자 5명을 인근 병원으로 긴급 이송했다. 현지 당국은 최근 이 지역에 내린 집중 호우로 인해 지반이 약해지면서 사고가 발생한 것으로 보고 있다. 카파도키아는 화산 폭발로 생긴 응회암 지대로, 바위가 단단하지 않아 비바람에 쉽게 깎이는 특성을 지닌다. 이 일대는 독특한 자연경관과 유구한 역사적 가치를 인정받아 유네스코 세계유산으로 지정되어 있다. 당국은 추가 붕괴 위험을 점검하기 위해 현장 통제를 강화하고 정확한 사고 원인을 조사하고 있다.",
+        "translation": "튀르키예의 대표적 관광지인 카파도키아에서 기암괴석이 무너져 내려 다수의 사상자가 발생했다.\nIn Cappadocia, Turkey's representative tourist attraction, fantastic rocks collapsed, causing multiple casualties.\n\n외신에 따르면 중부 네브셰히르주의 야외박물관 입구에 위치한 '요정 굴뚝' 바위가 갑자기 붕괴했다.\nAccording to foreign media reports, the \"fairy chimney\" rock located at the entrance to an open-air museum in the central province of Nevsehir suddenly collapsed.\n\n거대한 낙석이 바위 아래에 있던 주차장과 도로를 덮치면서 현장은 순식간에 아수라장으로 변했다.\nAs huge falling rocks engulfed the parking lot and road below, the scene turned into chaos in an instant.\n\n긴급 출동한 구조대는 현장에서 외국인 관광객을 포함한 사망자 3명의 시신을 수습했다.\nThe rescue team that rushed to the scene recovered the bodies of three deceased individuals, including a foreign tourist.\n\n또한 바위에 깔리거나 파편에 맞아 다친 부상자 5명을 인근 병원으로 긴급 이송했다.\nThey also urgently transported five injured people, who were crushed by rocks or hit by debris, to nearby hospitals.\n\n현지 당국은 최근 이 지역에 내린 집중 호우로 인해 지반이 약해지면서 사고가 발생한 것으로 보고 있다.\nLocal authorities view the accident as having occurred because the ground weakened due to recent heavy rains in the area.\n\n카파도키아는 화산 폭발로 생긴 응회암 지대로, 바위가 단단하지 않아 비바람에 쉽게 깎이는 특성을 지닌다.\nCappadocia is a tuff area formed by volcanic eruptions, characterized by rocks that are not solid and easily eroded by wind and rain.\n\n이 일대는 독특한 자연경관과 유구한 역사적 가치를 인정받아 유네스코 세계유산으로 지정되어 있다.\nThis entire area is designated as a UNESCO World Heritage site in recognition of its unique natural landscape and long historical value.\n\n당국은 추가 붕괴 위험을 점검하기 위해 현장 통제를 강화하고 정확한 사고 원인을 조사하고 있다.\nAuthorities are strengthening site control and investigating the exact cause of the accident to check for risks of additional collapses.",
+        "vocab": [
+            {
+                "word": "기암괴석",
+                "meaning": "oddly shaped rocks, fantastic rock formations",
+                "example_ko": "그 산은 수많은 [기암괴석]이 아름다운 풍경을 자랑한다.",
+                "example_en": "The mountain boasts beautiful scenery with numerous fantastic rock formations."
+            },
+            {
+                "word": "붕괴하다",
+                "meaning": "to collapse, to cave in",
+                "example_ko": "오래된 건물이 폭우를 견디지 못하고 갑자기 [붕괴했다].",
+                "example_en": "The old building could not withstand the heavy rain and suddenly collapsed."
+            },
+            {
+                "word": "낙석",
+                "meaning": "falling rocks, rockfall",
+                "example_ko": "장마철 산길을 운전할 때는 [낙석] 사고에 각별히 주의해야 한다.",
+                "example_en": "When driving on mountain roads during the rainy season, you must be particularly careful of rockfalls."
+            },
+            {
+                "word": "아수라장",
+                "meaning": "chaos, scene of utter confusion, shambles",
+                "example_ko": "갑작스러운 화재 경보로 인해 건물 안은 순식간에 [아수라장이] 되었다.",
+                "example_en": "Due to the sudden fire alarm, the interior of the building turned into total chaos in an instant."
+            },
+            {
+                "word": "수습하다",
+                "meaning": "to recover (bodies/debris), to settle, to clean up",
+                "example_ko": "경찰은 사고 현장을 정리하고 유류품을 조심스럽게 [수습했다].",
+                "example_en": "The police cleared the accident scene and carefully collected the left-behind items."
+            },
+            {
+                "word": "파편",
+                "meaning": "fragment, debris, splinter",
+                "example_ko": "유리병이 깨지면서 튀어 오른 [파편]에 손을 다쳤다.",
+                "example_en": "I hurt my hand on a splinter that bounced up when the glass bottle broke."
+            },
+            {
+                "word": "지반",
+                "meaning": "ground, soil foundation",
+                "example_ko": "비가 많이 내리면 [지반이] 약해져 산사태가 발생하기 쉽다.",
+                "example_en": "When it rains heavily, the ground weakens, making landslides likely to occur."
+            },
+            {
+                "word": "깎이다",
+                "meaning": "to be worn down, eroded, shaved",
+                "example_ko": "오랜 세월 파도에 [깎인] 바위가 부드러운 모양을 띠고 있다.",
+                "example_en": "The rocks worn down by waves over a long time have taken on a smooth shape."
+            },
+            {
+                "word": "유구하다",
+                "meaning": "to be long-standing, eternal, ancient",
+                "example_ko": "한국은 반만년의 [유구한] 역사와 전통을 자랑한다.",
+                "example_en": "Korea boasts an ancient history and tradition of five thousand years."
+            },
+            {
+                "word": "통제",
+                "meaning": "control, restriction, regulation",
+                "example_ko": "도로 공사로 인해 이 구간의 차량 [통제가] 실시되고 있다.",
+                "example_en": "Due to road construction, vehicular control is being enforced in this section."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-10-30",
         "published_at": "2026-10-30 01:02",
         "title": "헌재, 검사 보완수사권 폐지 형사소송법 헌법소원 각하",
         "body": "헌법재판소가 검사의 보완수사권을 폐지한 개정 형사소송법 조항에 대해 기본권 침해 가능성이 없다고 판단했다. 헌재는 형사소송법 제196조 삭제 부분과 제197조의2에 대한 위헌확인 소송을 각하하기로 결정했다. 이번 헌법소원을 청구한 A 씨는 검찰에서 피의자 조사를 받던 중 법 개정으로 수사 주체가 경찰로 바뀌었다. 이에 A 씨는 검사의 보완수사 요구로 사건이 경찰로 넘어가 공정한 재판을 받을 권리가 침해되었다며 소송을 제기했다. 하지만 재판관들은 보완수사권 관련 조항이 검사와 경찰 사이의 수사 권한 배분을 정한 규정일 뿐이라고 보았다. 헌재는 수사기관 간의 권한 배분 내용이 변경되었다고 해서 청구인의 법적 지위에 불이익이 발생했다고 보기 어렵다고 설명했다. 이번 결정에 따라 검사와 경찰의 수사권 조정과 관련된 법 조항은 헌법상 기본권을 침해하지 않는다는 점이 확인되었다.",

@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-10-31",
+        "published_at": "2026-10-31 00:51",
+        "title": "중국, 미국 통신위의 시험·인증기관 제한에 강력 반발",
+        "body": "중국 상무부는 미국 연방통신위원회(FCC)가 중국 등의 시험 및 인증기관을 제한하기로 한 조치에 대해 강하게 반발하며 철회를 요구했다. 미국은 오는 2028년 12월부터 중국 등 이른바 '비상호주의 경제권'에 있는 기관의 FCC 관련 시험과 인증 업무를 전면 금지하기로 결정했다. 이에 대해 중국 상무부는 이번 조치가 미중 정상 간의 합의를 명백히 위반한 것이라고 강하게 비판했다. 또한 이번 규제로 인해 기업들의 검사 비용이 증가하고 제품 출시 기간도 늘어날 것이라고 지적했다. 결국 이러한 피해는 중국 기업뿐만 아니라 미국 기업과 소비자에게도 고스란히 돌아갈 것이라고 강조했다. 중국 측은 문제 해결을 위한 대화와 협상의 문은 여전히 열려 있다는 입장을 거듭 밝혔다. 그러나 미국 정부가 부당한 제한 조치를 끝내 강행한다면 결코 물러서지 않겠다고 경고했다. 중국 상무부는 자국 기업의 정당한 권익을 지키기 위해 필요한 추가 조치를 취하겠다고 덧붙였다.",
+        "translation": "중국 상무부는 미국 연방통신위원회(FCC)가 중국 등의 시험 및 인증기관을 제한하기로 한 조치에 대해 강하게 반발하며 철회를 요구했다.\nChina's Ministry of Commerce strongly pushed back against the US Federal Communications Commission's decision to restrict testing and certification bodies in countries including China, demanding its withdrawal.\n\n미국은 오는 2028년 12월부터 중국 등 이른바 '비상호주의 경제권'에 있는 기관의 FCC 관련 시험과 인증 업무를 전면 금지하기로 결정했다.\nThe United States decided to completely ban FCC-related testing and certification operations by institutions in so-called 'non-reciprocal economies,' including China, starting in December 2028.\n\n이에 대해 중국 상무부는 이번 조치가 미중 정상 간의 합의를 명백히 위반한 것이라고 강하게 비판했다.\nIn response, China's Commerce Ministry sharply criticized the move, calling it a clear violation of the consensus reached between the leaders of the US and China.\n\n또한 이번 규제로 인해 기업들의 검사 비용이 증가하고 제품 출시 기간도 늘어날 것이라고 지적했다.\nIt also pointed out that this regulation would increase inspection costs for companies and lengthen product launch timelines.\n\n결국 이러한 피해는 중국 기업뿐만 아니라 미국 기업과 소비자에게도 고스란히 돌아갈 것이라고 강조했다.\nIt stressed that the resulting damage would inevitably fall on American companies and consumers as well as Chinese firms.\n\n중국 측은 문제 해결을 위한 대화와 협상의 문은 여전히 열려 있다는 입장을 거듭 밝혔다.\nThe Chinese side reiterated its stance that the door to dialogue and negotiation for resolving the issue remains open.\n\n그러나 미국 정부가 부당한 제한 조치를 끝내 강행한다면 결코 물러서지 않겠다고 경고했다.\nHowever, it warned that it would never back down if the US government insists on pushing ahead with the unfair restrictive measures.\n\n중국 상무부는 자국 기업의 정당한 권익을 지키기 위해 필요한 추가 조치를 취하겠다고 덧붙였다.\nChina's Ministry of Commerce added that it will take necessary additional measures to protect the legitimate rights and interests of its enterprises.",
+        "vocab": [
+            {
+                "word": "반발하다",
+                "meaning": "to push back, to oppose, to resist",
+                "example_ko": "시민들은 정부의 갑작스러운 세금 인상 계획에 거세게 [반발했다].",
+                "example_en": "Citizens strongly pushed back against the government's sudden tax hike plan."
+            },
+            {
+                "word": "철회하다",
+                "meaning": "to withdraw, to retract, to revoke",
+                "example_ko": "회사는 직원들의 항의를 받고 새로운 근무 규칙을 [철회했다].",
+                "example_en": "The company withdrew the new work rules after receiving complaints from employees."
+            },
+            {
+                "word": "금지하다",
+                "meaning": "to ban, to prohibit, to forbid",
+                "example_ko": "박물관 안에서는 사진 촬영을 엄격히 [금지하고] 있다.",
+                "example_en": "Taking photos inside the museum is strictly prohibited."
+            },
+            {
+                "word": "위반하다",
+                "meaning": "to violate, to breach, to infringe",
+                "example_ko": "교통 법규를 [위반하면] 무거운 벌금을 내야 한다.",
+                "example_en": "If you violate traffic regulations, you have to pay a heavy fine."
+            },
+            {
+                "word": "지적하다",
+                "meaning": "to point out, to criticize",
+                "example_ko": "선생님은 숙제에서 잘못된 부분을 정확히 [지적해] 주셨다.",
+                "example_en": "The teacher pointed out the incorrect parts in my homework clearly."
+            },
+            {
+                "word": "소비자",
+                "meaning": "consumer",
+                "example_ko": "기업은 [소비자의] 다양한 의견을 듣고 제품을 개선해야 한다.",
+                "example_en": "Companies should listen to the diverse opinions of consumers and improve their products."
+            },
+            {
+                "word": "협상",
+                "meaning": "negotiation",
+                "example_ko": "노동조합과 회사는 오랜 [협상] 끝에 마침내 합의에 도달했다.",
+                "example_en": "The union and the company finally reached an agreement after lengthy negotiations."
+            },
+            {
+                "word": "강행하다",
+                "meaning": "to push ahead with, to force through",
+                "example_ko": "비가 많이 내렸지만 주최 측은 야외 행사를 그대로 [강행했다].",
+                "example_en": "Although it rained heavily, the organizers pushed ahead with the outdoor event anyway."
+            },
+            {
+                "word": "정당하다",
+                "meaning": "to be legitimate, to be fair, to be just",
+                "example_ko": "일한 만큼 [정당한] 대가를 받는 것은 노동자의 기본적인 권리이다.",
+                "example_en": "Receiving a fair reward for one's work is a fundamental right of workers."
+            },
+            {
+                "word": "권익",
+                "meaning": "rights and interests",
+                "example_ko": "이 단체는 소비자의 기본적인 [권익을] 보호하기 위해 활동한다.",
+                "example_en": "This organization works to protect the fundamental rights and interests of consumers."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-31",
+        "published_at": "2026-10-31 00:51",
+        "title": "바이낸스 8조 원대 해킹 피해… 입출금 전면 중단 후 보상 약속",
+        "body": "세계 최대 가상자산 거래소인 바이낸스가 대규모 해킹을 당해 약 8조 4천억 원 규모의 막대한 피해를 입었다. 바이낸스는 현지 시간 30일 공식 입장문을 내고 해킹 사고로 인한 피해 추정 규모가 약 63억 달러에 달한다고 밝혔다. 다만 바이낸스 측은 이 중 약 30억 달러는 해커들이 외부로 옮기거나 현금화하지 못하도록 즉각 차단했다고 설명했다. 또한 거래소는 추가 피해를 막기 위해 모든 가상자산 입출금 서비스를 일시적으로 전면 중단했다. 바이낸스는 이번 사건으로 손실을 입은 고객들의 피해를 전액 보상하겠다고 신속히 약속했다. 이번 피해 추정액은 과거 최대 규모 해킹 사고였던 바이비트 사태의 약 4.2배에 달하는 사상 최대 수준이다. 한편 미국의 보안 전문 업체 TRM랩스는 이번 공격의 배후로 북한을 공식 지목했다. 이 업체는 이번 사건이 가상자산 역사상 가장 큰 규모의 탈취 사건이라고 평가했다.",
+        "translation": "세계 최대 가상자산 거래소인 바이낸스가 대규모 해킹을 당해 약 8조 4천억 원 규모의 막대한 피해를 입었다.\nBinance, the world's largest virtual asset exchange, suffered massive damage worth about 8.4 trillion won due to a large-scale hacking attack.\n\n바이낸스는 현지 시간 30일 공식 입장문을 내고 해킹 사고로 인한 피해 추정 규모가 약 63억 달러에 달한다고 밝혔다.\nBinance released an official statement on the 30th local time, stating that the estimated damage from the hacking incident reached approximately 6.3 billion dollars.\n\n다만 바이낸스 측은 이 중 약 30억 달러는 해커들이 외부로 옮기거나 현금화하지 못하도록 즉각 차단했다고 설명했다.\nHowever, Binance explained that it immediately blocked about 3 billion dollars of that amount to prevent the hackers from transferring it elsewhere or cashing it out.\n\n또한 거래소는 추가 피해를 막기 위해 모든 가상자산 입출금 서비스를 일시적으로 전면 중단했다.\nThe exchange also completely suspended all virtual asset deposit and withdrawal services temporarily to prevent further damage.\n\n바이낸스는 이번 사건으로 손실을 입은 고객들의 피해를 전액 보상하겠다고 신속히 약속했다.\nBinance promptly promised to fully compensate for the losses of customers affected by this incident.\n\n이번 피해 추정액은 과거 최대 규모 해킹 사고였던 바이비트 사태의 약 4.2배에 달하는 사상 최대 수준이다.\nThis estimated damage amount is the largest in history, reaching about 4.2 times that of the previous largest hacking incident at Bybit.\n\n한편 미국의 보안 전문 업체 TRM랩스는 이번 공격의 배후로 북한을 공식 지목했다.\nMeanwhile, TRM Labs, a US security firm, officially pointed to North Korea as the mastermind behind this attack.\n\n이 업체는 이번 사건이 가상자산 역사상 가장 큰 규모의 탈취 사건이라고 평가했다.\nThe company evaluated this incident as the single largest theft case in the history of virtual assets.",
+        "vocab": [
+            {
+                "word": "거래소",
+                "meaning": "exchange, stock/crypto market",
+                "example_ko": "그는 가상화폐 [거래소에] 계좌를 개설하고 첫 투자를 시작했다.",
+                "example_en": "He opened an account on a cryptocurrency exchange and started his first investment."
+            },
+            {
+                "word": "규모",
+                "meaning": "scale, size",
+                "example_ko": "정부는 중소기업을 돕기 위해 사상 최대 [규모의] 지원금을 편성했다.",
+                "example_en": "The government organized support funds of an all-time record scale to help small and medium-sized enterprises."
+            },
+            {
+                "word": "추정하다",
+                "meaning": "to estimate, to presume",
+                "example_ko": "전문가들은 올해 경제 성장률이 2퍼센트에 이를 것으로 [추정하고] 있다.",
+                "example_en": "Experts estimate that this year's economic growth rate will reach 2 percent."
+            },
+            {
+                "word": "현금화하다",
+                "meaning": "to cash out, to liquidate into cash",
+                "example_ko": "집을 사기 위해 그동안 모아둔 주식을 모두 [현금화했다].",
+                "example_en": "I cashed out all the stocks I had saved up in order to buy a house."
+            },
+            {
+                "word": "차단하다",
+                "meaning": "to block, to intercept, to cut off",
+                "example_ko": "해킹 공격을 막기 위해 의심스러운 인터넷 주소의 접근을 즉각 [차단했다].",
+                "example_en": "We immediately blocked access from suspicious internet addresses to prevent hacking attacks."
+            },
+            {
+                "word": "일시적",
+                "meaning": "temporary",
+                "example_ko": "이번 매출 감소는 날씨 악화로 인한 [일시적인] 현상일 뿐이다.",
+                "example_en": "This decline in sales is merely a temporary phenomenon caused by bad weather."
+            },
+            {
+                "word": "보상하다",
+                "meaning": "to compensate, to make reparations",
+                "example_ko": "항공사는 비행기 고장으로 손해를 입은 승객들에게 숙박비를 [보상했다].",
+                "example_en": "The airline compensated passengers who suffered damages due to airplane trouble with accommodation expenses."
+            },
+            {
+                "word": "배후",
+                "meaning": "behind-the-scenes, mastermind, background",
+                "example_ko": "경찰은 이번 대형 금융 사기 사건의 [배후를] 밝혀내기 위해 수사를 확대했다.",
+                "example_en": "The police expanded their investigation to uncover the mastermind behind this major financial fraud case."
+            },
+            {
+                "word": "지목하다",
+                "meaning": "to point out, to name, to designate",
+                "example_ko": "언론은 이번 경기 패배의 주요 원인으로 수비 실수를 [지목했다].",
+                "example_en": "The media singled out defensive mistakes as the main cause of the loss in this match."
+            },
+            {
+                "word": "탈취하다",
+                "meaning": "to snatch, to seize, to steal",
+                "example_ko": "해커들이 회사 내부 전산망에 침투해 중요 고객 정보를 [탈취했다].",
+                "example_en": "Hackers infiltrated the company's internal computer network and stole important customer data."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-31",
+        "published_at": "2026-10-31 00:51",
+        "title": "아파트부터 모바일 쿠폰까지… 일상 파고든 해킹에 개인정보 유출 비상",
+        "body": "금융권과 항공사에 이어 아파트 커뮤니티와 모바일 상품권 업계까지 해킹 피해가 번지면서 사회적 불안이 커지고 있다. GS건설은 지난 28일 밤 아파트 커뮤니티 시설 예약 관리 시스템에 외부 비인가 접근이 발생했다고 밝혔다. 이번 사고로 아파트 입주민의 이름과 생년월일, 전화번호는 물론 거주 유형과 세대주 여부까지 유출된 것으로 확인됐다. GS건설은 해당 사실을 인지한 즉시 비인가 IP의 접근을 차단하고 긴급 보안 조치를 시행했다. 해킹 피해는 일상적인 소비 생활을 담당하는 모바일 상품권 분야로도 고스란히 이어졌다. SK플래닛은 모바일 쿠폰 서비스 '기프티콘'에서 이용자들의 개인정보와 상품권 일련번호, 환급 계좌까지 유출된 정황을 파악했다. G마켓에서도 일부 고객의 전자 쿠폰 핀번호가 제3자에 의해 무단으로 사용된 정황이 잇달아 포착됐다. 주거 공간부터 소비 영역까지 일상 곳곳이 뚫리면서 개인정보를 악용한 보이스피싱 등 2차 피해에 대한 우려가 확산되고 있다.",
+        "translation": "금융권과 항공사에 이어 아파트 커뮤니티와 모바일 상품권 업계까지 해킹 피해가 번지면서 사회적 불안이 커지고 있다.\nAs hacking damage spreads from financial institutions and airlines to apartment communities and mobile gift certificate services, social anxiety is rising.\n\nGS건설은 지난 28일 밤 아파트 커뮤니티 시설 예약 관리 시스템에 외부 비인가 접근이 발생했다고 밝혔다.\nGS Engineering & Construction announced that unauthorized external access occurred on the night of the 28th in its apartment community facility reservation management system.\n\n이번 사고로 아파트 입주민의 이름과 생년월일, 전화번호는 물론 거주 유형과 세대주 여부까지 유출된 것으로 확인됐다.\nIt was confirmed that this breach leaked apartment residents' names, dates of birth, and phone numbers, as well as their residence types and whether they are heads of household.\n\nGS건설은 해당 사실을 인지한 즉시 비인가 IP의 접근을 차단하고 긴급 보안 조치를 시행했다.\nGS Engineering & Construction stated that immediately upon recognizing the breach, it blocked access from unauthorized IPs and carried out emergency security measures.\n\n해킹 피해는 일상적인 소비 생활을 담당하는 모바일 상품권 분야로도 고스란히 이어졌다.\nThe hacking damage extended directly to the mobile gift certificate sector, which handles everyday consumer life.\n\nSK플래닛은 모바일 쿠폰 서비스 '기프티콘'에서 이용자들의 개인정보와 상품권 일련번호, 환급 계좌까지 유출된 정황을 파악했다.\nSK Planet discovered circumstances indicating that user personal data, gift certificate serial numbers, and even refund bank accounts were leaked from its mobile coupon service 'Gifticon.'\n\nG마켓에서도 일부 고객의 전자 쿠폰 핀번호가 제3자에 의해 무단으로 사용된 정황이 잇달아 포착됐다.\nAt Gmarket, circumstances in which some customers' electronic coupon PIN numbers were used without authorization by third parties were also detected.\n\n주거 공간부터 소비 영역까지 일상 곳곳이 뚫리면서 개인정보를 악용한 보이스피싱 등 2차 피해에 대한 우려가 확산되고 있다.\nWith daily life breached from residential spaces to consumer activities, concerns are spreading over secondary damages such as voice phishing using stolen personal information.",
+        "vocab": [
+            {
+                "word": "확산되다",
+                "meaning": "to spread, to proliferate, to diffuse",
+                "example_ko": "새로운 유행이 젊은 층을 중심으로 매우 빠르게 [확산되고] 있다.",
+                "example_en": "A new trend is spreading very quickly, centered on young people."
+            },
+            {
+                "word": "입주민",
+                "meaning": "resident (of an apartment complex or housing development)",
+                "example_ko": "아파트 [입주민들이] 함께 모여 주차 문제 해결을 위해 회의를 열었다.",
+                "example_en": "Apartment residents gathered together and held a meeting to solve parking problems."
+            },
+            {
+                "word": "거주",
+                "meaning": "residence, residing",
+                "example_ko": "이 지역에 오랜 기간 [거주한] 주민들은 동네의 역사를 잘 알고 있다.",
+                "example_en": "Residents who have lived in this area for a long time know the neighborhood's history well."
+            },
+            {
+                "word": "인지하다",
+                "meaning": "to recognize, to perceive, to become aware of",
+                "example_ko": "운전자는 위험 상황을 미리 [인지하고] 즉시 차의 속도를 줄였다.",
+                "example_en": "The driver perceived the dangerous situation in advance and slowed down the car immediately."
+            },
+            {
+                "word": "시행하다",
+                "meaning": "to implement, to enforce, to carry out",
+                "example_ko": "시청은 교통 체증을 줄이기 위해 새로운 일방통행 제도를 [시행했다].",
+                "example_en": "City Hall implemented a new one-way traffic system to reduce traffic congestion."
+            },
+            {
+                "word": "환급",
+                "meaning": "refund, rebate",
+                "example_ko": "연말정산을 마치고 세금을 일부 [환급]받게 되어 기뻤다.",
+                "example_en": "I was glad to receive a partial tax refund after completing my year-end tax settlement."
+            },
+            {
+                "word": "포착되다",
+                "meaning": "to be captured, to be detected, to be caught",
+                "example_ko": "건물 주변을 서성거리던 수상한 남성이 방범 카메라에 [포착되었다].",
+                "example_en": "A suspicious man lingering around the building was captured on the security camera."
+            },
+            {
+                "word": "무단",
+                "meaning": "without permission, unauthorized",
+                "example_ko": "남의 물건을 허락 없이 [무단으로] 가져가면 법적인 처벌을 받는다.",
+                "example_en": "Taking another person's property without permission results in legal punishment."
+            },
+            {
+                "word": "경로",
+                "meaning": "route, path, channel",
+                "example_ko": "경찰은 바이러스가 회사 컴퓨터에 침투한 [경로를] 집중적으로 조사하고 있다.",
+                "example_en": "Police are intensively investigating the path through which the virus infiltrated the company computers."
+            },
+            {
+                "word": "우려",
+                "meaning": "concern, worry, apprehension",
+                "example_ko": "물가가 계속 오르자 서민들의 생활비 부담에 대한 [우려가] 커졌다.",
+                "example_en": "As prices continued to rise, concerns over ordinary people's living cost burden grew."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-31",
+        "published_at": "2026-10-31 00:51",
+        "title": "이란군 \"호르무즈 해협서 유조선 3척 잇따라 폭발\"",
+        "body": "이란 이슬람혁명수비대 해군은 호르무즈 해협에서 대형 유조선들이 기뢰에 부딪혀 하루 만에 잇따라 폭발했다고 주장했다. 이란 반관영 타스님 통신은 이날 허가되지 않은 항로를 지나던 유조선 세 척이 폭발과 화재를 겪었다고 해군 발표를 인용해 보도했다. 이란 해군에 따르면 초대형 유조선 한 척이 허가받지 않은 해로로 진입했다가 기뢰와 충돌하며 큰 폭발을 일으켰다. 이 유조선은 원유를 무려 200만 배럴 이상 실은 상태였으며 폭발 직후 거센 화염에 휩싸였다. 현재 해당 선박은 호르무즈 해협 입구에 위험하게 방치된 채 계속 불타고 있는 것으로 전해졌다. 이란군은 이날 하루 동안 동일한 해역에서 폭발 사고를 겪은 유조선이 세 척에 달한다는 점을 거듭 강조했다. 전 세계 원유 수송의 핵심 통로인 호르무즈 해협에서 연쇄 폭발이 발생함에 따라 국제 해상 안보에 대한 긴장이 급격히 고조되고 있다.",
+        "translation": "이란 이슬람혁명수비대 해군은 호르무즈 해협에서 대형 유조선들이 기뢰에 부딪혀 하루 만에 잇따라 폭발했다고 주장했다.\nThe Islamic Revolutionary Guard Corps Navy of Iran claimed that large oil tankers exploded one after another in a single day after striking naval mines in the Strait of Hormuz.\n\n이란 반관영 타스님 통신은 이날 허가되지 않은 항로를 지나던 유조선 세 척이 폭발과 화재를 겪었다고 해군 발표를 인용해 보도했다.\nIran's semi-official Tasnim News Agency reported, citing the navy, that three oil tankers suffered explosions and fires while passing through unauthorized sea lanes that day.\n\n이란 해군에 따르면 초대형 유조선 한 척이 허가받지 않은 해로로 진입했다가 기뢰와 충돌하며 큰 폭발을 일으켰다.\nAccording to the Iranian Navy, a supertanker entered an unauthorized sea route and collided with a mine, causing a massive explosion.\n\n이 유조선은 원유를 무려 200만 배럴 이상 실은 상태였으며 폭발 직후 거센 화염에 휩싸였다.\nThis tanker was carrying more than 2 million barrels of crude oil and was engulfed in heavy flames immediately after the blast.\n\n현재 해당 선박은 호르무즈 해협 입구에 위험하게 방치된 채 계속 불타고 있는 것으로 전해졌다.\nIt was reported that the vessel is currently abandoned dangerously at the entrance of the Strait of Hormuz and continues to burn.\n\n이란군은 이날 하루 동안 동일한 해역에서 폭발 사고를 겪은 유조선이 세 척에 달한다는 점을 거듭 강조했다.\nThe Iranian military repeatedly emphasized that three oil tankers had suffered explosions in the same waters in a single day.\n\n전 세계 원유 수송의 핵심 통로인 호르무즈 해협에서 연쇄 폭발이 발생함에 따라 국제 해상 안보에 대한 긴장이 급격히 고조되고 있다.\nAs a series of explosions occurred in the Strait of Hormuz, a key artery for global crude oil transport, tensions surrounding international maritime security are escalating rapidly.",
+        "vocab": [
+            {
+                "word": "부딪히다",
+                "meaning": "to collide with, to bump against, to strike",
+                "example_ko": "어두운 골목길을 걷다가 실수로 전봇대에 머리를 [부딪혔다].",
+                "example_en": "While walking down a dark alley, I accidentally bumped my head against a utility pole."
+            },
+            {
+                "word": "잇따르다",
+                "meaning": "to occur successively, to follow one after another",
+                "example_ko": "폭설이 내린 고속도로에서 차량 미끄러짐 사고가 [잇따랐다].",
+                "example_en": "Vehicle skidding accidents followed one after another on the highway due to heavy snow."
+            },
+            {
+                "word": "허가",
+                "meaning": "permission, authorization, permit",
+                "example_ko": "국립공원 안에서는 관리 사무소의 [허가] 없이 텐트를 칠 수 없다.",
+                "example_en": "You cannot pitch a tent inside a national park without permission from the management office."
+            },
+            {
+                "word": "항로",
+                "meaning": "sea route, flight path, navigation course",
+                "example_ko": "폭풍우를 피하기 위해 여객선은 기존 [항로를] 바꾸어 안전하게 우회했다.",
+                "example_en": "To avoid the storm, the passenger ferry changed its existing sea route and safely detoured."
+            },
+            {
+                "word": "인용하다",
+                "meaning": "to quote, to cite",
+                "example_ko": "학생은 보고서를 작성하면서 유명한 경제학자의 논문을 [인용했다].",
+                "example_en": "The student cited a paper by a famous economist while writing the report."
+            },
+            {
+                "word": "충돌하다",
+                "meaning": "to collide, to clash, to crash",
+                "example_ko": "교차로에서 신호를 무시하고 달리던 트럭과 승용차가 크게 [충돌했다].",
+                "example_en": "A truck that ran a red light and a passenger car collided heavily at the intersection."
+            },
+            {
+                "word": "방치되다",
+                "meaning": "to be abandoned, to be left neglected",
+                "example_ko": "주인을 잃은 자전거들이 지하철역 주변에 오랫동안 [방치되어] 있다.",
+                "example_en": "Ownerless bicycles have been left neglected around the subway station for a long time."
+            },
+            {
+                "word": "연달아",
+                "meaning": "consecutively, in succession, back-to-back",
+                "example_ko": "우리 축구 대표팀은 강호들을 상대로 [연달아] 승리를 거두었다.",
+                "example_en": "Our national soccer team achieved victories in succession against powerhouse teams."
+            },
+            {
+                "word": "수송로",
+                "meaning": "transport route, supply line",
+                "example_ko": "이 철도는 항구와 내륙 공장을 이어주는 중요한 화물 [수송로이다].",
+                "example_en": "This railroad is an important freight transport route connecting the port and inland factories."
+            },
+            {
+                "word": "고조되다",
+                "meaning": "to escalate, to heighten, to mount",
+                "example_ko": "양국 간 국경 분쟁이 심해지면서 군사적 긴장감이 크게 [고조되었다].",
+                "example_en": "As the border dispute between the two nations worsened, military tensions escalated significantly."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-10-30",
         "published_at": "2026-10-30 09:46",
         "title": "한미 국방장관 회담 개최… 동맹 이상설에 '가짜 뉴스' 일축",

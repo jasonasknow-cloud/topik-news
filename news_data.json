@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-10-31",
+        "published_at": "2026-10-31 09:38",
+        "title": "미국 비자 발급 거부됐던 진성준 의원, 뒤늦게 비자 받고 방미길 올라",
+        "body": "미국 입국 비자 발급이 거부되었던 더불어민주당 진성준 국회 국방위원장이 뒤늦게 공무 비자를 발급받았다. 진 위원장은 자신의 소셜미디어를 통해 주한미국대사관으로부터 공식 입국사증을 전달받았다고 밝혔다. 그는 미 국무부가 대한민국 국회 국방위원장의 공무 비자를 뒤늦게나마 발급해 다행스럽게 생각한다고 소감을 전했다. 진 위원장은 예정대로 출국해 미국 하와이에 위치한 인도·태평양사령부를 방문할 계획이다. 이번 방문에서 그는 태평양사령관을 비롯한 미군 지휘부와 만나 양국의 안보 협력 강화 방안을 깊이 있게 논의할 예정이다. 또한 대한민국의 국익을 중심으로 미래지향적인 한미 동맹 발전을 위한 의견도 교환하기로 했다. 앞서 진 위원장은 여야 국방위원들과 함께 군부대를 시찰하기 위해 비자를 신청했으나 한 차례 거부당한 바 있다. 최근 다른 국회의원도 비자 발급 지연으로 현지 국정감사에 참석하지 못하면서 외교가에서는 한미 관계에 대한 우려가 제기되기도 했다.",
+        "translation": "미국 입국 비자 발급이 거부되었던 더불어민주당 진성준 국회 국방위원장이 뒤늦게 공무 비자를 발급받았다.\nRepresentative Jin Sung-joon of the Democratic Party of Korea, who serves as the chairman of the National Assembly National Defense Committee and was previously denied a U.S. entry visa, has belatedly received an official visa.\n\n진 위원장은 자신의 소셜미디어를 통해 주한미국대사관으로부터 공식 입국사증을 전달받았다고 밝혔다.\nChairman Jin announced through his social media that he received the official entry visa from the U.S. Embassy in Korea.\n\n그는 미 국무부가 대한민국 국회 국방위원장의 공무 비자를 뒤늦게나마 발급해 다행스럽게 생각한다고 소감을 전했다.\nHe shared his thoughts, stating that he considers it fortunate that the U.S. State Department belatedly issued the official visa for the chairman of the National Assembly National Defense Committee of the Republic of Korea.\n\n진 위원장은 예정대로 출국해 미국 하와이에 위치한 인도·태평양사령부를 방문할 계획이다.\nChairman Jin plans to depart as scheduled to visit the Indo-Pacific Command located in Hawaii, United States.\n\n이번 방문에서 그는 태평양사령관을 비롯한 미군 지휘부와 만나 양국의 안보 협력 강화 방안을 깊이 있게 논의할 예정이다.\nDuring this visit, he plans to meet with the leadership of the U.S. military, including the Pacific Commander, to discuss in depth ways to strengthen bilateral security cooperation.\n\n또한 대한민국의 국익을 중심으로 미래지향적인 한미 동맹 발전을 위한 의견도 교환하기로 했다.\nHe also decided to exchange opinions for the future-oriented development of the South Korea-U.S. alliance, focusing on the national interest of the Republic of Korea.\n\n앞서 진 위원장은 여야 국방위원들과 함께 군부대를 시찰하기 위해 비자를 신청했으나 한 차례 거부당한 바 있다.\nEarlier, Chairman Jin applied for a visa along with defense committee members from both ruling and opposition parties to inspect military units, but his request was once denied.\n\n최근 다른 국회의원도 비자 발급 지연으로 현지 국정감사에 참석하지 못하면서 외교가에서는 한미 관계에 대한 우려가 제기되기도 했다.\nAs another lawmaker was recently unable to participate in the on-site parliamentary audit due to a delay in visa issuance, concerns were also raised in diplomatic circles regarding South Korea-U.S. relations.",
+        "vocab": [
+            {
+                "word": "거부되다",
+                "meaning": "to be rejected, to be refused",
+                "example_ko": "서류가 부족해서 신청이 [거부되었다].",
+                "example_en": "The application was rejected because of insufficient documents."
+            },
+            {
+                "word": "뒤늦게",
+                "meaning": "belatedly, late",
+                "example_ko": "친구의 생일 소식을 [뒤늦게] 듣고 선물을 보냈다.",
+                "example_en": "I heard the news about my friend's birthday belatedly and sent a gift."
+            },
+            {
+                "word": "발급받다",
+                "meaning": "to be issued (a document/card), to obtain",
+                "example_ko": "해외여행을 가기 위해 새 여권을 [발급받았다].",
+                "example_en": "I was issued a new passport to travel abroad."
+            },
+            {
+                "word": "소감",
+                "meaning": "thoughts, impressions, feelings",
+                "example_ko": "상을 받은 배우는 떨리는 목소리로 수상 [소감]을 말했다.",
+                "example_en": "The actor who received the award shared their acceptance impressions in a trembling voice."
+            },
+            {
+                "word": "예정대로",
+                "meaning": "as scheduled, as planned",
+                "example_ko": "기차는 지연되지 않고 [예정대로] 서울역에 도착했다.",
+                "example_en": "The train arrived at Seoul Station as scheduled without any delay."
+            },
+            {
+                "word": "지휘부",
+                "meaning": "leadership, command headquarters",
+                "example_ko": "군대의 [지휘부]는 긴급 작전 회의를 열었다.",
+                "example_en": "The leadership of the army convened an emergency operational meeting."
+            },
+            {
+                "word": "국익",
+                "meaning": "national interest",
+                "example_ko": "외교관들은 [국익]을 지키기 위해 밤낮으로 협상한다.",
+                "example_en": "Diplomats negotiate day and night to protect national interests."
+            },
+            {
+                "word": "미래지향적",
+                "meaning": "future-oriented",
+                "example_ko": "두 나라는 [미래지향적] 협력 관계를 만들기로 합의했다.",
+                "example_en": "The two countries agreed to build a future-oriented cooperative relationship."
+            },
+            {
+                "word": "시찰하다",
+                "meaning": "to inspect, to observe on site",
+                "example_ko": "시장 일행은 지진 피해 지역을 직접 [시찰했다].",
+                "example_en": "The mayor's delegation directly inspected the earthquake-damaged area."
+            },
+            {
+                "word": "제기되다",
+                "meaning": "to be raised, to be brought up",
+                "example_ko": "회의 중에 새로운 문제점이 여러 차례 [제기되었다].",
+                "example_en": "During the meeting, new problems were raised several times."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-10-31",
+        "published_at": "2026-10-31 09:38",
+        "title": "삼성전자와 SK하이닉스의 210조 원 주주환원 발표에도 시장 반응은 미온적",
+        "body": "국내 대표 반도체 기업인 삼성전자와 SK하이닉스가 사상 최대 실적에 힘입어 대규모 주주환원 정책을 발표했다. 두 회사가 시장에 제시한 주주환원 금액은 합산하여 최대 210조 원에 이른다. 삼성전자는 올해 최대 110조 원 규모의 환원을 약속하며 현금배당과 자사주 매입 및 소각을 병행하기로 했다. SK하이닉스 역시 특별배당과 자사주 소각을 포함해 총 100조 원 규모의 환원 계획을 수립했다. 그러나 이러한 파격적인 환원책에도 불구하고 주식시장의 반응은 기대만큼 뜨겁지 않은 분위기이다. 실제로 실적 발표 당일 삼성전자의 주가는 오히려 하락하는 모습을 나타냈다. 전문가들은 실적 호조가 주가에 이미 반영되었으며 인공지능 거품에 대한 우려가 작용한 결과라고 분석한다. 또한 세계적인 반도체 제조사들이 설비 투자를 늘리면서 향후 공급 과잉 문제가 발생할 수 있다는 지적도 나온다. 이에 따라 막대한 투자 이후에도 높은 수익성을 안정적으로 유지할 수 있다는 확신을 심어주는 일이 두 기업의 핵심 과제로 떠올랐다.",
+        "translation": "국내 대표 반도체 기업인 삼성전자와 SK하이닉스가 사상 최대 실적에 힘입어 대규모 주주환원 정책을 발표했다.\nSouth Korea's leading semiconductor companies, Samsung Electronics and SK Hynix, announced large-scale shareholder return policies backed by record-high business performance.\n\n두 회사가 시장에 제시한 주주환원 금액은 합산하여 최대 210조 원에 이른다.\nThe combined shareholder return amount presented by the two companies to the market reaches up to 210 trillion won.\n\n삼성전자는 올해 최대 110조 원 규모의 환원을 약속하며 현금배당과 자사주 매입 및 소각을 병행하기로 했다.\nSamsung Electronics promised up to 110 trillion won in shareholder returns this year and decided to pursue both cash dividends and treasury stock buybacks and cancellations.\n\nSK하이닉스 역시 특별배당과 자사주 소각을 포함해 총 100조 원 규모의 환원 계획을 수립했다.\nSK Hynix also established a total shareholder return plan of 100 trillion won, including special dividends and treasury share cancellations.\n\n그러나 이러한 파격적인 환원책에도 불구하고 주식시장의 반응은 기대만큼 뜨겁지 않은 분위기이다.\nHowever, despite these unprecedented return policies, the response of the stock market has not been as enthusiastic as expected.\n\n실제로 실적 발표 당일 삼성전자의 주가는 오히려 하락하는 모습을 나타냈다.\nIn fact, Samsung Electronics' stock price instead showed a decline on the day of the earnings announcement.\n\n전문가들은 실적 호조가 주가에 이미 반영되었으며 인공지능 거품에 대한 우려가 작용한 결과라고 분석한다.\nExperts analyze this as the result of strong earnings already being priced into stocks and concerns over an artificial intelligence bubble taking effect.\n\n또한 세계적인 반도체 제조사들이 설비 투자를 늘리면서 향후 공급 과잉 문제가 발생할 수 있다는 지적도 나온다.\nAdditionally, observations are being raised that an oversupply issue could arise in the future as global semiconductor manufacturers expand facility investments.\n\n이에 따라 막대한 투자 이후에도 높은 수익성을 안정적으로 유지할 수 있다는 확신을 심어주는 일이 두 기업의 핵심 과제로 떠올랐다.\nAccordingly, instilling confidence that high profitability can be stably maintained even after massive investments has emerged as a key task for both companies.",
+        "vocab": [
+            {
+                "word": "실적",
+                "meaning": "performance, business results",
+                "example_ko": "영업팀의 지난 분기 [실적]이 크게 향상되었다.",
+                "example_en": "The sales team's performance improved significantly last quarter."
+            },
+            {
+                "word": "주주",
+                "meaning": "shareholder, stockholder",
+                "example_ko": "기업은 정기적으로 [주주]들에게 경영 상황을 보고해야 한다.",
+                "example_en": "A company must regularly report its business status to shareholders."
+            },
+            {
+                "word": "환원",
+                "meaning": "return, giving back",
+                "example_ko": "회사는 번 돈의 일부를 사회에 [환원]하기로 했다.",
+                "example_en": "The company decided to give back part of its earnings to society."
+            },
+            {
+                "word": "배당",
+                "meaning": "dividend, payout",
+                "example_ko": "회사는 주주들에게 이익금의 일부를 현금으로 [배당]했다.",
+                "example_en": "The company paid out part of its profits to shareholders in cash."
+            },
+            {
+                "word": "파격적",
+                "meaning": "unprecedented, exceptional, unconventional",
+                "example_ko": "백화점은 창립 기념일을 맞아 [파격적] 할인을 진행했다.",
+                "example_en": "The department store offered exceptional discounts to celebrate its founding anniversary."
+            },
+            {
+                "word": "호조",
+                "meaning": "favorable trend, booming condition",
+                "example_ko": "올해 자동차 수출은 뚜렷한 [호조]를 보이고 있다.",
+                "example_en": "Automobile exports are showing a clearly favorable trend this year."
+            },
+            {
+                "word": "거품",
+                "meaning": "bubble (economic/market)",
+                "example_ko": "부동산 시장의 [거품]이 빠지자 집값이 급격히 내렸다.",
+                "example_en": "As the bubble in the real estate market burst, housing prices dropped sharply."
+            },
+            {
+                "word": "설비",
+                "meaning": "facilities, equipment",
+                "example_ko": "공장은 생산량을 늘리기 위해 최신 [설비]를 설치했다.",
+                "example_en": "The factory installed state-of-the-art facilities to increase production."
+            },
+            {
+                "word": "공급",
+                "meaning": "supply, provision",
+                "example_ko": "가뭄 때문에 도시 전체에 물 [공급]이 중단되었다.",
+                "example_en": "Due to the drought, the water supply to the entire city was suspended."
+            },
+            {
+                "word": "수익성",
+                "meaning": "profitability",
+                "example_ko": "새로운 상품을 출시하기 전에 시장의 [수익성]을 검토해야 한다.",
+                "example_en": "Before launching a new product, we need to review the profitability of the market."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-10-31",
+        "published_at": "2026-10-31 09:38",
+        "title": "음주운전 경보 기간에 또 음주운전… 전북 경찰 순경 직위해제",
+        "body": "전북경찰청 소속 경찰관이 음주운전 단속 기간에 술을 마시고 운전대를 잡았다가 적발되었다. 전북경찰청은 도로교통법 위반 혐의로 A 순경을 입건해 조사하고 있다고 밝혔다. A 순경은 야간 시간대에 전주시 덕진구 인근 도로에서 음주 상태로 차량을 운전한 혐의를 받는다. 당시 이상하게 주행하는 차량을 목격한 시민이 경찰에 음주운전 의심 신고를 접수했다. 현장에 출동한 경찰이 측정한 결과 A 순경의 혈중알코올농도는 면허취소 기준인 0.08%를 초과한 것으로 드러났다. 특히 이번 사건은 전북경찰청이 직원들의 음주 비위 행위에 대해 일반경보를 발령한 엄중한 시기에 발생해 비판이 거세다. 경찰 당국은 즉시 A 순경을 직위에서 해제 조치하고 본격적인 감찰 절차에 돌입했다. 경찰은 관련 혐의에 대해 철저히 조사한 뒤 내부 징계위원회를 열어 엄중한 처벌을 내릴 방침이다.",
+        "translation": "전북경찰청 소속 경찰관이 음주운전 단속 기간에 술을 마시고 운전대를 잡았다가 적발되었다.\nA police officer belonging to the Jeonbuk Provincial Police Agency was caught driving after drinking during a period of heightened drunk driving warnings.\n\n전북경찰청은 도로교통법 위반 혐의로 A 순경을 입건해 조사하고 있다고 밝혔다.\nThe Jeonbuk Provincial Police Agency announced that it booked and is investigating Police Officer A on charges of violating the Road Traffic Act.\n\nA 순경은 야간 시간대에 전주시 덕진구 인근 도로에서 음주 상태로 차량을 운전한 혐의를 받는다.\nOfficer A is accused of driving a vehicle while intoxicated on a road near Deokjin-gu, Jeonju, during nighttime hours.\n\n당시 이상하게 주행하는 차량을 목격한 시민이 경찰에 음주운전 의심 신고를 접수했다.\nA citizen who witnessed the vehicle driving erratically at that time filed a report with the police suspecting drunk driving.\n\n현장에 출동한 경찰이 측정한 결과 A 순경의 혈중알코올농도는 면허취소 기준인 0.08%를 초과한 것으로 드러났다.\nAs a result of tests conducted by officers dispatched to the scene, Officer A's blood alcohol concentration was found to exceed 0.08%, which is the threshold for driver's license revocation.\n\n특히 이번 사건은 전북경찰청이 직원들의 음주 비위 행위에 대해 일반경보를 발령한 엄중한 시기에 발생해 비판이 거세다.\nIn particular, criticism is severe because this incident occurred at a critical time when the Jeonbuk Provincial Police Agency had issued a general alert regarding employees' drinking misconduct.\n\n경찰 당국은 즉시 A 순경을 직위에서 해제 조치하고 본격적인 감찰 절차에 돌입했다.\nThe police authorities immediately relieved Officer A of duty and entered full-scale inspection procedures.\n\n경찰은 관련 혐의에 대해 철저히 조사한 뒤 내부 징계위원회를 열어 엄중한 처벌을 내릴 방침이다.\nThe police plan to thoroughly investigate the charges and convene an internal disciplinary committee to impose stern punishment.",
+        "vocab": [
+            {
+                "word": "적발되다",
+                "meaning": "to be caught, to be detected, to be uncovered",
+                "example_ko": "과속으로 달리던 차량이 무인 단속 카메라에 [적발되었다].",
+                "example_en": "The speeding car was caught by an automated speed camera."
+            },
+            {
+                "word": "위반",
+                "meaning": "violation, breach",
+                "example_ko": "신호 [위반]은 큰 교통사고를 일으킬 수 있다.",
+                "example_en": "Traffic signal violation can cause major traffic accidents."
+            },
+            {
+                "word": "입건하다",
+                "meaning": "to book (a suspect), to formally register a case",
+                "example_ko": "경찰은 물건을 훔친 범인을 절도 혐의로 [입건했다].",
+                "example_en": "The police booked the thief on charges of larceny."
+            },
+            {
+                "word": "접수하다",
+                "meaning": "to receive, to accept (an application/report)",
+                "example_ko": "주민센터에서 이사 후 전입신고를 [접수했다].",
+                "example_en": "I submitted and registered my change of address report at the community service center."
+            },
+            {
+                "word": "초과하다",
+                "meaning": "to exceed, to go beyond",
+                "example_ko": "비행기 수하물 무게가 허용 한도를 [초과했다].",
+                "example_en": "The flight luggage weight exceeded the permitted limit."
+            },
+            {
+                "word": "비위",
+                "meaning": "misconduct, irregularity",
+                "example_ko": "공무원의 부정부패와 [비위] 사실이 뉴스에 보도되었다.",
+                "example_en": "The public servant's corruption and misconduct were reported in the news."
+            },
+            {
+                "word": "발령하다",
+                "meaning": "to issue (an alert/order)",
+                "example_ko": "기상청은 전국에 건조주의보를 [발령했다].",
+                "example_en": "The meteorological administration issued a dry weather advisory nationwide."
+            },
+            {
+                "word": "직위해제",
+                "meaning": "dismissal from duty, relief of duty",
+                "example_ko": "뇌물을 받은 공직자는 법에 따라 [직위해제] 처분을 받았다.",
+                "example_en": "The public official who took bribes was relieved of duty according to the law."
+            },
+            {
+                "word": "감찰",
+                "meaning": "official inspection, internal investigation",
+                "example_ko": "경찰청 [감찰] 부서가 직원의 근무 태도를 점검했다.",
+                "example_en": "The internal inspection department of the police checked the employees' work discipline."
+            },
+            {
+                "word": "엄중하다",
+                "meaning": "to be stern, to be severe, to be strict",
+                "example_ko": "정부는 법을 어긴 사람에게 [엄중한] 책임을 물을 것이다.",
+                "example_en": "The government will hold those who break the law strictly accountable."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-10-31",
+        "published_at": "2026-10-31 09:38",
+        "title": "우크라이나, 미국 중간선거 전까지 러시아 정유소 공습 일시 중단",
+        "body": "우크라이나가 러시아 정유 시설에 대한 공격 작전을 당분간 중단하기로 결정했다. 미국의 한 유력 일간지는 우크라이나 군부대들이 이달 중순부터 러시아 정유소 폭격을 사실상 멈추라는 지시를 받았다고 보도했다. 이번 조치는 글로벌 유가 급등을 막고 에너지 휴전을 촉구한 도널드 트럼프 미국 대통령의 압박을 수용한 결과로 풀이된다. 국제 시장에서 기름값이 상승할 경우 미국 내 물가에도 부정적인 영향을 미칠 수 있기 때문이다. 이에 따라 비공식 휴전 체제는 미국 중간선거가 치러지는 시점이나 다음 달 중순까지 유지될 것으로 보인다. 다만 우크라이나 정부는 러시아 정유소에 대한 공격 중단 방침을 공식적으로 인정하거나 성명을 발표하지는 않았다. 군사 전문가들은 이번 일시 중단이 미국과의 외교 관계를 고려한 전략적 행보라고 평가한다. 향후 미국의 선거 결과와 국제 정세의 변화에 따라 공격 재개 여부가 결정될 전망이다.",
+        "translation": "우크라이나가 러시아 정유 시설에 대한 공격 작전을 당분간 중단하기로 결정했다.\nUkraine has decided to temporarily suspend offensive operations against Russian oil refinery facilities.\n\n미국의 한 유력 일간지는 우크라이나 군부대들이 이달 중순부터 러시아 정유소 폭격을 사실상 멈추라는 지시를 받았다고 보도했다.\nA prominent American daily newspaper reported that Ukrainian military units received instructions to virtually halt bombings of Russian oil refineries starting in the middle of this month.\n\n이번 조치는 글로벌 유가 급등을 막고 에너지 휴전을 촉구한 도널드 트럼프 미국 대통령의 압박을 수용한 결과로 풀이된다.\nThis measure is interpreted as a result of accepting pressure from U.S. President Donald Trump, who urged an energy truce to prevent a sharp surge in global oil prices.\n\n국제 시장에서 기름값이 상승할 경우 미국 내 물가에도 부정적인 영향을 미칠 수 있기 때문이다.\nThis is because if oil prices rise in the international market, it could also have an adverse impact on domestic prices within the United States.\n\n이에 따라 비공식 휴전 체제는 미국 중간선거가 치러지는 시점이나 다음 달 중순까지 유지될 것으로 보인다.\nAccordingly, this unofficial ceasefire arrangement is expected to remain in place until the U.S. midterm elections are held or around the middle of next month.\n\n다만 우크라이나 정부는 러시아 정유소에 대한 공격 중단 방침을 공식적으로 인정하거나 성명을 발표하지는 않았다.\nHowever, the Ukrainian government has not officially acknowledged the policy of halting attacks on Russian refineries or released a formal statement.\n\n군사 전문가들은 이번 일시 중단이 미국과의 외교 관계를 고려한 전략적 행보라고 평가한다.\nMilitary experts evaluate this temporary halt as a strategic move considering diplomatic ties with the United States.\n\n향후 미국의 선거 결과와 국제 정세의 변화에 따라 공격 재개 여부가 결정될 전망이다.\nWhether attacks will resume is expected to be decided depending on future U.S. election results and shifts in the international political situation.",
+        "vocab": [
+            {
+                "word": "정유소",
+                "meaning": "oil refinery",
+                "example_ko": "원유는 [정유소]에서 여러 가지 기름으로 가공된다.",
+                "example_en": "Crude oil is processed into various types of fuel at the oil refinery."
+            },
+            {
+                "word": "공습",
+                "meaning": "airstrike, aerial bombing",
+                "example_ko": "적군의 갑작스러운 [공습]으로 도시의 건물들이 무너졌다.",
+                "example_en": "Buildings in the city collapsed due to the enemy's sudden airstrike."
+            },
+            {
+                "word": "당분간",
+                "meaning": "for the time being, for a while",
+                "example_ko": "다리가 아파서 [당분간] 운동을 쉬기로 했다.",
+                "example_en": "My leg hurts, so I decided to take a break from exercising for the time being."
+            },
+            {
+                "word": "휴전",
+                "meaning": "ceasefire, truce, armistice",
+                "example_ko": "오랜 전쟁 끝에 두 나라는 [휴전] 협정에 서명했다.",
+                "example_en": "After a long war, the two nations signed a ceasefire agreement."
+            },
+            {
+                "word": "급등",
+                "meaning": "surge, sudden sharp rise",
+                "example_ko": "유가 [급등]으로 인해 대중교통 요금 인상이 검토되고 있다.",
+                "example_en": "Due to the surge in oil prices, increases in public transit fares are being reviewed."
+            },
+            {
+                "word": "수용하다",
+                "meaning": "to accept, to accommodate",
+                "example_ko": "회사는 직원들의 건의를 흔쾌히 [수용했다].",
+                "example_en": "The company gladly accepted the suggestions made by the employees."
+            },
+            {
+                "word": "비공식",
+                "meaning": "unofficial, informal",
+                "example_ko": "두 정상은 식사를 함께하며 [비공식] 대화를 나눴다.",
+                "example_en": "The two leaders had an informal conversation over a meal together."
+            },
+            {
+                "word": "행보",
+                "meaning": "move, step, course of action",
+                "example_ko": "그 정치인의 적극적인 평화 [행보]가 언론의 주목을 받았다.",
+                "example_en": "That politician's active peace move received the attention of the media."
+            },
+            {
+                "word": "재개",
+                "meaning": "resumption, restarting",
+                "example_ko": "비가 그친 후 중단되었던 야구 경기가 [재개]되었다.",
+                "example_en": "After the rain stopped, the interrupted baseball game was resumed."
+            },
+            {
+                "word": "전망이다",
+                "meaning": "to be expected to, to be forecasted to",
+                "example_ko": "내년 경제 성장률은 올해보다 더 높아질 [전망이다].",
+                "example_en": "The economic growth rate next year is forecasted to be higher than this year."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-10-31",
         "published_at": "2026-10-31 00:51",
         "title": "중국, 미국 통신위의 시험·인증기관 제한에 강력 반발",
         "body": "중국 상무부는 미국 연방통신위원회(FCC)가 중국 등의 시험 및 인증기관을 제한하기로 한 조치에 대해 강하게 반발하며 철회를 요구했다. 미국은 오는 2028년 12월부터 중국 등 이른바 '비상호주의 경제권'에 있는 기관의 FCC 관련 시험과 인증 업무를 전면 금지하기로 결정했다. 이에 대해 중국 상무부는 이번 조치가 미중 정상 간의 합의를 명백히 위반한 것이라고 강하게 비판했다. 또한 이번 규제로 인해 기업들의 검사 비용이 증가하고 제품 출시 기간도 늘어날 것이라고 지적했다. 결국 이러한 피해는 중국 기업뿐만 아니라 미국 기업과 소비자에게도 고스란히 돌아갈 것이라고 강조했다. 중국 측은 문제 해결을 위한 대화와 협상의 문은 여전히 열려 있다는 입장을 거듭 밝혔다. 그러나 미국 정부가 부당한 제한 조치를 끝내 강행한다면 결코 물러서지 않겠다고 경고했다. 중국 상무부는 자국 기업의 정당한 권익을 지키기 위해 필요한 추가 조치를 취하겠다고 덧붙였다.",

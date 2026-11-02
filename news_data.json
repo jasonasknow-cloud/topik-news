@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-02",
+        "published_at": "2026-11-02 09:31",
+        "title": "장동혁 국민의힘 대표, 대통령 시정연설서 민생 사죄와 정책 전환 촉구",
+        "body": "국민의힘 장동혁 대표는 이재명 대통령을 향해 국민이 듣고 싶은 말을 해야 한다고 촉구했다. 장 대표는 2일 국회에서 열린 최고위원회의에서 다가오는 시정연설에 반드시 포함되어야 할 내용들을 조목조목 언급했다. 그는 부동산 문제와 주가 폭락 사태 등 민생과 관련된 잘못을 인정하고 사죄해야 한다고 주장했다. 아울러 기존 정책의 기조를 전면적으로 전환하겠다는 약속을 국민 앞에 내놓아야 한다고 강조했다. 또한 북한의 잇따른 군사적 도발에 맞서 국군통수권자로서 확고한 국방 의지를 보여줄 것을 주문했다. 한미동맹을 둘러싼 국민의 불안과 우려에 대해서도 대통령이 분명한 해답을 제시해야 한다고 덧붙였다. 장 대표는 야당이 추진하는 대법원장 국정조사에 대해서도 강도 높은 비판을 쏟아냈다. 그는 대법원장에 대한 탄핵 추진이 결국 사법 체계를 흔드는 행위라고 규정했다. 끝으로 장 대표는 정부가 자화자찬으로 일관한다면 국민적 저항에 직면할 것이라고 경고했다.",
+        "translation": "국민의힘 장동혁 대표는 이재명 대통령을 향해 국민이 듣고 싶은 말을 해야 한다고 촉구했다.\nJang Dong-hyeok, leader of the People Power Party, urged President Lee Jae-myung to say what the people want to hear.\n\n장 대표는 2일 국회에서 열린 최고위원회의에서 다가오는 시정연설에 반드시 포함되어야 할 내용들을 조목조목 언급했다.\nAt the Supreme Council meeting held at the National Assembly on the 2nd, Leader Jang mentioned item by item the points that must be included in the upcoming policy speech.\n\n그는 부동산 문제와 주가 폭락 사태 등 민생과 관련된 잘못을 인정하고 사죄해야 한다고 주장했다.\nHe asserted that the president must acknowledge and apologize for failures concerning public livelihoods, such as the real estate crisis and the stock market crash.\n\n아울러 기존 정책의 기조를 전면적으로 전환하겠다는 약속을 국민 앞에 내놓아야 한다고 강조했다.\nIn addition, he emphasized that the president should present a promise before the people to completely shift the tone of existing policies.\n\n또한 북한의 잇따른 군사적 도발에 맞서 국군통수권자로서 확고한 국방 의지를 보여줄 것을 주문했다.\nHe also called for showing a firm defense determination as commander-in-chief in response to North Korea's repeated military provocations.\n\n한미동맹을 둘러싼 국민의 불안과 우려에 대해서도 대통령이 분명한 해답을 제시해야 한다고 덧붙였다.\nHe added that the president must present a clear answer to public anxieties and concerns regarding the South Korea-U.S. alliance.\n\n장 대표는 야당이 추진하는 대법원장 국정조사에 대해서도 강도 높은 비판을 쏟아냈다.\nLeader Jang also unleashed intense criticism against the opposition party's push for a parliamentary investigation into the Chief Justice of the Supreme Court.\n\n그는 대법원장에 대한 탄핵 추진이 결국 사법 체계를 흔드는 행위라고 규정했다.\nHe characterized the move to impeach the Chief Justice as an act that fundamentally disrupts the judicial system.\n\n끝으로 장 대표는 정부가 자화자찬으로 일관한다면 국민적 저항에 직면할 것이라고 경고했다.\nLastly, Leader Jang warned that if the administration continues with consistent self-praise, it will face resistance from the people.",
+        "vocab": [
+            {
+                "word": "촉구하다",
+                "meaning": "to urge, to demand",
+                "example_ko": "시민 단체는 정부에 대책 마련을 [촉구했다].",
+                "example_en": "The civic group urged the government to come up with countermeasures."
+            },
+            {
+                "word": "시정연설",
+                "meaning": "policy speech, administrative address",
+                "example_ko": "대통령은 국회에서 새해 예산안에 관한 [시정연설]을 진행했다.",
+                "example_en": "The president delivered a policy speech regarding the new year's budget bill at the National Assembly."
+            },
+            {
+                "word": "민생",
+                "meaning": "people's livelihood",
+                "example_ko": "정치인들은 무엇보다 [민생]을 돌보는 일에 힘써야 한다.",
+                "example_en": "Politicians must, above all, strive to care for the people's livelihoods."
+            },
+            {
+                "word": "사죄하다",
+                "meaning": "to apologize, to ask forgiveness",
+                "example_ko": "대표는 자신의 말실수에 대해 고개 숙여 [사죄했다].",
+                "example_en": "The representative bowed and apologized for his slip of the tongue."
+            },
+            {
+                "word": "전환",
+                "meaning": "shift, switch, changeover",
+                "example_ko": "회사는 위기를 극복하기 위해 사업 방향의 [전환]을 시도했다.",
+                "example_en": "The company attempted a shift in business direction to overcome the crisis."
+            },
+            {
+                "word": "확고하다",
+                "meaning": "to be firm, to be unwavering",
+                "example_ko": "그는 자신의 결정을 바꾸지 않겠다는 [확고한] 태도를 보였다.",
+                "example_en": "He showed a firm attitude that he would not change his decision."
+            },
+            {
+                "word": "우려",
+                "meaning": "concern, anxiety, worry",
+                "example_ko": "물가 상승으로 인해 시민들의 경제적 [우려]가 커지고 있다.",
+                "example_en": "Economic concerns among citizens are growing due to rising prices."
+            },
+            {
+                "word": "국정조사",
+                "meaning": "parliamentary investigation, government inspection",
+                "example_ko": "국회는 이번 사고의 원인을 규명하기 위해 [국정조사]를 열기로 했다.",
+                "example_en": "The National Assembly decided to hold a parliamentary investigation to determine the cause of this accident."
+            },
+            {
+                "word": "자화자찬",
+                "meaning": "self-praise, blowing one's own horn",
+                "example_ko": "스스로를 지나치게 [자화자찬]하는 태도는 보기 좋지 않다.",
+                "example_en": "The attitude of excessively praising oneself does not look good."
+            },
+            {
+                "word": "직면하다",
+                "meaning": "to face, to be confronted with",
+                "example_ko": "우리는 예상치 못한 심각한 난관에 [직면했다].",
+                "example_en": "We were confronted with unexpected, serious difficulties."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-02",
+        "published_at": "2026-11-02 09:31",
+        "title": "한국은행, 은행 및 증권사 대상 가상자산 사업 현황 점검",
+        "body": "한국은행이 국내 주요 금융기관들을 대상으로 가상자산 관련 사업 현황을 전면 점검하고 나섰다. 한은은 5대 시중은행을 포함한 18개 은행과 13개 증권사에 조사 참여를 요청했다. 이번 조사는 가상자산 시장이 점차 커지는 상황에서 금융권의 준비 상태를 파악하기 위해 마련되었다. 각 금융사는 가상자산 관련 전담 조직과 배정된 예산 규모를 상세히 보고해야 한다. 또한 현재 시장에 진출한 수준과 향후 사업 추진 계획도 조사 대상에 포함되었다. 특히 한국은행은 금융사들이 가상자산 사업에서 발생할 수 있는 잠재적 위험을 어떻게 평가하는지 주목하고 있다. 시장 변동성에 대응하기 위한 금융기관들의 내부 관리 기준도 점검할 방침이다. 가상자산의 제도권 진입 논의가 활발해지는 시점에서 선제적 관리가 필요하다는 판단이 작용한 것으로 보인다. 한은은 수집한 정보를 종합하여 향후 금융 시장 안정을 위한 내부 참고자료로 활용할 예정이다.",
+        "translation": "한국은행이 국내 주요 금융기관들을 대상으로 가상자산 관련 사업 현황을 전면 점검하고 나섰다.\nThe Bank of Korea has launched a comprehensive inspection of virtual asset-related business operations targeting major domestic financial institutions.\n\n한은은 5대 시중은행을 포함한 18개 은행과 13개 증권사에 조사 참여를 요청했다.\nThe Bank of Korea requested survey participation from 18 banks, including the top five commercial banks, and 13 securities firms.\n\n이번 조사는 가상자산 시장이 점차 커지는 상황에서 금융권의 준비 상태를 파악하기 위해 마련되었다.\nThis survey was organized to assess the preparedness of the financial sector amid the steady growth of the virtual asset market.\n\n각 금융사는 가상자산 관련 전담 조직과 배정된 예산 규모를 상세히 보고해야 한다.\nEach financial institution must report in detail on its dedicated virtual asset organization and allocated budget size.\n\n또한 현재 시장에 진출한 수준과 향후 사업 추진 계획도 조사 대상에 포함되었다.\nIn addition, their current level of market entry and future business expansion plans were included in the scope of the investigation.\n\n특히 한국은행은 금융사들이 가상자산 사업에서 발생할 수 있는 잠재적 위험을 어떻게 평가하는지 주목하고 있다.\nIn particular, the Bank of Korea is paying close attention to how financial firms evaluate potential risks that may arise from virtual asset ventures.\n\n시장 변동성에 대응하기 위한 금융기관들의 내부 관리 기준도 점검할 방침이다.\nIt also plans to review the internal control standards of financial institutions designed to cope with market volatility.\n\n가상자산의 제도권 진입 논의가 활발해지는 시점에서 선제적 관리가 필요하다는 판단이 작용한 것으로 보인다.\nThis move appears to stem from the judgment that preemptive management is necessary at a time when discussions on bringing virtual assets into institutional finance are gaining momentum.\n\n한은은 수집한 정보를 종합하여 향후 금융 시장 안정을 위한 내부 참고자료로 활용할 예정이다.\nThe Bank of Korea plans to synthesize the collected information and use it as internal reference material to maintain financial market stability in the future.",
+        "vocab": [
+            {
+                "word": "가상자산",
+                "meaning": "virtual assets, cryptocurrency",
+                "example_ko": "최근 [가상자산]에 관심을 가지고 투자하는 젊은 층이 늘었다.",
+                "example_en": "Recently, the number of young people interested in and investing in virtual assets has increased."
+            },
+            {
+                "word": "점검하다",
+                "meaning": "to check, to inspect, to examine",
+                "example_ko": "출발하기 전에 자동차 타이어의 공기압을 [점검해야] 한다.",
+                "example_en": "You must check the tire pressure of the car before setting off."
+            },
+            {
+                "word": "금융기관",
+                "meaning": "financial institution",
+                "example_ko": "대출을 받기 위해 여러 [금융기관]의 금리를 비교했다.",
+                "example_en": "I compared interest rates at multiple financial institutions to get a loan."
+            },
+            {
+                "word": "전담",
+                "meaning": "full responsibility, exclusive charge",
+                "example_ko": "고객 불만을 [전담]으로 처리하는 부서가 새로 생겼다.",
+                "example_en": "A new department was created to be solely in charge of handling customer complaints."
+            },
+            {
+                "word": "배정되다",
+                "meaning": "to be allocated, to be assigned",
+                "example_ko": "이번 프로젝트에 충분한 연구비가 [배정되었다].",
+                "example_en": "A sufficient research budget was allocated to this project."
+            },
+            {
+                "word": "잠재적",
+                "meaning": "potential, latent",
+                "example_ko": "전문가들은 이 정책이 가질 [잠재적] 위험을 경고했다.",
+                "example_en": "Experts warned about the potential risks this policy might have."
+            },
+            {
+                "word": "변동성",
+                "meaning": "volatility",
+                "example_ko": "주식 시장의 [변동성]이 커서 신중하게 투자해야 한다.",
+                "example_en": "Because the stock market's volatility is high, one must invest prudently."
+            },
+            {
+                "word": "제도권",
+                "meaning": "institutional system, formal sector",
+                "example_ko": "새로운 산업이 [제도권] 안으로 들어오면서 법률이 정비되었다.",
+                "example_en": "As the new industry entered the formal institutional system, related laws were established."
+            },
+            {
+                "word": "선제적",
+                "meaning": "preemptive, proactive",
+                "example_ko": "정부는 화재를 막기 위해 [선제적인] 안전 점검을 실시했다.",
+                "example_en": "The government carried out proactive safety inspections to prevent fires."
+            },
+            {
+                "word": "참고자료",
+                "meaning": "reference material",
+                "example_ko": "발표 준비를 위해 도서관에서 다양한 [참고자료]를 찾았다.",
+                "example_en": "I looked for various reference materials in the library to prepare for the presentation."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-02",
+        "published_at": "2026-11-02 09:31",
+        "title": "국민 10명 중 7명 정신건강 문제 경험… 병원 방문은 저조",
+        "body": "우리나라 국민 열 명 가운데 일곱 명은 지난 1년 동안 정신건강 문제를 겪은 것으로 나타났다. 보건복지부 산하 국립정신건강센터는 전국 성인 5,100명을 대상으로 실시한 조사 결과를 공개했다. 조사 결과 전체 응답자의 70.1%가 스트레스나 우울 등 정신적 어려움을 경험했다고 응답했다. 특히 심각한 스트레스와 신체적 불편감, 불면증과 우울감을 호소하는 비율이 높았다. 또한 다섯 가지 이상의 복합적인 정신건강 문제를 동시에 겪었다는 응답도 30%를 넘었다. 그러나 문제를 겪은 사람 가운데 전문가를 찾아가 상담하거나 진료를 받은 비율은 30.4%에 불과했다. 여전히 열 명 중 일곱 명은 정신적인 고통 속에서도 전문 기관의 도움을 요청하지 않는 실정이다. 전문가들은 정신과 진료에 대한 사회적 편견과 부정적인 시선이 치료를 가로막고 있다고 분석했다. 국립정신건강센터는 국민들이 부담 없이 도움을 받을 수 있도록 상담 서비스의 접근성을 높여야 한다고 강조했다.",
+        "translation": "우리나라 국민 열 명 가운데 일곱 명은 지난 1년 동안 정신건강 문제를 겪은 것으로 나타났다.\nIt was revealed that seven out of ten citizens in our country experienced mental health problems over the past year.\n\n보건복지부 산하 국립정신건강센터는 전국 성인 5,100명을 대상으로 실시한 조사 결과를 공개했다.\nThe National Center for Mental Health under the Ministry of Health and Welfare disclosed the findings of a survey conducted on 5,100 adults nationwide.\n\n조사 결과 전체 응답자의 70.1%가 스트레스나 우울 등 정신적 어려움을 경험했다고 응답했다.\nAccording to the survey, 70.1% of all respondents replied that they had experienced psychological difficulties such as stress or depression.\n\n특히 심각한 스트레스와 신체적 불편감, 불면증과 우울감을 호소하는 비율이 높았다.\nIn particular, the proportion of those complaining of severe stress, physical discomfort, insomnia, and depressed feelings was high.\n\n또한 다섯 가지 이상의 복합적인 정신건강 문제를 동시에 겪었다는 응답도 30%를 넘었다.\nFurthermore, responses indicating that people experienced five or more complex mental health problems simultaneously also exceeded 30%.\n\n그러나 문제를 겪은 사람 가운데 전문가를 찾아가 상담하거나 진료를 받은 비율은 30.4%에 불과했다.\nHowever, among those who experienced problems, only 30.4% sought counseling from a specialist or received medical treatment.\n\n여전히 열 명 중 일곱 명은 정신적인 고통 속에서도 전문 기관의 도움을 요청하지 않는 실정이다.\nIt remains a reality that seven out of ten people still do not request help from professional institutions despite enduring psychological pain.\n\n전문가들은 정신과 진료에 대한 사회적 편견과 부정적인 시선이 치료를 가로막고 있다고 분석했다.\nExperts analyzed that social prejudice and negative perceptions surrounding psychiatric treatment are hindering medical care.\n\n국립정신건강센터는 국민들이 부담 없이 도움을 받을 수 있도록 상담 서비스의 접근성을 높여야 한다고 강조했다.\nThe National Center for Mental Health emphasized that the accessibility of counseling services must be improved so citizens can seek help without burden.",
+        "vocab": [
+            {
+                "word": "정신건강",
+                "meaning": "mental health",
+                "example_ko": "규칙적인 운동은 신체뿐만 아니라 [정신건강]에도 큰 도움이 된다.",
+                "example_en": "Regular exercise is a great help not only for the body but also for mental health."
+            },
+            {
+                "word": "응답자",
+                "meaning": "respondent",
+                "example_ko": "설문조사에서 [응답자의] 절반 이상이 찬성표를 던졌다.",
+                "example_en": "More than half of the respondents cast votes in favor in the survey."
+            },
+            {
+                "word": "호소하다",
+                "meaning": "to complain of (symptoms), to appeal",
+                "example_ko": "그는 극심한 두통을 [호소하며] 조퇴를 신청했다.",
+                "example_en": "He requested to leave early, complaining of a severe headache."
+            },
+            {
+                "word": "복합적",
+                "meaning": "complex, multiple, compound",
+                "example_ko": "이번 문제는 여러 요인이 얽힌 [복합적인] 원인에서 비롯되었다.",
+                "example_en": "This problem stemmed from complex causes where multiple factors were intertwined."
+            },
+            {
+                "word": "불과하다",
+                "meaning": "to be mere, to be only",
+                "example_ko": "회의에 참석한 인원은 겨우 다섯 명에 [불과했다].",
+                "example_en": "The number of people attending the meeting was merely five."
+            },
+            {
+                "word": "실정",
+                "meaning": "actual state, current reality",
+                "example_ko": "시골 학교는 학생 수가 점점 줄어드는 [실정이다].",
+                "example_en": "The current reality of rural schools is that the number of students is steadily decreasing."
+            },
+            {
+                "word": "편견",
+                "meaning": "prejudice, bias",
+                "example_ko": "외모만 보고 사람을 판단하는 [편견]을 버려야 한다.",
+                "example_en": "One should cast away prejudice that judges a person solely on outward appearance."
+            },
+            {
+                "word": "가로막다",
+                "meaning": "to block, to obstruct, to hinder",
+                "example_ko": "거센 비바람이 등산객들의 앞길을 [가로막았다].",
+                "example_en": "Heavy wind and rain blocked the path ahead of the hikers."
+            },
+            {
+                "word": "부담",
+                "meaning": "burden",
+                "example_ko": "혼자서 그 일을 다 해내기에는 마음의 [부담]이 컸다.",
+                "example_en": "Taking on that entire task alone felt like a heavy mental burden."
+            },
+            {
+                "word": "접근성",
+                "meaning": "accessibility",
+                "example_ko": "지하철역과 가까워서 대중교통 [접근성이] 매우 뛰어나다.",
+                "example_en": "Being close to the subway station, public transportation accessibility is very good."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-02",
+        "published_at": "2026-11-02 09:31",
+        "title": "이스라엘군 가자지구 공습으로 8명 사망… 휴전 이행 둘러싼 갈등 심화",
+        "body": "팔레스타인 가자지구에서 이스라엘군의 공습으로 어린이 1명을 포함해 최소 8명이 목숨을 잃었다. 현지 민방위 당국에 따르면 가자시티와 남부 칸유니스 지역에서 잇따라 폭격이 발생했다. 이번 공격으로 가자시티에서 4세 어린이를 비롯한 민간인들이 희생되었고 남부에서는 치안 인력 5명이 숨졌다. 이스라엘군은 무장 단체 소속 테러리스트를 겨냥한 군사 작전이었다고 주장하며 공습 결과를 검토 중이라고 밝혔다. 이스라엘 정부는 하마스가 기존의 휴전 합의를 어기고 무기를 재정비하며 공격을 재개했다고 비난했다. 이에 맞서 하마스는 이스라엘의 계속되는 군사 행동이 오히려 평화 합의를 훼손하고 있다고 반박했다. 양측은 휴전 조건 가운데 무장 해제와 군대 철수 문제를 두고 심각한 이견을 좁히지 못하고 있다. 1년 넘게 지속된 무력 분쟁 속에서 가자지구의 누적 사망자는 이미 7만 명을 넘어선 상태다. 국제사회의 중재 노력에도 불구하고 현지의 긴장과 인명 피해는 여전히 줄어들지 않고 있다.",
+        "translation": "팔레스타인 가자지구에서 이스라엘군의 공습으로 어린이 1명을 포함해 최소 8명이 목숨을 잃었다.\nIn the Gaza Strip of Palestine, at least eight people lost their lives, including one child, due to airstrikes by the Israeli military.\n\n현지 민방위 당국에 따르면 가자시티와 남부 칸유니스 지역에서 잇따라 폭격이 발생했다.\nAccording to local civil defense authorities, bombings occurred consecutively in Gaza City and the southern region of Khan Younis.\n\n이번 공격으로 가자시티에서 4세 어린이를 비롯한 민간인들이 희생되었고 남부에서는 치안 인력 5명이 숨졌다.\nThrough this attack, civilians including a four-year-old child were killed in Gaza City, and five security personnel died in the south.\n\n이스라엘군은 무장 단체 소속 테러리스트를 겨냥한 군사 작전이었다고 주장하며 공습 결과를 검토 중이라고 밝혔다.\nThe Israeli military claimed it was a military operation targeting terrorists belonging to armed factions and stated it is reviewing the results of the airstrike.\n\n이스라엘 정부는 하마스가 기존의 휴전 합의를 어기고 무기를 재정비하며 공격을 재개했다고 비난했다.\nThe Israeli government condemned Hamas, alleging that it violated existing truce agreements, rearmed, and resumed attacks.\n\n이에 맞서 하마스는 이스라엘의 계속되는 군사 행동이 오히려 평화 합의를 훼손하고 있다고 반박했다.\nIn response, Hamas refuted the claim, stating that Israel's continued military actions are instead undermining the peace agreement.\n\n양측은 휴전 조건 가운데 무장 해제와 군대 철수 문제를 두고 심각한 이견을 좁히지 못하고 있다.\nBoth sides have been unable to narrow their serious disagreements regarding disarmament and military withdrawal conditions in the truce.\n\n1년 넘게 지속된 무력 분쟁 속에서 가자지구의 누적 사망자는 이미 7만 명을 넘어선 상태다.\nAmid the armed conflict persisting for over a year, cumulative deaths in Gaza have already surpassed 70,000.\n\n국제사회의 중재 노력에도 불구하고 현지의 긴장과 인명 피해는 여전히 줄어들지 않고 있다.\nDespite mediation efforts by the international community, local tensions and human casualties still show no sign of decreasing.",
+        "vocab": [
+            {
+                "word": "공습",
+                "meaning": "airstrike, air raid",
+                "example_ko": "갑작스러운 적군의 [공습]으로 마을 전체가 큰 피해를 보았다.",
+                "example_en": "The entire village suffered great damage due to a sudden enemy airstrike."
+            },
+            {
+                "word": "민간인",
+                "meaning": "civilian",
+                "example_ko": "전쟁 중에는 무고한 [민간인이] 피해를 입지 않도록 보호해야 한다.",
+                "example_en": "During war, innocent civilians must be protected from harm."
+            },
+            {
+                "word": "치안",
+                "meaning": "public security, public order",
+                "example_ko": "그 나라는 밤에도 거리를 걸을 수 있을 정도로 [치안이] 좋다.",
+                "example_en": "That country has such good public security that you can walk the streets even at night."
+            },
+            {
+                "word": "겨냥하다",
+                "meaning": "to aim at, to target",
+                "example_ko": "새로 출시된 스마트폰은 10대 소비자를 [겨냥하고] 있다.",
+                "example_en": "The newly released smartphone is aimed at teenage consumers."
+            },
+            {
+                "word": "휴전",
+                "meaning": "ceasefire, truce",
+                "example_ko": "양측 대표는 전쟁을 멈추기 위해 [휴전] 협정을 체결했다.",
+                "example_en": "Representatives of both sides signed a ceasefire agreement to stop the war."
+            },
+            {
+                "word": "훼손하다",
+                "meaning": "to damage, to undermine, to deface",
+                "example_ko": "자연을 [훼손하는] 행위는 법으로 엄격히 금지되어 있다.",
+                "example_en": "Actions that damage nature are strictly prohibited by law."
+            },
+            {
+                "word": "철수",
+                "meaning": "withdrawal, evacuation",
+                "example_ko": "정부는 현지 상황이 악화되자 자국민 [철수를] 결정했다.",
+                "example_en": "As local conditions worsened, the government decided on the withdrawal of its citizens."
+            },
+            {
+                "word": "이견",
+                "meaning": "difference of opinion, disagreement",
+                "example_ko": "두 회사는 계약 조건을 놓고 서로의 [이견을] 좁히지 못했다.",
+                "example_en": "The two companies failed to bridge their difference of opinion over the contract terms."
+            },
+            {
+                "word": "분쟁",
+                "meaning": "dispute, conflict",
+                "example_ko": "국경 지역에서 발생한 영토 [분쟁으로] 긴장감이 높아졌다.",
+                "example_en": "Tensions heightened due to a territorial dispute that occurred in the border area."
+            },
+            {
+                "word": "중재",
+                "meaning": "mediation, arbitration",
+                "example_ko": "선생님의 공정한 [중재] 덕분에 두 학생은 오해를 풀었다.",
+                "example_en": "Thanks to the teacher's fair mediation, the two students cleared up their misunderstanding."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-02",
         "published_at": "2026-11-02 01:01",
         "title": "오세훈 시장 '보수 통합' 제안에 장동혁 대표 '필요한 시점에 연대' 화답",
         "body": "최근 보수 진영 내부에서 당의 주도권을 둘러싼 경쟁이 본격적으로 시작되고 있다. 오세훈 서울시장은 항소심에서 무죄 판결을 받은 직후부터 연일 보수 진영의 단합과 통합을 강조하고 나섰다. 오 시장은 야당과의 대결에서 승리하고 전체적인 영향력을 키우기 위해서는 당이 하나로 힘을 합쳐야 한다고 주장했다. 특히 그는 사법부를 압박하는 야권을 상대로 맞서 싸우기 위해 무소속 한동훈 의원과 장동혁 대표 모두가 연대해야 한다고 거듭 밝혔다. 이에 대해 국민의힘 장동혁 대표는 당원들의 뜻을 모아 필요한 시점에 통합과 연대에 나서겠다며 조건부로 화답했다. 그러나 장 대표는 무소속 한동훈 의원의 복당 문제에 대해서는 여전히 부정적인 입장을 보이며 선을 그었다. 장 대표는 향후 대표직 연임 도전 여부를 묻는 질문에는 당의 책임을 피할 생각이 없다며 가능성을 열어두었다. 한편 오 시장은 국회에서 열리는 토론회에 참석하여 당내 지지 기반을 다지는 행보를 본격화할 예정이다. 같은 날 한동훈 의원이 참석하는 토론회도 함께 열릴 예정이어서 유력 주자들 사이의 치열한 세 대결이 예상된다. 정치권에서는 이번 토론회가 향후 보수 진영의 권력 지형과 의원들의 표심을 가늠하는 중요한 척도가 될 것으로 보고 있다.",

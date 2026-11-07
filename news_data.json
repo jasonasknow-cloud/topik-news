@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-11-08",
+        "published_at": "2026-11-08 00:38",
+        "title": "트럼프, 추가 인적 개편 가능성 일축하며 새 의회 협력 시사",
+        "body": "도널드 트럼프 미국 대통령이 최근 제기된 행정부의 추가 인적 개편 가능성에 대해 분명하게 선을 그었다. 트럼프 대통령은 플로리다주 팜비치 공항에서 기자들과 만나 추가로 물러나는 인사가 더 있느냐는 질문을 받았다. 이에 대해 그는 추가 개편 가능성이 거의 없을 것이라고 답하며 현재 내각이 매우 훌륭하다고 강조했다. 앞서 트럼프 대통령은 수지 와일스 백악관 비서실장을 스티븐 밀러 부비서실장으로 전격 교체한 바 있다. 일각에서는 이번 인사가 중간선거 결과에 따른 책임 조치가 아니냐는 분석이 제기되었다. 그러나 트럼프 대통령은 이번 인사가 선거 패배 때문이 아니라 조직에 새로운 변화를 주기 위한 결정이었다고 설명했다. 아울러 자신은 투표용지에 이름이 없었다며 이번 선거 결과에 대한 책임론을 적극적으로 반박했다. 한편 트럼프 대통령은 민주당이 주도하는 새 의회와의 협력 가능성에 대해 긍정적인 입장을 나타냈다. 그는 이민과 세금, 경제 개발 등의 분야에서 의회와 함께 많은 일을 해결해 나갈 수 있다고 밝혔다. 또한 자신과 대화를 원하는 일부 의회 당선인들과 만날 뜻이 충분히 열려 있다고 덧붙였다.",
+        "translation": "도널드 트럼프 미국 대통령이 최근 제기된 행정부의 추가 인적 개편 가능성에 대해 분명하게 선을 그었다.\nU.S. President Donald Trump drew a clear line regarding the recently raised possibility of additional personnel reshuffling in the administration.\n\n트럼프 대통령은 플로리다주 팜비치 공항에서 기자들과 만나 추가로 물러나는 인사가 더 있느냐는 질문을 받았다.\nPresident Trump met with reporters at the Palm Beach Airport in Florida and was asked whether more officials would step down in the coming months.\n\n이에 대해 그는 추가 개편 가능성이 거의 없을 것이라고 답하며 현재 내각이 매우 훌륭하다고 강조했다.\nIn response, he answered that there would be very little chance of further reshuffles, emphasizing that his current cabinet is excellent.\n\n앞서 트럼프 대통령은 수지 와일스 백악관 비서실장을 스티븐 밀러 부비서실장으로 전격 교체한 바 있다.\nEarlier, President Trump had abruptly replaced White House Chief of Staff Susie Wiles with Deputy Chief of Staff Stephen Miller.\n\n일각에서는 이번 인사가 중간선거 결과에 따른 책임 조치가 아니냐는 분석이 제기되었다.\nSome observers raised the analysis that this personnel decision was a measure to hold someone responsible for the midterm election results.\n\n그러나 트럼프 대통령은 이번 인사가 선거 패배 때문이 아니라 조직에 새로운 변화를 주기 위한 결정이었다고 설명했다.\nHowever, President Trump explained that this personnel move was not due to the election defeat, but was a decision to bring change to the organization.\n\n아울러 자신은 투표용지에 이름이 없었다며 이번 선거 결과에 대한 책임론을 적극적으로 반박했다.\nIn addition, he actively refuted the blame for the election results, saying that his name was not on the ballot.\n\n한편 트럼프 대통령은 민주당이 주도하는 새 의회와의 협력 가능성에 대해 긍정적인 입장을 나타냈다.\nMeanwhile, President Trump expressed a positive stance toward the possibility of cooperation with the new Democratic-led Congress.\n\n그는 이민과 세금, 경제 개발 등의 분야에서 의회와 함께 많은 일을 해결해 나갈 수 있다고 밝혔다.\nHe stated that they could accomplish many things together with Congress in fields such as immigration, taxation, and economic development.\n\n또한 자신과 대화를 원하는 일부 의회 당선인들과 만날 뜻이 충분히 열려 있다고 덧붙였다.\nHe also added that he is very open to meeting with some newly elected members of Congress who wish to talk with him.",
+        "vocab": [
+            {
+                "word": "인적",
+                "meaning": "human, personnel-related",
+                "example_ko": "회사에서는 이번 위기를 극복하기 위해 [인적] 자원을 효율적으로 배치했다.",
+                "example_en": "The company efficiently allocated human resources to overcome this crisis."
+            },
+            {
+                "word": "개편하다",
+                "meaning": "to reorganize, to reshuffle",
+                "example_ko": "정부는 업무 효율을 높이기 위해 부서를 새롭게 [개편했다].",
+                "example_en": "The government reorganized the departments to improve work efficiency."
+            },
+            {
+                "word": "선을 긋다",
+                "meaning": "to draw a line, to set a boundary",
+                "example_ko": "그는 이번 사건과 자신은 아무런 관련이 없다며 분명하게 [선을 그었다].",
+                "example_en": "He clearly drew a line, stating that he had nothing to do with this incident."
+            },
+            {
+                "word": "내각",
+                "meaning": "cabinet",
+                "example_ko": "새로 출범한 정부는 주요 정책을 이끌 [내각]을 구성했다.",
+                "example_en": "The newly launched government formed a cabinet to lead major policies."
+            },
+            {
+                "word": "교체하다",
+                "meaning": "to replace, to substitute",
+                "example_ko": "오래된 컴퓨터 부품을 새것으로 [교체했다].",
+                "example_en": "I replaced the old computer parts with new ones."
+            },
+            {
+                "word": "일각",
+                "meaning": "some people, one quarter",
+                "example_ko": "사회 [일각]에서는 이번 정책의 실효성에 대해 의문을 제기하고 있다.",
+                "example_en": "Some quarters of society are raising questions about the effectiveness of this policy."
+            },
+            {
+                "word": "투표용지",
+                "meaning": "ballot paper",
+                "example_ko": "유권자는 [투표용지]를 받아 기표소 안으로 들어갔다.",
+                "example_en": "The voter received the ballot paper and entered the voting booth."
+            },
+            {
+                "word": "반박하다",
+                "meaning": "to refute, to counter",
+                "example_ko": "그 학자는 상대방의 주장을 통계 자료를 들어 조목조목 [반박했다].",
+                "example_en": "The scholar refuted the opponent's argument point by point using statistical data."
+            },
+            {
+                "word": "협력",
+                "meaning": "cooperation",
+                "example_ko": "양국은 환경 문제를 해결하기 위해 긴밀한 [협력]을 약속했다.",
+                "example_en": "The two countries promised close cooperation to resolve environmental issues."
+            },
+            {
+                "word": "당선인",
+                "meaning": "successful candidate, electee",
+                "example_ko": "선거가 끝난 후 [당선인]은 지지자들에게 감사의 인사를 전했다.",
+                "example_en": "After the election ended, the winning candidate expressed gratitude to the supporters."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-08",
+        "published_at": "2026-11-08 00:38",
+        "title": "엔비디아 젠슨 황 장녀 방한 전격 취소…AI 행사는 예정대로 진행",
+        "body": "세계적인 인공지능 반도체 기업 엔비디아 대표의 장녀인 매디슨 황 수석이사의 한국 방문 일정이 전격 취소되었다. 황 수석이사는 서울 코엑스에서 열리는 대규모 인공지능 행사에 참석하기 위해 방한할 예정이었다. 또한 이번 방문 기간 동안 한국 정부의 관계 부처와 만나 다양한 사업 방안을 협의할 계획이었다. 그러나 황 수석이사 측은 행사 시작을 앞두고 가족 문제로 인해 방문을 취소한다고 통보했다. 구체적인 취소 이유는 대외적으로 명확하게 밝혀지지 않았다. 이에 대해 정보기술 업계에서는 최근 불거진 최고경영자 주변 인물의 스파이 의혹 보도가 영향을 주었을 것이라는 관측이 나왔다. 업계 관계자들은 이번 방문 취소로 인해 기대되었던 협력 논의가 미루어질 수 있다고 우려했다. 하지만 주최 측은 주요 인사의 불참에도 불구하고 예정된 행사를 계획대로 차질 없이 진행할 방침이다. 국내 기업들은 이번 행사를 통해 최신 인공지능 기술 동향을 파악하고 기술 협력을 계속 모색할 예정이다.",
+        "translation": "세계적인 인공지능 반도체 기업 엔비디아 대표의 장녀인 매디슨 황 수석이사의 한국 방문 일정이 전격 취소되었다.\nThe visit to South Korea by Madison Huang, Senior Director and the eldest daughter of the CEO of the global AI semiconductor firm Nvidia, was abruptly cancelled.\n\n황 수석이사는 서울 코엑스에서 열리는 대규모 인공지능 행사에 참석하기 위해 방한할 예정이었다.\nSenior Director Huang had been scheduled to visit Korea to attend a large-scale AI event held at COEX in Seoul.\n\n또한 이번 방문 기간 동안 한국 정부의 관계 부처와 만나 다양한 사업 방안을 협의할 계획이었다.\nShe also planned to meet with relevant South Korean government ministries during this visit to discuss various business plans.\n\n그러나 황 수석이사 측은 행사 시작을 앞두고 가족 문제로 인해 방문을 취소한다고 통보했다.\nHowever, Huang's side notified that the visit was cancelled due to family reasons ahead of the start of the event.\n\n구체적인 취소 이유는 대외적으로 명확하게 밝혀지지 않았다.\nThe specific reasons for the cancellation have not been clearly disclosed to the public.\n\n이에 대해 정보기술 업계에서는 최근 불거진 최고경영자 주변 인물의 스파이 의혹 보도가 영향을 주었을 것이라는 관측이 나왔다.\nRegarding this, observations emerged in the IT industry that recent foreign media reports concerning spy allegations involving a person close to the CEO might have had an impact.\n\n업계 관계자들은 이번 방문 취소로 인해 기대되었던 협력 논의가 미루어질 수 있다고 우려했다.\nIndustry officials expressed concern that the anticipated cooperation discussions might be delayed due to this cancelled visit.\n\n하지만 주최 측은 주요 인사의 불참에도 불구하고 예정된 행사를 계획대로 차질 없이 진행할 방침이다.\nNevertheless, the organizers intend to proceed with the scheduled event as planned without disruption despite the absence of the key figure.\n\n국내 기업들은 이번 행사를 통해 최신 인공지능 기술 동향을 파악하고 기술 협력을 계속 모색할 예정이다.\nDomestic companies plan to grasp the latest AI technology trends and continue exploring technological cooperation through this event.",
+        "vocab": [
+            {
+                "word": "방한",
+                "meaning": "visit to Korea",
+                "example_ko": "외국 대표단의 [방한]으로 두 나라 사이의 교류가 활발해졌다.",
+                "example_en": "With the foreign delegation's visit to Korea, exchanges between the two countries became active."
+            },
+            {
+                "word": "전격",
+                "meaning": "sudden, drastic, lightning-fast",
+                "example_ko": "그 회사는 새로운 시장에 진출하기로 [전격] 결정했다.",
+                "example_en": "The company made a sudden decision to enter a new market."
+            },
+            {
+                "word": "부처",
+                "meaning": "government department, ministry",
+                "example_ko": "관련 [부처]들이 모여 이번 대책에 대해 회의를 열었다.",
+                "example_en": "Relevant government ministries gathered and held a meeting regarding this measure."
+            },
+            {
+                "word": "협의하다",
+                "meaning": "to consult, to discuss",
+                "example_ko": "문제를 해결하기 위해 담당자와 세부 일정을 [협의했다].",
+                "example_en": "I discussed the detailed schedule with the person in charge to resolve the problem."
+            },
+            {
+                "word": "사유",
+                "meaning": "reason, cause",
+                "example_ko": "개인적인 [사유]로 인해 오늘 모임에 참석하지 못했다.",
+                "example_en": "I could not attend today's gathering due to personal reasons."
+            },
+            {
+                "word": "불거지다",
+                "meaning": "to arise, to come to the surface",
+                "example_ko": "경영진 사이에서 의견 차이가 심하게 [불거졌다].",
+                "example_en": "A difference of opinion arose sharply among the management."
+            },
+            {
+                "word": "의혹",
+                "meaning": "suspicion, doubt",
+                "example_ko": "경찰은 사건과 관련된 모든 [의혹]을 철저히 조사하고 있다.",
+                "example_en": "The police are thoroughly investigating all suspicions related to the case."
+            },
+            {
+                "word": "관측",
+                "meaning": "observation, speculation",
+                "example_ko": "전문가들은 내년 경제 성장률이 다소 둔화될 것이라는 [관측]을 내놓았다.",
+                "example_en": "Experts offered the speculation that the economic growth rate would slow down somewhat next year."
+            },
+            {
+                "word": "불참",
+                "meaning": "absence, non-attendance",
+                "example_ko": "건강 문제로 회의에 [불참]하게 되어 매우 아쉽습니다.",
+                "example_en": "I am very sorry to be absent from the meeting due to health issues."
+            },
+            {
+                "word": "모색하다",
+                "meaning": "to seek, to explore",
+                "example_ko": "두 회사는 새로운 시장을 개척하기 위해 협력 방안을 [모색하고] 있다.",
+                "example_en": "The two companies are exploring ways of cooperation to pioneer new markets."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-08",
+        "published_at": "2026-11-08 00:38",
+        "title": "주인 없는 원룸서 고양이가 전기레인지 작동…화재 발생",
+        "body": "집주인이 집을 비운 사이 반려묘가 전기 조리기구를 작동시켜 불이 나는 사고가 발생했다. 소방 당국에 따르면 7일 오후 전북 익산시의 한 다세대 원룸에서 원인을 알 수 없는 연기가 피어올랐다. 건물 복도에 가득 찬 연기를 목격한 이웃 주민이 신속하게 소방서에 화재 사실을 알렸다. 신고를 받고 출동한 소방대원들은 진화 작업을 벌여 약 20분 만에 불길을 완전히 잡았다. 다행히 집 안에 사람이 없어 인명 피해는 발생하지 않았다. 하지만 집 내부와 가재도구가 불에 타면서 소방서 추산 약 680만 원 상당의 재산 피해가 났다. 소방 당국은 거주자가 외출한 틈을 타 고양이가 주방에 있던 하이라이트 전원 버튼을 누른 것으로 보고 있다. 기기 위에 놓여 있던 헬멧에 열기가 전달되면서 불이 시작되었을 가능성에 무게를 두고 있다. 전문가들은 반려동물을 키우는 가구의 경우 전기레인지 안전장치를 잠그는 등 각별한 주의가 필요하다고 당부했다.",
+        "translation": "집주인이 집을 비운 사이 반려묘가 전기 조리기구를 작동시켜 불이 나는 사고가 발생했다.\nAn accident occurred where a pet cat operated an electric cooking appliance and caused a fire while the resident was away from home.\n\n소방 당국에 따르면 7일 오후 전북 익산시의 한 다세대 원룸에서 원인을 알 수 없는 연기가 피어올랐다.\nAccording to fire authorities, unexplained smoke rose from a studio apartment in Iksan, North Jeolla Province, on the afternoon of the 7th.\n\n건물 복도에 가득 찬 연기를 목격한 이웃 주민이 신속하게 소방서에 화재 사실을 알렸다.\nA neighbor who saw the hallway full of smoke quickly notified the fire station about the fire.\n\n신고를 받고 출동한 소방대원들은 진화 작업을 벌여 약 20분 만에 불길을 완전히 잡았다.\nFirefighters dispatched upon receiving the report conducted extinguishing operations and completely put out the flames in about 20 minutes.\n\n다행히 집 안에 사람이 없어 인명 피해는 발생하지 않았다.\nFortunately, no casualties occurred as there was no one inside the residence.\n\n하지만 집 내부와 가재도구가 불에 타면서 소방서 추산 약 680만 원 상당의 재산 피해가 났다.\nHowever, household furniture and the apartment interior were burned, causing property damage estimated by the fire station at about 6.8 million won.\n\n소방 당국은 거주자가 외출한 틈을 타 고양이가 주방에 있던 하이라이트 전원 버튼을 누른 것으로 보고 있다.\nFire authorities believe that the cat pressed the power button of the electric stovetop in the kitchen while the resident was out.\n\n기기 위에 놓여 있던 헬멧에 열기가 전달되면서 불이 시작되었을 가능성에 무게를 두고 있다.\nThey are putting weight on the possibility that the fire started as heat transferred to a helmet placed on top of the appliance.\n\n전문가들은 반려동물을 키우는 가구의 경우 전기레인지 안전장치를 잠그는 등 각별한 주의가 필요하다고 당부했다.\nExperts urged that households raising companion animals need to take extra precautions, such as locking the safety mechanisms of electric stoves.",
+        "vocab": [
+            {
+                "word": "반려묘",
+                "meaning": "pet cat",
+                "example_ko": "퇴근 후 집에서 [반려묘]와 시간을 보내면 피로가 풀린다.",
+                "example_en": "Spending time with my pet cat at home after work relieves my fatigue."
+            },
+            {
+                "word": "조리기구",
+                "meaning": "cooking utensil, cooking appliance",
+                "example_ko": "주방에 안전한 [조리기구]를 새로 설치했다.",
+                "example_en": "I installed new, safe cooking appliances in the kitchen."
+            },
+            {
+                "word": "진화",
+                "meaning": "fire extinguishing, fire suppression",
+                "example_ko": "소방관들이 신속하게 [진화]에 나선 덕분에 큰 피해를 막았다.",
+                "example_en": "Thanks to the firefighters quickly extinguishing the fire, major damage was prevented."
+            },
+            {
+                "word": "가재도구",
+                "meaning": "household items, furniture",
+                "example_ko": "이사할 때 낡은 [가재도구]를 많이 버렸다.",
+                "example_en": "I threw away many old household items when moving."
+            },
+            {
+                "word": "추산",
+                "meaning": "estimate, estimation",
+                "example_ko": "이번 태풍으로 인한 피해액은 수십억 원에 이를 것으로 [추산]된다.",
+                "example_en": "The damage from this typhoon is estimated to reach billions of won."
+            },
+            {
+                "word": "거주자",
+                "meaning": "resident",
+                "example_ko": "아파트 관리사무소는 [거주자]들에게 주차 규칙을 지켜 달라고 부탁했다.",
+                "example_en": "The apartment management office asked the residents to follow the parking rules."
+            },
+            {
+                "word": "외출하다",
+                "meaning": "to go out",
+                "example_ko": "날씨가 좋아서 친구들과 점심을 먹으러 [외출했다].",
+                "example_en": "The weather was nice, so I went out to have lunch with my friends."
+            },
+            {
+                "word": "열기",
+                "meaning": "heat",
+                "example_ko": "뜨거운 난로에서 나오는 강한 [열기] 때문에 방 안이 금방 따뜻해졌다.",
+                "example_en": "The room quickly became warm due to the strong heat coming from the hot stove."
+            },
+            {
+                "word": "무게를 두다",
+                "meaning": "to attach importance to, to emphasize",
+                "example_ko": "면접관은 지원자의 경력보다 성실성에 더 [무게를 두었다].",
+                "example_en": "The interviewer attached more importance to the applicant's sincerity than to their work experience."
+            },
+            {
+                "word": "각별하다",
+                "meaning": "special, particular",
+                "example_ko": "환절기에는 감기에 걸리지 않도록 건강 관리에 [각별한] 신경을 써야 한다.",
+                "example_en": "During the change of seasons, you must pay particular attention to health management so as not to catch a cold."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-08",
+        "published_at": "2026-11-08 00:38",
+        "title": "3자 종전 협상 앞둔 러·우크라, 미사일과 드론 동원해 대규모 상호 공습",
+        "body": "우크라이나와 러시아가 3자 종전 협상을 앞두고 서로를 향해 대규모 공습을 주고받았다. 러시아군은 밤사이 우크라이나 수도 키이우를 비롯한 주요 도시의 에너지 시설을 집중적으로 공격했다. 이번 공습으로 여러 지역의 변전소가 크게 파손되었으며, 유치원을 포함한 민간 시설도 피해를 보았다. 우크라이나 정부는 적어도 9명이 다치고 5개 주에서 전력 공급이 전면 중단되는 정전이 발생했다고 발표했다. 특히 키이우 북부의 주요 교량이 폭격을 받아 시민들의 통행이 긴급하게 차단되기도 했다. 한편 러시아 국방부는 해당 교량이 우크라이나 군대의 무기 수송로로 사용되어 공격했다고 주장했다. 이에 맞서 우크라이나 역시 드론 수백 대를 동원해 러시아 국경 지역과 정유공장 등을 타격했다. 러시아 현지 당국은 민간인 거주지가 드론 공격을 받아 1명이 숨지고 주요 시설이 파손되었다고 전했다. 양측의 무력 충돌이 격화되면서 다가오는 평화 협상을 둘러싸고 국제사회의 긴장감이 더욱 고조되고 있다.",
+        "translation": "우크라이나와 러시아가 3자 종전 협상을 앞두고 서로를 향해 대규모 공습을 주고받았다.\nUkraine and Russia exchanged large-scale airstrikes against each other ahead of their trilateral war-ending negotiations.\n\n러시아군은 밤사이 우크라이나 수도 키이우를 비롯한 주요 도시의 에너지 시설을 집중적으로 공격했다.\nOvernight, Russian forces intensively attacked energy facilities in major cities, including the Ukrainian capital of Kyiv.\n\n이번 공습으로 여러 지역의 변전소가 크게 파손되었으며, 유치원을 포함한 민간 시설도 피해를 보았다.\nSubstations in multiple regions were heavily damaged by these airstrikes, and civilian facilities, including a kindergarten, also suffered damage.\n\n우크라이나 정부는 적어도 9명이 다치고 5개 주에서 전력 공급이 전면 중단되는 정전이 발생했다고 발표했다.\nThe Ukrainian government announced that at least 9 people were injured and blackouts occurred with power supply completely halted across five provinces.\n\n특히 키이우 북부의 주요 교량이 폭격을 받아 시민들의 통행이 긴급하게 차단되기도 했다.\nIn particular, a major bridge in northern Kyiv was bombed, leading to an urgent closure of traffic for citizens.\n\n한편 러시아 국방부는 해당 교량이 우크라이나 군대의 무기 수송로로 사용되어 공격했다고 주장했다.\nMeanwhile, the Russian Defense Ministry claimed it attacked the bridge because it was being used as a weapons transport route for the Ukrainian military.\n\n이에 맞서 우크라이나 역시 드론 수백 대를 동원해 러시아 국경 지역과 정유공장 등을 타격했다.\nIn response, Ukraine also mobilized hundreds of drones to strike Russian border regions and an oil refinery.\n\n러시아 현지 당국은 민간인 거주지가 드론 공격을 받아 1명이 숨지고 주요 시설이 파손되었다고 전했다.\nLocal Russian authorities reported that a civilian residential area was hit by a drone attack, killing one person and damaging major facilities.\n\n양측의 무력 충돌이 격화되면서 다가오는 평화 협상을 둘러싸고 국제사회의 긴장감이 더욱 고조되고 있다.\nAs armed clashes between both sides escalate, international tension surrounding the upcoming peace talks is heightening even further.",
+        "vocab": [
+            {
+                "word": "종전",
+                "meaning": "end of war",
+                "example_ko": "전쟁으로 고통받던 국민들은 마침내 [종전] 소식을 듣고 기뻐했다.",
+                "example_en": "The citizens who had suffered from the war rejoiced upon finally hearing the news of the end of the war."
+            },
+            {
+                "word": "공습",
+                "meaning": "airstrike, air raid",
+                "example_ko": "사이렌이 울리자 사람들은 [공습]을 피해 안전한 곳으로 대피했다.",
+                "example_en": "When the siren sounded, people evacuated to a safe place to avoid the air strike."
+            },
+            {
+                "word": "집중적",
+                "meaning": "intensive, concentrated",
+                "example_ko": "시험을 앞두고 취약한 과목을 [집중적으로] 공부했다.",
+                "example_en": "Ahead of the exam, I studied my weak subjects intensively."
+            },
+            {
+                "word": "변전소",
+                "meaning": "electrical substation",
+                "example_ko": "번개로 인해 [변전소]가 고장 나면서 도시 전체에 전기가 끊겼다.",
+                "example_en": "As the substation broke down due to lightning, power was cut off across the entire city."
+            },
+            {
+                "word": "공급",
+                "meaning": "supply, provision",
+                "example_ko": "가뭄이 길어지자 농촌 지역에 깨끗한 물을 안정적으로 [공급]하기가 어려워졌다.",
+                "example_en": "As the drought prolonged, it became difficult to stably supply clean water to rural areas."
+            },
+            {
+                "word": "차단되다",
+                "meaning": "to be blocked, to be cut off",
+                "example_ko": "갑작스러운 폭설로 인해 산길 통행이 완전히 [차단되었다].",
+                "example_en": "Traffic on the mountain road was completely cut off due to the sudden heavy snow."
+            },
+            {
+                "word": "수송로",
+                "meaning": "transport route, supply line",
+                "example_ko": "폭우로 인해 주요 물자 [수송로]가 끊겨 주민들이 불편을 겪었다.",
+                "example_en": "Residents suffered inconvenience as major supply transport routes were severed due to heavy rain."
+            },
+            {
+                "word": "타격하다",
+                "meaning": "to strike, to hit",
+                "example_ko": "태풍이 남부 해안 도시들을 직접 [타격하면서] 큰 피해를 남겼다.",
+                "example_en": "The typhoon directly hit the southern coastal cities, leaving heavy damage behind."
+            },
+            {
+                "word": "격화되다",
+                "meaning": "to intensify, to escalate",
+                "example_ko": "양측의 의견 차이가 좁혀지지 않으면서 갈등이 점점 더 [격화되었다].",
+                "example_en": "The conflict intensified further as the difference in opinion between the two sides was not narrowed."
+            },
+            {
+                "word": "고조되다",
+                "meaning": "to heighten, to rise",
+                "example_ko": "대회를 앞두고 선수들 사이에 우승을 향한 열기가 [고조되었다].",
+                "example_en": "Ahead of the competition, enthusiasm for winning heightened among the players."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-11-07",
         "published_at": "2026-11-07 09:51",
         "title": "한·동티모르 정상회담 개최…외교 및 안보 등 다방면 협력 확대",

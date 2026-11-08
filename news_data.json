@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-08",
+        "published_at": "2026-11-08 09:23",
+        "title": "이 대통령 \"정치인 지지, 종교적 숭배 돼선 안 돼… 극단주의 경계\"",
+        "body": "이재명 대통령이 정치인이나 지도적 인사를 향한 지지가 종교적 숭배로 이어져서는 안 된다고 강조했다. 이 대통령은 7일 자신의 소셜미디어에 글을 올리고 칭찬하되 찬양하지 말고 지지하되 숭배하지 말 것을 당부했다. 그는 민주주의가 저절로 오거나 지켜지는 것이 아니며, 이성을 바탕으로 진실과 정의에 반응하는 시민의 끊임없는 참여와 실천이 중요하다고 말했다. 또한 행동하지 않는 양심은 악의 편이라며 담벼락에 고함이라도 지르라고 했던 김대중 전 대통령의 발언을 언급했다. 이어 노무현 전 대통령이 강조했던 깨어 있는 시민의 조직된 힘을 상기시키며 성숙한 시민 의식의 역할을 되새겼다. 이 대통령은 앞서 지난 6일에도 내 편의 말은 무조건 옳고 상대편의 말은 무조건 그르다고 믿는 것은 심각한 광신이라고 비판했다. 그러면서 사회를 분열시키는 맹신과 극단주의, 그리고 진영주의를 철저히 경계해야 한다고 지적했다. 이러한 발언은 정치권 안팎에서 과도한 팬덤 정치와 대립이 심화하는 상황에 대해 원칙적인 경고를 보낸 것으로 풀이된다.",
+        "translation": "이재명 대통령이 정치인이나 지도적 인사를 향한 지지가 종교적 숭배로 이어져서는 안 된다고 강조했다.\nPresident Lee Jae-myung emphasized that support for politicians or leading figures should not lead to religious worship.\n\n이 대통령은 7일 자신의 소셜미디어에 글을 올리고 칭찬하되 찬양하지 말고 지지하되 숭배하지 말 것을 당부했다.\nPresident Lee posted a message on his social media on the 7th, urging people to praise without glorifying and support without worshipping.\n\n그는 민주주의가 저절로 오거나 지켜지는 것이 아니며, 이성을 바탕으로 진실과 정의에 반응하는 시민의 끊임없는 참여와 실천이 중요하다고 말했다.\nHe stated that democracy neither comes nor is preserved on its own, and that the continuous participation and action of citizens who respond to truth and justice based on reason are important.\n\n또한 행동하지 않는 양심은 악의 편이라며 담벼락에 고함이라도 지르라고 했던 김대중 전 대통령의 발언을 언급했다.\nHe also mentioned the remark of former President Kim Dae-jung, who said that an inactive conscience is on the side of evil and urged people to at least shout at a wall.\n\n이어 노무현 전 대통령이 강조했던 깨어 있는 시민의 조직된 힘을 상기시키며 성숙한 시민 의식의 역할을 되새겼다.\nHe then recalled the organized power of awakened citizens emphasized by former President Roh Moo-hyun, reflecting on the role of mature civic awareness.\n\n이 대통령은 앞서 지난 6일에도 내 편의 말은 무조건 옳고 상대편의 말은 무조건 그르다고 믿는 것은 심각한 광신이라고 비판했다.\nEarlier on the 6th, President Lee had also criticized that believing one's own side is unconditionally right and the opposing side is unconditionally wrong constitutes serious fanaticism.\n\n그러면서 사회를 분열시키는 맹신과 극단주의, 그리고 진영주의를 철저히 경계해야 한다고 지적했다.\nIn doing so, he pointed out that blind faith, extremism, and factionalism, which divide society, must be thoroughly guarded against.\n\n이러한 발언은 정치권 안팎에서 과도한 팬덤 정치와 대립이 심화하는 상황에 대해 원칙적인 경고를 보낸 것으로 풀이된다.\nThese remarks are interpreted as sending a principled warning against the deepening confrontation and excessive fandom politics within and outside the political sphere.",
+        "vocab": [
+            {
+                "word": "지지하다",
+                "meaning": "to support, back",
+                "example_ko": "나는 친구의 새로운 도전을 진심으로 [지지한다].",
+                "example_en": "I sincerely support my friend's new challenge."
+            },
+            {
+                "word": "숭배하다",
+                "meaning": "to worship, revere",
+                "example_ko": "우리는 특정 인물을 맹목적으로 [숭배해서는] 안 된다.",
+                "example_en": "We should not blindly worship a specific individual."
+            },
+            {
+                "word": "끊임없다",
+                "meaning": "to be continuous, ceaseless",
+                "example_ko": "그는 목표를 이루기 위해 [끊임없는] 노력을 기울였다.",
+                "example_en": "He put in ceaseless effort to achieve his goal."
+            },
+            {
+                "word": "실천",
+                "meaning": "practice, action",
+                "example_ko": "계획을 세우는 것보다 직접 [실천에] 옮기는 것이 더 어렵다.",
+                "example_en": "Putting plans into action is harder than making them."
+            },
+            {
+                "word": "양심",
+                "meaning": "conscience",
+                "example_ko": "그는 [양심에] 따라 정직하게 행동하기로 결심했다.",
+                "example_en": "He decided to act honestly according to his conscience."
+            },
+            {
+                "word": "상기시키다",
+                "meaning": "to remind, bring back to mind",
+                "example_ko": "선생님은 학생들에게 시험 일정을 다시 한번 [상기시켰다].",
+                "example_en": "The teacher reminded the students once again of the exam schedule."
+            },
+            {
+                "word": "성숙하다",
+                "meaning": "to be mature",
+                "example_ko": "어려운 일을 겪으면서 그의 생각이 한층 [성숙해졌다].",
+                "example_en": "His thinking matured significantly as he went through difficult times."
+            },
+            {
+                "word": "광신",
+                "meaning": "fanaticism, blind faith",
+                "example_ko": "특정 사상에 대한 [광신은] 올바른 판단을 방해한다.",
+                "example_en": "Fanaticism regarding a particular ideology impedes sound judgment."
+            },
+            {
+                "word": "경계하다",
+                "meaning": "to guard against, beware of",
+                "example_ko": "우리는 확인되지 않은 정보를 쉽게 믿는 태도를 [경계해야] 한다.",
+                "example_en": "We must guard against the attitude of easily believing unconfirmed information."
+            },
+            {
+                "word": "심화하다",
+                "meaning": "to deepen, intensify",
+                "example_ko": "두 나라 사이의 갈등이 날이 갈수록 [심화하고] 있다.",
+                "example_en": "The conflict between the two nations is intensifying day by day."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-08",
+        "published_at": "2026-11-08 09:23",
+        "title": "사우스웨스트항공 유료 좌석 논란… 빈자리 이동 거절에 갑론을박",
+        "body": "미국 사우스웨스트항공 여객기에서 빈 좌석으로의 이동을 막은 승무원의 조치를 둘러싸고 온라인에서 큰 논란이 일고 있다. 최근 한 남성 승객은 기내 좌석이 절반가량 비어 있었음에도 다른 자리로 옮기지 못하게 한 승무원과의 일화를 영상으로 공개했다. 해당 승무원은 해당 빈자리가 추가 요금을 내야 하는 유료 좌석이기 때문에 이용할 수 없다고 설명했다. 승객은 더 이상 탈 손님도 없는데 앞자리가 비싸다는 이유로 이동을 거절당했다며 강한 불만을 나타냈다. 이번 논란의 배경에는 사우스웨스트항공이 올해 초 기존의 자유 좌석제를 폐지하고 지정 좌석제를 도입한 정책 변화가 있다. 항공사는 좌석을 일반 좌석과 선호 좌석, 다리 공간이 넓은 좌석 등 세 가지 등급으로 나누고 추가 요금을 책정했다. 항공사 측은 탑승 후 승객이 원하는 좌석으로 마음대로 옮길 수 없다는 점을 규정에 명시하고 있다. 업계에서는 유료 좌석의 무단 이용을 방치할 경우 미리 비용을 지불한 승객과의 형평성이 어긋날 수 있다고 본다. 이에 누리꾼 사이에서도 추가 요금을 내지 않은 승객을 제한하는 것은 정당하다는 의견과 빈자리마저 통제하는 것은 지나치다는 의견이 팽팽히 맞서고 있다.",
+        "translation": "미국 사우스웨스트항공 여객기에서 빈 좌석으로의 이동을 막은 승무원의 조치를 둘러싸고 온라인에서 큰 논란이 일고 있다.\nA major debate has erupted online over a flight attendant's action preventing a passenger from moving to an empty seat on a U.S. Southwest Airlines flight.\n\n최근 한 남성 승객은 기내 좌석이 절반가량 비어 있었음에도 다른 자리로 옮기지 못하게 한 승무원과의 일화를 영상으로 공개했다.\nRecently, a male passenger released a video detailing an incident with a flight attendant who did not allow him to move to another seat even though nearly half the cabin seats were empty.\n\n해당 승무원은 해당 빈자리가 추가 요금을 내야 하는 유료 좌석이기 때문에 이용할 수 없다고 설명했다.\nThe flight attendant explained that the empty seat could not be used because it was a paid seat requiring an extra fee.\n\n승객은 더 이상 탈 손님도 없는데 앞자리가 비싸다는 이유로 이동을 거절당했다며 강한 불만을 나타냈다.\nThe passenger expressed strong dissatisfaction, saying his request to move was refused merely because the front seat was more expensive, even though no more passengers would be boarding.\n\n이번 논란의 배경에는 사우스웨스트항공이 올해 초 기존의 자유 좌석제를 폐지하고 지정 좌석제를 도입한 정책 변화가 있다.\nBehind this controversy lies a policy change in which Southwest Airlines abolished its traditional open seating system and introduced assigned seating early this year.\n\n항공사는 좌석을 일반 좌석과 선호 좌석, 다리 공간이 넓은 좌석 등 세 가지 등급으로 나누고 추가 요금을 책정했다.\nThe airline divided seats into three tiers—standard seats, preferred seats, and seats with extra legroom—and set additional fees for them.\n\n항공사 측은 탑승 후 승객이 원하는 좌석으로 마음대로 옮길 수 없다는 점을 규정에 명시하고 있다.\nThe airline clearly states in its policy that passengers cannot freely move to their desired seats after boarding.\n\n업계에서는 유료 좌석의 무단 이용을 방치할 경우 미리 비용을 지불한 승객과의 형평성이 어긋날 수 있다고 본다.\nThe industry views that allowing unauthorized use of paid seats could undermine fairness toward passengers who paid fees in advance.\n\n이에 누리꾼 사이에서도 추가 요금을 내지 않은 승객을 제한하는 것은 정당하다는 의견과 빈자리마저 통제하는 것은 지나치다는 의견이 팽팽히 맞서고 있다.\nConsequently, opinions among netizens are sharply divided between those who believe restricting passengers who did not pay extra is justified and those who argue that restricting even empty seats is excessive.",
+        "vocab": [
+            {
+                "word": "거절하다",
+                "meaning": "to refuse, reject",
+                "example_ko": "그는 동료의 무리한 부탁을 정중하게 [거절했다].",
+                "example_en": "He politely refused his colleague's unreasonable request."
+            },
+            {
+                "word": "책정하다",
+                "meaning": "to set, determine (a price/fee)",
+                "example_ko": "회사는 신제품의 가격을 합리적인 수준으로 [책정했다].",
+                "example_en": "The company set the price of the new product at a reasonable level."
+            },
+            {
+                "word": "형평성",
+                "meaning": "equity, fairness",
+                "example_ko": "보너스를 지급할 때는 직원들 간의 [형평성을] 반드시 고려해야 한다.",
+                "example_en": "Fairness among employees must be considered when paying bonuses."
+            },
+            {
+                "word": "폐지하다",
+                "meaning": "to abolish, repeal",
+                "example_ko": "학교는 학생들의 의견을 모아 불필요한 규칙을 [폐지했다].",
+                "example_en": "The school gathered student opinions and abolished unnecessary rules."
+            },
+            {
+                "word": "부과하다",
+                "meaning": "to impose, levy",
+                "example_ko": "무게 기준을 초과한 짐에는 추가 요금을 [부과한다].",
+                "example_en": "An additional fee is imposed on baggage that exceeds the weight limit."
+            },
+            {
+                "word": "명시하다",
+                "meaning": "to specify, state clearly",
+                "example_ko": "계약서에는 근무 시간과 휴일이 분명하게 [명시되어] 있다.",
+                "example_en": "Working hours and holidays are clearly specified in the contract."
+            },
+            {
+                "word": "지불하다",
+                "meaning": "to pay",
+                "example_ko": "식사를 마친 손님이 계산대에서 음식값을 [지불했다].",
+                "example_en": "The customer who finished the meal paid for the food at the counter."
+            },
+            {
+                "word": "제한하다",
+                "meaning": "to restrict, limit",
+                "example_ko": "안전을 위해 공사장 주변의 출입을 엄격히 [제한하고] 있다.",
+                "example_en": "Entry around the construction site is strictly restricted for safety."
+            },
+            {
+                "word": "팽팽하다",
+                "meaning": "to be tight, evenly matched",
+                "example_ko": "이번 경기에서는 두 팀의 실력이 매우 [팽팽했다].",
+                "example_en": "The skills of the two teams were very evenly matched in this game."
+            },
+            {
+                "word": "불만",
+                "meaning": "dissatisfaction, grievance",
+                "example_ko": "고객은 배송이 계속 지연되자 상담실에 [불만을] 표시했다.",
+                "example_en": "The customer expressed dissatisfaction to customer service as delivery kept getting delayed."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-08",
+        "published_at": "2026-11-08 09:23",
+        "title": "서울 도심서 이틀 연속 마라톤 개최… 주요 도로 통제로 시민 불편",
+        "body": "서울 도심에서 주말 동안 대규모 마라톤 대회가 잇따라 열리면서 도로가 통제되어 시민들이 큰 불편을 겪었다. 8일 오전 서울시가 후원하는 마라톤 대회가 열려 약 5,500명의 참가자가 서울 도심 도로를 달렸다. 이번 대회 코스는 서울광장에서 출발해 흥인지문과 을지로를 거쳐 다시 출발점으로 돌아오는 방식으로 진행됐다. 이에 따라 경찰은 세종대로사거리부터 흥인지문사거리 구간의 차량 통행을 오전 7시부터 전면 통제했다. 행사의 중심지인 서울광장 일대 역시 마라톤이 모두 종료되는 오전 10시까지 차량 진입이 막혔다. 이틀 연속 이어진 도심 교통 통제로 인해 택시 운전사와 출근길 시민들은 장시간 우회 운행을 해야 했다. 경찰은 시민의 이동 불편을 덜어주기 위해 수도권 광역버스의 통행을 유지하고 주요 도로에 가변차로를 운영했다. 또한 원활한 차량 흐름을 돕기 위해 교통경찰 약 190명을 현장 곳곳에 배치했다. 경찰 관계자는 도심 행사로 극심한 혼잡이 빚어지는 만큼 가급적 대중교통을 이용해 달라고 당부했다.",
+        "translation": "서울 도심에서 주말 동안 대규모 마라톤 대회가 잇따라 열리면서 도로가 통제되어 시민들이 큰 불편을 겪었다.\nAs large-scale marathon events were held consecutively in downtown Seoul over the weekend, roads were restricted, causing great inconvenience to citizens.\n\n8일 오전 서울시가 후원하는 마라톤 대회가 열려 약 5,500명의 참가자가 서울 도심 도로를 달렸다.\nOn the morning of the 8th, a marathon sponsored by the Seoul Metropolitan Government was held, with about 5,500 participants running through downtown Seoul roads.\n\n이번 대회 코스는 서울광장에서 출발해 흥인지문과 을지로를 거쳐 다시 출발점으로 돌아오는 방식으로 진행됐다.\nThe course of this event started from Seoul Plaza, passed through Heunginjimun Gate and Euljiro, and returned to the starting point.\n\n이에 따라 경찰은 세종대로사거리부터 흥인지문사거리 구간의 차량 통행을 오전 7시부터 전면 통제했다.\nAccordingly, police fully restricted vehicle traffic on the section from Sejong-daero Intersection to Heunginjimun Intersection starting from 7 a.m.\n\n행사의 중심지인 서울광장 일대 역시 마라톤이 모두 종료되는 오전 10시까지 차량 진입이 막혔다.\nVehicle entry into the Seoul Plaza area, the center of the event, was also blocked until 10 a.m. when the marathon completely ended.\n\n이틀 연속 이어진 도심 교통 통제로 인해 택시 운전사와 출근길 시민들은 장시간 우회 운행을 해야 했다.\nDue to traffic restrictions in the city center continuing for two days in a row, taxi drivers and commuting citizens had to take detours for long periods.\n\n경찰은 시민의 이동 불편을 덜어주기 위해 수도권 광역버스의 통행을 유지하고 주요 도로에 가변차로를 운영했다.\nTo reduce travel inconvenience for citizens, police maintained metropolitan bus transit and operated reversible lanes on major roads.\n\n또한 원활한 차량 흐름을 돕기 위해 교통경찰 약 190명을 현장 곳곳에 배치했다.\nIn addition, about 190 traffic police officers were deployed across the sites to facilitate smooth traffic flow.\n\n경찰 관계자는 도심 행사로 극심한 혼잡이 빚어지는 만큼 가급적 대중교통을 이용해 달라고 당부했다.\nA police official urged citizens to use public transportation as much as possible, as severe congestion was caused by the downtown event.",
+        "vocab": [
+            {
+                "word": "통제하다",
+                "meaning": "to control, restrict",
+                "example_ko": "경찰은 사고 현장 주변의 도로를 안전하게 [통제했다].",
+                "example_en": "The police safely restricted the roads around the accident scene."
+            },
+            {
+                "word": "참가자",
+                "meaning": "participant",
+                "example_ko": "이번 대회에는 전국 각지에서 수많은 [참가자가] 모였다.",
+                "example_en": "Numerous participants gathered from all over the country for this competition."
+            },
+            {
+                "word": "구간",
+                "meaning": "section, stretch",
+                "example_ko": "도로 보수 공사로 인해 이 [구간에서는] 속도를 줄여야 한다.",
+                "example_en": "Speed must be reduced in this section due to road repair work."
+            },
+            {
+                "word": "전면",
+                "meaning": "entire, complete",
+                "example_ko": "폭설로 인해 산간 도로의 차량 통행이 [전면] 중단되었다.",
+                "example_en": "Vehicle traffic on mountain roads was completely suspended due to heavy snowfall."
+            },
+            {
+                "word": "진입",
+                "meaning": "entry, access",
+                "example_ko": "골목길이 좁아서 대형 차량의 [진입이] 쉽지 않다.",
+                "example_en": "It is not easy for large vehicles to gain entry because the alley is narrow."
+            },
+            {
+                "word": "우회하다",
+                "meaning": "to detour, bypass",
+                "example_ko": "고속도로가 심하게 정체되자 운전자들은 국도로 [우회했다].",
+                "example_en": "As the highway was severely congested, drivers detoured to national roads."
+            },
+            {
+                "word": "배치하다",
+                "meaning": "to deploy, station",
+                "example_ko": "행사장 입구에 길을 안내해 줄 진행 요원을 [배치했다].",
+                "example_en": "Staff members were stationed at the venue entrance to guide the way."
+            },
+            {
+                "word": "원활하다",
+                "meaning": "to be smooth, unhindered",
+                "example_ko": "신호 체계가 정비되면서 출퇴근길 도로 통행이 [원활해졌다].",
+                "example_en": "Road traffic during commuting hours became smooth as the traffic signal system was overhauled."
+            },
+            {
+                "word": "극심하다",
+                "meaning": "to be severe, extreme",
+                "example_ko": "휴가철이 시작되자 전국 주요 고속도로에 [극심한] 정체가 이어졌다.",
+                "example_en": "Severe congestion continued on major expressways nationwide as the vacation season began."
+            },
+            {
+                "word": "당부하다",
+                "meaning": "to ask earnestly, request",
+                "example_ko": "보건소에서는 주민들에게 환절기 감기 예방을 거듭 [당부했다].",
+                "example_en": "The public health center repeatedly requested residents to prevent colds during the change of seasons."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-08",
+        "published_at": "2026-11-08 09:23",
+        "title": "폴란드 도심 중앙시장서 총기 난사 참사… 6명 사망·16명 부상",
+        "body": "폴란드 제2의 도시 크라쿠프 중심가에서 대낮에 총기 난사 사건이 일어나 6명이 숨지고 16명이 다쳤다. 현지 경찰에 따르면 용의자는 중앙시장 광장에서 차량에 탄 채 무차별적으로 사람들을 향해 총을 난사했다. 사건 당시 광장에는 수많은 시민과 관광객이 주말을 즐기고 있어 인명 피해가 크게 늘어났다. 총격을 가한 범인은 범행을 저지른 뒤 곧바로 차를 타고 도주하려 했으나 현장에서 경찰에 체포됐다. 경찰은 체포된 총격범의 신원을 파악하는 한편 구체적인 범행 동기와 배후 관계를 집중적으로 조사하고 있다. 도날트 투스크 폴란드 총리는 자신의 소셜미디어를 통해 이번 사건의 진상을 철저히 규명하겠다고 발표했다. 현지 당국은 사건 현장 주변을 봉쇄하고 추가적인 위험 요소가 있는지 살피며 경계를 강화했다. 평화롭던 도심 한복판에서 벌어진 충격적인 비극에 폴란드 전역은 슬픔과 충격에 휩싸였다.",
+        "translation": "폴란드 제2의 도시 크라쿠프 중심가에서 대낮에 총기 난사 사건이 일어나 6명이 숨지고 16명이 다쳤다.\nA mass shooting occurred in broad daylight in the city center of Krakow, Poland's second-largest city, leaving 6 people dead and 16 injured.\n\n현지 경찰에 따르면 용의자는 중앙시장 광장에서 차량에 탄 채 무차별적으로 사람들을 향해 총을 난사했다.\nAccording to local police, the suspect fired indiscriminately at people from inside a vehicle at the Main Market Square.\n\n사건 당시 광장에는 수많은 시민과 관광객이 주말을 즐기고 있어 인명 피해가 크게 늘어났다.\nAt the time of the incident, numerous citizens and tourists were enjoying the weekend in the square, which led to high casualties.\n\n총격을 가한 범인은 범행을 저지른 뒤 곧바로 차를 타고 도주하려 했으나 현장에서 경찰에 체포됐다.\nAfter committing the crime, the shooter attempted to flee in the car immediately, but was arrested by police at the scene.\n\n경찰은 체포된 총격범의 신원을 파악하는 한편 구체적인 범행 동기와 배후 관계를 집중적으로 조사하고 있다.\nWhile identifying the arrested shooter, police are intensively investigating the specific motive for the crime and potential ties behind it.\n\n도날트 투스크 폴란드 총리는 자신의 소셜미디어를 통해 이번 사건의 진상을 철저히 규명하겠다고 발표했다.\nPolish Prime Minister Donald Tusk announced via his social media that authorities would thoroughly uncover the truth of this incident.\n\n현지 당국은 사건 현장 주변을 봉쇄하고 추가적인 위험 요소가 있는지 살피며 경계를 강화했다.\nLocal authorities sealed off the area around the crime scene and heightened vigilance while checking for any additional hazards.\n\n평화롭던 도심 한복판에서 벌어진 충격적인 비극에 폴란드 전역은 슬픔과 충격에 휩싸였다.\nThe entire nation of Poland was engulfed in grief and shock over the shocking tragedy that unfolded in the middle of a peaceful city center.",
+        "vocab": [
+            {
+                "word": "난사하다",
+                "meaning": "to fire indiscriminately",
+                "example_ko": "범인은 도심 한복판에서 무고한 시민들을 향해 총을 [난사했다].",
+                "example_en": "The criminal fired indiscriminately at innocent citizens in the middle of the city."
+            },
+            {
+                "word": "인명",
+                "meaning": "human life",
+                "example_ko": "다행히 신속한 대피 덕분에 큰 [인명] 피해를 막을 수 있었다.",
+                "example_en": "Fortunately, thanks to the swift evacuation, major loss of human life was prevented."
+            },
+            {
+                "word": "저지르다",
+                "meaning": "to commit (a crime/error)",
+                "example_ko": "그는 순간적인 분노를 참지 못하고 잘못을 [저지르고] 말았다.",
+                "example_en": "Unable to contain his momentary anger, he ended up committing a wrongdoing."
+            },
+            {
+                "word": "도주하다",
+                "meaning": "to flee, escape",
+                "example_ko": "사고를 낸 운전자는 차를 버려둔 채 어둠 속으로 [도주했다].",
+                "example_en": "The driver who caused the accident abandoned the car and fled into the dark."
+            },
+            {
+                "word": "체포하다",
+                "meaning": "to arrest, apprehend",
+                "example_ko": "출동한 경찰관들이 골목길에서 용의자를 곧바로 [체포했다].",
+                "example_en": "The dispatched police officers immediately arrested the suspect in the alley."
+            },
+            {
+                "word": "규명하다",
+                "meaning": "to investigate, clarify",
+                "example_ko": "조사위원회는 사고의 근본적인 원인을 철저하게 [규명할] 예정이다.",
+                "example_en": "The investigative committee plans to thoroughly clarify the root cause of the accident."
+            },
+            {
+                "word": "봉쇄하다",
+                "meaning": "to seal off, block",
+                "example_ko": "경찰은 추가 피해를 막기 위해 건물 출입구를 단단히 [봉쇄했다].",
+                "example_en": "Police firmly sealed off the building entrances to prevent further harm."
+            },
+            {
+                "word": "비극",
+                "meaning": "tragedy",
+                "example_ko": "갑작스러운 사고로 가족을 잃은 사람들의 슬픔은 참담한 [비극이다].",
+                "example_en": "The grief of those who lost family members in a sudden accident is a dreadful tragedy."
+            },
+            {
+                "word": "휩싸이다",
+                "meaning": "to be engulfed, overwhelmed",
+                "example_ko": "마을 전체가 갑작스러운 산불 소식에 큰 불안에 [휩싸였다].",
+                "example_en": "The entire village was engulfed in great anxiety at the sudden news of the forest fire."
+            },
+            {
+                "word": "전역",
+                "meaning": "the whole area, throughout",
+                "example_ko": "겨울이 시작되자 전국 [전역에] 매서운 찬 바람이 불기 시작했다.",
+                "example_en": "As winter began, harsh cold winds began to blow throughout the entire nation."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-08",
         "published_at": "2026-11-08 00:38",
         "title": "트럼프, 추가 인적 개편 가능성 일축하며 새 의회 협력 시사",
         "body": "도널드 트럼프 미국 대통령이 최근 제기된 행정부의 추가 인적 개편 가능성에 대해 분명하게 선을 그었다. 트럼프 대통령은 플로리다주 팜비치 공항에서 기자들과 만나 추가로 물러나는 인사가 더 있느냐는 질문을 받았다. 이에 대해 그는 추가 개편 가능성이 거의 없을 것이라고 답하며 현재 내각이 매우 훌륭하다고 강조했다. 앞서 트럼프 대통령은 수지 와일스 백악관 비서실장을 스티븐 밀러 부비서실장으로 전격 교체한 바 있다. 일각에서는 이번 인사가 중간선거 결과에 따른 책임 조치가 아니냐는 분석이 제기되었다. 그러나 트럼프 대통령은 이번 인사가 선거 패배 때문이 아니라 조직에 새로운 변화를 주기 위한 결정이었다고 설명했다. 아울러 자신은 투표용지에 이름이 없었다며 이번 선거 결과에 대한 책임론을 적극적으로 반박했다. 한편 트럼프 대통령은 민주당이 주도하는 새 의회와의 협력 가능성에 대해 긍정적인 입장을 나타냈다. 그는 이민과 세금, 경제 개발 등의 분야에서 의회와 함께 많은 일을 해결해 나갈 수 있다고 밝혔다. 또한 자신과 대화를 원하는 일부 의회 당선인들과 만날 뜻이 충분히 열려 있다고 덧붙였다.",

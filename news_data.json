@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-11-09",
+        "published_at": "2026-11-09 00:55",
+        "title": "국민의힘 계엄 사과와 복당 갈등… 민주당 친명계는 조직 정비",
+        "body": "여야 정당 내부에서 차기 당권과 노선을 둘러싼 갈등이 깊어지고 있다. 국민의힘에서는 무소속 한동훈 의원의 복당 문제와 함께 비상계엄 2주년 사과 여부를 두고 파열음이 일고 있다. 장동혁 국민의힘 대표는 중도 확장이 단순히 연대나 통합의 말로 이루어지는 것이 아니라며 쇄신 요구에 거듭 선을 그었다. 또한 계엄 사과 요구에 대해서도 지지층을 분열시키고 민생과 무관한 일이라며 단호하게 거부했다. 반면 오세훈 서울시장은 국민이 실망한 점이 있다면 얼마든지 사과할 수 있다며 전향적인 입장을 보였다. 한편 더불어민주당에서는 신천지 집단 입당 의혹과 관련된 계파 갈등 속에 친명계 조직인 더민주전국혁신회의 4기가 공식 출범했다. 혁신회의는 이재명 정부의 성공을 뒷받침하는 든든한 버팀목이 되겠다며 본격적인 세 과시에 나섰다. 이 자리에서는 대통령을 흔드는 것은 반개혁적 행위라며 비판 세력을 향한 경고가 쏟아져 여야 모두 내부 긴장이 높아지고 있다.",
+        "translation": "여야 정당 내부에서 차기 당권과 노선을 둘러싼 갈등이 깊어지고 있다.\nConflicts surrounding the next party leadership and political directions are deepening within both the ruling and opposition parties.\n\n국민의힘에서는 무소속 한동훈 의원의 복당 문제와 함께 비상계엄 2주년 사과 여부를 두고 파열음이 일고 있다.\nInside the People Power Party, discord is arising over the issue of independent lawmaker Han Dong-hoon's reinstatement, along with whether to apologize for the second anniversary of the martial law declaration.\n\n장동혁 국민의힘 대표는 중도 확장이 단순히 연대나 통합의 말로 이루어지는 것이 아니라며 쇄신 요구에 거듭 선을 그었다.\nPeople Power Party leader Jang Dong-hyeok repeatedly drew a line against reform demands, stating that expanding into the moderate base is not accomplished merely by words of solidarity and integration.\n\n또한 계엄 사과 요구에 대해서도 지지층을 분열시키고 민생과 무관한 일이라며 단호하게 거부했다.\nHe also firmly rejected the demands for an apology regarding the martial law, arguing that it only divides their supporter base and has nothing to do with people's livelihoods.\n\n반면 오세훈 서울시장은 국민이 실망한 점이 있다면 얼마든지 사과할 수 있다며 전향적인 입장을 보였다.\nOn the other hand, Seoul Mayor Oh Se-hoon took a forward-looking stance, saying that if there are points on which the public was disappointed, the party can apologize as many times as needed.\n\n한편 더불어민주당에서는 신천지 집단 입당 의혹과 관련된 계파 갈등 속에 친명계 조직인 더민주전국혁신회의 4기가 공식 출범했다.\nMeanwhile, within the Democratic Party of Korea, amidst factional strife related to allegations of collective party admission by Shincheonji, the 4th term of the pro-Lee faction group 'The Democratic National Innovation Meeting' was officially launched.\n\n혁신회의는 이재명 정부의 성공을 뒷받침하는 든든한 버팀목이 되겠다며 본격적인 세 과시에 나섰다.\nThe Innovation Meeting embarked on a full-scale show of strength, declaring that it would become a solid pillar supporting the success of the Lee Jae-myung administration.\n\n이 자리에서는 대통령을 흔드는 것은 반개혁적 행위라며 비판 세력을 향한 경고가 쏟아져 여야 모두 내부 긴장이 높아지고 있다.\nAt this event, warnings were poured out against critical voices, stating that destabilizing the president is an anti-reform act, heightening internal tensions across both parties.",
+        "vocab": [
+            {
+                "word": "갈등",
+                "meaning": "conflict, discord",
+                "example_ko": "두 사람은 서로 의견이 달라서 심한 [갈등]을 겪었다.",
+                "example_en": "The two experienced severe conflict due to differing opinions."
+            },
+            {
+                "word": "파열음",
+                "meaning": "friction, discord, clash",
+                "example_ko": "회의 도중 위원들 사이에서 심각한 [파열음]이 나왔다.",
+                "example_en": "During the meeting, serious discord arose among the committee members."
+            },
+            {
+                "word": "복당",
+                "meaning": "rejoining a political party",
+                "example_ko": "그 의원은 탈당한 지 일 년 만에 다시 당으로 [복당]했다.",
+                "example_en": "That lawmaker rejoined the party after leaving it a year ago."
+            },
+            {
+                "word": "확장",
+                "meaning": "expansion",
+                "example_ko": "회사는 사업을 해외로 [확장]하기로 결정했다.",
+                "example_en": "The company decided to expand its business abroad."
+            },
+            {
+                "word": "쇄신",
+                "meaning": "reform, renovation",
+                "example_ko": "선거 패배 후 당은 대대적인 조직 [쇄신]에 나섰다.",
+                "example_en": "After the election defeat, the party embarked on an extensive organizational reform."
+            },
+            {
+                "word": "분열시키다",
+                "meaning": "to divide, to cause division",
+                "example_ko": "거짓 소문은 종종 사람들의 마음을 [분열시킨다].",
+                "example_en": "False rumors often divide people's minds."
+            },
+            {
+                "word": "출범하다",
+                "meaning": "to launch, to inaugurate (an organization or project)",
+                "example_ko": "새로운 시민 봉사 단체가 이번 주말에 공식적으로 [출범했다].",
+                "example_en": "A new civic volunteer organization was officially launched this weekend."
+            },
+            {
+                "word": "뒷받침하다",
+                "meaning": "to back up, to support",
+                "example_ko": "그 이론을 [뒷받침하는] 명확한 증거가 아직 부족하다.",
+                "example_en": "Clear evidence supporting that theory is still lacking."
+            },
+            {
+                "word": "버팀목",
+                "meaning": "buttress, prop, pillar of support",
+                "example_ko": "가족은 힘든 유학 생활 동안 나에게 가장 큰 [버팀목]이었다.",
+                "example_en": "Family was my greatest pillar of support during my tough life studying abroad."
+            },
+            {
+                "word": "과시",
+                "meaning": "display, flaunting, demonstration (of power or wealth)",
+                "example_ko": "그는 자신의 경제적 부를 [과시]하는 행동을 자주 한다.",
+                "example_en": "He often behaves in a way that flaunts his financial wealth."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-09",
+        "published_at": "2026-11-09 00:55",
+        "title": "미 중간선거 여파로 반도체주 급락… 국내 경제 성장률 변수 부상",
+        "body": "미국 중간선거에서 민주당이 상·하원을 모두 장악하면서 국내외 반도체 관련 주가가 일제히 큰 폭으로 떨어졌다. 이번 선거에서 데이터센터 규제 강화를 내세운 민주당 후보들이 주요 지역에서 승리한 점이 시장에 악재로 작용한 것이다. 데이터센터는 인공지능 반도체의 핵심 수요처이기 때문에 전체 수출의 절반가량을 반도체에 의존하는 한국 경제에 상당한 부담이 될 수 있다. 다만 삼성전자와 SK하이닉스가 향후 수년 치 물량을 장기 계약으로 이미 확보해 당장의 실적 악화는 제한적일 것이라는 전망도 나온다. 일각에서는 미국의 데이터센터 투자가 주춤하는 사이 글로벌 정보기술 기업들이 대체 부지를 찾으면서 한국이 반사이익을 얻을 수 있다는 분석도 제기된다. 정부는 투자 위축 분위기에 휩쓸려 계획을 늦추지 않겠다고 밝힌 가운데, 이번 변수가 한국 경제의 성장 흐름에 어떤 영향을 미칠지 관심이 집중되고 있다.",
+        "translation": "미국 중간선거에서 민주당이 상·하원을 모두 장악하면서 국내외 반도체 관련 주가가 일제히 큰 폭으로 떨어졌다.\nAs the Democratic Party seized both the Senate and the House in the U.S. midterm elections, semiconductor-related stock prices at home and abroad plummeted all at once.\n\n이번 선거에서 데이터센터 규제 강화를 내세운 민주당 후보들이 주요 지역에서 승리한 점이 시장에 악재로 작용한 것이다.\nThe victory in key regions of Democratic candidates who advocated tightening regulations on data centers acted as a negative factor for the market.\n\n데이터센터는 인공지능 반도체의 핵심 수요처이기 때문에 전체 수출의 절반가량을 반도체에 의존하는 한국 경제에 상당한 부담이 될 수 있다.\nBecause data centers are the core source of demand for AI semiconductors, this could pose a considerable burden on the Korean economy, which relies on semiconductors for about half of its total exports.\n\n다만 삼성전자와 SK하이닉스가 향후 수년 치 물량을 장기 계약으로 이미 확보해 당장의 실적 악화는 제한적일 것이라는 전망도 나온다.\nHowever, there are also outlooks suggesting that immediate deterioration in performance will be limited, as Samsung Electronics and SK Hynix have already secured supply volumes for several years through long-term contracts.\n\n일각에서는 미국의 데이터센터 투자가 주춤하는 사이 글로벌 정보기술 기업들이 대체 부지를 찾으면서 한국이 반사이익을 얻을 수 있다는 분석도 제기된다.\nSome analysts also suggest that Korea could gain reflective benefits as global IT companies seek alternative sites while U.S. data center investments hesitate.\n\n정부는 투자 위축 분위기에 휩쓸려 계획을 늦추지 않겠다고 밝힌 가운데, 이번 변수가 한국 경제의 성장 흐름에 어떤 영향을 미칠지 관심이 집중되고 있다.\nWhile the government declared that it would not delay plans by getting swept up in the subdued investment mood, attention is focused on how this variable will affect the growth trajectory of the Korean economy.",
+        "vocab": [
+            {
+                "word": "장악하다",
+                "meaning": "to seize, to take control of",
+                "example_ko": "그 정당은 최근 선거에서 의회 다수 의석을 [장악했다].",
+                "example_en": "That political party seized a majority of parliamentary seats in the recent election."
+            },
+            {
+                "word": "급락하다",
+                "meaning": "to plunge, to drop sharply",
+                "example_ko": "세계 경제 불안으로 인해 오늘 주가가 갑자기 [급락했다].",
+                "example_en": "Stock prices plummeted suddenly today due to global economic instability."
+            },
+            {
+                "word": "규제",
+                "meaning": "regulation, restriction",
+                "example_ko": "정부는 환경오염을 줄이기 위해 배기가스 [규제]를 강화했다.",
+                "example_en": "The government tightened exhaust gas regulations to reduce environmental pollution."
+            },
+            {
+                "word": "악재",
+                "meaning": "bad news, unfavorable factor",
+                "example_ko": "원자재 가격 상승은 제조업계에 커다란 [악재]로 작용하고 있다.",
+                "example_en": "Rising raw material prices are acting as a major unfavorable factor for the manufacturing industry."
+            },
+            {
+                "word": "수요처",
+                "meaning": "source of demand, consumer base",
+                "example_ko": "농부들은 판로를 넓히기 위해 새로운 농산물 [수요처]를 찾고 있다.",
+                "example_en": "Farmers are searching for new sources of agricultural demand to broaden their distribution channels."
+            },
+            {
+                "word": "의존하다",
+                "meaning": "to rely on, to depend on",
+                "example_ko": "많은 학생들이 대중교통에 [의존하여] 매일 통학한다.",
+                "example_en": "Many students commute to school every day by relying on public transportation."
+            },
+            {
+                "word": "확보하다",
+                "meaning": "to secure, to procure",
+                "example_ko": "기업은 위기 상황에 대비해 충분한 현금을 미리 [확보했다].",
+                "example_en": "The enterprise secured sufficient cash in advance in preparation for crisis situations."
+            },
+            {
+                "word": "주춤하다",
+                "meaning": "to falter, to slow down, to hesitate",
+                "example_ko": "상승세를 이어가던 부동산 가격이 최근 들어 다소 [주춤하고] 있다.",
+                "example_en": "Real estate prices, which had been rising, have slowed down somewhat recently."
+            },
+            {
+                "word": "반사이익",
+                "meaning": "reflective benefit, indirect gain",
+                "example_ko": "경쟁사의 파업으로 인해 우리 회사가 뜻밖의 [반사이익]을 얻었다.",
+                "example_en": "Due to a strike at our rival company, our company gained an unexpected indirect benefit."
+            },
+            {
+                "word": "위축",
+                "meaning": "shrinkage, contraction, feeling intimidated",
+                "example_ko": "소비 심리 [위축]으로 인해 골목 상권 상인들의 시름이 깊어졌다.",
+                "example_en": "Due to the contraction of consumer sentiment, the worries of local neighborhood merchants have deepened."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-09",
+        "published_at": "2026-11-09 00:55",
+        "title": "인천 송내IC 고속도로서 8대 연쇄 추돌… 극심한 정체 빚어져",
+        "body": "주말 저녁 고속도로에서 차량 여러 대가 연쇄적으로 추돌하는 사고가 발생해 운전자들이 큰 불편을 겪었다. 인천 부평구 수도권제1순환고속도로 일산 방향 송내나들목 인근에서 승용차 여덟 대가 잇따라 부딪히는 사고가 났다. 이 사고로 차량 세 대에 탑승하고 있던 탑승객 다섯 명이 크고 작은 경상을 입고 구급 처치를 받았다. 사고 처리를 위해 도로 두 개 차로의 차량 통행이 즉시 차단되면서 주말 고속도로 일대에 한동안 극심한 차량 정체가 빚어졌다. 경찰은 앞서가던 차량의 뒤를 후속 차량들이 들이받으면서 연쇄적인 충돌이 일어난 것으로 파악하고 있다. 현장에 출동한 경찰의 확인 결과 운전자들의 음주 운전이나 무면허 운전 등 특별한 법규 위반 정황은 발견되지 않았다. 경찰은 차량 블랙박스 영상과 목격자들의 진술을 토대로 정확한 사고 경위를 집중 조사 중이다.",
+        "translation": "주말 저녁 고속도로에서 차량 여러 대가 연쇄적으로 추돌하는 사고가 발생해 운전자들이 큰 불편을 겪었다.\nOn a weekend evening, an accident involving a chain-reaction collision of multiple vehicles occurred on a highway, causing great inconvenience to drivers.\n\n인천 부평구 수도권제1순환고속도로 일산 방향 송내나들목 인근에서 승용차 여덟 대가 잇따라 부딪히는 사고가 났다.\nNear Songnae IC on the Capital Region First Ring Expressway heading toward Ilsan in Bupyeong-gu, Incheon, an accident occurred in which eight passenger cars collided one after another.\n\n이 사고로 차량 세 대에 탑승하고 있던 탑승객 다섯 명이 크고 작은 경상을 입고 구급 처치를 받았다.\nIn this accident, five passengers traveling in three of the vehicles sustained minor injuries and received emergency medical treatment.\n\n사고 처리를 위해 도로 두 개 차로의 차량 통행이 즉시 차단되면서 주말 고속도로 일대에 한동안 극심한 차량 정체가 빚어졌다.\nAs traffic on two lanes was immediately blocked for accident clean-up, severe vehicle congestion occurred across the highway area for a while over the weekend.\n\n경찰은 앞서가던 차량의 뒤를 후속 차량들이 들이받으면서 연쇄적인 충돌이 일어난 것으로 파악하고 있다.\nThe police understand that a chain-reaction collision occurred as following vehicles rammed into the back of the car ahead.\n\n현장에 출동한 경찰의 확인 결과 운전자들의 음주 운전이나 무면허 운전 등 특별한 법규 위반 정황은 발견되지 않았다.\nAs a result of checks by the police who arrived at the scene, no specific signs of legal violations such as drunk driving or unlicensed driving were found among the drivers.\n\n경찰은 차량 블랙박스 영상과 목격자들의 진술을 토대로 정확한 사고 경위를 집중 조사 중이다.\nThe police are intensively investigating the precise circumstances of the accident based on vehicle dashcam footage and witness statements.",
+        "vocab": [
+            {
+                "word": "연쇄적",
+                "meaning": "chain-reacting, consecutive, continuous",
+                "example_ko": "한 회사의 부도가 다른 협력업체들의 [연쇄적] 도산으로 이어졌다.",
+                "example_en": "The bankruptcy of one company led to the chain-reaction insolvency of other partner businesses."
+            },
+            {
+                "word": "추돌",
+                "meaning": "rear-end collision",
+                "example_ko": "신호 대기 중이던 버스가 뒤따라오던 트럭에 [추돌]을 당했다.",
+                "example_en": "The bus waiting at the traffic light suffered a rear-end collision from a following truck."
+            },
+            {
+                "word": "탑승객",
+                "meaning": "passenger, boarder",
+                "example_ko": "항공기 출발 전에 모든 [탑승객]은 안전벨트를 착용해야 한다.",
+                "example_en": "Before the aircraft takes off, all passengers must fasten their seat belts."
+            },
+            {
+                "word": "경상",
+                "meaning": "minor injury, light wound",
+                "example_ko": "다행히 보호 장비를 착용하고 있어서 가벼운 [경상]만 입었다.",
+                "example_en": "Fortunately, because he wore protective equipment, he sustained only a light minor injury."
+            },
+            {
+                "word": "통행",
+                "meaning": "traffic, passing through",
+                "example_ko": "폭설로 인해 산간 도로의 차량 [통행]이 전면 중단되었다.",
+                "example_en": "Vehicle traffic on mountain roads was completely suspended due to heavy snow."
+            },
+            {
+                "word": "정체",
+                "meaning": "congestion, stagnation, traffic jam",
+                "example_ko": "퇴근 시간에 비까지 내려 도심 도로에 심한 [정체]가 생겼다.",
+                "example_en": "With rain falling during rush hour, severe congestion developed on downtown roads."
+            },
+            {
+                "word": "들이받다",
+                "meaning": "to bump into, to ram, to rear-end",
+                "example_ko": "빗길에 미끄러진 차량이 길가의 가로수를 세게 [들이받았다].",
+                "example_en": "The vehicle that skidded on the wet road slammed hard into a street tree."
+            },
+            {
+                "word": "무면허",
+                "meaning": "unlicensed, without a license",
+                "example_ko": "운전면허 없이 차를 운전하는 [무면허] 운전은 엄중히 처벌받는다.",
+                "example_en": "Unlicensed driving, operating a car without a driver's license, is severely punished."
+            },
+            {
+                "word": "정황",
+                "meaning": "circumstances, signs, context",
+                "example_ko": "사고 현장에는 범인이 급히 도주한 여러 가지 [정황]이 남아 있었다.",
+                "example_en": "Various circumstantial signs that the criminal had fled in a hurry remained at the crime scene."
+            },
+            {
+                "word": "진술",
+                "meaning": "statement, testimony",
+                "example_ko": "경찰은 사건을 목격한 주민의 [진술]을 주의 깊게 기록했다.",
+                "example_en": "The police carefully recorded the statement of the resident who witnessed the incident."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-09",
+        "published_at": "2026-11-09 00:55",
+        "title": "사우디 수도 금융지구 피격… 후티 반군 아람코 시설 정밀 타격 주장",
+        "body": "사우디아라비아의 경제 중심지인 수도 리야드의 금융지구가 예멘 후티 반군의 발사체 공격을 받았다. 주요 외신들은 목격자들의 진술을 인용해 킹압둘라 금융지구 내 고층 건물과 국영 석유회사 아람코의 타워 건물이 파손되었다고 보도했다. 이 금융지구는 대형 마천루와 글로벌 금융회사들이 입주한 곳으로 사우디 경제 개혁의 대표적인 상징 공간이다. 사우디 에너지부는 리야드 소재 아람코 소속 행정 건물이 공격을 받아 파편으로 인한 경미한 피해가 났으나 인명 피해는 없다고 발표했다. 앞서 사우디 주도 연합군은 반군이 발사한 미사일을 공중에서 성공적으로 요격했다고 밝힌 바 있다. 공격 배후를 자처한 후티 반군은 사우디의 공습에 맞서 탄도미사일과 드론을 동원해 국제공항과 원유 시설을 겨냥한 정밀 타격을 벌였다고 주장했다. 이번 사건으로 중동 지역의 안보 위기가 다시 고조되면서 국제 원유 시장과 국제 정세에도 긴장감이 번지고 있다.",
+        "translation": "사우디아라비아의 경제 중심지인 수도 리야드의 금융지구가 예멘 후티 반군의 발사체 공격을 받았다.\nThe financial district of Riyadh, the capital and economic heart of Saudi Arabia, was attacked by projectiles from Yemen's Houthi rebels.\n\n주요 외신들은 목격자들의 진술을 인용해 킹압둘라 금융지구 내 고층 건물과 국영 석유회사 아람코의 타워 건물이 파손되었다고 보도했다.\nMajor foreign media reported, citing witness statements, that high-rise buildings and the tower building of state-run oil firm Aramco inside the King Abdullah Financial District were damaged.\n\n이 금융지구는 대형 마천루와 글로벌 금융회사들이 입주한 곳으로 사우디 경제 개혁의 대표적인 상징 공간이다.\nThis financial district, where large skyscrapers and global financial firms are situated, is a representative symbol of Saudi economic reform.\n\n사우디 에너지부는 리야드 소재 아람코 소속 행정 건물이 공격을 받아 파편으로 인한 경미한 피해가 났으나 인명 피해는 없다고 발표했다.\nThe Saudi Ministry of Energy announced that an administrative building belonging to Aramco in Riyadh was attacked, sustaining minor damage caused by falling debris, but with no casualties.\n\n앞서 사우디 주도 연합군은 반군이 발사한 미사일을 공중에서 성공적으로 요격했다고 밝힌 바 있다.\nEarlier, the Saudi-led coalition announced that it had successfully intercepted in mid-air a missile launched by the rebels.\n\n공격 배후를 자처한 후티 반군은 사우디의 공습에 맞서 탄도미사일과 드론을 동원해 국제공항과 원유 시설을 겨냥한 정밀 타격을 벌였다고 주장했다.\nThe Houthi rebels, who claimed responsibility behind the attack, claimed they mobilized ballistic missiles and drones against Saudi air strikes to execute precision strikes targeting international airports and crude oil facilities.\n\n이번 사건으로 중동 지역의 안보 위기가 다시 고조되면서 국제 원유 시장과 국제 정세에도 긴장감이 번지고 있다.\nWith the regional security crisis in the Middle East escalating again due to this incident, tension is also spreading across international crude oil markets and global affairs.",
+        "vocab": [
+            {
+                "word": "발사체",
+                "meaning": "projectile, missile",
+                "example_ko": "국방부는 동해안 상공으로 미상의 [발사체]가 발사되었다고 발표했다.",
+                "example_en": "The Ministry of National Defense announced that an unidentified projectile was fired over the East Sea."
+            },
+            {
+                "word": "파손되다",
+                "meaning": "to be damaged, to be broken",
+                "example_ko": "강풍으로 인해 주택의 유리창이 심하게 [파손되었다].",
+                "example_en": "The windowpanes of the house were severely damaged due to the strong wind."
+            },
+            {
+                "word": "마천루",
+                "meaning": "skyscraper",
+                "example_ko": "도심 한가운데 하늘 높이 솟은 수많은 [마천루]가 장관을 이룬다.",
+                "example_en": "Numerous skyscrapers soaring high into the sky in the city center create a spectacular sight."
+            },
+            {
+                "word": "입주하다",
+                "meaning": "to move in, to occupy (premises or housing)",
+                "example_ko": "새로 지은 상가 건물에 다양한 식당들이 [입주했다].",
+                "example_en": "Various restaurants moved into the newly constructed commercial building."
+            },
+            {
+                "word": "경미하다",
+                "meaning": "slight, minor, insignificant",
+                "example_ko": "사고 규모에 비해 다행히 피해 정도는 매우 [경미했다].",
+                "example_en": "Compared to the scale of the accident, fortunately the extent of damage was very minor."
+            },
+            {
+                "word": "요격하다",
+                "meaning": "to intercept (a missile or aircraft)",
+                "example_ko": "방공 시스템이 날아오는 적의 미사일을 공중에서 정확히 [요격했다].",
+                "example_en": "The air defense system accurately intercepted incoming enemy missiles in the air."
+            },
+            {
+                "word": "배후",
+                "meaning": "background, mastermind, person behind the scenes",
+                "example_ko": "수사관들은 이번 범죄 사건의 숨은 [배후]를 밝히기 위해 노력 중이다.",
+                "example_en": "Investigators are trying to uncover the hidden mastermind behind this criminal case."
+            },
+            {
+                "word": "공습",
+                "meaning": "air raid, air strike",
+                "example_ko": "갑작스러운 [공습] 경보가 울리자 주민들이 지하 대피소로 이동했다.",
+                "example_en": "When a sudden air raid warning sounded, residents moved into the underground shelter."
+            },
+            {
+                "word": "정밀",
+                "meaning": "precision, accuracy",
+                "example_ko": "의사는 환자의 정확한 건강 상태를 확인하기 위해 [정밀] 검사를 지시했다.",
+                "example_en": "The doctor ordered a precision examination to check the patient's accurate health condition."
+            },
+            {
+                "word": "고조되다",
+                "meaning": "to heighten, to escalate, to build up",
+                "example_ko": "양국 간의 국경 분쟁으로 인해 군사적 긴장이 한층 [고조되었다].",
+                "example_en": "Military tensions escalated further due to the border dispute between the two countries."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-11-08",
         "published_at": "2026-11-08 09:23",
         "title": "이 대통령 \"정치인 지지, 종교적 숭배 돼선 안 돼… 극단주의 경계\"",

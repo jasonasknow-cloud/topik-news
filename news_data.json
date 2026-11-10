@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-10",
+        "published_at": "2026-11-10 12:24",
+        "title": "이 대통령, '불법 이익 집단' 실태 전수조사 지시",
+        "body": "이재명 대통령이 법을 위반하며 부당한 이익을 챙기는 집단에 대해 전국적인 전수조사를 지시했다. 이 대통령은 청와대에서 열린 국무회의에서 법률에 따른 처분이나 집행에 무력으로 저항하는 불법 행태를 강하게 비판했다. 특히 재개발 명도 집행 과정에서 물리력을 동원해 수년간 버티는 방식으로 막대한 피해를 주는 사례를 직접 언급했다. 그러면서 법을 지키지 않고 억지를 부려 결국 자신의 요구를 관철하는 잘못된 관행이 계속되고 있다고 지적했다. 이 대통령은 국민이 이를 보면 법이 힘센 사람의 편이라고 생각하게 될 것이라며 깊은 우려를 표했다. 이어 전국에서 합법적인 법질서를 부정하거나 불법을 지속적으로 강행하는 실태를 모두 점검해 보고하라고 당부했다. 앞서 이 대통령은 장위10구역 재개발 현장을 방문해 사랑제일교회가 구역에서 제외된 결정을 강하게 문제 삼은 바 있다. 당시 이 대통령은 법을 어겨도 버티면 된다는 잘못된 생각이 사회에 자리 잡아서는 안 된다고 강조했다.",
+        "translation": "이재명 대통령이 법을 위반하며 부당한 이익을 챙기는 집단에 대해 전국적인 전수조사를 지시했다.\nPresident Lee Jae-myung ordered a nationwide full-scale investigation into groups that gain illicit profits by violating the law.\n\n이 대통령은 청와대에서 열린 국무회의에서 법률에 따른 처분이나 집행에 무력으로 저항하는 불법 행태를 강하게 비판했다.\nAt a Cabinet meeting held at the Blue House, President Lee strongly criticized the illegal behavior of using force to resist lawful measures or enforcement.\n\n특히 재개발 명도 집행 과정에서 물리력을 동원해 수년간 버티는 방식으로 막대한 피해를 주는 사례를 직접 언급했다.\nIn particular, he directly mentioned cases of causing massive damage by mobilizing physical force and holding out for years during redevelopment eviction proceedings.\n\n그러면서 법을 지키지 않고 억지를 부려 결국 자신의 요구를 관철하는 잘못된 관행이 계속되고 있다고 지적했다.\nHe pointed out that the wrong practice of breaking the law, being unreasonable, and ultimately getting one's way is continuing.\n\n이 대통령은 국민이 이를 보면 법이 힘센 사람의 편이라고 생각하게 될 것이라며 깊은 우려를 표했다.\nPresident Lee expressed deep concern, saying that when citizens see this, they will come to think that the law is on the side of the powerful.\n\n이어 전국에서 합법적인 법질서를 부정하거나 불법을 지속적으로 강행하는 실태를 모두 점검해 보고하라고 당부했다.\nHe then instructed officials to examine and report on all cases nationwide where the legal order is denied or illegal acts are continuously carried out.\n\n앞서 이 대통령은 장위10구역 재개발 현장을 방문해 사랑제일교회가 구역에서 제외된 결정을 강하게 문제 삼은 바 있다.\nPreviously, President Lee visited the Jangwi District 10 redevelopment site and strongly took issue with the decision to exclude Sarang Jeil Church from the area.\n\n당시 이 대통령은 법을 어겨도 버티면 된다는 잘못된 생각이 사회에 자리 잡아서는 안 된다고 강조했다.\nAt the time, President Lee emphasized that the mistaken belief that one can prevail simply by holding out despite breaking the law must not take root in society.",
+        "vocab": [
+            {
+                "word": "전수조사",
+                "meaning": "full-scale survey, complete enumeration",
+                "example_ko": "정부는 안전 문제를 해결하기 위해 시설에 대한 [전수조사]를 실시했다.",
+                "example_en": "The government conducted a full-scale survey of the facilities to resolve safety issues."
+            },
+            {
+                "word": "위반하다",
+                "meaning": "to violate, to breach",
+                "example_ko": "운전할 때 교통 법규를 [위반하면] 벌금을 내야 한다.",
+                "example_en": "If you violate traffic regulations when driving, you have to pay a fine."
+            },
+            {
+                "word": "저항하다",
+                "meaning": "to resist, to oppose",
+                "example_ko": "주민들은 불합리한 철거 결정에 끝까지 [저항했다].",
+                "example_en": "The residents resisted until the end against the unreasonable demolition decision."
+            },
+            {
+                "word": "물리력",
+                "meaning": "physical force",
+                "example_ko": "어떠한 갈등 상황에서도 [물리력]을 사용하는 것은 옳지 않다.",
+                "example_en": "Using physical force in any conflict situation is not right."
+            },
+            {
+                "word": "버티다",
+                "meaning": "to endure, to hold out",
+                "example_ko": "그는 힘든 훈련 과정을 끝까지 포기하지 않고 [버텼다].",
+                "example_en": "He held out until the end without giving up during the difficult training course."
+            },
+            {
+                "word": "관철하다",
+                "meaning": "to achieve one's goal, to carry through",
+                "example_ko": "회사는 노조와의 협상에서 기존 입장을 끝까지 [관철했다].",
+                "example_en": "The company carried through its existing position to the end in negotiations with the labor union."
+            },
+            {
+                "word": "법질서",
+                "meaning": "legal order, law and order",
+                "example_ko": "사회의 안정을 유지하기 위해서는 건전한 [법질서]가 바로 서야 한다.",
+                "example_en": "To maintain social stability, a sound legal order must be firmly established."
+            },
+            {
+                "word": "강행하다",
+                "meaning": "to push ahead with, to enforce",
+                "example_ko": "주민들의 반대에도 불구하고 공사는 예정대로 [강행되었다].",
+                "example_en": "Despite the opposition of residents, the construction was pushed ahead as scheduled."
+            },
+            {
+                "word": "실태",
+                "meaning": "actual condition, reality",
+                "example_ko": "교육부는 농촌 지역 학교의 운영 [실태]를 면밀히 조사했다.",
+                "example_en": "The Ministry of Education closely investigated the actual operating conditions of rural schools."
+            },
+            {
+                "word": "자리잡다",
+                "meaning": "to take root, to settle down",
+                "example_ko": "새로운 환경 정책이 시민들의 일상생활 속에 잘 [자리잡았다].",
+                "example_en": "The new environmental policy has firmly taken root in the daily lives of citizens."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-10",
+        "published_at": "2026-11-10 12:24",
+        "title": "상장사 소액주주 24% 급증…삼성전자 797만 명으로 최다",
+        "body": "국내 상장사의 소액주주 수가 최근 1년 6개월 사이에 24% 넘게 급증한 것으로 나타났다. 기업분석연구소 리더스인덱스가 국내 상장사 1,992곳을 분석한 결과, 소액주주는 총 8,136만여 명에 달했다. 이는 2024년 말과 비교해 약 24.2% 늘어난 수치이다. 조사 기업 가운데 소액주주가 가장 많은 곳은 삼성전자로 총 797만여 명을 기록했다. 삼성전자의 소액주주 수는 같은 기간 동안 54.5%나 크게 증가했다. SK하이닉스 또한 소액주주가 약 4.4배로 폭발적으로 늘어나 346만여 명에 이르렀다. 증가율 기준으로는 LS일렉트릭이 720%를 넘어서며 상장사 중 가장 가파른 상승세를 보였다. 다만 전체 기업 중 소액주주가 증가한 곳은 601곳에 그쳐 감소한 기업보다 훨씬 적었다. 아울러 소액주주의 전체 보유 주식 수는 10.3% 줄었으며 지분율도 47.6%로 소폭 하락했다.",
+        "translation": "국내 상장사의 소액주주 수가 최근 1년 6개월 사이에 24% 넘게 급증한 것으로 나타났다.\nIt was revealed that the number of minority shareholders in domestic listed companies jumped by more than 24% over the past year and a half.\n\n기업분석연구소 리더스인덱스가 국내 상장사 1,992곳을 분석한 결과, 소액주주는 총 8,136만여 명에 달했다.\nAs a result of corporate analysis institute Leaders Index analyzing 1,992 domestic listed companies, minority shareholders reached a total of around 81.36 million.\n\n이는 2024년 말과 비교해 약 24.2% 늘어난 수치이다.\nThis figure is an increase of about 24.2% compared to the end of 2024.\n\n조사 기업 가운데 소액주주가 가장 많은 곳은 삼성전자로 총 797만여 명을 기록했다.\nAmong the surveyed companies, the one with the most minority shareholders was Samsung Electronics, recording around 7.97 million.\n\n삼성전자의 소액주주 수는 같은 기간 동안 54.5%나 크게 증가했다.\nThe number of minority shareholders of Samsung Electronics increased significantly by 54.5% during the same period.\n\nSK하이닉스 또한 소액주주가 약 4.4배로 폭발적으로 늘어나 346만여 명에 이르렀다.\nSK Hynix also saw an explosive increase in minority shareholders by about 4.4 times, reaching around 3.46 million.\n\n증가율 기준으로는 LS일렉트릭이 720%를 넘어서며 상장사 중 가장 가파른 상승세를 보였다.\nIn terms of growth rate, LS Electric exceeded 720%, showing the steepest upward trend among listed companies.\n\n다만 전체 기업 중 소액주주가 증가한 곳은 601곳에 그쳐 감소한 기업보다 훨씬 적었다.\nHowever, only 601 companies saw an increase in minority shareholders, which was far fewer than the companies that saw a decrease.\n\n아울러 소액주주의 전체 보유 주식 수는 10.3% 줄었으며 지분율도 47.6%로 소폭 하락했다.\nIn addition, the total number of shares held by minority shareholders decreased by 10.3%, and their shareholding ratio also dropped slightly to 47.6%.",
+        "vocab": [
+            {
+                "word": "상장사",
+                "meaning": "listed company",
+                "example_ko": "국내 주요 [상장사]들의 실적이 올해 크게 개선되었다.",
+                "example_en": "The performance of major domestic listed companies improved significantly this year."
+            },
+            {
+                "word": "소액주주",
+                "meaning": "minority shareholder, retail investor",
+                "example_ko": "기업은 [소액주주]의 권리를 보호하기 위해 다양한 제도를 마련했다.",
+                "example_en": "The company prepared various systems to protect the rights of minority shareholders."
+            },
+            {
+                "word": "급증하다",
+                "meaning": "to surge, to increase rapidly",
+                "example_ko": "최근 건강에 대한 관심으로 유기농 식품 판매가 [급증했다].",
+                "example_en": "Recently, sales of organic food have surged due to interest in health."
+            },
+            {
+                "word": "집계되다",
+                "meaning": "to be tallied, to be counted",
+                "example_ko": "이번 축제에 참여한 관광객 수는 10만 명으로 [집계되었다].",
+                "example_en": "The number of tourists participating in this festival was tallied at 100,000."
+            },
+            {
+                "word": "가파르다",
+                "meaning": "to be steep, to be sharp",
+                "example_ko": "최근 물가가 [가파르게] 오르면서 가계 부담이 커지고 있다.",
+                "example_en": "As consumer prices are rising steeply recently, the household burden is growing."
+            },
+            {
+                "word": "상승세",
+                "meaning": "upward trend",
+                "example_ko": "수출이 호조를 보이면서 국내 경기가 뚜렷한 [상승세]를 타고 있다.",
+                "example_en": "With strong exports, the domestic economy is riding a distinct upward trend."
+            },
+            {
+                "word": "보유하다",
+                "meaning": "to hold, to possess",
+                "example_ko": "그는 유명 IT 기업의 주식을 다량 [보유하고] 있다.",
+                "example_en": "He holds a large amount of stock in a famous IT company."
+            },
+            {
+                "word": "지분율",
+                "meaning": "shareholding ratio, percentage of ownership",
+                "example_ko": "외국인 투자자의 [지분율]이 높아지면 경영에 미치는 영향도 커진다.",
+                "example_en": "If the foreign investors' shareholding ratio increases, their influence on management also grows."
+            },
+            {
+                "word": "소폭",
+                "meaning": "slightly, by a narrow margin",
+                "example_ko": "오늘 주식 시장에서 코스피 지수가 [소폭] 상승 마감했다.",
+                "example_en": "In today's stock market, the KOSPI index closed slightly higher."
+            },
+            {
+                "word": "하락하다",
+                "meaning": "to fall, to decline",
+                "example_ko": "부동산 시장의 침체로 아파트 가격이 몇 달째 [하락하고] 있다.",
+                "example_en": "Due to the slump in the real estate market, apartment prices have been falling for several months."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-10",
+        "published_at": "2026-11-10 12:24",
+        "title": "매운 라면 나트륨 함량 과다…하루 권장량 초과 제품도",
+        "body": "한국소비자원이 시중에 유통 중인 인기 매운 라면 12개 제품의 품질과 안전성을 시험 평가했다. 평가 결과 제품에 따라 매운맛을 내는 캡사이신류 성분의 함량이 최대 6.9배나 차이 났다. 특히 조사 대상인 모든 제품의 한 봉지당 나트륨 함량이 하루 권장 기준치의 절반을 넘었다. 국물 라면의 경우 나트륨 함량이 1일 기준치의 최대 104%에 이르러 각별한 주의가 요구된다. 나트륨 함량이 가장 높은 제품은 국물까지 모두 섭취할 경우 하루 기준치를 훌쩍 넘게 된다. 소비자원은 국물 라면 나트륨의 약 70%가 국물에 들어 있는 만큼 국물 섭취를 줄이라고 권고했다. 한편 중금속과 식중독균 등 유해 물질 검사에서는 조사 대상 모든 제품이 안전 기준에 적합했다. 또한 제품 한 봉지당 가격은 국물 라면이 최대 1.9배, 볶음 라면은 최대 1.4배의 차이를 나타냈다.",
+        "translation": "한국소비자원이 시중에 유통 중인 인기 매운 라면 12개 제품의 품질과 안전성을 시험 평가했다.\nThe Korea Consumer Agency tested and evaluated the quality and safety of 12 popular spicy ramyeon products on the market.\n\n평가 결과 제품에 따라 매운맛을 내는 캡사이신류 성분의 함량이 최대 6.9배나 차이 났다.\nAs a result of the evaluation, the content of capsaicinoids that produce a spicy taste differed by up to 6.9 times depending on the product.\n\n특히 조사 대상인 모든 제품의 한 봉지당 나트륨 함량이 하루 권장 기준치의 절반을 넘었다.\nIn particular, the sodium content per packet in all products surveyed exceeded half of the daily recommended standard.\n\n국물 라면의 경우 나트륨 함량이 1일 기준치의 최대 104%에 이르러 각별한 주의가 요구된다.\nIn the case of soup ramyeon, the sodium content reached up to 104% of the daily standard, requiring special caution.\n\n나트륨 함량이 가장 높은 제품은 국물까지 모두 섭취할 경우 하루 기준치를 훌쩍 넘게 된다.\nFor the product with the highest sodium content, consuming even the soup easily exceeds the daily standard.\n\n소비자원은 국물 라면 나트륨의 약 70%가 국물에 들어 있는 만큼 국물 섭취를 줄이라고 권고했다.\nThe Consumer Agency advised reducing soup intake as approximately 70% of the sodium in soup ramyeon is contained in the soup.\n\n한편 중금속과 식중독균 등 유해 물질 검사에서는 조사 대상 모든 제품이 안전 기준에 적합했다.\nMeanwhile, in tests for hazardous substances such as heavy metals and food poisoning bacteria, all tested products complied with safety standards.\n\n또한 제품 한 봉지당 가격은 국물 라면이 최대 1.9배, 볶음 라면은 최대 1.4배의 차이를 나타냈다.\nIn addition, the price per packet showed a difference of up to 1.9 times for soup ramyeon and up to 1.4 times for fried noodles.",
+        "vocab": [
+            {
+                "word": "유통",
+                "meaning": "distribution, circulation",
+                "example_ko": "이 제품은 백화점과 대형 마트를 통해 전국에 [유통]되고 있다.",
+                "example_en": "This product is distributed nationwide through department stores and supermarkets."
+            },
+            {
+                "word": "함량",
+                "meaning": "content, amount contained",
+                "example_ko": "건강을 위해 당분 [함량]이 낮은 음료수를 선택하는 것이 좋다.",
+                "example_en": "For health reasons, it is good to choose beverages with low sugar content."
+            },
+            {
+                "word": "섭취하다",
+                "meaning": "to consume, to ingest",
+                "example_ko": "의사는 환자에게 비타민을 매일 꾸준히 [섭취하라고] 조언했다.",
+                "example_en": "The doctor advised the patient to steadily consume vitamins every day."
+            },
+            {
+                "word": "권장량",
+                "meaning": "recommended intake, recommended amount",
+                "example_ko": "과도한 카페인 섭취를 막기 위해 일일 [권장량]을 지켜야 한다.",
+                "example_en": "To prevent excessive caffeine consumption, you should observe the daily recommended amount."
+            },
+            {
+                "word": "초과하다",
+                "meaning": "to exceed, to surpass",
+                "example_ko": "수하물의 무게가 허용 기준을 [초과하면] 추가 요금이 발생한다.",
+                "example_en": "If baggage weight exceeds the permitted limit, additional fees will occur."
+            },
+            {
+                "word": "권고하다",
+                "meaning": "to advise, to recommend",
+                "example_ko": "전문가는 눈 건강을 위해 스마트폰 사용 시간을 줄이라고 [권고했다].",
+                "example_en": "The expert advised reducing smartphone usage time for eye health."
+            },
+            {
+                "word": "유해",
+                "meaning": "harmful, hazardous",
+                "example_ko": "정부는 어린이 제품에 들어가는 [유해] 화학물질에 대한 규제를 강화했다.",
+                "example_en": "The government strengthened regulations on harmful chemical substances entering children's products."
+            },
+            {
+                "word": "적합하다",
+                "meaning": "to be suitable, to meet standards",
+                "example_ko": "이 건물은 정밀 검사 결과 안전 기준에 [적합한] 것으로 확인되었다.",
+                "example_en": "As a result of a precision inspection, this building was confirmed to meet safety standards."
+            },
+            {
+                "word": "조절",
+                "meaning": "control, regulation, adjustment",
+                "example_ko": "체중 감량을 위해서는 식사량 [조절]과 꾸준한 운동이 필수적이다.",
+                "example_en": "To lose weight, meal portion control and steady exercise are essential."
+            },
+            {
+                "word": "기준치",
+                "meaning": "standard value, threshold",
+                "example_ko": "수질 검사에서 오염 물질이 허용 [기준치]를 크게 넘어섰다.",
+                "example_en": "In the water quality test, pollutants greatly exceeded the permissible standard threshold."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-10",
+        "published_at": "2026-11-10 12:24",
+        "title": "외교부, '반정부 시위 격화' 알바니아에 여행자제 발령",
+        "body": "외교부가 반정부 시위로 혼란이 커진 동유럽 국가 알바니아에 대한 여행경보를 상향 조정했다. 외교부는 기존 1단계 '여행유의' 상태였던 알바니아 전역을 2단계 '여행자제'로 높였다고 밝혔다. 이번 조치는 현지에서 반정부 시위가 과열되면서 폭력 사태가 발생하는 등 치안이 악화된 데 따른 것이다. 알바니아에서는 최근 교육 환경 개선과 총리 퇴진을 요구하는 대규모 시위가 잇따라 발생하고 있다. 특히 내년 5월 지방선거를 앞두고 정치 세력 간 갈등이 심해지면서 시위 현장의 긴장감이 고조되고 있다. 외교부는 알바니아 여행을 계획 중인 국민에게 방문 필요성을 신중히 재검토할 것을 촉구했다. 이어 긴급한 용무가 아닌 불필요한 여행은 가급적 자제하거나 일정을 연기해 달라고 당부했다. 아울러 현재 알바니아 현지에 체류하고 있는 교민과 여행객들에게는 신변 안전에 각별히 유의해 달라고 강조했다.",
+        "translation": "외교부가 반정부 시위로 혼란이 커진 동유럽 국가 알바니아에 대한 여행경보를 상향 조정했다.\nThe Ministry of Foreign Affairs raised its travel alert for Albania, an Eastern European country experiencing growing turmoil due to anti-government protests.\n\n외교부는 기존 1단계 '여행유의' 상태였던 알바니아 전역을 2단계 '여행자제'로 높였다고 밝혔다.\nThe Ministry of Foreign Affairs announced that it upgraded all of Albania from the previous Level 1 \"Travel with Caution\" to Level 2 \"Restrain from Travel.\"\n\n이번 조치는 현지에서 반정부 시위가 과열되면서 폭력 사태가 발생하는 등 치안이 악화된 데 따른 것이다.\nThis measure was taken as public order deteriorated due to anti-government protests becoming overheated and leading to violence locally.\n\n알바니아에서는 최근 교육 환경 개선과 총리 퇴진을 요구하는 대규모 시위가 잇따라 발생하고 있다.\nIn Albania, large-scale protests demanding improvements to educational conditions and the resignation of the prime minister have been occurring one after another recently.\n\n특히 내년 5월 지방선거를 앞두고 정치 세력 간 갈등이 심해지면서 시위 현장의 긴장감이 고조되고 있다.\nIn particular, ahead of local elections next May, tensions at protest sites are mounting as conflicts between political factions intensify.\n\n외교부는 알바니아 여행을 계획 중인 국민에게 방문 필요성을 신중히 재검토할 것을 촉구했다.\nThe Ministry of Foreign Affairs urged citizens planning to travel to Albania to carefully reconsider the necessity of their visit.\n\n이어 긴급한 용무가 아닌 불필요한 여행은 가급적 자제하거나 일정을 연기해 달라고 당부했다.\nIt then requested that citizens refrain as much as possible from unnecessary travel that is not an urgent matter or postpone their schedules.\n\n아울러 현재 알바니아 현지에 체류하고 있는 교민과 여행객들에게는 신변 안전에 각별히 유의해 달라고 강조했다.\nIn addition, it emphasized that Korean residents and travelers currently staying locally in Albania should take special care regarding their personal safety.",
+        "vocab": [
+            {
+                "word": "여행경보",
+                "meaning": "travel alert, travel advisory",
+                "example_ko": "외교부는 치안이 불안한 국가에 대해 [여행경보]를 발령했다.",
+                "example_en": "The Ministry of Foreign Affairs issued a travel alert for countries with unstable public security."
+            },
+            {
+                "word": "상향",
+                "meaning": "upward revision, raising",
+                "example_ko": "회사는 올해 매출 성장률 목표치를 기존보다 크게 [상향] 조정했다.",
+                "example_en": "The company revised its sales growth target for this year significantly upward."
+            },
+            {
+                "word": "격화하다",
+                "meaning": "to intensify, to escalate",
+                "example_ko": "두 나라 사이의 국경 분쟁이 최근 더욱 [격화하고] 있다.",
+                "example_en": "The border dispute between the two countries has recently been intensifying further."
+            },
+            {
+                "word": "치안",
+                "meaning": "public order, public security",
+                "example_ko": "이 도시는 경찰의 순찰 활동 덕분에 [치안] 상태가 매우 우수하다.",
+                "example_en": "This city has very good public security thanks to the police's patrol activities."
+            },
+            {
+                "word": "퇴진",
+                "meaning": "stepping down, resignation",
+                "example_ko": "시민들은 비리 의혹을 받는 지도자의 즉각적인 [퇴진]을 요구했다.",
+                "example_en": "Citizens demanded the immediate resignation of the leader suspected of corruption."
+            },
+            {
+                "word": "고조되다",
+                "meaning": "to heighten, to mount",
+                "example_ko": "회담을 앞두고 양국 대표단 사이에 팽팽한 긴장감이 [고조되었다].",
+                "example_en": "Ahead of the talks, intense tension mounted between the delegations of the two countries."
+            },
+            {
+                "word": "재검토하다",
+                "meaning": "to reconsider, to re-examine",
+                "example_ko": "계획에 오류가 발견되어 담당 부서에서 사업 내용을 [재검토하기로] 했다.",
+                "example_en": "Errors were found in the plan, so the department in charge decided to re-examine the project details."
+            },
+            {
+                "word": "체류하다",
+                "meaning": "to stay, to reside temporarily",
+                "example_ko": "그는 업무 출장으로 인해 해외 호텔에서 한 달 동안 [체류했다].",
+                "example_en": "He stayed in an overseas hotel for a month due to a business trip."
+            },
+            {
+                "word": "신변",
+                "meaning": "one's person, personal safety",
+                "example_ko": "해외여행 중에는 낯선 장소에서 자신의 [신변] 안전을 지키는 것이 중요하다.",
+                "example_en": "During overseas travel, it is important to protect your personal safety in unfamiliar places."
+            },
+            {
+                "word": "당부하다",
+                "meaning": "to request earnestly, to ask",
+                "example_ko": "선생님은 방학 동안 다치지 않고 건강하게 지낼 것을 학생들에게 [당부했다].",
+                "example_en": "The teacher earnestly asked the students to stay healthy and avoid getting hurt during vacation."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-10",
         "published_at": "2026-11-10 04:45",
         "title": "트럼프, 차기 대선 주자 밴스 부통령 지지 유보…루비오 호평",
         "body": "도널드 트럼프 미국 대통령이 차기 대권주자로 거론되는 JD 밴스 부통령에 대해 지지를 유보하는 태도를 보였다. 트럼프 대통령은 시사 프로그램 인터뷰에서 차기 대선 후보로 밴스 부통령을 지지할 것이냐는 질문에 확답을 피했다. 그는 공화당 안에 엄청난 인재들이 많으며 자신과 좋은 관계를 맺고 있는 인물이 적지 않다고 언급했다. 이러한 발언은 최근 중간선거 패배 원인을 둘러싸고 밴스 부통령이 내놓은 평가와 무관하지 않다는 분석이 나온다. 밴스 부통령은 선거 직후 이란 전쟁이 공화당의 최대 패인이었다고 지적하며 현 정부의 정책을 비판했다. 트럼프 대통령은 기자들과 만난 자리에서 밴스 부통령의 발언에 대해 불편한 심기를 숨기지 않고 드러냈다. 그는 이란에 대한 군사 공격을 감행한 결정에 대해 후회가 없음을 분명히 밝혔어야 했다고 주장했다. 이어 트럼프 대통령은 차기 대선 후보 명단에 마코 루비오 국무장관을 언급하며 그가 훌륭하게 직무를 수행하고 있다고 평가했다.",

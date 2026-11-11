@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-11",
+        "published_at": "2026-11-11 10:12",
+        "title": "청와대, 여야 전직 의원과 함께 정치 갈등 해소와 국민통합 방안 모색",
+        "body": "청와대가 극심한 정치적 갈등을 극복하고 국민 통합을 이루기 위한 소통의 자리를 마련했다. 청와대 국민통합비서관실은 자체 기획 프로그램인 '국민통합, 대화가 필요해' 7회차 방송을 진행한다고 밝혔다. 이번 방송에는 더불어민주당 출신 김용남 전 의원과 국민의힘 출신 신주호 전 상근부대변인이 토론자로 참석한다. 출연자들은 최근 한국 사회에서 심화하는 정치적 불신과 진영 간의 대립 구조를 집중적으로 진단한다. 또한 온라인 환경과 유튜브 방송이 정치적 양극화와 여론 형성에 미치는 영향에 대해 심도 있게 논의한다. 이들은 진영 논리에 갇혀 상대를 배척하는 극단주의를 경계하며 사회 통합으로 나아가기 위한 구체적 방안을 모색한다. 청와대 관계자는 정치적 견해의 차이가 상대를 공격하고 배척하는 이유가 되어서는 안 된다고 강조했다. 아울러 서로 다른 생각을 인정하고 타협점을 찾아가는 열린 태도가 국민 통합의 진정한 출발점이라고 덧붙였다.",
+        "translation": "청와대가 극심한 정치적 갈등을 극복하고 국민 통합을 이루기 위한 소통의 자리를 마련했다.\nThe Blue House has arranged a forum for communication to overcome extreme political conflict and achieve national unity.\n\n청와대 국민통합비서관실은 자체 기획 프로그램인 '국민통합, 대화가 필요해' 7회차 방송을 진행한다고 밝혔다.\nThe Office of the Secretary for National Unity at the Blue House announced that it will host the seventh episode of its planned program, \"National Unity, We Need Dialogue.\"\n\n이번 방송에는 더불어민주당 출신 김용남 전 의원과 국민의힘 출신 신주호 전 상근부대변인이 토론자로 참석한다.\nFormer lawmaker Kim Yong-nam from the Democratic Party and former standing deputy spokesperson Shin Joo-ho from the People Power Party will participate as panelists in this broadcast.\n\n출연자들은 최근 한국 사회에서 심화하는 정치적 불신과 진영 간의 대립 구조를 집중적으로 진단한다.\nThe participants will focus on diagnosing the growing political distrust and confrontational structure between opposing camps in Korean society today.\n\n또한 온라인 환경과 유튜브 방송이 정치적 양극화와 여론 형성에 미치는 영향에 대해 심도 있게 논의한다.\nThey will also discuss in depth the impact of online environments and YouTube broadcasts on political polarization and the shaping of public opinion.\n\n이들은 진영 논리에 갇혀 상대를 배척하는 극단주의를 경계하며 사회 통합으로 나아가기 위한 구체적 방안을 모색한다.\nThey caution against extremism that excludes opponents under camp logic, seeking concrete measures to move forward toward social unity.\n\n청와대 관계자는 정치적 견해의 차이가 상대를 공격하고 배척하는 이유가 되어서는 안 된다고 강조했다.\nA Blue House official emphasized that differences in political views must not become an excuse to attack and exclude the other side.\n\n아울러 서로 다른 생각을 인정하고 타협점을 찾아가는 열린 태도가 국민 통합의 진정한 출발점이라고 덧붙였다.\nIn addition, they added that acknowledging different thoughts and maintaining an open attitude toward finding compromises is the true starting point of national integration.",
+        "vocab": [
+            {
+                "word": "극복하다",
+                "meaning": "to overcome",
+                "example_ko": "우리는 여러 가지 어려움을 함께 [극복했다].",
+                "example_en": "We overcame various difficulties together."
+            },
+            {
+                "word": "통합",
+                "meaning": "integration, unity",
+                "example_ko": "국가 발전을 위해서는 사회적 [통합]이 매우 중요하다.",
+                "example_en": "Social integration is very important for national development."
+            },
+            {
+                "word": "불신",
+                "meaning": "distrust, mistrust",
+                "example_ko": "작은 오해가 쌓이면 서로에 대한 [불신]이 커진다.",
+                "example_en": "When small misunderstandings accumulate, mutual distrust grows."
+            },
+            {
+                "word": "대립",
+                "meaning": "conflict, confrontation",
+                "example_ko": "노사 간의 [대립]을 해결하기 위해 대화가 시작되었다.",
+                "example_en": "Dialogue began to resolve the conflict between labor and management."
+            },
+            {
+                "word": "심화하다",
+                "meaning": "to deepen, intensify",
+                "example_ko": "경기 침체로 인해 청년 취업난이 더 [심화하고] 있다.",
+                "example_en": "Youth unemployment difficulties are intensifying further due to the economic recession."
+            },
+            {
+                "word": "배척하다",
+                "meaning": "to exclude, ostracize",
+                "example_ko": "나와 의견이 다르다고 해서 상대를 [배척하면] 안 된다.",
+                "example_en": "You must not exclude others just because their opinions differ from yours."
+            },
+            {
+                "word": "모색하다",
+                "meaning": "to seek, explore",
+                "example_ko": "두 회사는 상호 발전을 위한 새로운 협력 방안을 [모색하고] 있다.",
+                "example_en": "The two companies are seeking new cooperation measures for mutual development."
+            },
+            {
+                "word": "견해",
+                "meaning": "view, opinion",
+                "example_ko": "그 문제에 대해 전문가들은 서로 다른 [견해]를 보였다.",
+                "example_en": "Experts showed differing views regarding that issue."
+            },
+            {
+                "word": "타협점",
+                "meaning": "compromise, middle ground",
+                "example_ko": "양측은 오랜 협상 끝에 마침내 [타협점]을 찾았다.",
+                "example_en": "Both sides finally found a compromise after long negotiations."
+            },
+            {
+                "word": "출발점",
+                "meaning": "starting point",
+                "example_ko": "실수를 인정하는 태도가 문제 해결의 [출발점]이다.",
+                "example_en": "An attitude of admitting mistakes is the starting point of problem solving."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-11",
+        "published_at": "2026-11-11 10:12",
+        "title": "정부, 국가계약 비수도권 기업 우대…300억 원 미만 공사로 대상 확대",
+        "body": "정부가 국가와 공공기관의 공사 입찰에서 비수도권 지역 업체의 참여를 대폭 확대하기로 했다. 재정경제부는 정부서울청사에서 비상경제장관회의를 열고 '국가계약을 통한 비수도권 기업 우대방안'을 발표했다. 우선 다른 지역 기업이 공사를 따낼 때 해당 지역 업체를 일정 비율 이상 참여시키는 제도의 상한 금액을 올린다. 기존에 88억 원에서 265억 원 미만이었던 공공기관 등의 지역의무공동계약 적용 기준을 모두 300억 원 미만으로 높인다. 정부는 이번 조치로 지역 업체의 공사 수주 금액이 해마다 최대 8천억 원가량 늘어날 것으로 추산했다. 또한 대형 공사 입찰 시 지방 중소 건설사의 참여를 가로막았던 시공능력평가액 인정 범위를 최대 세 배까지 넓힌다. 물품과 용역 분야에서도 지방우대지수를 도입해 비수도권 기업에 권역별로 추가 가산점을 부여할 방침이다. 아울러 제도의 허점을 노려 서류상으로만 지방에 세운 유령 회사를 가려내기 위해 현장 조사를 전면 실시한다. 정부는 이번 우대 정책이 위축된 지역 건설 경기를 살리고 국가 균형 발전에 기여할 것으로 기대하고 있다.",
+        "translation": "정부가 국가와 공공기관의 공사 입찰에서 비수도권 지역 업체의 참여를 대폭 확대하기로 했다.\nThe government has decided to significantly expand the participation of non-capital regional businesses in construction biddings by state and public institutions.\n\n재정경제부는 정부서울청사에서 비상경제장관회의를 열고 '국가계약을 통한 비수도권 기업 우대방안'을 발표했다.\nThe Ministry of Economy and Finance held an emergency economic ministers' meeting at the Seoul Government Complex and announced preferential measures for non-capital region enterprises through state contracts.\n\n우선 다른 지역 기업이 공사를 따낼 때 해당 지역 업체를 일정 비율 이상 참여시키는 제도의 상한 금액을 올린다.\nFirst, it will raise the upper limit amount of the system that requires companies from other regions to include local enterprises above a certain ratio when winning contracts.\n\n기존에 88억 원에서 265억 원 미만이었던 공공기관 등의 지역의무공동계약 적용 기준을 모두 300억 원 미만으로 높인다.\nThe standard for applying mandatory regional joint contracts for public institutions and others, which previously ranged from under 8.8 billion won to under 26.5 billion won, will be raised to under 30 billion won.\n\n정부는 이번 조치로 지역 업체의 공사 수주 금액이 해마다 최대 8천억 원가량 늘어날 것으로 추산했다.\nThe government estimated that this measure will increase regional companies' construction orders by up to approximately 800 billion won each year.\n\n또한 대형 공사 입찰 시 지방 중소 건설사의 참여를 가로막았던 시공능력평가액 인정 범위를 최대 세 배까지 넓힌다.\nIn addition, it will widen the recognition range of construction capacity evaluation amounts up to three times, which had previously blocked local small and medium contractors from participating in large construction bids.\n\n물품과 용역 분야에서도 지방우대지수를 도입해 비수도권 기업에 권역별로 추가 가산점을 부여할 방침이다.\nIt also plans to introduce a regional preferential index in the goods and services sectors to grant additional points to non-capital enterprises by regional sphere.\n\n아울러 제도의 허점을 노려 서류상으로만 지방에 세운 유령 회사를 가려내기 위해 현장 조사를 전면 실시한다.\nFurthermore, on-site inspections will be conducted comprehensively to weed out ghost companies established only on paper in regional areas exploiting system loopholes.\n\n정부는 이번 우대 정책이 위축된 지역 건설 경기를 살리고 국가 균형 발전에 기여할 것으로 기대하고 있다.\nThe government anticipates that these preferential policies will revitalize the depressed regional construction market and contribute to balanced national development.",
+        "vocab": [
+            {
+                "word": "입찰",
+                "meaning": "bidding, tender",
+                "example_ko": "여러 건설사가 대규모 아파트 공사 [입찰]에 참가했다.",
+                "example_en": "Several construction companies participated in the bidding for large-scale apartment construction."
+            },
+            {
+                "word": "상한",
+                "meaning": "upper limit, ceiling",
+                "example_ko": "정부는 대출 금리의 [상한]을 법으로 정해 두었다.",
+                "example_en": "The government set an upper limit on loan interest rates by law."
+            },
+            {
+                "word": "수주하다",
+                "meaning": "to win a contract, obtain an order",
+                "example_ko": "우리 회사는 해외에서 대규모 교량 건설 사업을 [수주했다].",
+                "example_en": "Our company won a contract for a large-scale bridge construction project overseas."
+            },
+            {
+                "word": "추산하다",
+                "meaning": "to estimate, calculate roughly",
+                "example_ko": "전문가는 이번 축제의 경제적 효과를 수백억 원으로 [추산했다].",
+                "example_en": "Experts estimated the economic effect of this festival at tens of billions of won."
+            },
+            {
+                "word": "가로막다",
+                "meaning": "to block, obstruct",
+                "example_ko": "좁은 골목길에 불법 주차된 차량이 통행을 [가로막았다].",
+                "example_en": "A vehicle parked illegally in the narrow alley blocked traffic."
+            },
+            {
+                "word": "부여하다",
+                "meaning": "to grant, assign",
+                "example_ko": "성실하게 일한 직원에게 특별 보너스를 [부여했다].",
+                "example_en": "They granted a special bonus to the employee who worked diligently."
+            },
+            {
+                "word": "방침",
+                "meaning": "policy, direction",
+                "example_ko": "회사는 내년부터 재택근무를 확대한다는 [방침]을 세웠다.",
+                "example_en": "The company established a policy to expand telecommuting starting next year."
+            },
+            {
+                "word": "가려내다",
+                "meaning": "to sort out, sift out",
+                "example_ko": "채용 담당자는 서류 심사를 통해 적합한 인재를 [가려냈다].",
+                "example_en": "The hiring manager sorted out suitable talents through document screening."
+            },
+            {
+                "word": "위축되다",
+                "meaning": "to shrink, contract, be dampened",
+                "example_ko": "물가 상승으로 인해 소비 심리가 크게 [위축되었다].",
+                "example_en": "Consumer sentiment shrank significantly due to rising prices."
+            },
+            {
+                "word": "균형",
+                "meaning": "balance",
+                "example_ko": "건강을 유지하려면 식사와 운동 사이의 [균형]이 필요하다.",
+                "example_en": "To maintain health, a balance between diet and exercise is necessary."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-11",
+        "published_at": "2026-11-11 10:12",
+        "title": "퇴직 후 심사 없이 관련 민간업체 취업한 전직 구청 간부 경찰 송치",
+        "body": "퇴직 후 관련 법률에 따른 취업 심사를 받지 않고 민간 기업에 취직한 전직 공무원이 경찰에 적발되었다. 인천경찰청 반부패·경제범죄수사대는 업무 관련 민간업체에 취업한 혐의로 전직 구청 4급 공무원 A씨를 공소청에 송치했다고 밝혔다. 60대인 A씨는 지난 2022년 6월 인천 미추홀구청에서 명예퇴직한 뒤 취업 심사를 거치지 않은 혐의를 받고 있다. 그는 공직자윤리위원회의 사전 승인 없이 공직 시절 업무와 관련성이 높은 민간업체의 대표이사로 활동했다. 현행 제도상 퇴직 공직자는 퇴직일로부터 3년 동안 일정 기준 이상의 민간 기관에 취업할 때 심사를 받아야 한다. A씨는 이러한 법적 절차를 지키지 않은 채 취업 제한 기간인 2024년 11월부터 지난해 6월까지 해당 기업에서 근무했다. 조사 결과 A씨는 재직 기간 동안 해당 업체로부터 매달 약 300만 원에 달하는 급여를 수령한 것으로 드러났다. 그가 근무한 업체는 취업 심사 대상 기관으로 명시된 또 다른 회사의 일감을 하도급 형태로 수주해 온 곳이었다. 경찰은 퇴직 공직자의 불법적인 재취업 행위가 행정의 공정성을 해친다고 보고 관련 단속을 엄격히 이어가고 있다.",
+        "translation": "퇴직 후 관련 법률에 따른 취업 심사를 받지 않고 민간 기업에 취직한 전직 공무원이 경찰에 적발되었다.\nA former civil servant who got a job at a private company after retirement without undergoing the legally required employment screening was caught by police.\n\n인천경찰청 반부패·경제범죄수사대는 업무 관련 민간업체에 취업한 혐의로 전직 구청 4급 공무원 A씨를 공소청에 송치했다고 밝혔다.\nThe Incheon Metropolitan Police Agency's Anti-Corruption and Economic Crime Investigation Unit announced that it forwarded former grade-4 district office civil servant Mr. A to the public prosecutor's office on charges of employment at a work-related private enterprise.\n\n60대인 A씨는 지난 2022년 6월 인천 미추홀구청에서 명예퇴직한 뒤 취업 심사를 거치지 않은 혐의를 받고 있다.\nMr. A, who is in his 60s, is accused of taking an honorary retirement from Michuhol District Office in Incheon in June 2022 without going through employment screening.\n\n그는 공직자윤리위원회의 사전 승인 없이 공직 시절 업무와 관련성이 높은 민간업체의 대표이사로 활동했다.\nWithout prior approval from the Public Service Ethics Committee, he served as representative director of a private enterprise closely connected to his duties during public service.\n\n현행 제도상 퇴직 공직자는 퇴직일로부터 3년 동안 일정 기준 이상의 민간 기관에 취업할 때 심사를 받아야 한다.\nUnder the current system, retired public officials must undergo screening when seeking employment at private institutions above a certain standard for three years from the date of retirement.\n\nA씨는 이러한 법적 절차를 지키지 않은 채 취업 제한 기간인 2024년 11월부터 지난해 6월까지 해당 기업에서 근무했다.\nWithout observing these legal procedures, Mr. A worked at the enterprise from November 2024 to June of last year, a period falling under the employment restriction window.\n\n조사 결과 A씨는 재직 기간 동안 해당 업체로부터 매달 약 300만 원에 달하는 급여를 수령한 것으로 드러났다.\nInvestigations revealed that Mr. A received monthly salaries amounting to approximately 3 million won from the enterprise during his tenure.\n\n그가 근무한 업체는 취업 심사 대상 기관으로 명시된 또 다른 회사의 일감을 하도급 형태로 수주해 온 곳이었다.\nThe company he worked for was a firm that had secured contracts in subcontract form from another enterprise designated as an institution subject to employment screening.\n\n경찰은 퇴직 공직자의 불법적인 재취업 행위가 행정의 공정성을 해친다고 보고 관련 단속을 엄격히 이어가고 있다.\nThe police consider illegal re-employment by retired public officials to undermine the fairness of administration and are strictly continuing relevant crackdowns.",
+        "vocab": [
+            {
+                "word": "적발되다",
+                "meaning": "to be caught, uncovered",
+                "example_ko": "음주 운전을 하던 운전자가 경찰 단속에 [적발되었다].",
+                "example_en": "A driver who was driving drunk was caught during a police crackdown."
+            },
+            {
+                "word": "송치하다",
+                "meaning": "to forward, refer (a case to prosecution)",
+                "example_ko": "경찰은 조사를 마친 피의자를 검찰에 [송치했다].",
+                "example_en": "The police referred the investigated suspect to the prosecution."
+            },
+            {
+                "word": "혐의",
+                "meaning": "suspicion, charge",
+                "example_ko": "그는 회사의 공금을 빼돌린 [혐의]를 받고 있다.",
+                "example_en": "He is under suspicion of embezzling company funds."
+            },
+            {
+                "word": "승인",
+                "meaning": "approval, authorization",
+                "example_ko": "관리자의 최종 [승인]을 받아야 예산을 사용할 수 있다.",
+                "example_en": "You can use the budget only after receiving the manager's final approval."
+            },
+            {
+                "word": "절차",
+                "meaning": "procedure, process",
+                "example_ko": "해외여행을 떠나기 전에 출국 [절차]를 꼼꼼히 확인해야 한다.",
+                "example_en": "Before going on an overseas trip, you must carefully check the departure procedures."
+            },
+            {
+                "word": "수령하다",
+                "meaning": "to receive (money or goods)",
+                "example_ko": "그는 매월 정해진 날짜에 연금을 정상적으로 [수령하고] 있다.",
+                "example_en": "He is properly receiving his pension on fixed dates every month."
+            },
+            {
+                "word": "명시되다",
+                "meaning": "to be specified, stated clearly",
+                "example_ko": "환불에 대한 규칙이 계약서에 정확히 [명시되어] 있다.",
+                "example_en": "Rules regarding refunds are clearly specified in the contract."
+            },
+            {
+                "word": "일감",
+                "meaning": "work, job",
+                "example_ko": "공장이 활발하게 돌아가면서 직원들에게 새로운 [일감]이 많아졌다.",
+                "example_en": "As the factory operated actively, there was much new work for employees."
+            },
+            {
+                "word": "공정성",
+                "meaning": "fairness, impartiality",
+                "example_ko": "시험의 [공정성]을 확보하기 위해 감독관을 늘렸다.",
+                "example_en": "We increased the number of proctors to ensure the fairness of the exam."
+            },
+            {
+                "word": "단속",
+                "meaning": "crackdown, regulation",
+                "example_ko": "경찰은 신호 위반 차량에 대한 집중 [단속]을 시작했다.",
+                "example_en": "The police began an intensive crackdown on vehicles running red lights."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-11",
+        "published_at": "2026-11-11 10:12",
+        "title": "미 상무부, 대중 반도체 밀반입 연루 의혹 기업 제재 지연 논란",
+        "body": "미국 정부가 중국으로의 인공지능 반도체 밀반입에 연루된 기업에 대한 제재를 두 달째 미루고 있다는 보도가 나왔다. 영국 일간 파이낸셜타임스는 미 국방부와 국무부의 제재 요청에도 상무부가 신중한 태도를 보이며 결정을 보류했다고 전했다. 제재 대상으로 거론된 싱가포르 기업 메가스피드는 엔비디아의 첨단 AI 반도체를 중국에 몰래 반입했다는 의혹을 받고 있다. 이 회사는 엔비디아 최고경영자의 불륜 상대로 중국 스파이 의혹을 받는 앨리스 황과 밀접하게 연결된 곳으로 알려졌다. 미국 관리들은 국가 안보에 위협이 된다고 판단되는 기업들을 거래제한 명단에 올려 엄격히 관리하고 있다. 메가스피드는 미국 정부로부터 1년 넘게 조사를 받아왔음에도 명단 관리 주체인 상무부의 신중론 탓에 제재를 피하고 있다. 상무부 측은 제재 대상 기업들의 불법 혐의를 입증하기 위해 추가 정보 확인이 더 필요하다는 입장을 고수하고 있다. 그러나 과거 수출통제를 담당했던 전직 관료는 상무부가 거액의 반도체 유출을 방치했다며 미온적 대처를 강하게 비판했다.",
+        "translation": "미국 정부가 중국으로의 인공지능 반도체 밀반입에 연루된 기업에 대한 제재를 두 달째 미루고 있다는 보도가 나왔다.\nReports have emerged that the U.S. government has been delaying sanctions for two months against a company implicated in smuggling artificial intelligence semiconductors into China.\n\n영국 일간 파이낸셜타임스는 미 국방부와 국무부의 제재 요청에도 상무부가 신중한 태도를 보이며 결정을 보류했다고 전했다.\nThe British daily Financial Times reported that despite sanction requests from the U.S. Department of Defense and Department of State, the Department of Commerce withheld its decision while showing a cautious stance.\n\n제재 대상으로 거론된 싱가포르 기업 메가스피드는 엔비디아의 첨단 AI 반도체를 중국에 몰래 반입했다는 의혹을 받고 있다.\nSingaporean firm Megaspeed, mentioned as a sanctions target, is suspected of covertly bringing Nvidia's advanced AI semiconductors into China.\n\n이 회사는 엔비디아 최고경영자의 불륜 상대로 중국 스파이 의혹을 받는 앨리스 황과 밀접하게 연결된 곳으로 알려졌다.\nThis company is known to be closely connected with Alice Huang, who is accused of being a Chinese spy and an affair partner of Nvidia's CEO.\n\n미국 관리들은 국가 안보에 위협이 된다고 판단되는 기업들을 거래제한 명단에 올려 엄격히 관리하고 있다.\nU.S. officials strictly manage companies deemed threats to national security by placing them on an Entity List of restricted trade.\n\n메가스피드는 미국 정부로부터 1년 넘게 조사를 받아왔음에도 명단 관리 주체인 상무부의 신중론 탓에 제재를 피하고 있다.\nEven though Megaspeed has been under U.S. government investigation for over a year, it has avoided sanctions due to caution from the Department of Commerce, which administers the list.\n\n상무부 측은 제재 대상 기업들의 불법 혐의를 입증하기 위해 추가 정보 확인이 더 필요하다는 입장을 고수하고 있다.\nThe Department of Commerce is maintaining the position that additional information verification is needed to substantiate illegal allegations against candidate firms.\n\n그러나 과거 수출통제를 담당했던 전직 관료는 상무부가 거액의 반도체 유출을 방치했다며 미온적 대처를 강하게 비판했다.\nHowever, a former official who handled export controls strongly criticized the lukewarm response, saying the Department of Commerce neglected the massive leakage of semiconductors.",
+        "vocab": [
+            {
+                "word": "밀반입",
+                "meaning": "smuggling, illicit entry",
+                "example_ko": "세관 직원은 공항에서 불법 약물의 [밀반입]을 적발했다.",
+                "example_en": "Customs officers caught the smuggling of illegal drugs at the airport."
+            },
+            {
+                "word": "보류하다",
+                "meaning": "to hold off, defer, suspend",
+                "example_ko": "사정이 여의치 않아 계획 실행을 다음 주로 [보류했다].",
+                "example_en": "Because circumstances were unfavorable, we deferred the execution of the plan until next week."
+            },
+            {
+                "word": "거론되다",
+                "meaning": "to be mentioned, brought up",
+                "example_ko": "회의에서 새로운 후보자의 이름이 유력하게 [거론되었다].",
+                "example_en": "The name of a new candidate was prominently mentioned in the meeting."
+            },
+            {
+                "word": "반입하다",
+                "meaning": "to bring in, carry in",
+                "example_ko": "도서관 안으로는 음료수나 음식물을 [반입할] 수 없다.",
+                "example_en": "You cannot bring drinks or food into the library."
+            },
+            {
+                "word": "안보",
+                "meaning": "national security",
+                "example_ko": "평화로운 사회를 유지하려면 국가 [안보]가 튼튼해야 한다.",
+                "example_en": "To maintain a peaceful society, national security must be strong."
+            },
+            {
+                "word": "주체",
+                "meaning": "main agent, leading body",
+                "example_ko": "지역 축제를 성공적으로 이끈 [주체]는 바로 주민들이었다.",
+                "example_en": "The main agents who successfully led the local festival were indeed the residents."
+            },
+            {
+                "word": "입증하다",
+                "meaning": "to prove, substantiate",
+                "example_ko": "연구팀은 실험 결과를 통해 자신의 가설을 명확하게 [입증했다].",
+                "example_en": "The research team clearly proved their hypothesis through experimental results."
+            },
+            {
+                "word": "고수하다",
+                "meaning": "to adhere to, stick to",
+                "example_ko": "그는 주변의 반대에도 불구하고 자신의 원칙을 끝까지 [고수했다].",
+                "example_en": "Despite opposition from around him, he stuck to his principles until the end."
+            },
+            {
+                "word": "방치하다",
+                "meaning": "to neglect, leave unattended",
+                "example_ko": "고장 난 자전거를 길가에 그대로 [방치하면] 안 된다.",
+                "example_en": "You must not leave a broken bicycle unattended on the roadside."
+            },
+            {
+                "word": "미온적",
+                "meaning": "lukewarm, passive",
+                "example_ko": "회사가 고객 불만에 대해 [미온적인] 태도를 보여 비판을 받았다.",
+                "example_en": "The company was criticized for showing a lukewarm attitude toward customer complaints."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-11",
         "published_at": "2026-11-11 01:59",
         "title": "민주당 권리당원, 당 분열 책임 물어 김민석 대표 징계 청원",
         "body": "더불어민주당의 한 권리당원이 전당대회 당시 의혹을 제기했던 김민석 대표를 상대로 당 윤리심판원에 징계를 요청했다. 김 대표는 지난 7월 당대표 경선 당시 상대 진영을 겨냥해 이른바 반명과 분열주의, 신천지의 3자 비밀연합 의혹을 제기한 바 있다. 그러나 김 대표는 당선 이후 꾸려진 당내 특별조사위원회의 조사 결과 관련 증거가 발견되지 않자 최근 두 차례에 걸쳐 공식적으로 사과했다. 이에 대해 청원인은 사과만으로는 부족하다며 김 대표에 대한 엄정한 징계 절차가 필요하다고 강력히 주장했다. 청원인은 김 대표가 근거 없는 의혹으로 상대 후보와 당원들의 명예를 심각하게 훼손했다고 지적했다. 또한 이러한 행위가 당의 결속을 해치고 당내 분열을 조장했다고 비판했다. 아울러 당원들의 올바른 선택권을 방해하고 전당대회 경선의 공정성을 심각하게 훼손한 책임을 져야 한다고 덧붙였다. 당 윤리심판원은 접수된 청원 내용을 바탕으로 조만간 김 대표에 대한 정식 징계 심사 개시 여부를 결정할 방침이다. 이번 징계 청원으로 인해 경선 이후 수습 국면에 접어들었던 당내 갈등이 다시 수면 위로 떠오를지 주목된다.",

@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-13",
+        "published_at": "2026-11-13 10:46",
+        "title": "국민의힘 정점식 원내대표, 여당의 종부세 정책 혼선 비판",
+        "body": "국민의힘 정점식 원내대표는 더불어민주당과 청와대가 부동산 세제 개편안을 둘러싼 당정 이견을 수습하려 나선 것에 대해 강하게 비판했다. 정 원내대표는 13일 국회에서 열린 원내대책회의에서 민주당의 종합부동산세 반란이 불과 4일 만에 끝났다고 지적했다. 그는 민주당 김민석 대표가 고위 당정 협의회에서 종부세 공제액을 14억 원으로 통일하자고 요구한 지 나흘 만에 입장을 바꿨다고 말했다. 또한 청와대 만찬 자리에서 대통령이 당정 협력을 강조하자 여당 지도부가 곧바로 물러섰다고 꼬집었다. 정 원내대표는 대통령의 강압적인 태도 앞에서 여당 대표가 아무런 목소리도 내지 못하고 있다고 주장했다. 이어 여당이 진정으로 집중해야 할 과제는 세제 개편의 일부분이 아니라 부동산 정책의 전면적인 기조 전환이라고 강조했다. 그는 실거주 의무 강화 등 과도한 규제에 대한 근본적인 고민이 빠진 정책은 선거용 보여주기에 불과하다고 덧붙였다. 마지막으로 정 원내대표는 현재 국민에게 가장 시급한 현안은 수도권 전월세난이라며 실질적인 주거 안정 대책을 마련하라고 정부에 촉구했다.",
+        "translation": "국민의힘 정점식 원내대표는 더불어민주당과 청와대가 부동산 세제 개편안을 둘러싼 당정 이견을 수습하려 나선 것에 대해 강하게 비판했다.\nPeople Power Party floor leader Jeong Jeom-sik strongly criticized the Democratic Party and the Blue House for attempting to resolve differences between the party and the government over real estate tax reform plans.\n\n정 원내대표는 13일 국회에서 열린 원내대책회의에서 민주당의 종합부동산세 반란이 불과 4일 만에 끝났다고 지적했다.\nAt a floor strategy meeting held at the National Assembly on the 13th, Floor Leader Jeong pointed out that the Democratic Party's rebellion regarding the comprehensive real estate tax ended in just four days.\n\n그는 민주당 김민석 대표가 고위 당정 협의회에서 종부세 공제액을 14억 원으로 통일하자고 요구한 지 나흘 만에 입장을 바꿨다고 말했다.\nHe said that Democratic Party leader Kim Min-seok reversed his position just four days after demanding at a high-level party-government meeting that the real estate tax deduction be unified at 1.4 billion won.\n\n또한 청와대 만찬 자리에서 대통령이 당정 협력을 강조하자 여당 지도부가 곧바로 물러섰다고 꼬집었다.\nHe also criticized the ruling party leadership for immediately backing down after the president emphasized party-government cooperation during a Blue House dinner.\n\n정 원내대표는 대통령의 강압적인 태도 앞에서 여당 대표가 아무런 목소리도 내지 못하고 있다고 주장했다.\nFloor Leader Jeong asserted that the ruling party leader was failing to speak out at all in front of the president's coercive attitude.\n\n이어 여당이 진정으로 집중해야 할 과제는 세제 개편의 일부분이 아니라 부동산 정책의 전면적인 기조 전환이라고 강조했다.\nHe went on to emphasize that the task the ruling party should truly focus on is not a partial tax revision, but a comprehensive shift in the direction of real estate policy.\n\n그는 실거주 의무 강화 등 과도한 규제에 대한 근본적인 고민이 빠진 정책은 선거용 보여주기에 불과하다고 덧붙였다.\nHe added that a policy lacking fundamental deliberation on excessive regulations, such as tightening actual residency requirements, is nothing more than a political show for elections.\n\n마지막으로 정 원내대표는 현재 국민에게 가장 시급한 현안은 수도권 전월세난이라며 실질적인 주거 안정 대책을 마련하라고 정부에 촉구했다.\nLastly, Floor Leader Jeong urged the government to devise practical measures for housing stability, stating that the most urgent pending issue for citizens right now is the rental housing shortage in the capital region.",
+        "vocab": [
+            {
+                "word": "이견",
+                "meaning": "difference of opinion, disagreement",
+                "example_ko": "두 사람은 회의에서 서로 다른 [이견]을 좁히지 못했다.",
+                "example_en": "The two people could not narrow down their difference of opinion at the meeting."
+            },
+            {
+                "word": "수습하다",
+                "meaning": "to resolve, to settle, to clean up",
+                "example_ko": "팀장은 사고 현장을 신속하게 [수습했다].",
+                "example_en": "The team manager quickly settled the accident scene."
+            },
+            {
+                "word": "반란",
+                "meaning": "rebellion, revolt",
+                "example_ko": "팀원들의 작은 [반란]으로 회사의 정책이 바뀌었다.",
+                "example_en": "The company's policy changed due to a small rebellion by the team members."
+            },
+            {
+                "word": "공제액",
+                "meaning": "deduction amount",
+                "example_ko": "세금을 계산할 때 기본 [공제액]을 확인해야 한다.",
+                "example_en": "You need to check the basic deduction amount when calculating taxes."
+            },
+            {
+                "word": "강압적",
+                "meaning": "coercive, high-handed",
+                "example_ko": "그는 부하 직원들에게 [강압적인] 태도를 자주 보인다.",
+                "example_en": "He often shows a coercive attitude toward his subordinates."
+            },
+            {
+                "word": "물러서다",
+                "meaning": "to step back, to back down",
+                "example_ko": "우리는 어려운 상황에서도 결코 [물러서지] 않았다.",
+                "example_en": "We never backed down even in difficult situations."
+            },
+            {
+                "word": "기조",
+                "meaning": "basic tone, policy direction",
+                "example_ko": "정부는 평화 유지를 정책의 기본 [기조]로 삼았다.",
+                "example_en": "The government made maintaining peace the basic tone of its policy."
+            },
+            {
+                "word": "과도하다",
+                "meaning": "to be excessive",
+                "example_ko": "[과도한] 운동은 오히려 몸에 해로울 수 있다.",
+                "example_en": "Excessive exercise can actually be harmful to your body."
+            },
+            {
+                "word": "시급하다",
+                "meaning": "to be urgent, pressing",
+                "example_ko": "겨울철에는 취약계층을 위한 난방 지원이 매우 [시급하다].",
+                "example_en": "Heating support for vulnerable groups is very urgent during the winter season."
+            },
+            {
+                "word": "촉구하다",
+                "meaning": "to urge, to demand",
+                "example_ko": "시민들은 안전 대책 마련을 경찰에 강력히 [촉구했다].",
+                "example_en": "Citizens strongly urged the police to prepare safety measures."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-13",
+        "published_at": "2026-11-13 10:46",
+        "title": "정부, 경기 판단 '회복 흐름'에서 '견조한 성장세'로 상향",
+        "body": "정부가 최근 국내 경제 상황에 대한 공식적인 판단을 '경기 회복 흐름'에서 '견조한 성장세'로 한 단계 상향 조정했다. 재정경제부는 13일 발표한 '최근 경제동향' 11월호에서 수출과 투자가 늘어나면서 경제가 안정적인 성장세를 보이고 있다고 진단했다. 정부는 지난 5월부터 사용하던 경기 회복 흐름이라는 표현을 6개월 만에 바꾸며 경기 회복에 대한 자신감을 나타냈다. 이러한 판단에는 3분기 실질 국내총생산(GDP)이 전기 대비 1.0% 성장하고 10월 수출이 전년 대비 93.7% 급증한 점이 주요하게 작용했다. 설비투자 역시 전반적인 증가세를 이어가며 제조업 중심의 경기 활성화를 뒷받침하고 있다. 다만 민간소비는 소매판매와 카드 승인액이 다소 늘어 완만한 회복세를 보이고 있으나 수출에 비해 상대적으로 더딘 편이다. 정부는 고유가에 따른 물가 상승 압력과 취약계층의 고용 불안 등 민생 경제의 부담 요인이 여전히 남아 있다고 분석했다. 아울러 대외적으로도 중동 지역 분쟁과 인공지능 관련 정책 방향 등 세계 경제의 불확실성이 지속되고 있다고 평가했다. 이에 따라 정부는 성장세를 이어가는 한편 민생 안정과 양극화 완화를 위한 정책적 노력을 강화할 계획이다.",
+        "translation": "정부가 최근 국내 경제 상황에 대한 공식적인 판단을 '경기 회복 흐름'에서 '견조한 성장세'로 한 단계 상향 조정했다.\nThe government revised its official assessment of the domestic economy upward by one level, from an \"economic recovery trend\" to \"solid growth momentum.\"\n\n재정경제부는 13일 발표한 '최근 경제동향' 11월호에서 수출과 투자가 늘어나면서 경제가 안정적인 성장세를 보이고 있다고 진단했다.\nIn the November issue of \"Recent Economic Trends\" released on the 13th, the Ministry of Economy and Finance diagnosed that the economy is showing stable growth as exports and investments increase.\n\n정부는 지난 5월부터 사용하던 경기 회복 흐름이라는 표현을 6개월 만에 바꾸며 경기 회복에 대한 자신감을 나타냈다.\nThe government demonstrated confidence in the economic rebound by replacing the expression \"economic recovery trend,\" which it had used since May, after six months.\n\n이러한 판단에는 3분기 실질 국내총생산(GDP)이 전기 대비 1.0% 성장하고 10월 수출이 전년 대비 93.7% 급증한 점이 주요하게 작용했다.\nA key factor behind this assessment was that real gross domestic product (GDP) grew by 1.0% quarter-on-quarter in the third quarter and exports surged by 93.7% year-on-year in October.\n\n설비투자 역시 전반적인 증가세를 이어가며 제조업 중심의 경기 활성화를 뒷받침하고 있다.\nFacility investment also maintained an overall upward trend, supporting the revitalization of the economy led by manufacturing.\n\n다만 민간소비는 소매판매와 카드 승인액이 다소 늘어 완만한 회복세를 보이고 있으나 수출에 비해 상대적으로 더딘 편이다.\nHowever, while private consumption showed a gradual recovery with slight increases in retail sales and credit card approvals, it remained relatively slow compared to exports.\n\n정부는 고유가에 따른 물가 상승 압력과 취약계층의 고용 불안 등 민생 경제의 부담 요인이 여전히 남아 있다고 분석했다.\nThe government analyzed that burden factors on ordinary people's livelihoods still remain, such as inflationary pressure from high oil prices and employment instability among vulnerable groups.\n\n아울러 대외적으로도 중동 지역 분쟁과 인공지능 관련 정책 방향 등 세계 경제의 불확실성이 지속되고 있다고 평가했다.\nIn addition, it evaluated externally that uncertainties in the global economy persist, including conflicts in the Middle East and policy directions regarding artificial intelligence.\n\n이에 따라 정부는 성장세를 이어가는 한편 민생 안정과 양극화 완화를 위한 정책적 노력을 강화할 계획이다.\nAccordingly, the government plans to strengthen policy efforts for livelihood stability and easing polarization while maintaining the growth momentum.",
+        "vocab": [
+            {
+                "word": "견조하다",
+                "meaning": "to be solid, steady, firm",
+                "example_ko": "올해 우리 회사는 [견조한] 실적을 유지하고 있다.",
+                "example_en": "Our company is maintaining solid performance this year."
+            },
+            {
+                "word": "상향",
+                "meaning": "upward revision, raising",
+                "example_ko": "국제기구는 올해 한국의 경제 성장률 전망치를 [상향] 조정했다.",
+                "example_en": "The international organization revised upward its economic growth forecast for Korea this year."
+            },
+            {
+                "word": "진단하다",
+                "meaning": "to diagnose, to assess",
+                "example_ko": "전문가들은 현재 주택 시장이 과열 상태라고 [진단했다].",
+                "example_en": "Experts assessed that the current housing market is in an overheated state."
+            },
+            {
+                "word": "급증하다",
+                "meaning": "to surge, to increase rapidly",
+                "example_ko": "최근 온라인 쇼핑을 이용하는 소비자가 크게 [급증했다].",
+                "example_en": "Recently, consumers who use online shopping have surged significantly."
+            },
+            {
+                "word": "뒷받침하다",
+                "meaning": "to support, to back up",
+                "example_ko": "풍부한 현장 경험이 그의 이론을 든든하게 [뒷받침한다].",
+                "example_en": "Abundant field experience solidly supports his theory."
+            },
+            {
+                "word": "완만하다",
+                "meaning": "to be gradual, gentle",
+                "example_ko": "물가가 가파르게 오르지 않고 [완만한] 상승세를 보인다.",
+                "example_en": "Prices are not rising steeply but showing a gradual upward trend."
+            },
+            {
+                "word": "더디다",
+                "meaning": "to be slow, sluggish",
+                "example_ko": "감기가 심해서 회복 속도가 생각보다 [더디다].",
+                "example_en": "The recovery speed is slower than expected because the cold is severe."
+            },
+            {
+                "word": "취약계층",
+                "meaning": "vulnerable group, underprivileged class",
+                "example_ko": "겨울철 한파를 앞두고 [취약계층]을 돕는 자원봉사가 늘었다.",
+                "example_en": "Ahead of the winter cold wave, volunteer work to help vulnerable groups has increased."
+            },
+            {
+                "word": "불확실성",
+                "meaning": "uncertainty",
+                "example_ko": "환율 변동에 따른 시장의 [불확실성이] 커지고 있다.",
+                "example_en": "Market uncertainty due to exchange rate fluctuations is growing."
+            },
+            {
+                "word": "완화",
+                "meaning": "easing, mitigation, relaxation",
+                "example_ko": "스트레스 [완화를] 위해 주말마다 가벼운 산책을 한다.",
+                "example_en": "I take a light walk every weekend to ease stress."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-13",
+        "published_at": "2026-11-13 10:46",
+        "title": "\"군 복무 마친 아들 축하\"…차량 현수막에 쏟아진 따뜻한 응원",
+        "body": "군 복무를 마치고 전역한 아들을 축하하기 위해 차량 트렁크에 현수막을 부착한 아버지의 사연이 온라인에서 큰 감동을 주고 있다. 지난 11일 한 온라인 커뮤니티에는 아들의 전역 날을 기념해 현수막을 달고 도로를 달린 아버지의 감사 글이 올라왔다. 차량에 걸린 현수막에는 '오늘 전역한 아들이 타고 있어요'라는 따뜻한 문구가 적혀 있었다. 작성자는 아들의 18개월 군 생활을 기념하고 특별한 추억을 만들어 주기 위해 현수막을 준비했다고 전했다. 강원도 인제에서 충남 청양까지 이동하는 동안 도로 위의 수많은 운전자가 창문을 열어 손가락 하트와 엄지손가락을 들어 올리며 축하 인사를 건넸다. 일부 운전자는 경적을 가볍게 울리며 전역을 함께 축하했고 가족들에게 잊지 못할 즐거운 기억을 선물했다. 아버지는 도로에서 미처 감사의 인사를 다 전하지 못한 시민들에게 글을 통해 진심 어린 고마움을 표시했다. 또한 현재도 군에서 나라를 지키고 있는 모든 국군 장병들이 다치지 않고 무사히 전역하기를 바란다는 응원의 말을 남겼다. 이 훈훈한 소식을 접한 누리꾼들은 아버지의 따뜻한 마음에 깊이 공감하며 아들의 성실한 복무를 격려하는 댓글을 달았다.",
+        "translation": "군 복무를 마치고 전역한 아들을 축하하기 위해 차량 트렁크에 현수막을 부착한 아버지의 사연이 온라인에서 큰 감동을 주고 있다.\nThe story of a father who attached a banner to his car trunk to celebrate his son who was discharged from military service is giving great warmth online.\n\n지난 11일 한 온라인 커뮤니티에는 아들의 전역 날을 기념해 현수막을 달고 도로를 달린 아버지의 감사 글이 올라왔다.\nOn the 11th, a thank-you post was uploaded to an online community by a father who drove on the road with a banner attached to commemorate his son's discharge day.\n\n차량에 걸린 현수막에는 '오늘 전역한 아들이 타고 있어요'라는 따뜻한 문구가 적혀 있었다.\nThe banner hanging on the vehicle read the heartwarming phrase, \"My son who was discharged today is riding inside.\"\n\n작성자는 아들의 18개월 군 생활을 기념하고 특별한 추억을 만들어 주기 위해 현수막을 준비했다고 전했다.\nThe author shared that he prepared the banner to commemorate his son's 18 months of military life and create a special memory.\n\n강원도 인제에서 충남 청양까지 이동하는 동안 도로 위의 수많은 운전자가 창문을 열어 손가락 하트와 엄지손가락을 들어 올리며 축하 인사를 건넸다.\nWhile traveling from Inje, Gangwon Province to Cheongyang, South Chungcheong Province, numerous drivers on the road opened their windows to send congratulations by raising thumbs and making finger hearts.\n\n일부 운전자는 경적을 가볍게 울리며 전역을 함께 축하했고 가족들에게 잊지 못할 즐거운 기억을 선물했다.\nSome drivers lightly honked their horns to celebrate the discharge together, presenting the family with unforgettable, joyful memories.\n\n아버지는 도로에서 미처 감사의 인사를 다 전하지 못한 시민들에게 글을 통해 진심 어린 고마움을 표시했다.\nThe father expressed sincere gratitude through his post to the citizens whom he could not thank properly on the road.\n\n또한 현재도 군에서 나라를 지키고 있는 모든 국군 장병들이 다치지 않고 무사히 전역하기를 바란다는 응원의 말을 남겼다.\nHe also left words of encouragement hoping that all soldiers currently defending the nation in the military will be discharged safely without getting hurt.\n\n이 훈훈한 소식을 접한 누리꾼들은 아버지의 따뜻한 마음에 깊이 공감하며 아들의 성실한 복무를 격려하는 댓글을 달았다.\nNetizens who came across this heartwarming news deeply empathized with the father's warm heart and posted comments encouraging the son's faithful service.",
+        "vocab": [
+            {
+                "word": "전역",
+                "meaning": "military discharge",
+                "example_ko": "형은 군대에서 [전역한] 뒤 바로 대학교에 복학했다.",
+                "example_en": "My older brother returned to university right after being discharged from the military."
+            },
+            {
+                "word": "현수막",
+                "meaning": "banner",
+                "example_ko": "학교 입구에 신입생 입학을 환영하는 [현수막이] 걸렸다.",
+                "example_en": "A banner welcoming the admission of new students was hung at the school entrance."
+            },
+            {
+                "word": "부착하다",
+                "meaning": "to attach, to stick",
+                "example_ko": "벽에 주의 사항을 적은 종이를 깔끔하게 [부착했다].",
+                "example_en": "I neatly attached the paper with notices onto the wall."
+            },
+            {
+                "word": "기념하다",
+                "meaning": "to commemorate, to celebrate",
+                "example_ko": "가족들과 함께 할머니의 생신을 [기념하는] 식사를 했다.",
+                "example_en": "I had a meal with my family celebrating my grandmother's birthday."
+            },
+            {
+                "word": "경적",
+                "meaning": "horn, car horn",
+                "example_ko": "골목길에서는 보행자를 놀라게 하지 않도록 [경적을] 울리지 마세요.",
+                "example_en": "Please do not honk the horn in alleys so as not to startle pedestrians."
+            },
+            {
+                "word": "미처",
+                "meaning": "yet, to that extent (used with negative)",
+                "example_ko": "약속 시간에 늦어서 아침을 [미처] 먹지 못했다.",
+                "example_en": "I was late for the appointment, so I could not eat breakfast yet."
+            },
+            {
+                "word": "장병",
+                "meaning": "officers and soldiers, service members",
+                "example_ko": "국민들은 겨울 추위 속에서 훈련받는 국군 [장병들에게] 감사의 마음을 품고 있다.",
+                "example_en": "Citizens hold gratitude toward the service members training in the winter cold."
+            },
+            {
+                "word": "무사히",
+                "meaning": "safely, without accident",
+                "example_ko": "비행기가 궂은 날씨 속에서도 인천공항에 [무사히] 도착했다.",
+                "example_en": "The plane arrived safely at Incheon Airport despite bad weather."
+            },
+            {
+                "word": "훈훈하다",
+                "meaning": "to be heartwarming, pleasantly warm",
+                "example_ko": "이웃들이 서로 돕는 모습이 마음을 [훈훈하게] 만들었다.",
+                "example_en": "Seeing neighbors help one another made my heart pleasantly warm."
+            },
+            {
+                "word": "공감하다",
+                "meaning": "to empathize, to sympathize",
+                "example_ko": "친구의 슬픈 사연을 듣고 나도 깊이 [공감했다].",
+                "example_en": "Listening to my friend's sad story, I also deeply empathized."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-13",
+        "published_at": "2026-11-13 10:46",
+        "title": "교황 방문 기간에 해외 순방 떠난 페루 대통령…외교적 결례 논란 확산",
+        "body": "교황의 자국 방문 기간에 맞춰 해외 순방을 떠나기로 한 게이코 후지모리 페루 대통령이 국내에서 거센 비판을 받고 있다. 페루 현지 언론에 따르면 후지모리 대통령은 15일부터 21일까지 중국과 일본을 차례로 방문할 예정이다. 대통령은 중국에서 열리는 아시아태평양경제협력체(APEC) 정상회의에 참석하고 양자 회담을 진행한 뒤 일본으로 이동할 계획이다. 앞서 페루 의회는 순방을 승인했으나 교황이 머무는 기간에 자리를 비우는 것은 외교적 결례라는 반발이 제기되었다. 특히 교황이 방문하는 동안 대규모 미사를 비롯한 주요 국가 행사가 예정되어 있어 대통령의 부재를 둘러싼 논란이 더욱 커졌다. 후지모리 대통령은 외교 일정을 바꾸려 노력했으나 변경이 불가능했다고 해명했지만 비판 여론은 쉽게 가라앉지 않고 있다. 교황 레오 14세는 과거 페루에서 20년 이상 활동하여 페루 국민들로부터 절대적인 사랑과 지지를 받는 인물이다. 실제로 교황이 도착하자 수도 리마에는 300만 명이 넘는 환영 인파가 몰려 성대한 환대를 보냈다. 일각에서는 과거 후지모리 대통령 일가와 교황 사이의 불편했던 과거 관계 때문에 대통령이 만남을 피하려 한다는 분석도 나오고 있다.",
+        "translation": "교황의 자국 방문 기간에 맞춰 해외 순방을 떠나기로 한 게이코 후지모리 페루 대통령이 국내에서 거센 비판을 받고 있다.\nPeruvian President Keiko Fujimori, who decided to depart on an overseas tour coinciding with the Pope's visit to her home country, is facing fierce criticism domestically.\n\n페루 현지 언론에 따르면 후지모리 대통령은 15일부터 21일까지 중국과 일본을 차례로 방문할 예정이다.\nAccording to local Peruvian media, President Fujimori is scheduled to visit China and Japan sequentially from the 15th to the 21st.\n\n대통령은 중국에서 열리는 아시아태평양경제협력체(APEC) 정상회의에 참석하고 양자 회담을 진행한 뒤 일본으로 이동할 계획이다.\nThe president plans to attend the Asia-Pacific Economic Cooperation (APEC) summit in China, conduct bilateral talks, and then proceed to Japan.\n\n앞서 페루 의회는 순방을 승인했으나 교황이 머무는 기간에 자리를 비우는 것은 외교적 결례라는 반발이 제기되었다.\nThe Peruvian Congress previously approved the trip, but backlash arose asserting that vacating the post during the Pope's stay constitutes diplomatic discourtesy.\n\n특히 교황이 방문하는 동안 대규모 미사를 비롯한 주요 국가 행사가 예정되어 있어 대통령의 부재를 둘러싼 논란이 더욱 커졌다.\nIn particular, because major national events including large-scale masses were scheduled during the Pope's visit, the controversy surrounding the president's absence grew even further.\n\n후지모리 대통령은 외교 일정을 바꾸려 노력했으나 변경이 불가능했다고 해명했지만 비판 여론은 쉽게 가라앉지 않고 있다.\nPresident Fujimori explained that she tried to adjust the diplomatic schedule but changes were impossible, yet critical public opinion is not easily subsiding.\n\n교황 레오 14세는 과거 페루에서 20년 이상 활동하여 페루 국민들로부터 절대적인 사랑과 지지를 받는 인물이다.\nPope Leo XIV is a figure receiving absolute love and support from the Peruvian people, having served in Peru for more than 20 years in the past.\n\n실제로 교황이 도착하자 수도 리마에는 300만 명이 넘는 환영 인파가 몰려 성대한 환대를 보냈다.\nIn fact, when the Pope arrived, a welcoming crowd of more than 3 million people gathered in the capital Lima to give a grand reception.\n\n일각에서는 과거 후지모리 대통령 일가와 교황 사이의 불편했던 과거 관계 때문에 대통령이 만남을 피하려 한다는 분석도 나오고 있다.\nSome analysts also suggest that the president is attempting to avoid the meeting due to awkward past relations between the Fujimori family and the Pope.",
+        "vocab": [
+            {
+                "word": "순방",
+                "meaning": "round of visits, official tour",
+                "example_ko": "대통령은 경제 협력을 위해 유럽 여러 나라로 [순방을] 떠났다.",
+                "example_en": "The president left on an official tour to several European countries for economic cooperation."
+            },
+            {
+                "word": "거세다",
+                "meaning": "to be fierce, wild, intense",
+                "example_ko": "새로운 정책에 대한 시민들의 [거센] 반발이 계속되고 있다.",
+                "example_en": "Citizens' fierce backlash against the new policy is continuing."
+            },
+            {
+                "word": "결례",
+                "meaning": "bad manners, discourtesy, breach of etiquette",
+                "example_ko": "처음 만난 자리에서 나이를 묻는 것은 상대방에게 [결례가] 될 수 있다.",
+                "example_en": "Asking age upon meeting for the first time can be a breach of etiquette to the other person."
+            },
+            {
+                "word": "부재",
+                "meaning": "absence",
+                "example_ko": "지도자의 갑작스러운 [부재로] 회사가 큰 혼란에 빠졌다.",
+                "example_en": "The company fell into great confusion due to the leader's sudden absence."
+            },
+            {
+                "word": "해명하다",
+                "meaning": "to explain, to clarify",
+                "example_ko": "의혹이 커지자 관계자는 기자회견을 열어 사실관계를 [해명했다].",
+                "example_en": "As suspicions grew, the official held a press conference to clarify the facts."
+            },
+            {
+                "word": "가라앉다",
+                "meaning": "to subside, to calm down",
+                "example_ko": "시간이 흐르자 시험을 앞두고 느꼈던 불안감이 점차 [가라앉았다].",
+                "example_en": "As time passed, the anxiety felt before the exam gradually subsided."
+            },
+            {
+                "word": "인파",
+                "meaning": "crowd, throng of people",
+                "example_ko": "불꽃축제를 보기 위해 강변에 수많은 [인파가] 모였다.",
+                "example_en": "A huge crowd gathered along the riverbank to watch the fireworks festival."
+            },
+            {
+                "word": "성대하다",
+                "meaning": "to be grand, magnificent",
+                "example_ko": "학교 강당에서 졸업생들을 위한 [성대한] 축하 행사가 열렸다.",
+                "example_en": "A grand congratulatory event for the graduates was held in the school auditorium."
+            },
+            {
+                "word": "환대",
+                "meaning": "warm welcome, hospitality",
+                "example_ko": "마을 주민들은 오랜만에 찾아온 손님들을 따뜻한 [환대로] 맞이했다.",
+                "example_en": "The village residents welcomed the visitors who came after a long time with warm hospitality."
+            },
+            {
+                "word": "불편하다",
+                "meaning": "to be uncomfortable, awkward",
+                "example_ko": "다툰 뒤에 그 친구와 마주치는 자리가 매우 [불편했다].",
+                "example_en": "Encountering that friend after an argument was very uncomfortable."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-13",
         "published_at": "2026-11-13 02:31",
         "title": "민주당 지도부, 언행 논란 빚은 최민희 의원 윤리감찰 전격 지시",
         "body": "더불어민주당 김민석 대표가 최근 잇단 부적절한 언행으로 물의를 빚은 최민희 의원에 대해 즉각적인 윤리감찰을 지시했다. 김 대표는 이번 논란을 매우 심각하게 인식하고 있으며 당헌과 당규 및 윤리규범 위반 여부를 철저히 확인할 방침이다. 최 의원은 비공개 당원 간담회에서 이재명 대통령이 당 대표 시절 전직 대통령 탄핵에 반대했다는 취지의 발언을 한 것으로 알려졌다. 이에 대해 청와대는 해당 주장이 전혀 사실무근이라며 강한 유감을 표명했다. 청와대의 입장 발표 이후 최 의원은 자신의 설명 과정에서 혼선이 있었다고 인정하며 공개적으로 사과의 뜻을 밝혔다. 앞서 최 의원은 지지자들과의 대화방에서 취재진을 비하하는 표현을 사용해 사회적인 비판을 받기도 했다. 당 관계자는 이번 감찰이 징계를 전제로 한 것은 아니며 당사자의 충분한 소명을 들을 예정이라고 설명했다. 이번 감찰 조치가 당내 기강을 바로잡을 계기가 될지, 아니면 계파 갈등으로 번질지 정치권의 관심이 쏠리고 있다.",

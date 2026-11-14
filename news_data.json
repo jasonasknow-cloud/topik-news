@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-11-15",
+        "published_at": "2026-11-15 00:44",
+        "title": "국민의힘 부산서 대규모 장외 집회…민주당 \"민생 외면한 정쟁\" 비판",
+        "body": "국민의힘 지도부와 소속 국회의원들이 주말을 맞아 부산역 광장에서 대규모 장외 집회를 열었다. 이번 집회는 '조작 기소 특검법' 저지를 위한 전국 순회 여론전의 첫 행사로 진행되었다. 집회 현장에는 장동혁 대표를 비롯한 당 지도부와 중진 의원 등 현역 의원 30여 명이 대거 참석했다. 장 대표는 이재명 대통령의 재판 재개를 촉구하며 특검법을 즉각 철회하라고 강력히 요구했다. 정점식 원내대표 또한 현 정부와 여당의 특검법 추진을 강하게 비판하며 목소리를 높였다. 국민의힘은 부산을 시작으로 다음 주 대구 등 전국 주요 도시에서 매 주말 장외 집회를 이어갈 계획이다. 이에 대해 더불어민주당은 야당이 예산국회와 민생을 팽개치고 거리로 나섰다며 날을 세웠다. 민주당은 문제 조항을 이미 삭제했음에도 야당이 국민을 호도하고 있다고 반박했다. 아울러 야당이 근거 없는 부정선거 의혹을 부추기며 정쟁만 일삼고 있다고 비판했다. 이처럼 특검법을 둘러싼 여야의 대립이 격화하면서 정국 경색이 한층 깊어지고 있다.",
+        "translation": "국민의힘 지도부와 소속 국회의원들이 주말을 맞아 부산역 광장에서 대규모 장외 집회를 열었다.\nThe leadership of the People Power Party and its lawmakers held a large-scale outdoor rally at Busan Station Plaza over the weekend.\n\n이번 집회는 '조작 기소 특검법' 저지를 위한 전국 순회 여론전의 첫 행사로 진행되었다.\nThis rally was conducted as the first event in a nationwide tour to shape public opinion against the special counsel bill on manipulated indictments.\n\n집회 현장에는 장동혁 대표를 비롯한 당 지도부와 중진 의원 등 현역 의원 30여 명이 대거 참석했다.\nAround thirty incumbent lawmakers attended the rally in large numbers, including Party Leader Jang Dong-hyeok, party leaders, and senior lawmakers.\n\n장 대표는 이재명 대통령의 재판 재개를 촉구하며 특검법을 즉각 철회하라고 강력히 요구했다.\nLeader Jang called for the resumption of President Lee Jae-myung's trial and strongly demanded the immediate withdrawal of the special counsel bill.\n\n정점식 원내대표 또한 현 정부와 여당의 특검법 추진을 강하게 비판하며 목소리를 높였다.\nFloor Leader Jeong Jeom-sik also raised his voice, harshly criticizing the current administration and ruling party's push for the special counsel bill.\n\n국민의힘은 부산을 시작으로 다음 주 대구 등 전국 주요 도시에서 매 주말 장외 집회를 이어갈 계획이다.\nStarting with Busan, the People Power Party plans to continue outdoor rallies every weekend in major cities nationwide, including Daegu next week.\n\n이에 대해 더불어민주당은 야당이 예산국회와 민생을 팽개치고 거리로 나섰다며 날을 세웠다.\nIn response, the Democratic Party of Korea took a sharp tone, stating that the opposition party took to the streets while abandoning the budget session of the National Assembly and people's livelihoods.\n\n민주당은 문제 조항을 이미 삭제했음에도 야당이 국민을 호도하고 있다고 반박했다.\nThe Democratic Party countered that the opposition is misleading the public even though the problematic clauses have already been deleted.\n\n아울러 야당이 근거 없는 부정선거 의혹을 부추기며 정쟁만 일삼고 있다고 비판했다.\nFurthermore, they criticized the opposition party for engaging only in political strife while encouraging groundless allegations of fraudulent elections.\n\n이처럼 특검법을 둘러싼 여야의 대립이 격화하면서 정국 경색이 한층 깊어지고 있다.\nAs the confrontation between the ruling and opposition parties surrounding the special counsel bill intensifies, political deadlock is deepening further.",
+        "vocab": [
+            {
+                "word": "장외",
+                "meaning": "outside the assembly hall; outdoor",
+                "example_ko": "정치인들은 국회 안에서의 논의 대신 [장외] 집회를 선택했다.",
+                "example_en": "The politicians chose an outdoor rally instead of discussions inside the National Assembly."
+            },
+            {
+                "word": "저지하다",
+                "meaning": "to block, to stop, to prevent",
+                "example_ko": "주민들은 마을에 공장이 들어오는 것을 [저지하려고] 모였다.",
+                "example_en": "Residents gathered to prevent a factory from entering their village."
+            },
+            {
+                "word": "촉구하다",
+                "meaning": "to urge, to press, to demand",
+                "example_ko": "시민단체는 정부에 신속한 문제 해결을 [촉구했다].",
+                "example_en": "The civic group urged the government to solve the problem quickly."
+            },
+            {
+                "word": "철회하다",
+                "meaning": "to withdraw, to retract, to repeal",
+                "example_ko": "회사는 직원들의 반대로 인해 새 규정을 [철회하기로] 결정했다.",
+                "example_en": "The company decided to withdraw the new regulation due to opposition from employees."
+            },
+            {
+                "word": "민생",
+                "meaning": "people's livelihood",
+                "example_ko": "정치인들은 무엇보다 [민생]을 돌보는 일에 최선을 다해야 한다.",
+                "example_en": "Politicians must do their best to take care of the people's livelihood above all else."
+            },
+            {
+                "word": "팽개치다",
+                "meaning": "to cast aside, to neglect, to abandon",
+                "example_ko": "그는 자신의 책임을 [팽개치고] 다른 일에만 집중했다.",
+                "example_en": "He cast aside his own responsibilities and focused only on other tasks."
+            },
+            {
+                "word": "조항",
+                "meaning": "clause, article, provision",
+                "example_ko": "계약서에 있는 중요한 [조항]을 꼼꼼하게 읽어 보았다.",
+                "example_en": "I carefully read the important clauses in the contract."
+            },
+            {
+                "word": "호도하다",
+                "meaning": "to mislead, to cover up, to distort",
+                "example_ko": "거짓 사실로 대중의 판단을 [호도해서는] 안 된다.",
+                "example_en": "One must not mislead the public's judgment with false facts."
+            },
+            {
+                "word": "부추기다",
+                "meaning": "to instigate, to incite, to fuel",
+                "example_ko": "친구 사이에 오해와 갈등을 [부추기는] 말을 들었다.",
+                "example_en": "I heard remarks inciting misunderstanding and conflict between friends."
+            },
+            {
+                "word": "정쟁",
+                "meaning": "political strife, partisan battle",
+                "example_ko": "여야가 끝없는 [정쟁]을 멈추고 대화에 나서야 한다.",
+                "example_en": "The ruling and opposition parties must stop their endless political strife and engage in dialogue."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-15",
+        "published_at": "2026-11-15 00:44",
+        "title": "머스크 \"젠슨 황 떠난 엔비디아, 핵심 공급망 계약 잃을 것\"",
+        "body": "일론 머스크 테슬라 최고경영자가 엔비디아의 미래에 대해 우려의 목소리를 냈다. 머스크는 젠슨 황 전 최고경영자의 부재로 엔비디아의 공급망 장악력이 크게 약화할 것이라고 진단했다. 머스크는 자신의 소셜미디어 계정을 통해 젠슨 황이 공급망 관리를 성공적으로 이끌어왔다고 평가했다. 그러나 그동안 맺어진 수많은 계약 중 상당수가 정식 서면 계약이 아니라 상호 신뢰와 악수로 성사된 것이었다고 언급했다. 따라서 젠슨 황이 자리를 비운 지금 엔비디아가 몇몇 핵심 계약을 잃게 될 것이라고 지적했다. 머스크는 반도체 시장조사업체 전문가의 분석 내용을 함께 공유하며 이러한 의견을 덧붙였다. 전문가의 진단에 따르면 젠슨 황은 직접 발로 뛰며 소규모 부품업체들의 물량을 선점하는 성과를 거두어 왔다. 하지만 경쟁사들이 본격적으로 부품 확보에 뛰어들면서 엔비디아의 독점적 우위가 흔들릴 수 있다는 지적이 나온다. 인공지능 반도체 시장의 주도권을 둘러싸고 빅테크 기업들 간의 공급망 쟁탈전이 더욱 치열해질 전망이다.",
+        "translation": "일론 머스크 테슬라 최고경영자가 엔비디아의 미래에 대해 우려의 목소리를 냈다.\nTesla CEO Elon Musk expressed concern about the future of Nvidia.\n\n머스크는 젠슨 황 전 최고경영자의 부재로 엔비디아의 공급망 장악력이 크게 약화할 것이라고 진단했다.\nMusk diagnosed that Nvidia's control over its supply chain would weaken significantly due to the absence of former CEO Jensen Huang.\n\n머스크는 자신의 소셜미디어 계정을 통해 젠슨 황이 공급망 관리를 성공적으로 이끌어왔다고 평가했다.\nMusk commented on his social media account that Jensen Huang had successfully led supply chain management.\n\n그러나 그동안 맺어진 수많은 계약 중 상당수가 정식 서면 계약이 아니라 상호 신뢰와 악수로 성사된 것이었다고 언급했다.\nHowever, he noted that many of the numerous agreements made over time were not formal written contracts, but rather were sealed with mutual trust and handshakes.\n\n따라서 젠슨 황이 자리를 비운 지금 엔비디아가 몇몇 핵심 계약을 잃게 될 것이라고 지적했다.\nTherefore, he pointed out that now that Jensen Huang has departed, Nvidia is bound to lose at least some key contracts.\n\n머스크는 반도체 시장조사업체 전문가의 분석 내용을 함께 공유하며 이러한 의견을 덧붙였다.\nMusk added these comments while sharing analysis from an expert at a semiconductor market research firm.\n\n전문가의 진단에 따르면 젠슨 황은 직접 발로 뛰며 소규모 부품업체들의 물량을 선점하는 성과를 거두어 왔다.\nAccording to the expert's assessment, Jensen Huang had achieved results by directly visiting small parts suppliers to secure component volumes ahead of others.\n\n하지만 경쟁사들이 본격적으로 부품 확보에 뛰어들면서 엔비디아의 독점적 우위가 흔들릴 수 있다는 지적이 나온다.\nHowever, observers point out that Nvidia's dominant edge could falter as competitors jump in earnest into securing components.\n\n인공지능 반도체 시장의 주도권을 둘러싸고 빅테크 기업들 간의 공급망 쟁탈전이 더욱 치열해질 전망이다.\nThe struggle among big tech companies to secure supply chains is expected to become even fiercer around dominance in the artificial intelligence chip market.",
+        "vocab": [
+            {
+                "word": "부재",
+                "meaning": "absence",
+                "example_ko": "선생님의 [부재] 동안 학생들이 스스로 공부를 진행했다.",
+                "example_en": "During the teacher's absence, the students carried on their studies on their own."
+            },
+            {
+                "word": "공급망",
+                "meaning": "supply chain",
+                "example_ko": "안정적인 부품 [공급망]을 갖추는 것이 제조업에 필수적이다.",
+                "example_en": "Having a stable parts supply chain is essential for the manufacturing industry."
+            },
+            {
+                "word": "장악력",
+                "meaning": "grip, control, dominating power",
+                "example_ko": "신제품 출시를 통해 그 기업은 시장 [장악력]을 높였다.",
+                "example_en": "Through the release of the new product, the company increased its market grip."
+            },
+            {
+                "word": "약화하다",
+                "meaning": "to weaken",
+                "example_ko": "계속된 무리한 운동으로 건강이 [약화할] 수 있으니 주의해야 한다.",
+                "example_en": "You must be careful because continuous excessive exercise can weaken your health."
+            },
+            {
+                "word": "서면",
+                "meaning": "written form, in writing",
+                "example_ko": "계약을 체결할 때는 반드시 [서면]으로 증거를 남겨야 한다.",
+                "example_en": "When concluding a contract, you must leave written proof."
+            },
+            {
+                "word": "선견지명",
+                "meaning": "foresight, far-sightedness",
+                "example_ko": "그는 남다른 [선견지명]으로 미래 산업에 미리 투자했다.",
+                "example_en": "With his extraordinary foresight, he invested in future industries in advance."
+            },
+            {
+                "word": "선점하다",
+                "meaning": "to pre-occupy, to secure in advance",
+                "example_ko": "기업들은 유리한 고지를 [선점하기] 위해 치열하게 경쟁한다.",
+                "example_en": "Companies compete fiercely to secure an advantageous position in advance."
+            },
+            {
+                "word": "우위",
+                "meaning": "superiority, upper hand",
+                "example_ko": "우리 팀은 뛰어난 기술력을 바탕으로 시장에서 [우위]를 차지했다.",
+                "example_en": "Our team took the upper hand in the market based on superior technological capabilities."
+            },
+            {
+                "word": "지배력",
+                "meaning": "dominance, control",
+                "example_ko": "그 회사는 업계에서 막강한 시장 [지배력]을 유지하고 있다.",
+                "example_en": "The company maintains immense market dominance in the industry."
+            },
+            {
+                "word": "쟁탈전",
+                "meaning": "scramble, fierce struggle, fight for possession",
+                "example_ko": "한정된 자원을 두고 국가 간의 [쟁탈전]이 벌어지고 있다.",
+                "example_en": "A scramble is unfolding among nations over limited resources."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-15",
+        "published_at": "2026-11-15 00:44",
+        "title": "인제대학교 서버 해킹으로 학생과 교직원 2만4천 명 개인정보 유출",
+        "body": "경남 김해에 위치한 인제대학교에서 학생과 교직원들의 개인정보가 대규모로 유출되는 사고가 일어났다. 인제대는 홈페이지를 통해 개인정보 유출 사실을 알리고 사과문을 게시했다. 대학 측은 수업 운영을 위해 사용하는 관련 서버가 외부로부터 공격을 받은 정황을 확인했다고 밝혔다. 대학은 교육부로부터 관련 통보를 받은 뒤 비로소 개인정보가 빠져나간 사실을 알게 되었다. 현재까지 유출된 것으로 파악된 개인정보는 학번과 사번, 성명, 이메일 주소, 휴대전화 번호 등 총 2만4천여 건에 달한다. 대학 측은 추가 피해 확산을 막기 위해 긴급 보안 점검에 나섰으며 재발 방지 대책을 세우고 있다. 또한 유출된 개인정보를 악용한 2차 범죄 피해가 발생하지 않도록 주의를 당부했다. 출처가 명확하지 않은 의심스러운 문자메시지를 받거나 첨부파일을 열지 말 것을 권고했다. 대학교 학사 시스템의 보안 취약점이 드러남에 따라 학생들의 불안감이 커지고 있다.",
+        "translation": "경남 김해에 위치한 인제대학교에서 학생과 교직원들의 개인정보가 대규모로 유출되는 사고가 일어났다.\nAn incident occurred at Inje University located in Gimhae, South Gyeongsang Province, in which personal data of students and faculty members was leaked on a large scale.\n\n인제대는 홈페이지를 통해 개인정보 유출 사실을 알리고 사과문을 게시했다.\nInje University informed the public about the personal data leak through its website and posted an apology letter.\n\n대학 측은 수업 운영을 위해 사용하는 관련 서버가 외부로부터 공격을 받은 정황을 확인했다고 밝혔다.\nThe university stated that it confirmed signs of an external attack on servers used for course administration.\n\n대학은 교육부로부터 관련 통보를 받은 뒤 비로소 개인정보가 빠져나간 사실을 알게 되었다.\nThe university only learned that personal information had been leaked after receiving a notice from the Ministry of Education.\n\n현재까지 유출된 것으로 파악된 개인정보는 학번과 사번, 성명, 이메일 주소, 휴대전화 번호 등 총 2만4천여 건에 달한다.\nThe personal data confirmed to have been leaked so far amounts to over 24,000 cases, including student numbers, employee IDs, names, email addresses, and mobile phone numbers.\n\n대학 측은 추가 피해 확산을 막기 위해 긴급 보안 점검에 나섰으며 재발 방지 대책을 세우고 있다.\nThe university initiated urgent security inspections to prevent the further spread of damage and is establishing preventive measures.\n\n또한 유출된 개인정보를 악용한 2차 범죄 피해가 발생하지 않도록 주의를 당부했다.\nThey also urged caution to prevent secondary criminal damage that exploits the leaked personal information.\n\n출처가 명확하지 않은 의심스러운 문자메시지를 받거나 첨부파일을 열지 말 것을 권고했다.\nThey advised people not to open attachments or suspicious text messages whose sources are unclear.\n\n대학교 학사 시스템의 보안 취약점이 드러남에 따라 학생들의 불안감이 커지고 있다.\nAs vulnerabilities in the university's academic management system have been exposed, anxiety among students is growing.",
+        "vocab": [
+            {
+                "word": "유출되다",
+                "meaning": "to be leaked, to be spilled",
+                "example_ko": "중요한 회사 기밀이 외부로 [유출되지] 않도록 조심해야 한다.",
+                "example_en": "You must be careful so that important company secrets are not leaked to the outside."
+            },
+            {
+                "word": "정황",
+                "meaning": "circumstances, signs, context",
+                "example_ko": "사고 현장의 여러 [정황]을 고려해 볼 때 단순한 실수로 보인다.",
+                "example_en": "Considering various circumstances at the accident scene, it appears to be a simple mistake."
+            },
+            {
+                "word": "인지하다",
+                "meaning": "to recognize, to perceive, to become aware of",
+                "example_ko": "그는 문제를 [인지하자마자] 담당자에게 곧바로 알렸다.",
+                "example_en": "As soon as he recognized the problem, he informed the person in charge immediately."
+            },
+            {
+                "word": "파악하다",
+                "meaning": "to grasp, to figure out, to understand",
+                "example_ko": "원인을 정확히 [파악해야] 올바른 해결책을 찾을 수 있다.",
+                "example_en": "You must figure out the cause accurately to find the right solution."
+            },
+            {
+                "word": "확산",
+                "meaning": "spread, proliferation",
+                "example_ko": "바이러스의 빠른 [확산]을 막기 위해 철저히 방역을 실시했다.",
+                "example_en": "Thorough disinfection was carried out to prevent the rapid spread of the virus."
+            },
+            {
+                "word": "재발",
+                "meaning": "recurrence, relapse",
+                "example_ko": "같은 문제가 다시 일어나지 않도록 [재발] 방지에 힘써야 한다.",
+                "example_en": "Efforts must be made to prevent recurrence so that the same problem does not happen again."
+            },
+            {
+                "word": "악용하다",
+                "meaning": "to abuse, to misuse, to exploit",
+                "example_ko": "타인의 개인정보를 나쁜 목적에 [악용하는] 행위는 엄하게 처벌받는다.",
+                "example_en": "The act of abusing other people's personal information for bad purposes is severely punished."
+            },
+            {
+                "word": "출처",
+                "meaning": "source, origin",
+                "example_ko": "보고서를 작성할 때는 자료의 [출처]를 분명하게 적어야 한다.",
+                "example_en": "When writing a report, you must clearly state the source of the data."
+            },
+            {
+                "word": "당부하다",
+                "meaning": "to ask, to request, to urge",
+                "example_ko": "어머니는 외출하는 아이들에게 차 조심하라고 [당부하셨다].",
+                "example_en": "The mother urged her children going out to watch out for cars."
+            },
+            {
+                "word": "취약점",
+                "meaning": "vulnerability, weakness",
+                "example_ko": "새로운 보안 시스템을 도입하여 컴퓨터의 [취약점]을 보완했다.",
+                "example_en": "We supplemented the computer's vulnerabilities by introducing a new security system."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-15",
+        "published_at": "2026-11-15 00:44",
+        "title": "이탈리아, 이용자 사진 무단 접근 메타에 과징금 1조 원 부과",
+        "body": "이탈리아 정부가 글로벌 빅테크 기업 메타에 거액의 과징금을 부과했다. 이탈리아 개인정보보호 당국은 메타가 사전 동의를 구하지 않고 이용자의 정보에 무단 접근했다고 판단했다. 부과된 과징금 액수는 8억500만 유로로 우리 돈 약 1조1천800억 원에 이른다. 당국에 따르면 메타는 안드로이드 운영체제를 쓰는 이용자 기기의 사진첩에서 사진과 동영상에 접근했다. 메타는 소셜미디어에 올릴 만한 콘텐츠를 추천해 주는 기능을 활용해 이용자 정보를 들여다본 것으로 드러났다. 일각에서는 이 기능이 인공지능 학습에 활용된 것 아니냐는 의혹도 제기되었으나 조사 대상에는 포함되지 않았다. 메타 측은 법을 위반한 적이 없다며 관련 혐의를 전면 부인하고 있다. 이번 과징금은 메타그룹 전체 글로벌 연간 매출의 0.47%에 달하는 규모다. 유럽 각국이 빅테크 기업들의 개인정보 침해 행위에 대해 엄격한 규제를 가하고 있음을 잘 보여주는 사례로 평가된다.",
+        "translation": "이탈리아 정부가 글로벌 빅테크 기업 메타에 거액의 과징금을 부과했다.\nThe Italian government imposed a massive fine on the global big tech company Meta.\n\n이탈리아 개인정보보호 당국은 메타가 사전 동의를 구하지 않고 이용자의 정보에 무단 접근했다고 판단했다.\nThe Italian data protection authority ruled that Meta accessed user information without obtaining prior consent.\n\n부과된 과징금 액수는 8억500만 유로로 우리 돈 약 1조1천800억 원에 이른다.\nThe amount of the fine imposed was 805 million euros, reaching approximately 1.18 trillion Korean won.\n\n당국에 따르면 메타는 안드로이드 운영체제를 쓰는 이용자 기기의 사진첩에서 사진과 동영상에 접근했다.\nAccording to authorities, Meta accessed photos and videos in the photo galleries of user devices running the Android operating system.\n\n메타는 소셜미디어에 올릴 만한 콘텐츠를 추천해 주는 기능을 활용해 이용자 정보를 들여다본 것으로 드러났다.\nIt was revealed that Meta looked into user data by utilizing a feature that recommends content suitable for posting on social media.\n\n일각에서는 이 기능이 인공지능 학습에 활용된 것 아니냐는 의혹도 제기되었으나 조사 대상에는 포함되지 않았다.\nSuspicions were also raised in some quarters over whether this feature had been used for artificial intelligence training, but it was not included in the scope of the investigation.\n\n메타 측은 법을 위반한 적이 없다며 관련 혐의를 전면 부인하고 있다.\nMeta is completely denying the allegations, stating that it has never violated the law.\n\n이번 과징금은 메타그룹 전체 글로벌 연간 매출의 0.47%에 달하는 규모다.\nThis fine amounts to 0.47% of the Meta group's total global annual revenue.\n\n유럽 각국이 빅테크 기업들의 개인정보 침해 행위에 대해 엄격한 규제를 가하고 있음을 잘 보여주는 사례로 평가된다.\nThis is evaluated as a case that clearly shows how European countries are imposing strict regulations on privacy infringement by big tech companies.",
+        "vocab": [
+            {
+                "word": "과징금",
+                "meaning": "fine, monetary penalty",
+                "example_ko": "환경 기준을 어긴 기업에 수억 원의 [과징금]이 내려졌다.",
+                "example_en": "A monetary penalty of hundreds of millions of won was imposed on the company that broke environmental standards."
+            },
+            {
+                "word": "부과하다",
+                "meaning": "to impose, to levy",
+                "example_ko": "정부는 세금을 내지 않은 사람들에게 추가 벌금을 [부과했다].",
+                "example_en": "The government imposed an additional penalty on people who did not pay taxes."
+            },
+            {
+                "word": "사전",
+                "meaning": "prior, advance, preliminary",
+                "example_ko": "행사에 참석하려면 [사전] 등록을 마쳐야 한다.",
+                "example_en": "You must complete advance registration to attend the event."
+            },
+            {
+                "word": "동의",
+                "meaning": "consent, agreement",
+                "example_ko": "부모님의 [동의]를 얻은 후에 여행 계획을 확정했다.",
+                "example_en": "I confirmed the travel plan after obtaining my parents' consent."
+            },
+            {
+                "word": "무단",
+                "meaning": "without permission, unauthorized",
+                "example_ko": "남의 땅에 [무단]으로 쓰레기를 버리면 처벌을 받는다.",
+                "example_en": "You will be punished if you throw away garbage without permission on someone else's land."
+            },
+            {
+                "word": "게시하다",
+                "meaning": "to post, to publish, to put up",
+                "example_ko": "선생님은 다음 주 시험 일정을 게시판에 [게시하셨다].",
+                "example_en": "The teacher posted the next week's exam schedule on the bulletin board."
+            },
+            {
+                "word": "의혹",
+                "meaning": "suspicion, doubt",
+                "example_ko": "경찰은 제기된 비리 [의혹]을 밝히기 위해 수사를 시작했다.",
+                "example_en": "The police launched an investigation to uncover the raised suspicions of corruption."
+            },
+            {
+                "word": "부인하다",
+                "meaning": "to deny, to disavow",
+                "example_ko": "피의자는 경찰 조사에서 자신의 잘못을 끝까지 [부인했다].",
+                "example_en": "The suspect denied his wrongdoing to the end during police questioning."
+            },
+            {
+                "word": "매출",
+                "meaning": "sales, revenue",
+                "example_ko": "가게의 이번 달 [매출]이 지난달보다 크게 늘어났다.",
+                "example_en": "The store's sales this month increased significantly compared to last month."
+            },
+            {
+                "word": "침해",
+                "meaning": "infringement, violation",
+                "example_ko": "다른 사람의 권리를 [침해]하지 않도록 항상 주의해야 한다.",
+                "example_en": "You must always be careful not to infringe on other people's rights."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-11-14",
         "published_at": "2026-11-14 10:24",
         "title": "외교부 2차관 미국 방문…한미 경제안보 협력 논의 착수",

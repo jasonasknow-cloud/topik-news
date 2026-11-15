@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-15",
+        "published_at": "2026-11-15 09:58",
+        "title": "정부의 물가 안정용 공공요금 동결 정책, 재정 부담으로 되돌아와",
+        "body": "정부가 서민 물가를 안정시키기 위해 도입한 에너지 가격 통제 정책이 막대한 재정 부담으로 이어지고 있다. 정부는 지난 3월부터 석유 최고가격제를 유지하며 정유사가 주유소에 공급하는 가격에 상한선을 두고 있다. 이 제도로 인해 발생하는 정유업계의 손실은 정부가 추후 예산으로 보전해 주어야 한다. 당초 정부는 손실 보전을 위한 예비비를 편성했으나 제도 시행이 9개월째 이어지면서 내년 예산안에 1조 4천억 원을 추가로 반영했다. 그러나 정유업계는 실제 발생한 손실액이 정부가 확보한 예비비 규모를 훨씬 뛰어넘을 것으로 내다보고 있다. 이와 함께 전기와 가스 요금 동결 정책으로 인해 주요 에너지 공기업들의 적자도 눈덩이처럼 불어나고 있다. 한국전력의 올해 3분기 영업이익은 전쟁 여파에 따른 발전 비용 증가에도 요금을 올리지 못해 전년보다 70%가량 급감했다. 한국가스공사 역시 도시가스 미수금이 13조 8천억 원을 넘어서며 재무 건전성에 심각한 경고등이 켜졌다. 본격적인 겨울철을 맞아 난방 수요가 급증하면 공기업의 경영 악화와 정부 재정 부담은 더욱 심화될 전망이다. 이에 따라 전문가들은 서민 부담을 고려하면서도 단계적인 요금 정상화 방안을 마련해야 한다고 지적한다.",
+        "translation": "정부가 서민 물가를 안정시키기 위해 도입한 에너지 가격 통제 정책이 막대한 재정 부담으로 이어지고 있다.\nThe energy price control policy introduced by the government to stabilize consumer prices for ordinary citizens is leading to an enormous fiscal burden.\n\n정부는 지난 3월부터 석유 최고가격제를 유지하며 정유사가 주유소에 공급하는 가격에 상한선을 두고 있다.\nThe government has maintained a maximum price system for petroleum since last March, placing an upper limit on the prices that oil refiners supply to gas stations.\n\n이 제도로 인해 발생하는 정유업계의 손실은 정부가 추후 예산으로 보전해 주어야 한다.\nThe government must later compensate from its budget for the losses incurred by the oil refining industry due to this system.\n\n당초 정부는 손실 보전을 위한 예비비를 편성했으나 제도 시행이 9개월째 이어지면서 내년 예산안에 1조 4천억 원을 추가로 반영했다.\nInitially, the government allocated reserve funds to compensate for losses, but as the policy's implementation entered its ninth month, an additional 1.4 trillion won was included in next year's budget proposal.\n\n그러나 정유업계는 실제 발생한 손실액이 정부가 확보한 예비비 규모를 훨씬 뛰어넘을 것으로 내다보고 있다.\nHowever, the oil refining industry expects that actual losses will far exceed the reserve funds secured by the government.\n\n이와 함께 전기와 가스 요금 동결 정책으로 인해 주요 에너지 공기업들의 적자도 눈덩이처럼 불어나고 있다.\nAlong with this, the deficit of major state-run energy companies is snowballing due to the freeze on electricity and gas rates.\n\n한국전력의 올해 3분기 영업이익은 전쟁 여파에 따른 발전 비용 증가에도 요금을 올리지 못해 전년보다 70%가량 급감했다.\nThe Korea Electric Power Corporation's operating profit for the third quarter of this year plummeted by about 70 percent compared to the previous year, as rates could not be raised despite rising power generation costs caused by the war.\n\n한국가스공사 역시 도시가스 미수금이 13조 8천억 원을 넘어서며 재무 건전성에 심각한 경고등이 켜졌다.\nThe Korea Gas Corporation also saw uncollected receivables for city gas exceed 13.8 trillion won, sounding a serious alarm for its financial soundness.\n\n본격적인 겨울철을 맞아 난방 수요가 급증하면 공기업의 경영 악화와 정부 재정 부담은 더욱 심화될 전망이다.\nAs heating demand surges with the onset of winter, the deterioration of public enterprise management and the government's fiscal burden are expected to worsen further.\n\n이에 따라 전문가들은 서민 부담을 고려하면서도 단계적인 요금 정상화 방안을 마련해야 한다고 지적한다.\nAccordingly, experts point out that a phased plan for rate normalization should be established while taking into consideration the burden on ordinary citizens.",
+        "vocab": [
+            {
+                "word": "안정시키다",
+                "meaning": "to stabilize, to calm",
+                "example_ko": "정부는 부동산 시장을 [안정시키기] 위해 새로운 정책을 발표했다.",
+                "example_en": "The government announced a new policy to stabilize the real estate market."
+            },
+            {
+                "word": "상한선",
+                "meaning": "upper limit, ceiling",
+                "example_ko": "회사는 출장비의 [상한선]을 10만 원으로 정했다.",
+                "example_en": "The company set the upper limit of business trip expenses at 100,000 won."
+            },
+            {
+                "word": "보전하다",
+                "meaning": "to compensate, to make up for",
+                "example_ko": "회사는 직원이 업무 중에 입은 손실을 [보전해] 주었다.",
+                "example_en": "The company compensated for the losses that the employee suffered during work."
+            },
+            {
+                "word": "당초",
+                "meaning": "initially, originally",
+                "example_ko": "우리는 [당초] 계획보다 일주일 일찍 프로젝트를 끝냈다.",
+                "example_en": "We finished the project a week earlier than the initial plan."
+            },
+            {
+                "word": "편성하다",
+                "meaning": "to draw up, to organize (budget)",
+                "example_ko": "시청은 복지 사업을 지원하기 위해 추가 예산을 [편성했다].",
+                "example_en": "The city hall drew up an additional budget to support welfare projects."
+            },
+            {
+                "word": "뛰어넘다",
+                "meaning": "to exceed, to surpass",
+                "example_ko": "이번 달 매출은 작년 기록을 가볍게 [뛰어넘었다].",
+                "example_en": "This month's sales easily surpassed last year's record."
+            },
+            {
+                "word": "급감하다",
+                "meaning": "to plummet, to drop sharply",
+                "example_ko": "경기 침체로 인해 관광객 수가 절반으로 [급감했다].",
+                "example_en": "Due to the economic recession, the number of tourists plummeted by half."
+            },
+            {
+                "word": "미수금",
+                "meaning": "uncollected money, receivables",
+                "example_ko": "거래처에 밀린 [미수금]을 이번 주까지 입금해 달라고 요청했다.",
+                "example_en": "I requested the client to deposit the overdue receivables by this week."
+            },
+            {
+                "word": "건전성",
+                "meaning": "soundness, healthiness",
+                "example_ko": "회사는 재정적 [건전성]을 회복하기 위해 지출을 줄였다.",
+                "example_en": "The company reduced spending to restore financial soundness."
+            },
+            {
+                "word": "정상화",
+                "meaning": "normalization",
+                "example_ko": "공장은 점검을 마친 뒤 생산 라인의 [정상화]를 추진했다.",
+                "example_en": "After finishing the inspection, the factory pushed ahead with the normalization of the production line."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-15",
+        "published_at": "2026-11-15 09:58",
+        "title": "3분기 퇴직연금 수익률 급락…원금비보장 상품 타격",
+        "body": "올해 하반기 국내외 주식시장이 흔들리면서 증권사들의 퇴직연금 수익률이 큰 폭으로 떨어졌다. 금융투자업계에 따르면 3분기 말 기준 국내 증권사 11곳의 확정기여형(DC형) 원금비보장상품 운용 수익률은 14.46%를 기록했다. 이는 지난 2분기 수익률인 52.85%와 비교해 불과 한 분기 만에 4분의 1 수준으로 급감한 수치이다. 주식과 펀드 등에 직접 투자하는 개인형 퇴직연금(IRP)의 원금비보장 수익률 역시 46%대에서 14%대로 내려앉았다. 퇴직연금 전체 적립금 또한 6년여 만에 처음으로 지난 분기 대비 감소세로 돌아섰다. 3분기 말 전체 적립금은 약 542조 원으로 지난 6월 말과 비교해 11조 7천억 원 넘게 줄어들었다. 특히 가입자가 직접 운용하는 개인형 퇴직연금과 확정기여형 상품에서 적립금 감소세가 두드러졌다. 전문가들은 올해 상반기 주식 활황기에 고수익을 기대하고 위험자산 비중을 늘렸던 투자자들의 손실이 컸던 것으로 분석했다. 금융 전문가들은 단기적인 시장 성과에 연연하기보다는 위험을 감내할 수 있는 수준에 맞춰 자산을 분산해야 한다고 권고한다. 장기적인 안목을 바탕으로 다양한 자산 배분 전략을 수립해야 노후 자금을 안정적으로 지킬 수 있다.",
+        "translation": "올해 하반기 국내외 주식시장이 흔들리면서 증권사들의 퇴직연금 수익률이 큰 폭으로 떨어졌다.\nAs domestic and foreign stock markets faltered in the second half of this year, securities firms' retirement pension yields dropped sharply.\n\n금융투자업계에 따르면 3분기 말 기준 국내 증권사 11곳의 확정기여형(DC형) 원금비보장상품 운용 수익률은 14.46%를 기록했다.\nAccording to the financial investment industry, as of the end of the third quarter, the investment return rate of non-principal-guaranteed defined contribution (DC) products across 11 domestic securities firms recorded 14.46 percent.\n\n이는 지난 2분기 수익률인 52.85%와 비교해 불과 한 분기 만에 4분의 1 수준으로 급감한 수치이다.\nCompared to the second-quarter return of 52.85 percent, this figure dropped sharply to one-fourth that level in just a single quarter.\n\n주식과 펀드 등에 직접 투자하는 개인형 퇴직연금(IRP)의 원금비보장 수익률 역시 46%대에서 14%대로 내려앉았다.\nThe non-principal-guaranteed return rate of individual retirement pensions (IRP), which invest directly in stocks and funds, also tumbled from the 46 percent range to the 14 percent range.\n\n퇴직연금 전체 적립금 또한 6년여 만에 처음으로 지난 분기 대비 감소세로 돌아섰다.\nTotal retirement pension reserves also turned to a decline compared to the previous quarter for the first time in over six years.\n\n3분기 말 전체 적립금은 약 542조 원으로 지난 6월 말과 비교해 11조 7천억 원 넘게 줄어들었다.\nTotal reserves at the end of the third quarter stood at about 542 trillion won, decreasing by more than 11.7 trillion won compared to the end of June.\n\n특히 가입자가 직접 운용하는 개인형 퇴직연금과 확정기여형 상품에서 적립금 감소세가 두드러졌다.\nIn particular, the decline in reserves was notable in individual retirement pensions and defined contribution products, which are managed directly by subscribers.\n\n전문가들은 올해 상반기 주식 활황기에 고수익을 기대하고 위험자산 비중을 늘렸던 투자자들의 손실이 컸던 것으로 분석했다.\nExperts analyzed that investors who increased their proportion of risky assets expecting high yields during the stock boom in the first half of this year suffered large losses.\n\n금융 전문가들은 단기적인 시장 성과에 연연하기보다는 위험을 감내할 수 있는 수준에 맞춰 자산을 분산해야 한다고 권고한다.\nFinancial experts recommend that rather than obsessing over short-term market performance, investors should diversify assets according to the level of risk they can endure.\n\n장기적인 안목을 바탕으로 다양한 자산 배분 전략을 수립해야 노후 자금을 안정적으로 지킬 수 있다.\nOnly by establishing diverse asset allocation strategies based on a long-term perspective can one stably protect retirement funds.",
+        "vocab": [
+            {
+                "word": "수익률",
+                "meaning": "rate of return, yield",
+                "example_ko": "이 펀드는 지난 1년 동안 높은 [수익률]을 기록했다.",
+                "example_en": "This fund recorded a high rate of return over the past year."
+            },
+            {
+                "word": "확정기여형",
+                "meaning": "defined contribution (DC)",
+                "example_ko": "그는 회사에서 제공하는 퇴직연금 중 [확정기여형]을 선택했다.",
+                "example_en": "He chose the defined contribution type among the retirement pensions offered by the company."
+            },
+            {
+                "word": "원금비보장",
+                "meaning": "non-principal-guaranteed",
+                "example_ko": "이 상품은 [원금비보장] 상품이라서 손실이 발생할 수 있다.",
+                "example_en": "Because this is a non-principal-guaranteed product, losses may occur."
+            },
+            {
+                "word": "적립금",
+                "meaning": "accumulated fund, reserves",
+                "example_ko": "은퇴 후를 위해 매달 일정 금액의 [적립금]을 모으고 있다.",
+                "example_en": "I am gathering a set amount of reserve funds each month for life after retirement."
+            },
+            {
+                "word": "감소세",
+                "meaning": "declining trend, downward tendency",
+                "example_ko": "출생아 수가 줄어들면서 인구가 계속해서 [감소세]를 보이고 있다.",
+                "example_en": "As the number of newborns decreases, the population continues to show a declining trend."
+            },
+            {
+                "word": "두드러지다",
+                "meaning": "to be prominent, to be noticeable",
+                "example_ko": "올해는 수출 분야에서 반도체의 성장이 특히 [두드러졌다].",
+                "example_en": "This year, the growth of semiconductors was particularly prominent in the export sector."
+            },
+            {
+                "word": "활황기",
+                "meaning": "boom period, period of prosperity",
+                "example_ko": "부동산 [활황기]에는 아파트 가격이 매달 올랐다.",
+                "example_en": "During the real estate boom period, apartment prices went up every month."
+            },
+            {
+                "word": "감내하다",
+                "meaning": "to bear, to endure",
+                "example_ko": "투자자는 원금 손실의 위험을 [감내할] 준비가 되어 있어야 한다.",
+                "example_en": "Investors must be prepared to endure the risk of principal loss."
+            },
+            {
+                "word": "분산하다",
+                "meaning": "to diversify, to disperse",
+                "example_ko": "위험을 줄이기 위해 투자 자금을 여러 종목에 [분산했다].",
+                "example_en": "To reduce risk, I diversified my investment funds across multiple stocks."
+            },
+            {
+                "word": "안목",
+                "meaning": "discerning eye, perspective",
+                "example_ko": "그는 미술품의 가치를 알아보는 뛰어난 [안목]을 가지고 있다.",
+                "example_en": "He has an excellent discerning eye for recognizing the value of artworks."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-15",
+        "published_at": "2026-11-15 09:58",
+        "title": "소상공인 공제 노란우산 해킹 정황…개인정보 유출 주의보",
+        "body": "소상공인들의 사회안전망 역할을 하는 공제 제도인 노란우산에서 대규모 개인정보 유출 정황이 포착되었다. 중소기업중앙회는 홈페이지에 대한 외부의 비정상적인 접근과 고객 개인정보의 제3자 조회 사실을 확인했다고 밝혔다. 이번 해킹 시도로 인해 이름과 주민등록번호 앞자리, 휴대전화 번호, 주소 등이 유출되었을 가능성이 제기된다. 노란우산은 소상공인과 소기업 대표들이 폐업이나 노령에 대비해 목돈을 마련하는 대표적인 공제 제도이다. 현재 노란우산에 가입된 소상공인은 약 192만 명에 달해 대규모 피해가 우려되는 상황이다. 중소기업중앙회는 즉각 사과 입장을 내고 정확한 피해 규모를 신속히 파악하겠다고 약속했다. 또한 시스템 취약점을 점검하고 보안을 강화해 재발 방지 대책을 마련하겠다고 덧붙였다. 아울러 중기중앙회나 노란우산 관계자를 사칭하여 대출이나 금전을 요구하는 전화나 문자에 각별히 주의할 것을 당부했다. 전문가들은 개인정보를 악용한 2차 금융 사기가 발생할 수 있으므로 의심스러운 연락을 받으면 즉시 확인해야 한다고 강조한다. 정부와 관계 기관도 공공 및 민간 기금 사이트의 정보 보안 체계를 전면 점검해야 한다는 목소리가 높다.",
+        "translation": "소상공인들의 사회안전망 역할을 하는 공제 제도인 노란우산에서 대규모 개인정보 유출 정황이 포착되었다.\nSigns of a large-scale personal information leak were detected at Yellow Umbrella, a mutual aid system that serves as a social safety net for small business owners.\n\n중소기업중앙회는 홈페이지에 대한 외부의 비정상적인 접근과 고객 개인정보의 제3자 조회 사실을 확인했다고 밝혔다.\nThe Korea Federation of SMEs stated that it confirmed abnormal external access to its website and the unauthorized third-party lookup of customer personal information.\n\n이번 해킹 시도로 인해 이름과 주민등록번호 앞자리, 휴대전화 번호, 주소 등이 유출되었을 가능성이 제기된다.\nConcerns are being raised that names, the first seven digits of resident registration numbers, mobile phone numbers, and addresses may have been leaked due to this hacking attempt.\n\n노란우산은 소상공인과 소기업 대표들이 폐업이나 노령에 대비해 목돈을 마련하는 대표적인 공제 제도이다.\nYellow Umbrella is a representative mutual aid system where small business owners and small enterprise leaders save up lump-sum funds in preparation for business closure or old age.\n\n현재 노란우산에 가입된 소상공인은 약 192만 명에 달해 대규모 피해가 우려되는 상황이다.\nCurrently, the number of small business owners enrolled in Yellow Umbrella reaches approximately 1.92 million, raising concerns over widespread damage.\n\n중소기업중앙회는 즉각 사과 입장을 내고 정확한 피해 규모를 신속히 파악하겠다고 약속했다.\nThe Korea Federation of SMEs immediately issued an apology and promised to swiftly determine the exact scale of the damage.\n\n또한 시스템 취약점을 점검하고 보안을 강화해 재발 방지 대책을 마련하겠다고 덧붙였다.\nIt also added that it would inspect system vulnerabilities and strengthen security to prepare measures to prevent recurrence.\n\n아울러 중기중앙회나 노란우산 관계자를 사칭하여 대출이나 금전을 요구하는 전화나 문자에 각별히 주의할 것을 당부했다.\nIn addition, it urged people to pay special attention to phone calls or text messages requesting loans or money by impersonating officials from KBIZ or Yellow Umbrella.\n\n전문가들은 개인정보를 악용한 2차 금융 사기가 발생할 수 있으므로 의심스러운 연락을 받으면 즉시 확인해야 한다고 강조한다.\nExperts emphasize that secondary financial fraud exploiting personal information could occur, so anyone receiving suspicious contact should verify it immediately.\n\n정부와 관계 기관도 공공 및 민간 기금 사이트의 정보 보안 체계를 전면 점검해야 한다는 목소리가 높다.\nVoices are also rising that the government and relevant agencies must thoroughly inspect the information security systems of public and private fund websites.",
+        "vocab": [
+            {
+                "word": "사회안전망",
+                "meaning": "social safety net",
+                "example_ko": "국가는 실업자들을 위한 튼튼한 [사회안전망]을 구축해야 한다.",
+                "example_en": "The state must build a solid social safety net for the unemployed."
+            },
+            {
+                "word": "정황",
+                "meaning": "circumstance, indication",
+                "example_ko": "경찰은 현장에서 범행이 일어난 구체적인 [정황]을 발견했다.",
+                "example_en": "The police discovered specific circumstances of the crime at the scene."
+            },
+            {
+                "word": "포착되다",
+                "meaning": "to be captured, to be detected",
+                "example_ko": "화면에서 수상한 인물의 움직임이 [포착되었다].",
+                "example_en": "The movement of a suspicious figure was detected on the screen."
+            },
+            {
+                "word": "유출",
+                "meaning": "leak, spill",
+                "example_ko": "해킹으로 인해 고객의 개인정보 [유출] 사고가 발생했다.",
+                "example_en": "An incident of customer personal information leakage occurred due to hacking."
+            },
+            {
+                "word": "목돈",
+                "meaning": "lump sum, large sum of money",
+                "example_ko": "그는 매달 적금을 부어 사업을 시작할 [목돈]을 마련했다.",
+                "example_en": "He saved up a lump sum to start a business by depositing into installment savings every month."
+            },
+            {
+                "word": "취약점",
+                "meaning": "vulnerability, weakness",
+                "example_ko": "보안 전문가는 프로그램의 [취약점]을 찾아내어 신속히 수정했다.",
+                "example_en": "The security expert found vulnerabilities in the program and quickly fixed them."
+            },
+            {
+                "word": "재발",
+                "meaning": "recurrence, relapse",
+                "example_ko": "병원은 비슷한 사고의 [재발]을 막기 위해 안전 교육을 강화했다.",
+                "example_en": "The hospital strengthened safety education to prevent the recurrence of similar accidents."
+            },
+            {
+                "word": "사칭하다",
+                "meaning": "to impersonate",
+                "example_ko": "사기범은 은행 직원을 [사칭하며] 피해자에게 돈을 요구했다.",
+                "example_en": "The scammer demanded money from the victim while impersonating a bank employee."
+            },
+            {
+                "word": "각별히",
+                "meaning": "especially, particularly",
+                "example_ko": "밤늦게 귀가할 때는 주변을 [각별히] 살펴야 한다.",
+                "example_en": "When returning home late at night, you must pay particular attention to your surroundings."
+            },
+            {
+                "word": "악용하다",
+                "meaning": "to misuse, to abuse",
+                "example_ko": "남의 개인정보를 범죄에 [악용하면] 엄중한 처벌을 받는다.",
+                "example_en": "If you misuse someone else's personal information for a crime, you will receive severe punishment."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-15",
+        "published_at": "2026-11-15 09:58",
+        "title": "에티오피아에 한국전쟁 참전용사 기리는 '추모의 벽' 건립",
+        "body": "70여 년 전 한국전쟁 당시 아프리카에서 유일하게 지상군을 파병했던 에티오피아에 전사자들을 기리는 추모 시설이 건립되었다. 국가보훈부와 한국 기업의 협력으로 에티오피아 수도 아디스아바바의 대성당에 참전 전사자 122명의 이름을 새긴 추모의 벽이 세워졌다. 추모 벽에는 전사자 개개인의 명패와 함께 한국어, 영어, 현지 공용어로 감사와 추모의 글이 기록되었다. 에티오피아는 한국전쟁 발발 당시 황실 근위병으로 이루어진 강뉴부대 3천500여 명을 한국에 파병했다. 이 부대는 250회가 넘는 전투에서 단 한 번도 패하지 않고 전승을 거두며 대한민국의 자유를 지켜냈다. 이번 추모 시설 건립 비용은 에티오피아 현지 시장 점유율 1위를 달리는 국내 건설기계 기업이 전액 지원했다. 현지 관계자들은 한국 기업의 지원에 깊은 감사를 표하며 양국의 혈맹 관계가 후대에도 영원히 기억될 것이라고 화답했다. 과거 전쟁을 통해 맺어진 양국의 깊은 인연은 오늘날 경제와 산업 분야의 실질적인 협력으로 확장되고 있다. 해당 기업은 현지 청년 일자리 창출을 돕기 위해 직업 교육 센터를 건립하는 등 교류를 이어갈 계획이다. 머나먼 타국을 위해 목숨을 바친 용사들의 숭고한 희생이 양국의 미래를 잇는 따뜻한 동행으로 발전하고 있다.",
+        "translation": "70여 년 전 한국전쟁 당시 아프리카에서 유일하게 지상군을 파병했던 에티오피아에 전사자들을 기리는 추모 시설이 건립되었다.\nA memorial facility honoring fallen soldiers was established in Ethiopia, the only African nation that dispatched ground troops during the Korean War over 70 years ago.\n\n국가보훈부와 한국 기업의 협력으로 에티오피아 수도 아디스아바바의 대성당에 참전 전사자 122명의 이름을 새긴 추모의 벽이 세워졌다.\nThrough cooperation between the Ministry of Patriots and Veterans Affairs and a Korean company, a Wall of Remembrance engraved with the names of 122 fallen war heroes was erected at a cathedral in Addis Ababa, the capital of Ethiopia.\n\n추모 벽에는 전사자 개개인의 명패와 함께 한국어, 영어, 현지 공용어로 감사와 추모의 글이 기록되었다.\nAlong with individual plaques for each fallen soldier, messages of gratitude and remembrance were recorded on the memorial wall in Korean, English, and the local official language.\n\n에티오피아는 한국전쟁 발발 당시 황실 근위병으로 이루어진 강뉴부대 3천500여 명을 한국에 파병했다.\nAt the outbreak of the Korean War, Ethiopia dispatched to Korea approximately 3,500 troops of the Kagnew Battalion, composed of imperial bodyguards.\n\n이 부대는 250회가 넘는 전투에서 단 한 번도 패하지 않고 전승을 거두며 대한민국의 자유를 지켜냈다.\nThis unit protected the freedom of the Republic of Korea by achieving victory in every single battle, never losing once across more than 250 engagements.\n\n이번 추모 시설 건립 비용은 에티오피아 현지 시장 점유율 1위를 달리는 국내 건설기계 기업이 전액 지원했다.\nThe entire construction cost for this memorial facility was supported by a domestic construction equipment company that holds the number one market share in Ethiopia.\n\n현지 관계자들은 한국 기업의 지원에 깊은 감사를 표하며 양국의 혈맹 관계가 후대에도 영원히 기억될 것이라고 화답했다.\nLocal officials expressed deep gratitude for the Korean company's support and responded that the blood alliance between the two countries would be remembered forever by future generations.\n\n과거 전쟁을 통해 맺어진 양국의 깊은 인연은 오늘날 경제와 산업 분야의 실질적인 협력으로 확장되고 있다.\nThe deep ties forged between the two nations through war in the past are expanding into practical cooperation in economic and industrial fields today.\n\n해당 기업은 현지 청년 일자리 창출을 돕기 위해 직업 교육 센터를 건립하는 등 교류를 이어갈 계획이다.\nThe company plans to continue exchanges, such as building a vocational training center to help create jobs for local youth.\n\n머나먼 타국을 위해 목숨을 바친 용사들의 숭고한 희생이 양국의 미래를 잇는 따뜻한 동행으로 발전하고 있다.\nThe noble sacrifice of the soldiers who laid down their lives for a far-off foreign land is developing into a warm partnership connecting the future of both countries.",
+        "vocab": [
+            {
+                "word": "파병하다",
+                "meaning": "to dispatch troops",
+                "example_ko": "평화를 유지하기 위해 분쟁 지역에 군대를 [파병하기로] 결정했다.",
+                "example_en": "It was decided to dispatch troops to the conflict area to maintain peace."
+            },
+            {
+                "word": "기리다",
+                "meaning": "to commemorate, to honor",
+                "example_ko": "시민들은 조국을 위해 싸운 영웅들의 뜻을 높이 [기렸다].",
+                "example_en": "Citizens highly honored the intentions of the heroes who fought for their country."
+            },
+            {
+                "word": "명패",
+                "meaning": "nameplate, name plaque",
+                "example_ko": "새로 지은 건물 입구에 기부자들의 이름이 적힌 [명패]를 달았다.",
+                "example_en": "They put up plaques with the donors' names at the entrance of the newly built building."
+            },
+            {
+                "word": "발발",
+                "meaning": "outbreak (of war or epidemic)",
+                "example_ko": "전쟁의 갑작스러운 [발발]로 인해 많은 피란민이 발생했다.",
+                "example_en": "Many refugees emerged due to the sudden outbreak of war."
+            },
+            {
+                "word": "전승",
+                "meaning": "sweeping victory, winning every match",
+                "example_ko": "축구 대표팀은 예선전에서 다섯 경기 모두 승리하여 [전승]을 기록했다.",
+                "example_en": "The national soccer team won all five matches in the preliminary round, recording a complete sweep of victories."
+            },
+            {
+                "word": "화답하다",
+                "meaning": "to respond, to answer",
+                "example_ko": "가수는 팬들의 뜨거운 응원에 멋진 노래로 [화답했다].",
+                "example_en": "The singer responded to the enthusiastic cheers of fans with a wonderful song."
+            },
+            {
+                "word": "혈맹",
+                "meaning": "blood alliance",
+                "example_ko": "두 나라는 전쟁을 함께 치르며 굳건한 [혈맹] 관계를 맺었다.",
+                "example_en": "The two countries forged a firm blood alliance by fighting through the war together."
+            },
+            {
+                "word": "후대",
+                "meaning": "future generation, posterity",
+                "example_ko": "우리는 아름다운 자연환경을 소중히 보존하여 [후대에] 물려주어야 한다.",
+                "example_en": "We must carefully preserve the beautiful natural environment and pass it down to future generations."
+            },
+            {
+                "word": "실질적",
+                "meaning": "practical, substantial",
+                "example_ko": "양국은 형식적인 회담을 넘어 [실질적인] 경제 협력을 논의했다.",
+                "example_en": "Going beyond formal talks, the two countries discussed practical economic cooperation."
+            },
+            {
+                "word": "숭고하다",
+                "meaning": "to be noble, to be sublime",
+                "example_ko": "타인을 구하기 위해 위험에 뛰어든 소방관의 [숭고한] 희생에 감동했다.",
+                "example_en": "I was moved by the noble sacrifice of the firefighter who jumped into danger to save others."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-15",
         "published_at": "2026-11-15 00:44",
         "title": "국민의힘 부산서 대규모 장외 집회…민주당 \"민생 외면한 정쟁\" 비판",
         "body": "국민의힘 지도부와 소속 국회의원들이 주말을 맞아 부산역 광장에서 대규모 장외 집회를 열었다. 이번 집회는 '조작 기소 특검법' 저지를 위한 전국 순회 여론전의 첫 행사로 진행되었다. 집회 현장에는 장동혁 대표를 비롯한 당 지도부와 중진 의원 등 현역 의원 30여 명이 대거 참석했다. 장 대표는 이재명 대통령의 재판 재개를 촉구하며 특검법을 즉각 철회하라고 강력히 요구했다. 정점식 원내대표 또한 현 정부와 여당의 특검법 추진을 강하게 비판하며 목소리를 높였다. 국민의힘은 부산을 시작으로 다음 주 대구 등 전국 주요 도시에서 매 주말 장외 집회를 이어갈 계획이다. 이에 대해 더불어민주당은 야당이 예산국회와 민생을 팽개치고 거리로 나섰다며 날을 세웠다. 민주당은 문제 조항을 이미 삭제했음에도 야당이 국민을 호도하고 있다고 반박했다. 아울러 야당이 근거 없는 부정선거 의혹을 부추기며 정쟁만 일삼고 있다고 비판했다. 이처럼 특검법을 둘러싼 여야의 대립이 격화하면서 정국 경색이 한층 깊어지고 있다.",

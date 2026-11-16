@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-16",
+        "published_at": "2026-11-16 09:56",
+        "title": "정부, 수능 앞두고 'AI 부정행위' 방지 긴급 대책 마련 착수",
+        "body": "대학수학능력시험을 사흘 앞두고 인공지능 기술을 활용한 부정행위 우려가 커지자 정부가 긴급 대책 마련에 나섰다. 정부는 국무총리 주재로 스마트기기 활용 시험 부정행위 방지를 위한 관계부처 회의를 열었다. 이번 회의에는 교육부를 비롯해 법무부, 행정안전부, 경찰청, 과학기술정보통신부 등 관련 부처가 대거 참석했다. 한 총리는 이번 수능에 대비해 범정부 긴급 대응팀을 꾸리고 사전과 사후 대책을 철저히 이행하겠다고 밝혔다. 최근 세무사 시험 수석 합격자가 인공지능을 이용해 부정행위를 저지른 사실이 드러나면서 시험 공정성에 대한 사회적 불안이 확산했다. 이에 따라 교육부 장관은 국회 교육위원회 전체회의에 출석해 첨단 기술을 활용한 부정행위 방지 대책을 보고하기로 했다. 앞서 고용노동부와 한국산업인력공단도 비상대책회의를 열고 올해 실시된 국가자격시험 전반에 대해 전수조사를 진행하기로 했다. 현재 온라인에서는 초소형 카메라와 이어폰 등 장비를 구입하는 방법과 함께 적발을 피하는 수법이 버젓이 공유되고 있다. 특히 인공지능이 탑재된 스마트안경 등은 육안으로 구별하기 어려워 기존 감독 방식으로는 적발이 쉽지 않다는 지적이 나온다. 정부와 교육 당국이 얼마나 실효성 있는 대응책을 마련해 시험의 공정성을 지켜낼 수 있을지가 중요한 과제로 떠올랐다.",
+        "translation": "대학수학능력시험을 사흘 앞두고 인공지능 기술을 활용한 부정행위 우려가 커지자 정부가 긴급 대책 마련에 나섰다.\nWith three days left before the College Scholastic Ability Test, the government took steps to prepare emergency measures as concerns grew over cheating using artificial intelligence technology.\n\n정부는 국무총리 주재로 스마트기기 활용 시험 부정행위 방지를 위한 관계부처 회의를 열었다.\nThe government held an inter-ministerial meeting chaired by the Prime Minister to prevent exam cheating using smart devices.\n\n이번 회의에는 교육부를 비롯해 법무부, 행정안전부, 경찰청, 과학기술정보통신부 등 관련 부처가 대거 참석했다.\nRelevant agencies, including the Ministry of Education, Ministry of Justice, Ministry of the Interior and Safety, National Police Agency, and Ministry of Science and ICT, attended this meeting in large numbers.\n\n한 총리는 이번 수능에 대비해 범정부 긴급 대응팀을 꾸리고 사전과 사후 대책을 철저히 이행하겠다고 밝혔다.\nPrime Minister Han stated that the government would form a pan-governmental emergency response team to prepare for this CSAT and thoroughly implement pre- and post-exam measures.\n\n최근 세무사 시험 수석 합격자가 인공지능을 이용해 부정행위를 저지른 사실이 드러나면서 시험 공정성에 대한 사회적 불안이 확산했다.\nPublic anxiety over test fairness spread as it was recently revealed that the top scorer on the certified tax accountant exam had cheated using artificial intelligence.\n\n이에 따라 교육부 장관은 국회 교육위원회 전체회의에 출석해 첨단 기술을 활용한 부정행위 방지 대책을 보고하기로 했다.\nAccordingly, the Minister of Education was scheduled to attend a plenary meeting of the National Assembly's Education Committee to report measures to prevent cheating utilizing advanced technology.\n\n앞서 고용노동부와 한국산업인력공단도 비상대책회의를 열고 올해 실시된 국가자격시험 전반에 대해 전수조사를 진행하기로 했다.\nEarlier, the Ministry of Employment and Labor and the Human Resources Development Service of Korea also held an emergency response meeting and decided to conduct an exhaustive investigation into all national qualification exams administered this year.\n\n현재 온라인에서는 초소형 카메라와 이어폰 등 장비를 구입하는 방법과 함께 적발을 피하는 수법이 버젓이 공유되고 있다.\nCurrently, methods for avoiding detection along with ways to purchase equipment such as ultra-small cameras and earphones are being openly shared online.\n\n특히 인공지능이 탑재된 스마트안경 등은 육안으로 구별하기 어려워 기존 감독 방식으로는 적발이 쉽지 않다는 지적이 나온다.\nIn particular, critics point out that smart glasses equipped with artificial intelligence are difficult to distinguish with the naked eye, making detection not easy with conventional proctoring methods.\n\n정부와 교육 당국이 얼마나 실효성 있는 대응책을 마련해 시험의 공정성을 지켜낼 수 있을지가 중요한 과제로 떠올랐다.\nHow effective a countermeasure the government and education authorities can prepare to preserve the fairness of the exam has emerged as a crucial task.",
+        "vocab": [
+            {
+                "word": "주재하다",
+                "meaning": "to preside over, to chair",
+                "example_ko": "김 부장은 오늘 오전 팀 회의를 [주재했다].",
+                "example_en": "Manager Kim presided over the team meeting this morning."
+            },
+            {
+                "word": "긴급",
+                "meaning": "emergency, urgency",
+                "example_ko": "회사에 [긴급] 상황이 발생해 전 직원이 모였다.",
+                "example_en": "An emergency occurred at the company, so all employees gathered."
+            },
+            {
+                "word": "수석",
+                "meaning": "top of the class, highest rank",
+                "example_ko": "그는 열심히 공부하여 이번 시험에서 [수석]을 차지했다.",
+                "example_en": "He studied hard and took the top spot in this exam."
+            },
+            {
+                "word": "불안",
+                "meaning": "anxiety, unease",
+                "example_ko": "결과를 기다리는 동안 마음속에 [불안]이 커졌다.",
+                "example_en": "Anxiety grew in my heart while waiting for the results."
+            },
+            {
+                "word": "대거",
+                "meaning": "in large numbers, heavily",
+                "example_ko": "주말을 맞아 많은 관광객이 제주도로 [대거] 이동했다.",
+                "example_en": "Over the weekend, many tourists traveled to Jeju Island in large numbers."
+            },
+            {
+                "word": "출석하다",
+                "meaning": "to attend, to appear",
+                "example_ko": "학생들은 아침 아홉 시까지 교실에 [출석해야] 한다.",
+                "example_en": "Students must attend class by nine in the morning."
+            },
+            {
+                "word": "전수조사",
+                "meaning": "exhaustive survey, complete enumeration",
+                "example_ko": "정부는 안전 점검을 위해 모든 건물을 대상으로 [전수조사]를 실시했다.",
+                "example_en": "The government conducted a complete survey of all buildings for safety inspection."
+            },
+            {
+                "word": "탑재되다",
+                "meaning": "to be equipped with, to be loaded with",
+                "example_ko": "새로 출시된 스마트폰에는 최신 기능이 [탑재되었다].",
+                "example_en": "The newly released smartphone is equipped with the latest features."
+            },
+            {
+                "word": "육안",
+                "meaning": "naked eye",
+                "example_ko": "이 작은 글씨는 [육안]으로 읽기가 어렵다.",
+                "example_en": "It is difficult to read this small print with the naked eye."
+            },
+            {
+                "word": "실효성",
+                "meaning": "effectiveness, efficacy",
+                "example_ko": "전문가들은 새로운 제도의 [실효성]을 신중하게 검토하고 있다.",
+                "example_en": "Experts are carefully reviewing the effectiveness of the new system."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-16",
+        "published_at": "2026-11-16 09:56",
+        "title": "10월 미국행 해상운임 두 달 연속 상승…EU·중동행은 하락세",
+        "body": "지난달 한국에서 미국으로 향하는 해상 화물 운임이 일제히 상승한 것으로 나타났다. 관세청이 발표한 10월 해상 수출입 운송비용 자료에 따르면 지난달 미국 서부행 수출 컨테이너 운임은 전월보다 0.01% 올랐다. 미국 서부행 운임은 937만 7천 원을 기록하며 두 달 연속 상승세를 이어갔다. 미국 동부행 운임 역시 1.2% 오른 945만 5천 원으로 집계되며 함께 상승했다. 반면에 유럽연합으로 향하는 해상 운임은 454만 9천 원으로 9.2% 떨어졌다. 중동전쟁의 영향권에 있는 중동행 운임도 4.2% 하락한 863만 4천 원으로 나타났다. 중동 항로 운임은 지난 3월부터 오름세를 유지해 오다가 8월부터는 등락을 반복하는 양상이다. 근거리 항로인 중국과 일본으로 향하는 수출 운임도 떨어져 두 노선 모두 석 달 연속 하락세를 나타냈다. 한편 한국으로 들어오는 수입 운송비는 미국 서부와 중국, 일본 노선이 오른 반면 미국 동부와 유럽연합 등은 내렸다. 이처럼 항로별로 운임의 등락이 엇갈리면서 수출입 기업들의 물류비 부담에도 차이가 나타나고 있다.",
+        "translation": "지난달 한국에서 미국으로 향하는 해상 화물 운임이 일제히 상승한 것으로 나타났다.\nIt was revealed that ocean freight rates from South Korea bound for the United States all rose last month.\n\n관세청이 발표한 10월 해상 수출입 운송비용 자료에 따르면 지난달 미국 서부행 수출 컨테이너 운임은 전월보다 0.01% 올랐다.\nAccording to data on October maritime export and import transportation costs released by the Korea Customs Service, export container freight rates to the US West Coast rose by 0.01% from the previous month.\n\n미국 서부행 운임은 937만 7천 원을 기록하며 두 달 연속 상승세를 이어갔다.\nRates bound for the US West Coast reached 9,377,000 won, continuing an upward trend for the second consecutive month.\n\n미국 동부행 운임 역시 1.2% 오른 945만 5천 원으로 집계되며 함께 상승했다.\nRates to the US East Coast also rose together, tallied at 9,455,000 won, up 1.2%.\n\n반면에 유럽연합으로 향하는 해상 운임은 454만 9천 원으로 9.2% 떨어졌다.\nOn the other hand, maritime freight rates heading to the European Union dropped 9.2% to 4,549,000 won.\n\n중동전쟁의 영향권에 있는 중동행 운임도 4.2% 하락한 863만 4천 원으로 나타났다.\nRates bound for the Middle East, which lies within the influence zone of the Middle East war, also fell 4.2% to 8,634,000 won.\n\n중동 항로 운임은 지난 3월부터 오름세를 유지해 오다가 8월부터는 등락을 반복하는 양상이다.\nRates on Middle East routes had maintained an upward trend since March, but have shown a pattern of repeated fluctuations since August.\n\n근거리 항로인 중국과 일본으로 향하는 수출 운임도 떨어져 두 노선 모두 석 달 연속 하락세를 나타냈다.\nExport freight rates bound for short-distance routes such as China and Japan also fell, with both routes showing a downward trend for the third consecutive month.\n\n한편 한국으로 들어오는 수입 운송비는 미국 서부와 중국, 일본 노선이 오른 반면 미국 동부와 유럽연합 등은 내렸다.\nMeanwhile, maritime import transportation costs coming into Korea rose for routes from the US West Coast, China, and Japan, while falling for routes from the US East Coast and the European Union.\n\n이처럼 항로별로 운임의 등락이 엇갈리면서 수출입 기업들의 물류비 부담에도 차이가 나타나고 있다.\nAs freight rate fluctuations diverged across shipping routes, differences have emerged in the logistics cost burdens of import and export enterprises.",
+        "vocab": [
+            {
+                "word": "일제히",
+                "meaning": "all together, simultaneously",
+                "example_ko": "수업이 끝나자 학생들이 [일제히] 교실 밖으로 나갔다.",
+                "example_en": "When class ended, the students all went out of the classroom together."
+            },
+            {
+                "word": "운임",
+                "meaning": "freight charge, fare",
+                "example_ko": "짐의 무게가 무거울수록 비행기 [운임]이 비싸진다.",
+                "example_en": "The heavier the luggage, the more expensive the flight fare becomes."
+            },
+            {
+                "word": "상승세",
+                "meaning": "upward trend",
+                "example_ko": "최근 물가가 가파른 [상승세]를 보이고 있다.",
+                "example_en": "Prices have recently been showing a steep upward trend."
+            },
+            {
+                "word": "집계되다",
+                "meaning": "to be tallied, to be counted",
+                "example_ko": "이번 사고로 다친 사람의 수는 열 명으로 [집계되었다].",
+                "example_en": "The number of people injured in this accident was tallied at ten."
+            },
+            {
+                "word": "영향권",
+                "meaning": "sphere of influence, affected zone",
+                "example_ko": "태풍의 [영향권]에 들어서면서 바람이 강하게 불기 시작했다.",
+                "example_en": "As the area entered the typhoon's influence, the wind began to blow strongly."
+            },
+            {
+                "word": "등락",
+                "meaning": "fluctuation, rise and fall",
+                "example_ko": "최근 주식 시장의 가격 [등락]이 매우 심하다.",
+                "example_en": "The price fluctuations in the stock market have been very severe recently."
+            },
+            {
+                "word": "양상",
+                "meaning": "aspect, pattern, appearance",
+                "example_ko": "두 나라의 갈등은 이전과 전혀 다른 [양상]을 띠고 있다.",
+                "example_en": "The conflict between the two countries is taking on a completely different aspect from before."
+            },
+            {
+                "word": "근거리",
+                "meaning": "short distance",
+                "example_ko": "그는 회사 근처에 살아 [근거리]로 출퇴근을 한다.",
+                "example_en": "He lives near the company and commutes a short distance."
+            },
+            {
+                "word": "노선",
+                "meaning": "route, line",
+                "example_ko": "시청으로 가는 버스 [노선]이 새로 생겼다.",
+                "example_en": "A new bus route going to City Hall has been created."
+            },
+            {
+                "word": "엇갈리다",
+                "meaning": "to diverge, to cross paths",
+                "example_ko": "두 친구는 서로 다른 길을 선택하면서 의견이 [엇갈렸다].",
+                "example_en": "The two friends had diverging opinions as they chose different paths."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-16",
+        "published_at": "2026-11-16 09:56",
+        "title": "제주 선후배 뭉쳐 해외서 8천억 원대 도박사이트 운영…일당 47명 검거",
+        "body": "제주 지역 선후배들이 조직을 결성해 해외에서 대규모 불법 도박사이트를 운영하다가 경찰에 붙잡혔다. 제주경찰청은 8천억 원대 불법 도박사이트를 운영해 온 일당 마흔일곱 명을 검거했다고 밝혔다. 경찰은 이들 가운데 범행을 주도한 핵심 조직원 스무 명을 구속했다. 조사 결과 이들은 총 열세 개의 불법 도박사이트를 개설해 회원들을 끌어모은 것으로 드러났다. 이들은 지난 2022년부터 올해 6월까지 캄보디아에 거점을 두고 도박사이트를 운영해 왔다. 이후 현지 단속이 강화되자 이들은 라오스로 본거지를 옮겨 범행을 끈질기게 이어갔다. 이 조직은 제주 지역의 선후배 인맥을 중심으로 촘촘하게 얽혀 있어 오랜 기간 수사를 피해 왔다. 경찰은 현장에서 일당이 보관하고 있던 현금과 귀금속 등 16억 원 상당의 자산을 압수했다. 또한 불법 도박사이트를 운영하며 벌어들인 범죄수익 가운데 50억 원에 대해 추징보전 조치를 완료했다. 경찰은 해외에 거점을 둔 불법 도박 조직에 대해 지속적으로 단속을 강화하겠다고 강조했다.",
+        "translation": "제주 지역 선후배들이 조직을 결성해 해외에서 대규모 불법 도박사이트를 운영하다가 경찰에 붙잡혔다.\nA group of seniors and juniors from the Jeju region formed an organization and operated large-scale illegal gambling websites overseas before being caught by the police.\n\n제주경찰청은 8천억 원대 불법 도박사이트를 운영해 온 일당 마흔일곱 명을 검거했다고 밝혔다.\nThe Jeju Provincial Police Agency announced that it had arrested 47 members of a ring that operated illegal gambling sites worth 800 billion won.\n\n경찰은 이들 가운데 범행을 주도한 핵심 조직원 스무 명을 구속했다.\nAmong them, the police detained 20 key members who led the criminal operations.\n\n조사 결과 이들은 총 열세 개의 불법 도박사이트를 개설해 회원들을 끌어모은 것으로 드러났다.\nThe investigation revealed that they opened a total of 13 illegal gambling websites to attract members.\n\n이들은 지난 2022년부터 올해 6월까지 캄보디아에 거점을 두고 도박사이트를 운영해 왔다.\nFrom 2022 until June this year, they had operated gambling websites using Cambodia as their base.\n\n이후 현지 단속이 강화되자 이들은 라오스로 본거지를 옮겨 범행을 끈질기게 이어갔다.\nAfter local crackdowns were intensified, they relocated their headquarters to Laos and persistently continued their crimes.\n\n이 조직은 제주 지역의 선후배 인맥을 중심으로 촘촘하게 얽혀 있어 오랜 기간 수사를 피해 왔다.\nTightly connected through personal networks of seniors and juniors from the Jeju area, this group had evaded investigation for a long time.\n\n경찰은 현장에서 일당이 보관하고 있던 현금과 귀금속 등 16억 원 상당의 자산을 압수했다.\nThe police confiscated assets worth approximately 1.6 billion won, including cash and precious metals kept by the gang at the scene.\n\n또한 불법 도박사이트를 운영하며 벌어들인 범죄수익 가운데 50억 원에 대해 추징보전 조치를 완료했다.\nFurthermore, they completed a forfeiture preservation order on 5 billion won among the criminal proceeds earned by operating the illegal gambling sites.\n\n경찰은 해외에 거점을 둔 불법 도박 조직에 대해 지속적으로 단속을 강화하겠다고 강조했다.\nThe police emphasized that they will continue to strengthen crackdowns on illegal gambling rings based overseas.",
+        "vocab": [
+            {
+                "word": "결성하다",
+                "meaning": "to form, to organize",
+                "example_ko": "대학생들이 모여 환경 보호 동아리를 [결성했다].",
+                "example_en": "College students gathered and formed an environmental protection club."
+            },
+            {
+                "word": "일당",
+                "meaning": "gang, ring",
+                "example_ko": "경찰은 은행을 털려던 범죄 [일당]을 현장에서 체포했다.",
+                "example_en": "The police arrested the criminal gang on the spot while they were trying to rob a bank."
+            },
+            {
+                "word": "주도하다",
+                "meaning": "to lead, to take the lead",
+                "example_ko": "그녀는 이번 프로젝트의 기획을 [주도했다].",
+                "example_en": "She led the planning of this project."
+            },
+            {
+                "word": "구속하다",
+                "meaning": "to detain, to arrest",
+                "example_ko": "법원은 증거를 없애려고 한 용의자를 [구속했다].",
+                "example_en": "The court detained the suspect who attempted to destroy evidence."
+            },
+            {
+                "word": "거점",
+                "meaning": "foothold, base of operations",
+                "example_ko": "회사는 아시아 시장 진출을 위해 서울에 [거점]을 마련했다.",
+                "example_en": "The company established a base in Seoul to advance into the Asian market."
+            },
+            {
+                "word": "단속",
+                "meaning": "crackdown, regulation",
+                "example_ko": "경찰은 주말마다 음주 운전에 대한 집중 [단속]을 벌인다.",
+                "example_en": "The police conduct intensive crackdowns on drunk driving every weekend."
+            },
+            {
+                "word": "인맥",
+                "meaning": "personal connections, network",
+                "example_ko": "그는 활발한 성격 덕분에 사회생활에서 넓은 [인맥]을 쌓았다.",
+                "example_en": "Thanks to his outgoing personality, he built a wide network in his professional life."
+            },
+            {
+                "word": "자산",
+                "meaning": "asset, property",
+                "example_ko": "집을 살 때는 자신이 가진 [자산]을 잘 계산해야 한다.",
+                "example_en": "When buying a house, you must carefully calculate the assets you have."
+            },
+            {
+                "word": "벌어들이다",
+                "meaning": "to earn, to make money",
+                "example_ko": "그는 주말 아르바이트를 통해 학비를 스스로 [벌어들였다].",
+                "example_en": "He earned his tuition fees by himself through weekend part-time jobs."
+            },
+            {
+                "word": "추징보전",
+                "meaning": "preservation of claim for collection, forfeiture freeze",
+                "example_ko": "검찰은 범죄자가 재산을 빼돌리지 못하도록 [추징보전]을 신청했다.",
+                "example_en": "The prosecution applied for a forfeiture freeze so that the criminal could not hide their assets."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-16",
+        "published_at": "2026-11-16 09:56",
+        "title": "다카이치 일본 총리 대중 외교 평가 '최저'…중일 갈등 장기화 여파",
+        "body": "다카이치 사나에 일본 총리의 대중 외교에 대한 일본 국민들의 평가가 역대 최저 수준으로 떨어졌다. 일본 요미우리신문이 실시한 여론조사에서 다카이치 내각의 대중 외교를 긍정적으로 본다는 응답은 44%에 그쳤다. 이는 해당 신문이 지난해 11월 조사를 시작한 이후 진행한 다섯 차례 조사 가운데 가장 낮은 수치다. 반면에 다카이치 내각의 외교 자세를 부정적으로 평가한 비율은 43%로 지난 조사보다 4%포인트 상승했다. 양국 관계가 일 년 넘게 악화하고 있는 가운데 일본 정부가 뚜렷한 돌파구를 찾지 못하자 국민들의 피로감이 커진 것으로 분석된다. 앞서 다카이치 총리는 대만 유사시 개입을 시사하는 발언을 내놓아 중국 정부의 거센 반발을 샀다. 중국은 발언 시정을 요구했으나 일본 정부가 이를 받아들이지 않자 강경한 경제보복 조치로 맞서고 있다. 중국은 핵심 광물인 희토류 수출을 통제하고 자국민의 일본 여행을 자제시키는 한편 고위급 외교 대화마저 끊었다. 여기에 미국과 중국, 러시아 정상이 다자 회의를 계기로 삼자 회담을 추진하면서 일본 내에서는 외교적 고립에 대한 위기감도 커지고 있다. 중일 갈등이 장기화하면서 경제적 피해를 우려하는 일본 내 여론이 다카이치 정권에 적지 않은 부담이 되고 있다.",
+        "translation": "다카이치 사나에 일본 총리의 대중 외교에 대한 일본 국민들의 평가가 역대 최저 수준으로 떨어졌다.\nJapanese citizens' evaluation of Prime Minister Sanae Takaichi's diplomacy toward China has fallen to an all-time low.\n\n일본 요미우리신문이 실시한 여론조사에서 다카이치 내각의 대중 외교를 긍정적으로 본다는 응답은 44%에 그쳤다.\nIn a public opinion poll conducted by Japan's Yomiuri Shimbun, responses viewing the Takaichi Cabinet's diplomacy with China positively stood at only 44%.\n\n이는 해당 신문이 지난해 11월 조사를 시작한 이후 진행한 다섯 차례 조사 가운데 가장 낮은 수치다.\nThis is the lowest figure among the five surveys conducted since the newspaper began polling in November last year.\n\n반면에 다카이치 내각의 외교 자세를 부정적으로 평가한 비율은 43%로 지난 조사보다 4%포인트 상승했다.\nOn the other hand, the proportion evaluating the Takaichi Cabinet's diplomatic posture negatively was 43%, up 4 percentage points from the previous poll.\n\n양국 관계가 일 년 넘게 악화하고 있는 가운데 일본 정부가 뚜렷한 돌파구를 찾지 못하자 국민들의 피로감이 커진 것으로 분석된다.\nIt is analyzed that public fatigue has grown as the Japanese government has failed to find a clear breakthrough while bilateral relations have worsened for over a year.\n\n앞서 다카이치 총리는 대만 유사시 개입을 시사하는 발언을 내놓아 중국 정부의 거센 반발을 샀다.\nEarlier, Prime Minister Takaichi made remarks suggesting intervention in the event of a Taiwan contingency, drawing fierce backlash from the Chinese government.\n\n중국은 발언 시정을 요구했으나 일본 정부가 이를 받아들이지 않자 강경한 경제보복 조치로 맞서고 있다.\nChina demanded a correction of the remarks, but when the Japanese government did not accept it, China countered with hardline economic retaliation measures.\n\n중국은 핵심 광물인 희토류 수출을 통제하고 자국민의 일본 여행을 자제시키는 한편 고위급 외교 대화마저 끊었다.\nChina has controlled exports of rare earth elements, a key mineral, restrained its citizens from traveling to Japan, and even severed high-level diplomatic dialogue.\n\n여기에 미국과 중국, 러시아 정상이 다자 회의를 계기로 삼자 회담을 추진하면서 일본 내에서는 외교적 고립에 대한 위기감도 커지고 있다.\nOn top of this, as the leaders of the United States, China, and Russia pursue a trilateral summit on the occasion of a multilateral conference, a sense of crisis regarding diplomatic isolation is also growing in Japan.\n\n중일 갈등이 장기화하면서 경제적 피해를 우려하는 일본 내 여론이 다카이치 정권에 적지 않은 부담이 되고 있다.\nAs the Sino-Japanese conflict drags on, domestic public opinion in Japan worrying about economic damage is becoming a considerable burden on the Takaichi administration.",
+        "vocab": [
+            {
+                "word": "역대",
+                "meaning": "all-time, historical",
+                "example_ko": "올해 여름은 [역대] 가장 더운 날씨를 기록했다.",
+                "example_en": "This summer recorded the hottest weather of all time."
+            },
+            {
+                "word": "내각",
+                "meaning": "cabinet",
+                "example_ko": "새 총리는 국가의 주요 정책을 논의하기 위해 [내각]을 소집했다.",
+                "example_en": "The new prime minister convened the cabinet to discuss key national policies."
+            },
+            {
+                "word": "수치",
+                "meaning": "numerical value, figure",
+                "example_ko": "최근 혈압을 측정했더니 정상보다 높은 [수치]가 나왔다.",
+                "example_en": "When I recently measured my blood pressure, it showed a figure higher than normal."
+            },
+            {
+                "word": "돌파구",
+                "meaning": "breakthrough",
+                "example_ko": "연구진은 오랜 실험 끝에 문제 해결의 [돌파구]를 찾아냈다.",
+                "example_en": "After long experiments, the research team found a breakthrough to solve the problem."
+            },
+            {
+                "word": "피로감",
+                "meaning": "fatigue, tiredness",
+                "example_ko": "늦은 시간까지 야근을 계속하자 심한 [피로감]이 몰려왔다.",
+                "example_en": "As I continued working late into the night, severe fatigue set in."
+            },
+            {
+                "word": "시사하다",
+                "meaning": "to imply, to hint, to suggest",
+                "example_ko": "이번 조사 결과는 소비 패턴의 변화를 [시사한다].",
+                "example_en": "The results of this survey suggest a change in consumer patterns."
+            },
+            {
+                "word": "거세다",
+                "meaning": "to be fierce, to be strong",
+                "example_ko": "바닷가에 도착하자 바람이 매우 [거세게] 불었다.",
+                "example_en": "When we arrived at the beach, the wind blew very fiercely."
+            },
+            {
+                "word": "시정",
+                "meaning": "correction, rectification",
+                "example_ko": "잘못된 안내 문구를 발견하고 즉시 [시정]을 요구했다.",
+                "example_en": "I found the incorrect guidance text and immediately requested a correction."
+            },
+            {
+                "word": "보복",
+                "meaning": "retaliation, revenge",
+                "example_ko": "그는 상대방의 공격에 대해 어떤 [보복]도 하지 않았다.",
+                "example_en": "He did not take any retaliation against the opponent's attack."
+            },
+            {
+                "word": "장기화하다",
+                "meaning": "to be prolonged, to drag on",
+                "example_ko": "공사가 [장기화하면서] 주민들의 불편이 점점 커지고 있다.",
+                "example_en": "As the construction is prolonged, residents' inconvenience is gradually growing."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-16",
         "published_at": "2026-11-16 01:19",
         "title": "공정위, 홍철호 전 정무수석 일가 소유 기업 '부당지원 의혹' 현장조사",
         "body": "공정거래위원회가 굽네치킨 공동 창업자인 홍철호 전 대통령실 정무수석 일가의 부당 지원 의혹에 대해 본격적인 조사에 나섰다. 업계에 따르면 공정위는 지난 11일과 12일 이틀 동안 닭고기 가공업체인 크레치코 본사를 찾아 현장 조사를 벌였다. 크레치코는 굽네치킨 가맹본부에 닭고기를 공급하는 주요 업체로 알려져 있다. 특히 이 회사는 홍 전 수석의 세 자녀가 지분 100%를 보유하고 있어 사실상 오너 2세 기업으로 분류된다. 공정위는 지난 2021년 크레치코가 홍 전 수석 소유 회사로부터 닭고기 납품 사업을 넘겨받은 과정에 주목하고 있다. 당국은 이 사업 양도 과정에서 계열사 간의 부당한 일감 몰아주기나 특혜 지원이 있었는지를 집중적으로 들여다보고 있다. 이에 대해 홍 전 수석 측은 당시 크레치코가 적자 상태였고 넘겨준 사업도 가치가 크지 않아 부당 지원이 아니라고 해명했다. 한편 국세청 역시 크레치코에 대한 세무조사를 진행해 홍 전 수석 일가에 10억 원이 넘는 세금을 부과했다. 국세청이 부과한 세금에는 자녀들에게 사업을 넘기는 과정에서 발생한 증여세 등이 포함된 것으로 알려졌다. 홍 전 수석 측은 국세청의 과세 처분이 위법하다고 주장하며 조세심판원에 심판을 청구한 상태이다.",

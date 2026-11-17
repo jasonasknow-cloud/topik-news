@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-17",
+        "published_at": "2026-11-17 12:40",
+        "title": "정부, '조작기소 특검법' 공포안 국무회의 의결",
+        "body": "윤석열 정부 시절 국가기관의 조작 수사와 기소 의혹을 밝히기 위한 '조작기소 특검법' 공포안이 국무회의를 통과했다. 정부는 한성숙 국무총리 주재로 열린 국무회의에서 해당 특검법 공포안을 심의하고 의결했다. 이번 특검법은 과거 정권에서 진행된 검찰과 국가정보원, 감사원 등의 수사 및 기소 과정에 조작이 있었는지를 규명하는 내용을 담고 있다. 특히 당시 야권 인사였던 이재명 대통령을 비롯해 여러 정치인을 겨냥한 표적 수사 의혹이 핵심 조사 대상에 포함되었다. 앞서 이 법안은 지난 6일 국회 본회의에서 더불어민주당의 주도로 통과된 바 있다. 한성숙 총리가 주재한 이번 회의에서 공포안이 처리됨에 따라 법안 시행을 위한 행정 절차가 본격화되었다. 해당 법안은 이재명 대통령의 최종 재가를 거친 후 정식으로 공포될 예정이다. 정부와 국회가 국가기관의 공정성을 둘러싼 과거 의혹을 규명하기 위해 본격적인 수사 단계에 들어서게 되었다.",
+        "translation": "윤석열 정부 시절 국가기관의 조작 수사와 기소 의혹을 밝히기 위한 '조작기소 특검법' 공포안이 국무회의를 통과했다.\nThe promulgation bill for the \"Special Prosecutor Act on Fabricated Indictments\" passed the State Council to uncover suspicions of fabricated investigations and indictments by state agencies during the Yoon Suk-yeol administration.\n\n정부는 한성숙 국무총리 주재로 열린 국무회의에서 해당 특검법 공포안을 심의하고 의결했다.\nThe government deliberated and decided on the promulgation bill for the special prosecutor act at a State Council meeting presided over by Prime Minister Han Seong-sook.\n\n이번 특검법은 과거 정권에서 진행된 검찰과 국가정보원, 감사원 등의 수사 및 기소 과정에 조작이 있었는지를 규명하는 내용을 담고 있다.\nThis special prosecutor act contains provisions to determine whether there was fabrication in the investigation and indictment processes carried out by the prosecution, the National Intelligence Service, and the Board of Audit and Inspection under the previous administration.\n\n특히 당시 야권 인사였던 이재명 대통령을 비롯해 여러 정치인을 겨냥한 표적 수사 의혹이 핵심 조사 대상에 포함되었다.\nIn particular, suspicions of targeted investigations aimed at various politicians, including President Lee Jae-myung who was an opposition figure at the time, were included as core investigation subjects.\n\n앞서 이 법안은 지난 6일 국회 본회의에서 더불어민주당의 주도로 통과된 바 있다.\nEarlier, this bill was passed at the National Assembly plenary session on the 6th under the leadership of the Democratic Party of Korea.\n\n한성숙 총리가 주재한 이번 회의에서 공포안이 처리됨에 따라 법안 시행을 위한 행정 절차가 본격화되었다.\nAs the promulgation bill was processed in this meeting presided over by Prime Minister Han, administrative procedures for implementing the legislation have begun in earnest.\n\n해당 법안은 이재명 대통령의 최종 재가를 거친 후 정식으로 공포될 예정이다.\nThe bill in question is scheduled to be officially promulgated after undergoing final approval from President Lee Jae-myung.\n\n정부와 국회가 국가기관의 공정성을 둘러싼 과거 의혹을 규명하기 위해 본격적인 수사 단계에 들어서게 되었다.\nThe government and the National Assembly have entered the phase of a full-scale investigation to clarify past suspicions surrounding the fairness of state agencies.",
+        "vocab": [
+            {
+                "word": "조작",
+                "meaning": "fabrication, manipulation",
+                "example_ko": "이번 사건의 증거는 누군가에 의해 [조작]된 것으로 밝혀졌다.",
+                "example_en": "The evidence in this case was found to have been manipulated by someone."
+            },
+            {
+                "word": "의혹",
+                "meaning": "suspicion, doubt",
+                "example_ko": "경찰은 회사의 비자금 조성에 대한 [의혹]을 집중적으로 조사하고 있다.",
+                "example_en": "The police are intensively investigating suspicions regarding the company's creation of slush funds."
+            },
+            {
+                "word": "공포하다",
+                "meaning": "to promulgate, officially announce",
+                "example_ko": "정부는 새로운 도로교통법을 이번 주에 정식으로 [공포했다].",
+                "example_en": "The government officially promulgated the new Road Traffic Act this week."
+            },
+            {
+                "word": "심의하다",
+                "meaning": "to deliberate, review",
+                "example_ko": "국회는 내년도 예산안을 꼼꼼하게 [심의하고] 있다.",
+                "example_en": "The National Assembly is carefully deliberating next year's budget proposal."
+            },
+            {
+                "word": "의결하다",
+                "meaning": "to resolve, decide by vote",
+                "example_ko": "이사회는 신임 대표이사 선임 안건을 만장일치로 [의결했다].",
+                "example_en": "The board of directors unanimously resolved the agenda to appoint a new CEO."
+            },
+            {
+                "word": "규명하다",
+                "meaning": "to clarify, find out the truth of",
+                "example_ko": "전문가들은 사고의 정확한 원인을 [규명하기] 위해 현장을 방문했다.",
+                "example_en": "Experts visited the site to clarify the exact cause of the accident."
+            },
+            {
+                "word": "본회의",
+                "meaning": "plenary session",
+                "example_ko": "중요한 법률안이 마침내 국회 [본회의]에서 통과되었다.",
+                "example_en": "An important bill was finally passed at the National Assembly plenary session."
+            },
+            {
+                "word": "주도하다",
+                "meaning": "to take the lead, spearhead",
+                "example_ko": "우리 팀은 이번 환경 보호 캠페인을 적극적으로 [주도하고] 있다.",
+                "example_en": "Our team is actively leading this environmental protection campaign."
+            },
+            {
+                "word": "재가",
+                "meaning": "presidential approval, sanction",
+                "example_ko": "장관의 최종 [재가]가 내려진 후에야 사업을 시작할 수 있다.",
+                "example_en": "The project can only begin after final approval from the minister is granted."
+            },
+            {
+                "word": "본격화되다",
+                "meaning": "to get into full swing, begin in earnest",
+                "example_ko": "날씨가 따뜻해지면서 봄꽃 축제 준비가 [본격화되었다].",
+                "example_en": "As the weather grew warmer, preparations for the spring flower festival got into full swing."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-17",
+        "published_at": "2026-11-17 12:40",
+        "title": "산업통상부, 내년 1월 원유 50% 이상 확보…유가 안정 총력",
+        "body": "중동 전쟁으로 인한 불확실성이 해소되지 않은 상황에서 정부와 정유업계가 원유 확보에 속도를 내고 있다. 산업통상부는 내년 1월에 도입할 원유 물량의 50% 이상을 이미 확보했다고 밝혔다. 또한 올해 연말까지 사용할 원유와 나프타 물량도 비교적 안정적으로 확보한 상태이다. 11월과 12월의 원유 도입량은 지난해 평균 대비 약 90% 수준을 유지하고 있다. 화학 산업의 필수 원료인 나프타는 11월과 12월 모두 국내 수요 대비 100% 수준을 확보했다. 한편 국제유가는 중동의 원유 수출 회복과 내년 글로벌 석유 초과 공급 전망으로 하락세를 보였다. 최근 브렌트유와 미국 서부 텍사스산 원유는 전일 대비 각각 3% 이상 하락했다. 그러나 현재 국제유가는 중동 전쟁 발발 이전과 비교하면 여전히 약 27%에서 30% 높은 수준이다. 정부는 국내 기름값 안정을 위해 석유 최고가격제를 지속해서 시행하고 있다. 이에 따라 정유사가 주유소에 공급하는 휘발유와 경유의 공급 상한 가격을 지정하여 관리하고 있다.",
+        "translation": "중동 전쟁으로 인한 불확실성이 해소되지 않은 상황에서 정부와 정유업계가 원유 확보에 속도를 내고 있다.\nAmid unresolved uncertainties caused by the Middle East war, the government and the oil refining industry are speeding up the procurement of crude oil.\n\n산업통상부는 내년 1월에 도입할 원유 물량의 50% 이상을 이미 확보했다고 밝혔다.\nThe Ministry of Trade, Industry and Energy announced that it has already secured more than 50% of the crude oil volume to be imported in January next year.\n\n또한 올해 연말까지 사용할 원유와 나프타 물량도 비교적 안정적으로 확보한 상태이다.\nIn addition, crude oil and naphtha volumes to be used until the end of this year have also been secured relatively stably.\n\n11월과 12월의 원유 도입량은 지난해 평균 대비 약 90% 수준을 유지하고 있다.\nThe imported volume of crude oil for November and December is maintaining a level of about 90% compared to last year's average.\n\n화학 산업의 필수 원료인 나프타는 11월과 12월 모두 국내 수요 대비 100% 수준을 확보했다.\nFor naphtha, an essential raw material for the chemical industry, 100% of domestic demand was secured for both November and December.\n\n한편 국제유가는 중동의 원유 수출 회복과 내년 글로벌 석유 초과 공급 전망으로 하락세를 보였다.\nMeanwhile, international oil prices showed a downward trend due to a recovery in Middle Eastern crude oil exports and prospects of a global oil oversupply next year.\n\n최근 브렌트유와 미국 서부 텍사스산 원유는 전일 대비 각각 3% 이상 하락했다.\nRecently, Brent crude and U.S. West Texas Intermediate (WTI) crude oil fell by more than 3% each compared to the previous day.\n\n그러나 현재 국제유가는 중동 전쟁 발발 이전과 비교하면 여전히 약 27%에서 30% 높은 수준이다.\nHowever, current international oil prices are still about 27% to 30% higher compared to before the outbreak of the Middle East war.\n\n정부는 국내 기름값 안정을 위해 석유 최고가격제를 지속해서 시행하고 있다.\nThe government is continuously implementing a maximum petroleum price system to stabilize domestic fuel prices.\n\n이에 따라 정유사가 주유소에 공급하는 휘발유와 경유의 공급 상한 가격을 지정하여 관리하고 있다.\nAccordingly, it designates and manages upper price limits for gasoline and diesel supplied by refiners to gas stations.",
+        "vocab": [
+            {
+                "word": "불확실성",
+                "meaning": "uncertainty",
+                "example_ko": "미래에 대한 [불확실성] 때문에 기업들이 투자를 망설이고 있다.",
+                "example_en": "Companies are hesitating to invest because of uncertainty about the future."
+            },
+            {
+                "word": "해소되다",
+                "meaning": "to be resolved, relieved",
+                "example_ko": "주말 동안 충분한 휴식을 취하자 피로가 말끔히 [해소되었다].",
+                "example_en": "After getting plenty of rest over the weekend, my fatigue was completely relieved."
+            },
+            {
+                "word": "원유",
+                "meaning": "crude oil",
+                "example_ko": "우리나라는 필요한 [원유]의 대부분을 해외에서 수입한다.",
+                "example_en": "Our country imports most of the necessary crude oil from abroad."
+            },
+            {
+                "word": "확보하다",
+                "meaning": "to secure, procure",
+                "example_ko": "겨울철을 앞두고 난방용 연료를 미리 [확보하는] 것이 중요하다.",
+                "example_en": "It is important to secure heating fuel in advance ahead of the winter season."
+            },
+            {
+                "word": "도입량",
+                "meaning": "import volume, introductory quantity",
+                "example_ko": "국내 소비 증가에 따라 외국산 과일의 [도입량]이 늘어났다.",
+                "example_en": "The import volume of foreign fruits increased along with the rise in domestic consumption."
+            },
+            {
+                "word": "초과",
+                "meaning": "excess, surplus",
+                "example_ko": "승객 수가 정원을 [초과하면] 버스에 더 이상 탈 수 없다.",
+                "example_en": "If the number of passengers exceeds the capacity, you cannot get on the bus anymore."
+            },
+            {
+                "word": "하락세",
+                "meaning": "downward trend, declining trend",
+                "example_ko": "물가가 진정되면서 농산물 가격도 점차 [하락세]를 보이고 있다.",
+                "example_en": "As inflation calms down, agricultural product prices are also gradually showing a downward trend."
+            },
+            {
+                "word": "발발",
+                "meaning": "outbreak",
+                "example_ko": "갑작스러운 전쟁의 [발발]로 많은 피란민이 발생했다.",
+                "example_en": "Many refugees were created by the sudden outbreak of war."
+            },
+            {
+                "word": "시행하다",
+                "meaning": "to enforce, implement",
+                "example_ko": "시청은 다음 달부터 새로운 대중교통 할인 제도를 [시행한다].",
+                "example_en": "The city hall will implement a new public transit discount system starting next month."
+            },
+            {
+                "word": "상한",
+                "meaning": "upper limit, ceiling",
+                "example_ko": "은행은 고객의 대출 금액에 일정한 [상한]을 두고 있다.",
+                "example_en": "The bank places a certain upper limit on the loan amount for customers."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-17",
+        "published_at": "2026-11-17 12:40",
+        "title": "한국소비자원, 시중 보습크림 8종 비교 평가 결과 발표",
+        "body": "건조한 겨울철을 맞아 피부를 보호하기 위한 보습크림에 대한 소비자들의 관심이 높아지고 있다. 한국소비자원은 시중에 판매되는 인기 보습크림 8개 제품을 대상으로 품질과 안전성을 시험했다. 피부 속 깊은 곳까지 수분을 전달하는 성능은 시험 대상 8개 제품 모두 양호한 편이었다. 그러나 피부 표면에 수분을 채워주는 보습력과 수분 증발을 막아주는 성능에서는 제품마다 차이가 났다. 피부 표면 보습력은 3개 제품이 우수했고, 수분 증발을 막는 기능은 5개 제품이 상대적으로 우수했다. 50명의 소비자가 직접 참여한 사용감 평가에서는 흡수력과 전반적인 만족도에서 제품 간 차이가 확인되었다. 특히 특정 크림 제품은 흡수력과 사용 만족도 부문에서 가장 높은 점수를 받았다. 제품 간의 가격 차이도 매우 커서 단위 용량당 가격이 최대 6.9배까지 벌어졌다. 가장 저렴한 제품은 1밀리리터당 66원이었던 반면 가장 비싼 제품은 456원에 달했다. 중금속과 보존제 같은 유해 물질 검사에서는 모든 제품이 안전 기준에 적합한 것으로 나타났다. 소비자원은 개인의 피부 특성과 제품 가격을 종합적으로 고려해 구매할 것을 당부했다.",
+        "translation": "건조한 겨울철을 맞아 피부를 보호하기 위한 보습크림에 대한 소비자들의 관심이 높아지고 있다.\nWith the dry winter season arriving, consumers' interest in moisturizing creams to protect their skin is rising.\n\n한국소비자원은 시중에 판매되는 인기 보습크림 8개 제품을 대상으로 품질과 안전성을 시험했다.\nThe Korea Consumer Agency tested the quality and safety of eight popular moisturizing cream products sold on the market.\n\n피부 속 깊은 곳까지 수분을 전달하는 성능은 시험 대상 8개 제품 모두 양호한 편이었다.\nThe performance of delivering moisture deep into the skin was relatively good for all eight tested products.\n\n그러나 피부 표면에 수분을 채워주는 보습력과 수분 증발을 막아주는 성능에서는 제품마다 차이가 났다.\nHowever, differences were found among products in moisturizing power to hydrate the skin surface and performance in preventing moisture evaporation.\n\n피부 표면 보습력은 3개 제품이 우수했고, 수분 증발을 막는 기능은 5개 제품이 상대적으로 우수했다.\nThree products were superior in skin surface moisturizing power, and five products were relatively superior in preventing moisture evaporation.\n\n50명의 소비자가 직접 참여한 사용감 평가에서는 흡수력과 전반적인 만족도에서 제품 간 차이가 확인되었다.\nIn the usability evaluation directly participated in by 50 consumers, differences among products were confirmed in absorption and overall satisfaction.\n\n특히 특정 크림 제품은 흡수력과 사용 만족도 부문에서 가장 높은 점수를 받았다.\nIn particular, a specific cream product received the highest scores in the areas of absorption and user satisfaction.\n\n제품 간의 가격 차이도 매우 커서 단위 용량당 가격이 최대 6.9배까지 벌어졌다.\nPrice differences among products were also very large, widening up to 6.9 times per unit volume.\n\n가장 저렴한 제품은 1밀리리터당 66원이었던 반면 가장 비싼 제품은 456원에 달했다.\nWhile the cheapest product was 66 won per milliliter, the most expensive product reached 456 won.\n\n중금속과 보존제 같은 유해 물질 검사에서는 모든 제품이 안전 기준에 적합한 것으로 나타났다.\nIn tests for harmful substances such as heavy metals and preservatives, all products were found to meet safety standards.\n\n소비자원은 개인의 피부 특성과 제품 가격을 종합적으로 고려해 구매할 것을 당부했다.\nThe Consumer Agency urged consumers to make purchases by comprehensively considering individual skin characteristics and product prices.",
+        "vocab": [
+            {
+                "word": "건조하다",
+                "meaning": "to be dry",
+                "example_ko": "겨울철에는 실내 공기가 매우 [건조하니] 가습기를 트는 것이 좋다.",
+                "example_en": "In winter, indoor air is very dry, so it is good to turn on a humidifier."
+            },
+            {
+                "word": "보습력",
+                "meaning": "moisturizing ability, moisture retention",
+                "example_ko": "이 화장품은 피부를 촉촉하게 유지해 주는 [보습력]이 뛰어나다.",
+                "example_en": "This cosmetic product has excellent moisturizing power that keeps the skin hydrated."
+            },
+            {
+                "word": "증발",
+                "meaning": "evaporation",
+                "example_ko": "햇볕이 강해서 바닥에 쏟아진 물이 순식간에 [증발]했다.",
+                "example_en": "The water spilled on the floor evaporated in an instant because the sunlight was strong."
+            },
+            {
+                "word": "양호하다",
+                "meaning": "to be good, satisfactory",
+                "example_ko": "건강 검진 결과 모든 수치가 아주 [양호하게] 나왔다.",
+                "example_en": "As a result of the health checkup, all figures came out very good."
+            },
+            {
+                "word": "흡수력",
+                "meaning": "absorbency, absorption capacity",
+                "example_ko": "이 수건은 물기를 빠르게 빨아들이는 [흡수력이] 좋다.",
+                "example_en": "This towel has good absorbency that quickly soaks up moisture."
+            },
+            {
+                "word": "만족도",
+                "meaning": "level of satisfaction",
+                "example_ko": "새로운 서비스에 대한 이용자들의 전반적인 [만족도가] 높게 나타났다.",
+                "example_en": "Users' overall satisfaction with the new service turned out to be high."
+            },
+            {
+                "word": "단위",
+                "meaning": "unit, per-unit measure",
+                "example_ko": "마트에서 물건을 살 때는 [단위] 가격을 비교해 보는 것이 경제적이다.",
+                "example_en": "When buying goods at a mart, it is economical to compare the unit price."
+            },
+            {
+                "word": "저렴하다",
+                "meaning": "to be inexpensive, cheap",
+                "example_ko": "이 식당은 가격이 [저렴하지만] 음식 맛은 아주 훌륭하다.",
+                "example_en": "This restaurant is inexpensive, but the food tastes wonderful."
+            },
+            {
+                "word": "보존제",
+                "meaning": "preservative",
+                "example_ko": "식품을 오랫동안 신선하게 보관하기 위해 [보존제를] 사용하기도 한다.",
+                "example_en": "Preservatives are sometimes used to keep food fresh for a long time."
+            },
+            {
+                "word": "적합하다",
+                "meaning": "to be suitable, conform to",
+                "example_ko": "이 옷은 격식 있는 자리에 참석할 때 입기에 매우 [적합하다].",
+                "example_en": "These clothes are very suitable to wear when attending a formal gathering."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-17",
+        "published_at": "2026-11-17 12:40",
+        "title": "미 정보당국, 이란의 워싱턴 '더티밤' 테러 모의 정황 포착",
+        "body": "미국 정보당국이 워싱턴에서 방사능 무기를 이용한 테러 모의 정황을 포착했다고 미국 언론이 보도했다. 보도에 따르면 이란은 미국 정부의 고위급 인사를 겨냥하여 이른바 '더티밤' 테러를 계획한 것으로 전해졌다. 더티밤은 일반 폭탄에 방사성 물질을 결합해 터뜨림으로써 넓은 지역을 오염시키는 치명적인 무기이다. 미국 정보당국은 이란이 실제로 테러를 감행할 능력과 구체적인 실현 가능성이 있는지를 면밀히 검토하고 있다. 당국은 이번 테러 모의가 당장 임박한 공격이라기보다는 이란이 검토 중인 여러 방안 가운데 하나라고 판단했다. 하지만 한 소식통은 미국이 확보한 테러 정보가 상당히 구체적이며 이에 대비한 비상 대응 계획도 신속히 마련되었다고 전했다. 또한 미 정부 당국자들은 최근 일주일 동안 모여 이란의 잠재적 위협에 대한 대응책을 여러 차례 논의했다. 그러나 백악관은 언론 보도에 대해 현재 미국 본토에 대한 신빙성 있는 위협은 없다고 공식적으로 부인했다. 미국 내 주요 시설을 겨냥한 테러 첩보가 잇따르면서 양국 사이의 긴장감은 여전히 이어지고 있다.",
+        "translation": "미국 정보당국이 워싱턴에서 방사능 무기를 이용한 테러 모의 정황을 포착했다고 미국 언론이 보도했다.\nU.S. media reported that U.S. intelligence authorities detected signs of a terror plot using radioactive weapons in Washington.\n\n보도에 따르면 이란은 미국 정부의 고위급 인사를 겨냥하여 이른바 '더티밤' 테러를 계획한 것으로 전해졌다.\nAccording to reports, Iran was reported to have planned a so-called \"dirty bomb\" terror attack targeting high-ranking officials in the U.S. government.\n\n더티밤은 일반 폭탄에 방사성 물질을 결합해 터뜨림으로써 넓은 지역을 오염시키는 치명적인 무기이다.\nA dirty bomb is a deadly weapon that contaminates a wide area by combining radioactive materials with conventional explosives and detonating them.\n\n미국 정보당국은 이란이 실제로 테러를 감행할 능력과 구체적인 실현 가능성이 있는지를 면밀히 검토하고 있다.\nU.S. intelligence authorities are closely examining whether Iran has the capability and concrete feasibility to actually carry out the terror attack.\n\n당국은 이번 테러 모의가 당장 임박한 공격이라기보다는 이란이 검토 중인 여러 방안 가운데 하나라고 판단했다.\nAuthorities judged that this terror plot is one of several options under review by Iran, rather than an immediately imminent attack.\n\n하지만 한 소식통은 미국이 확보한 테러 정보가 상당히 구체적이며 이에 대비한 비상 대응 계획도 신속히 마련되었다고 전했다.\nHowever, a source reported that the terror intelligence secured by the United States is considerably specific, and emergency response plans have also been quickly prepared.\n\n또한 미 정부 당국자들은 최근 일주일 동안 모여 이란의 잠재적 위협에 대한 대응책을 여러 차례 논의했다.\nIn addition, U.S. government officials gathered over the past week to discuss countermeasures against potential Iranian threats multiple times.\n\n그러나 백악관은 언론 보도에 대해 현재 미국 본토에 대한 신빙성 있는 위협은 없다고 공식적으로 부인했다.\nHowever, regarding the media reports, the White House officially denied that there is any credible threat to the U.S. mainland at present.\n\n미국 내 주요 시설을 겨냥한 테러 첩보가 잇따르면서 양국 사이의 긴장감은 여전히 이어지고 있다.\nAs terror intelligence targeting major facilities in the United States continues, tension between the two countries remains ongoing.",
+        "vocab": [
+            {
+                "word": "방사능",
+                "meaning": "radioactivity",
+                "example_ko": "원자력 발전소 사고가 나면 위험한 [방사능이] 누출될 수 있다.",
+                "example_en": "If an accident occurs at a nuclear power plant, dangerous radioactivity can leak."
+            },
+            {
+                "word": "모의하다",
+                "meaning": "to plot, conspire",
+                "example_ko": "경찰은 은행 강도를 [모의하던] 일당을 현장에서 붙잡았다.",
+                "example_en": "The police caught the gang who was plotting a bank robbery on the spot."
+            },
+            {
+                "word": "정황",
+                "meaning": "circumstances, context",
+                "example_ko": "현장에 남겨진 흔적을 보면 범행을 저지른 [정황이] 뚜렷하다.",
+                "example_en": "Looking at the traces left at the scene, the circumstances of having committed the crime are clear."
+            },
+            {
+                "word": "포착하다",
+                "meaning": "to detect, capture",
+                "example_ko": "군 레이더가 영공 근처에서 미확인 비행물체를 [포착했다].",
+                "example_en": "Military radar detected an unidentified flying object near the airspace."
+            },
+            {
+                "word": "겨냥하다",
+                "meaning": "to target, aim at",
+                "example_ko": "이 신제품은 젊은 20대 소비자를 [겨냥해] 제작되었다.",
+                "example_en": "This new product was manufactured targeting young consumers in their twenties."
+            },
+            {
+                "word": "오염시키다",
+                "meaning": "to contaminate, pollute",
+                "example_ko": "공장에서 버린 폐수가 맑은 강물을 심하게 [오염시켰다].",
+                "example_en": "Wastewater dumped from the factory severely contaminated the clear river."
+            },
+            {
+                "word": "감행하다",
+                "meaning": "to carry out decisively, venture",
+                "example_ko": "선장은 거센 비바람에도 불구하고 배 출항을 [감행했다].",
+                "example_en": "The captain went ahead with the ship's departure despite the heavy wind and rain."
+            },
+            {
+                "word": "임박하다",
+                "meaning": "to be imminent, draw near",
+                "example_ko": "시험 날짜가 [임박하자] 학생들은 도서관에서 밤을 새우기 시작했다.",
+                "example_en": "As the exam date drew near, students began staying up all night in the library."
+            },
+            {
+                "word": "신속히",
+                "meaning": "promptly, quickly",
+                "example_ko": "소방관들은 화재 신고를 받자마자 현장으로 [신속히] 출동했다.",
+                "example_en": "Firefighters promptly dispatched to the scene as soon as they received the fire report."
+            },
+            {
+                "word": "신빙성",
+                "meaning": "credibility, trustworthiness",
+                "example_ko": "그 소문은 출처가 불분명해서 [신빙성이] 떨어진다.",
+                "example_en": "That rumor lacks credibility because its source is unclear."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-17",
         "published_at": "2026-11-17 04:31",
         "title": "정부, 수능 앞두고 시험장 와이파이 차단 등 부정행위 방지 총력",
         "body": "정부가 대입 대학수학능력시험을 앞두고 첨단기기를 이용한 부정행위를 막기 위해 긴급 대응에 나섰다. 한성숙 국무총리는 관계부처 회의를 열고 시험의 공정성은 사회 신뢰를 지탱하는 기본 원칙이라고 강조했다. 한 총리는 일부의 부정행위로 성실한 수험생이 피해를 보거나 시험제도의 신뢰가 무너져서는 안 된다고 지적했다. 이에 따라 정부는 범정부 긴급대응팀을 구성하여 시험 전후의 종합적인 대책을 추진하기로 했다. 수험생은 시험장에 모든 스마트기기를 의무적으로 반납해야 하며 시험 중 기기 소지 여부도 철저히 확인받는다. 정부는 시험 시간 동안 시험장 내 공공 와이파이를 전면 차단하는 방안도 적극 검토하고 있다. 또한 이상 징후가 발견되면 객관적 자료를 바탕으로 철저한 사후 조사를 진행할 방침이다. 아울러 정부는 '스마트기기 부정행위 방지 태스크포스'를 만들어 시험 관리 체계를 전면 재검토하기로 했다. 최근 부정행위가 적발된 세무사 시험 합격자에 대해서는 자격 취소와 응시 제한 절차에 착수했다. 정부는 앞으로 공인 시험장 구축과 검색대 설치 등 제도 개정을 통해 부정행위 처벌을 대폭 강화할 계획이다.",

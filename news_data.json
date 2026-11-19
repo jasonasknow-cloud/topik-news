@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-11-20",
+        "published_at": "2026-11-20 03:12",
+        "title": "정부 고위공직자 재산 등록 공개…김휘강 사이버안보비서관 75억 원 최다",
+        "body": "정부공직자윤리위원회가 최근 신분 변동이 발생한 고위공직자 60명의 재산 등록 현황을 관보를 통해 공개했다. 이번 수시 공개 대상은 지난 8월 2일부터 9월 1일까지 새로 임용되거나 승진 및 퇴직한 공직자들이다. 현직 고위공직자 가운데에서는 김휘강 국가안보실 사이버안보비서관이 75억 3천여만 원을 신고해 재산이 가장 많았다. 김 비서관은 서울 반포동 아파트 분양권과 도곡동 아파트 전세권, 예금과 주식 등을 함께 신고했다. 남영준 국립중앙도서관장이 61억 5천여만 원으로 그 뒤를 이었고, 노승일 한국마사회 상임감사위원은 약 48억 6천만 원을 신고했다. 퇴직자 중에서는 건물 재산과 채무를 함께 신고한 김상호 전 춘추관장이 55억 9천여만 원으로 가장 많은 재산을 보유한 것으로 나타났다. 김용범 전 대통령비서실 정책실장은 아파트 공시가격 상승 등의 영향으로 종전보다 4억 4천여만 원 증가한 49억 7천여만 원을 신고했다. 이번에 공개된 공직자들은 본인과 배우자, 자녀 명의의 부동산과 예금, 비상장 주식 등 다양한 자산 현황을 밝혔다.",
+        "translation": "정부공직자윤리위원회가 최근 신분 변동이 발생한 고위공직자 60명의 재산 등록 현황을 관보를 통해 공개했다.\nThe Government Public Ethics Committee disclosed the property registration status of 60 high-ranking public officials whose status recently changed through the official gazette.\n\n이번 수시 공개 대상은 지난 8월 2일부터 9월 1일까지 새로 임용되거나 승진 및 퇴직한 공직자들이다.\nThose subject to this ad-hoc disclosure are public officials who were newly appointed, promoted, or retired between August 2 and September 1.\n\n현직 고위공직자 가운데에서는 김휘강 국가안보실 사이버안보비서관이 75억 3천여만 원을 신고해 재산이 가장 많았다.\nAmong incumbent high-ranking public officials, Kim Hwi-kang, Cyber Security Secretary of the National Security Office, reported the largest wealth at over 7.53 billion won.\n\n김 비서관은 서울 반포동 아파트 분양권과 도곡동 아파트 전세권, 예금과 주식 등을 함께 신고했다.\nSecretary Kim reported an apartment pre-sale right in Banpo-dong, Seoul, a leasehold deposit for an apartment in Dogok-dong, along with bank deposits and stocks.\n\n남영준 국립중앙도서관장이 61억 5천여만 원으로 그 뒤를 이었고, 노승일 한국마사회 상임감사위원은 약 48억 6천만 원을 신고했다.\nNam Young-joon, head of the National Library of Korea, followed with approximately 6.15 billion won, and Roh Seung-il, standing auditor of the Korea Racing Authority, reported about 4.86 billion won.\n\n퇴직자 중에서는 건물 재산과 채무를 함께 신고한 김상호 전 춘추관장이 55억 9천여만 원으로 가장 많은 재산을 보유한 것으로 나타났다.\nAmong retirees, Kim Sang-ho, former head of Chunchugwan, who reported building assets alongside liabilities, turned out to hold the most assets at over 5.59 billion won.\n\n김용범 전 대통령비서실 정책실장은 아파트 공시가격 상승 등의 영향으로 종전보다 4억 4천여만 원 증가한 49억 7천여만 원을 신고했다.\nKim Yong-beom, former Chief Presidential Secretary for Policy, reported about 4.97 billion won, up by over 440 million won from before due to the rise in the officially announced price of his apartment.\n\n이번에 공개된 공직자들은 본인과 배우자, 자녀 명의의 부동산과 예금, 비상장 주식 등 다양한 자산 현황을 밝혔다.\nThe public officials disclosed this time revealed their various asset holdings, including real estate, bank deposits, and unlisted stocks under the names of themselves, their spouses, and their children.",
+        "vocab": [
+            {
+                "word": "고위공직자",
+                "meaning": "high-ranking public official",
+                "example_ko": "정부는 [고위공직자들의] 재산 등록을 엄격하게 관리하고 있다.",
+                "example_en": "The government strictly manages the property registration of high-ranking public officials."
+            },
+            {
+                "word": "현황",
+                "meaning": "current status, present condition",
+                "example_ko": "회사의 재정 [현황을] 파악하기 위해 회의를 열었다.",
+                "example_en": "We held a meeting to grasp the company's financial status."
+            },
+            {
+                "word": "관보",
+                "meaning": "official gazette",
+                "example_ko": "새로운 법률이 오늘 [관보에] 정식으로 실렸다.",
+                "example_en": "The new law was officially published in the government gazette today."
+            },
+            {
+                "word": "임용되다",
+                "meaning": "to be appointed, to be employed",
+                "example_ko": "그는 오랜 시험 준비 끝에 마침내 교사로 [임용되었다].",
+                "example_en": "After preparing for the exam for a long time, he was finally appointed as a teacher."
+            },
+            {
+                "word": "비상장",
+                "meaning": "unlisted, unquoted (stock/company)",
+                "example_ko": "친구는 미래 가능성을 보고 유망한 [비상장] 기업에 투자했다.",
+                "example_en": "Seeing future potential, my friend invested in a promising unlisted company."
+            },
+            {
+                "word": "보유하다",
+                "meaning": "to hold, to possess",
+                "example_ko": "우리 학교는 최신 컴퓨터 시설을 다수 [보유하고] 있다.",
+                "example_en": "Our school possesses numerous state-of-the-art computer facilities."
+            },
+            {
+                "word": "상임",
+                "meaning": "standing, full-time",
+                "example_ko": "그는 위원회의 업무를 총괄하는 [상임] 위원으로 임명되었다.",
+                "example_en": "He was appointed as a standing committee member overseeing committee operations."
+            },
+            {
+                "word": "공시가격",
+                "meaning": "officially announced price (of real estate)",
+                "example_ko": "올해 아파트의 [공시가격이] 작년보다 크게 올랐다.",
+                "example_en": "The officially announced price of apartments rose significantly this year compared to last year."
+            },
+            {
+                "word": "채무",
+                "meaning": "debt, liabilities",
+                "example_ko": "사업 실패로 늘어난 [채무를] 갚기 위해 열심히 일했다.",
+                "example_en": "I worked hard to pay off the debts that increased after the business failure."
+            },
+            {
+                "word": "자산",
+                "meaning": "assets, property",
+                "example_ko": "건강은 우리가 가진 가장 소중한 [자산이다].",
+                "example_en": "Health is the most precious asset we possess."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-20",
+        "published_at": "2026-11-20 03:12",
+        "title": "인공지능 기업 앤트로픽, 나스닥 상장 첫날 시가총액 2조 달러 달성",
+        "body": "인공지능 모델 '클로드'의 개발사인 앤트로픽이 미국 나스닥 시장에 성공적으로 입성했다. 앤트로픽은 상장 첫날 주당 111.5달러에 첫 거래를 시작하며 시장의 큰 주목을 받았다. 이는 전날 확정되었던 공모가 83달러와 비교해 약 34.3%나 오른 가격이다. 당초 시장에서는 시초가가 100달러 안팎에서 형성될 것으로 예상했으나 실제 거래는 이를 가볍게 넘어섰다. 이에 따라 앤트로픽의 상장 첫날 시가총액은 스톡옵션 등을 모두 포함해 2조 달러를 돌파했다. 앤트로픽은 이번 기업공개를 통해 최대 1,073억 달러의 막대한 자금을 조달할 전망이다. 이는 과거 스페이스X가 세웠던 기록을 뛰어넘는 역대 최대 규모의 자금 조달로 평가받는다. 이번 상장에 전 세계 투자 수요가 대거 몰리면서 기관 투자자의 절반 이상이 주식을 전혀 받지 못했다. 또한 이번 공모 과정에서 주식 배정이 주로 미국 투자자들에게 편중되었다는 분석도 나왔다.",
+        "translation": "인공지능 모델 '클로드'의 개발사인 앤트로픽이 미국 나스닥 시장에 성공적으로 입성했다.\nAnthropic, the developer of the artificial intelligence model \"Claude,\" successfully entered the US Nasdaq market.\n\n앤트로픽은 상장 첫날 주당 111.5달러에 첫 거래를 시작하며 시장의 큰 주목을 받았다.\nAnthropic received significant market attention as it began its first trading on the first day of listing at $111.5 per share.\n\n이는 전날 확정되었던 공모가 83달러와 비교해 약 34.3%나 오른 가격이다.\nThis price is approximately 34.3% higher than the public offering price of $83 finalized the previous day.\n\n당초 시장에서는 시초가가 100달러 안팎에서 형성될 것으로 예상했으나 실제 거래는 이를 가볍게 넘어섰다.\nInitially, the market expected the opening price to be formed around $100, but actual trading easily surpassed this.\n\n이에 따라 앤트로픽의 상장 첫날 시가총액은 스톡옵션 등을 모두 포함해 2조 달러를 돌파했다.\nAccordingly, Anthropic's market capitalization on its first day of listing exceeded $2 trillion, including stock options and other convertible instruments.\n\n앤트로픽은 이번 기업공개를 통해 최대 1,073억 달러의 막대한 자금을 조달할 전망이다.\nAnthropic is expected to raise a massive sum of up to $107.3 billion through this initial public offering.\n\n이는 과거 스페이스X가 세웠던 기록을 뛰어넘는 역대 최대 규모의 자금 조달로 평가받는다.\nThis is assessed as the largest fund-raising in history, surpassing the record previously set by SpaceX.\n\n이번 상장에 전 세계 투자 수요가 대거 몰리면서 기관 투자자의 절반 이상이 주식을 전혀 받지 못했다.\nAs massive investment demand from around the world flooded into this listing, more than half of the institutional investors received no shares at all.\n\n또한 이번 공모 과정에서 주식 배정이 주로 미국 투자자들에게 편중되었다는 분석도 나왔다.\nIn addition, analyses emerged that share allocation in this public offering process was predominantly concentrated among US investors.",
+        "vocab": [
+            {
+                "word": "입성하다",
+                "meaning": "to enter, to make an entry into",
+                "example_ko": "그 가수는 오랜 무명 시절을 거쳐 드디어 주요 방송 무대에 [입성했다].",
+                "example_en": "After a long period of obscurity, the singer finally made an entry onto major broadcasting stages."
+            },
+            {
+                "word": "확정되다",
+                "meaning": "to be confirmed, to be finalized",
+                "example_ko": "다음 달 회의 날짜가 마침내 다음 주 월요일로 [확정되었다].",
+                "example_en": "The meeting date for next month was finally confirmed for next Monday."
+            },
+            {
+                "word": "공모가",
+                "meaning": "public offering price",
+                "example_ko": "이번 주식의 [공모가는] 희망 범위보다 높은 수준에서 결정되었다.",
+                "example_en": "The public offering price of this stock was determined at a higher level than the expected range."
+            },
+            {
+                "word": "시초가",
+                "meaning": "opening price (of a stock)",
+                "example_ko": "그 회사의 주식은 상장 당일 높은 [시초가로] 장을 시작했다.",
+                "example_en": "The company's stock started trading with a high opening price on the day of listing."
+            },
+            {
+                "word": "시가총액",
+                "meaning": "market capitalization",
+                "example_ko": "그 기업은 주가 상승에 힘입어 국내 [시가총액] 1위에 올랐다.",
+                "example_en": "Boosted by the rise in stock price, the company climbed to first place in domestic market capitalization."
+            },
+            {
+                "word": "돌파하다",
+                "meaning": "to surpass, to break through",
+                "example_ko": "우리 쇼핑몰의 누적 회원 수가 드디어 천만 명을 [돌파했다].",
+                "example_en": "The cumulative number of members of our shopping mall finally surpassed ten million."
+            },
+            {
+                "word": "기업공개",
+                "meaning": "initial public offering (IPO)",
+                "example_ko": "신기술을 보유한 스타트업들이 성장을 위해 [기업공개를] 준비하고 있다.",
+                "example_en": "Startups possessing new technologies are preparing for an initial public offering to achieve growth."
+            },
+            {
+                "word": "조달하다",
+                "meaning": "to raise, to procure (funds)",
+                "example_ko": "그는 새로운 사업을 시작하기 위해 은행 대출로 필요한 자금을 [조달했다].",
+                "example_en": "He procured the necessary funds through a bank loan to start a new business."
+            },
+            {
+                "word": "기관 투자자",
+                "meaning": "institutional investor",
+                "example_ko": "주식 시장에서 [기관 투자자들의] 움직임은 전체 흐름에 큰 영향을 미친다.",
+                "example_en": "In the stock market, the moves of institutional investors exert a major influence on the overall trend."
+            },
+            {
+                "word": "편중되다",
+                "meaning": "to be disproportionately concentrated, to be lopsided",
+                "example_ko": "청소년들의 식습관이 특정 음식에 지나치게 [편중되지] 않도록 해야 한다.",
+                "example_en": "We must ensure that adolescents' eating habits do not become excessively concentrated on specific foods."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-20",
+        "published_at": "2026-11-20 03:12",
+        "title": "웹 프로그래밍 언어 PHP서 치명적 보안 취약점 발견…긴급 업데이트 권고",
+        "body": "전 세계 웹사이트 개발에 널리 사용되는 프로그래밍 언어인 '피에이치피(PHP)'에서 치명적인 보안 취약점이 무더기로 발견되었다. 피에이치피 개발팀은 보안 취약점 17건에 대한 권고문과 함께 긴급 보안 업데이트를 공개했다. 이번에 발견된 취약점 가운데 7건은 위험도 평가에서 가장 높은 등급인 '치명적' 단계로 분류되었다. 이러한 결함은 공격자가 웹 서버에 침투하여 원격으로 악성 코드를 실행할 수 있게 만드는 심각한 문제로 지적된다. 피에이치피는 이용자의 로그인이나 게시글 작성, 상품 결제 등을 처리하는 핵심적인 웹 기술이다. 만약 취약점이 악용될 경우 서버가 해킹당하거나 중요한 웹 서비스가 큰 피해를 입을 수 있다. 조사에 따르면 현재 언어를 식별할 수 있는 전 세계 웹사이트 가운데 약 68%가 피에이치피를 사용하고 있다. 피에이치피 개발팀은 오류를 수정한 최신 버전을 공개하고 웹사이트 운영자들에게 즉시 업데이트를 적용할 것을 권고했다.",
+        "translation": "전 세계 웹사이트 개발에 널리 사용되는 프로그래밍 언어인 '피에이치피(PHP)'에서 치명적인 보안 취약점이 무더기로 발견되었다.\nA bunch of critical security vulnerabilities were discovered in \"PHP,\" a programming language widely used in website development worldwide.\n\n피에이치피 개발팀은 보안 취약점 17건에 대한 권고문과 함께 긴급 보안 업데이트를 공개했다.\nThe PHP development team released an advisory along with emergency security updates for 17 security vulnerabilities.\n\n이번에 발견된 취약점 가운데 7건은 위험도 평가에서 가장 높은 등급인 '치명적' 단계로 분류되었다.\nAmong the vulnerabilities discovered this time, seven were classified into the highest danger rating of the \"Critical\" tier.\n\n이러한 결함은 공격자가 웹 서버에 침투하여 원격으로 악성 코드를 실행할 수 있게 만드는 심각한 문제로 지적된다.\nThese flaws are pointed out as serious problems that allow attackers to infiltrate web servers and execute malicious code remotely.\n\n피에이치피는 이용자의 로그인이나 게시글 작성, 상품 결제 등을 처리하는 핵심적인 웹 기술이다.\nPHP is a core web technology that processes user logins, post writing, and product payments.\n\n만약 취약점이 악용될 경우 서버가 해킹당하거나 중요한 웹 서비스가 큰 피해를 입을 수 있다.\nIf the vulnerabilities are exploited, servers could be hacked or important web services could suffer severe damage.\n\n조사에 따르면 현재 언어를 식별할 수 있는 전 세계 웹사이트 가운데 약 68%가 피에이치피를 사용하고 있다.\nAccording to research, about 68% of the world's websites whose language can be identified currently use PHP.\n\n피에이치피 개발팀은 오류를 수정한 최신 버전을 공개하고 웹사이트 운영자들에게 즉시 업데이트를 적용할 것을 권고했다.\nThe PHP development team released the latest versions fixing the errors and advised website operators to apply the updates immediately.",
+        "vocab": [
+            {
+                "word": "치명적",
+                "meaning": "fatal, critical",
+                "example_ko": "컴퓨터에 침투한 바이러스가 시스템에 [치명적인] 손상을 입혔다.",
+                "example_en": "The virus that infiltrated the computer caused critical damage to the system."
+            },
+            {
+                "word": "취약점",
+                "meaning": "vulnerability, weakness",
+                "example_ko": "보안 전문가는 프로그램의 [취약점을] 찾아내어 안전하게 보완했다.",
+                "example_en": "The security expert identified vulnerabilities in the program and supplemented them safely."
+            },
+            {
+                "word": "무더기",
+                "meaning": "a large pile, a crowd, in bulk",
+                "example_ko": "이번 시험에서 합격자가 [무더기로] 쏟아져 나와 사람들을 놀라게 했다.",
+                "example_en": "A huge crowd of successful applicants came out in this exam, surprising people."
+            },
+            {
+                "word": "권고문",
+                "meaning": "advisory, written recommendation",
+                "example_ko": "정부는 겨울철 전염병 예방을 위해 철저한 위생 수칙을 담은 [권고문을] 발표했다.",
+                "example_en": "The government released an advisory containing thorough hygiene rules to prevent winter epidemics."
+            },
+            {
+                "word": "분류되다",
+                "meaning": "to be classified, to be categorized",
+                "example_ko": "도서관의 책들은 주제와 언어에 따라 여러 항목으로 [분류된다].",
+                "example_en": "Books in the library are classified into various categories according to subject and language."
+            },
+            {
+                "word": "결함",
+                "meaning": "flaw, defect",
+                "example_ko": "새로 출시된 스마트폰에서 기계적 [결함이] 발견되어 판매가 중단되었다.",
+                "example_en": "A mechanical defect was discovered in the newly released smartphone, halting sales."
+            },
+            {
+                "word": "침투하다",
+                "meaning": "to infiltrate, to penetrate",
+                "example_ko": "해커가 보안망을 뚫고 회사 내부 데이터베이스에 몰래 [침투했다].",
+                "example_en": "A hacker broke through the security network and secretly infiltrated the company's internal database."
+            },
+            {
+                "word": "원격",
+                "meaning": "remote, long-distance",
+                "example_ko": "재택근무를 하는 직원들은 [원격으로] 사무실 컴퓨터에 접속해 일한다.",
+                "example_en": "Employees working from home connect remotely to office computers to do their work."
+            },
+            {
+                "word": "악용되다",
+                "meaning": "to be abused, to be exploited",
+                "example_ko": "개인정보가 다른 사람의 범죄에 나쁘게 [악용되지] 않도록 주의해야 한다.",
+                "example_en": "We must be careful so that personal information is not exploited for other people's crimes."
+            },
+            {
+                "word": "식별하다",
+                "meaning": "to identify, to distinguish",
+                "example_ko": "어두운 밤길이라 멀리서 다가오는 사람의 얼굴을 정확히 [식별하기] 어려웠다.",
+                "example_en": "Because it was a dark road at night, it was difficult to accurately identify the face of the person approaching from afar."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-20",
+        "published_at": "2026-11-20 03:12",
+        "title": "중국 왕이 외교부장, 미·중·러 3자 정상회담에 \"역사책에 실릴 상징적 사건\"",
+        "body": "왕이 중국 외교부장이 최근 열린 미국, 중국, 러시아 3자 정상회담에 대해 역사책에 실릴 상징적인 사건이라고 평가했다. 왕 부장은 중국 선전에서 열린 아시아태평양경제협력체(APEC) 정상회의를 마친 뒤 기자회견을 열고 이같이 밝혔다. 그는 이번 회담에서 세계의 평화와 안보, 안정과 관련된 매우 중요한 문제들에 대해 깊이 있는 논의가 이루어졌다고 설명했다. 특히 미국과 중국, 러시아 3국의 정상이 사상 처음으로 한자리에 모여 회담을 가졌다는 점에서 그 의미가 매우 크다고 강조했다. 왕 부장은 세 정상 간의 회담이 매우 솔직하고 우호적인 분위기 속에서 건설적으로 진행되었다고 전했다. 또한 세 나라가 이번 대화를 통해 세계를 향한 평화 선언을 발표하고 일련의 공감대를 형성했다고 덧붙였다. 그러면서 주요 강대국 간의 전략적 안정을 도모한 이번 모임은 사실상 평화 정상회담으로 부를 만하다고 규정했다. 한편 왕 부장은 회담을 마치고 귀국하는 도널드 트럼프 미국 대통령과 블라디미르 푸틴 러시아 대통령을 공항에서 직접 배웅했다고 밝혔다.",
+        "translation": "왕이 중국 외교부장이 최근 열린 미국, 중국, 러시아 3자 정상회담에 대해 역사책에 실릴 상징적인 사건이라고 평가했다.\nChinese Foreign Minister Wang Yi evaluated the recent trilateral summit among the United States, China, and Russia as a symbolic event that will be recorded in history books.\n\n왕 부장은 중국 선전에서 열린 아시아태평양경제협력체(APEC) 정상회의를 마친 뒤 기자회견을 열고 이같이 밝혔다.\nMinister Wang stated this during a press conference held after concluding the Asia-Pacific Economic Cooperation (APEC) summit in Shenzhen, China.\n\n그는 이번 회담에서 세계의 평화와 안보, 안정과 관련된 매우 중요한 문제들에 대해 깊이 있는 논의가 이루어졌다고 설명했다.\nHe explained that in-depth discussions were held during this summit regarding very important issues related to world peace, security, and stability.\n\n특히 미국과 중국, 러시아 3국의 정상이 사상 처음으로 한자리에 모여 회담을 가졌다는 점에서 그 의미가 매우 크다고 강조했다.\nHe emphasized that the meaning was especially great in that the leaders of the three nations—the US, China, and Russia—gathered in one place to hold a summit for the first time in history.\n\n왕 부장은 세 정상 간의 회담이 매우 솔직하고 우호적인 분위기 속에서 건설적으로 진행되었다고 전했다.\nMinister Wang conveyed that the meeting between the three leaders proceeded constructively in a very frank and friendly atmosphere.\n\n또한 세 나라가 이번 대화를 통해 세계를 향한 평화 선언을 발표하고 일련의 공감대를 형성했다고 덧붙였다.\nHe also added that the three countries announced a peace declaration to the world through this dialogue and reached a series of consensuses.\n\n그러면서 주요 강대국 간의 전략적 안정을 도모한 이번 모임은 사실상 평화 정상회담으로 부를 만하다고 규정했다.\nFurthermore, he characterized this gathering, which sought strategic stability among major powers, as worthy of being called a peace summit.\n\n한편 왕 부장은 회담을 마치고 귀국하는 도널드 트럼프 미국 대통령과 블라디미르 푸틴 러시아 대통령을 공항에서 직접 배웅했다고 밝혔다.\nMeanwhile, Minister Wang stated that he personally saw off US President Donald Trump and Russian President Vladimir Putin at the airport as they returned home after the summit.",
+        "vocab": [
+            {
+                "word": "상징적",
+                "meaning": "symbolic",
+                "example_ko": "두 나라 정상의 악수는 오랜 갈등의 종식을 알리는 [상징적인] 장면이었다.",
+                "example_en": "The handshake between the leaders of the two countries was a symbolic scene announcing the end of a long conflict."
+            },
+            {
+                "word": "사상",
+                "meaning": "in history, on record",
+                "example_ko": "올해 여름은 기상 관측 [사상] 가장 높은 기온을 기록했다.",
+                "example_en": "This summer recorded the highest temperature in meteorological observation history."
+            },
+            {
+                "word": "한자리",
+                "meaning": "one place, the same spot",
+                "example_ko": "명절을 맞아 흩어져 살던 가족들이 오랜만에 [한자리에] 모였다.",
+                "example_en": "On the occasion of the holiday, the family members who lived apart gathered in one place for the first time in a while."
+            },
+            {
+                "word": "솔직하다",
+                "meaning": "to be honest, to be frank",
+                "example_ko": "친구는 자신의 실수에 대해 거짓 없이 매우 [솔직하게] 털어놓았다.",
+                "example_en": "My friend confessed about his mistake very frankly without any lies."
+            },
+            {
+                "word": "우호적",
+                "meaning": "friendly, amicable",
+                "example_ko": "두 회사는 사업 협력을 위해 서로 [우호적인] 관계를 유지하고 있다.",
+                "example_en": "The two companies maintain an amicable relationship with each other for business cooperation."
+            },
+            {
+                "word": "건설적",
+                "meaning": "constructive",
+                "example_ko": "팀원들은 문제 해결을 위해 회의에서 다양한 [건설적인] 의견을 나누었다.",
+                "example_en": "The team members shared various constructive opinions during the meeting to solve the problem."
+            },
+            {
+                "word": "공감대",
+                "meaning": "consensus, bond of sympathy",
+                "example_ko": "환경 보호의 필요성에 대해 시민들 사이에 넓은 [공감대가] 형성되었다.",
+                "example_en": "A broad consensus was formed among citizens regarding the necessity of environmental protection."
+            },
+            {
+                "word": "도모하다",
+                "meaning": "to strive for, to seek, to promote",
+                "example_ko": "양국은 무역을 확대하여 경제 발전을 [도모하기로] 뜻을 모았다.",
+                "example_en": "Both nations agreed to strive for economic development by expanding trade."
+            },
+            {
+                "word": "규정하다",
+                "meaning": "to define, to characterize",
+                "example_ko": "학자들은 이번 연구 결과를 역사학계의 큰 발전으로 [규정했다].",
+                "example_en": "Scholars characterized this research result as a major development in historical academia."
+            },
+            {
+                "word": "배웅하다",
+                "meaning": "to see off",
+                "example_ko": "외국으로 유학을 떠나는 친구를 공항까지 가서 따뜻하게 [배웅했다].",
+                "example_en": "I went to the airport to warmly see off my friend who was leaving to study abroad."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-11-19",
         "published_at": "2026-11-19 11:29",
         "title": "이 대통령, 태안 어선 실종 장기화에 \"인명 수색에 최선 다하라\" 긴급 지시",

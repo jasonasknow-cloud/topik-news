@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-19",
+        "published_at": "2026-11-19 11:29",
+        "title": "이 대통령, 태안 어선 실종 장기화에 \"인명 수색에 최선 다하라\" 긴급 지시",
+        "body": "중국을 방문 중인 이재명 대통령이 충남 태안군 인근 해상에서 발생한 어선 실종 사고와 관련해 수색에 최선을 다하라고 긴급 지시했다. 청와대 대변인은 서면 브리핑을 통해 이 대통령이 실종 어선의 연락 두절 상태가 길어지고 있다는 보고를 받았다고 밝혔다. 이 대통령은 국무총리와 해양경찰청 등 관계 부처에 가용한 모든 자원을 동원해 구조 작업에 총력을 기울이라고 당부했다. 아울러 겨울철 거친 파도 속에서 수색에 투입된 구조 인력의 안전에도 각별히 유의할 것을 주문했다. 또한 현장에서 애태우며 소식을 기다리고 있는 실종자 가족들에 대한 지원에도 소홀함이 없어야 한다고 강조했다. 앞서 해양경찰은 한국인 선원을 포함해 총 7명이 탑승한 어선이 태안 격렬비열도 인근에서 출항한 뒤 연락이 끊겼다는 신고를 접수했다. 신고 직후 해경은 경비함정과 항공기 등을 급파하여 사고 해역을 중심으로 대대적인 수색 작업을 벌이고 있다. 정부는 긴급 대응 체계를 가동하고 실종 선원들의 신속한 구조를 위해 관계 기관 간의 협조를 강화하기로 했다.",
+        "translation": "중국을 방문 중인 이재명 대통령이 충남 태안군 인근 해상에서 발생한 어선 실종 사고와 관련해 수색에 최선을 다하라고 긴급 지시했다.\nPresident Lee Jae-myung, who is visiting China, urgently instructed officials to do their utmost in the search regarding the disappearance of a fishing vessel off the coast of Taean County, South Chungcheong Province.\n\n청와대 대변인은 서면 브리핑을 통해 이 대통령이 실종 어선의 연락 두절 상태가 길어지고 있다는 보고를 받았다고 밝혔다.\nThe Blue House spokesperson stated in a written briefing that President Lee received a report that the loss of contact with the missing fishing vessel is becoming prolonged.\n\n이 대통령은 국무총리와 해양경찰청 등 관계 부처에 가용한 모든 자원을 동원해 구조 작업에 총력을 기울이라고 당부했다.\nPresident Lee called on the Prime Minister and relevant ministries, including the Korea Coast Guard, to mobilize all available resources and dedicate full efforts to the rescue operation.\n\n아울러 겨울철 거친 파도 속에서 수색에 투입된 구조 인력의 안전에도 각별히 유의할 것을 주문했다.\nIn addition, he requested that special attention be paid to the safety of rescue personnel deployed in the search amid rough winter waves.\n\n또한 현장에서 애태우며 소식을 기다리고 있는 실종자 가족들에 대한 지원에도 소홀함이 없어야 한다고 강조했다.\nHe also emphasized that there must be no neglect in supporting the families of the missing who are waiting anxiously on site for news.\n\n앞서 해양경찰은 한국인 선원을 포함해 총 7명이 탑승한 어선이 태안 격렬비열도 인근에서 출항한 뒤 연락이 끊겼다는 신고를 접수했다.\nEarlier, the Coast Guard received a report that contact was lost after a fishing vessel carrying seven crew members, including South Koreans, departed from waters near Gyeongnyeolbiyeol Island in Taean.\n\n신고 직후 해경은 경비함정과 항공기 등을 급파하여 사고 해역을 중심으로 대대적인 수색 작업을 벌이고 있다.\nImmediately following the report, the Coast Guard urgently dispatched patrol ships and aircraft to conduct an extensive search operation centered on the accident waters.\n\n정부는 긴급 대응 체계를 가동하고 실종 선원들의 신속한 구조를 위해 관계 기관 간의 협조를 강화하기로 했다.\nThe government decided to activate an emergency response system and strengthen cooperation among relevant agencies for the swift rescue of the missing crew members.",
+        "vocab": [
+            {
+                "word": "긴급",
+                "meaning": "emergency, urgency",
+                "example_ko": "[긴급] 환자가 발생하여 구급차를 급히 불렀다.",
+                "example_en": "An emergency patient occurred, so we quickly called an ambulance."
+            },
+            {
+                "word": "두절",
+                "meaning": "cutoff, cessation of communication",
+                "example_ko": "폭설 때문에 전화와 인터넷이 [두절]되었다.",
+                "example_en": "Phone and internet service were cut off due to the heavy snowfall."
+            },
+            {
+                "word": "자원",
+                "meaning": "resource",
+                "example_ko": "회사는 문제 해결을 위해 모든 [자원]을 투입했다.",
+                "example_en": "The company invested all resources to resolve the issue."
+            },
+            {
+                "word": "동원하다",
+                "meaning": "to mobilize",
+                "example_ko": "산불을 끄기 위해 인근 주민과 헬기를 [동원했다].",
+                "example_en": "We mobilized local residents and helicopters to extinguish the forest fire."
+            },
+            {
+                "word": "파도",
+                "meaning": "wave",
+                "example_ko": "바닷가에 가니 높은 [파도]가 바위에 부딪쳤다.",
+                "example_en": "When I went to the beach, high waves were crashing against the rocks."
+            },
+            {
+                "word": "유의하다",
+                "meaning": "to pay attention to, to be mindful of",
+                "example_ko": "건강을 지키려면 평소 식습관에 [유의해야] 한다.",
+                "example_en": "To protect your health, you should pay attention to your daily eating habits."
+            },
+            {
+                "word": "애태우다",
+                "meaning": "to worry, to be anxious",
+                "example_ko": "부모님은 늦게 귀가하는 아이 때문에 가슴을 [애태웠다].",
+                "example_en": "The parents worried anxiously over their child returning home late."
+            },
+            {
+                "word": "소홀하다",
+                "meaning": "to be neglectful, careless",
+                "example_ko": "바쁜 일상 속에서도 건강 관리에 [소홀하면] 안 된다.",
+                "example_en": "Even in a busy daily life, you must not be neglectful of your health management."
+            },
+            {
+                "word": "출항하다",
+                "meaning": "to depart from port, set sail",
+                "example_ko": "기상이 악화되어 여객선이 부두에서 [출항하지] 못했다.",
+                "example_en": "Due to worsening weather conditions, the passenger ferry could not depart from the dock."
+            },
+            {
+                "word": "급파하다",
+                "meaning": "to dispatch urgently",
+                "example_ko": "경찰은 사건 현장에 수사관들을 즉시 [급파했다].",
+                "example_en": "The police immediately dispatched investigators to the scene of the incident."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-19",
+        "published_at": "2026-11-19 11:29",
+        "title": "코스피, 미국 긴축 우려에 하락 전환…5,000선 부근서 등락",
+        "body": "대학수학능력시험일인 19일 국내 증시가 한 시간 늦게 개장한 가운데 코스피가 하락세로 돌아섰다. 이날 코스피는 전날보다 0.45% 오른 5,090선에서 상승 출발했으나 장중 상승분을 모두 반납했다. 지수는 외국인과 기관 투자자의 동반 매도세가 이어지면서 장중 1% 넘게 떨어져 5,000선 안팎에서 등락을 거듭했다. 시장에서는 전날 공개된 미국 연방공개시장위원회 의사록에서 고금리 긴축 기조가 언급된 점이 부담으로 작용했다고 분석했다. 특히 미국 중앙은행 일부 위원들이 기준금리를 한 번에 크게 올리는 빅스텝 가능성을 시사하면서 투자 심리가 위축됐다. 이에 따라 간밤 뉴욕증시가 혼조세를 보였고 국내 대형 반도체 종목인 삼성전자와 SK하이닉스도 동반 약세를 기록했다. 반면 한중 정상회담을 계기로 한한령 해제에 대한 기대감이 커지면서 여행과 화장품 등 중국 소비 관련주는 강세를 나타냈다. 이날 국내 주식시장은 수능 일정에 맞춰 거래 시간이 한 시간씩 늦춰져 평소보다 늦은 오후 4시 30분에 마감했다.",
+        "translation": "대학수학능력시험일인 19일 국내 증시가 한 시간 늦게 개장한 가운데 코스피가 하락세로 돌아섰다.\nOn November 19, the day of the College Scholastic Ability Test, the domestic stock market opened one hour late and the KOSPI turned downward.\n\n이날 코스피는 전날보다 0.45% 오른 5,090선에서 상승 출발했으나 장중 상승분을 모두 반납했다.\nThe KOSPI started higher on that day at around 5,090, up 0.45% from the previous day, but surrendered all its intraday gains.\n\n지수는 외국인과 기관 투자자의 동반 매도세가 이어지면서 장중 1% 넘게 떨어져 5,000선 안팎에서 등락을 거듭했다.\nAs combined selling pressure from foreign and institutional investors continued, the index fell by more than 1% during the day, fluctuating around the 5,000 mark.\n\n시장에서는 전날 공개된 미국 연방공개시장위원회 의사록에서 고금리 긴축 기조가 언급된 점이 부담으로 작용했다고 분석했다.\nThe market analyzed that the mention of a tight monetary policy stance in the minutes of the U.S. Federal Open Market Committee released the previous night acted as a burden.\n\n특히 미국 중앙은행 일부 위원들이 기준금리를 한 번에 크게 올리는 빅스텝 가능성을 시사하면서 투자 심리가 위축됐다.\nIn particular, investment sentiment contracted as some members of the U.S. central bank hinted at the possibility of a big step, raising the benchmark interest rate significantly at once.\n\n이에 따라 간밤 뉴욕증시가 혼조세를 보였고 국내 대형 반도체 종목인 삼성전자와 SK하이닉스도 동반 약세를 기록했다.\nAccordingly, the New York stock market showed mixed trends overnight, and major domestic semiconductor stocks Samsung Electronics and SK Hynix also recorded simultaneous weakness.\n\n반면 한중 정상회담을 계기로 한한령 해제에 대한 기대감이 커지면서 여행과 화장품 등 중국 소비 관련주는 강세를 나타냈다.\nOn the other hand, as expectations grew for the lifting of the Korean Wave ban following the Korea-China summit, Chinese consumption-related stocks such as travel and cosmetics showed strength.\n\n이날 국내 주식시장은 수능 일정에 맞춰 거래 시간이 한 시간씩 늦춰져 평소보다 늦은 오후 4시 30분에 마감했다.\nOn this day, trading hours for the domestic stock market were pushed back by one hour in line with the test schedule, closing at 4:30 p.m., later than usual.",
+        "vocab": [
+            {
+                "word": "개장하다",
+                "meaning": "to open (market or facility)",
+                "example_ko": "백화점이 오전에 [개장하자마자] 많은 손님이 몰렸다.",
+                "example_en": "As soon as the department store opened in the morning, a lot of customers crowded in."
+            },
+            {
+                "word": "반납하다",
+                "meaning": "to return, surrender",
+                "example_ko": "도서관에서 빌린 책을 제때 [반납했다].",
+                "example_en": "I returned the books borrowed from the library on time."
+            },
+            {
+                "word": "매도세",
+                "meaning": "selling pressure, selling trend",
+                "example_ko": "주식 시장에서 외국인의 강한 [매도세]가 나타났다.",
+                "example_en": "Strong selling pressure from foreign investors appeared in the stock market."
+            },
+            {
+                "word": "등락",
+                "meaning": "fluctuation, rise and fall",
+                "example_ko": "환율의 [등락]이 심해서 해외여행 경비를 계산하기 어렵다.",
+                "example_en": "Because the exchange rate fluctuates severely, it is difficult to calculate overseas travel expenses."
+            },
+            {
+                "word": "거듭하다",
+                "meaning": "to repeat, iterate",
+                "example_ko": "우리는 회의를 [거듭한] 끝에 마침내 좋은 결론을 내렸다.",
+                "example_en": "After repeated meetings, we finally reached a good conclusion."
+            },
+            {
+                "word": "기조",
+                "meaning": "basic tone, policy stance",
+                "example_ko": "정부는 물가 안정을 위한 긴축 [기조]를 이어가고 있다.",
+                "example_en": "The government is continuing its tightening stance for price stability."
+            },
+            {
+                "word": "시사하다",
+                "meaning": "to suggest, imply",
+                "example_ko": "이번 연구 결과는 생활 습관 개선의 필요성을 [시사한다].",
+                "example_en": "The findings of this study imply the necessity of improving lifestyle habits."
+            },
+            {
+                "word": "위축되다",
+                "meaning": "to shrink, be intimidated, contract",
+                "example_ko": "경기가 나빠지자 사람들의 소비 심리가 크게 [위축되었다].",
+                "example_en": "As economic conditions worsened, consumers' spending sentiment contracted significantly."
+            },
+            {
+                "word": "약세",
+                "meaning": "weakness, bearish trend",
+                "example_ko": "최근 원화 가치가 달러화에 비해 [약세]를 보이고 있다.",
+                "example_en": "Recently, the value of the won has been showing weakness compared to the dollar."
+            },
+            {
+                "word": "일정",
+                "meaning": "schedule, itinerary",
+                "example_ko": "이번 주말에는 가족 모임 [일정]이 잡혀 있다.",
+                "example_en": "A family gathering schedule is set for this weekend."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-19",
+        "published_at": "2026-11-19 11:29",
+        "title": "'김창민 영화감독 폭행치사' 피고인 2명에 징역 12년과 3년 선고",
+        "body": "음식점에서 소음 문제로 시비가 붙어 김창민 영화감독을 때려 숨지게 한 30대 남성 2명에게 실형이 선고됐다. 법원은 상해치사 등의 혐의로 구속된 피고인들에게 각각 징역 12년과 징역 3년을 선고하고 장애인 관련 기관 취업 제한을 명령했다. 피고인들은 지난해 10월 한 식당에서 김 감독과 말다툼을 벌인 뒤 골목길로 끌고 가 무차별 폭행을 가한 혐의를 받는다. 당시 현장에는 피해자의 발달장애인 아들이 함께 있었으며 아버지가 폭행당하는 장면을 목격해 큰 충격을 받았다. 재판부는 피해자의 아들에게 정서적 학대를 가한 혐의에 대해서도 피고인들의 유죄를 인정했다. 폭행을 당해 의식을 잃은 김 감독은 곧바로 병원으로 이송되었으나 끝내 뇌사 판정을 받았다. 이후 유족들은 고인의 뜻을 기려 장기 기증을 결정했고 김 감독은 환자 4명에게 새 생명을 나누어 주고 세상을 떠났다. 재판부는 무방비 상태의 피해자를 잔혹하게 폭행해 사망에 이르게 한 죄책이 매우 무겁다며 엄중한 처벌 이유를 밝혔다.",
+        "translation": "음식점에서 소음 문제로 시비가 붙어 김창민 영화감독을 때려 숨지게 한 30대 남성 2명에게 실형이 선고됐다.\nTwo men in their thirties who beat film director Kim Chang-min to death after getting into an argument over noise at a restaurant were sentenced to prison.\n\n법원은 상해치사 등의 혐의로 구속된 피고인들에게 각각 징역 12년과 징역 3년을 선고하고 장애인 관련 기관 취업 제한을 명령했다.\nThe court sentenced the defendants detained on charges including bodily injury resulting in death to 12 years and 3 years in prison respectively, and ordered restrictions on employment at institutions related to persons with disabilities.\n\n피고인들은 지난해 10월 한 식당에서 김 감독과 말다툼을 벌인 뒤 골목길로 끌고 가 무차별 폭행을 가한 혐의를 받는다.\nThe defendants are accused of dragging Director Kim to an alley and indiscriminately assaulting him following a verbal argument at a restaurant in October of last year.\n\n당시 현장에는 피해자의 발달장애인 아들이 함께 있었으며 아버지가 폭행당하는 장면을 목격해 큰 충격을 받았다.\nAt the time, the victim's son, who has a developmental disability, was present and was severely traumatized after witnessing the scene of his father being assaulted.\n\n재판부는 피해자의 아들에게 정서적 학대를 가한 혐의에 대해서도 피고인들의 유죄를 인정했다.\nThe court also recognized the defendants' guilt regarding the charge of inflicting emotional abuse on the victim's son.\n\n폭행을 당해 의식을 잃은 김 감독은 곧바로 병원으로 이송되었으나 끝내 뇌사 판정을 받았다.\nDirector Kim, who lost consciousness after being assaulted, was immediately transferred to a hospital but was ultimately declared brain-dead.\n\n이후 유족들은 고인의 뜻을 기려 장기 기증을 결정했고 김 감독은 환자 4명에게 새 생명을 나누어 주고 세상을 떠났다.\nAfterward, honoring the wishes of the deceased, the bereaved family decided on organ donation, and Director Kim passed away after sharing new life with four patients.\n\n재판부는 무방비 상태의 피해자를 잔혹하게 폭행해 사망에 이르게 한 죄책이 매우 무겁다며 엄중한 처벌 이유를 밝혔다.\nThe court explained the reason for the severe punishment, stating that the criminal culpability for brutally assaulting a defenseless victim and causing his death was very heavy.",
+        "vocab": [
+            {
+                "word": "시비",
+                "meaning": "argument, dispute",
+                "example_ko": "사소한 일로 다른 손님과 [시비]가 붙어 다툼이 생겼다.",
+                "example_en": "A dispute arose after getting into an argument with another customer over a trivial matter."
+            },
+            {
+                "word": "실형",
+                "meaning": "prison term, actual prison sentence",
+                "example_ko": "법원은 범죄의 무게를 고려하여 피고인에게 [실형]을 선고했다.",
+                "example_en": "Considering the gravity of the crime, the court sentenced the defendant to prison."
+            },
+            {
+                "word": "혐의",
+                "meaning": "suspicion, charge",
+                "example_ko": "그는 남의 물건을 훔친 [혐의]로 경찰 조사를 받았다.",
+                "example_en": "He was questioned by police on charges of stealing someone else's property."
+            },
+            {
+                "word": "제한",
+                "meaning": "restriction, limitation",
+                "example_ko": "도서관에서는 한 사람당 대출 권수에 [제한]이 있다.",
+                "example_en": "There is a limit on the number of books one person can borrow at the library."
+            },
+            {
+                "word": "무차별",
+                "meaning": "indiscriminate",
+                "example_ko": "밤마다 걸려오는 [무차별] 광고 전화 때문에 괴롭다.",
+                "example_en": "I am bothered by the indiscriminate telemarketing calls that come every night."
+            },
+            {
+                "word": "목격하다",
+                "meaning": "to witness",
+                "example_ko": "한 행인이 길에서 일어난 교통사고를 직접 [목격했다].",
+                "example_en": "A pedestrian personally witnessed the traffic accident that occurred on the street."
+            },
+            {
+                "word": "인정하다",
+                "meaning": "to acknowledge, admit, recognize",
+                "example_ko": "그는 자신의 잘못을 솔직하게 [인정하고] 사과했다.",
+                "example_en": "He frankly admitted his mistake and apologized."
+            },
+            {
+                "word": "이송되다",
+                "meaning": "to be transferred, transported",
+                "example_ko": "다친 환자는 구급차에 실려 큰 병원으로 [이송되었다].",
+                "example_en": "The injured patient was carried in an ambulance and transferred to a large hospital."
+            },
+            {
+                "word": "기증하다",
+                "meaning": "to donate",
+                "example_ko": "그는 평생 아끼던 도서 수천 권을 학교에 [기증했다].",
+                "example_en": "He donated thousands of books he cherished all his life to the school."
+            },
+            {
+                "word": "잔혹하다",
+                "meaning": "to be cruel, brutal",
+                "example_ko": "동물에게 [잔혹한] 행동을 하는 것은 옳지 않다.",
+                "example_en": "It is not right to commit cruel acts against animals."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-19",
+        "published_at": "2026-11-19 11:29",
+        "title": "푸틴 러시아 대통령과 다카이치 일본 총리, APEC서 30분간 비공식 대화",
+        "body": "블라디미르 푸틴 러시아 대통령과 다카이치 사나에 일본 총리가 국제회의 현장에서 만나 비공식 대화를 나눴다. 양국 정상은 아시아태평양경제협력체 정상회의 기간 중 약 30분간 마주 앉아 주요 현안을 논의했다. 일본 언론에 따르면 다카이치 총리는 러시아에 간첩 혐의로 구금된 일본인 기자의 석방을 강력히 요청했다. 아울러 러시아 정부가 자국 기업 관리 아래에 둔 일본담배산업 자산에 대한 임시 관리 조치도 철회해 달라고 요구했다. 반면 러시아 크렘린궁 대변인은 두 정상이 짧은 대화를 나눴을 뿐 정식 정상회담을 열 계획은 없다고 선을 그었다. 러시아와 일본은 일본의 대러 제재와 쿠릴열도 영유권 문제 등으로 인해 최근 외교적 갈등이 깊어진 상태이다. 이번 만남은 지난 2019년 이후 7년 만에 성사된 양국 정상 간의 대면 접촉이라는 점에서 국제사회의 주목을 받았다. 외교 전문가들은 이번 접촉에도 불구하고 양국 간의 이견이 커서 관계 개선까지는 상당한 시간이 걸릴 것으로 내다봤다.",
+        "translation": "블라디미르 푸틴 러시아 대통령과 다카이치 사나에 일본 총리가 국제회의 현장에서 만나 비공식 대화를 나눴다.\nRussian President Vladimir Putin and Japanese Prime Minister Sanae Takaichi met at an international conference venue and held an informal conversation.\n\n양국 정상은 아시아태평양경제협력체 정상회의 기간 중 약 30분간 마주 앉아 주요 현안을 논의했다.\nThe leaders of the two countries sat down for about 30 minutes during the Asia-Pacific Economic Cooperation summit to discuss major pending issues.\n\n일본 언론에 따르면 다카이치 총리는 러시아에 간첩 혐의로 구금된 일본인 기자의 석방을 강력히 요청했다.\nAccording to Japanese media, Prime Minister Takaichi strongly requested the release of a Japanese journalist detained in Russia on espionage charges.\n\n아울러 러시아 정부가 자국 기업 관리 아래에 둔 일본담배산업 자산에 대한 임시 관리 조치도 철회해 달라고 요구했다.\nIn addition, she requested that the Russian government withdraw its temporary management measures placed over the assets of Japan Tobacco under the control of Russian enterprises.\n\n반면 러시아 크렘린궁 대변인은 두 정상이 짧은 대화를 나눴을 뿐 정식 정상회담을 열 계획은 없다고 선을 그었다.\nOn the other hand, a Kremlin spokesperson drew a line, stating that the two leaders only had a brief conversation and there were no plans to hold a formal summit.\n\n러시아와 일본은 일본의 대러 제재와 쿠릴열도 영유권 문제 등으로 인해 최근 외교적 갈등이 깊어진 상태이다.\nDiplomatic tensions between Russia and Japan have deepened recently due to Japan's sanctions against Russia and territorial sovereignty issues over the Kuril Islands.\n\n이번 만남은 지난 2019년 이후 7년 만에 성사된 양국 정상 간의 대면 접촉이라는 점에서 국제사회의 주목을 받았다.\nThis meeting garnered the international community's attention as it was the first face-to-face contact between the leaders of the two nations accomplished in seven years since 2019.\n\n외교 전문가들은 이번 접촉에도 불구하고 양국 간의 이견이 커서 관계 개선까지는 상당한 시간이 걸릴 것으로 내다봤다.\nDiplomatic experts predicted that despite this contact, it will take considerable time to improve relations because the differences of opinion between the two countries remain large.",
+        "vocab": [
+            {
+                "word": "정상",
+                "meaning": "summit, head of state",
+                "example_ko": "두 나라의 [정상]이 평화로운 해결책을 찾기 위해 모였다.",
+                "example_en": "The leaders of the two nations gathered to find a peaceful solution."
+            },
+            {
+                "word": "현안",
+                "meaning": "pending issue",
+                "example_ko": "양국 정부는 환경 문제를 해결하기 위한 시급한 [현안]을 논의했다.",
+                "example_en": "The governments of both countries discussed pressing pending issues to address environmental problems."
+            },
+            {
+                "word": "구금되다",
+                "meaning": "to be detained",
+                "example_ko": "출입국 법을 위반한 여행객이 공항 시설에 [구금되었다].",
+                "example_en": "A traveler who violated immigration laws was detained at an airport facility."
+            },
+            {
+                "word": "강력히",
+                "meaning": "strongly, firmly",
+                "example_ko": "지역 주민들은 쓰레기 매립지 건설 계획에 [강력히] 반대했다.",
+                "example_en": "Local residents strongly opposed the plan to construct a landfill."
+            },
+            {
+                "word": "철회하다",
+                "meaning": "to revoke, withdraw",
+                "example_ko": "시민들의 반발이 심해지자 회사는 가격 인상 결정을 [철회했다].",
+                "example_en": "As citizens' backlash intensified, the company revoked its price increase decision."
+            },
+            {
+                "word": "선을 긋다",
+                "meaning": "to draw a line, set boundaries",
+                "example_ko": "그는 이번 사건과 자신은 아무런 관련이 없다며 분명하게 [선을 그었다].",
+                "example_en": "He clearly drew a line, stating that he had nothing to do with this incident."
+            },
+            {
+                "word": "영유권",
+                "meaning": "territorial sovereignty",
+                "example_ko": "두 나라는 바다의 작은 섬에 대한 [영유권]을 두고 다투고 있다.",
+                "example_en": "The two countries are disputing over territorial sovereignty regarding the small island in the sea."
+            },
+            {
+                "word": "성사되다",
+                "meaning": "to be accomplished, realized",
+                "example_ko": "오랜 협상 끝에 마침내 두 기업의 합병 계약이 [성사되었다].",
+                "example_en": "After long negotiations, the merger agreement between the two corporations was finally realized."
+            },
+            {
+                "word": "주목",
+                "meaning": "attention, notice",
+                "example_ko": "젊은 감독의 새로운 영화가 세계 영화계의 큰 [주목]을 받았다.",
+                "example_en": "The young director's new movie received immense attention from the global film industry."
+            },
+            {
+                "word": "이견",
+                "meaning": "difference of opinion, disagreement",
+                "example_ko": "서로 간의 [이견]을 좁히지 못해 결국 협상이 결렬되었다.",
+                "example_en": "Because they failed to narrow the differences of opinion between each other, the negotiation ultimately collapsed."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-19",
         "published_at": "2026-11-19 02:59",
         "title": "일본 당국의 조국 원장 입국 거부에 외교부 \"재발 방지 요청\"",
         "body": "조국 혁신정책연구원 원장이 일본 공항에 도착했으나 출입국 당국에 의해 입국이 거부되는 일이 발생했다. 이에 대해 일본 정부는 조 원장의 과거 독도 방문 이력이 아니라 전과 보유가 입국 거부의 원인이라는 공식 입장을 밝혔다. 기하라 미노루 관방장관은 외국인의 입국 허용 여부는 법률에 따라 출입국재류관리청이 판단하고 있다고 설명했다. 일본 출입국관리법에는 외국 법률을 위반해 1년 이상의 징역형 등을 선고받은 사람의 입국을 거부할 수 있다는 조항이 있다. 일본 당국은 조 원장이 자녀 입시 비리 등의 혐의로 징역 2년의 실형을 확정받은 전력이 이에 해당한다고 부연했다. 반면 조 원장 측은 지난 5월 독도를 방문했을 당시 일본 외무성이 강하게 항의했던 점을 거론하며 반발했다. 조 원장 측은 독도 방문이 입국 거부의 실제 이유라면 이는 영토 주권에 대한 부당한 도전이라고 비판했다. 이와 관련해 한국 외교부는 국민에 대한 입국 제한 조치가 공정하고 예측 가능하게 이루어져야 한다는 뜻을 일본 측에 전달했다. 또한 외교부는 일본 당국의 규정 적용 기준에 의문이 제기되고 있음을 설명하고 유사한 사례가 재발하지 않도록 요청했다. 한일 양국 외교당국은 이번 사안을 포함해 출입국 문제와 관련한 긴밀한 소통을 이어가기로 합의했다.",

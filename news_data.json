@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-11-23",
+        "published_at": "2026-11-23 02:05",
+        "title": "이 대통령, 대장동 배임 의혹 반박…\"업자와 결탁했다면 추가 환수 없었을 것\"",
+        "body": "이재명 대통령이 대장동 개발사업과 관련한 배임 의혹에 대해 자신이 업자와 결탁했다면 1,100억 원을 더 받았겠느냐며 재차 반박했다. 그는 자신의 소셜미디어를 통해 관련 게시물을 직접 공유하면서 당시 사업 추진 과정을 구체적으로 설명했다. 게시물에 따르면 성남시는 사업자 선정 당시 성남시 몫의 이익 4,300억 원을 먼저 확정하여 보장받는 조건을 내걸었다. 이후 부동산 경기와 시장 상황이 개선되자 성남시는 업자들에게 1,100억 원을 추가로 부담시키는 조치를 취했다. 이 대통령은 자신이 업자와 결탁된 시장이었다면 성남시의 이익을 늘리기 위해 이러한 결정을 내릴 수 없었을 것이라고 역설했다. 앞서 이 대통령은 지난 20일에도 대장동 개발에 참여했던 정민용 변호사의 언론 인터뷰 영상을 소셜미디어에 공유한 바 있다. 당시 그는 민간 개발사업에서 무려 5,500억 원을 공익으로 환수한 것이 어떻게 배임죄가 될 수 있느냐며 강하게 반문했다. 이어 대장동 사업처럼 공익 환수를 하지 않고 개발이익을 민간업자가 모두 가져가도록 내버려둔 일반적인 개발허가는 과연 어떻게 보아야 하느냐고 비판했다.",
+        "translation": "이재명 대통령이 대장동 개발사업과 관련한 배임 의혹에 대해 자신이 업자와 결탁했다면 1,100억 원을 더 받았겠느냐며 재차 반박했다.\nPresident Lee Jae-myung once again refuted breach-of-trust allegations regarding the Daejang-dong development project, asking whether he would have received an additional 110 billion won if he had colluded with private developers.\n\n그는 자신의 소셜미디어를 통해 관련 게시물을 직접 공유하면서 당시 사업 추진 과정을 구체적으로 설명했다.\nHe directly shared a related post on his social media and explained the project's implementation process at the time in detail.\n\n게시물에 따르면 성남시는 사업자 선정 당시 성남시 몫의 이익 4,300억 원을 먼저 확정하여 보장받는 조건을 내걸었다.\nAccording to the post, Seongnam City set a condition when selecting the business operator to pre-determine and secure Seongnam City's share of profits at 430 billion won.\n\n이후 부동산 경기와 시장 상황이 개선되자 성남시는 업자들에게 1,100억 원을 추가로 부담시키는 조치를 취했다.\nLater, as the real estate market conditions improved, Seongnam City took measures to impose an additional 110 billion won burden on the developers.\n\n이 대통령은 자신이 업자와 결탁된 시장이었다면 성남시의 이익을 늘리기 위해 이러한 결정을 내릴 수 없었을 것이라고 역설했다.\nPresident Lee emphasized that if he had been a mayor colluding with private developers, he would never have been able to make such decisions to increase Seongnam City's profit.\n\n앞서 이 대통령은 지난 20일에도 대장동 개발에 참여했던 정민용 변호사의 언론 인터뷰 영상을 소셜미디어에 공유한 바 있다.\nPreviously, on the 20th, President Lee also shared a media interview video of lawyer Jeong Min-yong, who had participated in the Daejang-dong development, on social media.\n\n당시 그는 민간 개발사업에서 무려 5,500억 원을 공익으로 환수한 것이 어떻게 배임죄가 될 수 있느냐며 강하게 반문했다.\nAt that time, he strongly countered by asking how redeeming as much as 550 billion won for public interest from a private development project could constitute breach of trust.\n\n이어 대장동 사업처럼 공익 환수를 하지 않고 개발이익을 민간업자가 모두 가져가도록 내버려둔 일반적인 개발허가는 과연 어떻게 보아야 하느냐고 비판했다.\nHe then criticized by asking how ordinary development permits, which leave all development profits to private operators without public redemption unlike the Daejang-dong project, should be viewed.",
+        "vocab": [
+            {
+                "word": "배임",
+                "meaning": "breach of trust, breach of duty",
+                "example_ko": "회사 자금을 개인 용도로 쓰는 것은 [배임]에 해당합니다.",
+                "example_en": "Using company funds for personal purposes constitutes a breach of trust."
+            },
+            {
+                "word": "결탁하다",
+                "meaning": "to collude with",
+                "example_ko": "일부 공무원이 부패한 업자와 [결탁하여] 처벌을 받았습니다.",
+                "example_en": "Some public officials were punished for colluding with corrupt businesses."
+            },
+            {
+                "word": "몫",
+                "meaning": "share, portion",
+                "example_ko": "우리는 각자 맡은 [몫]을 다하기 위해 최선을 다했습니다.",
+                "example_en": "We did our best to fulfill our respective shares of responsibility."
+            },
+            {
+                "word": "확정하다",
+                "meaning": "to finalize, to confirm",
+                "example_ko": "다음 주 회의 날짜를 내일 중으로 [확정할] 계획입니다.",
+                "example_en": "We plan to finalize the date of next week's meeting by tomorrow."
+            },
+            {
+                "word": "보장하다",
+                "meaning": "to guarantee, to secure",
+                "example_ko": "이 계약은 근로자의 안전한 노동 환경을 [보장합니다].",
+                "example_en": "This contract guarantees a safe working environment for workers."
+            },
+            {
+                "word": "부연하다",
+                "meaning": "to elaborate, to add (further remarks)",
+                "example_ko": "발표자는 질문을 받고 자신의 생각에 대해 자세히 [부연했습니다].",
+                "example_en": "The presenter received a question and elaborated in detail on his thoughts."
+            },
+            {
+                "word": "공익",
+                "meaning": "public interest",
+                "example_ko": "정부는 개인의 이익보다 [공익을] 우선으로 생각해야 합니다.",
+                "example_en": "The government should prioritize the public interest over private interests."
+            },
+            {
+                "word": "환수하다",
+                "meaning": "to redeem, to reclaim, to recover",
+                "example_ko": "시청은 잘못 지급된 지원금을 즉시 [환수하기로] 결정했습니다.",
+                "example_en": "The city hall decided to immediately reclaim the improperly paid subsidies."
+            },
+            {
+                "word": "취득하다",
+                "meaning": "to acquire, to obtain",
+                "example_ko": "그는 오랜 노력 끝에 외국어 자격증을 [취득했습니다].",
+                "example_en": "After a long effort, he acquired a foreign language certification."
+            },
+            {
+                "word": "정면으로",
+                "meaning": "head-on, directly",
+                "example_ko": "그는 상대방의 비판을 피하지 않고 [정면으로] 맞섰습니다.",
+                "example_en": "Instead of avoiding the criticism, he faced his opponent's criticism head-on."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-23",
+        "published_at": "2026-11-23 02:05",
+        "title": "미국발 규제와 엔비디아 리스크에 AI 업계 '흔들'…국내 반도체 긴장",
+        "body": "최근 인공지능(AI) 산업에 잇따른 악재가 발생하면서 글로벌 투자 불확실성이 급격히 커지고 있다. AI 열풍을 주도해 온 엔비디아의 전 최고경영자가 불륜 스캔들로 사임한 데 이어 회계 조사까지 받게 되면서 논란이 증폭되었다. 업계 핵심 기업이 흔들리자 글로벌 반도체 공급망과 투자 계획 전반에 차질이 생길 수 있다는 우려가 제기된다. 여기에 미국 정부가 추진하는 정책적 규제 역시 반도체 시장의 커다란 변수로 부상하고 있다. 미국은 중국의 반도체 우회 수입을 막기 위해 수출 규제를 강화한 데 이어 자국 기업의 해외 데이터센터 건설까지 제한하려는 움직임을 보인다. 미국 기업이 해외에 데이터센터를 지을 경우 엄청난 세금을 매기겠다는 방침이 전해지면서 국내 대형 사업들도 긴장하고 있다. 실제로 SK와 아마존이 울산에 건설 중인 데이터센터 등 국내 주요 프로젝트가 영향권에 놓일 수 있다. 아울러 일부 AI 기업들의 막대한 부채 문제와 수익성 한계가 맞물리면서 국내 반도체 수요가 위축될 수 있다는 분석도 나온다. 다만 한국 반도체 기업들이 장기 공급계약을 이미 확보해 둔 만큼 단기적 영향은 제한적일 것이라는 관측도 공존한다.",
+        "translation": "최근 인공지능(AI) 산업에 잇따른 악재가 발생하면서 글로벌 투자 불확실성이 급격히 커지고 있다.\nGlobal investment uncertainty is growing rapidly as a series of unfavorable factors hit the artificial intelligence (AI) industry recently.\n\nAI 열풍을 주도해 온 엔비디아의 전 최고경영자가 불륜 스캔들로 사임한 데 이어 회계 조사까지 받게 되면서 논란이 증폭되었다.\nControversy escalated as the former CEO of Nvidia, who led the AI boom, resigned over an affair scandal and subsequently faced an accounting investigation.\n\n업계 핵심 기업이 흔들리자 글로벌 반도체 공급망과 투자 계획 전반에 차질이 생길 수 있다는 우려가 제기된다.\nAs this core industry enterprise wavers, concerns are rising that disruptions could occur across the global semiconductor supply chain and overall investment plans.\n\n여기에 미국 정부가 추진하는 정책적 규제 역시 반도체 시장의 커다란 변수로 부상하고 있다.\nIn addition, policy regulations pushed by the U.S. government are emerging as major variables in the semiconductor market.\n\n미국은 중국의 반도체 우회 수입을 막기 위해 수출 규제를 강화한 데 이어 자국 기업의 해외 데이터센터 건설까지 제한하려는 움직임을 보인다.\nThe United States has tightened export controls to prevent China from obtaining semiconductors through detour channels and is moving to restrict domestic companies from building data centers overseas.\n\n미국 기업이 해외에 데이터센터를 지을 경우 엄청난 세금을 매기겠다는 방침이 전해지면서 국내 대형 사업들도 긴장하고 있다.\nAs a policy of imposing massive taxes on U.S. companies if they build overseas data centers was reported, major domestic projects in South Korea are also growing tense.\n\n실제로 SK와 아마존이 울산에 건설 중인 데이터센터 등 국내 주요 프로젝트가 영향권에 놓일 수 있다.\nIn fact, major domestic projects such as the Ulsan data center being constructed by SK and Amazon could fall under its influence.\n\n아울러 일부 AI 기업들의 막대한 부채 문제와 수익성 한계가 맞물리면서 국내 반도체 수요가 위축될 수 있다는 분석도 나온다.\nFurthermore, analyses suggest that domestic semiconductor demand could contract as the massive debt issues and profitability limitations of some AI companies intersect.\n\n다만 한국 반도체 기업들이 장기 공급계약을 이미 확보해 둔 만큼 단기적 영향은 제한적일 것이라는 관측도 공존한다.\nHowever, observations also coexist that short-term impacts will be limited since South Korean semiconductor manufacturers have already secured long-term supply contracts.",
+        "vocab": [
+            {
+                "word": "악재",
+                "meaning": "unfavorable factor, bad news",
+                "example_ko": "이번 폭설은 과일 농가에 큰 [악재가] 되었습니다.",
+                "example_en": "This heavy snow has become bad news for fruit farmers."
+            },
+            {
+                "word": "불확실성",
+                "meaning": "uncertainty",
+                "example_ko": "환율의 급격한 변동으로 경제의 [불확실성이] 커지고 있습니다.",
+                "example_en": "Uncertainty in the economy is growing due to rapid fluctuations in exchange rates."
+            },
+            {
+                "word": "사임하다",
+                "meaning": "to resign",
+                "example_ko": "그는 건강상의 이유로 대표이사직에서 [사임했습니다].",
+                "example_en": "He resigned from the position of chief executive officer due to health reasons."
+            },
+            {
+                "word": "차질",
+                "meaning": "setback, disruption, hitch",
+                "example_ko": "갑작스러운 비 때문에 행사 일정에 큰 [차질이] 생겼습니다.",
+                "example_en": "Due to the sudden rain, a major setback occurred in the event schedule."
+            },
+            {
+                "word": "변수",
+                "meaning": "variable",
+                "example_ko": "날씨 변화는 이번 야외 공연의 가장 큰 [변수입니다].",
+                "example_en": "Weather changes are the biggest variable for this outdoor concert."
+            },
+            {
+                "word": "우회하다",
+                "meaning": "to detour, to bypass",
+                "example_ko": "도로 공사로 인해 운전자들은 다른 길로 [우회해야] 했습니다.",
+                "example_en": "Due to road construction, drivers had to detour to another route."
+            },
+            {
+                "word": "부과하다",
+                "meaning": "to impose, to levy",
+                "example_ko": "시청은 규정을 어긴 차량에 과태료를 [부과했습니다].",
+                "example_en": "The city hall levied a fine on vehicles that violated the regulations."
+            },
+            {
+                "word": "위축되다",
+                "meaning": "to shrink, to contract, to be dampened",
+                "example_ko": "경기 침체로 인해 사람들의 소비 심리가 크게 [위축되었습니다].",
+                "example_en": "Due to the economic downturn, people's consumer sentiment has severely contracted."
+            },
+            {
+                "word": "부채",
+                "meaning": "debt, liabilities",
+                "example_ko": "회사는 무리한 투자로 늘어난 [부채를] 줄이려고 노력하고 있습니다.",
+                "example_en": "The company is trying to reduce the debt that increased from excessive investments."
+            },
+            {
+                "word": "제한적이다",
+                "meaning": "to be limited, to be restricted",
+                "example_ko": "이번 조치의 효과는 일시적이고 [제한적일] 것으로 보입니다.",
+                "example_en": "The effect of this measure seems to be temporary and limited."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-23",
+        "published_at": "2026-11-23 02:05",
+        "title": "종묘 앞 재개발 갈등 장기화…해법 못 찾는 세운4구역",
+        "body": "유네스코 세계유산인 종묘 앞 세운4구역 재개발 사업을 둘러싸고 서울시와 국가유산청의 갈등이 1년 넘게 이어지고 있다. 서울시는 지난해 10월 세운4구역에 들어설 건물 최고 높이를 기존 71.9m에서 145m로 대폭 높이는 정비계획 변경안을 고시했다. 이에 대해 국가유산청이 즉각 유감을 표명하면서 역사문화유산 보존과 도심 개발을 둘러싼 대립이 본격화되었다. 최근에는 재개발 사업 부지 안에 있는 매장유산의 보존 방안마저 부결되면서 양측의 커다란 입장 차이가 다시 확인되었다. 국가유산청 측은 사업 지연의 책임이 충분한 보존 대책을 세우지 못한 서울시와 사업시행자에게 있다고 비판했다. 반면 서울시는 국가유산청이 무리한 행정으로 사업을 기약 없이 지연시키며 사실상 몽니를 부리고 있다고 맞섰다. 양측은 개발과 보존의 균형을 맞추기 위한 세계유산영향평가 이행 문제를 두고도 타협점을 찾지 못하고 평행선을 달리고 있다. 사업시행자인 서울주택도시개발공사는 세계유산영향평가 이행 명령에 강하게 반발하며 행정소송까지 제기한 상태이다. 매장유산 보존안 부결과 소송전이 겹치면서 종묘 앞 세운4구역 재개발 사업은 당분간 정상적인 추진이 어려울 것으로 전망된다.",
+        "translation": "유네스코 세계유산인 종묘 앞 세운4구역 재개발 사업을 둘러싸고 서울시와 국가유산청의 갈등이 1년 넘게 이어지고 있다.\nConflict between the Seoul Metropolitan Government and the Korea Heritage Service over the redevelopment of the Sewoon Zone 4 in front of Jongmyo Shrine, a UNESCO World Heritage site, has continued for over a year.\n\n서울시는 지난해 10월 세운4구역에 들어설 건물 최고 높이를 기존 71.9m에서 145m로 대폭 높이는 정비계획 변경안을 고시했다.\nIn October last year, Seoul City announced a revision to the redevelopment plan that significantly increased the maximum height of buildings to be constructed in Sewoon Zone 4 from the previous 71.9 meters to 145 meters.\n\n이에 대해 국가유산청이 즉각 유감을 표명하면서 역사문화유산 보존과 도심 개발을 둘러싼 대립이 본격화되었다.\nAs the Korea Heritage Service immediately expressed regret over this, the confrontation surrounding the preservation of historical cultural heritage and urban development began in earnest.\n\n최근에는 재개발 사업 부지 안에 있는 매장유산의 보존 방안마저 부결되면서 양측의 커다란 입장 차이가 다시 확인되었다.\nRecently, even the plan to preserve buried cultural heritage within the redevelopment site was rejected, reconfirming the huge difference in positions between the two sides.\n\n국가유산청 측은 사업 지연의 책임이 충분한 보존 대책을 세우지 못한 서울시와 사업시행자에게 있다고 비판했다.\nThe Korea Heritage Service criticized that responsibility for the project's delay lies with Seoul City and the project implementer, who failed to prepare adequate preservation measures.\n\n반면 서울시는 국가유산청이 무리한 행정으로 사업을 기약 없이 지연시키며 사실상 몽니를 부리고 있다고 맞섰다.\nOn the other hand, Seoul City countered that the Korea Heritage Service is acting out of obstinate spite, delaying the project indefinitely through excessive administration.\n\n양측은 개발과 보존의 균형을 맞추기 위한 세계유산영향평가 이행 문제를 두고도 타협점을 찾지 못하고 평행선을 달리고 있다.\nBoth sides are also running on parallel lines without finding common ground over the implementation of the World Heritage Impact Assessment to balance development and preservation.\n\n사업시행자인 서울주택도시개발공사는 세계유산영향평가 이행 명령에 강하게 반발하며 행정소송까지 제기한 상태이다.\nThe project implementer, Seoul Housing & Communities Corporation (SH), strongly opposes the order to implement the World Heritage Impact Assessment and has even filed an administrative lawsuit.\n\n매장유산 보존안 부결과 소송전이 겹치면서 종묘 앞 세운4구역 재개발 사업은 당분간 정상적인 추진이 어려울 것으로 전망된다.\nAs the rejection of the buried heritage preservation plan and legal battles overlap, the redevelopment of Sewoon Zone 4 in front of Jongmyo is expected to face difficulties in normal progress for the time being.",
+        "vocab": [
+            {
+                "word": "갈등",
+                "meaning": "conflict, dispute",
+                "example_ko": "두 이웃은 주차 문제로 심각한 [갈등을] 겪고 있습니다.",
+                "example_en": "The two neighbors are experiencing severe conflict over parking issues."
+            },
+            {
+                "word": "유감",
+                "meaning": "regret, pity",
+                "example_ko": "약속을 지키지 못해 상대방에게 깊은 [유감을] 전했습니다.",
+                "example_en": "I expressed deep regret to the other party for not being able to keep the promise."
+            },
+            {
+                "word": "부결되다",
+                "meaning": "to be rejected, to be voted down",
+                "example_ko": "노조원들의 반대로 이번 협상안은 결국 [부결되었습니다].",
+                "example_en": "Due to opposition from union members, this negotiation proposal was ultimately rejected."
+            },
+            {
+                "word": "지연",
+                "meaning": "delay, postponement",
+                "example_ko": "열차 고장으로 인해 출근길 운행 [지연이] 발생했습니다.",
+                "example_en": "Due to a train breakdown, an operational delay occurred during the morning commute."
+            },
+            {
+                "word": "대책",
+                "meaning": "countermeasure, measure",
+                "example_ko": "정부는 물가 상승을 막기 위해 긴급 [대책을] 마련했습니다.",
+                "example_en": "The government prepared emergency countermeasures to curb rising consumer prices."
+            },
+            {
+                "word": "몽니",
+                "meaning": "obstinate spite, stubborn temper",
+                "example_ko": "그는 사소한 이유로 회의 참석을 거부하며 [몽니를] 부렸습니다.",
+                "example_en": "He acted stubbornly and spitefully by refusing to attend the meeting for a trivial reason."
+            },
+            {
+                "word": "평행선",
+                "meaning": "parallel lines (state of irreconcilable differences)",
+                "example_ko": "노사는 임금 인상 문제를 두고 계속해서 [평행선을] 달렸습니다.",
+                "example_en": "Labor and management continued to hold irreconcilable positions over the wage increase issue."
+            },
+            {
+                "word": "시행령",
+                "meaning": "enforcement decree",
+                "example_ko": "정부는 관련 법률을 시행하기 위한 구체적인 [시행령을] 발표했습니다.",
+                "example_en": "The government announced specific enforcement decrees to implement the relevant laws."
+            },
+            {
+                "word": "반발하다",
+                "meaning": "to strongly oppose, to resist",
+                "example_ko": "주민들은 동네 근처에 쓰레기 소각장이 들어서는 것에 [반발했습니다].",
+                "example_en": "Residents strongly opposed the construction of a waste incineration plant near their neighborhood."
+            },
+            {
+                "word": "타협점",
+                "meaning": "compromise, middle ground",
+                "example_ko": "양측은 오랜 대화 끝에 마침내 적절한 [타협점을] 찾았습니다.",
+                "example_en": "After a long dialogue, both sides finally found a suitable compromise."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-23",
+        "published_at": "2026-11-23 02:05",
+        "title": "'화석연료' 갈등에 발목 잡힌 유엔기후총회…최종 합의문 채택 실패",
+        "body": "튀르키예 안탈리아에서 열린 제31차 유엔기후변화협약 당사국총회(COP31)가 화석연료 문제를 둘러싼 이견으로 결국 합의문 채택에 실패했다. 이번 총회 의장을 맡은 튀르키예 장관은 폐막 전체 회의에서 만장일치 승인이 필요한 최종 합의안이 채택되지 못했다고 공식 발표했다. 호주와 튀르키예가 제시한 합의문 초안에는 지구 온난화 탓에 각국이 약속한 산업화 이전 대비 섭씨 1.5도 상승 제한선을 지키기 어렵다는 현실을 처음으로 인정하는 내용이 담겼다. 아울러 초안은 이 기준을 초과한 온도 상승분을 되돌리기 위해 탄소 제거 기술 개발을 서둘러야 한다고 촉구했다. 하지만 최종 선언에 화석연료 언급을 포함할지와 개발도상국을 위한 기후 재원을 확대할지를 두고 치열한 쟁점이 이어졌다. 특히 사우디아라비아 등 주요 산유국의 강력한 반발로 화석연료의 단계적 퇴출 문구와 1,200억 달러 지원 목표가 수정안에서 삭제되었다. 일부 국가 대표단은 탄소 포집 기술이 오히려 화석연료 사용을 계속 유지할 수 있는 빌미를 줄 수 있다며 반대 의사를 표명했다. 이번 총회는 치열한 난항을 겪으며 원래 예정된 일정을 훌쩍 넘겨 역대 최장 회의 기록을 세웠으나 끝내 타결되지 못했다. 이전 총회의 의무가 사라지는 것은 아니지만 국제사회의 기후변화 대응 동력이 약화될 수 있다는 우려가 커지고 있다.",
+        "translation": "튀르키예 안탈리아에서 열린 제31차 유엔기후변화협약 당사국총회(COP31)가 화석연료 문제를 둘러싼 이견으로 결국 합의문 채택에 실패했다.\nThe 31st United Nations Framework Convention on Climate Change Conference of the Parties (COP31), held in Antalya, Turkey, ultimately failed to adopt a joint agreement due to differences over the issue of fossil fuels.\n\n이번 총회 의장을 맡은 튀르키예 장관은 폐막 전체 회의에서 만장일치 승인이 필요한 최종 합의안이 채택되지 못했다고 공식 발표했다.\nThe Turkish minister presiding over this summit officially announced at the closing plenary session that the final agreement requiring unanimous approval was not adopted.\n\n호주와 튀르키예가 제시한 합의문 초안에는 지구 온난화 탓에 각국이 약속한 산업화 이전 대비 섭씨 1.5도 상승 제한선을 지키기 어렵다는 현실을 처음으로 인정하는 내용이 담겼다.\nThe draft agreement proposed by Australia and Turkey included for the first time an acknowledgment of the reality that it is difficult to keep the 1.5-degree Celsius warming limit above pre-industrial levels promised by each country due to global warming.\n\n아울러 초안은 이 기준을 초과한 온도 상승분을 되돌리기 위해 탄소 제거 기술 개발을 서둘러야 한다고 촉구했다.\nIn addition, the draft urged accelerating the development of carbon removal technologies to reverse the temperature rise exceeding this threshold.\n\n하지만 최종 선언에 화석연료 언급을 포함할지와 개발도상국을 위한 기후 재원을 확대할지를 두고 치열한 쟁점이 이어졌다.\nHowever, fierce debates continued over whether to include mentions of fossil fuels in the final declaration and whether to expand climate financing for developing countries.\n\n특히 사우디아라비아 등 주요 산유국의 강력한 반발로 화석연료의 단계적 퇴출 문구와 1,200억 달러 지원 목표가 수정안에서 삭제되었다.\nIn particular, due to strong opposition from major oil-producing nations such as Saudi Arabia, the phrasing regarding the phase-out of fossil fuels and the $120 billion support target were deleted from the revised draft.\n\n일부 국가 대표단은 탄소 포집 기술이 오히려 화석연료 사용을 계속 유지할 수 있는 빌미를 줄 수 있다며 반대 의사를 표명했다.\nSome national delegations expressed opposition, arguing that carbon capture technology could instead provide an excuse to continue using fossil fuels.\n\n이번 총회는 치열한 난항을 겪으며 원래 예정된 일정을 훌쩍 넘겨 역대 최장 회의 기록을 세웠으나 끝내 타결되지 못했다.\nExperiencing fierce difficulties, this summit far exceeded its originally scheduled closing date to set a record for the longest conference in history, but ultimately failed to reach an agreement.\n\n이전 총회의 의무가 사라지는 것은 아니지만 국제사회의 기후변화 대응 동력이 약화될 수 있다는 우려가 커지고 있다.\nAlthough obligations from previous summits do not disappear, concerns are growing that the international community's momentum in responding to climate change could weaken.",
+        "vocab": [
+            {
+                "word": "채택",
+                "meaning": "adoption (of a proposal or agreement)",
+                "example_ko": "회의 참석자들은 새로운 환경 보호 선언문의 [채택을] 지지했습니다.",
+                "example_en": "Meeting attendees supported the adoption of the new environmental protection declaration."
+            },
+            {
+                "word": "만장일치",
+                "meaning": "unanimity, unanimous agreement",
+                "example_ko": "위원회는 새로운 규칙을 도입하기로 [만장일치로] 결정했습니다.",
+                "example_en": "The committee unanimously decided to introduce the new rule."
+            },
+            {
+                "word": "초안",
+                "meaning": "draft",
+                "example_ko": "기획팀은 다음 주 회의 전까지 보고서 [초안을] 완성해야 합니다.",
+                "example_en": "The planning team must complete the draft of the report before next week's meeting."
+            },
+            {
+                "word": "촉구하다",
+                "meaning": "to urge, to demand",
+                "example_ko": "시민단체는 정부에 신속한 안전 점검을 [촉구했습니다].",
+                "example_en": "Civic groups urged the government to conduct prompt safety inspections."
+            },
+            {
+                "word": "퇴출",
+                "meaning": "expulsion, phasing out",
+                "example_ko": "시장에서는 불량 제품의 조속한 [퇴출을] 요구하는 목소리가 높습니다.",
+                "example_en": "There are strong voices in the market demanding the prompt phasing out of defective products."
+            },
+            {
+                "word": "산유국",
+                "meaning": "oil-producing country",
+                "example_ko": "기름값이 오르자 주요 [산유국들은] 생산량을 늘리기 시작했습니다.",
+                "example_en": "As oil prices rose, major oil-producing countries began to increase production."
+            },
+            {
+                "word": "삭제되다",
+                "meaning": "to be deleted, to be omitted",
+                "example_ko": "개인정보가 포함된 부분은 문서에서 모두 [삭제되었습니다].",
+                "example_en": "All parts containing personal information were deleted from the document."
+            },
+            {
+                "word": "난항",
+                "meaning": "rough going, difficulties, snag",
+                "example_ko": "두 회사 간의 협상은 조건이 맞지 않아 큰 [난항을] 겪었습니다.",
+                "example_en": "Negotiations between the two companies suffered major difficulties because the conditions did not match."
+            },
+            {
+                "word": "타결되다",
+                "meaning": "to be settled, to be concluded (of an agreement)",
+                "example_ko": "오랜 줄다리기 끝에 마침내 새로운 무역 협정이 [타결되었습니다].",
+                "example_en": "After a long tug-of-war, the new trade agreement was finally concluded."
+            },
+            {
+                "word": "동력",
+                "meaning": "driving force, momentum",
+                "example_ko": "새로운 연구 지원금은 친환경 에너지 개발에 큰 [동력이] 되었습니다.",
+                "example_en": "The new research grant became a major driving force for eco-friendly energy development."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-11-22",
         "published_at": "2026-11-22 10:08",
         "title": "조국혁신당 조국 원장, 창당 1,000일 앞두고 당명 개정 제안",

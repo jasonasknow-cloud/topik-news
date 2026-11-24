@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-24",
+        "published_at": "2026-11-24 17:02",
+        "title": "한 총리, 오세훈 서울시장 국무회의 발언에 유감 표명",
+        "body": "한성숙 국무총리는 국무회의에 참석한 오세훈 서울시장의 발언과 기자회견에 대해 깊은 유감을 표시했다. 한 총리는 입장문을 내고 국무회의는 국가 주요 정책과 민생 현안을 논의하는 최고의 국정심의기구라고 강조했다. 오 시장은 약 3개월 만에 대통령이 주재한 국무회의에 참석해 대정부 건의서를 전달했다. 또한 대법원장 탄핵 등 현안에 대한 발언 기회를 요청했으나 발언하지 못하자 회의 직후 기자회견을 열었다. 이에 대해 한 총리는 지방정부가 회의 안건과 관련된 현장의 목소리를 전달하는 것은 언제든 환영한다고 밝혔다. 실제로 정부는 서울시장뿐 아니라 여러 지방자치단체 수장들로 배석자를 확대하고 있는 상황이다. 그러나 안건과 무관한 정치적 사안을 제기하는 것은 회의 자체를 정쟁의 장으로 변질시킬 수 있다고 한 총리는 지적했다. 한 총리는 국무회의 본연의 기능과 품격을 지키며 오직 국민과 국익을 위해 회의를 운영하겠다고 덧붙였다.",
+        "translation": "한성숙 국무총리는 국무회의에 참석한 오세훈 서울시장의 발언과 기자회견에 대해 깊은 유감을 표시했다.\nPrime Minister Han Seong-sook expressed deep regret regarding the remarks and press conference by Seoul Mayor Oh Se-hoon, who attended the Cabinet meeting.\n\n한 총리는 입장문을 내고 국무회의는 국가 주요 정책과 민생 현안을 논의하는 최고의 국정심의기구라고 강조했다.\nPrime Minister Han issued a statement emphasizing that the Cabinet meeting is the highest state affairs deliberative body for discussing key national policies and pending public livelihood issues.\n\n오 시장은 약 3개월 만에 대통령이 주재한 국무회의에 참석해 대정부 건의서를 전달했다.\nMayor Oh attended the Cabinet meeting presided over by the president after about three months and delivered a proposal to the government.\n\n또한 대법원장 탄핵 등 현안에 대한 발언 기회를 요청했으나 발언하지 못하자 회의 직후 기자회견을 열었다.\nHe also requested an opportunity to speak on pending issues such as the impeachment of the Chief Justice of the Supreme Court, but held a press conference immediately after the meeting when he was unable to speak.\n\n이에 대해 한 총리는 지방정부가 회의 안건과 관련된 현장의 목소리를 전달하는 것은 언제든 환영한다고 밝혔다.\nIn response, Prime Minister Han stated that local governments conveying on-site voices related to meeting agenda items is always welcome.\n\n실제로 정부는 서울시장뿐 아니라 여러 지방자치단체 수장들로 배석자를 확대하고 있는 상황이다.\nIn fact, the government is expanding attendees to include leaders of various local governments beyond just the Seoul Mayor.\n\n그러나 안건과 무관한 정치적 사안을 제기하는 것은 회의 자체를 정쟁의 장으로 변질시킬 수 있다고 한 총리는 지적했다.\nHowever, Prime Minister Han pointed out that raising political matters unrelated to the agenda could distort the meeting itself into an arena of political conflict.\n\n한 총리는 국무회의 본연의 기능과 품격을 지키며 오직 국민과 국익을 위해 회의를 운영하겠다고 덧붙였다.\nPrime Minister Han added that she would operate the Cabinet meeting solely for the public and national interest while preserving its inherent function and dignity.",
+        "vocab": [
+            {
+                "word": "유감",
+                "meaning": "regret, pity",
+                "example_ko": "약속 시간에 늦어서 상대방에게 깊은 [유감]의 뜻을 전했다.",
+                "example_en": "I expressed my deep regret to the other person for being late to the appointment."
+            },
+            {
+                "word": "현안",
+                "meaning": "pending issue",
+                "example_ko": "두 나라는 환경 문제를 가장 시급한 [현안]으로 다루기로 했다.",
+                "example_en": "The two countries decided to treat environmental issues as the most urgent pending issue."
+            },
+            {
+                "word": "심의",
+                "meaning": "deliberation, review",
+                "example_ko": "위원회는 새로운 법안에 대해 신중한 [심의]를 거쳤다.",
+                "example_en": "The committee underwent careful deliberation on the new bill."
+            },
+            {
+                "word": "주재하다",
+                "meaning": "to preside over, host",
+                "example_ko": "팀장님은 매주 월요일 아침 회의를 직접 [주재하신다].",
+                "example_en": "The team leader personally presides over the meeting every Monday morning."
+            },
+            {
+                "word": "건의서",
+                "meaning": "written proposal, recommendation letter",
+                "example_ko": "직원들은 근무 환경 개선을 요구하는 [건의서]를 회사에 제출했다.",
+                "example_en": "Employees submitted a written proposal to the company demanding improvements in working conditions."
+            },
+            {
+                "word": "배석자",
+                "meaning": "attendee, person sitting in",
+                "example_ko": "중요한 협상 자리에는 통역사가 [배석자]로 참여했다.",
+                "example_en": "An interpreter participated as an attendee in the important negotiation session."
+            },
+            {
+                "word": "무관하다",
+                "meaning": "to be unrelated, irrelevant",
+                "example_ko": "이번 사건은 우리 회사와 전혀 [무관한] 일이다.",
+                "example_en": "This incident is a matter completely unrelated to our company."
+            },
+            {
+                "word": "변질되다",
+                "meaning": "to deteriorate, alter in quality or character",
+                "example_ko": "순수했던 취지의 행사가 상업적으로 [변질되어] 아쉬움을 남겼다.",
+                "example_en": "It was regrettable that the event of pure intentions was altered commercially."
+            },
+            {
+                "word": "본연",
+                "meaning": "original, intrinsic, proper",
+                "example_ko": "학생은 공부라는 [본연]의 임무에 충실해야 한다.",
+                "example_en": "A student must remain faithful to their proper duty of studying."
+            },
+            {
+                "word": "품격",
+                "meaning": "dignity, grace, class",
+                "example_ko": "그 지도자는 언제나 말과 행동에서 높은 [품격]을 보여 준다.",
+                "example_en": "That leader always shows high dignity in words and actions."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-24",
+        "published_at": "2026-11-24 17:02",
+        "title": "골드만삭스, 한국 내년 성장률 3.2% 제시…반도체 수출 호조",
+        "body": "글로벌 투자은행 골드만삭스가 내년 한국 경제 성장률을 3.2%로 전망했다. 골드만삭스는 미디어 브리핑을 통해 반도체 수출과 설비투자가 경제 성장을 이끌 것이라고 설명했다. 이는 기존의 성장률 전망치였던 2.8%보다 0.4%포인트 상향 조정한 수치다. 특히 인공지능 분야의 열풍이 관련 반도체 산업의 수요를 크게 끌어올릴 것으로 분석되었다. 반면 주가 하락과 더딘 내수 회복 탓에 민간소비 증가율은 2% 안팎에 그칠 것으로 내다봤다. 이에 따라 한국은행의 최종 기준금리도 연 3.5%를 넘지 않을 가능성이 크다고 보았다. 원·달러 환율은 수출 흑자와 기업들의 원화 환전 수요 증가 덕분에 내년 말 1,280원 선까지 하락할 것으로 예측했다. 전문가들은 경기 회복세가 이어지더라도 체감 경기와의 격차를 줄이는 것이 중요하다고 강조한다.",
+        "translation": "글로벌 투자은행 골드만삭스가 내년 한국 경제 성장률을 3.2%로 전망했다.\nGlobal investment bank Goldman Sachs forecast Korea's economic growth rate for next year at 3.2 percent.\n\n골드만삭스는 미디어 브리핑을 통해 반도체 수출과 설비투자가 경제 성장을 이끌 것이라고 설명했다.\nGoldman Sachs explained through a media briefing that semiconductor exports and facility investments will lead economic growth.\n\n이는 기존의 성장률 전망치였던 2.8%보다 0.4%포인트 상향 조정한 수치다.\nThis figure is revised upward by 0.4 percentage points from the previous growth forecast of 2.8 percent.\n\n특히 인공지능 분야의 열풍이 관련 반도체 산업의 수요를 크게 끌어올릴 것으로 분석되었다.\nIn particular, the artificial intelligence boom was analyzed to significantly drive up demand in the related semiconductor industry.\n\n반면 주가 하락과 더딘 내수 회복 탓에 민간소비 증가율은 2% 안팎에 그칠 것으로 내다봤다.\nOn the other hand, it predicted that private consumption growth would remain at around 2 percent due to falling stock prices and sluggish domestic demand recovery.\n\n이에 따라 한국은행의 최종 기준금리도 연 3.5%를 넘지 않을 가능성이 크다고 보았다.\nAccordingly, it viewed that the Bank of Korea's terminal base interest rate is unlikely to exceed 3.5 percent per year.\n\n원·달러 환율은 수출 흑자와 기업들의 원화 환전 수요 증가 덕분에 내년 말 1,280원 선까지 하락할 것으로 예측했다.\nIt projected that the won-dollar exchange rate would drop to the 1,280 won level by the end of next year thanks to export surpluses and increased demand from corporations exchanging currency into won.\n\n전문가들은 경기 회복세가 이어지더라도 체감 경기와의 격차를 줄이는 것이 중요하다고 강조한다.\nExperts emphasize that narrowing the gap with perceived economic conditions is important even if the economic recovery continues.",
+        "vocab": [
+            {
+                "word": "전망하다",
+                "meaning": "to forecast, predict",
+                "example_ko": "연구소는 올해 물가가 완만하게 하락할 것으로 [전망했다].",
+                "example_en": "The research institute forecast that prices would decline moderately this year."
+            },
+            {
+                "word": "설비투자",
+                "meaning": "facility investment, capital expenditure",
+                "example_ko": "회사는 생산 능력을 늘리기 위해 공장 [설비투자]를 늘리기로 했다.",
+                "example_en": "The company decided to increase plant facility investment to expand production capacity."
+            },
+            {
+                "word": "상향",
+                "meaning": "upward revision, raising",
+                "example_ko": "영업 실적이 좋아지면서 회사의 연간 목표치가 [상향] 조정되었다.",
+                "example_en": "As sales performance improved, the company's annual target was adjusted upward."
+            },
+            {
+                "word": "열풍",
+                "meaning": "fever, craze, boom",
+                "example_ko": "전 세계적으로 케이팝에 대한 뜨거운 [열풍]이 불고 있다.",
+                "example_en": "A passionate fever for K-pop is blowing all over the world."
+            },
+            {
+                "word": "내수",
+                "meaning": "domestic demand, domestic market",
+                "example_ko": "수출이 어려워지자 기업들은 [내수] 시장 활성화에 집중하고 있다.",
+                "example_en": "As exports became difficult, businesses have been focusing on revitalizing the domestic market."
+            },
+            {
+                "word": "기준금리",
+                "meaning": "base interest rate, benchmark rate",
+                "example_ko": "중앙은행이 [기준금리]를 인하하자 대출 이자가 다소 줄어들었다.",
+                "example_en": "When the central bank lowered the base interest rate, loan interest decreased somewhat."
+            },
+            {
+                "word": "환율",
+                "meaning": "exchange rate",
+                "example_ko": "해외여행을 떠나기 전에 은행에서 매일 [환율]을 확인했다.",
+                "example_en": "Before leaving for an overseas trip, I checked the exchange rate at the bank every day."
+            },
+            {
+                "word": "경상수지",
+                "meaning": "current account balance",
+                "example_ko": "수출 호조 덕분에 우리나라의 [경상수지] 흑자가 대폭 늘어났다.",
+                "example_en": "Thanks to strong exports, our country's current account surplus expanded significantly."
+            },
+            {
+                "word": "환전",
+                "meaning": "currency exchange",
+                "example_ko": "공항에 도착하자마자 현지 화폐로 [환전]을 했다.",
+                "example_en": "As soon as I arrived at the airport, I did currency exchange into local money."
+            },
+            {
+                "word": "동결하다",
+                "meaning": "to freeze, keep unchanged",
+                "example_ko": "정부는 공공요금을 연말까지 [동결하기로] 결정했다.",
+                "example_en": "The government decided to freeze public utility charges until the end of the year."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-24",
+        "published_at": "2026-11-24 17:02",
+        "title": "제주서 흉기 들고 거리 활보한 20대 남성, 징역형 집행유예",
+        "body": "여자친구와 다툰 뒤 화가 난다는 이유로 거리에서 흉기를 들고 다닌 20대 남성에게 징역형 집행유예가 선고되었다. 제주지방법원은 공공장소 흉기 소지 혐의로 재판에 넘겨진 A씨에게 징역 8개월에 집행유예 2년을 선고했다. 이와 함께 재판부는 A씨에게 80시간의 사회봉사도 명령했다. A씨는 지난해 7월 새벽 제주시의 한 도로에서 손에 흉기를 들고 걸어 다니며 행인들에게 불안감과 공포심을 안긴 혐의를 받는다. 조사 결과 A씨는 여자친구와 다툰 뒤 차에 보관하던 흉기를 꺼내 들고 이동했던 것으로 확인되었다. 해당 흉기는 칼날 길이 28cm를 포함해 전체 길이가 42cm에 달하는 도구였다. 재판부는 피고인의 행동을 목격한 시민들이 극심한 공포를 느꼈을 것이며 죄질이 불량하다고 지적했다. 다만 피고인이 범행을 모두 인정하고 반성하고 있는 점을 고려해 집행유예를 결정했다고 판시했다.",
+        "translation": "여자친구와 다툰 뒤 화가 난다는 이유로 거리에서 흉기를 들고 다닌 20대 남성에게 징역형 집행유예가 선고되었다.\nA suspended prison sentence was handed down to a man in his 20s who walked the streets carrying a deadly weapon because he was angry after arguing with his girlfriend.\n\n제주지방법원은 공공장소 흉기 소지 혐의로 재판에 넘겨진 A씨에게 징역 8개월에 집행유예 2년을 선고했다.\nThe Jeju District Court sentenced Mr. A, who was put on trial on charges of possessing a deadly weapon in a public place, to eight months in prison suspended for two years.\n\n이와 함께 재판부는 A씨에게 80시간의 사회봉사도 명령했다.\nAlong with this, the court also ordered Mr. A to perform 80 hours of community service.\n\nA씨는 지난해 7월 새벽 제주시의 한 도로에서 손에 흉기를 들고 걸어 다니며 행인들에게 불안감과 공포심을 안긴 혐의를 받는다.\nMr. A faces charges of walking with a weapon in hand on a street in Jeju City in the early morning of July last year, causing anxiety and fear among passersby.\n\n조사 결과 A씨는 여자친구와 다툰 뒤 차에 보관하던 흉기를 꺼내 들고 이동했던 것으로 확인되었다.\nAs a result of the investigation, it was confirmed that Mr. A took out a weapon stored in his car and walked after quarreling with his girlfriend.\n\n해당 흉기는 칼날 길이 28cm를 포함해 전체 길이가 42cm에 달하는 도구였다.\nThe weapon in question was a tool with a total length of 42 centimeters, including a blade length of 28 centimeters.\n\n재판부는 피고인의 행동을 목격한 시민들이 극심한 공포를 느꼈을 것이며 죄질이 불량하다고 지적했다.\nThe court pointed out that citizens who witnessed the defendant's actions must have felt extreme fear, and that the nature of the crime was grave.\n\n다만 피고인이 범행을 모두 인정하고 반성하고 있는 점을 고려해 집행유예를 결정했다고 판시했다.\nHowever, it ruled that it decided on a suspended sentence considering that the defendant admitted to all crimes and was reflecting on his actions.",
+        "vocab": [
+            {
+                "word": "흉기",
+                "meaning": "deadly weapon",
+                "example_ko": "경찰은 범인이 버리고 달아난 [흉기]를 현장에서 찾아냈다.",
+                "example_en": "The police found the deadly weapon at the scene that the criminal had abandoned while fleeing."
+            },
+            {
+                "word": "집행유예",
+                "meaning": "suspended sentence, probation",
+                "example_ko": "피고인은 초범이라는 점이 참작되어 [집행유예] 판결을 받았다.",
+                "example_en": "The defendant received a suspended sentence taking into account that he was a first-time offender."
+            },
+            {
+                "word": "소지",
+                "meaning": "possession, carrying",
+                "example_ko": "공항 검색대에서는 위험 물품의 [소지] 여부를 철저히 검사한다.",
+                "example_en": "The airport checkpoint thoroughly checks the possession of dangerous goods."
+            },
+            {
+                "word": "기소되다",
+                "meaning": "to be indicted, prosecuted",
+                "example_ko": "사기 혐의를 받던 용의자는 결국 법원에 정식으로 [기소되었다].",
+                "example_en": "The suspect under fraud charges was eventually formally indicted in court."
+            },
+            {
+                "word": "사회봉사",
+                "meaning": "community service",
+                "example_ko": "그는 법원으로부터 백 시간의 [사회봉사] 명령을 받았다.",
+                "example_en": "He received an order from the court for one hundred hours of community service."
+            },
+            {
+                "word": "행인",
+                "meaning": "passerby, pedestrian",
+                "example_ko": "길을 잃어버려서 지나가던 [행인]에게 길을 물어보았다.",
+                "example_en": "Having lost my way, I asked a passerby walking past for directions."
+            },
+            {
+                "word": "공포심",
+                "meaning": "fear, dread",
+                "example_ko": "갑자기 불이 꺼지자 사람들 사이에 큰 [공포심]이 번졌다.",
+                "example_en": "When the lights suddenly went out, great fear spread among the people."
+            },
+            {
+                "word": "목격하다",
+                "meaning": "to witness, spot",
+                "example_ko": "사고 현장을 직접 [목격한] 사람은 경찰에 신고해 달라고 부탁했다.",
+                "example_en": "He requested anyone who directly witnessed the accident scene to report it to the police."
+            },
+            {
+                "word": "죄질",
+                "meaning": "nature of a crime",
+                "example_ko": "판사는 피고인의 [죄질]이 매우 무겁다고 판단해 중형을 내렸다.",
+                "example_en": "The judge judged that the nature of the defendant's crime was very serious and handed down a heavy penalty."
+            },
+            {
+                "word": "판시하다",
+                "meaning": "to state in a judgment, rule legally",
+                "example_ko": "재판부는 이번 판결에서 증거가 불충분하다고 [판시했다].",
+                "example_en": "The court ruled in this judgment that the evidence was insufficient."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-24",
+        "published_at": "2026-11-24 17:02",
+        "title": "미 국방부, 우크라이나 패트리엇 미사일 인도 승인 지연",
+        "body": "미국 국방장관이 우크라이나로 전달될 예정이던 패트리엇 방공미사일의 인도를 승인하지 않고 있다고 외신이 보도했다. 외신에 따르면 지연되고 있는 미사일은 패트리엇 요격미사일 60기 규모인 것으로 알려졌다. 패트리엇 미사일은 미국에서 생산되기 때문에 제3국이 이를 다른 나라로 재수출하려면 반드시 미 정부의 승인을 받아야 한다. 우크라이나 정부는 협력국들이 이미 비용을 모두 지불했다며 신속한 미사일 이전을 요청해 왔다. 하지만 미 국방부 지도부의 서명이 늦어지면서 방공망 강화 계획에 차질이 빚어지고 있다. 또한 미국 대통령이 언급했던 우크라이나 현지 생산 계획 역시 행정적인 추가 검토 단계에 머물러 있는 상태다. 이러한 승인 지연의 구체적인 원인에 대해서는 아직 명확히 밝혀지지 않았다. 미 국방부는 동맹국들과 방공 체계 협력을 지속하고 있다는 원론적인 입장만 내놓았다.",
+        "translation": "미국 국방장관이 우크라이나로 전달될 예정이던 패트리엇 방공미사일의 인도를 승인하지 않고 있다고 외신이 보도했다.\nForeign media reported that the US Secretary of Defense is not approving the delivery of Patriot air defense missiles scheduled to be transferred to Ukraine.\n\n외신에 따르면 지연되고 있는 미사일은 패트리엇 요격미사일 60기 규모인 것으로 알려졌다.\nAccording to foreign media, the delayed missiles are known to amount to about 60 Patriot interceptor missiles.\n\n패트리엇 미사일은 미국에서 생산되기 때문에 제3국이 이를 다른 나라로 재수출하려면 반드시 미 정부의 승인을 받아야 한다.\nBecause Patriot missiles are manufactured in the United States, third countries must obtain US government approval to re-export them to another nation.\n\n우크라이나 정부는 협력국들이 이미 비용을 모두 지불했다며 신속한 미사일 이전을 요청해 왔다.\nThe Ukrainian government has requested prompt missile transfer, noting that partner countries have already paid all costs.\n\n하지만 미 국방부 지도부의 서명이 늦어지면서 방공망 강화 계획에 차질이 빚어지고 있다.\nHowever, as the signature of the US Department of Defense leadership is delayed, setbacks are occurring in plans to reinforce the air defense network.\n\n또한 미국 대통령이 언급했던 우크라이나 현지 생산 계획 역시 행정적인 추가 검토 단계에 머물러 있는 상태다.\nFurthermore, the local production plan in Ukraine mentioned by the US president remains in the stage of additional administrative review.\n\n이러한 승인 지연의 구체적인 원인에 대해서는 아직 명확히 밝혀지지 않았다.\nThe specific causes of this approval delay have not yet been clearly disclosed.\n\n미 국방부는 동맹국들과 방공 체계 협력을 지속하고 있다는 원론적인 입장만 내놓았다.\nThe US Department of Defense only issued a principled stance that it is continuing air defense system cooperation with allies.",
+        "vocab": [
+            {
+                "word": "인도",
+                "meaning": "delivery, handover",
+                "example_ko": "주문한 기계의 [인도] 날짜가 예정보다 일주일 늦어졌다.",
+                "example_en": "The delivery date of the ordered machine was delayed by a week compared to schedule."
+            },
+            {
+                "word": "요격",
+                "meaning": "interception",
+                "example_ko": "군 당국은 적의 공중 공격에 대비해 최신 [요격] 시스템을 배치했다.",
+                "example_en": "Military authorities deployed the latest interception system in preparation for enemy aerial attacks."
+            },
+            {
+                "word": "재수출",
+                "meaning": "re-export",
+                "example_ko": "수입한 부품을 가공하지 않고 그대로 제3국에 [재수출]했다.",
+                "example_en": "The imported parts were re-exported as they were to a third country without processing."
+            },
+            {
+                "word": "신속하다",
+                "meaning": "to be swift, prompt",
+                "example_ko": "화재가 발생했을 때는 구조대의 [신속한] 조치가 가장 중요하다.",
+                "example_en": "When a fire breaks out, the prompt action of the rescue team is most important."
+            },
+            {
+                "word": "차질",
+                "meaning": "setback, hitch, snag",
+                "example_ko": "갑작스러운 폭설로 인해 기차 운행 일정에 큰 [차질]이 생겼다.",
+                "example_en": "Due to sudden heavy snowfall, a major setback occurred in the train operation schedule."
+            },
+            {
+                "word": "빚어지다",
+                "meaning": "to be caused, brought about",
+                "example_ko": "의사소통이 제대로 되지 않아 팀원들 사이에 오해가 [빚어졌다].",
+                "example_en": "Because communication was not conducted properly, misunderstandings were caused among team members."
+            },
+            {
+                "word": "검토",
+                "meaning": "review, examination",
+                "example_ko": "계약서에 서명하기 전에 모든 조건을 꼼꼼히 [검토]해야 한다.",
+                "example_en": "Before signing the contract, one must thoroughly review all conditions."
+            },
+            {
+                "word": "명확하다",
+                "meaning": "to be clear, distinct",
+                "example_ko": "그 문제는 원인이 [명확하게] 밝혀져 쉽게 해결할 수 있었다.",
+                "example_en": "That problem was easily resolved because its cause was clearly identified."
+            },
+            {
+                "word": "동맹국",
+                "meaning": "allied nation, ally",
+                "example_ko": "두 나라는 안보 위협에 맞서 [동맹국]으로서 함께 훈련을 실시했다.",
+                "example_en": "The two countries conducted drills together as allied nations against security threats."
+            },
+            {
+                "word": "원론적",
+                "meaning": "principled, textbook, general",
+                "example_ko": "대변인은 구체적인 답변 대신 [원론적인] 원칙만 되풀이하여 말했다.",
+                "example_en": "The spokesperson repeatedly stated only principled rules instead of giving a specific answer."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-24",
         "published_at": "2026-11-24 14:17",
         "title": "미 항소법원, 트럼프 '성추문 입막음' 사건의 연방법원 이관 재검토 명령",
         "body": "성추문 입막음 돈 지급과 관련해 유죄 판결을 받았던 도널드 트럼프 미국 대통령이 연방법원에서 면책을 다툴 수 있는 새로운 기회를 얻었다. 현지시간 23일 미국 제2연방항소법원은 트럼프 대통령의 형사사건을 뉴욕주 법원에 남겨두도록 결정한 1심 하급심 판결을 뒤집었다. 항소법원 재판부는 연방지방법원이 이 사건을 넘겨받아 다룰 수 있는지를 다시 판단해야 한다고 명령했다. 트럼프 대통령은 과거 성관계를 가졌다고 주장한 포르노 배우에게 입막음 돈을 건네고 회사 장부를 조작한 혐의로 뉴욕주 법원 1심에서 유죄 판결을 받았다. 이에 트럼프 대통령 측은 2023년부터 해당 사건을 주 법원에서 연방법원으로 옮겨 달라고 계속해서 요청해 왔다. 대통령을 포함한 연방 공직자가 재임 중 수행한 공적 행위와 관련된 혐의는 연방법원에서 재판을 받을 권리가 있다는 것이 트럼프 측의 핵심 주장이다. 이는 사건을 연방법원으로 이관해 주 법원의 항소 절차를 우회하고 대통령 면책특권을 내세워 유죄 판결을 무효화하려는 의도로 풀이된다. 앞서 하급심 재판부는 성인영화 배우에게 돈을 주거나 곤란한 문제를 숨기는 행위는 대통령의 면책특권 범위에 들어가지 않는다며 이관 요청을 기각한 바 있다. 그러나 항소법원은 유죄 판결 이후 주 법원의 형사사건을 연방법원으로 옮기는 것이 일률적으로 금지된다고 본 기존 판단에 오류가 있다고 지적했다. 이번 항소법원의 명령에 따라 트럼프 대통령은 연방법원에서 면책 여부를 다시 다툴 수 있는 발판을 마련하게 되었다.",

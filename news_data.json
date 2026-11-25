@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-25",
+        "published_at": "2026-11-25 13:04",
+        "title": "민주당, 조희대 대법원장 탄핵 위한 '5당 연대' 제안",
+        "body": "더불어민주당이 조희대 대법원장에 대한 탄핵을 신속하게 추진하기 위해 야 5당 연대를 공식적으로 제안했다. 김민석 더불어민주당 대표는 최고위원회의에서 야 5당이 국민과 함께 비상계엄을 막아냈음을 강조하며 공동 대응의 필요성을 역설했다. 이에 대해 조국혁신당 신장식 대표는 연대 제안 자체에는 환영의 뜻을 표하면서도 아직 공동 추진에 완전히 합의한 것은 아니라고 선을 그었다. 혁신당 측은 탄핵소추안 발의 시점을 특정 정치적 계기에 맞추자고 제안하며 향후 실무 협의를 예고했다. 한편 국민의힘은 이러한 야권의 탄핵 추진 움직임에 맞서 장외 집회를 열고 강하게 반발했다. 장동혁 국민의힘 대표는 야당의 공세를 비판하며 여론전을 강화하고 대여 투쟁 수위를 높이겠다고 밝혔다. 여야의 대치가 극단으로 치달으면서 정국 긴장감이 한층 고조되고 있다.",
+        "translation": "더불어민주당이 조희대 대법원장에 대한 탄핵을 신속하게 추진하기 위해 야 5당 연대를 공식적으로 제안했다.\nThe Democratic Party of Korea officially proposed an alliance among five opposition parties to swiftly pursue the impeachment of Supreme Court Chief Justice Cho Hee-dae.\n\n김민석 더불어민주당 대표는 최고위원회의에서 야 5당이 국민과 함께 비상계엄을 막아냈음을 강조하며 공동 대응의 필요성을 역설했다.\nAt the supreme council meeting, Kim Min-seok, leader of the Democratic Party of Korea, emphasized that the five opposition parties had stopped martial law together with the people, stressing the necessity of joint action.\n\n이에 대해 조국혁신당 신장식 대표는 연대 제안 자체에는 환영의 뜻을 표하면서도 아직 공동 추진에 완전히 합의한 것은 아니라고 선을 그었다.\nIn response, Shin Jang-sik, leader of the Rebuilding Korea Party, welcomed the proposal for solidarity itself, but drew a line by stating that a joint pursuit had not yet been fully agreed upon.\n\n혁신당 측은 탄핵소추안 발의 시점을 특정 정치적 계기에 맞추자고 제안하며 향후 실무 협의를 예고했다.\nThe Rebuilding Korea Party proposed matching the timing of the introduction of the impeachment motion to a specific political occasion, signaling future working-level consultations.\n\n한편 국민의힘은 이러한 야권의 탄핵 추진 움직임에 맞서 장외 집회를 열고 강하게 반발했다.\nMeanwhile, the People Power Party strongly pushed back by holding an outdoor rally against this move by the opposition bloc to push for impeachment.\n\n장동혁 국민의힘 대표는 야당의 공세를 비판하며 여론전을 강화하고 대여 투쟁 수위를 높이겠다고 밝혔다.\nJang Dong-hyeok, leader of the People Power Party, criticized the opposition's offensive and declared that he would intensify public relations campaigns and heighten the level of struggle against the ruling camp.\n\n여야의 대치가 극단으로 치달으면서 정국 긴장감이 한층 고조되고 있다.\nAs the confrontation between the ruling and opposition parties escalates to an extreme, political tensions are rising further.",
+        "vocab": [
+            {
+                "word": "탄핵",
+                "meaning": "impeachment",
+                "example_ko": "국회는 고위 공직자에 대한 [탄핵] 안을 가결했다.",
+                "example_en": "The National Assembly passed an impeachment motion against a high-ranking official."
+            },
+            {
+                "word": "추진하다",
+                "meaning": "to promote, to push ahead with",
+                "example_ko": "정부는 새로운 복지 정책을 빠르게 [추진하고] 있다.",
+                "example_en": "The government is swiftly pushing ahead with new welfare policies."
+            },
+            {
+                "word": "연대",
+                "meaning": "solidarity, alliance",
+                "example_ko": "시민단체들은 사회적 약자를 돕기 위해 강한 [연대]를 형성했다.",
+                "example_en": "Civic groups formed a strong solidarity to help socially vulnerable people."
+            },
+            {
+                "word": "역설하다",
+                "meaning": "to emphasize, to stress",
+                "example_ko": "학자는 환경 보호의 중요성을 청중에게 강하게 [역설했다].",
+                "example_en": "The scholar strongly emphasized the importance of environmental protection to the audience."
+            },
+            {
+                "word": "선을 긋다",
+                "meaning": "to draw a line, to set a boundary",
+                "example_ko": "그는 이번 사건과 자신은 아무 관련이 없다며 분명히 [선을 그었다].",
+                "example_en": "He clearly drew a line, stating that he had nothing to do with this incident."
+            },
+            {
+                "word": "발의",
+                "meaning": "motion, introduction (of a bill or proposal)",
+                "example_ko": "의원들은 새로운 노동 관련 법안을 공동으로 [발의]했다.",
+                "example_en": "Lawmakers jointly introduced a new labor-related bill."
+            },
+            {
+                "word": "실무",
+                "meaning": "practical business, working-level affairs",
+                "example_ko": "회의에 앞서 양측 담당자들이 모여 [실무] 협의를 진행했다.",
+                "example_en": "Prior to the meeting, officials from both sides gathered to hold working-level consultations."
+            },
+            {
+                "word": "반발하다",
+                "meaning": "to resist, to push back against",
+                "example_ko": "주민들은 일방적인 공사 계획에 거세게 [반발했다].",
+                "example_en": "Residents strongly pushed back against the unilateral construction plan."
+            },
+            {
+                "word": "대치",
+                "meaning": "confrontation, standoff",
+                "example_ko": "양측의 팽팽한 [대치] 상황이 며칠째 이어지고 있다.",
+                "example_en": "The tense standoff between the two sides has been continuing for days."
+            },
+            {
+                "word": "고조되다",
+                "meaning": "to heighten, to escalate",
+                "example_ko": "경기가 끝날 무렵 경기장의 응원 열기가 최고조로 [고조되었다].",
+                "example_en": "Toward the end of the match, the cheering atmosphere in the stadium heightened to its peak."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-25",
+        "published_at": "2026-11-25 13:04",
+        "title": "코스피, 반도체 불안에 하루 만에 5,000선 붕괴",
+        "body": "국내 증시의 대표 지수인 코스피가 급락세를 보이며 하루 만에 5,000선 아래로 다시 내려앉았다. 전날 6퍼센트대 급등세를 보였던 지수는 개장 직후부터 큰 폭으로 떨어져 4,800선마저 위협받았다. 장 초반 낙폭이 5퍼센트 이상 확대되자 한국거래소 유가증권시장에서는 프로그램 매매 호가를 일시 효력 정지하는 매도 사이드카가 발동되었다. 전날 매수 사이드카가 발동된 지 단 하루 만에 정반대의 조치가 취해진 것이다. 시장에서는 외국인과 기관 투자자가 동반 순매도에 나서며 하락을 주도했고, 개인 투자자만 홀로 주식을 사들였다. 특히 시가총액 상위권인 삼성전자와 SK하이닉스가 8퍼센트 넘게 급락하며 지수 하락을 부추겼다. 전문가들은 인공지능 산업의 수익성에 대한 시장의 의구심이 다시 커진 것을 급락의 원인으로 분석했다.",
+        "translation": "국내 증시의 대표 지수인 코스피가 급락세를 보이며 하루 만에 5,000선 아래로 다시 내려앉았다.\nKOSPI, the benchmark index of the domestic stock market, showed a sharp drop and fell back below the 5,000 level in just one day.\n\n전날 6퍼센트대 급등세를 보였던 지수는 개장 직후부터 큰 폭으로 떨어져 4,800선마저 위협받았다.\nThe index, which surged in the 6 percent range the previous day, plunged steeply right after the opening and even threatened the 4,800 level.\n\n장 초반 낙폭이 5퍼센트 이상 확대되자 한국거래소 유가증권시장에서는 프로그램 매매 호가를 일시 효력 정지하는 매도 사이드카가 발동되었다.\nAs the drop widened by more than 5 percent in the early session, a sell sidecar temporarily suspending program trading quotes was activated on the Korea Exchange's main board.\n\n전날 매수 사이드카가 발동된 지 단 하루 만에 정반대의 조치가 취해진 것이다.\nThe exact opposite measure was taken just one day after a buy sidecar was activated the day before.\n\n시장에서는 외국인과 기관 투자자가 동반 순매도에 나서며 하락을 주도했고, 개인 투자자만 홀로 주식을 사들였다.\nIn the market, foreign and institutional investors led the decline through net selling together, while individual investors bought stocks alone.\n\n특히 시가총액 상위권인 삼성전자와 SK하이닉스가 8퍼센트 넘게 급락하며 지수 하락을 부추겼다.\nIn particular, market cap heavyweights Samsung Electronics and SK Hynix plunged by more than 8 percent, driving down the index.\n\n전문가들은 인공지능 산업의 수익성에 대한 시장의 의구심이 다시 커진 것을 급락의 원인으로 분석했다.\nExperts analyzed that the growing market doubts regarding the profitability of the artificial intelligence industry were the cause of the sharp plunge.",
+        "vocab": [
+            {
+                "word": "급락하다",
+                "meaning": "to plunge, to drop sharply",
+                "example_ko": "국제 유가가 갑작스러운 공급 증가로 크게 [급락했다].",
+                "example_en": "International oil prices dropped sharply due to a sudden increase in supply."
+            },
+            {
+                "word": "급등세",
+                "meaning": "sharp surge, soaring trend",
+                "example_ko": "부동산 가격의 가파른 [급등세]가 진정될 기미를 보이지 않는다.",
+                "example_en": "The steep upward surge in real estate prices shows no sign of calming down."
+            },
+            {
+                "word": "낙폭",
+                "meaning": "extent of drop, margin of decline",
+                "example_ko": "오후 들어 주가의 [낙폭]이 점차 줄어들기 시작했다.",
+                "example_en": "In the afternoon, the margin of decline in stock prices began to gradually shrink."
+            },
+            {
+                "word": "발동되다",
+                "meaning": "to be invoked, to be activated",
+                "example_ko": "시장 불안을 막기 위해 안전장치가 자동으로 [발동되었다].",
+                "example_en": "A safety mechanism was automatically activated to prevent market instability."
+            },
+            {
+                "word": "조치",
+                "meaning": "measure, action",
+                "example_ko": "정부는 물가를 안정시키기 위해 긴급 [조치]를 취했다.",
+                "example_en": "The government took emergency measures to stabilize prices."
+            },
+            {
+                "word": "순매도",
+                "meaning": "net selling",
+                "example_ko": "외국인 투자자들의 [순매도]가 이어지면서 주가가 하락했다.",
+                "example_en": "Stock prices fell as net selling by foreign investors continued."
+            },
+            {
+                "word": "시가총액",
+                "meaning": "market capitalization",
+                "example_ko": "이 회사는 높은 기술력을 바탕으로 [시가총액] 순위 1위에 올랐다.",
+                "example_en": "Based on its superior technology, this company ranked first in market capitalization."
+            },
+            {
+                "word": "부추기다",
+                "meaning": "to fuel, to instigate, to spur",
+                "example_ko": "일부 언론의 과장 보도가 시민들의 불안감을 [부추겼다].",
+                "example_en": "Exaggerated reporting by some media outlets fueled the anxiety of citizens."
+            },
+            {
+                "word": "수익성",
+                "meaning": "profitability",
+                "example_ko": "기업은 신제품 개발을 통해 [수익성]을 개선하고자 노력한다.",
+                "example_en": "The enterprise is striving to improve profitability through the development of new products."
+            },
+            {
+                "word": "의구심",
+                "meaning": "suspicion, doubt",
+                "example_ko": "회사의 불투명한 회계 처리에 대해 많은 이들이 [의구심]을 품었다.",
+                "example_en": "Many harbored doubts about the company's opaque accounting practices."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-25",
+        "published_at": "2026-11-25 13:04",
+        "title": "연예인 출국장 과잉 경호 논란…경찰 고발로 번져",
+        "body": "공항 출국 현장에서 유명 연예인을 보호하던 경호원이 시민을 거칠게 밀치는 영상이 공개되어 공분을 사고 있다. 한 아이돌 그룹의 출국 당시 휴대전화로 촬영하던 여성을 관계자로 보이는 남성이 강하게 밀쳐 넘어뜨릴 뻔한 장면이 포착되었다. 이 영상이 온라인에 널리 퍼지자 물리력을 과도하게 행사했다는 비판이 쏟아졌고 결국 해당 남성은 경찰에 고발당했다. 고발인은 이 행위가 명백한 형법상 폭행죄에 해당할 수 있으며 구체적인 사건 경위를 규명해야 한다고 주장했다. 또한 인파를 통제하려는 목적이 있더라도 민간 경호 인력이 시민에게 물리력을 쓰는 것은 정당화될 수 없다고 지적했다. 최근 연예인 출국 시 일반 승객의 통행을 방해하거나 위협하는 과잉 경호 논란이 지속적으로 발생하고 있다. 공항 당국이 대책 마련에 나서고 있으나 실질적인 제재 수단이 부족해 사회적 합의와 제도 개선이 요구된다.",
+        "translation": "공항 출국 현장에서 유명 연예인을 보호하던 경호원이 시민을 거칠게 밀치는 영상이 공개되어 공분을 사고 있다.\nA video showing a bodyguard protecting a famous celebrity roughly pushing a citizen at an airport departure hall has been released, sparking public outrage.\n\n한 아이돌 그룹의 출국 당시 휴대전화로 촬영하던 여성을 관계자로 보이는 남성이 강하게 밀쳐 넘어뜨릴 뻔한 장면이 포착되었다.\nA scene was captured in which a man presumed to be an affiliated official strongly pushed a woman filming with her mobile phone, nearly knocking her over, during the departure of an idol group.\n\n이 영상이 온라인에 널리 퍼지자 물리력을 과도하게 행사했다는 비판이 쏟아졌고 결국 해당 남성은 경찰에 고발당했다.\nAs this video spread widely online, criticisms poured in that he exercised excessive physical force, and the man was eventually reported to the police.\n\n고발인은 이 행위가 명백한 형법상 폭행죄에 해당할 수 있으며 구체적인 사건 경위를 규명해야 한다고 주장했다.\nThe complainant asserted that this act could constitute assault under the Criminal Act and that the specific circumstances of the incident must be clarified.\n\n또한 인파를 통제하려는 목적이 있더라도 민간 경호 인력이 시민에게 물리력을 쓰는 것은 정당화될 수 없다고 지적했다.\nIn addition, he pointed out that even if the purpose is crowd control, private security personnel using physical force against citizens cannot be justified.\n\n최근 연예인 출국 시 일반 승객의 통행을 방해하거나 위협하는 과잉 경호 논란이 지속적으로 발생하고 있다.\nRecently, controversies over excessive security that obstructs ordinary passengers' passage or intimidates them during celebrity departures have been occurring continuously.\n\n공항 당국이 대책 마련에 나서고 있으나 실질적인 제재 수단이 부족해 사회적 합의와 제도 개선이 요구된다.\nAlthough airport authorities are working to prepare countermeasures, effective means of enforcement are lacking, calling for social consensus and institutional improvements.",
+        "vocab": [
+            {
+                "word": "과잉",
+                "meaning": "excess, over-",
+                "example_ko": "지나친 [과잉] 진압은 시민들의 반발을 부를 수 있다.",
+                "example_en": "Excessive suppression can provoke a public backlash."
+            },
+            {
+                "word": "포착되다",
+                "meaning": "to be captured, to be caught",
+                "example_ko": "도둑이 담을 넘는 장면이 방범 카메라에 그대로 [포착되었다].",
+                "example_en": "The scene of the thief climbing over the wall was caught as it was on the security camera."
+            },
+            {
+                "word": "행사하다",
+                "meaning": "to exercise (power, rights, force)",
+                "example_ko": "국민은 선거를 통해 소중한 투표권을 [행사해야] 한다.",
+                "example_en": "Citizens must exercise their precious right to vote through elections."
+            },
+            {
+                "word": "고발하다",
+                "meaning": "to file a complaint, to report to authorities",
+                "example_ko": "그는 회사의 불법 행위를 사법 당국에 직접 [고발했다].",
+                "example_en": "He directly reported the company's illegal acts to judicial authorities."
+            },
+            {
+                "word": "폭행",
+                "meaning": "assault, violence",
+                "example_ko": "길거리에서 일어난 단순 [폭행] 사건으로 경찰이 출동했다.",
+                "example_en": "Police were dispatched due to a simple assault incident that occurred on the street."
+            },
+            {
+                "word": "경위",
+                "meaning": "details, circumstances",
+                "example_ko": "선생님은 두 학생이 싸우게 된 구체적인 [경위를] 조사했다.",
+                "example_en": "The teacher investigated the specific circumstances that led the two students to fight."
+            },
+            {
+                "word": "정당화되다",
+                "meaning": "to be justified",
+                "example_ko": "어떠한 이유로도 다른 사람을 다치게 하는 행동은 [정당화될] 수 없다.",
+                "example_en": "Actions that hurt others cannot be justified for any reason."
+            },
+            {
+                "word": "방해하다",
+                "meaning": "to obstruct, to disrupt",
+                "example_ko": "도서관에서 큰 소리로 통화하며 다른 사람의 공부를 [방해하면] 안 된다.",
+                "example_en": "You must not disturb other people's studying by talking loudly on the phone in the library."
+            },
+            {
+                "word": "제재",
+                "meaning": "sanction, restriction",
+                "example_ko": "규칙을 어긴 학생에게는 적절한 학교 내 [제재]가 가해진다.",
+                "example_en": "Appropriate school sanctions are imposed on students who violate rules."
+            },
+            {
+                "word": "합의",
+                "meaning": "consensus, agreement",
+                "example_ko": "주민 투표를 거쳐 공원 조성에 관한 원만한 [합의]를 이루어 냈다.",
+                "example_en": "A smooth consensus on building the park was reached through a resident vote."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-25",
+        "published_at": "2026-11-25 13:04",
+        "title": "\"미국, 이란 지도부 대상 참수 작전 검토 중\"",
+        "body": "미국 정부가 이란에 대한 공격을 재개할 경우를 대비해 수뇌부를 제거하는 참수 작전을 검토하고 있는 것으로 전해졌다. 외신 보도에 따르면 미군 지도부는 이란 정권 핵심부를 표적으로 삼아 전쟁의 조기 종전을 노리는 계획을 내부적으로 논의하고 있다. 트럼프 미국 대통령은 앞서 이란 공격을 감행하면서 신속한 마무리를 공언했으나 공방이 장기화되며 분쟁은 해를 넘길 위기에 놓였다. 일각에서는 개전 초기 지도자를 제거했던 전술을 다시 활용할 가능성을 점치고 있다. 그러나 후계 체제 출범 이후 이란 지도부 내 강경파가 득세하여 부작용이 클 것이라는 반론도 만만치 않다. 또한 표적에 대한 극도로 정밀한 정보가 확보되지 않는다면 작전 성공을 장담하기 어렵고 협상 상대의 신뢰를 잃을 위험도 존재한다. 트럼프 대통령은 당장 공습을 서두르지 않겠다면서도 새해 상황을 면밀히 지켜보겠다는 입장을 남겼다.",
+        "translation": "\"미국, 이란 지도부 대상 참수 작전 검토 중\"\n\"US Considering 'Decapitation Strike' Targeting Iranian Leadership\"\n\n미국 정부가 이란에 대한 공격을 재개할 경우를 대비해 수뇌부를 제거하는 참수 작전을 검토하고 있는 것으로 전해졌다.\nIt has been reported that the US government is considering a decapitation strike to eliminate top leadership in preparation for resuming attacks against Iran.\n\n외신 보도에 따르면 미군 지도부는 이란 정권 핵심부를 표적으로 삼아 전쟁의 조기 종전을 노리는 계획을 내부적으로 논의하고 있다.\nAccording to foreign media reports, US military leadership is internally discussing a plan to target the core of the Iranian regime in hopes of bringing an early end to the war.\n\n트럼프 미국 대통령은 앞서 이란 공격을 감행하면서 신속한 마무리를 공언했으나 공방이 장기화되며 분쟁은 해를 넘길 위기에 놓였다.\nUS President Trump previously promised a swift conclusion while launching attacks on Iran, but as the exchanges dragged on, the conflict ended up on the verge of crossing into the new year.\n\n일각에서는 개전 초기 지도자를 제거했던 전술을 다시 활용할 가능성을 점치고 있다.\nSome observers predict the possibility of reusing the tactic of eliminating the top leader seen in the early days of the war.\n\n그러나 후계 체제 출범 이후 이란 지도부 내 강경파가 득세하여 부작용이 클 것이라는 반론도 만만치 않다.\nHowever, there is also formidable opposition warning that side effects would be severe since hardliners gained dominance within the Iranian leadership after the launch of the succession system.\n\n또한 표적에 대한 극도로 정밀한 정보가 확보되지 않는다면 작전 성공을 장담하기 어렵고 협상 상대의 신뢰를 잃을 위험도 존재한다.\nMoreover, unless extremely precise intelligence on targets is secured, it is difficult to guarantee operational success, and there is also a risk of losing the trust of negotiating counterparts.\n\n트럼프 대통령은 당장 공습을 서두르지 않겠다면서도 새해 상황을 면밀히 지켜보겠다는 입장을 남겼다.\nPresident Trump stated that while he would not rush air strikes right away, he would closely watch what happens in the new year.",
+        "vocab": [
+            {
+                "word": "재개하다",
+                "meaning": "to resume, to restart",
+                "example_ko": "두 나라는 중단되었던 평화 회담을 다음 달에 [재개하기로] 했다.",
+                "example_en": "The two countries decided to resume the stalled peace talks next month."
+            },
+            {
+                "word": "수뇌부",
+                "meaning": "top leadership, high command",
+                "example_ko": "군 [수뇌부는] 긴급 안보 회의를 소집하여 대응책을 논의했다.",
+                "example_en": "The military leadership convened an emergency security meeting to discuss countermeasures."
+            },
+            {
+                "word": "표적",
+                "meaning": "target, mark",
+                "example_ko": "사격 훈련을 받는 군인들이 정확하게 [표적을] 향해 총을 쏘았다.",
+                "example_en": "Soldiers undergoing shooting training fired their guns accurately toward the target."
+            },
+            {
+                "word": "종전",
+                "meaning": "end of war",
+                "example_ko": "오랜 전쟁 끝에 양국 정상은 마침내 [종전] 선언에 서명했다.",
+                "example_en": "After a long war, the leaders of both nations finally signed the declaration of the end of the war."
+            },
+            {
+                "word": "장기화되다",
+                "meaning": "to be prolonged, to drag on",
+                "example_ko": "노사 갈등이 [장기화되면서] 공장 가동이 전면 중단되었다.",
+                "example_en": "As the labor-management conflict dragged on, factory operations were completely halted."
+            },
+            {
+                "word": "득세하다",
+                "meaning": "to gain power, to become dominant",
+                "example_ko": "선거 결과 보수 세력이 의회 내에서 크게 [득세하게] 되었다.",
+                "example_en": "As a result of the election, conservative forces gained significant dominance in parliament."
+            },
+            {
+                "word": "정밀하다",
+                "meaning": "precise, minute",
+                "example_ko": "의사는 [정밀한] 검사를 통해 환자의 원인 모를 병을 발견했다.",
+                "example_en": "The doctor discovered the patient's unexplained illness through precise examinations."
+            },
+            {
+                "word": "확보하다",
+                "meaning": "to secure, to obtain",
+                "example_ko": "정부는 겨울철 에너지 공급을 위해 천연가스를 충분히 [확보했다].",
+                "example_en": "The government secured sufficient natural gas for the winter energy supply."
+            },
+            {
+                "word": "장담하다",
+                "meaning": "to guarantee, to assure",
+                "example_ko": "아무리 열심히 준비했더라도 결과를 섣불리 [장담할] 수는 없다.",
+                "example_en": "No matter how hard you have prepared, you cannot hastily guarantee the outcome."
+            },
+            {
+                "word": "면밀하다",
+                "meaning": "meticulous, thorough",
+                "example_ko": "연구팀은 계획을 실행하기 전에 [면밀한] 조사를 거쳤다.",
+                "example_en": "The research team conducted a thorough investigation before executing the plan."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-25",
         "published_at": "2026-11-25 05:07",
         "title": "민주당 김민석 대표 취임 100일…당내 갈등 수습 과제 직면",
         "body": "더불어민주당 김민석 대표가 취임 100일을 맞았으나 당내 갈등은 쉽게 가라앉지 않고 있다. 김 대표는 별도의 기자회견 대신 노인복지관을 찾아 어르신 돌봄과 일자리 확대를 약속하며 민생 행보를 보였다. 그는 당 유튜브 방송을 통해 지난 100일이 가장 만만치 않았던 기간 중 하나였다는 소회를 밝혔다. 아울러 당정 관계는 비교적 안정되었지만 당내 화합이 더욱 필요하다는 점을 강조했다. 김 대표의 지난 활동에 대해 당내에서는 긍정적인 평가와 아쉬운 평가가 엇갈리고 있다. 특히 정청래 전 대표는 소셜미디어를 통해 김 대표가 제기했던 의혹이 당을 초토화시켰다며 거세게 비판했다. 전임 지도부의 거센 공세에 대해 김 대표는 굳이 언급할 필요가 없다며 갈등 확전을 피하는 모습을 보였다. 또한 취임 초에 약속했던 지지율 상승을 달성하지 못한 점에 대해서도 더욱 분발하겠다고 말을 아꼈다. 김 대표는 당청 관계 안정을 이룬 데 이어 당내 갈등을 지혜롭게 수습해야 하는 무거운 과제를 안게 되었다.",

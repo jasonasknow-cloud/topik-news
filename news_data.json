@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-26",
+        "published_at": "2026-11-26 12:29",
+        "title": "전북자치도와 지역 국회의원, 현대차 투자 지원 및 주요 현안 공조 나서",
+        "body": "전북특별자치도가 지역 국회의원들과 손을 잡고 지역의 주요 현안을 해결하기 위해 적극적인 협력에 나섰다. 전북자치도는 서울 국회 의원회관에서 정책간담회를 열고 지역 발전을 위한 다양한 방안을 논의했다. 이날 간담회에서는 대기업인 현대자동차의 새만금 투자 유치에 대한 지원 방안이 집중적으로 다루어졌다. 전북자치도는 이번 투자가 지역의 신산업을 육성하고 좋은 일자리를 만드는 중요한 계기가 될 것으로 기대하고 있다. 이를 위해 투자 사업이 원활하게 진행될 수 있도록 국회가 관련 핵심 법안을 우선적으로 심사해 달라고 요청했다. 또한 해당 법안들이 국회 본회의를 조속히 통과할 수 있도록 지역 국회의원들의 전폭적인 협조를 당부했다. 아울러 지역 주민들의 오랜 숙원 사업인 전북 금융중심지 지정 문제도 중요한 안건으로 함께 논의되었다. 전북자치도는 금융중심지 지정이 역대 대통령의 공약이었던 만큼 올해 안에 반드시 실현되어야 한다고 강조했다. 지역 국회의원들은 지역 경제를 살리기 위한 핵심 사업들이 성과를 낼 수 있도록 정치권 차원의 지원을 아끼지 않겠다고 밝혔다.",
+        "translation": "전북특별자치도가 지역 국회의원들과 손을 잡고 지역의 주요 현안을 해결하기 위해 적극적인 협력에 나섰다.\nJeonbuk Special Self-Governing Province joined hands with regional lawmakers to engage in active cooperation to resolve major local issues.\n\n전북자치도는 서울 국회 의원회관에서 정책간담회를 열고 지역 발전을 위한 다양한 방안을 논의했다.\nJeonbuk Province held a policy meeting at the National Assembly Members' Hall in Seoul and discussed various measures for regional development.\n\n이날 간담회에서는 대기업인 현대자동차의 새만금 투자 유치에 대한 지원 방안이 집중적으로 다루어졌다.\nAt the meeting on this day, support measures for attracting Hyundai Motor's investment in Saemangeum were discussed intensively.\n\n전북자치도는 이번 투자가 지역의 신산업을 육성하고 좋은 일자리를 만드는 중요한 계기가 될 것으로 기대하고 있다.\nJeonbuk Province expects that this investment will serve as an important opportunity to foster new regional industries and create quality jobs.\n\n이를 위해 투자 사업이 원활하게 진행될 수 있도록 국회가 관련 핵심 법안을 우선적으로 심사해 달라고 요청했다.\nTo this end, it requested that the National Assembly review related core bills on a priority basis so that the investment project can proceed smoothly.\n\n또한 해당 법안들이 국회 본회의를 조속히 통과할 수 있도록 지역 국회의원들의 전폭적인 협조를 당부했다.\nIn addition, it asked for the full cooperation of regional lawmakers so that the bills could pass the National Assembly's plenary session quickly.\n\n아울러 지역 주민들의 오랜 숙원 사업인 전북 금융중심지 지정 문제도 중요한 안건으로 함께 논의되었다.\nAlong with this, the issue of designating Jeonbuk as a financial hub, a long-cherished project of local residents, was also discussed as an important agenda item.\n\n전북자치도는 금융중심지 지정이 역대 대통령의 공약이었던 만큼 올해 안에 반드시 실현되어야 한다고 강조했다.\nJeonbuk Province emphasized that as designating a financial hub was a pledge of successive presidents, it must be realized within this year.\n\n지역 국회의원들은 지역 경제를 살리기 위한 핵심 사업들이 성과를 낼 수 있도록 정치권 차원의 지원을 아끼지 않겠다고 밝혔다.\nThe regional lawmakers stated that they would spare no support from the political sector so that core projects to revive the local economy can produce results.",
+        "vocab": [
+            {
+                "word": "손을 잡다",
+                "meaning": "to join hands, to cooperate",
+                "example_ko": "두 회사는 새로운 기술을 개발하기 위해 [손을 잡았다].",
+                "example_en": "The two companies joined hands to develop new technology."
+            },
+            {
+                "word": "현안",
+                "meaning": "pending issue",
+                "example_ko": "정부는 이번 회의에서 가장 시급한 [현안]을 논의했다.",
+                "example_en": "The government discussed the most urgent pending issue at this meeting."
+            },
+            {
+                "word": "간담회",
+                "meaning": "informal meeting, discussion meeting",
+                "example_ko": "주민들은 시장과 함께 자유롭게 대화하는 [간담회]에 참석했다.",
+                "example_en": "Residents attended an informal discussion meeting where they spoke freely with the mayor."
+            },
+            {
+                "word": "육성하다",
+                "meaning": "to foster, to nurture",
+                "example_ko": "시는 청년 창업가를 [육성하기] 위해 다양한 프로그램을 시작했다.",
+                "example_en": "The city started various programs to foster young entrepreneurs."
+            },
+            {
+                "word": "원활하다",
+                "meaning": "to be smooth, to be uninterrupted",
+                "example_ko": "교통 신호가 바뀌자 차량 흐름이 다시 [원활해졌다].",
+                "example_en": "When the traffic light changed, traffic flow became smooth again."
+            },
+            {
+                "word": "심사하다",
+                "meaning": "to screen, to evaluate, to review",
+                "example_ko": "은행은 대출 신청 서류를 꼼꼼하게 [심사하고] 있다.",
+                "example_en": "The bank is carefully reviewing loan application documents."
+            },
+            {
+                "word": "조속히",
+                "meaning": "promptly, as soon as possible",
+                "example_ko": "회사는 고객들의 불편을 덜기 위해 문제를 [조속히] 해결하기로 했다.",
+                "example_en": "The company decided to resolve the problem promptly to ease customer inconvenience."
+            },
+            {
+                "word": "숙원",
+                "meaning": "long-cherished desire or project",
+                "example_ko": "마을 주민들은 지하철역 건설이라는 오랜 [숙원]을 마침내 이루었다.",
+                "example_en": "Village residents finally achieved their long-cherished desire of building a subway station."
+            },
+            {
+                "word": "공약",
+                "meaning": "pledge, campaign promise",
+                "example_ko": "그 정치인은 선거 때 발표한 [공약]을 지키려고 노력했다.",
+                "example_en": "The politician tried to keep the campaign promises made during the election."
+            },
+            {
+                "word": "아끼지 않다",
+                "meaning": "to not spare, to be generous with",
+                "example_ko": "부모님은 자녀 교육을 위한 지원을 [아끼지 않았다].",
+                "example_en": "The parents did not spare support for their children's education."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-26",
+        "published_at": "2026-11-26 12:29",
+        "title": "피부 미용시술 피해 급증…계약 해지 및 환급 분쟁이 80% 넘어",
+        "body": "최근 피부 미용시술을 받는 소비자가 늘어나면서 이와 관련된 피해와 분쟁도 급격히 증가하고 있다. 한국소비자원에 따르면 최근 3년간 접수된 피부 미용시술 관련 피해구제 신청 건수가 매년 가파르게 늘어났다. 특히 올해 상반기 신청 건수는 지난해 같은 기간과 비교해 두 배 이상 크게 늘어난 것으로 나타났다. 피해를 호소한 소비자의 약 70%는 20대와 30대 젊은 층에 집중되어 있었다. 피해 유형 가운데는 시술 패키지를 중도에 취소하면서 발생하는 계약 해지와 환급금 분쟁이 82%로 가장 높은 비중을 차지했다. 시술 이후 화상이나 염증과 같은 심각한 부작용을 겪거나 기대했던 효과를 얻지 못했다는 불만도 뒤를 이었다. 조사 결과 전체 피해 사례의 90% 이상은 피부과 전문의가 아닌 일반 의사가 진료하는 병원에서 발생했다. 소비자원은 가격 할인이나 홍보 행사에 현혹되어 충동적으로 장기 이용권을 계약하지 말 것을 당부했다. 아울러 계약을 체결하기 전에 중도 해지 기준과 부작용 발생 시 대처 방안을 꼼꼼하게 확인할 것을 강조했다.",
+        "translation": "최근 피부 미용시술을 받는 소비자가 늘어나면서 이와 관련된 피해와 분쟁도 급격히 증가하고 있다.\nRecently, as the number of consumers receiving skin cosmetic procedures increases, related damages and disputes are also rising sharply.\n\n한국소비자원에 따르면 최근 3년간 접수된 피부 미용시술 관련 피해구제 신청 건수가 매년 가파르게 늘어났다.\nAccording to the Korea Consumer Agency, the number of damage relief applications related to skin cosmetic procedures received over the past three years has increased steeply each year.\n\n특히 올해 상반기 신청 건수는 지난해 같은 기간과 비교해 두 배 이상 크게 늘어난 것으로 나타났다.\nIn particular, the number of applications in the first half of this year was found to have jumped more than twofold compared to the same period last year.\n\n피해를 호소한 소비자의 약 70%는 20대와 30대 젊은 층에 집중되어 있었다.\nAbout 70% of consumers who reported damages were concentrated among young people in their 20s and 30s.\n\n피해 유형 가운데는 시술 패키지를 중도에 취소하면서 발생하는 계약 해지와 환급금 분쟁이 82%로 가장 높은 비중을 차지했다.\nAmong damage types, disputes over contract termination and refunds arising from canceling treatment packages midway accounted for the highest share at 82%.\n\n시술 이후 화상이나 염증과 같은 심각한 부작용을 겪거나 기대했던 효과를 얻지 못했다는 불만도 뒤를 이었다.\nComplaints about experiencing serious side effects such as burns or inflammation after procedures, or failing to get expected results, followed.\n\n조사 결과 전체 피해 사례의 90% 이상은 피부과 전문의가 아닌 일반 의사가 진료하는 병원에서 발생했다.\nThe investigation showed that over 90% of all damage cases occurred at clinics operated by general practitioners rather than dermatology specialists.\n\n소비자원은 가격 할인이나 홍보 행사에 현혹되어 충동적으로 장기 이용권을 계약하지 말 것을 당부했다.\nThe Consumer Agency urged people not to impulsively sign long-term package contracts by being dazzled by price discounts or promotional events.\n\n아울러 계약을 체결하기 전에 중도 해지 기준과 부작용 발생 시 대처 방안을 꼼꼼하게 확인할 것을 강조했다.\nIn addition, it emphasized carefully checking refund criteria for midway cancellation and countermeasures in case of side effects before signing a contract.",
+        "vocab": [
+            {
+                "word": "분쟁",
+                "meaning": "dispute, conflict",
+                "example_ko": "이웃 주민들은 소음 문제로 [분쟁]을 겪고 있다.",
+                "example_en": "Neighbors are experiencing a dispute over noise issues."
+            },
+            {
+                "word": "구제",
+                "meaning": "relief, remedy",
+                "example_ko": "소비자들은 불량 제품으로 입은 피해에 대해 [구제를] 신청했다.",
+                "example_en": "Consumers applied for relief regarding damages caused by defective products."
+            },
+            {
+                "word": "가파르다",
+                "meaning": "to be steep, to be rapid",
+                "example_ko": "최근 몇 달 사이에 물가가 [가파르게] 올랐다.",
+                "example_en": "Prices have risen steeply in the past few months."
+            },
+            {
+                "word": "호소하다",
+                "meaning": "to complain of, to appeal",
+                "example_ko": "그는 과도한 업무 때문에 심한 스트레스를 [호소했다].",
+                "example_en": "He complained of severe stress due to excessive work."
+            },
+            {
+                "word": "비중",
+                "meaning": "proportion, relative importance",
+                "example_ko": "우리 회사의 수출에서 아시아 시장이 차지하는 [비중]이 가장 크다.",
+                "example_en": "The Asian market accounts for the largest proportion of our company's exports."
+            },
+            {
+                "word": "부작용",
+                "meaning": "side effect, adverse reaction",
+                "example_ko": "약을 먹은 뒤에 가벼운 졸음 등의 [부작용]이 나타날 수 있다.",
+                "example_en": "After taking the medicine, side effects such as mild drowsiness may occur."
+            },
+            {
+                "word": "전문의",
+                "meaning": "medical specialist",
+                "example_ko": "눈이 계속 아파서 안과 [전문의]를 찾아가 진료를 받았다.",
+                "example_en": "My eye kept hurting, so I went to see an ophthalmology specialist for treatment."
+            },
+            {
+                "word": "현혹되다",
+                "meaning": "to be dazzled, to be blinded, to be misled",
+                "example_ko": "사람들은 과장된 광고 문구에 [현혹되지] 않도록 주의해야 한다.",
+                "example_en": "People should be careful not to be misled by exaggerated advertising copy."
+            },
+            {
+                "word": "충동적",
+                "meaning": "impulsive",
+                "example_ko": "그는 스트레스를 받을 때마다 [충동적으로] 물건을 사는 습관이 있다.",
+                "example_en": "He has a habit of buying things impulsively whenever he gets stressed."
+            },
+            {
+                "word": "체결하다",
+                "meaning": "to conclude, to sign (a contract or agreement)",
+                "example_ko": "두 나라는 무역을 늘리기 위한 협정을 정식으로 [체결했다].",
+                "example_en": "The two countries officially concluded an agreement to increase trade."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-26",
+        "published_at": "2026-11-26 12:29",
+        "title": "철도노조 '안전운행' 준법투쟁 돌입…KTX 등 열차 운행 지연",
+        "body": "전국철도노동조합이 안전 운행을 내세운 준법투쟁에 돌입하면서 열차 운행에 차질이 빚어지고 있다. 철도노조는 오전 9시부터 열차 운행 규칙을 엄격하게 지키는 방식으로 투쟁을 시작했다. 노조원들은 평소 지연 시간을 만회하기 위해 속도를 올리던 회복 운전을 중단하고 제한 속도를 철저히 준수하고 있다. 이로 인해 서울역에 도착하는 케이티엑스(KTX) 열차가 최대 15분가량 연착되는 등 지연이 잇따르고 있다. 또한 코레일이 운영하는 수도권 전철 일부 구간에서도 열차 간격이 벌어지며 시민들이 불편을 겪었다. 노조 측은 안전한 열차 운행을 위한 선로 점검 인력 확충과 승진 제도 개선 등을 사측에 강하게 요구하고 있다. 이에 대해 한국철도공사는 비상수송대책본부를 가동하고 승객들의 불편을 줄이기 위해 추가 인력을 투입했다. 아울러 승객들에게 열차 운행 정보를 미리 확인하고 중요한 일정이 있을 경우 다른 교통수단을 이용해 달라고 당부했다. 철도노조가 다음 달 초 총파업을 예고한 가운데 노사가 대화를 통해 원만한 합의점을 찾을 수 있을지 주목된다.",
+        "translation": "전국철도노동조합이 안전 운행을 내세운 준법투쟁에 돌입하면서 열차 운행에 차질이 빚어지고 있다.\nAs the National Railroad Workers' Union entered a work-to-rule protest advocating safe operations, disruptions are occurring in train operations.\n\n철도노조는 오전 9시부터 열차 운행 규칙을 엄격하게 지키는 방식으로 투쟁을 시작했다.\nThe railway union began the protest from 9 a.m. by strictly abiding by train operating rules.\n\n노조원들은 평소 지연 시간을 만회하기 위해 속도를 올리던 회복 운전을 중단하고 제한 속도를 철저히 준수하고 있다.\nUnion members stopped recovery driving, which normally speeds up to make up for delays, and are strictly adhering to speed limits.\n\n이로 인해 서울역에 도착하는 케이티엑스(KTX) 열차가 최대 15분가량 연착되는 등 지연이 잇따르고 있다.\nDue to this, delays have continued, with KTX trains arriving at Seoul Station delayed by up to about 15 minutes.\n\n또한 코레일이 운영하는 수도권 전철 일부 구간에서도 열차 간격이 벌어지며 시민들이 불편을 겪었다.\nIn addition, in some sections of the metropolitan subway operated by Korail, the intervals between trains widened, causing inconvenience to citizens.\n\n노조 측은 안전한 열차 운행을 위한 선로 점검 인력 확충과 승진 제도 개선 등을 사측에 강하게 요구하고 있다.\nThe union is strongly demanding management expand track inspection personnel for safe train operations and improve the promotion system.\n\n이에 대해 한국철도공사는 비상수송대책본부를 가동하고 승객들의 불편을 줄이기 위해 추가 인력을 투입했다.\nIn response, the Korea Railroad Corporation activated an emergency transport headquarters and deployed additional personnel to reduce passenger inconvenience.\n\n아울러 승객들에게 열차 운행 정보를 미리 확인하고 중요한 일정이 있을 경우 다른 교통수단을 이용해 달라고 당부했다.\nIn addition, it urged passengers to check train operation information in advance and use other transportation if they have important schedules.\n\n철도노조가 다음 달 초 총파업을 예고한 가운데 노사가 대화를 통해 원만한 합의점을 찾을 수 있을지 주목된다.\nWith the railway union warning of a general strike early next month, attention is focused on whether labor and management can find an amicable agreement through dialogue.",
+        "vocab": [
+            {
+                "word": "돌입하다",
+                "meaning": "to enter, to embark on",
+                "example_ko": "노동자들은 임금 인상을 요구하며 파업에 [돌입했다].",
+                "example_en": "The workers embarked on a strike demanding a wage increase."
+            },
+            {
+                "word": "차질",
+                "meaning": "setback, hitch, disruption",
+                "example_ko": "갑작스러운 비 때문에 주말 행사 일정에 [차질]이 생겼다.",
+                "example_en": "Due to sudden rain, there was a disruption in the weekend event schedule."
+            },
+            {
+                "word": "만회하다",
+                "meaning": "to recover, to make up for",
+                "example_ko": "그는 후반전에 골을 넣어 전반전 실수를 [만회했다].",
+                "example_en": "He made up for his first-half mistake by scoring a goal in the second half."
+            },
+            {
+                "word": "준수하다",
+                "meaning": "to observe, to comply with",
+                "example_ko": "모든 운전자는 도로의 안전 규칙을 반드시 [준수해야] 한다.",
+                "example_en": "All drivers must observe road safety rules."
+            },
+            {
+                "word": "연착되다",
+                "meaning": "to be delayed, to arrive late",
+                "example_ko": "폭설로 인해 비행기가 공항에 세 시간이나 [연착되었다].",
+                "example_en": "Due to heavy snow, the flight was delayed by three hours arriving at the airport."
+            },
+            {
+                "word": "확충하다",
+                "meaning": "to expand, to enlarge",
+                "example_ko": "시청은 시민들의 편의를 위해 주차 시설을 [확충하기로] 했다.",
+                "example_en": "The city hall decided to expand parking facilities for the convenience of citizens."
+            },
+            {
+                "word": "가동하다",
+                "meaning": "to operate, to activate",
+                "example_ko": "공장은 밀린 주문을 처리하기 위해 기계를 밤새 [가동했다].",
+                "example_en": "The factory operated machines overnight to process backlogged orders."
+            },
+            {
+                "word": "투입하다",
+                "meaning": "to put in, to deploy",
+                "example_ko": "경찰은 실종된 어린이를 찾기 위해 많은 인력을 [투입했다].",
+                "example_en": "The police deployed a large number of personnel to find the missing child."
+            },
+            {
+                "word": "총파업",
+                "meaning": "general strike",
+                "example_ko": "전국의 버스 기사들이 내일부터 [총파업]을 시작한다고 선언했다.",
+                "example_en": "Bus drivers across the country declared that they would begin a general strike starting tomorrow."
+            },
+            {
+                "word": "원만하다",
+                "meaning": "to be amicable, to be smooth",
+                "example_ko": "노사는 오랜 대화 끝에 [원만한] 타협을 이뤄냈다.",
+                "example_en": "Labor and management reached an amicable compromise after long discussions."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-26",
+        "published_at": "2026-11-26 12:29",
+        "title": "공정위, 'AI 허위 광고' 혐의로 미국 애플 본사 심의 착수",
+        "body": "공정거래위원회가 글로벌 정보기술(IT) 기업인 미국 애플 본사를 상대로 허위 및 기만 광고 혐의에 대한 공식 제재 절차에 들어갔다. 공정위 사무처는 최신 스마트폰인 아이폰16 시리즈의 인공지능(AI) 기능 홍보와 관련해 애플의 법 위반 혐의를 조사해 왔다. 조사 결과 애플은 광고에서 약속한 주요 AI 기능들의 실제 제공 여부와 지원 시기를 소비자에게 명확히 알리지 않은 것으로 드러났다. 애플은 자체 AI 시스템을 대대적으로 홍보했으나, 광고에 등장한 핵심 기능 가운데 상당수가 제때 출시되지 못했다. 특히 한국어 지원을 비롯한 일부 핵심 기능의 제공 일정이 원래 약속했던 시기보다 수개월 이상 크게 지연되었다. 공정위 심사관은 애플이 불확실한 기술적 한계를 고의로 숨기거나 누락하여 소비자를 기만한 것으로 판단했다. 이에 따라 공정위는 광고 행위 금지와 법 위반 사실 공표, 그리고 대규모 과징금을 부과해야 한다는 의견을 냈다. 이번 사건과 관련된 아이폰 매출액은 약 3조 3천억 원이 넘는 것으로 추산되어 무거운 제재가 예상된다. 공정위는 조만간 전원회의를 열어 애플 측의 공식 입장을 듣고 최종 제재 수위를 결정할 방침이다.",
+        "translation": "공정거래위원회가 글로벌 정보기술(IT) 기업인 미국 애플 본사를 상대로 허위 및 기만 광고 혐의에 대한 공식 제재 절차에 들어갔다.\nThe Fair Trade Commission began official sanction procedures against the US headquarters of Apple, a global information technology (IT) company, over allegations of false and deceptive advertising.\n\n공정위 사무처는 최신 스마트폰인 아이폰16 시리즈의 인공지능(AI) 기능 홍보와 관련해 애플의 법 위반 혐의를 조사해 왔다.\nThe secretariat of the Fair Trade Commission has been investigating Apple's alleged legal violations regarding the promotion of artificial intelligence (AI) features of its latest smartphone, the iPhone 16 series.\n\n조사 결과 애플은 광고에서 약속한 주요 AI 기능들의 실제 제공 여부와 지원 시기를 소비자에게 명확히 알리지 않은 것으로 드러났다.\nAs a result of the investigation, it was revealed that Apple did not clearly inform consumers of whether major AI features promised in advertisements would actually be provided and the timing of their support.\n\n애플은 자체 AI 시스템을 대대적으로 홍보했으나, 광고에 등장한 핵심 기능 가운데 상당수가 제때 출시되지 못했다.\nApple extensively promoted its own AI system, but many of the core features shown in advertisements failed to launch on time.\n\n특히 한국어 지원을 비롯한 일부 핵심 기능의 제공 일정이 원래 약속했던 시기보다 수개월 이상 크게 지연되었다.\nIn particular, the schedule for providing some core features, including Korean language support, was significantly delayed by several months or more compared to the originally promised time.\n\n공정위 심사관은 애플이 불확실한 기술적 한계를 고의로 숨기거나 누락하여 소비자를 기만한 것으로 판단했다.\nThe Fair Trade Commission examiner determined that Apple deceived consumers by intentionally concealing or omitting uncertain technical limitations.\n\n이에 따라 공정위는 광고 행위 금지와 법 위반 사실 공표, 그리고 대규모 과징금을 부과해야 한다는 의견을 냈다.\nAccordingly, the Fair Trade Commission issued an opinion calling for prohibiting the advertising conduct, publicly disclosing the legal violation, and imposing a large fine.\n\n이번 사건과 관련된 아이폰 매출액은 약 3조 3천억 원이 넘는 것으로 추산되어 무거운 제재가 예상된다.\nThe iPhone sales amount related to this case is estimated to exceed about 3.3 trillion won, so heavy sanctions are expected.\n\n공정위는 조만간 전원회의를 열어 애플 측의 공식 입장을 듣고 최종 제재 수위를 결정할 방침이다.\nThe Fair Trade Commission plans to hold a plenary meeting soon to hear Apple's official stance and determine the final level of sanctions.",
+        "vocab": [
+            {
+                "word": "기만하다",
+                "meaning": "to deceive, to delude",
+                "example_ko": "상대방을 속이고 [기만하는] 행위는 법적인 처벌을 받을 수 있다.",
+                "example_en": "Deceptive acts that trick and deceive others can be subject to legal punishment."
+            },
+            {
+                "word": "제재",
+                "meaning": "sanction, restriction",
+                "example_ko": "정부는 불법 영업을 한 가게에 영업 정지 [제재]를 내렸다.",
+                "example_en": "The government imposed business suspension sanctions on the store that engaged in illegal operations."
+            },
+            {
+                "word": "대대적",
+                "meaning": "extensive, on a grand scale",
+                "example_ko": "경찰은 연말을 맞아 음주운전 [대대적인] 단속을 실시했다.",
+                "example_en": "The police conducted an extensive crackdown on drunk driving for the year-end."
+            },
+            {
+                "word": "제때",
+                "meaning": "at the proper time, on schedule",
+                "example_ko": "건강을 지키려면 식사를 거르지 않고 [제때] 먹어야 한다.",
+                "example_en": "To stay healthy, you should not skip meals and eat on schedule."
+            },
+            {
+                "word": "고의로",
+                "meaning": "intentionally, on purpose",
+                "example_ko": "그는 실수가 아니라 [고의로] 규칙을 어겨 벌을 받았다.",
+                "example_en": "He was punished for intentionally breaking the rules, not by mistake."
+            },
+            {
+                "word": "누락하다",
+                "meaning": "to omit, to leave out",
+                "example_ko": "서류를 작성할 때 중요한 정보를 [누락하지] 않도록 주의하세요.",
+                "example_en": "Please be careful not to omit important information when filling out documents."
+            },
+            {
+                "word": "공표하다",
+                "meaning": "to officially proclaim, to announce publicly",
+                "example_ko": "정부는 새로운 정책의 시행 계획을 국민에게 정식으로 [공표했다].",
+                "example_en": "The government officially proclaimed the implementation plan for the new policy to the public."
+            },
+            {
+                "word": "과징금",
+                "meaning": "fine, penalty surcharge",
+                "example_ko": "환경 기준을 위반한 기업에 무거운 [과징금이] 부과되었다.",
+                "example_en": "A heavy fine was imposed on the company that violated environmental standards."
+            },
+            {
+                "word": "추산되다",
+                "meaning": "to be estimated, to be calculated",
+                "example_ko": "이번 태풍으로 인한 피해 금액은 수백억 원으로 [추산된다].",
+                "example_en": "The amount of damage caused by this typhoon is estimated at tens of billions of won."
+            },
+            {
+                "word": "수위",
+                "meaning": "level, intensity (of criticism, sanctions, etc.)",
+                "example_ko": "비판의 [수위가] 높아지자 그는 사과문을 발표했다.",
+                "example_en": "As the level of criticism rose, he released an apology statement."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-26",
         "published_at": "2026-11-26 04:09",
         "title": "검찰, '노태우 비자금 의혹' 노재헌 주중대사 소환 통보",
         "body": "고 노태우 전 대통령 일가의 비자금 은닉 의혹을 수사하는 공소청이 노재헌 주중한국대사에게 소환 조사를 통보했다. 서울중앙지방공소청 범죄수익환수부는 범죄수익은닉규제법 위반 등의 혐의를 받는 노 대사를 피의자 신분으로 조사할 방침이다. 출석 시점은 이달 말로 조율 중인 것으로 전해졌다. 공소청은 노 전 대통령 일가의 비자금 일부가 노 대사가 이사장으로 있는 동아시아문화재단 등으로 흘러 들어갔다고 의심하고 있다. 이번 비자금 수사는 최태원 SK그룹 회장과 노소영 아트센터 나비 관장의 이혼 소송 과정에서 불거졌다. 당시 노 관장 측은 김옥숙 여사의 비자금 메모를 법원에 제출하며 논란을 촉발했다. 이후 시민단체의 고발장이 접수되면서 공소청은 본격적인 수사에 착수했고 김 여사 자택 등을 압수수색했다. 공소청은 노 관장에 대한 증인신문도 청구했으나 노 관장은 건강 문제를 이유로 불출석했다. 법에 따라 공소청은 올해 연말까지만 이번 수사를 이어갈 수 있어 조사가 속도를 낼 전망이다.",

@@ -2,6 +2,286 @@
     {
         "category": "정치",
         "date": "2026-11-28",
+        "published_at": "2026-11-28 12:14",
+        "title": "북한, 연말 노동당 전원회의 소집 예고…김정은 방중 가능성도 제기",
+        "body": "북한이 올해 사업을 결산하고 새해 국정운영 방향을 결정하기 위해 노동당 전원회의를 소집한다. 조선중앙통신은 노동당 중앙위원회 정치국이 다음 달 하순에 제9기 제3차 전원회의를 열기로 결정했다고 보도했다. 북한은 최근 몇 년 동안 연말 전원회의를 통해 다음 해의 주요 정책과 국정 기조를 대내외에 공개해 왔다. 따라서 이번 회의 역시 향후 북한의 대외 정책 방향을 가늠할 중요한 분수령이 될 것으로 보인다. 특히 미국과의 대화 재개 가능성을 두고 김정은 국무위원장이 어떤 수위의 메시지를 밝힐지 관심이 집중되고 있다. 앞서 북한은 새로운 우라늄 농축 시설과 핵탄두를 대거 공개하며 핵보유국 지위를 인정하라고 요구했다. 동시에 미국 정부 인사의 발언에 호응하며 강경책과 대화 여지를 함께 열어두는 양면 행보를 보였다. 한편 다음 달 미국에서 열리는 주요 20개국 정상회의를 앞두고 김 위원장의 방중 가능성도 제기된다. 이달 초 북한 고위 인사가 중국을 방문한 만큼, 정상회담 결과를 공유하기 위한 만남이 성사될지 주목된다.",
+        "translation": "북한이 올해 사업을 결산하고 새해 국정운영 방향을 결정하기 위해 노동당 전원회의를 소집한다.\nNorth Korea is convening a Workers' Party plenary meeting to review this year's projects and determine the direction of state affairs for the new year.\n\n조선중앙통신은 노동당 중앙위원회 정치국이 다음 달 하순에 제9기 제3차 전원회의를 열기로 결정했다고 보도했다.\nThe Korean Central News Agency reported that the Political Bureau of the Central Committee of the Workers' Party decided to hold the 3rd Plenary Meeting of the 9th Central Committee late next month.\n\n북한은 최근 몇 년 동안 연말 전원회의를 통해 다음 해의 주요 정책과 국정 기조를 대내외에 공개해 왔다.\nFor the past few years, North Korea has disclosed its main policies and state administration tone for the following year to both domestic and international audiences through its year-end plenary meetings.\n\n따라서 이번 회의 역시 향후 북한의 대외 정책 방향을 가늠할 중요한 분수령이 될 것으로 보인다.\nTherefore, this meeting is also expected to serve as an important turning point for assessing the future direction of North Korea's foreign policy.\n\n특히 미국과의 대화 재개 가능성을 두고 김정은 국무위원장이 어떤 수위의 메시지를 밝힐지 관심이 집중되고 있다.\nIn particular, attention is focused on what level of message State Affairs Commission Chairman Kim Jong-un will deliver regarding the possibility of resuming dialogue with the United States.\n\n앞서 북한은 새로운 우라늄 농축 시설과 핵탄두를 대거 공개하며 핵보유국 지위를 인정하라고 요구했다.\nPreviously, North Korea disclosed a new uranium enrichment facility and massive nuclear warheads, demanding recognition of its status as a nuclear-armed state.\n\n동시에 미국 정부 인사의 발언에 호응하며 강경책과 대화 여지를 함께 열어두는 양면 행보를 보였다.\nAt the same time, it showed a two-track approach by responding to remarks made by US government officials, keeping both hard-line measures and room for dialogue open.\n\n한편 다음 달 미국에서 열리는 주요 20개국 정상회의를 앞두고 김 위원장의 방중 가능성도 제기된다.\nMeanwhile, ahead of the Group of Twenty summit to be held in the United States next month, the possibility of Chairman Kim visiting China is also being raised.\n\n이달 초 북한 고위 인사가 중국을 방문한 만큼, 정상회담 결과를 공유하기 위한 만남이 성사될지 주목된다.\nAs a high-ranking North Korean official visited China earlier this month, attention is drawn to whether a meeting to share the outcomes of the summit will be accomplished.",
+        "vocab": [
+            {
+                "word": "결산하다",
+                "meaning": "to settle accounts, to review and wrap up",
+                "example_ko": "한 해를 [결산하며] 직원들과 뜻깊은 시간을 보냈다.",
+                "example_en": "While wrapping up the year, I spent a meaningful time with the staff."
+            },
+            {
+                "word": "소집하다",
+                "meaning": "to convene, to call a meeting",
+                "example_ko": "팀장은 긴급 회의를 [소집하여] 문제를 논의했다.",
+                "example_en": "The team leader convened an emergency meeting to discuss the problem."
+            },
+            {
+                "word": "기조",
+                "meaning": "keynote, basic tone or policy",
+                "example_ko": "정부는 물가를 안정시키겠다는 정책 [기조]를 유지하고 있다.",
+                "example_en": "The government is maintaining its policy tone of stabilizing prices."
+            },
+            {
+                "word": "가늠하다",
+                "meaning": "to gauge, to assess",
+                "example_ko": "표정을 보고 상대방의 기분을 [가늠하기]는 쉽지 않다.",
+                "example_en": "It is not easy to gauge another person's feelings by looking at their expression."
+            },
+            {
+                "word": "분수령",
+                "meaning": "watershed, turning point",
+                "example_ko": "이번 시험은 그의 인생에서 중요한 [분수령]이 되었다.",
+                "example_en": "This exam became an important turning point in his life."
+            },
+            {
+                "word": "재개하다",
+                "meaning": "to resume, to restart",
+                "example_ko": "두 나라는 중단되었던 회담을 다음 달에 [재개하기로] 합의했다.",
+                "example_en": "The two countries agreed to resume the suspended talks next month."
+            },
+            {
+                "word": "강경책",
+                "meaning": "hard-line policy, strong measure",
+                "example_ko": "회사는 노조의 요구에 대해 [강경책]으로 맞섰다.",
+                "example_en": "The company countered the union's demands with a hard-line policy."
+            },
+            {
+                "word": "행보",
+                "meaning": "move, step, course of action",
+                "example_ko": "젊은 정치인의 적극적인 [행보]가 언론의 주목을 받았다.",
+                "example_en": "The young politician's active moves received the attention of the media."
+            },
+            {
+                "word": "거론되다",
+                "meaning": "to be mentioned, to be brought up",
+                "example_ko": "회의에서 새로운 사업 계획이 여러 차례 [거론되었다].",
+                "example_en": "The new business plan was mentioned several times during the meeting."
+            },
+            {
+                "word": "성사되다",
+                "meaning": "to be accomplished, to come through",
+                "example_ko": "오랜 협상 끝에 마침내 두 회사의 계약이 [성사되었다].",
+                "example_en": "After long negotiations, the contract between the two companies was finally accomplished."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-28",
+        "published_at": "2026-11-28 12:14",
+        "title": "뉴욕증시 일제히 상승…반도체주 강세와 AI 우려 완화 영향",
+        "body": "인공지능(AI) 투자에 대한 시장의 우려가 완화되면서 미국 뉴욕증시의 주요 지수가 일제히 상승했다. 현지시간 27일 뉴욕 증시에서 다우지수는 전 거래일보다 1.18퍼센트 상승 마감했다. 대형주 중심의 S&P500지수와 기술주 중심의 나스닥지수도 각각 1.60퍼센트와 2.31퍼센트 올랐다. 이번 상승세는 최근 조정을 받던 반도체 관련 종목들이 강세를 보인 영향이 컸다. 메모리 반도체 기업 마이크론과 한국 SK하이닉스의 미국 주식예탁증서는 모두 7퍼센트 넘게 급등했다. 반도체 기업들의 주가가 일제히 뛰면서 필라델피아 반도체지수 역시 4.69퍼센트 큰 폭으로 상승했다. 아울러 인공지능 개발업체인 앤트로픽의 주가도 11퍼센트 가까이 오르며 공모가를 다시 넘어섰다. 시장에서는 기술 기업에 대한 과도한 불안 심리가 진정되면서 투자 심리가 되살아났다는 평가가 나온다.",
+        "translation": "인공지능(AI) 투자에 대한 시장의 우려가 완화되면서 미국 뉴욕증시의 주요 지수가 일제히 상승했다.\nAs market concerns over artificial intelligence (AI) investments eased, major indices on the US New York stock market rose all at once.\n\n현지시간 27일 뉴욕 증시에서 다우지수는 전 거래일보다 1.18퍼센트 상승 마감했다.\nOn the 27th local time, the Dow Jones Industrial Average on the New York stock market closed up 1.18 percent compared to the previous trading day.\n\n대형주 중심의 S&P500지수와 기술주 중심의 나스닥지수도 각각 1.60퍼센트와 2.31퍼센트 올랐다.\nThe large-cap S&P 500 Index and the tech-heavy Nasdaq Index also rose by 1.60 percent and 2.31 percent, respectively.\n\n이번 상승세는 최근 조정을 받던 반도체 관련 종목들이 강세를 보인 영향이 컸다.\nThis upward trend was largely driven by semiconductor-related stocks showing strength after recent adjustments.\n\n메모리 반도체 기업 마이크론과 한국 SK하이닉스의 미국 주식예탁증서는 모두 7퍼센트 넘게 급등했다.\nThe American depositary receipts of memory semiconductor maker Micron and South Korea's SK Hynix both surged by more than 7 percent.\n\n반도체 기업들의 주가가 일제히 뛰면서 필라델피아 반도체지수 역시 4.69퍼센트 큰 폭으로 상승했다.\nAs the share prices of semiconductor companies jumped all at once, the Philadelphia Semiconductor Index also rose significantly by 4.69 percent.\n\n아울러 인공지능 개발업체인 앤트로픽의 주가도 11퍼센트 가까이 오르며 공모가를 다시 넘어섰다.\nIn addition, the share price of AI developer Anthropic rose nearly 11 percent, surpassing its public offering price once again.\n\n시장에서는 기술 기업에 대한 과도한 불안 심리가 진정되면서 투자 심리가 되살아났다는 평가가 나온다.\nAssessments are emerging in the market that investment sentiment has revived as excessive anxiety about technology companies has calmed down.",
+        "vocab": [
+            {
+                "word": "완화되다",
+                "meaning": "to be eased, to be relieved",
+                "example_ko": "따뜻한 차를 마시니 목의 통증이 다소 [완화되었다].",
+                "example_en": "My throat pain was somewhat relieved after drinking warm tea."
+            },
+            {
+                "word": "일제히",
+                "meaning": "all at once, simultaneously",
+                "example_ko": "벨이 울리자 학생들이 [일제히] 교실 밖으로 나갔다.",
+                "example_en": "When the bell rang, the students went out of the classroom all at once."
+            },
+            {
+                "word": "마감하다",
+                "meaning": "to close, to finish",
+                "example_ko": "그는 밤늦게까지 밀린 일을 [마감하고] 퇴근했다.",
+                "example_en": "He finished his overdue work until late at night and left the office."
+            },
+            {
+                "word": "강세",
+                "meaning": "strong trend, strength (market)",
+                "example_ko": "최근 외국인 관광객이 늘어나면서 여행 관련 주식이 [강세]를 보이고 있다.",
+                "example_en": "With the recent increase in foreign tourists, travel-related stocks are showing strength."
+            },
+            {
+                "word": "급등하다",
+                "meaning": "to surge, to jump rapidly",
+                "example_ko": "기상 악화로 인해 배추 가격이 갑자기 [급등했다].",
+                "example_en": "Due to bad weather, the price of cabbage suddenly surged."
+            },
+            {
+                "word": "상회하다",
+                "meaning": "to exceed, to surpass",
+                "example_ko": "이번 분기 매출은 전문가들의 예상을 크게 [상회했다].",
+                "example_en": "This quarter's sales significantly exceeded experts' expectations."
+            },
+            {
+                "word": "과도하다",
+                "meaning": "to be excessive",
+                "example_ko": "건강을 해칠 수 있으니 [과도한] 운동은 피하는 것이 좋다.",
+                "example_en": "It is better to avoid excessive exercise because it can harm your health."
+            },
+            {
+                "word": "진정되다",
+                "meaning": "to calm down, to stabilize",
+                "example_ko": "깊은 호흡을 몇 번 하고 나니 불안한 마음이 [진정되었다].",
+                "example_en": "After taking a few deep breaths, my anxious feelings calmed down."
+            },
+            {
+                "word": "종목",
+                "meaning": "stock item, event category",
+                "example_ko": "그는 주식 시장에서 유망한 [종목]을 찾기 위해 공부하고 있다.",
+                "example_en": "He is studying to find promising stocks in the stock market."
+            },
+            {
+                "word": "공모가",
+                "meaning": "public offering price",
+                "example_ko": "상장 첫날 그 회사의 주가는 [공모가]보다 두 배 높게 시작했다.",
+                "example_en": "On the first day of listing, the company's stock price started at twice its public offering price."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-28",
+        "published_at": "2026-11-28 12:14",
+        "title": "주요 대학 논술시험 집중 실시…AI 부정행위 방지에 첨단 장비 총동원",
+        "body": "인공지능(AI) 기기를 이용한 부정행위 우려가 커지면서 주요 대학들이 논술시험 관리를 대폭 강화하고 있다. 이번 주말 서울 세종대와 이화여대, 중앙대, 한국외국어대 등 여러 대학에서 논술고사가 잇따라 치러진다. 대학들은 시험의 공정성을 지키기 위해 전파탐지기와 금속탐지기, 열화상 카메라 등 첨단 장비를 총동원했다. 세종대학교는 스마트안경을 직접 구입해 시험 감독관들을 사전에 교육하고 현장 점검에 나섰다. 수험생들은 아날로그 시계만 착용할 수 있으며 귀마개나 무릎담요, 모자가 달린 옷 등은 사용할 수 없다. 이화여대의 경우에는 수험장 내에 아날로그 시계조차 가지고 들어가지 못하도록 지침을 정했다. 한편 이번 주말 함께 치러지는 토익 시험장에서도 안경과 옷 단추에 보안 스티커를 붙이는 등 부정행위 단속을 강화했다. 수험생과 학부모들은 다소 엄격해진 규칙에 적응하면서도 공정한 시험이 치러지기를 바란다는 뜻을 나타냈다.",
+        "translation": "인공지능(AI) 기기를 이용한 부정행위 우려가 커지면서 주요 대학들이 논술시험 관리를 대폭 강화하고 있다.\nAs concerns grow over cheating using artificial intelligence (AI) devices, major universities are significantly tightening their supervision of essay examinations.\n\n이번 주말 서울 세종대와 이화여대, 중앙대, 한국외국어대 등 여러 대학에서 논술고사가 잇따라 치러진다.\nThis weekend, essay examinations are being held consecutively at several universities, including Sejong University, Ewha Womans University, Chung-Ang University, and Hankuk University of Foreign Studies in Seoul.\n\n대학들은 시험의 공정성을 지키기 위해 전파탐지기와 금속탐지기, 열화상 카메라 등 첨단 장비를 총동원했다.\nTo protect the fairness of the exams, universities fully mobilized advanced equipment such as radio wave detectors, metal detectors, and thermal imaging cameras.\n\n세종대학교는 스마트안경을 직접 구입해 시험 감독관들을 사전에 교육하고 현장 점검에 나섰다.\nSejong University directly purchased smart glasses to train test proctors in advance and began on-site inspections.\n\n수험생들은 아날로그 시계만 착용할 수 있으며 귀마개나 무릎담요, 모자가 달린 옷 등은 사용할 수 없다.\nTest-takers can only wear analog watches and cannot use earplugs, lap blankets, or hooded clothing.\n\n이화여대의 경우에는 수험장 내에 아날로그 시계조차 가지고 들어가지 못하도록 지침을 정했다.\nIn the case of Ewha Womans University, guidelines were established so that students cannot even bring analog watches into the exam room.\n\n한편 이번 주말 함께 치러지는 토익 시험장에서도 안경과 옷 단추에 보안 스티커를 붙이는 등 부정행위 단속을 강화했다.\nMeanwhile, at TOEIC testing centers held together this weekend, crackdowns on cheating were also strengthened, such as placing security stickers on glasses and clothing buttons.\n\n수험생과 학부모들은 다소 엄격해진 규칙에 적응하면서도 공정한 시험이 치러지기를 바란다는 뜻을 나타냈다.\nWhile adapting to the somewhat stricter rules, test-takers and parents expressed their hope that fair examinations would be conducted.",
+        "vocab": [
+            {
+                "word": "부정행위",
+                "meaning": "cheating, illicit act",
+                "example_ko": "시험 도중 다른 사람의 답안지를 보는 것은 명백한 [부정행위]이다.",
+                "example_en": "Looking at someone else's answer sheet during an exam is a clear act of cheating."
+            },
+            {
+                "word": "공정성",
+                "meaning": "fairness, impartiality",
+                "example_ko": "심사의 [공정성]을 높이기 위해 외부 전문가를 초빙했다.",
+                "example_en": "Outside experts were invited to enhance the fairness of the judging."
+            },
+            {
+                "word": "첨단",
+                "meaning": "state-of-the-art, cutting-edge",
+                "example_ko": "이 연구소는 [첨단] 기술을 활용해 신제품을 개발하고 있다.",
+                "example_en": "This research institute is developing new products using cutting-edge technology."
+            },
+            {
+                "word": "총동원하다",
+                "meaning": "to mobilize everything, to muster all",
+                "example_ko": "경찰은 실종된 아이를 찾기 위해 모든 인력을 [총동원했다].",
+                "example_en": "The police mobilized all personnel to find the missing child."
+            },
+            {
+                "word": "사전",
+                "meaning": "prior, advance, beforehand",
+                "example_ko": "행사 진행을 위해 참가자들에게 [사전] 안내 문자를 보냈다.",
+                "example_en": "A prior notice text message was sent to participants for the running of the event."
+            },
+            {
+                "word": "점검",
+                "meaning": "inspection, check",
+                "example_ko": "안전사고를 예방하기 위해 시설물에 대한 정기적인 [점검]이 필요하다.",
+                "example_en": "Regular inspections of facilities are necessary to prevent safety accidents."
+            },
+            {
+                "word": "착용하다",
+                "meaning": "to wear, to put on",
+                "example_ko": "오토바이를 탈 때는 반드시 안전모를 [착용해야] 한다.",
+                "example_en": "You must wear a helmet when riding a motorcycle."
+            },
+            {
+                "word": "지침",
+                "meaning": "guideline, directive",
+                "example_ko": "모든 직원은 회사가 마련한 안전 [지침]을 따라야 한다.",
+                "example_en": "All employees must follow the safety guidelines established by the company."
+            },
+            {
+                "word": "단속",
+                "meaning": "crackdown, regulation, enforcement",
+                "example_ko": "경찰은 연말을 맞아 음주 운전에 대한 특별 [단속]을 시작했다.",
+                "example_en": "The police have started a special crackdown on drunk driving for the year-end."
+            },
+            {
+                "word": "엄격하다",
+                "meaning": "to be strict, to be rigorous",
+                "example_ko": "우리 학교는 학생들의 지각에 대해 매우 [엄격한] 규칙을 적용한다.",
+                "example_en": "Our school applies very strict rules regarding students being late."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-28",
+        "published_at": "2026-11-28 12:14",
+        "title": "스페인 카나리아 제도 인근서 이민자 보트 발견…14명 숨져",
+        "body": "북아프리카에서 스페인 카나리아 제도로 향하던 보트에서 이민자 14명이 숨진 채 발견되었다. 현지시간 27일 스페인 당국은 카나리아 제도 엘 히에로 섬 남쪽 39해리 지점에서 한 이민자 보트를 발견했다고 밝혔다. 발견 당시 보트 내부에서는 14명이 숨져 있었고 생존자 중 6명은 중상을 입은 상태였다. 심각한 부상을 당한 이들 6명은 발견 직후 인근 병원으로 긴급 이송되어 치료를 받고 있다. 최근 모로코와 가까운 스페인 카나리아 제도에는 많은 수의 이주민이 지속해서 몰려들고 있다. 당국에 따르면 카나리아 제도로 향하는 이민자의 유입은 지난 10월 이후 급격히 증가했다. 특히 지난 25일에는 하루 만에 이민자 2,100명이 유입되며 역대급 기록적인 수치를 나타내기도 했다. 이처럼 보트를 이용해 바다를 건너려는 이민자가 급증하면서 안타까운 인명 피해 소식이 이어지고 있다.",
+        "translation": "북아프리카에서 스페인 카나리아 제도로 향하던 보트에서 이민자 14명이 숨진 채 발견되었다.\nFourteen migrants were found dead on a boat heading from North Africa toward Spain's Canary Islands.\n\n현지시간 27일 스페인 당국은 카나리아 제도 엘 히에로 섬 남쪽 39해리 지점에서 한 이민자 보트를 발견했다고 밝혔다.\nOn the 27th local time, Spanish authorities announced that they found a migrant boat 39 nautical miles south of El Hierro Island in the Canary Islands.\n\n발견 당시 보트 내부에서는 14명이 숨져 있었고 생존자 중 6명은 중상을 입은 상태였다.\nAt the time of discovery, 14 people were dead inside the boat, and 6 among the survivors were seriously injured.\n\n심각한 부상을 당한 이들 6명은 발견 직후 인근 병원으로 긴급 이송되어 치료를 받고 있다.\nThese 6 people who suffered severe injuries were urgently transported to a nearby hospital immediately after discovery and are receiving treatment.\n\n최근 모로코와 가까운 스페인 카나리아 제도에는 많은 수의 이주민이 지속해서 몰려들고 있다.\nRecently, a large number of migrants have continued to flock to Spain's Canary Islands, which are close to Morocco.\n\n당국에 따르면 카나리아 제도로 향하는 이민자의 유입은 지난 10월 이후 급격히 증가했다.\nAccording to authorities, the influx of migrants heading to the Canary Islands has increased sharply since last October.\n\n특히 지난 25일에는 하루 만에 이민자 2,100명이 유입되며 역대급 기록적인 수치를 나타내기도 했다.\nIn particular, on the 25th, as many as 2,100 migrants arrived in a single day, setting an all-time record-breaking figure.\n\n이처럼 보트를 이용해 바다를 건너려는 이민자가 급증하면서 안타까운 인명 피해 소식이 이어지고 있다.\nAs migrants attempting to cross the sea using boats surge like this, news of unfortunate casualties continues.",
+        "vocab": [
+            {
+                "word": "이민자",
+                "meaning": "immigrant, migrant",
+                "example_ko": "정부는 [이민자]들의 정착을 돕기 위해 한국어 교육 프로그램을 제공한다.",
+                "example_en": "The government provides Korean language education programs to help immigrants settle down."
+            },
+            {
+                "word": "연안",
+                "meaning": "coast, offshore waters",
+                "example_ko": "환경 보호를 위해 동해 [연안]의 쓰레기를 수거하는 활동이 열렸다.",
+                "example_en": "A cleanup activity was held along the East Sea coast to collect trash for environmental protection."
+            },
+            {
+                "word": "이송되다",
+                "meaning": "to be transported, to be transferred",
+                "example_ko": "교통사고를 당한 환자가 구급차로 급히 종합병원에 [이송되었다].",
+                "example_en": "The patient injured in the traffic accident was urgently transported to the general hospital by ambulance."
+            },
+            {
+                "word": "유입",
+                "meaning": "influx, inflow",
+                "example_ko": "봄철이 되면 황사와 미세먼지의 [유입]으로 공기가 탁해진다.",
+                "example_en": "In spring, the influx of yellow dust and fine dust makes the air murky."
+            },
+            {
+                "word": "급증하다",
+                "meaning": "to surge, to increase rapidly",
+                "example_ko": "온라인 쇼핑이 편리해지면서 택배 배송량이 크게 [급증했다].",
+                "example_en": "As online shopping has become more convenient, the volume of parcel deliveries has surged significantly."
+            },
+            {
+                "word": "기록적",
+                "meaning": "record-breaking, historic",
+                "example_ko": "올여름에는 [기록적인] 폭염 때문에 많은 사람들이 큰 불편을 겪었다.",
+                "example_en": "Many people suffered great inconvenience this summer due to record-breaking heatwaves."
+            },
+            {
+                "word": "수치",
+                "meaning": "figure, numerical value",
+                "example_ko": "정기 건강검진 결과 혈압 [수치]가 정상 범위로 돌아왔다.",
+                "example_en": "According to the regular health checkup results, the blood pressure figure returned to the normal range."
+            },
+            {
+                "word": "당국",
+                "meaning": "authorities",
+                "example_ko": "보건 [당국]은 독감 유행을 막기 위해 예방접종을 권장했다.",
+                "example_en": "Health authorities recommended vaccinations to prevent the spread of influenza."
+            },
+            {
+                "word": "중상",
+                "meaning": "serious injury",
+                "example_ko": "다행히 안전벨트를 맨 덕분에 큰 사고 속에서도 [중상]을 피할 수 있었다.",
+                "example_en": "Fortunately, thanks to wearing a seatbelt, serious injury could be avoided in the major accident."
+            },
+            {
+                "word": "몰려들다",
+                "meaning": "to flock, to crowd",
+                "example_ko": "유명한 맛집 앞에는 점심시간마다 손님들이 길게 [몰려든다].",
+                "example_en": "Every lunchtime, customers flock in long lines in front of famous restaurants."
+            }
+        ]
+    },
+    {
+        "category": "정치",
+        "date": "2026-11-28",
         "published_at": "2026-11-28 03:53",
         "title": "장관급 후보자 5명 인사청문 요청안 제출…본격 검증 착수",
         "body": "정부가 발표한 장관급 후보자 5명에 대한 인사청문요청안이 국회에 정식으로 제출되면서 본격적인 검증 국면이 시작되었다. 이번 청문회 대상은 홍익표 통일부 장관 후보자와 강유정 문화체육관광부 장관 후보자를 비롯해 외교부, 행정안전부, 국가정보원 수장 후보자들이다. 국회에 제출된 자료에 따르면 홍익표 후보자는 비상장 주식을 포함해 약 65억 원의 재산을 신고해 후보자 중 가장 많은 재산을 보유한 것으로 나타났다. 반면 강금실 국정원장 후보자는 부동산 없이 예금과 법무법인 지분 등 약 2억 6천만 원을 신고하여 재산이 가장 적었다. 여야는 12월 둘째 주에 인사청문회를 진행하기로 잠정 협의했으나, 후보자들의 전문성과 도덕성을 둘러싸고 벌써부터 치열한 공방을 벌이고 있다. 일부 후보자에 대해서는 박사 논문 자기표절 의혹과 과거 경력에 대한 증빙 서류 미제출 문제 등이 도마 위에 올랐다. 이에 대해 야당인 국민의힘은 관련 분야의 전문성이 결여된 '회전문 인사'이자 '보은 인사'라고 규정하며 지명 철회를 강력히 요구했다. 반면에 여당인 더불어민주당은 후보자들이 정부의 국정 철학을 깊이 이해하고 과제를 수행할 충분한 능력을 갖추었다며 적극 엄호에 나섰다. 여야 간의 입장 차이가 워낙 큰 만큼 향후 청문회 과정에서 상당한 진통이 이어질 것으로 예상된다.",

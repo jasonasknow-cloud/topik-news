@@ -1,6 +1,286 @@
 [
     {
         "category": "정치",
+        "date": "2026-11-29",
+        "published_at": "2026-11-29 02:30",
+        "title": "국민의힘 대전서 대규모 장외집회…당내 계파 갈등 노출",
+        "body": "국민의힘은 대전에서 대규모 장외집회를 열고 특검법 반대와 이재명 대통령 재판 재개를 촉구하며 대여 투쟁 공세의 수위를 높였다. 이번 집회에는 충청권 현역 의원을 비롯해 약 20명의 국회의원이 참석하여 여당에 맞서는 여론전을 이어갔다. 장동혁 대표는 연설을 통해 민주당의 대법원장 탄핵 추진을 비판하고 재판 재개를 요구하며 강경한 투쟁 의지를 표명했다. 하지만 당내 갈등의 여파로 집회 현장에서는 분열하는 모습이 고스란히 드러났다. 장 대표와 대립하는 지도부 인사가 연단에 오르자 집회 참석자들 사이에서 거센 야유와 항의가 터져 나왔다. 한편 여의도 중앙당사 주변에서는 한동훈 의원에 대한 징계를 두고 중진 의원들과 당권파 사이의 내홍이 깊어지고 있다. 중진 의원들은 징계에 대한 철저한 진상 조사를 촉구했으나, 당권파는 이에 대해 정치 공작이라며 맞서고 있다. 한동훈 의원이 법적 대응 가능성과 기자회견을 예고함에 따라 당내 갈등은 전면전으로 번질 가능성이 커지고 있다. 이에 대해 민주당은 국민의힘이 민생을 외면한 채 명분 없는 정치공세를 멈추지 않고 있다고 비판했다.",
+        "translation": "국민의힘은 대전에서 대규모 장외집회를 열고 특검법 반대와 이재명 대통령 재판 재개를 촉구하며 대여 투쟁 공세의 수위를 높였다.\nThe People Power Party held a large-scale outdoor rally in Daejeon and raised the intensity of its offensive against the ruling party, urging opposition to special prosecutor legislation and the resumption of President Lee Jae-myung's trials.\n\n이번 집회에는 충청권 현역 의원을 비롯해 약 20명의 국회의원이 참석하여 여당에 맞서는 여론전을 이어갔다.\nAround 20 lawmakers, including incumbent lawmakers from the Chungcheong region, attended the rally to continue their public opinion campaign against the ruling camp.\n\n장동혁 대표는 연설을 통해 민주당의 대법원장 탄핵 추진을 비판하고 재판 재개를 요구하며 강경한 투쟁 의지를 표명했다.\nThrough his speech, Representative Jang Dong-hyeok expressed his resolve for a hardline struggle, criticizing the Democratic Party's push to impeach the Chief Justice of the Supreme Court and demanding the resumption of the trial.\n\n하지만 당내 갈등의 여파로 집회 현장에서는 분열하는 모습이 고스란히 드러났다.\nHowever, in the aftermath of internal conflict within the party, scenes of division were laid bare at the rally venue.\n\n장 대표와 대립하는 지도부 인사가 연단에 오르자 집회 참석자들 사이에서 거센 야유와 항의가 터져 나왔다.\nWhen a leadership member who is in conflict with Representative Jang took the stage, loud boos and protests erupted from rally participants.\n\n한편 여의도 중앙당사 주변에서는 한동훈 의원에 대한 징계를 두고 중진 의원들과 당권파 사이의 내홍이 깊어지고 있다.\nMeanwhile, around the party headquarters in Yeouido, an internal feud between senior lawmakers and the party mainstream is deepening over the disciplinary action taken against Representative Han Dong-hoon.\n\n중진 의원들은 징계에 대한 철저한 진상 조사를 촉구했으나, 당권파는 이에 대해 정치 공작이라며 맞서고 있다.\nSenior lawmakers urged a thorough investigation into the truth behind the disciplinary action, but the party mainstream fought back, calling it a political maneuver.\n\n한동훈 의원이 법적 대응 가능성과 기자회견을 예고함에 따라 당내 갈등은 전면전으로 번질 가능성이 커지고 있다.\nAs Representative Han Dong-hoon signaled the possibility of legal action and announced a press conference, the possibility of party conflict escalating into an all-out battle is growing.\n\n이에 대해 민주당은 국민의힘이 민생을 외면한 채 명분 없는 정치공세를 멈추지 않고 있다고 비판했다.\nIn response, the Democratic Party criticized the People Power Party for ignoring the public livelihood and continuing its unjustified political offensive.",
+        "vocab": [
+            {
+                "word": "촉구하다",
+                "meaning": "to urge, to demand",
+                "example_ko": "시민단체는 정부에 신속한 대책 마련을 [촉구했다].",
+                "example_en": "The civic group urged the government to prepare prompt measures."
+            },
+            {
+                "word": "공세",
+                "meaning": "offensive, aggressive action",
+                "example_ko": "상대 팀은 후반전 시작과 함께 거센 [공세를] 펼쳤다.",
+                "example_en": "The opposing team launched a fierce offensive at the start of the second half."
+            },
+            {
+                "word": "여론전",
+                "meaning": "public opinion battle",
+                "example_ko": "두 후보는 선거를 앞두고 치열한 [여론전을] 벌이고 있다.",
+                "example_en": "The two candidates are waging a fierce battle for public opinion ahead of the election."
+            },
+            {
+                "word": "표명하다",
+                "meaning": "to state, to express",
+                "example_ko": "그는 회의에서 자신의 의견을 솔직하게 [표명했다].",
+                "example_en": "He candidly stated his opinion at the meeting."
+            },
+            {
+                "word": "여파",
+                "meaning": "aftermath, fallout",
+                "example_ko": "태풍의 [여파로] 인해 주말 동안 많은 비가 내렸다.",
+                "example_en": "Due to the aftermath of the typhoon, heavy rain fell over the weekend."
+            },
+            {
+                "word": "대립하다",
+                "meaning": "to conflict, to be opposed to",
+                "example_ko": "두 사람은 회의 주제를 두고 서로 강하게 [대립했다].",
+                "example_en": "The two strongly opposed each other over the meeting topic."
+            },
+            {
+                "word": "내홍",
+                "meaning": "internal feud, internal strife",
+                "example_ko": "회사는 경영권 분쟁으로 심각한 [내홍을] 겪고 있다.",
+                "example_en": "The company is experiencing severe internal strife due to a management dispute."
+            },
+            {
+                "word": "중진",
+                "meaning": "senior figure, veteran politician",
+                "example_ko": "그는 정계에서 오랜 경험을 쌓은 [중진] 정치인이다.",
+                "example_en": "He is a veteran politician who has accumulated long experience in the political world."
+            },
+            {
+                "word": "진상",
+                "meaning": "the truth, actual state of affairs",
+                "example_ko": "경찰은 이번 사건의 [진상을] 철저히 밝히겠다고 약속했다.",
+                "example_en": "The police promised to thoroughly uncover the truth of this case."
+            },
+            {
+                "word": "전면전",
+                "meaning": "all-out war, full-scale battle",
+                "example_ko": "두 나라 사이의 갈등이 결국 [전면전으로] 확대되었다.",
+                "example_en": "The conflict between the two countries eventually expanded into an all-out war."
+            }
+        ]
+    },
+    {
+        "category": "경제",
+        "date": "2026-11-29",
+        "published_at": "2026-11-29 02:30",
+        "title": "우크라이나, 러 정유시설 연속 타격…에너지 수급 불안 심화",
+        "body": "우크라이나가 러시아 정유시설을 겨냥한 군사적 공격을 확대하면서 러시아 내 에너지 수급 불안이 심화하고 있다. 우크라이나 국방부는 러시아 로스토프주와 사마라주를 비롯한 세 곳의 석유 시설을 공격했다고 발표했다. 특히 로스토프주의 주요 정유공장은 불과 닷새 만에 두 번째 타격을 받아 시설 운영에 큰 차질을 빚었다. 이번 달에만 러시아 전역에서 최소 열다섯 곳의 정유시설이 공격을 받으면서 생산 시설이 위축되었다. 이러한 집중 공격은 러시아의 유류 공급망을 흔들어 경제적 부담을 극대화하려는 전략으로 풀이된다. 이에 따라 러시아 정부는 연내 만료가 예정된 휘발유와 항공유의 수출 금지 조치를 연장하는 방안을 검토 중이다. 아울러 부족한 국내 소비량을 채우기 위해 연료 수입을 확대하는 대책도 함께 논의하고 있다. 정유시설 타격으로 인한 에너지 수급 불안은 러시아 국내 경제뿐만 아니라 주변 연료 시장에도 상당한 파장을 미칠 것으로 보인다.",
+        "translation": "우크라이나가 러시아 정유시설을 겨냥한 군사적 공격을 확대하면서 러시아 내 에너지 수급 불안이 심화하고 있다.\nAs Ukraine expands military attacks targeting Russian oil refineries, energy supply instability within Russia is intensifying.\n\n우크라이나 국방부는 러시아 로스토프주와 사마라주를 비롯한 세 곳의 석유 시설을 공격했다고 발표했다.\nThe Ukrainian Ministry of Defense announced that it attacked petroleum facilities in three locations, including Russia's Rostov and Samara regions.\n\n특히 로스토프주의 주요 정유공장은 불과 닷새 만에 두 번째 타격을 받아 시설 운영에 큰 차질을 빚었다.\nIn particular, a major refinery in the Rostov region suffered a second strike in just five days, causing major disruptions to facility operations.\n\n이번 달에만 러시아 전역에서 최소 열다섯 곳의 정유시설이 공격을 받으면서 생산 시설이 위축되었다.\nThis month alone, at least 15 refineries across Russia were attacked, causing production capacity to contract.\n\n이러한 집중 공격은 러시아의 유류 공급망을 흔들어 경제적 부담을 극대화하려는 전략으로 풀이된다.\nThese concentrated attacks are interpreted as a strategy to maximize economic pressure by disrupting Russia's fuel supply chain.\n\n이에 따라 러시아 정부는 연내 만료가 예정된 휘발유와 항공유의 수출 금지 조치를 연장하는 방안을 검토 중이다.\nAccordingly, the Russian government is considering extending the export ban on gasoline and aviation fuel, which was scheduled to expire within the year.\n\n아울러 부족한 국내 소비량을 채우기 위해 연료 수입을 확대하는 대책도 함께 논의하고 있다.\nIn addition, measures to expand fuel imports to meet the shortfall in domestic consumption are also being discussed.\n\n정유시설 타격으로 인한 에너지 수급 불안은 러시아 국내 경제뿐만 아니라 주변 연료 시장에도 상당한 파장을 미칠 것으로 보인다.\nThe energy supply instability resulting from refinery strikes is expected to have a considerable ripple effect not only on Russia's domestic economy but also on neighboring fuel markets.",
+        "vocab": [
+            {
+                "word": "수급",
+                "meaning": "supply and demand",
+                "example_ko": "가뭄 때문에 채소의 [수급이] 매우 불안정해졌다.",
+                "example_en": "Because of the drought, the supply and demand of vegetables became very unstable."
+            },
+            {
+                "word": "심화하다",
+                "meaning": "to deepen, to intensify",
+                "example_ko": "경기 침체로 인해 청년들의 취업난이 더욱 [심화하고] 있다.",
+                "example_en": "Due to the economic downturn, the youth employment crisis is deepening further."
+            },
+            {
+                "word": "차질",
+                "meaning": "setback, disruption",
+                "example_ko": "갑작스러운 폭설로 열차 운행에 큰 [차질이] 생겼다.",
+                "example_en": "Due to the sudden heavy snowfall, a major snag occurred in train operations."
+            },
+            {
+                "word": "빚다",
+                "meaning": "to cause, to bring about",
+                "example_ko": "서로 간의 오해가 더 큰 갈등을 [빚었다].",
+                "example_en": "Misunderstanding between each other brought about greater conflict."
+            },
+            {
+                "word": "위축되다",
+                "meaning": "to shrink, to contract",
+                "example_ko": "소비 심리가 크게 [위축되어] 시장 상인들이 어려움을 겪고 있다.",
+                "example_en": "Consumer sentiment has shrunk significantly, so market vendors are experiencing difficulties."
+            },
+            {
+                "word": "공급망",
+                "meaning": "supply chain",
+                "example_ko": "국제 물류 대란으로 부품의 [공급망이] 끊겼다.",
+                "example_en": "Due to the international logistics crisis, the parts supply chain was cut off."
+            },
+            {
+                "word": "극대화하다",
+                "meaning": "to maximize",
+                "example_ko": "이 회사는 최신 기술을 도입해 업무 효율을 [극대화했다].",
+                "example_en": "This company maximized work efficiency by introducing the latest technology."
+            },
+            {
+                "word": "만료",
+                "meaning": "expiration, termination",
+                "example_ko": "계약 기간의 [만료를] 앞두고 재계약 여부를 결정해야 한다.",
+                "example_en": "Ahead of the expiration of the contract period, we must decide whether to renew the contract."
+            },
+            {
+                "word": "충당하다",
+                "meaning": "to cover, to make up for",
+                "example_ko": "그는 저축한 돈으로 등록금을 [충당했다].",
+                "example_en": "He covered his tuition with the money he had saved."
+            },
+            {
+                "word": "파장",
+                "meaning": "impact, ripple effect",
+                "example_ko": "정부의 새로운 부동산 정책은 시장에 큰 [파장을] 불러일으켰다.",
+                "example_en": "The government's new real estate policy caused a huge ripple effect in the market."
+            }
+        ]
+    },
+    {
+        "category": "사회",
+        "date": "2026-11-29",
+        "published_at": "2026-11-29 02:30",
+        "title": "페루 군용 헬기 코카 재배지 인근 추락…군인 8명 사망",
+        "body": "페루의 주요 코카 재배 지역에서 군 병력을 태운 군용 헬기가 추락하여 군인 8명이 숨지는 사고가 일어났다. 사고가 난 헬기는 공군 소속으로, 남동부 아푸리막강 인근 아야쿠초주 카나이레 지역에서 추락한 채 발견되었다. 페루 국방부는 공식 성명을 통해 수색 및 구조 작업을 통해 추락한 기체와 탑승자 9명을 발견했다고 발표했다. 이 가운데 군인 8명이 목숨을 잃었으며, 유일하게 생존한 조종사 1명은 중상을 입고 수도 리마의 병원으로 긴급 후송되었다. 사고 발생 지역은 페루 최대의 코카 재배지로, 마약 밀매 조직과 반군 잔당이 여전히 활동하는 위험 지역이다. 험난한 지형과 열악한 환경 속에서 군 당국은 현장을 수습하며 구체적인 사고 원인을 밝히는 데 주력하고 있다. 당국은 기체 결함이나 악천후를 비롯해 다양한 가능성을 열어 두고 정확한 추락 경위를 정밀 조사하고 있다. 이번 사고는 치안 유지 작전 중이던 군 병력에 큰 손실을 남기며 현지 사회에 큰 안타까움을 주고 있다.",
+        "translation": "페루의 주요 코카 재배 지역에서 군 병력을 태운 군용 헬기가 추락하여 군인 8명이 숨지는 사고가 일어났다.\nAn accident occurred in Peru's major coca-growing region where a military helicopter carrying troops crashed, killing eight soldiers.\n\n사고가 난 헬기는 공군 소속으로, 남동부 아푸리막강 인근 아야쿠초주 카나이레 지역에서 추락한 채 발견되었다.\nThe crashed helicopter belonged to the air force and was found crashed in the Canayre area of Ayacucho region near the southeastern Apurimac River.\n\n페루 국방부는 공식 성명을 통해 수색 및 구조 작업을 통해 추락한 기체와 탑승자 9명을 발견했다고 발표했다.\nThe Peruvian Ministry of Defense announced via an official statement that search and rescue operations located the crashed aircraft and all nine personnel on board.\n\n이 가운데 군인 8명이 목숨을 잃었으며, 유일하게 생존한 조종사 1명은 중상을 입고 수도 리마의 병원으로 긴급 후송되었다.\nAmong them, eight soldiers lost their lives, while the sole surviving pilot suffered serious injuries and was urgently evacuated to a hospital in the capital, Lima.\n\n사고 발생 지역은 페루 최대의 코카 재배지로, 마약 밀매 조직과 반군 잔당이 여전히 활동하는 위험 지역이다.\nThe crash site is Peru's largest coca-growing valley, a dangerous area where drug trafficking rings and rebel remnants are still active.\n\n험난한 지형과 열악한 환경 속에서 군 당국은 현장을 수습하며 구체적인 사고 원인을 밝히는 데 주력하고 있다.\nAmid rugged terrain and harsh conditions, military authorities are focusing on settling the scene and uncovering the specific cause of the accident.\n\n당국은 기체 결함이나 악천후를 비롯해 다양한 가능성을 열어 두고 정확한 추락 경위를 정밀 조사하고 있다.\nAuthorities are closely investigating the exact circumstances of the crash, keeping open various possibilities including mechanical failure and severe weather.\n\n이번 사고는 치안 유지 작전 중이던 군 병력에 큰 손실을 남기며 현지 사회에 큰 안타까움을 주고 있다.\nThis accident has inflicted a heavy loss on military troops engaged in security operations, causing great sorrow in local society.",
+        "vocab": [
+            {
+                "word": "추락하다",
+                "meaning": "to crash, to plunge",
+                "example_ko": "어젯밤 산악 지대에 비행기가 [추락하는] 사고가 발생했다.",
+                "example_en": "An accident in which an airplane crashed into a mountainous area occurred last night."
+            },
+            {
+                "word": "소속",
+                "meaning": "affiliation, belonging to",
+                "example_ko": "그는 자신이 어느 부서 [소속인지] 명확하게 밝혔다.",
+                "example_en": "He clearly stated which department he belonged to."
+            },
+            {
+                "word": "수색",
+                "meaning": "search, hunt",
+                "example_ko": "구조 대원들은 실종자를 찾기 위해 숲속을 집중적으로 [수색했다].",
+                "example_en": "Rescue workers intensively searched the forest to find the missing person."
+            },
+            {
+                "word": "생존하다",
+                "meaning": "to survive",
+                "example_ko": "배가 침몰했지만 다행히 모든 승객이 [생존했다].",
+                "example_en": "The ship sank, but fortunately all passengers survived."
+            },
+            {
+                "word": "중상",
+                "meaning": "serious injury",
+                "example_ko": "교통사고로 운전자가 [중상을] 입고 병원으로 옮겨졌다.",
+                "example_en": "The driver suffered a serious injury in the traffic accident and was taken to the hospital."
+            },
+            {
+                "word": "후송되다",
+                "meaning": "to be evacuated, to be transferred to hospital",
+                "example_ko": "다친 군인들은 헬리콥터를 통해 안전한 곳으로 [후송되었다].",
+                "example_en": "The injured soldiers were evacuated to a safe place by helicopter."
+            },
+            {
+                "word": "밀매",
+                "meaning": "illicit trafficking, smuggling",
+                "example_ko": "정부는 국경 지역에서 벌어지는 야생동물 [밀매를] 엄격히 단속하고 있다.",
+                "example_en": "The government is strictly cracking down on wildlife smuggling taking place in border areas."
+            },
+            {
+                "word": "잔당",
+                "meaning": "remnants (of a defeated faction/group)",
+                "example_ko": "군대는 마지막 남은 적의 [잔당을] 모두 소탕했다.",
+                "example_en": "The army wiped out all the remaining remnants of the enemy."
+            },
+            {
+                "word": "수습하다",
+                "meaning": "to settle, to manage, to clear up",
+                "example_ko": "관리자들은 서둘러 사고 현장을 [수습하기] 위해 노력했다.",
+                "example_en": "Managers worked hard to hastily settle the accident site."
+            },
+            {
+                "word": "경위",
+                "meaning": "circumstances, details (of an incident)",
+                "example_ko": "경찰은 목격자들을 상대로 사건이 발생한 [경위를] 조사하고 있다.",
+                "example_en": "The police are investigating the circumstances under which the incident occurred with witnesses."
+            }
+        ]
+    },
+    {
+        "category": "세계",
+        "date": "2026-11-29",
+        "published_at": "2026-11-29 02:30",
+        "title": "대만 지방선거 야당 국민당 신승…집권 민진당 약진으로 선전",
+        "body": "대만 전역에서 치러진 지방선거에서 야당인 중국국민당이 집권당인 민주진보당에 가까스로 승리를 거두었다. 이번 선거 대상인 스물두 개 시·현 가운데 국민당은 열한 곳에서 이겼고 민진당은 열 곳을 차지했다. 특히 많은 관심을 모았던 수도 타이베이시장 선거에서는 현직인 국민당 장완안 후보가 과반 득표로 재선에 성공했다. 최대 인구를 보유한 신베이시장 선거에서도 국민당 후보가 치열한 접전 끝에 민진당 후보를 제치고 승리했다. 그러나 국민당이 압승을 거두었던 지난 선거와 비교하면 집권 민진당이 상당한 약진을 이루었다는 평가가 나온다. 친미와 독립 노선을 표방하는 현 정권에 대한 중간평가 성격의 선거에서 민진당이 의석을 대폭 회복했기 때문이다. 이로써 국민당은 수도권을 지켜냈지만 민진당 역시 지방 권력 기반을 크게 넓히는 계기를 마련했다. 향후 양당 간의 팽팽한 정치적 대립은 차기 대선을 앞두고 더욱 치열하게 전개될 것으로 예상된다.",
+        "translation": "대만 전역에서 치러진 지방선거에서 야당인 중국국민당이 집권당인 민주진보당에 가까스로 승리를 거두었다.\nIn the local elections held across Taiwan, the opposition Kuomintang narrowly clinched a victory over the ruling Democratic Progressive Party.\n\n이번 선거 대상인 스물두 개 시·현 가운데 국민당은 열한 곳에서 이겼고 민진당은 열 곳을 차지했다.\nAmong the 22 cities and counties contested in this election, the Kuomintang won in 11 places, while the DPP took 10.\n\n특히 많은 관심을 모았던 수도 타이베이시장 선거에서는 현직인 국민당 장완안 후보가 과반 득표로 재선에 성공했다.\nIn the closely watched Taipei mayoral election in the capital, incumbent KMT candidate Chiang Wan-an succeeded in winning re-election with a majority of votes.\n\n최대 인구를 보유한 신베이시장 선거에서도 국민당 후보가 치열한 접전 끝에 민진당 후보를 제치고 승리했다.\nIn the New Taipei mayoral election, home to the largest population, the KMT candidate also edged out the DPP candidate after a fierce battle to claim victory.\n\n그러나 국민당이 압승을 거두었던 지난 선거와 비교하면 집권 민진당이 상당한 약진을 이루었다는 평가가 나온다.\nHowever, compared to the previous election in which the KMT won a landslide, assessments suggest that the ruling DPP made substantial strides.\n\n친미와 독립 노선을 표방하는 현 정권에 대한 중간평가 성격의 선거에서 민진당이 의석을 대폭 회복했기 때문이다.\nThis is because the DPP significantly recovered seats in an election that served as a midterm evaluation of the current administration, which advocates pro-American and pro-independence stances.\n\n이로써 국민당은 수도권을 지켜냈지만 민진당 역시 지방 권력 기반을 크게 넓히는 계기를 마련했다.\nAs a result, while the KMT defended the metropolitan area, the DPP also established an opportunity to greatly expand its local power base.\n\n향후 양당 간의 팽팽한 정치적 대립은 차기 대선을 앞두고 더욱 치열하게 전개될 것으로 예상된다.\nGoing forward, the tight political rivalry between the two parties is expected to unfold even more fiercely ahead of the next presidential election.",
+        "vocab": [
+            {
+                "word": "치러지다",
+                "meaning": "to be held, to take place",
+                "example_ko": "내일은 전국의 모든 학교에서 시험이 [치러진다].",
+                "example_en": "Tomorrow, examinations will be held in all schools nationwide."
+            },
+            {
+                "word": "가까스로",
+                "meaning": "narrowly, barely",
+                "example_ko": "우리는 막차 출발 직전에 [가까스로] 역에 도착했다.",
+                "example_en": "We narrowly arrived at the station just before the last train departed."
+            },
+            {
+                "word": "과반",
+                "meaning": "majority, more than half",
+                "example_ko": "이번 투표에서 찬성표가 [과반을] 넘겨 안건이 통과되었다.",
+                "example_en": "In this vote, the approval votes exceeded a majority, so the bill was passed."
+            },
+            {
+                "word": "접전",
+                "meaning": "close match, tight contest",
+                "example_ko": "두 선수는 결승전에서 마지막 순간까지 치열한 [접전을] 펼쳤다.",
+                "example_en": "The two athletes engaged in a tight battle until the last moment in the finals."
+            },
+            {
+                "word": "제치다",
+                "meaning": "to beat, to surpass",
+                "example_ko": "우리 팀은 경쟁 상대를 [제치고] 대회에서 우승을 차지했다.",
+                "example_en": "Our team beat the competitors and won the championship in the tournament."
+            },
+            {
+                "word": "압승",
+                "meaning": "sweeping victory, landslide win",
+                "example_ko": "그 정당은 유권자들의 압도적인 지지를 받아 선거에서 [압승을] 거두었다.",
+                "example_en": "That political party won an overwhelming victory in the election with the overwhelming support of voters."
+            },
+            {
+                "word": "약진",
+                "meaning": "rapid progress, breakthrough",
+                "example_ko": "신생 기업의 빠른 [약진이] 시장의 판도를 바꾸고 있다.",
+                "example_en": "The rapid progress of the startup is changing the landscape of the market."
+            },
+            {
+                "word": "표방하다",
+                "meaning": "to advocate, to profess",
+                "example_ko": "그 단체는 평화와 인권 보호를 공식적으로 [표방한다].",
+                "example_en": "The organization officially advocates peace and the protection of human rights."
+            },
+            {
+                "word": "기반",
+                "meaning": "foundation, base",
+                "example_ko": "새로운 사업을 시작하기 위해 튼튼한 경제적 [기반을] 마련해야 한다.",
+                "example_en": "To start a new business, one must prepare a solid economic foundation."
+            },
+            {
+                "word": "대립",
+                "meaning": "conflict, confrontation",
+                "example_ko": "노사 간의 의견 [대립이] 심해져 협상이 결렬되었다.",
+                "example_en": "The confrontation of opinions between labor and management grew severe, so negotiations broke down."
+            }
+        ]
+    },
+    {
+        "category": "정치",
         "date": "2026-11-28",
         "published_at": "2026-11-28 12:14",
         "title": "북한, 연말 노동당 전원회의 소집 예고…김정은 방중 가능성도 제기",
